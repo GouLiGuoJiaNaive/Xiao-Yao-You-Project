@@ -1,0 +1,9 @@
+<TRIGGER_FILE version="26" id="{e4d3b1f0-30ee-4042-af66-36d19fa9b3fe}" hidden="false">
+ <STRING name="Timeline" hidden="false" id="{fd93aa0c-6e3a-47ea-89a0-84d54c72a1dd}" order="0">
+  <KEYFRAME data="king_mulu_01" time="1.000999927520752"/>
+  <KEYFRAME data="king_mulu_02" time="20.03333473205566"/>
+  <KEYFRAME data="king_mulu_03" time="32"/>
+  <KEYFRAME data="king_mulu_04" time="46.50000381469727"/>
+  <KEYFRAME data="king_mulu_05" time="57.50000381469727"/>
+ </STRING>
+</TRIGGER_FILE>

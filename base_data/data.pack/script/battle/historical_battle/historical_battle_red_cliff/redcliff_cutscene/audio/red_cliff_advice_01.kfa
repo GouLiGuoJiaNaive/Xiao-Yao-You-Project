@@ -1,0 +1,21 @@
+<AUDIO_EVENT_FILE audio_event_name="Play_3k_main_historical_battle_red_cliff_liu_bei_01_1" id="{251b97c9-4c46-443e-913c-5730a0279ffc}" hidden="false" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{f81be9a7-dec0-4c88-a9e8-193bea8f3ca5}" hidden="false" unique_id="{f81be9a7-dec0-4c88-a9e8-193bea8f3ca5}" name="position">
+  <DOUBLE order="0" id="{ddf1ef12-6c0c-4d99-bbff-3fdb424b5710}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X">
+   <KEYFRAME time="0" data="38.344871520996094"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{9c19d71f-dfcd-4b0d-9767-6b66bf64fbeb}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="0" data="2.7683942317962646"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{c2a25268-09da-454a-9dba-100c2e3ca3d5}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z">
+   <KEYFRAME time="0" data="564.440185546875"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL order="2" id="{e762e3ef-cd4f-4ea2-8c89-a18c96d0d9bf}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="2" data="0"/>
+  <KEYFRAME time="8.033333778381348" data="1"/>
+  <KEYFRAME time="18.10000038146973" data="0"/>
+ </BOOL>
+ <DOUBLE order="3" id="{957cf7c0-fea6-4a91-894c-e2b12c064016}" user_friendy_name="Volume" hidden="false" single_keyframe_only="1" animated="0" default="100" name="volume">
+  <KEYFRAME time="0" data="100"/>
+ </DOUBLE>
+</AUDIO_EVENT_FILE>

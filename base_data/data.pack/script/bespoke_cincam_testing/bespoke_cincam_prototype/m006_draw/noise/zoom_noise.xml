@@ -1,0 +1,20 @@
+<NOISE_FILE name="zoom_noise.xml" version="23">
+ <DOUBLE animated="0" default="50" user_friendy_name="Amplitude" name="amplitude" hidden="false" order="0" single_keyframe_only="1">
+  <KEYFRAME data="0.01999999955296516" time="0"/>
+ </DOUBLE>
+ <DOUBLE animated="0" default="1" user_friendy_name="Frequency" name="frequency" hidden="false" order="1" single_keyframe_only="1">
+  <KEYFRAME data="0.5" time="0"/>
+ </DOUBLE>
+ <INT animated="0" default="3" user_friendy_name="Number of Octaves" name="number_of_octaves" hidden="false" order="2" single_keyframe_only="1">
+  <KEYFRAME data="4" time="0"/>
+ </INT>
+ <DOUBLE animated="0" default="10" user_friendy_name="Offset" name="offset" hidden="false" order="3" single_keyframe_only="1">
+  <KEYFRAME data="0.2000000029802322" time="0"/>
+ </DOUBLE>
+ <DOUBLE animated="0" default="0.5" user_friendy_name="Persistence" name="persistence" hidden="false" order="4" single_keyframe_only="1">
+  <KEYFRAME data="1" time="0"/>
+ </DOUBLE>
+ <DOUBLE animated="0" default="2" user_friendy_name="Lacunarity" name="lacunarity" hidden="false" order="5" single_keyframe_only="1">
+  <KEYFRAME data="2" time="0"/>
+ </DOUBLE>
+</NOISE_FILE>

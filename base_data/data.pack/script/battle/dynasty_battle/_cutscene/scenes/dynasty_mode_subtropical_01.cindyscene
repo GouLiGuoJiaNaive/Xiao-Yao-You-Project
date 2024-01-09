@@ -1,0 +1,29 @@
+<SCENE_FILE version="26" end_record_time="15.00000078231096" hidden="false" start_record_time="12.00000005215406" id="{2be6cc54-0a5f-4e04-abf3-0ce21465df26}" perspective_camera="40.9664,638.187,102.303:-41.8334,514.194,-93.4574">
+ <ENVIRONMENT hidden="false" order="0" name="Environment" id="{f587cb69-4be7-4aae-948c-a6a5f4a66620}" data=""/>
+ <VECTOR hidden="false" unique_id="{7af2985d-3c03-489d-a944-0343407e3d35}" surface_mode="Freeform" name="position" id="{7af2985d-3c03-489d-a944-0343407e3d35}" link_id="0" is_linked="0">
+  <DOUBLE hidden="false" default="0" order="0" name="X" animated="1" id="{3d002f1e-e614-478c-9cac-750dff18d73f}" single_keyframe_only="1">
+   <KEYFRAME time="5.000000476837158" data="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" order="1" name="Y" animated="1" id="{94c92aa8-ce58-49ef-9517-a49f91f2a957}" single_keyframe_only="1">
+   <KEYFRAME time="5.000000476837158" data="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" order="2" name="Z" animated="1" id="{d3340d4f-edd1-4c05-8606-4f8f9b0a5af5}" single_keyframe_only="1">
+   <KEYFRAME time="5.000000476837158" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{5409122c-3ae1-409d-86ce-313dd1186a97}">
+  <RADIAN hidden="false" default="0" order="0" name="X" animated="1" id="{c1036916-7701-4720-afac-de6a91106df8}" single_keyframe_only="1">
+   <KEYFRAME time="5.000000476837158" data="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" default="0" order="1" name="Y" animated="1" id="{57f8b979-aa3f-4396-b922-f760b8bba2f7}" single_keyframe_only="1">
+   <KEYFRAME time="5.000000476837158" data="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" default="0" order="2" name="Z" animated="1" id="{0343a794-642e-487c-a77f-6b52eb087e52}" single_keyframe_only="1">
+   <KEYFRAME time="5.000000476837158" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE hidden="false" name="Links" id="{13ee8ae6-3653-4f3d-8a28-41a6b89d2ac4}"/>
+ <NODE hidden="false" name="Warscape Properties" id="{9bb27d30-2040-449f-a703-ce401944a82d}">
+  <WARSCAPE_PROPERTIES hidden="false" warscape_properties_file="../cameras/pan_camera_dynasty_subtropical_01.xml" name="pan_camera_dynasty_subtropical_01.xml" id="{ede153f1-b54b-4313-b256-854e81088a23}"/>
+ </NODE>
+</SCENE_FILE>

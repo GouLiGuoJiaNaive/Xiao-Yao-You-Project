@@ -1,0 +1,18 @@
+<NOISE_FILE version="22" name="fall_noise.xml">
+ <DOUBLE single_keyframe_only="1" hidden="false" user_friendy_name="Amplitude" order="0" animated="0" default="50" name="amplitude">
+  <KEYFRAME time="0" data="0.03999999910593033"/>
+ </DOUBLE>
+ <DOUBLE single_keyframe_only="1" hidden="false" user_friendy_name="Frequency" order="1" animated="0" default="1" name="frequency">
+  <KEYFRAME time="0" data="3"/>
+ </DOUBLE>
+ <INT single_keyframe_only="1" hidden="false" user_friendy_name="Number of Octaves" order="2" animated="0" default="3" name="number_of_octaves">
+  <KEYFRAME time="0" data="4"/>
+ </INT>
+ <DOUBLE single_keyframe_only="1" hidden="false" user_friendy_name="Offset" order="3" animated="0" default="10" name="offset">
+  <KEYFRAME time="0" data="0.2000000029802322"/>
+ </DOUBLE>
+ <DOUBLE single_keyframe_only="1" hidden="false" user_friendy_name="Persistence" order="4" animated="0" default="0.5" name="persistence">
+  <KEYFRAME time="0" data="1"/>
+ </DOUBLE>
+ <DOUBLE single_keyframe_only="1" hidden="false" user_friendy_name="Lacunarity" order="5" animated="0" default="2" name="lacunarity"/>
+</NOISE_FILE>

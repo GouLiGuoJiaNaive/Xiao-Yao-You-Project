@@ -1,0 +1,24 @@
+<SCENE_FILE hidden="false" start_record_time="0" perspective_camera="266.018,6.79096,395.728:278.432,-6.36047,363.956" id="{8947a2a4-d8c2-416f-b779-5af1736e5543}" version="26" end_record_time="61.41666845510934">
+ <ENVIRONMENT hidden="false" id="{8ee52d96-278c-4919-bf12-eaedd2316383}" data="" name="Environment" order="0"/>
+ <VECTOR hidden="false" id="{ad88a4a2-4e1e-4911-86fe-bf67626a279c}" link_id="0" is_linked="0" surface_mode="Freeform" name="position" unique_id="{ad88a4a2-4e1e-4911-86fe-bf67626a279c}">
+  <DOUBLE hidden="false" animated="1" id="{131860c9-a0a0-49b8-9f64-9005ee8daa0c}" single_keyframe_only="1" name="X" default="0" order="0"/>
+  <DOUBLE hidden="false" animated="1" id="{f6ca1bd8-388a-46f3-b15e-e730ac93726d}" single_keyframe_only="1" name="Y" default="0" order="1"/>
+  <DOUBLE hidden="false" animated="1" id="{9acf2549-00ee-4bd4-9de2-b63086a9edde}" single_keyframe_only="1" name="Z" default="0" order="2"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{37db8b9c-b15d-46bf-b9fb-6b2e818eb044}" name="rotation">
+  <RADIAN hidden="false" animated="1" id="{df2dd1f1-6d69-414d-9ea6-6075f80fe117}" single_keyframe_only="1" name="X" default="0" order="0"/>
+  <RADIAN hidden="false" animated="1" id="{0428b8e4-077b-4900-8874-d740adfe4115}" single_keyframe_only="1" name="Y" default="0" order="1"/>
+  <RADIAN hidden="false" animated="1" id="{9bd8ed08-81a3-4403-94e3-af9dc02e2c61}" single_keyframe_only="1" name="Z" default="0" order="2"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{4fc2a66d-0956-446d-bd2c-8d27e753abb2}" name="Links"/>
+ <NODE hidden="false" id="{26a6c21a-3b4f-4dd7-94ec-32ccb68d7fe7}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES hidden="false" id="{9aaaae18-d5da-4133-a013-c72d0ee43b21}" warscape_properties_file="../cameras/pan_camera_zhang_bao.xml" name="pan_camera_zhang_bao.xml"/>
+ </NODE>
+ <NODE hidden="false" id="{74e49638-2872-479f-a52a-6360566a6c7f}" name="Composite Scenes">
+  <COMPOSITE_SCENE hidden="false" composite_scene_file="../csc_ref/zhang_brothers_trio.kfcs" id="{9dd1b5bc-b9b4-4fe5-ae7d-2f5904c86ec1}" name="zhang_brothers_trio.kfcs"/>
+  <COMPOSITE_SCENE hidden="false" composite_scene_file="../csc_ref/general_eunuch_argue.kfcs" id="{270e69af-77dd-4477-9ce3-5b3ee45e6209}" name="general_eunuch_argue.kfcs"/>
+ </NODE>
+ <NODE hidden="false" id="{792f876e-4b43-44ec-8809-0076127cec03}" name="Triggers">
+  <TRIGGER hidden="false" id="{c3f50502-0ba6-4b12-bebf-6dc0917d3159}" trigger_file="../triggers/zhang_bao.ktr" name="zhang_bao.ktr"/>
+ </NODE>
+</SCENE_FILE>

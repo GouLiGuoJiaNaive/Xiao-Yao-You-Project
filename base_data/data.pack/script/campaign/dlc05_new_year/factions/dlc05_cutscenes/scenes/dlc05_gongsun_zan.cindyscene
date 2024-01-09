@@ -1,0 +1,35 @@
+<SCENE_FILE start_record_time="0" id="{732e0757-1b09-4671-9bf6-fcf69fbc3701}" hidden="false" end_record_time="80.00000417232513" version="26" perspective_camera="374.989,9.04772,418.997:371.507,6.47752,411.496">
+ <ENVIRONMENT data="" id="{83cf4b86-9ec4-45e5-b11f-0d4c2929942e}" order="0" hidden="false" name="Environment"/>
+ <VECTOR id="{6bd05c32-3b28-4118-91c6-e19811d509b4}" surface_mode="Freeform" unique_id="{6bd05c32-3b28-4118-91c6-e19811d509b4}" is_linked="0" link_id="0" hidden="false" name="position">
+  <DOUBLE id="{ebd87d68-9db3-40c3-b4be-0ffb599923a9}" order="0" default="0" animated="1" hidden="false" name="X" single_keyframe_only="1">
+   <KEYFRAME data="-0.8500000238418579" time="2.133333444595337"/>
+  </DOUBLE>
+  <DOUBLE id="{838d524c-ddab-440b-b011-77be81d16b3a}" order="1" default="0" animated="1" hidden="false" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="-0.8500000238418579" time="2.133333444595337"/>
+  </DOUBLE>
+  <DOUBLE id="{096961e1-356b-470d-beb3-3e4f449b8b33}" order="2" default="0" animated="1" hidden="false" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="-0.8500000238418579" time="2.133333444595337"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{0f5d233c-57cf-4967-83df-6432b1ad09f6}" hidden="false" name="rotation">
+  <RADIAN id="{a2fe771e-7e51-40c9-a569-ccb9949a2988}" order="0" default="0" animated="1" hidden="false" name="X" single_keyframe_only="1">
+   <KEYFRAME data="-0.014835297130048275" time="2.133333444595337"/>
+  </RADIAN>
+  <RADIAN id="{06a100bf-00b8-4d27-a765-7b92d79a1da4}" order="1" default="0" animated="1" hidden="false" name="Y" single_keyframe_only="1">
+   <KEYFRAME data="-0.014835297130048275" time="2.133333444595337"/>
+  </RADIAN>
+  <RADIAN id="{53c283a2-478f-47ce-9378-ef56683655ec}" order="2" default="0" animated="1" hidden="false" name="Z" single_keyframe_only="1">
+   <KEYFRAME data="-0.014835297130048275" time="2.133333444595337"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{beb889f1-87af-4377-aea8-fd878f33637b}" hidden="false" name="Links"/>
+ <NODE id="{739b725a-bf66-4332-a479-7c964522c0dc}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{240e49a3-b708-49b2-bacf-59847b02e428}" hidden="false" name="cam_gongsun_zan.xml" warscape_properties_file="../cameras/cam_gongsun_zan.xml"/>
+ </NODE>
+ <NODE id="{e23c26bd-088b-4b2f-8b36-3f330156862b}" hidden="false" name="Triggers">
+  <TRIGGER id="{9ad15c1f-1c4c-421e-a2e1-bbbba27209d1}" hidden="false" name="gongsun_san.ktr" trigger_file="../triggers/gongsun_san.ktr"/>
+ </NODE>
+ <NODE id="{429143cc-93a0-4c81-86fe-a17c08d5fe76}" hidden="false" name="Particle Effects">
+  <EFFECT id="{ecd763a9-98db-477a-a654-d971a5c30538}" hidden="false" name="gongsun_zan_offset_fire01.kfe" effect_file="../particles/gongsun_zan_offset_fire01.kfe"/>
+ </NODE>
+</SCENE_FILE>

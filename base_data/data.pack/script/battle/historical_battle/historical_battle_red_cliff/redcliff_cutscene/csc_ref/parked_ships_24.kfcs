@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE id="{b14828c0-bcf6-461a-a308-9082cafcfc19}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/static_ships_group.csc" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{4a4931a6-3961-4841-a14f-227091678cfb}" hidden="false" unique_id="{4a4931a6-3961-4841-a14f-227091678cfb}" name="position">
+  <DOUBLE order="0" id="{fa7e4134-f154-459b-b2f5-c99d904119b6}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X">
+   <KEYFRAME time="0" data="183.4926300048828"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{e8d3f519-6a29-4219-9f8a-d33715b9f7f2}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="0" data="11.268667221069336"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{fa687bb9-1cd3-498a-943a-e6b517446e59}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z">
+   <KEYFRAME time="0" data="-169.5370635986328"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{0511e8cf-e186-45c2-ac49-baf5497f298d}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{8c85d79c-75f9-4266-a005-00594832c9bc}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X"/>
+  <RADIAN order="1" id="{921acba3-a00d-4d55-908e-3cb54d8fd124}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="0" data="4.596373558044434"/>
+  </RADIAN>
+  <RADIAN order="2" id="{cd56d0d2-a9ce-4b7a-a956-7302c8baf4ff}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{ad317aaf-b2e5-4f9e-aa3b-5fbc248aefb1}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale"/>
+ <BOOL order="3" id="{2a0c595f-f1fb-4dee-b7a4-c5fbd1e5d9e6}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="13.43333339691162" data="0"/>
+  <KEYFRAME time="13.43433284759521" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" id="{4519720e-7b1f-4943-bfcb-090858f54e78}" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" animated="1" default="1" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

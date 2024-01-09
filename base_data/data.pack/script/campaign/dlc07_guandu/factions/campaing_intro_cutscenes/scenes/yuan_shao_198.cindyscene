@@ -1,0 +1,32 @@
+<SCENE_FILE perspective_camera="335.574,3.20159,393.842:333.777,1.22785,402.055" start_record_time="0" id="{bee7e2c1-78c2-4484-994f-bfefd13091b1}" hidden="false" end_record_time="89.00000464171171" version="26">
+ <ENVIRONMENT data="" name="Environment" id="{3d01b1ae-a86b-4419-9cf0-e2d975eeb925}" hidden="false" order="0"/>
+ <VECTOR surface_mode="Freeform" name="position" link_id="0" id="{96899afc-a7d5-423d-9b37-f455742eaefa}" hidden="false" unique_id="{96899afc-a7d5-423d-9b37-f455742eaefa}" is_linked="0">
+  <DOUBLE default="0" name="X" id="{966c01f4-e438-4b8e-beb6-5ef2da1ae8d6}" hidden="false" animated="1" single_keyframe_only="1" order="0">
+   <KEYFRAME data="0" handle1_x="1.5" handle1_y="0" handle2_y="0" handle1_type="SMOOTH" handle2_type="SMOOTH" time="1.50000011920929" handle2_x="1.5"/>
+  </DOUBLE>
+  <DOUBLE default="0" name="Y" id="{3e8e3052-4afc-45a6-ad64-7d59e63cc710}" hidden="false" animated="1" single_keyframe_only="1" order="1">
+   <KEYFRAME data="0" handle1_x="1.5" handle1_y="0" handle2_y="0" handle1_type="SMOOTH" handle2_type="SMOOTH" time="1.50000011920929" handle2_x="1.5"/>
+  </DOUBLE>
+  <DOUBLE default="0" name="Z" id="{199d0a95-d209-4c41-ab95-726dc6c8244f}" hidden="false" animated="1" single_keyframe_only="1" order="2">
+   <KEYFRAME data="0" handle1_x="1.5" handle1_y="0" handle2_y="0" handle1_type="SMOOTH" handle2_type="SMOOTH" time="1.50000011920929" handle2_x="1.5"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{94489ec9-21fb-4f3c-9b2c-5753a9808478}" hidden="false">
+  <RADIAN default="0" name="X" id="{7fa77a0d-003a-4097-bc4c-b277e73fe39d}" hidden="false" animated="1" single_keyframe_only="1" order="0">
+   <KEYFRAME data="0" handle1_x="1.5" handle1_y="0" handle2_y="0" handle1_type="SMOOTH" handle2_type="SMOOTH" time="1.50000011920929" handle2_x="1.5"/>
+  </RADIAN>
+  <RADIAN default="0" name="Y" id="{509508ac-fada-4267-a398-126873dc4f02}" hidden="false" animated="1" single_keyframe_only="1" order="1">
+   <KEYFRAME data="0" handle1_x="1.5" handle1_y="0" handle2_y="0" handle1_type="SMOOTH" handle2_type="SMOOTH" time="1.50000011920929" handle2_x="1.5"/>
+  </RADIAN>
+  <RADIAN default="0" name="Z" id="{d2988029-c45d-4c43-a396-1bd1b7dcf2c8}" hidden="false" animated="1" single_keyframe_only="1" order="2">
+   <KEYFRAME data="0" handle1_x="1.5" handle1_y="0" handle2_y="0" handle1_type="SMOOTH" handle2_type="SMOOTH" time="1.50000011920929" handle2_x="1.5"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{62ab98bc-74fc-4685-86cc-c22f24ab0346}" hidden="false"/>
+ <NODE name="Warscape Properties" id="{2dda2b87-f855-4fed-a7e3-bc6b7ac0de87}" hidden="false">
+  <WARSCAPE_PROPERTIES name="yuan_shao_cam.xml" id="{39e451d7-5c4f-487a-abc7-6f515fd5dd89}" hidden="false" warscape_properties_file="../cameras/yuan_shao_cam.xml"/>
+ </NODE>
+ <NODE name="Triggers" id="{99cb4892-27d1-4b4c-874e-9ed6691b88ed}" hidden="false">
+  <TRIGGER name="yuan_shao_200.ktr" trigger_file="../triggers/yuan_shao_200.ktr" id="{e1d48b76-d989-4986-b395-2eb3946a0b08}" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

@@ -1,0 +1,26 @@
+<SCENE_FILE start_record_time="13.10000068321824" hidden="false" end_record_time="55.16666954383254" version="25" perspective_camera="-567.17,299.738,-234.749:-197.084,137.142,-78.0656" id="{04edba7e-70a0-4701-a733-d5a6a218c0b2}">
+ <ENVIRONMENT hidden="false" order="0" name="Environment" id="{ef7b4acc-8c0c-426a-b6a1-a40b5ac19ae2}" data=""/>
+ <VECTOR surface_mode="Freeform" hidden="false" unique_id="{f2bee975-41e2-44d4-8f29-e8b292610bc9}" link_id="0" name="position" is_linked="0" id="{f2bee975-41e2-44d4-8f29-e8b292610bc9}">
+  <DOUBLE hidden="false" order="0" single_keyframe_only="1" animated="1" default="0" name="X" id="{f89f3f85-6236-4bed-8302-5b13500c4301}"/>
+  <DOUBLE hidden="false" order="1" single_keyframe_only="1" animated="1" default="0" name="Y" id="{39cbb9ba-ca8a-4899-ae77-939a699d182e}"/>
+  <DOUBLE hidden="false" order="2" single_keyframe_only="1" animated="1" default="0" name="Z" id="{88d72960-55a1-4ea9-b982-e2820e6e837f}"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{4775f8f6-3ab7-4c50-aaea-dd6d0043f8b1}">
+  <RADIAN hidden="false" order="0" single_keyframe_only="1" animated="1" default="0" name="X" id="{5f04d0aa-1ead-47a4-8cab-91e1c2a44c68}"/>
+  <RADIAN hidden="false" order="1" single_keyframe_only="1" animated="1" default="0" name="Y" id="{60fb08bb-1db9-4a3d-a3a2-c4303deca80f}"/>
+  <RADIAN hidden="false" order="2" single_keyframe_only="1" animated="1" default="0" name="Z" id="{456e8cbe-2aa9-413d-93b6-6d4d50bc30b0}"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" name="Links" id="{62f4d376-246b-4264-8aaf-15f8716eacf9}"/>
+ <NODE hidden="false" name="Warscape Properties" id="{7bd67178-9826-43c9-8cf3-c0216b797c33}">
+  <WARSCAPE_PROPERTIES hidden="false" warscape_properties_file="../cameras/xinyang_enemy0101.xml" name="xinyang_enemy0101.xml" id="{84349505-b97c-41cb-8644-6c5dc52f4b2e}"/>
+ </NODE>
+ <NODE hidden="false" name="Audio Events" id="{cd640837-929d-4380-a8f8-ef217dbbcbf8}">
+  <AUDIO_EVENT hidden="false" name="audio_event_file_01.kfa" id="{c9202f42-b6a3-44af-a2d7-ca5fa42e300a}" audio_event_file="../audio/audio_event_file_01.kfa"/>
+  <AUDIO_EVENT hidden="false" name="audio_event_file_02.kfa" id="{cae3457d-88e4-408e-b0f7-9a4030fc32b5}" audio_event_file="../audio/audio_event_file_02.kfa"/>
+  <AUDIO_EVENT hidden="false" name="audio_event_file_03.kfa" id="{37c08142-f4bf-49a1-92da-eab96068626c}" audio_event_file="../audio/audio_event_file_03.kfa"/>
+  <AUDIO_EVENT hidden="false" name="audio_event_file_04.kfa" id="{ca534de0-3cf4-4d37-9a1e-6a1067a9a695}" audio_event_file="../audio/audio_event_file_04.kfa"/>
+  <AUDIO_EVENT hidden="false" name="audio_event_file_05.kfa" id="{3a0ee0aa-e554-41cf-a2da-559e17476925}" audio_event_file="../audio/audio_event_file_05.kfa"/>
+  <AUDIO_EVENT hidden="false" name="audio_event_file_06.kfa" id="{7d80c6e8-2cd7-4d6e-8ac4-979d86ebed00}" audio_event_file="../audio/audio_event_file_06.kfa"/>
+  <AUDIO_EVENT hidden="false" name="snd_sweet_xingyang.kfa" id="{1b8fabb2-fa84-462b-87b2-b9bd585265cf}" audio_event_file="../audio/snd_sweet_xingyang.kfa"/>
+ </NODE>
+</SCENE_FILE>

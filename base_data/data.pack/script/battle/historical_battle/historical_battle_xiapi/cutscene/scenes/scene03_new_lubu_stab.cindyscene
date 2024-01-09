@@ -1,0 +1,35 @@
+<SCENE_FILE name="scene03_new_lubu_stab.CindyScene" start_record_time="0" perspective_camera="9.86408,198.337,-83.8919:-10.0359,197.509,-82.0704" version="23" end_record_time="18.700000975281">
+ <ENVIRONMENT hidden="false" order="0" name="Environment" data="Weather/xiapi.environment"/>
+ <VECTOR unique_id="{ab7fa24b-8de0-4726-8f50-089c951d5afa}" id="{ab7fa24b-8de0-4726-8f50-089c951d5afa}" link_id="0" name="position" surface_mode="Freeform" is_linked="0">
+  <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="X" default="0" animated="1">
+   <KEYFRAME time="4.729248046875" data="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="1" name="Y" default="0" animated="1">
+   <KEYFRAME time="4.729248046875" data="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="2" name="Z" default="0" animated="1">
+   <KEYFRAME time="4.729248046875" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{16186df8-b8eb-45ce-b0c3-43dbba907404}" name="rotation">
+  <RADIAN single_keyframe_only="1" hidden="false" order="0" name="X" default="0" animated="1">
+   <KEYFRAME time="4.729248046875" data="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" hidden="false" order="1" name="Y" default="0" animated="1">
+   <KEYFRAME time="4.729248046875" data="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" hidden="false" order="2" name="Z" default="0" animated="1">
+   <KEYFRAME time="4.729248046875" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links"/>
+ <NODE name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/lubu_stab.xml" name="lubu_stab.xml"/>
+ </NODE>
+ <NODE name="Point Lights">
+  <POINT_LIGHT name="combat_point_light_01.kfl" point_light_file="../lights/combat_point_light_01.kfl"/>
+ </NODE>
+ <NODE name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/lubu_fight_xiahoudun.kfcs" name="lubu_fight_xiahoudun.kfcs"/>
+ </NODE>
+</SCENE_FILE>

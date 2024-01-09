@@ -1,0 +1,32 @@
+<SCENE_FILE version="26" hidden="false" end_record_time="65.66667009145021" perspective_camera="232.224,12.4999,339.203:239.993,8.24555,342.679" start_record_time="0" id="{5261083e-5f96-4663-9ce4-7032a0286365}">
+ <ENVIRONMENT order="0" hidden="false" data="" name="Environment" id="{49ef8057-e717-4914-b5f9-7b273074dc18}"/>
+ <VECTOR unique_id="{b36f81dd-15d6-4386-b7c4-b5108d6e72f4}" link_id="0" hidden="false" name="position" is_linked="0" id="{b36f81dd-15d6-4386-b7c4-b5108d6e72f4}" surface_mode="Freeform">
+  <DOUBLE order="0" hidden="false" animated="1" single_keyframe_only="1" name="X" default="0" id="{4b8891e9-6d85-4d10-a79c-a957b68d07e2}">
+   <KEYFRAME handle1_type="SMOOTH" handle2_y="0" handle2_type="SMOOTH" time="13.03333377838135" handle1_y="0" data="0" handle1_x="13.0333" handle2_x="13.0333"/>
+  </DOUBLE>
+  <DOUBLE order="1" hidden="false" animated="1" single_keyframe_only="1" name="Y" default="0" id="{90b2fd88-15f6-401b-9ab3-2d07e8efd441}">
+   <KEYFRAME handle1_type="SMOOTH" handle2_y="0" handle2_type="SMOOTH" time="13.03333377838135" handle1_y="0" data="0" handle1_x="13.0333" handle2_x="13.0333"/>
+  </DOUBLE>
+  <DOUBLE order="2" hidden="false" animated="1" single_keyframe_only="1" name="Z" default="0" id="{84b56b45-693d-4c14-8aef-7fc5b77ceb9d}">
+   <KEYFRAME handle1_type="SMOOTH" handle2_y="0" handle2_type="SMOOTH" time="13.03333377838135" handle1_y="0" data="0" handle1_x="13.0333" handle2_x="13.0333"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{fb7d251c-3495-4c07-adf3-6a7bece88a8d}">
+  <RADIAN order="0" hidden="false" animated="1" single_keyframe_only="1" name="X" default="0" id="{37fff11b-b2ad-48ed-a562-62eebd8c255e}">
+   <KEYFRAME handle1_type="SMOOTH" handle2_y="0" handle2_type="SMOOTH" time="13.03333377838135" handle1_y="0" data="0" handle1_x="13.0333" handle2_x="13.0333"/>
+  </RADIAN>
+  <RADIAN order="1" hidden="false" animated="1" single_keyframe_only="1" name="Y" default="0" id="{b21d75ad-5dd0-4a41-b7f1-9b82f90dcd51}">
+   <KEYFRAME handle1_type="SMOOTH" handle2_y="0" handle2_type="SMOOTH" time="13.03333377838135" handle1_y="0" data="0" handle1_x="13.0333" handle2_x="13.0333"/>
+  </RADIAN>
+  <RADIAN order="2" hidden="false" animated="1" single_keyframe_only="1" name="Z" default="0" id="{e97c8147-f40b-498b-97a0-a45695934d94}">
+   <KEYFRAME handle1_type="SMOOTH" handle2_y="0" handle2_type="SMOOTH" time="13.03333377838135" handle1_y="0" data="0" handle1_x="13.0333" handle2_x="13.0333"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE hidden="false" name="Links" id="{ab472b49-e8cb-4e74-9269-ebace7cf8ce1}"/>
+ <NODE hidden="false" name="Warscape Properties" id="{76f7bdf5-45c0-44f3-92d1-b0858da0669f}">
+  <WARSCAPE_PROPERTIES hidden="false" warscape_properties_file="../cameras/pan_camera_sima_lun.xml" name="pan_camera_sima_lun.xml" id="{3847067c-c2e3-403c-8342-3da5cfc9d918}"/>
+ </NODE>
+ <NODE hidden="false" name="Triggers" id="{e44d9d2e-eb36-446d-bd6a-02878ca94337}">
+  <TRIGGER hidden="false" trigger_file="../triggers/audio_lun.ktr" name="audio_lun.ktr" id="{03de977d-d825-4a3b-b2a3-aa516361e2c0}"/>
+ </NODE>
+</SCENE_FILE>

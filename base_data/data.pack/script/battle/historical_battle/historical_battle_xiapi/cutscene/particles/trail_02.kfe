@@ -1,0 +1,55 @@
+<EFFECT_FILE effect_name="3k_main_weapon_trail_rock" hidden="false" version="25" id="{ebc59c09-e4cb-4a95-a44c-9069659e81bb}">
+ <VECTOR unique_id="{a48d30af-165e-449b-8626-b384a0f254c0}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{a48d30af-165e-449b-8626-b384a0f254c0}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="0" default="0" id="{a91c02e2-c76f-44ce-933a-5d084e230619}">
+   <KEYFRAME data="-95.4398422241211" time="64.89830780029297"/>
+   <KEYFRAME data="-95.81036376953125" time="64.92642974853516"/>
+   <KEYFRAME data="-96.6961441040039" time="64.98627471923828"/>
+   <KEYFRAME data="-97.32647705078125" time="65.06558227539063"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="0" default="0" id="{02189b0b-f1a6-46fc-ae1e-54329b3f3ed5}">
+   <KEYFRAME data="207.6121063232422" time="0"/>
+   <KEYFRAME data="203.38209533691406" time="64.89830780029297"/>
+   <KEYFRAME data="204.47283935546875" time="64.92642974853516"/>
+   <KEYFRAME data="205.59130859375" time="64.98627471923828"/>
+   <KEYFRAME data="206.8208770751953" time="65.02365875244141"/>
+   <KEYFRAME data="207.35183715820312" time="65.06558227539063"/>
+   <KEYFRAME handle2_x="66.9889" handle1_y="222.402" handle2_y="226.564" handle1_x="65.9107" handle2_type="SMOOTH" handle1_type="SMOOTH" data="224.03330993652344" time="66.33330535888672"/>
+   <KEYFRAME data="209.70835876464844" time="68.29998016357422"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="0" default="0" id="{a3969c58-c6e6-4b2d-9f4b-6075402c027a}">
+   <KEYFRAME data="-637.1754150390625" time="64.89830780029297"/>
+   <KEYFRAME data="-635.6192626953125" time="64.92642974853516"/>
+   <KEYFRAME data="-632.9552612304688" time="64.98627471923828"/>
+   <KEYFRAME data="-631.4588012695312" time="65.02365875244141"/>
+   <KEYFRAME data="-628.8688354492188" time="65.06558227539063"/>
+   <KEYFRAME data="-424.0508117675781" time="68.29998016357422"/>
+  </DOUBLE>
+ </VECTOR>
+ <VECTOR unique_id="{b65dd1fd-24cc-4ee5-85d8-6254bf8bc968}" name="target" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{b65dd1fd-24cc-4ee5-85d8-6254bf8bc968}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="0" default="0" id="{b899b6b8-99b9-4271-804e-8efd1f5f5c63}">
+   <KEYFRAME data="-73.85759735107422" time="65.16667175292969"/>
+   <KEYFRAME data="-89.49409484863281" time="65.33333587646484"/>
+   <KEYFRAME data="-99.14389038085938" time="65.63333892822266"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="0" default="0" id="{b5ff4fdf-77fb-4aae-a1dd-3d79c1d787e3}">
+   <KEYFRAME data="201.237060546875" time="65.16667175292969"/>
+   <KEYFRAME data="201.237060546875" time="65.33333587646484"/>
+   <KEYFRAME data="206.1488800048828" time="65.63333892822266"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="0" default="0" id="{771b193f-8257-4bf7-9553-9e2558dd4cf8}">
+   <KEYFRAME data="-649.533203125" time="65.16667175292969"/>
+   <KEYFRAME data="-625.667724609375" time="65.33333587646484"/>
+   <KEYFRAME data="-636.3377075195312" time="65.63333892822266"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL user_friendy_name="Active" name="active" hidden="false" order="2" animated="1" single_keyframe_only="0" default="0" id="{2b36aea1-28f6-4b07-8408-0d010587cbf7}">
+  <KEYFRAME data="0" time="0"/>
+  <KEYFRAME data="0" time="64.80000305175781"/>
+  <KEYFRAME data="1" time="64.83333587646484"/>
+ </BOOL>
+ <BOOL user_friendy_name="Tracked" name="tracked" hidden="false" order="3" animated="0" single_keyframe_only="1" default="0" id="{c434d759-beab-4121-9a1e-1ba594dc1104}">
+  <KEYFRAME data="1" time="0"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Scale" name="scale" hidden="false" order="4" animated="0" single_keyframe_only="1" default="1" id="{727b51c9-3aa4-4d08-b24a-1f9b963fc6b5}"/>
+ <BOOL user_friendy_name="Emit Light" name="is_light_enabled" hidden="false" order="5" animated="0" single_keyframe_only="1" default="1" id="{fb1b823e-9ee6-441a-a867-f9d071ac9d1a}"/>
+</EFFECT_FILE>

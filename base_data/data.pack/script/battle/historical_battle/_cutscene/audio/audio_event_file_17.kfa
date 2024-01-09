@@ -1,0 +1,20 @@
+<AUDIO_EVENT_FILE id="{73eba853-6814-4764-bd95-4998cfa6a08c}" audio_event_name="Play_3k_main_historical_battle_wuzhang_plains_sima_yi_02_1" version="25" hidden="false">
+ <VECTOR is_linked="0" unique_id="{bd3c63cf-2cb1-460e-ae8b-03b642bf915b}" id="{bd3c63cf-2cb1-460e-ae8b-03b642bf915b}" surface_mode="Freeform" name="position" link_id="-1" hidden="false">
+  <DOUBLE animated="0" order="0" id="{68120465-29d0-407d-ae47-a574068e2d34}" name="X" default="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME time="0" data="30"/>
+  </DOUBLE>
+  <DOUBLE animated="0" order="1" id="{00da795a-dd7d-4c11-964f-e3327340e42b}" name="Y" default="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME time="0" data="-650"/>
+  </DOUBLE>
+  <DOUBLE animated="0" order="2" id="{9430a91d-e95f-42c5-8469-061ca299821e}" name="Z" default="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME time="0" data="-60"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL animated="1" user_friendy_name="Active" order="2" id="{b5d551bd-7ba8-47ac-9ebd-5dccede4a0f1}" name="active" default="0" single_keyframe_only="0" hidden="false">
+  <KEYFRAME time="8.200000762939453" data="0"/>
+  <KEYFRAME time="8.666666984558105" data="1"/>
+  <KEYFRAME time="8.666666984558105" data="1"/>
+  <KEYFRAME time="14.0666675567627" data="0"/>
+ </BOOL>
+ <DOUBLE animated="0" user_friendy_name="Volume" order="3" id="{f0763136-cb35-4692-8eba-5eccbf93d27b}" name="volume" default="100" single_keyframe_only="1" hidden="false"/>
+</AUDIO_EVENT_FILE>

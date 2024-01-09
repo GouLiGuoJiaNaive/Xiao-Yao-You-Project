@@ -1,0 +1,38 @@
+<COMPOSITE_SCENE_FILE hidden="false" id="{fb85048d-7972-46ef-9311-42bae5a69616}" version="25" directory="composite_scene/campaign/seige/trebuchet_1.csc">
+ <VECTOR surface_mode="Freeform" hidden="false" unique_id="{e20a652f-54f3-47a2-bb0c-b6618cd2a19e}" name="position" link_id="0" id="{e20a652f-54f3-47a2-bb0c-b6618cd2a19e}" is_linked="0">
+  <DOUBLE hidden="false" name="X" default="0" animated="0" id="{c5780571-d2b5-428e-b87b-fba3a1317b9e}" order="0" single_keyframe_only="1">
+   <KEYFRAME time="0" data="181.34121704101562"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" name="Y" default="0" animated="0" id="{d1a98465-3e4a-4b5f-a9ad-e957f989b5ed}" order="1" single_keyframe_only="1">
+   <KEYFRAME time="0" data="5.935471057891846"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" name="Z" default="0" animated="0" id="{629f493e-60b6-4bb1-9781-5ae49c73068c}" order="2" single_keyframe_only="1">
+   <KEYFRAME time="0" data="396.4576416015625"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{097a6184-5c3b-4b88-89e6-50ccf49434b0}">
+  <RADIAN hidden="false" name="X" default="0" animated="0" id="{8150a647-2327-4a4a-821b-0da56634be62}" order="0" single_keyframe_only="1">
+   <KEYFRAME time="0" data="-3.115234613418579"/>
+  </RADIAN>
+  <RADIAN hidden="false" name="Y" default="0" animated="0" id="{d13068d9-c701-449b-8a15-83406e174a81}" order="1" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0.866976797580719"/>
+  </RADIAN>
+  <RADIAN hidden="false" name="Z" default="0" animated="0" id="{402b3220-2fc6-469c-b70d-2e0b690a53fe}" order="2" single_keyframe_only="1">
+   <KEYFRAME time="0" data="3.0967695713043213"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" name="scale" user_friendy_name="Scale" default="1" animated="0" id="{b6783446-aab3-42a4-8a00-9e81b27634ff}" order="2" single_keyframe_only="1">
+  <KEYFRAME time="0" data="0.5"/>
+ </DOUBLE>
+ <BOOL hidden="false" name="active" user_friendy_name="Active" default="0" animated="1" id="{5d01117c-a57d-40a8-a69c-021e5cc702a7}" order="3" single_keyframe_only="0">
+  <KEYFRAME time="83.13333892822266" data="0"/>
+  <KEYFRAME time="86.00000762939453" data="1"/>
+  <KEYFRAME time="86.00000762939453" data="1"/>
+ </BOOL>
+ <DOUBLE hidden="false" name="speed_multiplier" user_friendy_name="Speed Multiplier" default="1" animated="1" id="{bb91a6ae-f566-4674-8086-5c8500f52d75}" order="4" single_keyframe_only="0">
+  <KEYFRAME time="56.26667022705078" data="1"/>
+  <KEYFRAME time="60.83333587646484" data="1"/>
+  <KEYFRAME time="82.13333892822266" data="1"/>
+  <KEYFRAME time="82.53334045410156" data="1"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

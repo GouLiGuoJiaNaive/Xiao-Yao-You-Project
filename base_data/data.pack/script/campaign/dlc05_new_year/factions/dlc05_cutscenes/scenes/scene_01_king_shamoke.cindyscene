@@ -1,0 +1,32 @@
+<SCENE_FILE perspective_camera="213.257,13.9238,234.153:213.413,6.46055,246.071" id="{2db380e7-3e26-4aab-bc09-17c0d05b958a}" start_record_time="0" end_record_time="68.00000354647636" hidden="false" version="26">
+ <ENVIRONMENT order="0" id="{72d5f5ae-949d-4a18-934c-6a6fa427ef9a}" hidden="false" name="Environment" data=""/>
+ <VECTOR unique_id="{7ed75085-4e6e-4c14-913f-27f979d06938}" id="{7ed75085-4e6e-4c14-913f-27f979d06938}" is_linked="0" surface_mode="Freeform" hidden="false" name="position" link_id="0">
+  <DOUBLE animated="1" single_keyframe_only="1" default="0" order="0" id="{c8eff383-8c5b-459f-90ed-00691831d778}" hidden="false" name="X">
+   <KEYFRAME time="5.000000476837158" data="0"/>
+  </DOUBLE>
+  <DOUBLE animated="1" single_keyframe_only="1" default="0" order="1" id="{6a7bd872-6b93-4c1e-9896-d6a4633da284}" hidden="false" name="Y">
+   <KEYFRAME time="5.000000476837158" data="0"/>
+  </DOUBLE>
+  <DOUBLE animated="1" single_keyframe_only="1" default="0" order="2" id="{7cbc23d0-e53f-4931-9f62-cd0d82fd6a79}" hidden="false" name="Z">
+   <KEYFRAME time="5.000000476837158" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{d8deb4f7-5628-414f-9322-198dcde3f3bc}" hidden="false" name="rotation">
+  <RADIAN animated="1" single_keyframe_only="1" default="0" order="0" id="{c777ca79-40f4-4498-91ca-a9d00e98418f}" hidden="false" name="X">
+   <KEYFRAME time="5.000000476837158" data="0"/>
+  </RADIAN>
+  <RADIAN animated="1" single_keyframe_only="1" default="0" order="1" id="{985f5cf7-dc74-4567-b6d1-97fc98b18465}" hidden="false" name="Y">
+   <KEYFRAME time="5.000000476837158" data="0"/>
+  </RADIAN>
+  <RADIAN animated="1" single_keyframe_only="1" default="0" order="2" id="{f2f7657d-e3ea-4863-a872-e1a6f79f1462}" hidden="false" name="Z">
+   <KEYFRAME time="5.000000476837158" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{dd20ceae-fcbd-4145-a522-6a4eb5bfb250}" hidden="false" name="Links"/>
+ <NODE id="{98910c11-b5d9-444b-98ac-9d4089a2e142}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{ff6d518f-ee93-450b-a717-437292fdff4d}" warscape_properties_file="../cameras/king_shamoke_cam.xml" hidden="false" name="king_shamoke_cam.xml"/>
+ </NODE>
+ <NODE id="{8c293054-b823-4d1f-a611-fed2ecaacbc1}" hidden="false" name="Triggers">
+  <TRIGGER id="{2832b887-cbb4-4725-b211-f0555d9c1247}" trigger_file="../triggers/king_shamoke_main.ktr" hidden="false" name="king_shamoke_main.ktr"/>
+ </NODE>
+</SCENE_FILE>

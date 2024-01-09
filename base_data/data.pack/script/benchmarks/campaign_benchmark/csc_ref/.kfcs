@@ -1,0 +1,24 @@
+<COMPOSITE_SCENE_FILE version="25" hidden="false" id="{47729a81-c9ff-4ed1-892e-85dbb48eb307}" directory="animations/comp_scenes/formations/formation_shield_wall_01.csc">
+ <VECTOR link_id="-1" name="position" surface_mode="Freeform" is_linked="0" hidden="false" unique_id="{9e2e4bf9-58a7-4a14-b063-6161f5adfa7e}" id="{9e2e4bf9-58a7-4a14-b063-6161f5adfa7e}">
+  <DOUBLE default="0" single_keyframe_only="1" animated="0" name="X" order="0" hidden="false" id="{f06dd413-8a45-42e2-8395-29f20b4f9c30}">
+   <KEYFRAME data="334.8959655761719" time="-1"/>
+  </DOUBLE>
+  <DOUBLE default="0" single_keyframe_only="1" animated="0" name="Y" order="1" hidden="false" id="{1fc5e9ea-c220-4c2a-ae54-31451cc748fc}">
+   <KEYFRAME data="0.33759117126464844" time="-1"/>
+  </DOUBLE>
+  <DOUBLE default="0" single_keyframe_only="1" animated="0" name="Z" order="2" hidden="false" id="{f6558ce8-c09e-4dd4-be35-28a2457ff2cc}">
+   <KEYFRAME data="461.69366455078125" time="-1"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{501fe8fe-1773-466b-803d-f8244ca17802}">
+  <RADIAN default="0" single_keyframe_only="1" animated="0" name="X" order="0" hidden="false" id="{0258092d-4cdc-441f-8bdb-485aeb617e10}"/>
+  <RADIAN default="0" single_keyframe_only="1" animated="0" name="Y" order="1" hidden="false" id="{214b5924-e797-4b89-9567-d97188494579}"/>
+  <RADIAN default="0" single_keyframe_only="1" animated="0" name="Z" order="2" hidden="false" id="{e95a452b-0557-483c-8061-9ad0ee626285}"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" single_keyframe_only="1" user_friendy_name="Scale" animated="0" name="scale" order="2" hidden="false" id="{cb3db2ff-8edf-4857-80cd-de72ef39dafd}"/>
+ <BOOL default="0" single_keyframe_only="0" user_friendy_name="Active" animated="1" name="active" order="3" hidden="false" id="{24110c5e-3c95-4c38-845e-8027d3b175cb}">
+  <KEYFRAME data="0" time="3.39900016784668"/>
+  <KEYFRAME data="1" time="3.400000095367432"/>
+ </BOOL>
+ <DOUBLE default="1" single_keyframe_only="0" user_friendy_name="Speed Multiplier" animated="1" name="speed_multiplier" order="4" hidden="false" id="{b6196caf-8c02-4d6a-8e27-f0fab1004992}"/>
+</COMPOSITE_SCENE_FILE>

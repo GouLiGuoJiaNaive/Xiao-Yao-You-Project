@@ -1,0 +1,23 @@
+<SCENE_FILE end_record_time="82.00000427663326" version="26" hidden="false" id="{a8a46300-5696-403e-9757-ea9cc8343601}" perspective_camera="372.327,4.38723,403.123:366.132,0.675102,407.902" start_record_time="0">
+ <ENVIRONMENT hidden="false" order="0" data="" id="{8d4a1553-fd53-4a86-a7c3-5410814ac10f}" name="Environment"/>
+ <VECTOR link_id="0" unique_id="{999a3481-3a18-4ad4-a47a-5467ab8adadc}" surface_mode="Freeform" hidden="false" is_linked="0" id="{999a3481-3a18-4ad4-a47a-5467ab8adadc}" name="position">
+  <DOUBLE default="0" animated="1" hidden="false" order="0" id="{07062365-531d-459f-8cb3-a897d6c24ef3}" name="X" single_keyframe_only="1"/>
+  <DOUBLE default="0" animated="1" hidden="false" order="1" id="{69ebab6f-ca29-4f46-9cbc-2b6d0c49153a}" name="Y" single_keyframe_only="1"/>
+  <DOUBLE default="0" animated="1" hidden="false" order="2" id="{3e424a02-044b-4671-ba32-995d1c17bd73}" name="Z" single_keyframe_only="1"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{f14509cb-8b04-4af3-8d91-b43820ca4743}" name="rotation">
+  <RADIAN default="0" animated="1" hidden="false" order="0" id="{c43c7212-d577-41cf-ae5d-f8eb1c39a157}" name="X" single_keyframe_only="1"/>
+  <RADIAN default="0" animated="1" hidden="false" order="1" id="{f8b16e22-62cf-4125-ba8d-b36b84d811d7}" name="Y" single_keyframe_only="1"/>
+  <RADIAN default="0" animated="1" hidden="false" order="2" id="{2d0f6dcb-1506-4146-b7a1-e1ae1f118efc}" name="Z" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{e4b98c32-9713-452f-bc4f-c7cd949aa175}" name="Links"/>
+ <NODE hidden="false" id="{95bf1970-8335-4e87-bb47-d6649340e735}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/cam_yuan_shao.xml" hidden="false" id="{43ff4a80-c74e-4946-bb9e-2a28fc699ada}" name="cam_yuan_shao.xml"/>
+ </NODE>
+ <NODE hidden="false" id="{da2127a5-696a-4441-82ad-9aa7c6ec8224}" name="Triggers">
+  <TRIGGER hidden="false" id="{3174d4cb-0072-4d6a-ab77-cfedda367293}" trigger_file="../triggers/yuan_shao.ktr" name="yuan_shao.ktr"/>
+ </NODE>
+ <NODE hidden="false" id="{6d1f1da6-4ac1-49cf-955b-ae4115aff706}" name="Particle Effects">
+  <EFFECT effect_file="../particles/yuan_shao_smoke.kfe" hidden="false" id="{bf76ff7d-a0a4-462e-aea7-921d1c7946a4}" name="yuan_shao_smoke.kfe"/>
+ </NODE>
+</SCENE_FILE>

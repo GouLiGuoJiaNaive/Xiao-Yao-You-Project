@@ -1,0 +1,17 @@
+<SCENE_FILE start_record_time="0.4666666910052299" version="25" perspective_camera="-100.064,56.7843,176.438:-48.8549,17.0347,415.146" end_record_time="17.93333426862955" id="{e74e90ea-14aa-4f81-8796-4599edc1fa9b}" hidden="false">
+ <ENVIRONMENT name="Environment" id="{3ab4fafc-a5a8-47fa-a472-4e93f5afbbd3}" order="0" hidden="false" data=""/>
+ <VECTOR name="position" unique_id="{fff052f7-9e67-4d07-b2f0-02c4f73c21fa}" surface_mode="Freeform" is_linked="0" link_id="0" id="{fff052f7-9e67-4d07-b2f0-02c4f73c21fa}" hidden="false">
+  <DOUBLE animated="1" name="X" default="0" id="{d402f0f1-e3e3-41f9-b0a8-474565679a39}" order="0" hidden="false" single_keyframe_only="1"/>
+  <DOUBLE animated="1" name="Y" default="0" id="{59360524-3d42-4820-bbfd-36f2d1006656}" order="1" hidden="false" single_keyframe_only="1"/>
+  <DOUBLE animated="1" name="Z" default="0" id="{e260c11b-0695-4a36-8b89-4a69c5618a8b}" order="2" hidden="false" single_keyframe_only="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{4df9ccea-409c-41a0-9084-33716dc45c1b}" hidden="false">
+  <RADIAN animated="1" name="X" default="0" id="{296aa530-7f1d-468d-96b8-06b3db5dd318}" order="0" hidden="false" single_keyframe_only="1"/>
+  <RADIAN animated="1" name="Y" default="0" id="{21cd6ecc-4186-4b6a-a85a-29b108cb95db}" order="1" hidden="false" single_keyframe_only="1"/>
+  <RADIAN animated="1" name="Z" default="0" id="{d8b53312-94e2-46af-b93d-65591c26b2bb}" order="2" hidden="false" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{aae0b8ec-8210-4482-a327-56defa857b90}" hidden="false"/>
+ <NODE name="Composite Scenes" id="{4c4f8e39-3a43-4a5e-a381-f52efbf02052}" hidden="false">
+  <COMPOSITE_SCENE name="fireship_static_loop_01.kfcs" composite_scene_file="../csc_ref/fireship_static_loop_01.kfcs" id="{89530925-61a1-4a5f-94d2-bd5eefc15bf1}" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

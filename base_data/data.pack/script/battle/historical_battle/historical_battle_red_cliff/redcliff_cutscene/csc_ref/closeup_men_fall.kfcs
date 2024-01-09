@@ -1,0 +1,24 @@
+<COMPOSITE_SCENE_FILE id="{65af1edf-ab73-49d0-80bc-feb662fc39cc}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/close_up_men_fall.csc" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{e7ebb28c-da3d-4550-a295-f678e2072990}" hidden="false" unique_id="{e7ebb28c-da3d-4550-a295-f678e2072990}" name="position">
+  <DOUBLE order="0" id="{0f8be8bc-c1e9-459d-9e12-72ebbcd47f39}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X">
+   <KEYFRAME time="0" data="1.0375442504882812"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{fd2b11a1-3cce-4712-9a90-cc7e9563db4a}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="0" data="12.197696685791016"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{0e3fe58d-3b46-4aad-8f49-5a782e79ff9c}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z">
+   <KEYFRAME time="0" data="-144.4600830078125"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{8da8602b-3cbc-4b31-90b5-3d5df9a16483}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{ab138b39-0d00-4ab6-8b88-6c3d7b080016}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X"/>
+  <RADIAN order="1" id="{3b80a27c-eb29-4b50-9a7d-04173b1eb573}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y"/>
+  <RADIAN order="2" id="{6b22b6ec-d327-4003-860a-f1c79f32c58e}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{8f1169e8-5279-4985-85f2-c441622ed9f4}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale"/>
+ <BOOL order="3" id="{be648bb3-06da-4165-8545-36dd6339c39c}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="48.20000076293945" data="0"/>
+  <KEYFRAME time="48.20100021362305" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" id="{a3307089-5d23-4403-b32b-7551317609ae}" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" animated="1" default="1" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

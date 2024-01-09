@@ -1,0 +1,5 @@
+<TRIGGER_FILE id="{4f63df67-5793-474f-9fc8-5d9c22f4b098}" hidden="false" version="26">
+ <STRING order="0" id="{4cc0c9c6-a6e7-47b8-b4ef-be2b45e5a332}" hidden="false" name="Timeline">
+  <KEYFRAME time="0.06017401441931725" data="start_fade_in"/>
+ </STRING>
+</TRIGGER_FILE>

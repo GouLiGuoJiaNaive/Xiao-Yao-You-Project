@@ -1,0 +1,20 @@
+<PROP_FILE prop_name="rigidmodels/buildings/3k_prop_city_small_incense_02/3k_prop_city_small_incense_02_piece01_destruct01.rigid_model_v2" version="25" id="{07edcc1d-e381-47e4-ba1e-dc8a7aa27cba}" hidden="false">
+ <VECTOR surface_mode="Freeform" is_linked="0" id="{fb19e0cb-1508-4fbe-8f7f-2f93885a089f}" hidden="false" link_id="-1" unique_id="{fb19e0cb-1508-4fbe-8f7f-2f93885a089f}" name="position">
+  <DOUBLE order="0" id="{36560cbd-793e-4dd6-bb5f-dfc59add8ba6}" single_keyframe_only="1" hidden="false" animated="0" name="X" default="0">
+   <KEYFRAME data="160.799560546875" time="-1"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{cd07a9ef-2e83-4592-8600-8ad01b0b7c3a}" single_keyframe_only="1" hidden="false" animated="0" name="Y" default="0">
+   <KEYFRAME data="0" time="-1"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{4d657ff8-6a9f-4dbe-9fea-c89927c8c2bf}" single_keyframe_only="1" hidden="false" animated="0" name="Z" default="0">
+   <KEYFRAME data="69.63916015625" time="-1"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{c2e1a1cb-d7ec-4561-80c6-a9b7f6d80e0c}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{d23c600e-e270-4cb8-a498-067f90990011}" single_keyframe_only="1" hidden="false" animated="0" name="X" default="0"/>
+  <RADIAN order="1" id="{5e28ef89-05cf-44b1-8e4f-08689a1bf5ce}" single_keyframe_only="1" hidden="false" animated="0" name="Y" default="0"/>
+  <RADIAN order="2" id="{769e64f7-6268-4cf2-870a-09ebcee51fb6}" single_keyframe_only="1" hidden="false" animated="0" name="Z" default="0"/>
+ </ROTATION_AXES>
+ <DOUBLE order="1" id="{f694db1f-09c4-43a2-985f-ae12abafaa53}" single_keyframe_only="1" hidden="false" animated="0" name="scale" default="1"/>
+ <BOOL order="3" id="{0f8729c3-463a-4f8c-a022-fcdc3ba8727f}" single_keyframe_only="1" hidden="false" animated="0" name="always visible" default="0"/>
+</PROP_FILE>

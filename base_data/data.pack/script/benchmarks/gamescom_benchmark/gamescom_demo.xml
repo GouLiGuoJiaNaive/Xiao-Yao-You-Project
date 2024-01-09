@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<battle>
+
+
+<!--     _    _     _     ___    _    _   _  ____ _____   _  -->
+<!--    / \  | |   | |   |_ _|  / \  | \ | |/ ___| ____| / | -->
+<!--   / _ \ | |   | |    | |  / _ \ |  \| | |   |  _|   | | -->
+<!--  / ___ \| |___| |___ | | / ___ \| |\  | |___| |___  | | -->
+<!-- /_/   \_\_____|_____|___/_/   \_\_| \_|\____|_____| |_| -->
+
+
+	<alliance id="0">
+		<army>
+			<faction>3k_main_faction_sun_jian</faction>
+
+			<camera_start_position x="-13.56" y="6.46" z="-130.02"/>
+			<camera_target_position x="0.23" y="4.62" z="-121.99"/>
+
+			<campaign_ai_battle_hints aggression="0.50"/>
+			
+			<can_withdraw>true</can_withdraw>
+
+			<unit script_name="army1_01">
+            <!-- RETINUE - Sun Quan -->
+                <retinue id="0" />
+				<unit_type type="3k_main_hero_fire_lady_sun"/>
+				<unit_experience level="9"/>
+				<general>
+					<name>Lady Sun</name>
+					<commander_type>commanding_general</commander_type>
+					<commander_id>0</commander_id>
+					<star_rating level="15"/>
+					<portrait></portrait>
+					<game_mode>romance</game_mode>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="3k_main_ancillary_weapon_composite_bow_exceptional"/>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_accessory" ceo_key="3k_main_ancillary_accessory_six_secret_teachings"/>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="3k_main_ancillary_armour_lady_suns_armour_unique"/>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="3k_main_ancillary_mount_white_stallion"/>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_follower" ceo_key="3k_main_ancillary_follower_military_instructor"/>
+					<art_set_key>330984742</art_set_key>
+				</general>
+                <!--
+                <unit_capabilities>
+					<firing_drill>fire_volley</firing_drill>
+					<special_ability>3k_main_hero_duel_ability_accept</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_friend_present</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_brother_duelling</special_ability>
+					<special_ability>3k_main_ability_unyielding_earth</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_nemesis_present</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_brother_killed</special_ability>
+					<special_ability>3k_main_ability_nature_s_ally</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_friend_killed</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_brother_present</special_ability>
+					<special_ability>3k_main_hero_duel_ability_retreat</special_ability>
+					<special_ability>3k_main_hero_duel_ability_propose</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_rival_present</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_nemesis_duelling</special_ability>
+					<special_ability>3k_main_ability_stone_bulwark</special_ability>
+				</unit_capabilities>
+                -->
+				<unit_experience level="0"/>
+			</unit>
+			<unit script_name="army1_02">
+                <retinue id="0" />
+				<unit_type type="3k_main_unit_fire_mercenary_cavalry"/>
+				<unit_experience level="9"/>
+			</unit>
+			<unit script_name="army1_03">
+                <retinue id="0" />
+				<unit_type type="3k_main_unit_fire_mercenary_cavalry"/>
+				<unit_experience level="9"/>
+			</unit>
+			<unit script_name="army1_04">
+                <retinue id="0" />
+				<unit_type type="3k_main_unit_metal_mercenary_infantry"/>
+				<unit_experience level="9"/>
+			</unit>
+			<unit script_name="army1_05">
+                <retinue id="0" />
+				<unit_type type="3k_main_unit_metal_mercenary_infantry"/>
+				<unit_experience level="9"/>
+			</unit>
+
+            <!-- RETINUE - Sun Quan -->
+			<unit script_name="army1_06">
+                <retinue id="1" />
+				<unit_type type="3k_main_hero_earth_sun_quan"/>
+				<unit_experience level="9"/>
+				<general>
+					<name>Sun Quan</name>
+					<commander_type>non_commanding_general</commander_type>
+					<commander_id>1</commander_id>
+					<star_rating level="12"/>
+					<portrait></portrait>
+					<game_mode>romance</game_mode>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="3k_main_ancillary_weapon_double_edged_sword_refined"/>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_accessory" ceo_key="3k_main_ancillary_accessory_clay_warrior"/>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="3k_main_ancillary_armour_sun_quans_armour_unique"/>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="3k_main_ancillary_mount_white_thoroughbred"/>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_follower" ceo_key="3k_main_ancillary_follower_artisan"/>
+					<art_set_key>1473873929</art_set_key>
+				</general>
+                <!--
+				<unit_capabilities>
+					<firing_drill>fire_volley</firing_drill>
+					<special_ability>3k_main_hero_duel_ability_retreat</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_friend_killed</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_brother_present</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_nemesis_present</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_friend_present</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_brother_duelling</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_brother_killed</special_ability>
+					<special_ability>3k_main_ability_shot_to_the_heart</special_ability>
+					<special_ability>3k_main_hero_duel_ability_propose</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_nemesis_duelling</special_ability>
+					<special_ability>3k_main_hero_duel_ability_accept</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_rival_present</special_ability>
+					<shot_type>small_arm_default</shot_type>
+				</unit_capabilities>
+                -->
+				<unit_experience level="0"/>
+			</unit>
+			<unit script_name="army1_07">
+                <retinue id="1" />
+				<unit_type type="3k_main_unit_wood_protectors_of_heaven"/>
+				<unit_experience level="9"/>
+			</unit>
+			<unit script_name="army1_08">
+                <retinue id="1" />
+				<unit_type type="3k_main_unit_wood_protectors_of_heaven"/>
+				<unit_experience level="9"/>
+			</unit>
+			<unit script_name="army1_09">
+                <retinue id="1" />
+				<unit_type type="3k_main_unit_wood_azure_dragons"/>
+				<unit_experience level="9"/>
+			</unit>
+			<unit script_name="army1_10">
+                <retinue id="1" />
+				<unit_type type="3k_main_unit_wood_azure_dragons"/>
+				<unit_experience level="9"/>
+			</unit>
+
+			
+		</army>
+
+		<victory_condition>
+			<kill_or_rout_enemy></kill_or_rout_enemy>
+		</victory_condition>
+
+		<rout_position x="0.00" y="0.00"/>
+	</alliance>
+
+
+<!--     _    _     _     ___    _    _   _  ____ _____   ____   -->
+<!--    / \  | |   | |   |_ _|  / \  | \ | |/ ___| ____| |___ \  -->
+<!--   / _ \ | |   | |    | |  / _ \ |  \| | |   |  _|     __) | -->
+<!--  / ___ \| |___| |___ | | / ___ \| |\  | |___| |___   / __/  -->
+<!-- /_/   \_\_____|_____|___/_/   \_\_| \_|\____|_____| |_____| -->
+
+
+	<alliance id="1">
+		<army>
+			<faction>3k_main_faction_cao_cao</faction>
+
+			<campaign_ai_battle_hints aggression="0.50"/>
+
+        <!-- RETINUE - Cao Cao 1 -->
+			<unit script_name="army2_01">
+                <retinue id="0" />
+				<unit_type type="3k_main_hero_water_generic"/>
+				<unit_experience level="3"/>
+				<general>
+					<name>Jia Xu</name>
+					<commander_type>commanding_general</commander_type>
+					<star_rating level="3"/>
+					<portrait></portrait>
+					<game_mode>romance</game_mode>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="3k_main_ancillary_weapon_ceremonial_sword_refined"/>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="3k_main_ancillary_armour_strategist_light_armour_water_common"/>
+					<equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="3k_main_ancillary_mount_white_horse"/>
+					<art_set_key>687085065</art_set_key>
+					<uniform>3k_main_hero_skin_male_01</uniform>
+				</general>
+				<!-- <unit_capabilities>
+					<firing_drill>fire_volley</firing_drill>
+					<special_ability>3k_main_hero_relationship_effect_brother_killed</special_ability>
+					<special_ability>3k_main_ability_inspiring_surge</special_ability>
+					<special_ability>3k_main_ability_wisdom_of_the_river</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_brother_present</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_brother_duelling</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_nemesis_duelling</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_friend_present</special_ability>
+					<special_ability>3k_main_ability_stifling_deluge</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_rival_present</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_friend_killed</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_nemesis_present</special_ability>
+				</unit_capabilities> -->
+				<unit_experience level="0"/>
+			</unit>
+			<unit script_name="army2_02">
+                <retinue id="0" />
+				<unit_type type="3k_main_unit_water_archer_militia"/>
+				<unit_experience level="0"/>
+			</unit>
+			<unit script_name="army2_03">
+                <retinue id="0" />
+				<unit_type type="3k_main_unit_water_archer_militia"/>
+				<unit_experience level="0"/>
+			</unit>
+			
+        <!-- END RETINUE - Cao Cao 1 -->
+
+        <!-- RETINUE - Cao Cao 2 -->
+			<unit script_name="army2_04">
+                <retinue id="1" />
+				<unit_type type="3k_main_unit_metal_jian_infantry_captain"/>
+				<!-- <general> -->
+					<!-- <name></name> -->
+					<!-- <commander_id>2</commander_id> -->
+					<!-- <commander_type>non_commanding_general</commander_type> -->
+					<!-- <star_rating level="0"/> -->
+					<!-- <portrait></portrait> -->
+					<!-- <game_mode>romance</game_mode> -->
+					<!-- <art_set_key>2140010727</art_set_key> -->
+				<!-- </general> -->
+                <!--
+				<unit_capabilities>
+					<firing_drill>fire_volley</firing_drill>
+					<special_ability>3k_main_hero_relationship_effect_brother_present</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_friend_killed</special_ability>
+					<special_ability>3k_main_ability_flames_of_the_phoenix</special_ability>
+					<special_ability>3k_main_hero_duel_ability_propose</special_ability>
+					<special_ability>3k_main_ability_roar_of_the_beast</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_nemesis_duelling</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_nemesis_present</special_ability>
+					<special_ability>3k_main_ability_fleet_footed</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_rival_present</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_brother_duelling</special_ability>
+					<special_ability>3k_main_hero_duel_ability_accept</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_friend_present</special_ability>
+					<special_ability>3k_main_hero_duel_ability_retreat</special_ability>
+					<special_ability>3k_main_hero_relationship_effect_brother_killed</special_ability>
+				</unit_capabilities>
+                -->
+				<unit_experience level="0"/>
+			</unit>
+			<unit script_name="army2_05">
+                <retinue id="1" />
+				<unit_type type="3k_main_unit_metal_sabre_militia"/>
+				<unit_experience level="0"/>
+			</unit>
+			<unit script_name="army2_06">
+                <retinue id="1" />
+				<unit_type type="3k_main_unit_metal_sabre_militia"/>
+				<unit_experience level="0"/>
+			</unit>
+			<unit script_name="army2_07">
+                <retinue id="1" />
+				<unit_type type="3k_main_unit_metal_sabre_militia"/>
+				<unit_experience level="0"/>
+			</unit>
+			<unit script_name="army2_08">
+                <retinue id="1" />
+				<unit_type type="3k_main_unit_metal_sabre_militia"/>
+				<unit_experience level="0"/>
+			</unit>
+        <!-- END RETINUE - Cao Cao 2 -->
+		
+            <reinforcement_army approach_angle="170" hide_army="" >
+
+                <faction>3k_main_faction_cao_cao</faction>
+                
+            <!-- RETINUE - Xu Huang -->
+                <unit script_name="army2_09">
+                    <retinue id="2" />
+                    <unit_type type="3k_main_hero_metal_zhang_liao"/>
+					<unit_experience level="5"/>
+                    <general>
+                        <name>Zhang Liao</name>
+                        <commander_type>commanding_general</commander_type>
+						<commander_id>3</commander_id>
+                        <star_rating level="7"/>
+                        <portrait></portrait>
+                        <game_mode>romance</game_mode>
+                        <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="3k_main_ancillary_armour_zhang_liaos_armour_unique"/>
+                        <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="3k_main_ancillary_mount_white_elite"/>
+                        <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="3k_main_ancillary_weapon_double_edged_sword_unique"/>
+                        <art_set_key>152891638</art_set_key>
+                    </general>
+                    <!-- <unit_capabilities> -->
+                        <!-- <firing_drill>fire_volley</firing_drill> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_brother_present</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_friend_killed</special_ability> -->
+                        <!-- <special_ability>3k_main_ability_flames_of_the_phoenix</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_duel_ability_propose</special_ability> -->
+                        <!-- <special_ability>3k_main_ability_roar_of_the_beast</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_nemesis_duelling</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_nemesis_present</special_ability> -->
+                        <!-- <special_ability>3k_main_ability_fleet_footed</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_rival_present</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_brother_duelling</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_duel_ability_accept</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_friend_present</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_duel_ability_retreat</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_brother_killed</special_ability> -->
+                    <!-- </unit_capabilities> -->
+                    <unit_experience level="5"/>
+                </unit>
+                
+                <unit script_name="army2_10">
+                    <retinue id="2" />
+                    <unit_type type="3k_main_unit_metal_sabre_militia"/>
+                    <unit_experience level="3"/>
+                </unit>
+                
+                <unit script_name="army2_11">
+                    <retinue id="2" />
+                    <unit_type type="3k_main_unit_metal_sabre_militia"/>
+                    <unit_experience level="3"/>
+                </unit>
+
+                <unit script_name="army2_12">
+                    <retinue id="2" />
+                    <unit_type type="3k_main_unit_wood_heavy_ji_infantry"/>
+                    <unit_experience level="0"/>
+                </unit>
+				<unit script_name="army2_13">
+                    <retinue id="2" />
+                    <unit_type type="3k_main_unit_wood_heavy_spear_guards"/>
+                    <unit_experience level="3"/>
+                </unit>		
+            <!-- END RETINUE - Xu Huang -->
+                    
+            </reinforcement_army>
+
+            <reinforcement_army approach_angle="0" hide_army="" >
+
+                <faction>3k_main_faction_cao_cao</faction>
+                
+            <!-- RETINUE - Zhang Liao -->
+                <unit script_name="army2_14">
+                    <retinue id="2" />
+                    <unit_type type="3k_main_hero_metal_xu_huang"/>
+					<unit_experience level="5"/>
+                    <general>
+                        <name>Xu Huang</name>
+                        <commander_type>commanding_general</commander_type>
+                        <star_rating level="5"/>
+                        <portrait></portrait>
+                        <game_mode>romance</game_mode>
+                        <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="3k_main_ancillary_armour_xu_huangs_armour_unique"/>
+                        <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="3k_main_ancillary_mount_grey_thoroughbred"/>
+                        <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="3k_main_ancillary_weapon_cleaver_of_mountains_unique"/>
+                        <art_set_key>276291771</art_set_key>
+                    </general>
+                    <!-- <unit_capabilities> -->
+                        <!-- <firing_drill>fire_volley</firing_drill> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_brother_present</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_friend_killed</special_ability> -->
+                        <!-- <special_ability>3k_main_ability_flames_of_the_phoenix</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_duel_ability_propose</special_ability> -->
+                        <!-- <special_ability>3k_main_ability_roar_of_the_beast</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_nemesis_duelling</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_nemesis_present</special_ability> -->
+                        <!-- <special_ability>3k_main_ability_fleet_footed</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_rival_present</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_brother_duelling</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_duel_ability_accept</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_friend_present</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_duel_ability_retreat</special_ability> -->
+                        <!-- <special_ability>3k_main_hero_relationship_effect_brother_killed</special_ability> -->
+                    <!-- </unit_capabilities> -->
+                    <unit_experience level="5"/>
+                </unit>
+                
+                <unit script_name="army2_15">
+                    <retinue id="3" />
+                    <unit_type type="3k_main_unit_metal_pearl_dragons"/>
+                    <unit_experience level="3"/>
+                </unit>
+                
+                <unit script_name="army2_16">
+                    <retinue id="3" />
+                    <unit_type type="3k_main_unit_metal_pearl_dragons"/>
+                    <unit_experience level="3"/>
+                </unit>
+
+                <unit script_name="army2_17">
+                    <retinue id="3" />
+                    <unit_type type="3k_main_unit_metal_pearl_dragons"/>
+                    <unit_experience level="0"/>
+                </unit>
+				<unit script_name="army2_18">
+                    <retinue id="3" />
+                    <unit_type type="3k_main_unit_metal_pearl_dragons"/>
+                    <unit_experience level="0"/>
+                </unit>
+				<unit script_name="army2_19">
+                    <retinue id="3" />
+                    <unit_type type="3k_main_unit_fire_heavy_tiger_and_leopard_cavalry"/>
+                    <unit_experience level="0"/>
+                </unit>	
+				<unit script_name="army2_20">
+                    <retinue id="3" />
+                    <unit_type type="3k_main_unit_fire_heavy_tiger_and_leopard_cavalry"/>
+                    <unit_experience level="0"/>
+                </unit>					
+            <!-- END RETINUE - Zhang Liao -->
+            </reinforcement_army>
+
+		</army>
+
+		<victory_condition>
+			<kill_or_rout_enemy></kill_or_rout_enemy>
+		</victory_condition>
+		
+        <rout_position x="0.00" y="0.00"/>
+
+	</alliance>
+
+	<battle_description>
+		<battle_script is_tutorial="false" prepare_for_fade_in="false">script\benchmarks\Gamescom_Benchmark\Gamescom_Demo.lua</battle_script>
+		<battle_db_record>3k_main_historical_battle_gamescom</battle_db_record>
+		<time_of_day>night</time_of_day>
+		<season>season_spring</season>
+		<precipitation_type>dry</precipitation_type>
+		<game_mode>romance</game_mode>
+		<type>land_ambush</type>
+		<duration>1200.00</duration>
+		<timeout_winning_alliance_index>0</timeout_winning_alliance_index>
+		<boiling_oil></boiling_oil>
+	</battle_description>
+
+	<weather>
+		<prevailing_wind x="1.00" y="0.00"/>
+		<environment_key>Weather\night_03.environment</environment_key>
+	</weather>
+
+	<sea_surface_name>wind_level_0</sea_surface_name>
+
+	<battle_map_definition>
+		<name>terrain\battles\demo_ambush\</name>
+		<tile_map_position x="0.5" y="0.5"/>
+		<tile_upgrade>faction:emp</tile_upgrade>
+		<tile_upgrade>tag:land_ambush</tile_upgrade>
+		<tile_upgrade>settlement_tower_level_1</tile_upgrade>
+		<tile_upgrade>attacker_direction_north</tile_upgrade>
+	</battle_map_definition>
+
+	
+	<can_chase_down_routers>true</can_chase_down_routers>
+	
+	<loading_screen_override>battle_demo</loading_screen_override>
+	
+	<character_relationships>
+		<!--
+		<relationship character_1_id="0" character_2_id="2" relationship_key="3k_main_relationship_positive_02"/>
+		<relationship character_1_id="1" character_2_id="2" relationship_key="3k_main_relationship_negative_01"/>
+		-->
+		<family_relationship character_1_id="0" character_2_id="1" relationship_type="sibling" />
+		<family_relationship character_1_id="1" character_2_id="0" relationship_type="sibling" />
+	</character_relationships>
+</battle>

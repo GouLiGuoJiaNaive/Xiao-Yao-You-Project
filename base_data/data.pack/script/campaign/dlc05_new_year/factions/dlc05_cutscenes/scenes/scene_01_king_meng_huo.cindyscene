@@ -1,0 +1,26 @@
+<SCENE_FILE end_record_time="70.00000365078449" perspective_camera="107.739,13.7725,199.148:112.565,8.13275,204.46" id="{ffb53f14-a15a-4816-8f65-b4a0edcdc3bd}" start_record_time="0" version="26" hidden="false">
+ <ENVIRONMENT order="0" id="{5ef8a82d-3eaf-4ecc-809c-cfd14cb2ba3e}" name="Environment" data="" hidden="false"/>
+ <VECTOR id="{db471c5e-75c2-45d9-ab15-83975441d46b}" surface_mode="Freeform" is_linked="0" link_id="0" name="position" unique_id="{db471c5e-75c2-45d9-ab15-83975441d46b}" hidden="false">
+  <DOUBLE order="0" id="{4dedc51d-6c3a-441a-badd-915fc5b33215}" animated="1" name="X" default="0" single_keyframe_only="0" hidden="false"/>
+  <DOUBLE order="1" id="{3e18fe5d-031c-453a-9320-5cc7bde85553}" animated="1" name="Y" default="0" single_keyframe_only="0" hidden="false"/>
+  <DOUBLE order="2" id="{2b3a8cd4-425b-4262-9696-178db041c580}" animated="1" name="Z" default="0" single_keyframe_only="0" hidden="false"/>
+ </VECTOR>
+ <ROTATION_AXES id="{bb17a9ff-4c62-44e9-8ecc-c4c1e82bcb65}" name="rotation" hidden="false">
+  <RADIAN order="0" id="{c121c0ac-c518-4a36-b849-4fb82111e553}" animated="1" name="X" default="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="6" handle1_x="6" handle2_y="0" handle1_y="0" data="0" time="6" handle2_type="SMOOTH"/>
+  </RADIAN>
+  <RADIAN order="1" id="{ca775f07-8fac-45a8-b8eb-7cb0d315c3b6}" animated="1" name="Y" default="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="6" handle1_x="6" handle2_y="0" handle1_y="0" data="0" time="6" handle2_type="SMOOTH"/>
+  </RADIAN>
+  <RADIAN order="2" id="{066e2074-cc47-47b5-8685-aae13512238a}" animated="1" name="Z" default="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="6" handle1_x="6" handle2_y="0" handle1_y="0" data="0" time="6" handle2_type="SMOOTH"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{e1540262-56a2-42b2-8e29-415bc916d544}" name="Links" hidden="false"/>
+ <NODE id="{fa4ad744-5c2e-49d2-9e11-592e5c00a89a}" name="Warscape Properties" hidden="false">
+  <WARSCAPE_PROPERTIES id="{eb9a87ae-500b-43df-a049-27c7df5ce9c0}" warscape_properties_file="../cameras/king_meng_huo_cam.xml" name="king_meng_huo_cam.xml" hidden="false"/>
+ </NODE>
+ <NODE id="{f34cde06-2676-462b-a04e-1039b5148e25}" name="Triggers" hidden="false">
+  <TRIGGER id="{08e2b02d-701a-457a-afa1-68fb5ff0ce14}" name="king_meng_huo_main.ktr" trigger_file="../triggers/king_meng_huo_main.ktr" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

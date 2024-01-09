@@ -1,0 +1,10 @@
+<NOISE_FILE version="23" name="run_tracking_02.xml">
+ <DOUBLE order="0" animated="0" single_keyframe_only="1" hidden="false" default="20" name="amplitude" user_friendy_name="Amplitude">
+  <KEYFRAME time="0" data="12"/>
+ </DOUBLE>
+ <DOUBLE order="1" animated="0" single_keyframe_only="1" hidden="false" default="5" name="frequency" user_friendy_name="Frequency"/>
+ <INT order="2" animated="1" single_keyframe_only="0" hidden="false" default="3" name="number_of_octaves" user_friendy_name="Number of Octaves"/>
+ <DOUBLE order="3" animated="1" single_keyframe_only="0" hidden="false" default="10" name="offset" user_friendy_name="Offset"/>
+ <DOUBLE order="4" animated="1" single_keyframe_only="0" hidden="false" default="0.5" name="persistence" user_friendy_name="Persistence"/>
+ <DOUBLE order="5" animated="1" single_keyframe_only="0" hidden="false" default="2" name="lacunarity" user_friendy_name="Lacunarity"/>
+</NOISE_FILE>

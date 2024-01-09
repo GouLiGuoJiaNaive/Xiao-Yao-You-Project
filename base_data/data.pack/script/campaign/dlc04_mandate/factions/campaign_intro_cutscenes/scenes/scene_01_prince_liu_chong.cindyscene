@@ -1,0 +1,28 @@
+<SCENE_FILE hidden="false" start_record_time="0" perspective_camera="266.018,6.79096,395.728:278.432,-6.36047,363.956" id="{da337377-f34f-40f2-946c-6b31cadf5ac1}" version="26" end_record_time="61.04532476527091">
+ <ENVIRONMENT hidden="false" id="{1efdc94a-2c44-44be-9ded-1a14f79be4f1}" data="" name="Environment" order="0"/>
+ <VECTOR hidden="false" id="{89c9a9db-8dc1-42bd-8d59-a9e02199716e}" link_id="0" is_linked="0" surface_mode="Freeform" name="position" unique_id="{89c9a9db-8dc1-42bd-8d59-a9e02199716e}">
+  <DOUBLE hidden="false" animated="1" id="{647c0556-46b2-4ad9-808e-221906a7a976}" single_keyframe_only="1" name="X" default="0" order="0"/>
+  <DOUBLE hidden="false" animated="1" id="{1b0242ad-745c-470d-a76f-458013498711}" single_keyframe_only="1" name="Y" default="0" order="1"/>
+  <DOUBLE hidden="false" animated="1" id="{5a930c00-fbef-496a-aadd-206c1c96c535}" single_keyframe_only="1" name="Z" default="0" order="2"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{057c79d2-26a7-4a3b-9a59-7edaa8a09812}" name="rotation">
+  <RADIAN hidden="false" animated="1" id="{fae0ed64-6a14-4a55-ab74-8c6f7e2d7a3c}" single_keyframe_only="1" name="X" default="0" order="0"/>
+  <RADIAN hidden="false" animated="1" id="{43c882f7-206e-4d08-b430-11138428c01a}" single_keyframe_only="1" name="Y" default="0" order="1"/>
+  <RADIAN hidden="false" animated="1" id="{ab234298-4155-4a5a-a18e-d5a8027190b9}" single_keyframe_only="1" name="Z" default="0" order="2"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{be2b7c81-8467-4e80-8f92-46c4c604bb1c}" name="Links"/>
+ <NODE hidden="false" id="{1207295e-d2ea-410f-a3d4-0d4381a37332}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES hidden="false" id="{52debaf7-fdd9-4e4f-9c78-37ae2b581bfe}" warscape_properties_file="../cameras/pan_camera_prince_liu_chong.xml" name="pan_camera_prince_liu_chong.xml"/>
+ </NODE>
+ <NODE hidden="false" id="{2af7642d-d87b-4c9f-96c9-5193d327fccb}" name="Triggers">
+  <TRIGGER hidden="false" id="{af1ca031-9ddf-4220-83ff-0d75f4f585a0}" trigger_file="../triggers/liu_chong.ktr" name="liu_chong.ktr"/>
+ </NODE>
+ <NODE hidden="false" id="{8f1c292b-19a7-4574-9cac-dae650e91806}" name="Composite Scenes">
+  <COMPOSITE_SCENE hidden="false" composite_scene_file="../csc_ref/general_eunuch_argue.kfcs" id="{42930942-f7dc-4772-ab51-ea14be9a2e93}" name="general_eunuch_argue.kfcs"/>
+ </NODE>
+ <NODE hidden="false" id="{106f6000-bcf8-4223-9f97-ecea82443cde}" name="Particle Effects">
+  <EFFECT hidden="false" effect_file="../particles/rebellions_fire_02.kfe" id="{f86f3b92-e319-422c-a738-773e2ee0d27c}" name="rebellions_fire_02.kfe"/>
+  <EFFECT hidden="false" effect_file="../particles/rebellions_fire_03.kfe" id="{38fcde5a-339a-424a-bb2c-d8fd80de306f}" name="rebellions_fire_03.kfe"/>
+  <EFFECT hidden="false" effect_file="../particles/rebellions_fire_01.kfe" id="{ea87668e-fd35-4aea-a9c8-a739eca490f0}" name="rebellions_fire_01.kfe"/>
+ </NODE>
+</SCENE_FILE>

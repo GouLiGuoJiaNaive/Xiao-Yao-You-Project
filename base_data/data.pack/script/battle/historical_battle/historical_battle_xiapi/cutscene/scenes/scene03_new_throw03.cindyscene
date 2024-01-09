@@ -1,0 +1,23 @@
+<SCENE_FILE name="scene03_new_throw03.CindyScene" start_record_time="0" perspective_camera="9.86408,198.337,-83.8919:-10.0359,197.509,-82.0704" version="23" end_record_time="18.700000975281">
+ <ENVIRONMENT hidden="false" order="0" name="Environment" data="Weather/xiapi.environment"/>
+ <VECTOR unique_id="{d6ddfc3a-ed86-406a-b276-18681fad85bb}" id="{d6ddfc3a-ed86-406a-b276-18681fad85bb}" link_id="0" name="position" surface_mode="Freeform" is_linked="0">
+  <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="X" default="0" animated="1"/>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="1" name="Y" default="0" animated="1"/>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="2" name="Z" default="0" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES id="{fa9aea2c-1d88-4804-86ad-e903167189d8}" name="rotation">
+  <RADIAN single_keyframe_only="1" hidden="false" order="0" name="X" default="0" animated="1"/>
+  <RADIAN single_keyframe_only="1" hidden="false" order="1" name="Y" default="0" animated="1"/>
+  <RADIAN single_keyframe_only="1" hidden="false" order="2" name="Z" default="0" animated="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links"/>
+ <NODE name="Point Lights">
+  <POINT_LIGHT name="combat_point_light_02.kfl" point_light_file="../lights/combat_point_light_02.kfl"/>
+ </NODE>
+ <NODE name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/throw03.xml" name="throw03.xml"/>
+ </NODE>
+ <NODE name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/lubu_fight_xiahoudun.kfcs" name="lubu_fight_xiahoudun.kfcs"/>
+ </NODE>
+</SCENE_FILE>

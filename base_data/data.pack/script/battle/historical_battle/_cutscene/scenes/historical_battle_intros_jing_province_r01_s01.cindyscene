@@ -1,0 +1,36 @@
+<SCENE_FILE start_record_time="1.166666727513075" hidden="false" end_record_time="36.96666859462857" version="25" perspective_camera="-13.5591,6.46007,-130.021:0.230783,4.62004,-121.991" id="{98426a09-b614-44dd-b7ba-fb5becd30437}">
+ <ENVIRONMENT hidden="false" order="0" name="Environment" id="{549f704f-d7ac-4430-949f-b90ff0192083}" data=""/>
+ <VECTOR surface_mode="Freeform" hidden="false" unique_id="{3bef3da3-5bed-46fb-bccf-4e79a10128c2}" link_id="0" name="position" is_linked="0" id="{3bef3da3-5bed-46fb-bccf-4e79a10128c2}">
+  <DOUBLE hidden="false" order="0" single_keyframe_only="1" animated="1" default="0" name="X" id="{8632ba6f-42b7-4100-83db-6f6257e69161}">
+   <KEYFRAME handle1_x="33.8667" handle2_y="0" handle1_type="SMOOTH" time="33.86666870117188" handle2_type="SMOOTH" data="0" handle1_y="0" handle2_x="33.8667"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="1" single_keyframe_only="1" animated="1" default="0" name="Y" id="{73d3602e-b94e-4de1-b722-215b00a7b1d0}">
+   <KEYFRAME handle1_x="33.8667" handle2_y="0" handle1_type="SMOOTH" time="33.86666870117188" handle2_type="SMOOTH" data="0" handle1_y="0" handle2_x="33.8667"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="2" single_keyframe_only="1" animated="1" default="0" name="Z" id="{93449615-4d14-4205-b0a8-224666ab44c5}">
+   <KEYFRAME handle1_x="33.8667" handle2_y="0" handle1_type="SMOOTH" time="33.86666870117188" handle2_type="SMOOTH" data="0" handle1_y="0" handle2_x="33.8667"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{9b771f5c-4e74-4820-a6ac-42b373a46715}">
+  <RADIAN hidden="false" order="0" single_keyframe_only="1" animated="1" default="0" name="X" id="{59858327-d9f5-453d-bb7b-5be2712c2cd6}">
+   <KEYFRAME handle1_x="33.8667" handle2_y="0" handle1_type="SMOOTH" time="33.86666870117188" handle2_type="SMOOTH" data="0" handle1_y="0" handle2_x="33.8667"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="1" single_keyframe_only="1" animated="1" default="0" name="Y" id="{faa0afec-29da-41cb-b492-eb089b52bb48}">
+   <KEYFRAME handle1_x="33.8667" handle2_y="0" handle1_type="SMOOTH" time="33.86666870117188" handle2_type="SMOOTH" data="0" handle1_y="0" handle2_x="33.8667"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="2" single_keyframe_only="1" animated="1" default="0" name="Z" id="{380a7f64-cd69-4d83-be9d-2362ffa88994}">
+   <KEYFRAME handle1_x="33.8667" handle2_y="0" handle1_type="SMOOTH" time="33.86666870117188" handle2_type="SMOOTH" data="0" handle1_y="0" handle2_x="33.8667"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE hidden="false" name="Links" id="{1a90e4a5-cc9e-41d3-9fa9-61fa587d0af6}"/>
+ <NODE hidden="false" name="Warscape Properties" id="{41b23cdc-9460-4a1c-988a-1fc007ca1c8a}">
+  <WARSCAPE_PROPERTIES hidden="false" warscape_properties_file="../cameras/jing_province_army0101.xml" name="jing_province_army0101.xml" id="{0ca76585-4e7a-498a-9b36-9bb48f1fb7c8}"/>
+ </NODE>
+ <NODE hidden="false" name="Audio Events" id="{63f0040f-2330-4cb7-b611-a835fbb2ef32}">
+  <AUDIO_EVENT hidden="false" name="audio_event_file_12.kfa" id="{0381f60e-0fb3-465c-8f40-38e755429ddb}" audio_event_file="../audio/audio_event_file_12.kfa"/>
+  <AUDIO_EVENT hidden="false" name="audio_event_file_13.kfa" id="{10683365-c14d-493f-bc3d-9d2a638d40a7}" audio_event_file="../audio/audio_event_file_13.kfa"/>
+  <AUDIO_EVENT hidden="false" name="audio_event_file_14.kfa" id="{51277c14-0c40-4857-afaa-c992da87a9dc}" audio_event_file="../audio/audio_event_file_14.kfa"/>
+  <AUDIO_EVENT hidden="false" name="audio_event_file_15.kfa" id="{8474554d-946e-4fd3-8e84-3b36501d3dd7}" audio_event_file="../audio/audio_event_file_15.kfa"/>
+  <AUDIO_EVENT hidden="false" name="snd_sweet_jing.kfa" id="{740824a1-a8ed-4620-86b4-8fd12e81a84e}" audio_event_file="../audio/snd_sweet_jing.kfa"/>
+ </NODE>
+</SCENE_FILE>

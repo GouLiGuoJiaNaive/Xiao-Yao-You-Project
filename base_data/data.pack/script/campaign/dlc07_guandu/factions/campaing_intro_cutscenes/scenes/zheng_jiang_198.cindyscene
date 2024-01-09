@@ -1,0 +1,32 @@
+<SCENE_FILE id="{33f35f7a-3bae-470c-8703-69b5cd7f8ba9}" start_record_time="0" end_record_time="66.00000344216824" hidden="false" perspective_camera="350.923,5.8183,360.433:354.48,3.8492,368.052" version="26">
+ <ENVIRONMENT id="{94153141-e5cc-4e20-989b-b5da075eac44}" hidden="false" name="Environment" order="0" data=""/>
+ <VECTOR id="{ced74cde-93f8-4e78-a6ee-a826b3ba68c5}" hidden="false" name="position" link_id="0" surface_mode="Freeform" unique_id="{ced74cde-93f8-4e78-a6ee-a826b3ba68c5}" is_linked="0">
+  <DOUBLE id="{8f6cd6e4-0973-4891-8b0b-2fbc3ac5b5fe}" hidden="false" name="X" animated="1" single_keyframe_only="1" default="0" order="0">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="6.5" time="6.499999523162842" handle1_y="0" handle2_y="0" handle1_x="6.5" handle2_type="SMOOTH" data="0"/>
+  </DOUBLE>
+  <DOUBLE id="{3a36b13d-8623-4f03-a312-be60b24a8d4e}" hidden="false" name="Y" animated="1" single_keyframe_only="1" default="0" order="1">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="6.5" time="6.499999523162842" handle1_y="0" handle2_y="0" handle1_x="6.5" handle2_type="SMOOTH" data="0"/>
+  </DOUBLE>
+  <DOUBLE id="{ca5ed09f-6fc0-4767-963e-45703c40d69b}" hidden="false" name="Z" animated="1" single_keyframe_only="1" default="0" order="2">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="6.5" time="6.499999523162842" handle1_y="0" handle2_y="0" handle1_x="6.5" handle2_type="SMOOTH" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{f29bb4d5-5f6c-4e15-a340-a8476eb76848}" hidden="false" name="rotation">
+  <RADIAN id="{38886092-cde4-4272-b2e8-ae9a79aadfea}" hidden="false" name="X" animated="1" single_keyframe_only="1" default="0" order="0">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="6.5" time="6.499999523162842" handle1_y="0" handle2_y="0" handle1_x="6.5" handle2_type="SMOOTH" data="0"/>
+  </RADIAN>
+  <RADIAN id="{327d1ebc-b0e3-4bbc-b8e6-c0f290a1166b}" hidden="false" name="Y" animated="1" single_keyframe_only="1" default="0" order="1">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="6.5" time="6.499999523162842" handle1_y="0" handle2_y="0" handle1_x="6.5" handle2_type="SMOOTH" data="0"/>
+  </RADIAN>
+  <RADIAN id="{cb4ddd83-0bd3-4fb9-b776-bc81570d20c6}" hidden="false" name="Z" animated="1" single_keyframe_only="1" default="0" order="2">
+   <KEYFRAME handle1_type="SMOOTH" handle2_x="6.5" time="6.499999523162842" handle1_y="0" handle2_y="0" handle1_x="6.5" handle2_type="SMOOTH" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{7eb3f6a2-7df6-4f81-a7dd-2b7bab3936c5}" hidden="false" name="Links"/>
+ <NODE id="{fabeef35-7ce1-4bb6-98a1-104da4d54086}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{da457413-26f5-4bec-8220-b967bdd8549f}" hidden="false" name="zheng_jiang_cam.xml" warscape_properties_file="../cameras/zheng_jiang_cam.xml"/>
+ </NODE>
+ <NODE id="{f31afe62-555c-468b-91e7-e0fd06e47416}" hidden="false" name="Triggers">
+  <TRIGGER id="{dc364ca0-0131-4d9d-89b7-8cd88821c054}" trigger_file="../triggers/zheng_jiang_200.ktr" hidden="false" name="zheng_jiang_200.ktr"/>
+ </NODE>
+</SCENE_FILE>

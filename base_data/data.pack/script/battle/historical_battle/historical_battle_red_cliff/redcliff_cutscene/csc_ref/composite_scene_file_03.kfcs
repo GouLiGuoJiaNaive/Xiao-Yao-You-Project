@@ -1,0 +1,18 @@
+<COMPOSITE_SCENE_FILE hidden="false" version="25" id="{442bf4fc-3fab-4d4e-88b9-229ce3a40ca9}" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/horses_test.csc">
+ <VECTOR hidden="false" is_linked="0" unique_id="{c0e12a38-3406-4a7c-879d-d2388c9a6524}" id="{c0e12a38-3406-4a7c-879d-d2388c9a6524}" surface_mode="Freeform" link_id="-1" name="position">
+  <DOUBLE default="0" hidden="false" id="{0c6e540b-a024-4000-8df0-32c8295fc0f0}" animated="0" single_keyframe_only="1" order="0" name="X"/>
+  <DOUBLE default="0" hidden="false" id="{7729e8f0-59e3-460e-8c71-806940f61e2c}" animated="0" single_keyframe_only="1" order="1" name="Y"/>
+  <DOUBLE default="0" hidden="false" id="{8fda4ea4-9b4a-4be0-929b-cc4f348cdf98}" animated="0" single_keyframe_only="1" order="2" name="Z"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{7bdba57a-5b65-45f6-a3f9-346ac683251f}" name="rotation">
+  <RADIAN default="0" hidden="false" id="{959d3cfd-df8b-4bc8-aa02-25a867dad4b1}" animated="0" single_keyframe_only="1" order="0" name="X"/>
+  <RADIAN default="0" hidden="false" id="{366f1bdd-b4e7-40e1-ac7a-61efd513ad74}" animated="0" single_keyframe_only="1" order="1" name="Y"/>
+  <RADIAN default="0" hidden="false" id="{dd374ca0-3e5d-4267-b716-15b3781d29a7}" animated="0" single_keyframe_only="1" order="2" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" hidden="false" id="{9082304a-df17-47ea-a924-6530667c45d0}" animated="0" single_keyframe_only="1" order="2" name="scale" user_friendy_name="Scale"/>
+ <BOOL default="0" hidden="false" id="{bda45ecd-07c3-4f45-9079-b5a3f951edbf}" animated="1" single_keyframe_only="0" order="3" name="active" user_friendy_name="Active">
+  <KEYFRAME time="2.89900016784668" data="0"/>
+  <KEYFRAME time="2.900000095367432" data="1"/>
+ </BOOL>
+ <DOUBLE default="1" hidden="false" id="{5aefdcf5-c6c3-49ef-8491-fac930c2c1af}" animated="1" single_keyframe_only="0" order="4" name="speed_multiplier" user_friendy_name="Speed Multiplier"/>
+</COMPOSITE_SCENE_FILE>

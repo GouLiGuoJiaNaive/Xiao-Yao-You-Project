@@ -1,0 +1,17 @@
+<SCENE_FILE hidden="false" start_record_time="12.00000005215406" version="26" id="{2be6cc54-0a5f-4e04-abf3-0ce21465df26}" perspective_camera="4.21154,567.113,-20.8584:208.225,508.52,224.248" end_record_time="15.00000078231096">
+ <ENVIRONMENT hidden="false" id="{f587cb69-4be7-4aae-948c-a6a5f4a66620}" order="0" name="Environment" data=""/>
+ <VECTOR hidden="false" link_id="0" is_linked="0" id="{7af2985d-3c03-489d-a944-0343407e3d35}" unique_id="{7af2985d-3c03-489d-a944-0343407e3d35}" surface_mode="Freeform" name="position">
+  <DOUBLE hidden="false" single_keyframe_only="1" default="0" id="{3d002f1e-e614-478c-9cac-750dff18d73f}" order="0" animated="1" name="X"/>
+  <DOUBLE hidden="false" single_keyframe_only="1" default="0" id="{94c92aa8-ce58-49ef-9517-a49f91f2a957}" order="1" animated="1" name="Y"/>
+  <DOUBLE hidden="false" single_keyframe_only="1" default="0" id="{d3340d4f-edd1-4c05-8606-4f8f9b0a5af5}" order="2" animated="1" name="Z"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{5409122c-3ae1-409d-86ce-313dd1186a97}" name="rotation">
+  <RADIAN hidden="false" single_keyframe_only="1" default="0" id="{c1036916-7701-4720-afac-de6a91106df8}" order="0" animated="1" name="X"/>
+  <RADIAN hidden="false" single_keyframe_only="1" default="0" id="{57f8b979-aa3f-4396-b922-f760b8bba2f7}" order="1" animated="1" name="Y"/>
+  <RADIAN hidden="false" single_keyframe_only="1" default="0" id="{0343a794-642e-487c-a77f-6b52eb087e52}" order="2" animated="1" name="Z"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{13ee8ae6-3653-4f3d-8a28-41a6b89d2ac4}" name="Links"/>
+ <NODE hidden="false" id="{9bb27d30-2040-449f-a703-ce401944a82d}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES hidden="false" warscape_properties_file="../cameras/pan_camera_dynasty_arid_03.xml" id="{ede153f1-b54b-4313-b256-854e81088a23}" name="pan_camera_dynasty_arid_03.xml"/>
+ </NODE>
+</SCENE_FILE>

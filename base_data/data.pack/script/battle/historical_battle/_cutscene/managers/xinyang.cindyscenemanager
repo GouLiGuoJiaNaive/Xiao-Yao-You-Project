@@ -1,0 +1,7 @@
+<SCENE_MANAGER_FILE start_record_time="13.10000068321824" hidden="false" end_record_time="55.16666954383254" version="25" perspective_camera="-136.32,607.86,10.09:-144.94,604.47,24.33" id="{3aa04f81-65e0-4086-b56c-8f140cecadfc}">
+ <START_SCENE scene="historical_battle_intros_xinyang_r01_s01.CindyScene" real_time="0"/>
+ <NODE hidden="false" name="Links" id="{2ead29fa-ec9e-4e6e-bf4f-911a81a2fff8}"/>
+ <NODE hidden="false" name="Scenes" id="{4dd35b61-7e8b-4788-be17-00e407e4872b}">
+  <SCENE hidden="false" scene_file="../scenes/historical_battle_intros_xinyang_r01_s01.CindyScene" name="historical_battle_intros_xinyang_r01_s01.CindyScene" id="{a14cb612-17da-41a0-976f-84e6a0d7e2da}"/>
+ </NODE>
+</SCENE_MANAGER_FILE>

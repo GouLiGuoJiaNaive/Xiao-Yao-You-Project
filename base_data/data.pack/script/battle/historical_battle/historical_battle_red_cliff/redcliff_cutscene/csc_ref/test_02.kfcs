@@ -1,0 +1,24 @@
+<COMPOSITE_SCENE_FILE directory="animations/cinematic/library/csc/bespoke/igc_red_cliff/cao_camp_concern.csc" hidden="false" id="{f6982919-04b7-4b90-bcce-e2bbe495a2cf}" version="25">
+ <VECTOR surface_mode="Freeform" link_id="-1" unique_id="{42a247ef-38d6-415b-b271-34ed69673bb0}" hidden="false" is_linked="0" id="{42a247ef-38d6-415b-b271-34ed69673bb0}" name="position">
+  <DOUBLE order="0" hidden="false" single_keyframe_only="1" animated="0" default="0" id="{98cd0816-d2e0-4c02-8c26-7ea43d974c01}" name="X">
+   <KEYFRAME time="-1" data="-287.6498107910156"/>
+  </DOUBLE>
+  <DOUBLE order="1" hidden="false" single_keyframe_only="1" animated="0" default="0" id="{feeb282f-d431-411a-a094-5a4034bc08b3}" name="Y">
+   <KEYFRAME time="-1" data="18.78476905822754"/>
+  </DOUBLE>
+  <DOUBLE order="2" hidden="false" single_keyframe_only="1" animated="0" default="0" id="{f8618140-5ded-4c83-ad00-0a9400ae14e7}" name="Z">
+   <KEYFRAME time="-1" data="-33.133934020996094"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{28a528ae-4ed1-45bb-a21e-e4e59f9fd8ef}" name="rotation">
+  <RADIAN order="0" hidden="false" single_keyframe_only="1" animated="0" default="0" id="{7bb7eeb8-83e6-4c52-8848-ae91752696ac}" name="X"/>
+  <RADIAN order="1" hidden="false" single_keyframe_only="1" animated="0" default="0" id="{b627444f-a71d-4ff4-8201-a0c3114315c0}" name="Y"/>
+  <RADIAN order="2" hidden="false" single_keyframe_only="1" animated="0" default="0" id="{0731770e-f509-4e23-9332-ee662284e8a4}" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" hidden="false" single_keyframe_only="1" animated="0" default="1" id="{0874ac0e-ab03-469f-b06b-3df0cad86781}" user_friendy_name="Scale" name="scale"/>
+ <BOOL order="3" hidden="false" single_keyframe_only="0" animated="1" default="0" id="{3d904a0c-cc8b-4777-9881-0b2ad76cfe23}" user_friendy_name="Active" name="active">
+  <KEYFRAME time="32.23233413696289" data="0"/>
+  <KEYFRAME time="32.23333358764648" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" hidden="false" single_keyframe_only="0" animated="1" default="1" id="{5c28cdaa-d8f2-4bd1-b4ea-0874bbc2572c}" user_friendy_name="Speed Multiplier" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,28 @@
+<COMPOSITE_SCENE_FILE directory="script/battle/historical_battle/historical_battle_xiapi/composite_scene/scene01_catapult_projectile.csc" version="23" name="projectile_04.kfcs" id="{1c5ba7c6-4e65-4ea0-a2ec-e27060fc9faf}">
+ <VECTOR is_linked="0" link_id="0" unique_id="{2bbcfdf9-d234-4c71-ada3-f9fc8a3c8bb3}" name="position" surface_mode="Freeform" id="{2bbcfdf9-d234-4c71-ada3-f9fc8a3c8bb3}">
+  <DOUBLE hidden="false" default="0" order="0" animated="1" single_keyframe_only="0" name="X">
+   <KEYFRAME data="-110.4057083129883" time="68.48492431640625"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" order="1" animated="1" single_keyframe_only="0" name="Y">
+   <KEYFRAME data="222.4519653320313" handle2_type="EASY" time="67.24588012695313"/>
+   <KEYFRAME data="210.8177337646484" handle1_x="68.4532" handle1_y="213.272" handle1_type="BEZIER" time="68.48492431640625"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" order="2" animated="1" single_keyframe_only="0" name="Z">
+   <KEYFRAME data="-473.915283203125" time="67.24588012695313"/>
+   <KEYFRAME data="-381.2693786621094" time="68.48492431640625"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{c9428a55-51ec-4776-a321-233b79c5573b}">
+  <RADIAN hidden="false" default="0" order="0" animated="0" single_keyframe_only="1" name="X"/>
+  <RADIAN hidden="false" default="0" order="1" animated="0" single_keyframe_only="1" name="Y"/>
+  <RADIAN hidden="false" default="0" order="2" animated="0" single_keyframe_only="1" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" default="1" order="2" user_friendy_name="Scale" animated="0" single_keyframe_only="1" name="scale">
+  <KEYFRAME data="1" time="0"/>
+ </DOUBLE>
+ <BOOL hidden="false" default="0" order="3" user_friendy_name="Active" animated="1" single_keyframe_only="0" name="active">
+  <KEYFRAME data="0" time="67"/>
+  <KEYFRAME data="1" time="67.23332977294922"/>
+ </BOOL>
+ <DOUBLE hidden="false" default="1" order="4" user_friendy_name="Speed Multiplier" animated="1" single_keyframe_only="0" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

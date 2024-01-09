@@ -1,0 +1,12 @@
+<NOISE_FILE hidden="false" version="25" id="{09898a53-cc0c-4dc6-bb96-0cc231212003}">
+ <DOUBLE user_friendy_name="Amplitude" name="amplitude" hidden="false" order="0" animated="0" single_keyframe_only="1" default="20" id="{8658ef07-d132-4fe8-b95b-55b18e464ac8}">
+  <KEYFRAME data="10" time="0"/>
+ </DOUBLE>
+ <DOUBLE user_friendy_name="Frequency" name="frequency" hidden="false" order="1" animated="0" single_keyframe_only="1" default="5" id="{08f55f4e-f144-4122-a39f-7d193e5f346b}">
+  <KEYFRAME data="7" time="0"/>
+ </DOUBLE>
+ <INT user_friendy_name="Number of Octaves" name="number_of_octaves" hidden="false" order="2" animated="1" single_keyframe_only="0" default="3" id="{d97f34ab-5dc2-43ad-93f4-651218b287fc}"/>
+ <DOUBLE user_friendy_name="Offset" name="offset" hidden="false" order="3" animated="1" single_keyframe_only="0" default="10" id="{4c29ba19-2816-496b-947d-ad792b02ad13}"/>
+ <DOUBLE user_friendy_name="Persistence" name="persistence" hidden="false" order="4" animated="1" single_keyframe_only="0" default="0.5" id="{a0d80cb2-a6d0-4cc1-b5a0-0eee10603dd0}"/>
+ <DOUBLE user_friendy_name="Lacunarity" name="lacunarity" hidden="false" order="5" animated="1" single_keyframe_only="0" default="2" id="{46f701a6-c918-4036-a4ec-d6449be22759}"/>
+</NOISE_FILE>

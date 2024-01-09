@@ -1,0 +1,23 @@
+<SCENE_FILE end_record_time="1000" start_record_time="0" hidden="false" perspective_camera="-743.204,224.456,-1216.87:-750.267,216.663,-1233.89" version="25" id="{515b31b9-f120-46c8-901c-a7fa1992b7fc}">
+ <ENVIRONMENT name="Environment" hidden="false" order="0" data="Weather/xiapi.environment" id="{7af1a539-a125-415a-9b21-afc18b960ed2}"/>
+ <VECTOR unique_id="{9526cdd1-6f36-4691-8c33-7708d9b8b6f0}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{9526cdd1-6f36-4691-8c33-7708d9b8b6f0}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="1" default="0" id="{3bf6fdcc-d158-4e32-a2c5-55f9eb6c3d0e}"/>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="1" default="0" id="{55732e86-3566-45eb-8c4e-cd5b8f490c00}"/>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="1" default="0" id="{c89996cf-02a3-46de-bac7-d164078028e2}"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{1d1b121d-f6f0-4ba5-ad6e-8e1dfb8c5c15}">
+  <RADIAN name="X" hidden="false" order="0" animated="1" single_keyframe_only="1" default="0" id="{01fab116-1fb3-4b9f-a204-dbbb470a6516}"/>
+  <RADIAN name="Y" hidden="false" order="1" animated="1" single_keyframe_only="1" default="0" id="{6ec273ae-403d-46cf-9900-24d4616f9880}"/>
+  <RADIAN name="Z" hidden="false" order="2" animated="1" single_keyframe_only="1" default="0" id="{21ea4dbd-fa79-4dd8-bd38-ac53b50921d8}"/>
+ </ROTATION_AXES>
+ <NODE name="Links" hidden="false" id="{c577d500-4419-48da-bda8-89757c00b1ff}"/>
+ <NODE name="Composite Scenes" hidden="false" id="{898ddeff-41f9-4a2a-9b45-41a3fd0e8809}">
+  <COMPOSITE_SCENE name="xiahou.kfcs" hidden="false" composite_scene_file="../csc_ref/xiahou.kfcs" id="{426ca14b-36fc-4d38-b0bd-b11463f7bc91}"/>
+  <COMPOSITE_SCENE name="cav_02.kfcs" hidden="false" composite_scene_file="../csc_ref/cav_02.kfcs" id="{ddc606b9-d7fb-4870-b9d9-99674e5b8c4b}"/>
+  <COMPOSITE_SCENE name="cav_01.kfcs" hidden="false" composite_scene_file="../csc_ref/cav_01.kfcs" id="{1f93c05b-6582-45b1-803f-8f032c3ef951}"/>
+  <COMPOSITE_SCENE name="cav_03.kfcs" hidden="false" composite_scene_file="../csc_ref/cav_03.kfcs" id="{fe1f8690-0e68-46e4-bc7f-a70fc206145a}"/>
+ </NODE>
+ <NODE name="Warscape Properties" hidden="false" id="{692f9592-d18b-42f1-87bd-391435ffb666}">
+  <WARSCAPE_PROPERTIES name="cav_charge_front.xml" hidden="false" warscape_properties_file="../cameras/cav_charge_front.xml" id="{b2e76e15-5001-43bf-8c4a-e659899a7769}"/>
+ </NODE>
+</SCENE_FILE>

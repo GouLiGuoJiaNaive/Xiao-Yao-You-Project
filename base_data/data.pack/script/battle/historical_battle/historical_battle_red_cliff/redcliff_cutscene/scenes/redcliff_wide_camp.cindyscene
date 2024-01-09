@@ -1,0 +1,14 @@
+<SCENE_FILE version="25" perspective_camera="-71.4201,155.853,-280.758:12.534,88.8194,-57.9526" start_record_time="0.4666666910052299" id="{e0005fbd-3a81-4760-b857-14089a2a6e4e}" hidden="false" end_record_time="51.53333602100611">
+ <ENVIRONMENT data="Weather/evening_01.environment" order="0" id="{2740d00a-77bf-4749-91f1-8c864d088316}" hidden="false" name="Environment"/>
+ <VECTOR surface_mode="Freeform" is_linked="0" id="{9667dd20-c778-45d0-afd9-f6c0b7a61845}" hidden="false" link_id="-1" unique_id="{9667dd20-c778-45d0-afd9-f6c0b7a61845}" name="position">
+  <DOUBLE order="0" id="{3f0bb136-11d8-4458-90b8-b82a80dbc5c3}" single_keyframe_only="1" hidden="false" animated="1" name="X" default="0"/>
+  <DOUBLE order="1" id="{fd13e13f-3fc6-49ac-8eb0-a3a767dd5002}" single_keyframe_only="1" hidden="false" animated="1" name="Y" default="0"/>
+  <DOUBLE order="2" id="{dd7ded5d-148d-4d07-84fd-ae05bcdc1758}" single_keyframe_only="1" hidden="false" animated="1" name="Z" default="0"/>
+ </VECTOR>
+ <ROTATION_AXES id="{4993fcf5-7da4-4013-ae19-adf71cf2075d}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{6633c9c0-0ba8-42fd-8f9d-2e34d5c19f3f}" single_keyframe_only="1" hidden="false" animated="1" name="X" default="0"/>
+  <RADIAN order="1" id="{ed34b2c8-af78-4e67-9ec1-f800a85512a1}" single_keyframe_only="1" hidden="false" animated="1" name="Y" default="0"/>
+  <RADIAN order="2" id="{76ca706b-8b5f-483a-965a-02eb9821677c}" single_keyframe_only="1" hidden="false" animated="1" name="Z" default="0"/>
+ </ROTATION_AXES>
+ <NODE id="{528afcec-e9f0-47c6-8fd9-a181a4c5e933}" hidden="false" name="Links"/>
+</SCENE_FILE>

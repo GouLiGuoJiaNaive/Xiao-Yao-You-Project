@@ -1,0 +1,11 @@
+<TRIGGER_FILE hidden="false" id="{5c714af3-714a-443e-81af-60b6a1d48bfc}" version="26">
+ <STRING hidden="false" order="0" name="Timeline" id="{9b3c931e-7d21-4dd9-bbb9-bef74d680c58}">
+  <KEYFRAME data="empress_he_advisor_01" time="4.5"/>
+  <KEYFRAME data="empress_he_advisor_02" time="14.22000026702881"/>
+  <KEYFRAME data="empress_he_advisor_03" time="27.44000053405762"/>
+  <KEYFRAME data="empress_he_advisor_04" time="36.81000137329102"/>
+  <KEYFRAME data="empress_he_advisor_05" time="45.11000061035156"/>
+  <KEYFRAME data="empress_he_advisor_06" time="56.88999938964844"/>
+  <KEYFRAME data="empress_he_advisor_07" time="65.37000274658203"/>
+ </STRING>
+</TRIGGER_FILE>

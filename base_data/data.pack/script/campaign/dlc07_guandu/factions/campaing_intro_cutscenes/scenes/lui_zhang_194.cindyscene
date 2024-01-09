@@ -1,0 +1,20 @@
+<SCENE_FILE perspective_camera="137.148,5.00666,271.817:139.533,1.87469,279.53" version="26" hidden="false" id="{dff7580a-d277-47cb-a558-eb72d7b17059}" start_record_time="0" end_record_time="73.50000383332372">
+ <ENVIRONMENT hidden="false" id="{5f78b855-7f6c-4337-a799-95b3c5e7826f}" order="0" name="Environment" data=""/>
+ <VECTOR link_id="0" hidden="false" id="{e7ee7206-ab39-4e64-9eac-4a7a9353458b}" surface_mode="Freeform" is_linked="0" unique_id="{e7ee7206-ab39-4e64-9eac-4a7a9353458b}" name="position">
+  <DOUBLE animated="1" hidden="false" default="0" id="{7fe1ff81-9a3f-4729-91ef-1fa976e671a4}" single_keyframe_only="1" order="0" name="X"/>
+  <DOUBLE animated="1" hidden="false" default="0" id="{c2797704-5431-45ca-8e76-62fd748317fe}" single_keyframe_only="1" order="1" name="Y"/>
+  <DOUBLE animated="1" hidden="false" default="0" id="{2ac3d226-2deb-437e-b9d8-a7749226c6cc}" single_keyframe_only="1" order="2" name="Z"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{4cc80da2-8366-4833-b854-a6060a6d3b01}" name="rotation">
+  <RADIAN animated="1" hidden="false" default="0" id="{c6d695f1-39e5-4331-87af-4ac970317662}" single_keyframe_only="1" order="0" name="X"/>
+  <RADIAN animated="1" hidden="false" default="0" id="{7b79e8ba-ea93-410e-95c4-9086e41eb719}" single_keyframe_only="1" order="1" name="Y"/>
+  <RADIAN animated="1" hidden="false" default="0" id="{867dae23-501c-44af-9a14-9d7b0165e8eb}" single_keyframe_only="1" order="2" name="Z"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{48627266-8f09-4030-a461-8de9d3cf8cb8}" name="Links"/>
+ <NODE hidden="false" id="{ee227f4f-e798-4380-8126-f4039121e928}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES hidden="false" id="{1a4b604c-f781-4612-9752-f8a870218f0e}" warscape_properties_file="../cameras/lui_zhang_cam.xml" name="lui_zhang_cam.xml"/>
+ </NODE>
+ <NODE hidden="false" id="{e8d00f15-4d4d-42d2-a856-d024b23342ff}" name="Triggers">
+  <TRIGGER hidden="false" trigger_file="../triggers/liu_yan_194.ktr" id="{15d7888c-f0d5-4f2b-9517-5329798c1946}" name="liu_yan_194.ktr"/>
+ </NODE>
+</SCENE_FILE>

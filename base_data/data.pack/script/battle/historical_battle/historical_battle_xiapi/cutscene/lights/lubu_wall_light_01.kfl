@@ -1,0 +1,24 @@
+<POINT_LIGHT_FILE name="lubu_wall_light_01.kfl" id="{65f342c6-8ec3-4cb7-8606-fc19070ae19f}" version="23">
+ <VECTOR name="position" unique_id="{51b2b1b0-ea92-4502-ade6-3ec751514df0}" id="{51b2b1b0-ea92-4502-ade6-3ec751514df0}" surface_mode="Freeform" link_id="0" is_linked="0">
+  <DOUBLE name="X" single_keyframe_only="1" order="0" hidden="false" animated="0" default="0">
+   <KEYFRAME data="-98.67681121826172" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" single_keyframe_only="1" order="1" hidden="false" animated="0" default="0">
+   <KEYFRAME data="203.2600250244141" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" single_keyframe_only="1" order="2" hidden="false" animated="0" default="0">
+   <KEYFRAME data="-397.2305297851563" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <RGB name="colour">
+  <DOUBLE name="R" single_keyframe_only="1" order="0" hidden="false" animated="0" default="1024"/>
+  <DOUBLE name="G" single_keyframe_only="1" order="1" hidden="false" animated="0" default="1024"/>
+  <DOUBLE name="B" single_keyframe_only="1" order="2" hidden="false" animated="0" default="1024"/>
+ </RGB>
+ <DOUBLE name="Multiplier" single_keyframe_only="1" order="3" hidden="false" animated="0" default="100">
+  <KEYFRAME data="30" time="0"/>
+ </DOUBLE>
+ <DOUBLE name="Range" single_keyframe_only="1" order="4" hidden="false" animated="0" default="10"/>
+ <DOUBLE name="Scatter Diameter" single_keyframe_only="1" order="5" hidden="false" animated="0" default="0.2000000029802322"/>
+ <BOOL name="Casts Shadows" single_keyframe_only="1" order="6" hidden="false" animated="0" default="1"/>
+</POINT_LIGHT_FILE>

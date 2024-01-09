@@ -1,0 +1,35 @@
+<SCENE_FILE version="26" start_record_time="0" end_record_time="60.00000312924385" hidden="false" id="{93ae38bf-09f9-4af3-b10b-737ac476968d}" perspective_camera="295.311,4.41644,370.883:287.089,1.7767,371.535">
+ <ENVIRONMENT name="Environment" data="" hidden="false" order="0" id="{a9af6fcd-423a-4e0c-8b1f-b8d3a79756f9}"/>
+ <VECTOR link_id="0" name="position" is_linked="0" unique_id="{135dd8d9-ac29-49b6-b855-101708f08f3a}" surface_mode="Freeform" hidden="false" id="{135dd8d9-ac29-49b6-b855-101708f08f3a}">
+  <DOUBLE default="0" name="X" animated="1" hidden="false" order="0" id="{0a3cbde3-514b-4e44-bdcd-7f8cb146bd78}" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" name="Y" animated="1" hidden="false" order="1" id="{f89da351-54a3-4c9f-8286-ebe5b9b99867}" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" name="Z" animated="1" hidden="false" order="2" id="{c5e54d78-a38b-442a-a607-aa4ea0377134}" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{89207b74-62a6-4ecf-b1a2-1c767ef9ca3c}">
+  <RADIAN default="0" name="X" animated="1" hidden="false" order="0" id="{ae184799-3d22-4a92-b106-252758e8da8e}" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" name="Y" animated="1" hidden="false" order="1" id="{51a0ed0a-6e7c-4035-ac89-b8d9b2a5d5c7}" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" name="Z" animated="1" hidden="false" order="2" id="{318ea690-033f-4c28-b377-87b21a97ea4e}" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" hidden="false" id="{d0de4a1d-3bca-4b54-bae5-f990c4c6d63b}"/>
+ <NODE name="Warscape Properties" hidden="false" id="{18cbd68a-3b61-43e2-9771-ba6df050796c}">
+  <WARSCAPE_PROPERTIES name="cam_kongrong.xml" hidden="false" warscape_properties_file="../cameras/cam_kongrong.xml" id="{1bc5e8e6-da95-4419-8785-fee49850bd13}"/>
+ </NODE>
+ <NODE name="Triggers" hidden="false" id="{98e9fca1-0b7c-4d8f-a210-eaaa33018911}">
+  <TRIGGER name="kong_rong.ktr" hidden="false" trigger_file="../triggers/kong_rong.ktr" id="{45849e7b-e924-4c36-a882-01433da153aa}"/>
+ </NODE>
+ <NODE name="Particle Effects" hidden="false" id="{7054e836-87ac-471e-8556-6dda9ed5642e}">
+  <EFFECT effect_file="../particles/yuan_shao_fire.kfe" name="yuan_shao_fire.kfe" hidden="false" id="{46b1abb8-128b-4dfa-a159-ccf910b7fed7}"/>
+ </NODE>
+</SCENE_FILE>

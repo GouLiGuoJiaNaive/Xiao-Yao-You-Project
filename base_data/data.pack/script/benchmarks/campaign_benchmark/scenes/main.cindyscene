@@ -1,0 +1,37 @@
+<SCENE_FILE start_record_time="0" perspective_camera="206.421,10.1994,395.188:198.147,8.30693,396.905" end_record_time="90.03333802893758" hidden="false" version="25" id="{0f62527e-7818-40bc-8eaa-8e0fb633d7f2}">
+ <ENVIRONMENT order="0" name="Environment" data="Weather/Default.environment" hidden="false" id="{99b48c88-08dc-45aa-b52c-5e848cb02967}"/>
+ <VECTOR link_id="0" name="position" hidden="false" surface_mode="Freeform" id="{ad9106ff-1e20-442e-aea0-fdb8d0f74c9c}" is_linked="0" unique_id="{ad9106ff-1e20-442e-aea0-fdb8d0f74c9c}">
+  <DOUBLE order="0" name="X" default="0" hidden="false" single_keyframe_only="1" animated="1" id="{7ace3772-a73e-44f3-ae23-44ef3573fbf2}">
+   <KEYFRAME handle2_x="6.30825" handle2_type="SMOOTH" handle2_y="0" handle1_y="0" handle1_type="SMOOTH" data="0" time="6.308248996734619" handle1_x="6.30825"/>
+  </DOUBLE>
+  <DOUBLE order="1" name="Y" default="0" hidden="false" single_keyframe_only="1" animated="1" id="{9f811dab-a18e-42ae-b01e-9b13fcbb9058}">
+   <KEYFRAME handle2_x="6.30825" handle2_type="SMOOTH" handle2_y="0" handle1_y="0" handle1_type="SMOOTH" data="0" time="6.308248996734619" handle1_x="6.30825"/>
+  </DOUBLE>
+  <DOUBLE order="2" name="Z" default="0" hidden="false" single_keyframe_only="1" animated="1" id="{ac768d74-1caf-408e-b957-5e13d065b7f7}">
+   <KEYFRAME handle2_x="6.30825" handle2_type="SMOOTH" handle2_y="0" handle1_y="0" handle1_type="SMOOTH" data="0" time="6.308248996734619" handle1_x="6.30825"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{34c833b8-7dae-478c-a2b7-2dedde7d3893}">
+  <RADIAN order="0" name="X" default="0" hidden="false" single_keyframe_only="1" animated="1" id="{4672c2f5-5036-473e-a1cf-9d554f440175}">
+   <KEYFRAME handle2_x="6.30825" handle2_type="SMOOTH" handle2_y="0" handle1_y="0" handle1_type="SMOOTH" data="0" time="6.308248996734619" handle1_x="6.30825"/>
+  </RADIAN>
+  <RADIAN order="1" name="Y" default="0" hidden="false" single_keyframe_only="1" animated="1" id="{b5d15946-da83-44b7-aae0-098ac369224f}">
+   <KEYFRAME handle2_x="6.30825" handle2_type="SMOOTH" handle2_y="0" handle1_y="0" handle1_type="SMOOTH" data="0" time="6.308248996734619" handle1_x="6.30825"/>
+  </RADIAN>
+  <RADIAN order="2" name="Z" default="0" hidden="false" single_keyframe_only="1" animated="1" id="{de023c57-b80b-4acb-af67-7ec5030931fa}">
+   <KEYFRAME handle2_x="6.30825" handle2_type="SMOOTH" handle2_y="0" handle1_y="0" handle1_type="SMOOTH" data="0" time="6.308248996734619" handle1_x="6.30825"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" hidden="false" id="{da8c5790-6177-413a-b8fe-0dee1f068270}"/>
+ <NODE name="Warscape Properties" hidden="false" id="{060deaac-aa30-4488-9722-2e67c50ccdf4}">
+  <WARSCAPE_PROPERTIES name="cam.xml" hidden="false" warscape_properties_file="../cameras/cam.xml" id="{5fbb930b-0df1-4f8b-8cd5-0eb4051e87a3}"/>
+ </NODE>
+ <NODE name="Composite Scenes" hidden="false" id="{6dc412bb-5757-473d-81c2-924e640c5b1c}">
+  <COMPOSITE_SCENE name="siege_01.kfcs" hidden="false" composite_scene_file="../csc_ref/siege_01.kfcs" id="{d7340733-60b5-409d-bd0b-a9dbab88ab10}"/>
+  <COMPOSITE_SCENE name="siege_02.kfcs" hidden="false" composite_scene_file="../csc_ref/siege_02.kfcs" id="{e9a3346c-0dcb-47d8-bddb-f1d2e50b2011}"/>
+  <COMPOSITE_SCENE name="siege_03.kfcs" hidden="false" composite_scene_file="../csc_ref/siege_03.kfcs" id="{1f60ccd8-0e28-4833-8530-f8cc396bddc0}"/>
+  <COMPOSITE_SCENE name="siege_04.kfcs" hidden="false" composite_scene_file="../csc_ref/siege_04.kfcs" id="{f3bd737e-c7c0-45a9-b04d-31d5825a2bfe}"/>
+  <COMPOSITE_SCENE name="encampment_01.kfcs" hidden="false" composite_scene_file="../csc_ref/encampment_01.kfcs" id="{d8824cc3-021d-48a2-85a6-503ef9970d84}"/>
+  <COMPOSITE_SCENE name="attacking_general.kfcs" hidden="false" composite_scene_file="../csc_ref/attacking_general.kfcs" id="{7580caee-abda-4b84-a95f-697df3c95f4e}"/>
+ </NODE>
+</SCENE_FILE>

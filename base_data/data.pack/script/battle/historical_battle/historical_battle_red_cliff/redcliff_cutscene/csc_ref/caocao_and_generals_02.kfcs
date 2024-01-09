@@ -1,0 +1,32 @@
+<COMPOSITE_SCENE_FILE version="25" id="{e685e09c-38cd-42ed-86da-f25c904d9920}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/caocao_walk_out_01.csc">
+ <VECTOR name="position" is_linked="0" link_id="0" id="{9abeba6b-cdab-41dc-b02f-0723cfcad27d}" hidden="false" unique_id="{9abeba6b-cdab-41dc-b02f-0723cfcad27d}" surface_mode="Freeform">
+  <DOUBLE name="X" order="0" single_keyframe_only="1" id="{ecb87764-37f3-4ec8-afac-e33ab42b4a90}" default="0" hidden="false" animated="0">
+   <KEYFRAME time="0" data="-4.120999813079834"/>
+  </DOUBLE>
+  <DOUBLE name="Y" order="1" single_keyframe_only="1" id="{d389fd1f-4aa8-459f-9f47-8d119b508ee4}" default="0" hidden="false" animated="0">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" order="2" single_keyframe_only="1" id="{8b1cc885-5eca-420e-8139-f9efedc7eecc}" default="0" hidden="false" animated="0">
+   <KEYFRAME time="0" data="-2.50600004196167"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{6f3b6a9a-5fb1-464f-8b35-5770d9b1fa04}" hidden="false">
+  <RADIAN name="X" order="0" single_keyframe_only="1" id="{9d6f4aa8-a7c7-4c9e-b093-f2db183c236e}" default="0" hidden="false" animated="0">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN name="Y" order="1" single_keyframe_only="1" id="{e6936c85-88c1-4040-a174-555e45bce5dc}" default="0" hidden="false" animated="0">
+   <KEYFRAME time="0" data="3.1415927410125732"/>
+  </RADIAN>
+  <RADIAN name="Z" order="2" single_keyframe_only="1" id="{b539ef13-ca5e-483a-8fbe-5cffb6ea342f}" default="0" hidden="false" animated="0">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" order="2" user_friendy_name="Scale" single_keyframe_only="1" id="{88fc43d8-6d7a-4e77-bb63-b4adea6ad94e}" default="1" hidden="false" animated="0">
+  <KEYFRAME time="0" data="1"/>
+ </DOUBLE>
+ <BOOL name="active" order="3" user_friendy_name="Active" single_keyframe_only="0" id="{7bdfddcf-f1a4-4fd3-a400-1f565c1963bd}" default="0" hidden="false" animated="1">
+  <KEYFRAME time="0" data="0"/>
+  <KEYFRAME time="0.001000404357910156" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" order="4" user_friendy_name="Speed Multiplier" single_keyframe_only="0" id="{ff440302-6494-4259-b048-d446c5c69ebe}" default="1" hidden="false" animated="1"/>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,34 @@
+<SCENE_FILE start_record_time="0" id="{c6c7970e-3301-4ea7-9b82-e82fe0931d7b}" hidden="false" end_record_time="77.50000404193997" version="26" perspective_camera="22.2924,94.159,582.481:22.5602,93.1407,564.405">
+ <ENVIRONMENT order="0" id="{8a52cad7-6c68-4c4c-80df-f6a37d91aa50}" hidden="false" name="Environment" data="script/battle/historical_battle/historical_battle_red_cliff/redcliff_cutscene/weather/red_cliff_cutscene.environment"/>
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{b202c269-9717-4439-82f0-d0f5a912d5ff}" hidden="false" unique_id="{b202c269-9717-4439-82f0-d0f5a912d5ff}" name="position">
+  <DOUBLE order="0" id="{19a86e8e-f7dc-437b-ba47-f32a4bec91d5}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="X"/>
+  <DOUBLE order="1" id="{66ff47ed-207f-4748-bda2-e38fdaa806af}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Y"/>
+  <DOUBLE order="2" id="{086fcb6e-ca6a-4cae-8004-1f1f53d89db8}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Z"/>
+ </VECTOR>
+ <ROTATION_AXES id="{46caa9e6-3d4d-4131-bf00-be008392071f}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{d3a4b94c-713b-42aa-89a6-fb0d1b4a2421}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="X"/>
+  <RADIAN order="1" id="{1fb19e77-8c8d-4dc1-b52c-37570c7f4912}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Y"/>
+  <RADIAN order="2" id="{369919db-18f7-47d7-9d1b-81cc6ccfdaa8}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Z"/>
+ </ROTATION_AXES>
+ <NODE id="{89599335-754c-4d8b-a703-2db922ec146d}" hidden="false" name="Links"/>
+ <NODE id="{cd1e932a-d81a-4cca-aa0b-a4dc612da176}" hidden="false" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{d1721aa9-76a8-4850-a275-740afb0d5a2f}" hidden="false" composite_scene_file="../csc_ref/liu_bei_order.kfcs" name="liu_bei_order.kfcs"/>
+  <COMPOSITE_SCENE id="{0698a9f9-311d-4bae-8a4b-5d969093b40c}" hidden="false" composite_scene_file="../csc_ref/liu_bei_general_01.kfcs" name="liu_bei_general_01.kfcs"/>
+  <COMPOSITE_SCENE id="{5f15642f-4314-4b0c-992a-b73d3b6510a7}" hidden="false" composite_scene_file="../csc_ref/liu_bei_general_02.kfcs" name="liu_bei_general_02.kfcs"/>
+  <COMPOSITE_SCENE id="{9a264887-7b59-4dd5-a59f-e3c97b703f47}" hidden="false" composite_scene_file="../csc_ref/liu_bei_general_03.kfcs" name="liu_bei_general_03.kfcs"/>
+ </NODE>
+ <NODE id="{aacc6ba4-cf99-4509-a33f-ae682229ed35}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{da771ef2-ca9a-45d5-a5f4-b839b1e0e552}" hidden="false" warscape_properties_file="../cameras/red_cliff_liu_bei_closeup.xml" name="red_cliff_liu_bei_closeup.xml"/>
+ </NODE>
+ <NODE id="{88d1609d-5932-41f9-8612-7b63a47c5225}" hidden="false" name="Point Lights">
+  <POINT_LIGHT id="{64044558-c1bc-41cd-b6c9-2e2e4d0f477c}" hidden="false" point_light_file="../lights/liu_bei_point_light_01.kfl" name="liu_bei_point_light_01.kfl"/>
+ </NODE>
+ <NODE id="{f0b0ea61-f3aa-4590-8008-1153951638ef}" hidden="false" name="Audio Events">
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_01.kfa" id="{3a247730-7079-4097-9245-f529c67df0d5}" hidden="false" name="red_cliff_advice_01.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_sweetner_pass.kfa" id="{7a0861e1-5066-4d98-9ae1-a8d6bcd4b2a5}" hidden="false" name="red_cliff_sweetner_pass.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_02.kfa" id="{f5e927b5-4c01-476d-9fcf-eb7f779c7508}" hidden="false" name="red_cliff_advice_02.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_03.kfa" id="{071ce8f0-b27e-4a1a-80ca-b38dca9d0cce}" hidden="false" name="red_cliff_advice_03.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_05.kfa" id="{180b5c87-cb0c-47f9-840b-8fdc97b89127}" hidden="false" name="red_cliff_advice_05.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_04.kfa" id="{f162f03d-9371-4fec-bc6b-8ffcbe999aba}" hidden="false" name="red_cliff_advice_04.kfa"/>
+ </NODE>
+</SCENE_FILE>

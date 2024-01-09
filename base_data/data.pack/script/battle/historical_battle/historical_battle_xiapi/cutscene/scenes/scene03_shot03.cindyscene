@@ -1,0 +1,41 @@
+<SCENE_FILE end_record_time="12.4000006467104" start_record_time="0" hidden="false" perspective_camera="-0.0796323,2.04106,-96.8488:-8.56677,4.26807,-133.324" version="25" id="{0977e541-1183-419c-bd9f-f6769d1f2277}">
+ <ENVIRONMENT name="Environment" hidden="false" order="0" data="" id="{7875f6ae-ca5b-4cc6-bdcc-cb68e4754ba4}"/>
+ <VECTOR unique_id="{8b3d7f7b-a745-416e-82b1-98f0b11ee3cd}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{8b3d7f7b-a745-416e-82b1-98f0b11ee3cd}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="1" default="0" id="{699c4498-95d0-40b6-a3d6-efeb8803cdf3}"/>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="1" default="0" id="{32cb1793-ace8-4ca8-8b91-9c9fe4a23510}"/>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="1" default="0" id="{45d613a4-bab3-47ba-88f2-c17f35bbc994}"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{bc6a5b95-6d1c-4172-ba6d-ea3ad9d35304}">
+  <RADIAN name="X" hidden="false" order="0" animated="1" single_keyframe_only="1" default="0" id="{475bc1da-2cd2-451b-8755-2936f197cb7b}"/>
+  <RADIAN name="Y" hidden="false" order="1" animated="1" single_keyframe_only="1" default="0" id="{122d1372-50c5-4ce7-87f0-9d6a86497342}"/>
+  <RADIAN name="Z" hidden="false" order="2" animated="1" single_keyframe_only="1" default="0" id="{2793860f-a7de-4ad6-a926-2ab45e43bdfe}"/>
+ </ROTATION_AXES>
+ <NODE name="Links" hidden="false" id="{0fb3c8ac-2fcf-42a1-9200-bebf0410ca44}"/>
+ <NODE name="Composite Scenes" hidden="false" id="{0d1f7f1b-b639-44d5-8b7f-7f2dfeef969a}">
+  <COMPOSITE_SCENE name="cao_cao_end_01.kfcs" hidden="false" composite_scene_file="../csc_ref/cao_cao_end_01.kfcs" id="{14f9d525-2bf8-456e-b680-fe1d6660f276}"/>
+  <COMPOSITE_SCENE name="troops_end_03.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_03.kfcs" id="{c2223db9-596a-4917-b460-67242ac1ee1a}"/>
+  <COMPOSITE_SCENE name="troops_end_04.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_04.kfcs" id="{4866dbf3-e8bf-4d26-bcc9-431457242a90}"/>
+  <COMPOSITE_SCENE name="troops_end_01.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_01.kfcs" id="{caf956aa-4e03-4a99-adec-de0a14d40401}"/>
+  <COMPOSITE_SCENE name="troops_end_02.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_02.kfcs" id="{a5dd4004-4cfe-49c3-8d00-bfbb659a97d7}"/>
+  <COMPOSITE_SCENE name="liubei.kfcs" hidden="false" composite_scene_file="../csc_ref/liubei.kfcs" id="{46c13bf8-74bd-419d-9fa0-54d65ac8cfac}"/>
+ </NODE>
+ <NODE name="Particle Effects" hidden="false" id="{51b12c9f-afa7-4ce8-9da5-967244f34c59}">
+  <EFFECT name="mist01.kfe" hidden="false" effect_file="../particles/mist01.kfe" id="{133341dc-cfc0-4492-a2a4-0389d43f2201}"/>
+  <EFFECT name="fire_palace_01.kfe" hidden="false" effect_file="../particles/fire_palace_01.kfe" id="{58bbdd9b-9294-42a1-b52e-48326e7f7a75}"/>
+ </NODE>
+ <NODE name="Warscape Properties" hidden="false" id="{b9c14a86-2bd5-41e6-b59d-09d816bfc86e}">
+  <WARSCAPE_PROPERTIES name="scene03_caocao_smile_01.xml" hidden="false" warscape_properties_file="../cameras/scene03_caocao_smile_01.xml" id="{3aeb870c-64c9-473b-b73a-07ae1e626922}"/>
+ </NODE>
+ <NODE name="Props" hidden="false" id="{e27f18d3-ac36-4a8f-83c5-eabe679b6bde}">
+  <PROP prop_file="../props/sun_blocker_cao_cao.kfp" name="sun_blocker_cao_cao.kfp" hidden="false" id="{721c5da8-bad9-407c-9ea5-8353859a0ed7}"/>
+ </NODE>
+ <NODE name="Custom File" hidden="false" id="{3f8965c2-ba20-43b6-959a-25ef0064ceff}">
+  <CUSTOM name="split_d0.kfc" hidden="false" custom_file="../custom/split_d0.kfc" id="{b0fc202a-0d6a-4918-9efe-e522a7954b53}"/>
+  <CUSTOM name="split_d1.kfc" hidden="false" custom_file="../custom/split_d1.kfc" id="{914eda68-1dcf-4f0c-a9f1-5e885309e9f4}"/>
+  <CUSTOM name="split_d2.kfc" hidden="false" custom_file="../custom/split_d2.kfc" id="{e749a42f-70fa-4878-9773-b906e09f4693}"/>
+  <CUSTOM name="g_new_depth_bias.kfc" hidden="false" custom_file="../custom/g_new_depth_bias.kfc" id="{16d6526e-7920-4a40-961e-d85414242052}"/>
+ </NODE>
+ <NODE name="Point Lights" hidden="false" id="{7a3620ce-0420-4ba1-817d-90708d88db34}">
+  <POINT_LIGHT name="caocao_face_light_01.kfl" hidden="false" point_light_file="../lights/caocao_face_light_01.kfl" id="{8fa6d64e-ba1e-4fc8-a1bf-303ecfac37c3}"/>
+ </NODE>
+</SCENE_FILE>

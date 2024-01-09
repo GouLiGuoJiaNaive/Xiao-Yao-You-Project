@@ -1,0 +1,16 @@
+<NOISE_FILE version="23" name="track_wide_shake.xml">
+ <DOUBLE user_friendy_name="Amplitude" name="amplitude" hidden="false" single_keyframe_only="1" default="20" order="0" animated="0"/>
+ <DOUBLE user_friendy_name="Frequency" name="frequency" hidden="false" single_keyframe_only="1" default="5" order="1" animated="0"/>
+ <INT user_friendy_name="Number of Octaves" name="number_of_octaves" hidden="false" single_keyframe_only="0" default="3" order="2" animated="1">
+  <KEYFRAME time="80.00000762939453" data="3"/>
+ </INT>
+ <DOUBLE user_friendy_name="Offset" name="offset" hidden="false" single_keyframe_only="0" default="10" order="3" animated="1">
+  <KEYFRAME time="80.00000762939453" data="10"/>
+ </DOUBLE>
+ <DOUBLE user_friendy_name="Persistence" name="persistence" hidden="false" single_keyframe_only="0" default="0.5" order="4" animated="1">
+  <KEYFRAME time="80.00000762939453" data="0.5"/>
+ </DOUBLE>
+ <DOUBLE user_friendy_name="Lacunarity" name="lacunarity" hidden="false" single_keyframe_only="0" default="2" order="5" animated="1">
+  <KEYFRAME time="80.00000762939453" data="2"/>
+ </DOUBLE>
+</NOISE_FILE>

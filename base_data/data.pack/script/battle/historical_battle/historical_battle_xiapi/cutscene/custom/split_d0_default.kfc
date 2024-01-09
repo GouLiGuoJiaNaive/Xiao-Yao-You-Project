@@ -1,0 +1,5 @@
+<CUSTOM_FILE hidden="false" entry_name="split_d0" type="Tweak" version="25" id="{1afe22e4-06c7-4e53-bf0d-96d1ef91a953}">
+ <DOUBLE name="Value" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{7ba2efe4-a512-4e8d-90a1-36538aef1a05}">
+  <KEYFRAME data="100" time="0"/>
+ </DOUBLE>
+</CUSTOM_FILE>

@@ -1,0 +1,8 @@
+<NOISE_FILE version="23" name="noise_file_02.xml">
+ <DOUBLE hidden="false" animated="0" default="20" user_friendy_name="Amplitude" order="0" name="amplitude" single_keyframe_only="1"/>
+ <DOUBLE hidden="false" animated="0" default="5" user_friendy_name="Frequency" order="1" name="frequency" single_keyframe_only="1"/>
+ <INT hidden="false" animated="1" default="3" user_friendy_name="Number of Octaves" order="2" name="number_of_octaves" single_keyframe_only="0"/>
+ <DOUBLE hidden="false" animated="1" default="10" user_friendy_name="Offset" order="3" name="offset" single_keyframe_only="0"/>
+ <DOUBLE hidden="false" animated="1" default="0.5" user_friendy_name="Persistence" order="4" name="persistence" single_keyframe_only="0"/>
+ <DOUBLE hidden="false" animated="1" default="2" user_friendy_name="Lacunarity" order="5" name="lacunarity" single_keyframe_only="0"/>
+</NOISE_FILE>

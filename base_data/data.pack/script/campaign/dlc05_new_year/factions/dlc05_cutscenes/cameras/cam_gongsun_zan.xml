@@ -1,0 +1,147 @@
+<WARSCAPE_PROPERTIES_FILE supported_warscape_properties="16" version="26" id="{91fd1013-a562-4311-baca-6647dff6dba3}" hidden="false">
+ <NODE id="{ec43f43d-7a0d-47cc-85b2-bb5f8e82c756}" name="Camera" hidden="false">
+  <VECTOR is_linked="0" surface_mode="Freeform" id="{b73a4ae4-8cb1-4990-8f3c-5e15191ebe18}" name="position" link_id="0" unique_id="{b73a4ae4-8cb1-4990-8f3c-5e15191ebe18}" hidden="false">
+   <DOUBLE order="0" single_keyframe_only="0" animated="1" default="306.2345581054688" id="{c4c40187-c488-4b4f-ac7d-cef4ac4d39f4}" name="X" hidden="false">
+    <KEYFRAME data="321.59539794921875" time="0"/>
+    <KEYFRAME handle1_x="13.3778" data="344.0693359375" handle1_type="SMOOTH" time="20.0666675567627" handle1_y="339.292"/>
+    <KEYFRAME data="348.09295654296875" handle2_type="SMOOTH" handle2_x="29.4" handle2_y="350.736" time="25.70000076293945"/>
+    <KEYFRAME handle1_x="33.1" data="384.93017578125" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="38.0889" handle2_y="385.897" time="36.79998779296875" handle1_y="382.155"/>
+    <KEYFRAME handle1_x="39.3778" data="377.1539306640625" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="42" handle2_y="370.705" time="40.66665649414063" handle1_y="383.388"/>
+    <KEYFRAME handle1_x="43.3333" data="347.6976623535156" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="47.0444" handle2_y="325.279" time="44.66664886474609" handle1_y="360.269"/>
+    <KEYFRAME handle1_x="49.4222" data="285.4625549316406" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="53.0111" handle2_y="280.059" time="51.79998779296875" handle1_y="296.071"/>
+    <KEYFRAME handle1_x="54.2222" data="277.6275939941406" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="56.6889" handle2_y="275.705" time="55.43331909179688" handle1_y="279.482"/>
+    <KEYFRAME handle1_x="57.9444" data="269.16534423828125" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="59.8889" handle2_y="267.385" time="59.19998931884766" handle1_y="272.411"/>
+    <KEYFRAME handle1_x="60.5778" data="264.6892395019531" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="62.4555" handle2_y="263.085" time="61.26665496826172" handle1_y="265.619"/>
+    <KEYFRAME handle1_x="63.6444" data="269.5378112792969" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="66.4" handle2_y="276.876" time="64.83332061767578" handle1_y="263.969"/>
+    <KEYFRAME handle1_x="67.9666" data="306.66534423828125" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="72.8" handle2_y="336.522" time="69.53327941894531" handle1_y="292.347"/>
+    <KEYFRAME handle1_x="76.0667" data="361.3681945800781" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="79.3333" handle2_y="361.368" time="79.33333587646484" handle1_y="361.368"/>
+   </DOUBLE>
+   <DOUBLE order="1" single_keyframe_only="0" animated="1" default="11.15101337432861" id="{f2ab7ad8-3b18-44fd-91bc-5d74046a6f27}" name="Y" hidden="false">
+    <KEYFRAME data="3.823699474334717" handle1_type="EASY" handle2_type="EASY" time="0"/>
+    <KEYFRAME data="5.4974493980407715" handle1_type="EASY" handle2_type="EASY" time="20.0666675567627"/>
+    <KEYFRAME data="4.794203758239746" handle1_type="EASY" handle2_type="EASY" time="25.70000076293945"/>
+    <KEYFRAME data="9.510380744934082" handle1_type="EASY" handle2_type="EASY" time="36.79998779296875"/>
+    <KEYFRAME data="5.888889312744141" handle1_type="EASY" handle2_type="EASY" time="40.66665649414063"/>
+    <KEYFRAME data="8.511975288391113" handle1_type="EASY" handle2_type="EASY" time="44.66664886474609"/>
+    <KEYFRAME data="5.633172988891602" handle1_type="EASY" handle2_type="EASY" time="51.79998779296875"/>
+    <KEYFRAME data="6.871079444885254" handle1_type="EASY" handle2_type="EASY" time="55.43331909179688"/>
+    <KEYFRAME data="5.471004009246826" handle1_type="EASY" handle2_type="EASY" time="59.19998931884766"/>
+    <KEYFRAME data="4.952586650848389" handle1_type="EASY" handle2_type="EASY" time="61.26665496826172"/>
+    <KEYFRAME data="6.2196364402771" handle1_type="EASY" handle2_type="EASY" time="64.83332061767578"/>
+    <KEYFRAME data="8.974563598632812" handle1_type="EASY" handle2_type="EASY" time="69.53327941894531"/>
+    <KEYFRAME handle1_x="76.0667" data="5.368195056915283" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="79.3333" handle2_y="5.3682" time="79.33333587646484" handle1_y="5.3682"/>
+   </DOUBLE>
+   <DOUBLE order="2" single_keyframe_only="0" animated="1" default="358.3912658691406" id="{775039c3-32b4-4946-add7-cdbe3d501d30}" name="Z" hidden="false">
+    <KEYFRAME data="405.0984802246094" time="0"/>
+    <KEYFRAME handle1_x="13.3778" data="456.0277404785156" handle1_type="SMOOTH" time="20.0666675567627" handle1_y="456.89"/>
+    <KEYFRAME data="455.3015441894531" handle2_type="SMOOTH" handle2_x="29.4" handle2_y="454.825" time="25.70000076293945"/>
+    <KEYFRAME handle1_x="33.1" data="394.34527587890625" handle1_type="SMOOTH" handle2_type="BEZIER" handle2_x="38.1488" handle2_y="394.056" time="36.79998779296875" handle1_y="395.139"/>
+    <KEYFRAME handle1_x="39.3778" data="400.0279846191406" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="42" handle2_y="401.142" time="40.66665649414063" handle1_y="398.951"/>
+    <KEYFRAME handle1_x="43.3333" data="392.7021179199219" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="47.0444" handle2_y="382.928" time="44.66664886474609" handle1_y="398.183"/>
+    <KEYFRAME handle1_x="49.4222" data="371.3317565917969" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="53.0111" handle2_y="374.489" time="51.79998779296875" handle1_y="365.133"/>
+    <KEYFRAME handle1_x="54.2222" data="391.821044921875" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="56.6889" handle2_y="400.062" time="55.43331909179688" handle1_y="383.872"/>
+    <KEYFRAME handle1_x="57.9444" data="408.463623046875" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="59.8889" handle2_y="409.397" time="59.19998931884766" handle1_y="406.763"/>
+    <KEYFRAME handle1_x="60.5778" data="410.2165832519531" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="62.4555" handle2_y="412.618" time="61.26665496826172" handle1_y="408.825"/>
+    <KEYFRAME handle1_x="63.6444" data="423.9225158691406" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="66.4" handle2_y="427.948" time="64.83332061767578" handle1_y="420.867"/>
+    <KEYFRAME handle1_x="67.9666" data="423.27490234375" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="72.8" handle2_y="423.942" time="69.53327941894531" handle1_y="422.955"/>
+    <KEYFRAME handle1_x="76.0667" data="447.70794677734375" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="79.3333" handle2_y="447.708" time="79.33333587646484" handle1_y="447.708"/>
+   </DOUBLE>
+  </VECTOR>
+  <VECTOR is_linked="0" surface_mode="Freeform" id="{9c26087c-6844-4101-9c47-cc97c4300ab2}" name="target" link_id="0" unique_id="{9c26087c-6844-4101-9c47-cc97c4300ab2}" hidden="false">
+   <DOUBLE order="0" single_keyframe_only="0" animated="1" default="311.2345581054688" id="{e37a0fbe-9c6d-45dd-b6db-ee2f1755c83c}" name="X" hidden="false">
+    <KEYFRAME data="321.85833740234375" time="0"/>
+    <KEYFRAME handle1_x="13.3778" data="348.1803894042969" handle1_type="SMOOTH" time="20.0666675567627" handle1_y="348.12"/>
+    <KEYFRAME data="348.2316589355469" handle2_type="SMOOTH" handle2_x="29.4" handle2_y="348.265" time="25.70000076293945"/>
+    <KEYFRAME handle1_x="33.1" data="376.11370849609375" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="38.0889" handle2_y="376.947" time="36.79998779296875" handle1_y="373.723"/>
+    <KEYFRAME handle1_x="39.3778" data="369.21783447265625" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="42" handle2_y="363.257" time="40.66665649414063" handle1_y="374.98"/>
+    <KEYFRAME handle1_x="43.3333" data="341.1283264160156" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="47.0444" handle2_y="319.541" time="44.66664886474609" handle1_y="353.233"/>
+    <KEYFRAME handle1_x="49.4222" data="281.71734619140625" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="53.0111" handle2_y="276.819" time="51.79998779296875" handle1_y="291.335"/>
+    <KEYFRAME handle1_x="54.2222" data="274.1558532714844" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="56.6889" handle2_y="271.474" time="55.43331909179688" handle1_y="276.742"/>
+    <KEYFRAME data="266.0946044921875" handle1_type="EASY" handle2_type="EASY" time="59.19998931884766"/>
+    <KEYFRAME data="266.0772705078125" handle1_type="EASY" handle2_type="SMOOTH" handle2_x="62.3889" handle2_y="266.077" time="61.16664886474609"/>
+    <KEYFRAME handle1_x="63.6111" data="274.4154357910156" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="66.4" handle2_y="282.918" time="64.83332061767578" handle1_y="267.782"/>
+    <KEYFRAME handle1_x="67.9666" data="313.5993347167969" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="72.8" handle2_y="342.96" time="69.53327941894531" handle1_y="299.518"/>
+    <KEYFRAME handle1_x="76.0667" data="361.3681945800781" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="79.3333" handle2_y="361.368" time="79.33333587646484" handle1_y="361.368"/>
+   </DOUBLE>
+   <DOUBLE order="1" single_keyframe_only="0" animated="1" default="6.151013374328613" id="{2745afe4-0125-4c71-b3e5-819e0db311c6}" name="Y" hidden="false">
+    <KEYFRAME data="-0.6138849258422852" handle1_type="EASY" handle2_type="EASY" time="0"/>
+    <KEYFRAME data="0.6887560486793518" handle1_type="EASY" handle2_type="EASY" time="20.0666675567627"/>
+    <KEYFRAME data="0.69646155834198" handle1_type="EASY" handle2_type="EASY" time="25.70000076293945"/>
+    <KEYFRAME data="3.1907238960266113" handle1_type="EASY" handle2_type="EASY" time="36.79998779296875"/>
+    <KEYFRAME data="2.012906312942505" handle1_type="EASY" handle2_type="EASY" time="40.66665649414063"/>
+    <KEYFRAME data="5.5241265296936035" handle1_type="EASY" handle2_type="EASY" time="44.66664886474609"/>
+    <KEYFRAME data="3.6388206481933594" handle1_type="EASY" handle2_type="EASY" time="51.79998779296875"/>
+    <KEYFRAME data="4.032580375671387" handle1_type="EASY" handle2_type="EASY" time="55.43331909179688"/>
+    <KEYFRAME data="1.537471055984497" handle1_type="EASY" handle2_type="EASY" time="59.19998931884766"/>
+    <KEYFRAME data="1.5379559993743896" handle1_type="EASY" handle2_type="EASY" time="61.16664886474609"/>
+    <KEYFRAME data="3.164794445037842" handle1_type="EASY" handle2_type="EASY" time="64.83332061767578"/>
+    <KEYFRAME data="5.169009208679199" handle1_type="EASY" handle2_type="EASY" time="69.53327941894531"/>
+    <KEYFRAME handle1_x="76.0667" data="-0.41180312633514404" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="79.3333" handle2_y="-0.411803" time="79.33333587646484" handle1_y="-0.411803"/>
+   </DOUBLE>
+   <DOUBLE order="2" single_keyframe_only="0" animated="1" default="363.3912658691406" id="{6101ab45-ab22-43e5-b0dd-7e44063d96ee}" name="Z" hidden="false">
+    <KEYFRAME data="412.5306701660156" time="0"/>
+    <KEYFRAME handle1_x="13.3778" data="464.2635498046875" handle1_type="SMOOTH" time="20.0666675567627" handle1_y="464.308"/>
+    <KEYFRAME data="464.22650146484375" handle2_type="SMOOTH" handle2_x="29.4" handle2_y="464.202" time="25.70000076293945"/>
+    <KEYFRAME handle1_x="33.1" data="403.44293212890625" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="38.0889" handle2_y="400.73" time="36.79998779296875" handle1_y="411.232"/>
+    <KEYFRAME handle1_x="39.3778" data="402.3084716796875" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="42" handle2_y="401.077" time="40.66665649414063" handle1_y="403.499"/>
+    <KEYFRAME handle1_x="43.3333" data="389.7756042480469" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="47.0444" handle2_y="379.375" time="44.66664886474609" handle1_y="395.608"/>
+    <KEYFRAME handle1_x="49.4222" data="376.43621826171875" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="53.0111" handle2_y="380.825" time="51.79998779296875" handle1_y="367.82"/>
+    <KEYFRAME handle1_x="54.2222" data="399.46392822265625" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="56.6889" handle2_y="408.811" time="55.43331909179688" handle1_y="390.447"/>
+    <KEYFRAME data="417.5083312988281" handle1_type="EASY" handle2_type="EASY" time="59.19998931884766"/>
+    <KEYFRAME data="417.6268310546875" handle1_type="EASY" handle2_type="SMOOTH" handle2_x="62.3889" handle2_y="417.627" time="61.16664886474609"/>
+    <KEYFRAME handle1_x="63.6111" data="426.21734619140625" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="66.4" handle2_y="428.79" time="64.83332061767578" handle1_y="424.21"/>
+    <KEYFRAME handle1_x="67.9666" data="425.5418395996094" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="72.8" handle2_y="429.078" time="69.53327941894531" handle1_y="423.846"/>
+    <KEYFRAME handle1_x="76.0667" data="461.4879455566406" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="79.3333" handle2_y="461.488" time="79.33333587646484" handle1_y="461.488"/>
+   </DOUBLE>
+  </VECTOR>
+  <NODE id="{a341c532-d26c-4ad6-bf83-fc2b62ee61f1}" name="rotation" hidden="false">
+   <RADIAN order="3" single_keyframe_only="1" user_friendy_name="Yaw" animated="0" default="0" id="{3dcc5e26-c186-4d30-932d-ee21fdc18e49}" name="yaw" hidden="false">
+    <KEYFRAME data="0" time="0"/>
+   </RADIAN>
+   <RADIAN order="4" single_keyframe_only="1" user_friendy_name="Pitch" animated="0" default="0" id="{f0e35a5b-7d64-40b8-9a10-a5e404bb2a71}" name="pitch" hidden="false"/>
+   <RADIAN order="5" single_keyframe_only="0" user_friendy_name="Roll" animated="1" default="0" id="{0a622a6f-3a79-45ad-9fdf-13053fff94f2}" name="roll" hidden="false">
+    <KEYFRAME handle1_x="0" data="0" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="2.81111" handle2_y="0" time="0" handle1_y="0"/>
+    <KEYFRAME handle1_x="5.62222" data="0.017453286796808243" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="11.3444" handle2_y="1.01903" time="8.433327674865723" handle1_y="0.981619"/>
+    <KEYFRAME handle1_x="14.2556" data="0" handle1_type="SMOOTH" time="17.16666793823242" handle1_y="0.00507732"/>
+    <KEYFRAME data="-0.0002009078743867576" handle2_type="SMOOTH" handle2_x="24.7333" handle2_y="-0.0131972" time="23.76666831970215"/>
+    <KEYFRAME handle1_x="25.7" data="0.06784241646528244" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="28.6778" handle2_y="6.2857" time="26.66666793823242" handle1_y="2.73416"/>
+    <KEYFRAME handle1_x="30.6889" data="-0.011981035582721233" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="35.2444" handle2_y="-3.81097" time="32.70000076293945" handle1_y="1.78313"/>
+    <KEYFRAME handle1_x="37.7889" data="-0.05235987901687622" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="42.1667" handle2_y="-2.50914" time="40.33332824707031" handle1_y="-3.68126"/>
+    <KEYFRAME handle1_x="44" data="0" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="47.8555" handle2_y="1.91039" time="45.83332061767578" handle1_y="-1.73194"/>
+    <KEYFRAME handle1_x="49.8778" data="0.05235987901687622" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="53.0333" handle2_y="1.88898" time="51.89998626708984" handle1_y="4.9824"/>
+    <KEYFRAME handle1_x="54.1667" data="-0.034906573593616486" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="56.3222" handle2_y="-3.07371" time="55.29998779296875" handle1_y="-0.809586"/>
+    <KEYFRAME handle1_x="57.3444" data="-0.036529723554849625" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="58.9778" handle2_y="-1.59832" time="58.36666870117188" handle1_y="-2.92048"/>
+    <KEYFRAME handle1_x="59.5889" data="0" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="61.0111" handle2_y="1.145" time="60.19998931884766" handle1_y="-0.862671"/>
+    <KEYFRAME handle1_x="61.8222" data="0.05235987901687622" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="64.8555" handle2_y="4.33211" time="62.63331604003906" handle1_y="2.51378"/>
+    <KEYFRAME handle1_x="67.0778" data="-0.034906573593616486" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="71.2222" handle2_y="-2.89928" time="69.29998779296875" handle1_y="-0.960369"/>
+    <KEYFRAME handle1_x="73.1444" data="0" handle1_type="SMOOTH" handle2_type="SMOOTH" handle2_x="76.4889" handle2_y="0.456105" time="75.06667327880859" handle1_y="-0.616457"/>
+    <KEYFRAME handle1_x="77.9111" data="0" handle1_type="SMOOTH" time="79.33333587646484" handle1_y="0"/>
+   </RADIAN>
+  </NODE>
+  <RADIAN order="6" single_keyframe_only="0" user_friendy_name="Field of View" animated="1" default="1.200000047683716" id="{38d01bf6-2651-48b9-a128-21ce5ab7e5d1}" name="vertical_fov" hidden="false"/>
+  <DOUBLE order="11" single_keyframe_only="1" user_friendy_name="Near Distance" animated="0" default="1" id="{35762bbd-455e-44b3-a78e-806d52f6aba8}" name="near_distance" hidden="false">
+   <KEYFRAME data="1" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="12" single_keyframe_only="1" user_friendy_name="Far Distance" animated="0" default="500" id="{9891d499-6c3d-4660-bf4b-6b6e3627b75a}" name="far_distance" hidden="false">
+   <KEYFRAME data="500" time="0"/>
+  </DOUBLE>
+  <NODE id="{20b96737-41e0-4330-b13a-74c3a262e6c2}" name="DOF" hidden="false">
+   <DOUBLE order="12" single_keyframe_only="1" animated="0" default="0" id="{d8b20e6a-22fc-4e64-8d56-16e116e4dc50}" name="Focal Depth" hidden="false"/>
+   <DOUBLE order="13" single_keyframe_only="1" animated="0" default="3.402823466385289e+38" id="{9b566e9f-c80b-40ae-a310-1b18c3c498d9}" name="Focal Width" hidden="false"/>
+   <DOUBLE order="14" single_keyframe_only="1" animated="0" default="1" id="{8e5049a2-1489-4dc8-9d22-a1a4506efee0}" name="Focal Falloff Near" hidden="false"/>
+   <DOUBLE order="15" single_keyframe_only="1" animated="0" default="1" id="{c7fd5a06-36e2-42d8-9d0e-ea9c4697623c}" name="Focal Falloff Far" hidden="false"/>
+   <DOUBLE order="16" single_keyframe_only="1" user_friendy_name="Background Blur Radius" animated="0" default="10" id="{259516cb-db3b-474f-9715-3f69fa20b8ff}" name="Blur Kernel Radius - Background" hidden="false"/>
+   <DOUBLE order="17" single_keyframe_only="1" user_friendy_name="Foreground Blur Radius" animated="0" default="10" id="{e51a7f70-3a31-431f-9b0e-4f04922b414a}" name="Blur Kernel Radius - Foreground" hidden="false"/>
+   <DOUBLE order="18" single_keyframe_only="1" user_friendy_name="Foreground CoC Blur Radius" animated="0" default="20" id="{1adef984-d2e2-4e8d-bc5e-16ba2345d415}" name="Blur Kernel Radius - Foreground CoC" hidden="false"/>
+   <DOUBLE order="19" single_keyframe_only="1" animated="0" default="10" id="{d8004966-5db5-49ef-8689-6da057c36c0f}" name="Bokeh Sprite Radius" hidden="false"/>
+   <DOUBLE order="20" single_keyframe_only="1" animated="0" default="100" id="{f1f16033-527b-45ff-82f6-989665c232e9}" name="Bokeh Threshold" hidden="false"/>
+   <DOUBLE order="21" single_keyframe_only="1" animated="0" default="5" id="{10628293-c5f4-4cae-b070-4d4eaacb28ae}" name="Bokeh Hotspot Kernel Size" hidden="false"/>
+   <DOUBLE order="22" single_keyframe_only="1" animated="0" default="2" id="{967e01f4-9154-45d5-8b2e-8b3e620265c9}" name="Bokeh Intensity" hidden="false"/>
+  </NODE>
+  <NODE id="{8417f2c4-339f-4d73-bc4a-dbe834d76808}" name="time speed multipliers" hidden="false">
+   <DOUBLE order="0" single_keyframe_only="1" user_friendy_name="Global" animated="0" default="1" id="{c11af03f-c63e-4554-9572-215e1b9bbc64}" name="global" hidden="false"/>
+   <DOUBLE order="1" single_keyframe_only="1" user_friendy_name="Cinematic" animated="0" default="1" id="{143ccb96-f3d4-4cf2-a3b0-e388b32fa04e}" name="cinematic" hidden="false"/>
+   <DOUBLE order="2" single_keyframe_only="1" user_friendy_name="Game Logic" animated="0" default="1" id="{c513791c-480c-42b1-9b18-142f8ca71345}" name="game logic" hidden="false"/>
+  </NODE>
+ </NODE>
+</WARSCAPE_PROPERTIES_FILE>

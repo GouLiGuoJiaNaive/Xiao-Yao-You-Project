@@ -1,0 +1,20 @@
+<AUDIO_EVENT_FILE hidden="false" audio_event_name="Play_3k_main_historical_battle_jiangdong_sun_ce_01_1" version="26" id="{419bb979-0cda-4834-8d3f-ff80fc011a35}">
+ <VECTOR surface_mode="Freeform" name="position" is_linked="0" link_id="0" hidden="false" unique_id="{8b6696b5-2e39-4264-a2ff-4012f568162f}" id="{8b6696b5-2e39-4264-a2ff-4012f568162f}">
+  <DOUBLE default="0" name="X" single_keyframe_only="1" hidden="false" animated="0" order="0" id="{1f88ee29-bc45-4fa0-b366-df1662ea3de9}">
+   <KEYFRAME time="0" data="263.5308837890625"/>
+  </DOUBLE>
+  <DOUBLE default="0" name="Y" single_keyframe_only="1" hidden="false" animated="0" order="1" id="{05e0b028-2c28-4233-9152-9e1628292ee1}"/>
+  <DOUBLE default="0" name="Z" single_keyframe_only="1" hidden="false" animated="0" order="2" id="{74d22cb3-c163-4614-9844-99c345d32705}">
+   <KEYFRAME time="0" data="-111.44243621826172"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL default="0" user_friendy_name="Active" name="active" single_keyframe_only="0" hidden="false" animated="1" order="2" id="{391079c0-bc33-4037-a865-df878729fe37}">
+  <KEYFRAME time="1.600000143051147" data="0"/>
+  <KEYFRAME time="3.033333539962769" data="0"/>
+  <KEYFRAME time="3.033333539962769" data="0"/>
+  <KEYFRAME time="3.034333944320679" data="1"/>
+  <KEYFRAME time="3.034333944320679" data="1"/>
+  <KEYFRAME time="8" data="0"/>
+ </BOOL>
+ <DOUBLE default="100" user_friendy_name="Volume" name="volume" single_keyframe_only="1" hidden="false" animated="0" order="3" id="{151d6d54-094b-48ca-9256-4c1992acd34c}"/>
+</AUDIO_EVENT_FILE>

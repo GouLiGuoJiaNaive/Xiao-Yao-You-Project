@@ -1,0 +1,32 @@
+<SCENE_FILE start_record_time="0" perspective_camera="-66.3139,7.54568,-678.858:-95.8238,10.4178,-570.931" version="25" id="{b85cac2d-0519-419f-93d4-431bc73a5e71}" hidden="false" end_record_time="1000">
+ <ENVIRONMENT name="Environment" data="" id="{2be8f569-76b0-40e8-b831-248b546ba513}" hidden="false" order="0"/>
+ <VECTOR link_id="0" name="position" surface_mode="Freeform" is_linked="0" id="{d007523b-37bc-4eae-acf2-519e86bb81e8}" hidden="false" unique_id="{d007523b-37bc-4eae-acf2-519e86bb81e8}">
+  <DOUBLE single_keyframe_only="1" default="0" name="X" id="{ac9c8730-298a-47ae-9fcb-1eb8f23bff54}" hidden="false" order="0" animated="1"/>
+  <DOUBLE single_keyframe_only="1" default="0" name="Y" id="{2cd01eb5-03a1-410b-b951-8a6b34ae4f0e}" hidden="false" order="1" animated="1"/>
+  <DOUBLE single_keyframe_only="1" default="0" name="Z" id="{6c52b1d9-e19c-4944-8043-6de9f46b686e}" hidden="false" order="2" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{378ff38c-1d80-471c-9977-925ead88ccee}" hidden="false">
+  <RADIAN single_keyframe_only="1" default="0" name="X" id="{64fe9cd7-77b2-41c1-8cd0-9c7bcfd21dae}" hidden="false" order="0" animated="1"/>
+  <RADIAN single_keyframe_only="1" default="0" name="Y" id="{c6fa2866-f4f5-41ee-a3a1-f952871cf431}" hidden="false" order="1" animated="1"/>
+  <RADIAN single_keyframe_only="1" default="0" name="Z" id="{54ba3bfd-9124-4429-910d-ed9fb134d39f}" hidden="false" order="2" animated="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{29e3b01b-9a84-4cfc-b3a6-0b35081748ed}" hidden="false"/>
+ <NODE name="Composite Scenes" id="{2a18d637-efc0-4c7f-b85e-4aacacc04564}" hidden="false">
+  <COMPOSITE_SCENE name="cao_cao_arrive.kfcs" id="{0d79d28c-2444-4457-aabf-dab030a0d0b6}" hidden="false" composite_scene_file="../csc_ref/cao_cao_arrive.kfcs"/>
+ </NODE>
+ <NODE name="Warscape Properties" id="{10a23ef4-b4cf-4d2f-919e-ab7b1ba31f9f}" hidden="false">
+  <WARSCAPE_PROPERTIES name="shot03_closeup_cao_cao_face.xml" id="{208c44ca-df25-413c-95ba-da7c93c789aa}" warscape_properties_file="../cameras/shot03_closeup_cao_cao_face.xml" hidden="false"/>
+ </NODE>
+ <NODE name="Audio Events" id="{656d5ac1-c29f-48df-b617-54145d84fabf}" hidden="false">
+  <AUDIO_EVENT name="audio_event_file_01.kfa" audio_event_file="../audio/audio_event_file_01.kfa" id="{4b1d55cd-dc8d-494b-b393-7b345546f211}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_02.kfa" audio_event_file="../audio/audio_event_file_02.kfa" id="{2e7f9e56-2273-4c73-88f7-2f21a827587c}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_03.kfa" audio_event_file="../audio/audio_event_file_03.kfa" id="{a594ee80-6e11-4ab3-89b1-5f5b3874f4ae}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_04.kfa" audio_event_file="../audio/audio_event_file_04.kfa" id="{ee2f8def-a1f9-47f6-9c55-26d1f7db77bd}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_05.kfa" audio_event_file="../audio/audio_event_file_05.kfa" id="{78621900-840b-4dce-977c-8d1839bbd05f}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_06.kfa" audio_event_file="../audio/audio_event_file_06.kfa" id="{6fcabd5f-3b97-4727-b2a7-a674d61ffab4}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_07.kfa" audio_event_file="../audio/audio_event_file_07.kfa" id="{2749f32f-6657-4cac-ad0e-801c50b4b3f5}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_08.kfa" audio_event_file="../audio/audio_event_file_08.kfa" id="{41e28fea-e7b8-40d0-a072-2414b500a888}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_09.kfa" audio_event_file="../audio/audio_event_file_09.kfa" id="{1fd9ef0a-5153-4698-b072-50d9555a1429}" hidden="false"/>
+  <AUDIO_EVENT name="sweetener_pass.kfa" audio_event_file="../audio/sweetener_pass.kfa" id="{b51c0baf-ba66-46cb-a99b-4a8f334d269e}" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

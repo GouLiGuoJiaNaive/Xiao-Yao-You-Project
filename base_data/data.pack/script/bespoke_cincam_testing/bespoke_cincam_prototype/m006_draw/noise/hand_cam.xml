@@ -1,0 +1,20 @@
+<NOISE_FILE name="hand_cam.xml" version="23">
+ <DOUBLE name="amplitude" single_keyframe_only="1" hidden="false" order="0" user_friendy_name="Amplitude" default="20" animated="0">
+  <KEYFRAME time="0" data="0.03999999910593033"/>
+ </DOUBLE>
+ <DOUBLE name="frequency" single_keyframe_only="1" hidden="false" order="1" user_friendy_name="Frequency" default="5" animated="0">
+  <KEYFRAME time="0" data="0.6000000238418579"/>
+ </DOUBLE>
+ <INT name="number_of_octaves" single_keyframe_only="1" hidden="false" order="2" user_friendy_name="Number of Octaves" default="3" animated="0">
+  <KEYFRAME time="0" data="3"/>
+ </INT>
+ <DOUBLE name="offset" single_keyframe_only="1" hidden="false" order="3" user_friendy_name="Offset" default="10" animated="0">
+  <KEYFRAME time="0" data="0.300000011920929"/>
+ </DOUBLE>
+ <DOUBLE name="persistence" single_keyframe_only="1" hidden="false" order="4" user_friendy_name="Persistence" default="0.5" animated="0">
+  <KEYFRAME time="0" data="1"/>
+ </DOUBLE>
+ <DOUBLE name="lacunarity" single_keyframe_only="1" hidden="false" order="5" user_friendy_name="Lacunarity" default="2" animated="0">
+  <KEYFRAME time="0" data="2"/>
+ </DOUBLE>
+</NOISE_FILE>

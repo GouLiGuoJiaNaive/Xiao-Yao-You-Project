@@ -1,0 +1,22 @@
+<SCENE_MANAGER_FILE perspective_camera="-340,223.5,-724.2:-315.2,212.9,-703.7" id="{186dda9b-cfbf-4b09-9ad8-672063b0c2c2}" hidden="false" end_record_time="80.00000417232513" version="25" start_record_time="0">
+ <START_SCENE real_time="1" scene="scene01_shot01.CindyScene"/>
+ <SCENE_SWITCH real_time="1" switch_scene="scene01_shot02.CindyScene" time="9.47298"/>
+ <SCENE_SWITCH real_time="1" switch_scene="fly_around_scene.CindyScene" time="12.376"/>
+ <SCENE_SWITCH real_time="1" switch_scene="scene01_shot04.CindyScene" time="61.6669"/>
+ <SCENE_SWITCH real_time="1" switch_scene="scene01_shot05.CindyScene" time="64.894"/>
+ <SCENE_SWITCH real_time="1" switch_scene="scene01_shot06.CindyScene" time="67.262"/>
+ <SCENE_SWITCH real_time="1" switch_scene="scene01_shot07.CindyScene" time="69.5416"/>
+ <SCENE_SWITCH real_time="1" switch_scene="scene01_shot08.CindyScene" time="70.9806"/>
+ <NODE name="Scenes" id="{6c0d4b6f-85b1-434e-be34-022533659c9f}" hidden="false">
+  <SCENE name="scene01_shot01.CindyScene" id="{25263354-3fb4-4856-b7a5-8dc0fac53b6d}" hidden="false" scene_file="../scenes/scene01_shot01.CindyScene"/>
+  <SCENE name="scene01_shot02.CindyScene" id="{44759b39-d659-4ed3-80b8-6167f1c8e8fe}" hidden="false" scene_file="../scenes/scene01_shot02.CindyScene"/>
+  <SCENE name="scene01_shot03.CindyScene" id="{78f7c9fc-fa9d-43dd-b326-2a1efd4287d6}" hidden="false" scene_file="../scenes/scene01_shot03.CindyScene"/>
+  <SCENE name="scene01_shot04.CindyScene" id="{87209ddb-aa43-4d1d-bcab-1e22c8c0d066}" hidden="false" scene_file="../scenes/scene01_shot04.CindyScene"/>
+  <SCENE name="scene01_shot05.CindyScene" id="{784a8484-d46d-471f-ba9d-ce04cef257a1}" hidden="false" scene_file="../scenes/scene01_shot05.CindyScene"/>
+  <SCENE name="scene01_shot06.CindyScene" id="{ea9911c0-1270-4c23-9d0d-eac7c16a527e}" hidden="false" scene_file="../scenes/scene01_shot06.CindyScene"/>
+  <SCENE name="scene01_shot07.CindyScene" id="{db5d9b39-97b1-4af6-85bf-43cac79d1cf8}" hidden="false" scene_file="../scenes/scene01_shot07.CindyScene"/>
+  <SCENE name="scene01_shot08.CindyScene" id="{d303612a-ddc9-4ef6-81de-162631491e52}" hidden="false" scene_file="../scenes/scene01_shot08.CindyScene"/>
+  <SCENE name="fly_around_scene.CindyScene" id="{e042942b-bc9c-4c55-bc72-a87145cb9720}" hidden="false" scene_file="../scenes/fly_around_scene.CindyScene"/>
+ </NODE>
+ <NODE name="Links" id="{dff824c6-7df4-4111-abcf-857395a4c756}" hidden="false"/>
+</SCENE_MANAGER_FILE>

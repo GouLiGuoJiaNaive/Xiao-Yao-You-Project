@@ -1,0 +1,33 @@
+<EFFECT_FILE effect_name="cine_ram_fire_explosion" id="{194c18df-3327-476e-a0f6-328314549665}" hidden="false" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{9690a61e-0870-446a-b838-ea0119768217}" hidden="false" unique_id="{9690a61e-0870-446a-b838-ea0119768217}" name="position">
+  <DOUBLE order="0" id="{d93ca378-947f-4cce-8dde-746de76f2b24}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X">
+   <KEYFRAME time="0" data="-80.79269409179688"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{b2aa77f4-a77a-432f-ade6-59cd9a2cef72}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="0" data="22.668821334838867"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{18d50949-9af0-47ad-b954-a7782c96e749}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z">
+   <KEYFRAME time="0" data="-149.532958984375"/>
+  </DOUBLE>
+ </VECTOR>
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{49ca0a5d-715e-4bfc-b8b1-45dd8e0baa8f}" hidden="false" unique_id="{49ca0a5d-715e-4bfc-b8b1-45dd8e0baa8f}" name="target">
+  <DOUBLE order="0" id="{f7c768c6-25b0-4941-a60f-8b74a7edb00b}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X">
+   <KEYFRAME time="0" data="-80.79269409179688"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{731a596a-7d40-4bc8-b376-124596a663ec}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="0" data="24.668821334838867"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{129715ea-6db6-46e1-84b8-9247074678b4}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z">
+   <KEYFRAME time="0" data="-149.532958984375"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL order="2" id="{b3d1af49-cd8f-4a5b-a513-c3491aa316c1}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="50.19900131225586" data="0"/>
+  <KEYFRAME time="50.20000076293945" data="1"/>
+ </BOOL>
+ <BOOL order="3" id="{8c87d64c-fad6-4383-8340-4b0fe6fe2830}" user_friendy_name="Tracked" hidden="false" single_keyframe_only="0" animated="1" default="0" name="tracked"/>
+ <DOUBLE order="4" id="{3bbff600-0739-421b-9e3b-d651876301ca}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale">
+  <KEYFRAME time="0" data="2"/>
+ </DOUBLE>
+ <BOOL order="5" id="{65a1d5dc-e9db-4ef9-910e-6d06ffa2e7fb}" user_friendy_name="Emit Light" hidden="false" single_keyframe_only="1" animated="0" default="1" name="is_light_enabled"/>
+</EFFECT_FILE>

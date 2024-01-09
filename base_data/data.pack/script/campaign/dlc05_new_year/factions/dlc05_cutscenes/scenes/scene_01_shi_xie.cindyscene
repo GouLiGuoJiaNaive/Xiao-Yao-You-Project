@@ -1,0 +1,32 @@
+<SCENE_FILE start_record_time="0" hidden="false" end_record_time="82.00000427663326" perspective_camera="233.568,12.5685,123.077:231.986,-4.42533,142.318" version="26" id="{ef10ca20-1370-425e-b4ad-cfa9596c3fa8}">
+ <ENVIRONMENT hidden="false" name="Environment" order="0" data="" id="{8d01a1c4-b910-425c-8209-0ac1c2123419}"/>
+ <VECTOR surface_mode="Freeform" hidden="false" name="position" unique_id="{7b56d5df-4634-4bfd-8489-78ff9ed2370a}" id="{7b56d5df-4634-4bfd-8489-78ff9ed2370a}" is_linked="0" link_id="0">
+  <DOUBLE single_keyframe_only="1" default="0" hidden="false" name="X" order="0" id="{2aaab081-bd28-43d7-af3c-84748b87682b}" animated="0">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" default="0" hidden="false" name="Y" order="1" id="{98a2c2a2-6acf-4778-9aaa-8df504ba57f6}" animated="0">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" default="0" hidden="false" name="Z" order="2" id="{8220d5a0-ecf0-482f-9725-51dbf44a39fc}" animated="0">
+   <KEYFRAME time="1.000001192092896" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{86a0af47-94e7-4fab-8c10-34fd7ccce59d}">
+  <RADIAN single_keyframe_only="1" default="0" hidden="false" name="X" order="0" id="{ec84b4f2-4b90-40a7-878f-3574af8e7eac}" animated="0">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" default="0" hidden="false" name="Y" order="1" id="{478312ad-86de-49d4-8b4d-4d93838a3d98}" animated="0">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" default="0" hidden="false" name="Z" order="2" id="{5a3bcfbe-3aec-442f-9e4a-92a1102cef08}" animated="0">
+   <KEYFRAME time="1.000001192092896" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE hidden="false" name="Links" id="{61d33e19-926d-4c0d-a8ef-f16655847232}"/>
+ <NODE hidden="false" name="Warscape Properties" id="{909f480a-a909-4f34-8868-61b6cce084d6}">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/shi_xie_cam.xml" hidden="false" name="shi_xie_cam.xml" id="{8d4ebdcd-b137-4884-a747-8803d4e4eaba}"/>
+ </NODE>
+ <NODE hidden="false" name="Triggers" id="{d3055c25-b023-450f-bfb4-9b884a10f185}">
+  <TRIGGER hidden="false" name="shi_xie_main.ktr" trigger_file="../triggers/shi_xie_main.ktr" id="{541b081d-f1a8-4f53-88ce-f484016eac85}"/>
+ </NODE>
+</SCENE_FILE>

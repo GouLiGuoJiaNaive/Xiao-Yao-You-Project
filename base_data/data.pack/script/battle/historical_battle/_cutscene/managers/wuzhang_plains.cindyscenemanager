@@ -1,0 +1,7 @@
+<SCENE_MANAGER_FILE perspective_camera="-246.22,31.295,748.965:-162.054,-15.8645,723.702" version="25" start_record_time="3.766666863113642" hidden="false" end_record_time="41.56666883453727" id="{df526f56-48ba-4c1e-b768-3b42e5940389}">
+ <START_SCENE scene="historical_battle_intros_wuzhang_plains_r01_s01.CindyScene" real_time="0"/>
+ <NODE hidden="false" name="Links" id="{7d2a86c0-955f-47fa-a1f8-8d3fa0f49d6a}"/>
+ <NODE hidden="false" name="Scenes" id="{aef4c1da-92ba-4d93-9db2-744ef6b8d5ef}">
+  <SCENE scene_file="../scenes/historical_battle_intros_wuzhang_plains_r01_s01.CindyScene" hidden="false" name="historical_battle_intros_wuzhang_plains_r01_s01.CindyScene" id="{3d0af7f9-23d7-4206-b413-8b9b5a0c4b48}"/>
+ </NODE>
+</SCENE_MANAGER_FILE>

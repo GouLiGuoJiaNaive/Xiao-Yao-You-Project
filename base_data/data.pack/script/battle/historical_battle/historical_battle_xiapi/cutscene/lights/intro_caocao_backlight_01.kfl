@@ -1,0 +1,24 @@
+<POINT_LIGHT_FILE id="{3a9735b3-e102-484b-81bb-c242695c899c}" version="23" name="intro_caocao_backlight_01.kfl">
+ <VECTOR surface_mode="Freeform" link_id="-1" id="{097a6daf-efe2-4485-8f91-791df73a883d}" unique_id="{097a6daf-efe2-4485-8f91-791df73a883d}" is_linked="0" name="position">
+  <DOUBLE default="0" hidden="false" order="0" single_keyframe_only="1" animated="0" name="X">
+   <KEYFRAME data="-46.23709869384766" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" order="1" single_keyframe_only="1" animated="0" name="Y">
+   <KEYFRAME data="194.4698638916016" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" order="2" single_keyframe_only="1" animated="0" name="Z">
+   <KEYFRAME data="-639.2720336914063" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <RGB name="colour">
+  <DOUBLE default="1024" hidden="false" order="0" single_keyframe_only="1" animated="0" name="R"/>
+  <DOUBLE default="1024" hidden="false" order="1" single_keyframe_only="1" animated="0" name="G"/>
+  <DOUBLE default="1024" hidden="false" order="2" single_keyframe_only="1" animated="0" name="B"/>
+ </RGB>
+ <DOUBLE default="100" hidden="false" order="3" single_keyframe_only="1" animated="0" name="Multiplier">
+  <KEYFRAME data="40" time="0"/>
+ </DOUBLE>
+ <DOUBLE default="10" hidden="false" order="4" single_keyframe_only="1" animated="0" name="Range"/>
+ <DOUBLE default="0.2000000029802322" hidden="false" order="5" single_keyframe_only="1" animated="0" name="Scatter Diameter"/>
+ <BOOL default="1" hidden="false" order="6" single_keyframe_only="1" animated="0" name="Casts Shadows"/>
+</POINT_LIGHT_FILE>

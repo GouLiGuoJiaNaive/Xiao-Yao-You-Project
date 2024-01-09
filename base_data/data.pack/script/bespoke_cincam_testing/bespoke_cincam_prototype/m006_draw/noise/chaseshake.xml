@@ -1,0 +1,14 @@
+<NOISE_FILE name="chaseshake.xml" version="23">
+ <DOUBLE user_friendy_name="Amplitude" name="amplitude" order="0" animated="0" single_keyframe_only="1" default="20" hidden="false">
+  <KEYFRAME time="0" data="1"/>
+ </DOUBLE>
+ <DOUBLE user_friendy_name="Frequency" name="frequency" order="1" animated="0" single_keyframe_only="1" default="5" hidden="false">
+  <KEYFRAME time="0" data="5"/>
+ </DOUBLE>
+ <INT user_friendy_name="Number of Octaves" name="number_of_octaves" order="2" animated="0" single_keyframe_only="1" default="3" hidden="false"/>
+ <DOUBLE user_friendy_name="Offset" name="offset" order="3" animated="0" single_keyframe_only="1" default="10" hidden="false">
+  <KEYFRAME time="0" data="1.5"/>
+ </DOUBLE>
+ <DOUBLE user_friendy_name="Persistence" name="persistence" order="4" animated="0" single_keyframe_only="1" default="0.5" hidden="false"/>
+ <DOUBLE user_friendy_name="Lacunarity" name="lacunarity" order="5" animated="0" single_keyframe_only="1" default="2" hidden="false"/>
+</NOISE_FILE>

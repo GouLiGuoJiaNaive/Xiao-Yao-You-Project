@@ -1,0 +1,24 @@
+<PROP_FILE hidden="false" prop_name="projectiles/siege_stone_01_projectile.wsmodel" version="25" id="{84dea070-2c3f-4327-bf64-5b015804ba37}">
+ <VECTOR unique_id="{3a708b03-1882-46c6-9ad0-1c93229d3476}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{3a708b03-1882-46c6-9ad0-1c93229d3476}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="0" default="0" id="{6e6938d9-36a5-4469-b4da-2bca4d7f7078}">
+   <KEYFRAME data="-110.40570831298828" time="68.48492431640625"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="0" default="0" id="{c5e4ef82-b1ac-4e3b-8a55-5d64b98d29d6}">
+   <KEYFRAME handle2_type="EASY" data="222.45196533203125" time="67.24588012695313"/>
+   <KEYFRAME handle1_y="213.272" handle1_x="68.4532" handle1_type="BEZIER" data="210.81773376464844" time="68.48492431640625"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="0" default="0" id="{ed7eb03b-b201-4bbe-964a-3ba1c3aac4cc}">
+   <KEYFRAME data="-473.915283203125" time="67.24588012695313"/>
+   <KEYFRAME data="-381.2693786621094" time="68.48492431640625"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{bbc04861-e4b8-456c-81d0-e136afa9a3c2}">
+  <RADIAN name="X" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{2878c3f1-1471-4572-abc2-c3cec1df969b}"/>
+  <RADIAN name="Y" hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" id="{0dacb7f6-049e-44aa-8a9e-300f3610d887}"/>
+  <RADIAN name="Z" hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" id="{41dabeb9-9388-454e-b2dc-cac807d81ed7}"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" hidden="false" order="1" animated="0" single_keyframe_only="1" default="1" id="{21e4f755-442b-4063-9266-ae95673efea2}"/>
+ <BOOL name="always visible" hidden="false" order="3" animated="0" single_keyframe_only="1" default="0" id="{5aad08dc-628a-4993-87bd-6fc2b187ea82}">
+  <KEYFRAME data="1" time="0"/>
+ </BOOL>
+</PROP_FILE>

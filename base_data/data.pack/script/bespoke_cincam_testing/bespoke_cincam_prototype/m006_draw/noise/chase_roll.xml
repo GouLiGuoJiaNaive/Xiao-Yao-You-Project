@@ -1,0 +1,8 @@
+<NOISE_FILE version="23" name="chase_roll.xml">
+ <DOUBLE user_friendy_name="Amplitude" hidden="false" animated="0" single_keyframe_only="1" default="20" name="amplitude" order="0"/>
+ <DOUBLE user_friendy_name="Frequency" hidden="false" animated="0" single_keyframe_only="1" default="5" name="frequency" order="1"/>
+ <INT user_friendy_name="Number of Octaves" hidden="false" animated="1" single_keyframe_only="0" default="3" name="number_of_octaves" order="2"/>
+ <DOUBLE user_friendy_name="Offset" hidden="false" animated="1" single_keyframe_only="0" default="10" name="offset" order="3"/>
+ <DOUBLE user_friendy_name="Persistence" hidden="false" animated="1" single_keyframe_only="0" default="0.5" name="persistence" order="4"/>
+ <DOUBLE user_friendy_name="Lacunarity" hidden="false" animated="1" single_keyframe_only="0" default="2" name="lacunarity" order="5"/>
+</NOISE_FILE>

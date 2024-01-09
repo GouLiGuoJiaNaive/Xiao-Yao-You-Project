@@ -1,0 +1,10 @@
+<TRIGGER_FILE hidden="false" id="{7479d9a8-f7b7-473a-b3a6-6b2864142068}" version="26">
+ <STRING hidden="false" order="0" id="{07fbb1f5-98c5-412f-a63e-8394e84d1cbf}" name="Timeline">
+  <KEYFRAME time="1.000000596046448" data="yuan_shao_01"/>
+  <KEYFRAME time="15.50000095367432" data="yuan_shao_02"/>
+  <KEYFRAME time="30.99999618530273" data="yuan_shao_03"/>
+  <KEYFRAME time="46.50001525878906" data="yuan_shao_04"/>
+  <KEYFRAME time="62.00001525878906" data="yuan_shao_05"/>
+  <KEYFRAME time="76.50000762939453" data="yuan_shao_06"/>
+ </STRING>
+</TRIGGER_FILE>

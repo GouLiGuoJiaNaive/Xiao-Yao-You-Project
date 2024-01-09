@@ -1,0 +1,36 @@
+<SCENE_FILE perspective_camera="0,0,0:0,0,0" start_record_time="0" name="all_composite_scenes.CindyScene" version="23" end_record_time="1000">
+ <ENVIRONMENT name="Environment" data="" order="0" hidden="false"/>
+ <VECTOR is_linked="0" id="{ea78dae4-8eaf-4d4b-bd04-0442af9495d4}" name="position" surface_mode="Freeform" unique_id="{ea78dae4-8eaf-4d4b-bd04-0442af9495d4}" link_id="-1">
+  <DOUBLE default="0" name="X" order="0" single_keyframe_only="1" hidden="false" animated="1"/>
+  <DOUBLE default="0" name="Y" order="1" single_keyframe_only="1" hidden="false" animated="1"/>
+  <DOUBLE default="0" name="Z" order="2" single_keyframe_only="1" hidden="false" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES id="{0639b877-a46f-4d23-810f-b6c8fa1ab83c}" name="rotation">
+  <RADIAN default="0" name="X" order="0" single_keyframe_only="1" hidden="false" animated="1"/>
+  <RADIAN default="0" name="Y" order="1" single_keyframe_only="1" hidden="false" animated="1"/>
+  <RADIAN default="0" name="Z" order="2" single_keyframe_only="1" hidden="false" animated="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links"/>
+ <NODE name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/catapult_01.kfcs" name="catapult_01.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/catapult_02.kfcs" name="catapult_02.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/catapult_03.kfcs" name="catapult_03.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/catapult_04.kfcs" name="catapult_04.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/lubu_angry.kfcs" name="lubu_angry.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/lubu_end_01.kfcs" name="lubu_end_01.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/lubu_end_02.kfcs" name="lubu_end_02.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/lubu_end_03.kfcs" name="lubu_end_03.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/troops_end_01.kfcs" name="troops_end_01.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/troops_end_02.kfcs" name="troops_end_02.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/troops_end_03.kfcs" name="troops_end_03.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/troops_end_04.kfcs" name="troops_end_04.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/troops_end_05.kfcs" name="troops_end_05.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/troops_end_06.kfcs" name="troops_end_06.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/troops_end_07.kfcs" name="troops_end_07.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/troops_end_08.kfcs" name="troops_end_08.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/troops_end_09.kfcs" name="troops_end_09.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/xiahou.kfcs" name="xiahou.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/cao_cao_arrive.kfcs" name="cao_cao_arrive.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/cao_cao_end_01.kfcs" name="cao_cao_end_01.kfcs"/>
+ </NODE>
+</SCENE_FILE>

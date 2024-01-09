@@ -1,0 +1,15 @@
+<TRIGGER_FILE id="{d77d813c-0443-460a-bed7-5366e3a5f73f}" version="26" hidden="false">
+ <STRING name="Timeline" order="0" id="{00c52a06-986b-4bee-97a9-e6ba40abd9a9}" hidden="false">
+  <KEYFRAME time="1" data="lu_bu_advisor_01"/>
+  <KEYFRAME time="9" data="lu_bu_advisor_02"/>
+  <KEYFRAME time="18.53597259521484" data="lu_bu_advisor_03"/>
+  <KEYFRAME time="27.97397232055664" data="lu_bu_advisor_04"/>
+  <KEYFRAME time="35.39397048950195" data="lu_bu_advisor_05"/>
+  <KEYFRAME time="45.84397125244141" data="lu_bu_advisor_06"/>
+  <KEYFRAME time="52.06032180786133" data=""/>
+  <KEYFRAME time="56.81797027587891" data="lu_bu_advisor_07"/>
+  <KEYFRAME time="57.46032333374023" data=""/>
+  <KEYFRAME time="60.91096878051758" data="lu_bu_advisor_08"/>
+  <KEYFRAME time="71.80000305175781" data="lu_bu_advisor_09"/>
+ </STRING>
+</TRIGGER_FILE>

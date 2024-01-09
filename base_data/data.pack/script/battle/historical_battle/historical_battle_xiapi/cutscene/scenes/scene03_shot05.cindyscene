@@ -1,0 +1,27 @@
+<SCENE_FILE end_record_time="12.4000006467104" start_record_time="0" hidden="false" perspective_camera="-2.44706,210.105,-104.963:8.50871,199.902,-91.7008" version="25" id="{5395000e-44b0-4c46-8ae3-0f7665bd36dd}">
+ <ENVIRONMENT name="Environment" hidden="false" order="0" data="" id="{0d85b07c-7ff3-41ab-85ef-4d07430db0cc}"/>
+ <VECTOR unique_id="{50a2ab64-3dbf-4930-aa68-c0aeb3967116}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{50a2ab64-3dbf-4930-aa68-c0aeb3967116}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="1" default="0" id="{1a06a7fb-5d4b-42e4-a5ff-5cdd6000c7f8}"/>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="1" default="0" id="{775d42ea-ae3f-4973-a7e2-d00aeb1d2c6b}"/>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="1" default="0" id="{039cc1be-4a0d-416a-bcb9-674696ce8cca}"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{48688b4a-6cf1-4ae2-9408-b615e9b021ba}">
+  <RADIAN name="X" hidden="false" order="0" animated="1" single_keyframe_only="1" default="0" id="{68545fc7-a4ab-475c-8c19-6a327f7f4cf6}"/>
+  <RADIAN name="Y" hidden="false" order="1" animated="1" single_keyframe_only="1" default="0" id="{1d3401c0-e74b-44e0-ac14-1597997fd442}"/>
+  <RADIAN name="Z" hidden="false" order="2" animated="1" single_keyframe_only="1" default="0" id="{5f69e4cd-ab76-4d98-8b1e-7a9e6a5e18d0}"/>
+ </ROTATION_AXES>
+ <NODE name="Links" hidden="false" id="{50b88e4c-debe-4216-9040-2652de855d6d}"/>
+ <NODE name="Composite Scenes" hidden="false" id="{2ba7189f-a492-451c-991e-f412691bd9f8}">
+  <COMPOSITE_SCENE name="lubu_end_02.kfcs" hidden="false" composite_scene_file="../csc_ref/lubu_end_02.kfcs" id="{c931d370-a623-4916-a45c-3a05668c9abf}"/>
+ </NODE>
+ <NODE name="Warscape Properties" hidden="false" id="{a9b1e869-9ca5-43ff-b037-a9fadecb3a17}">
+  <WARSCAPE_PROPERTIES name="scene05_closeup2_lubu.xml" hidden="false" warscape_properties_file="../cameras/scene05_closeup2_lubu.xml" id="{ad419b4b-24d3-4935-9495-0afe86c5a976}"/>
+ </NODE>
+ <NODE name="Props" hidden="false" id="{2ace31a1-36e6-4932-a971-2a56002edcba}">
+  <PROP prop_file="../props/sun_blocker_cao_cao.kfp" name="sun_blocker_cao_cao.kfp" hidden="false" id="{1f2bf671-8d4f-4dd5-b188-230f8e0f84e7}"/>
+ </NODE>
+ <NODE name="Point Lights" hidden="false" id="{61bf514f-cc2a-433a-b36e-1ff33a0967c4}">
+  <POINT_LIGHT name="lubu_new_light_01.kfl" hidden="false" point_light_file="../lights/lubu_new_light_01.kfl" id="{ee1e5b6d-292f-42f4-8e83-578c7ee69039}"/>
+  <POINT_LIGHT name="lubu_new_light_02.kfl" hidden="false" point_light_file="../lights/lubu_new_light_02.kfl" id="{7f7903b3-0922-4fee-8b78-2324fd1fa340}"/>
+ </NODE>
+</SCENE_FILE>

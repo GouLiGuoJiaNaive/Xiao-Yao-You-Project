@@ -1,0 +1,12 @@
+<TRIGGER_FILE id="{f0bcaa3a-f113-4764-888c-cbfcba9d163b}" hidden="false" version="26">
+ <STRING name="Timeline" id="{d1f76eb4-135e-4f1a-a55c-0e77675bd47c}" hidden="false" order="0">
+  <KEYFRAME time="1" data="kong_rong_advisor_01"/>
+  <KEYFRAME time="9.300999641418457" data="kong_rong_advisor_02"/>
+  <KEYFRAME time="17.05900001525879" data="kong_rong_advisor_03"/>
+  <KEYFRAME time="22.32200050354004" data="kong_rong_advisor_04"/>
+  <KEYFRAME time="29.9419994354248" data="kong_rong_advisor_05"/>
+  <KEYFRAME time="41.40399932861328" data="kong_rong_advisor_06"/>
+  <KEYFRAME time="47.0629997253418" data="kong_rong_advisor_07"/>
+  <KEYFRAME time="58.02700042724609" data="kong_rong_advisor_08"/>
+ </STRING>
+</TRIGGER_FILE>

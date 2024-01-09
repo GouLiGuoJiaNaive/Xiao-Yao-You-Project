@@ -1,0 +1,20 @@
+<AUDIO_EVENT_FILE id="{69537dbe-38d5-4ef5-ba2a-e950b0ba924c}" audio_event_name="Play_3k_main_historical_battle_xinyang_cao_cao_02_1" version="25" hidden="false">
+ <VECTOR is_linked="0" unique_id="{f22a9043-95b2-49ba-a65b-22dd1003c663}" id="{f22a9043-95b2-49ba-a65b-22dd1003c663}" surface_mode="Freeform" name="position" link_id="-1" hidden="false">
+  <DOUBLE animated="0" order="0" id="{2374e868-f0a1-4e7a-b1f2-fce6347d657c}" name="X" default="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME time="-1" data="-401.29193115234375"/>
+  </DOUBLE>
+  <DOUBLE animated="0" order="1" id="{ebf70208-052a-410f-ac5d-0a0e9986b9a6}" name="Y" default="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME time="-1" data="231.1659393310547"/>
+  </DOUBLE>
+  <DOUBLE animated="0" order="2" id="{eaedb0f5-b11e-4ef5-9ab5-591c26f7dad6}" name="Z" default="0" single_keyframe_only="1" hidden="false">
+   <KEYFRAME time="-1" data="-218.96990966796875"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL animated="1" user_friendy_name="Active" order="2" id="{1f21f85c-7be1-4e20-a856-60c907a744eb}" name="active" default="0" single_keyframe_only="0" hidden="false">
+  <KEYFRAME time="17.80000114440918" data="0"/>
+  <KEYFRAME time="17.80100059509277" data="1"/>
+  <KEYFRAME time="26.23333549499512" data="0"/>
+  <KEYFRAME time="27.0333366394043" data="0"/>
+ </BOOL>
+ <DOUBLE animated="0" user_friendy_name="Volume" order="3" id="{ec86d961-f792-4e4b-895e-22a1e5712d13}" name="volume" default="100" single_keyframe_only="1" hidden="false"/>
+</AUDIO_EVENT_FILE>

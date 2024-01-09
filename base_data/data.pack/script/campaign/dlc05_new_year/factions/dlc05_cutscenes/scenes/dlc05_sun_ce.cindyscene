@@ -1,0 +1,32 @@
+<SCENE_FILE version="26" perspective_camera="306.235,11.151,358.391:311.235,6.15101,363.391" id="{110d29cd-e487-4fef-9a46-8c981d5dc830}" hidden="false" start_record_time="0" end_record_time="94.00000490248203">
+ <ENVIRONMENT name="Environment" order="0" hidden="false" id="{1e82ece1-8110-4ce9-9ea2-66a365e3957c}" data=""/>
+ <VECTOR name="position" unique_id="{63e049a1-2dd1-4dd6-86fa-2a4b0ab8eda7}" surface_mode="Freeform" is_linked="0" link_id="0" id="{63e049a1-2dd1-4dd6-86fa-2a4b0ab8eda7}" hidden="false">
+  <DOUBLE name="X" order="0" animated="1" default="0" hidden="false" id="{013ab47a-b242-48b7-99d8-878bf5aa874b}" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" order="1" animated="1" default="0" hidden="false" id="{c237f4ea-7d9d-4dde-bfe3-42ad06d6b16c}" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" order="2" animated="1" default="0" hidden="false" id="{ef697ba8-f13d-4ffa-840a-b3916d71513d}" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{a35ee205-e572-4eec-9b66-a515a3a37bac}" hidden="false">
+  <RADIAN name="X" order="0" animated="1" default="0" hidden="false" id="{33afef41-6060-422e-9606-26ce818886be}" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN name="Y" order="1" animated="1" default="0" hidden="false" id="{b84cf94b-1154-4b06-a6a5-73cd9d64551c}" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN name="Z" order="2" animated="1" default="0" hidden="false" id="{c3b2e4c1-45f3-4510-a6d7-84a42ed24f5b}" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{468f670b-cbae-4e4b-b08e-2e3596796999}" hidden="false"/>
+ <NODE name="Warscape Properties" id="{3341dc6b-5fe3-4738-a8ad-85487f4648ac}" hidden="false">
+  <WARSCAPE_PROPERTIES name="cam_sun_ce.xml" warscape_properties_file="../cameras/cam_sun_ce.xml" id="{3d95d5b4-bb9c-4cf8-81bb-4d0fd145e145}" hidden="false"/>
+ </NODE>
+ <NODE name="Triggers" id="{52b81959-4866-4b5b-acc9-7fddb5925a7f}" hidden="false">
+  <TRIGGER name="sun_ce.ktr" trigger_file="../triggers/sun_ce.ktr" id="{630b8ebc-81e4-4237-9d1c-37cd3dbff55c}" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

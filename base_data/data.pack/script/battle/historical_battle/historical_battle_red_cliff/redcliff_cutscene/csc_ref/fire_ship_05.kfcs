@@ -1,0 +1,30 @@
+<COMPOSITE_SCENE_FILE id="{2f22227b-78bd-49f6-a399-e79ee42b08ab}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/fire_ship_burning_attack.csc" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{fd04ca17-bf96-49c7-a68e-9a208323cbd8}" hidden="false" unique_id="{fd04ca17-bf96-49c7-a68e-9a208323cbd8}" name="position">
+  <DOUBLE order="0" id="{a66a8f0c-31f8-4d96-88fa-20efcf5de47c}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="X">
+   <KEYFRAME time="0" data="69.79476165771484"/>
+   <KEYFRAME time="32.96666717529297" data="71.87303161621094"/>
+   <KEYFRAME time="38.86666870117188" data="69.50686645507812"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{ad94e4e0-72d0-4cce-82ed-2e36bfe4cb65}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Y">
+   <KEYFRAME time="0" data="14.791404724121094"/>
+   <KEYFRAME time="32.96666717529297" data="14.791404724121094"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{abe07d1c-2339-4d86-976b-e28b41ed4f83}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Z">
+   <KEYFRAME time="32.96666717529297" data="-611.9425048828125"/>
+   <KEYFRAME time="38.86666870117188" data="-541.7010498046875"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{014b5d21-4b37-44ea-8973-55c1beae1229}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{19471674-a35c-430e-b286-77f380fc078e}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X"/>
+  <RADIAN order="1" id="{cbe75ee1-0856-4852-ad69-2ea2f6b25391}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="0" data="3.107919692993164"/>
+  </RADIAN>
+  <RADIAN order="2" id="{e5615171-06bd-4249-9d1c-b01867e0fa0a}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{f668406e-6517-4082-98ba-293fa1e75e44}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale"/>
+ <BOOL order="3" id="{d4fbb1b4-e7dd-4713-b440-c581ad44598f}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="33.63233947753906" data="0"/>
+  <KEYFRAME time="33.96666717529297" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" id="{1dc3bc8e-392e-49eb-b871-ca51b5af0ec9}" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" animated="1" default="1" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

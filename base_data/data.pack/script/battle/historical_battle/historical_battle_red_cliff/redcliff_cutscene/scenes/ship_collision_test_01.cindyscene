@@ -1,0 +1,36 @@
+<SCENE_FILE perspective_camera="-71.4209,155.855,-280.762:12.5342,88.8206,-57.9564" start_record_time="10.13333386182785" version="25" end_record_time="32.7333350405097" hidden="false" id="{18f390aa-d40d-4fa3-bfdc-bc1fcab8664d}">
+ <ENVIRONMENT data="" hidden="false" order="0" id="{c2937b45-62c3-4e3b-a246-0079433c4c79}" name="Environment"/>
+ <VECTOR is_linked="0" unique_id="{5e7f97bf-a1ed-462f-8310-e19a1e02da2e}" hidden="false" id="{5e7f97bf-a1ed-462f-8310-e19a1e02da2e}" name="position" surface_mode="Freeform" link_id="0">
+  <DOUBLE default="0" hidden="false" order="0" animated="1" id="{583fdb51-d57f-4ca6-860c-9ae963fb6ff0}" single_keyframe_only="1" name="X"/>
+  <DOUBLE default="0" hidden="false" order="1" animated="1" id="{6b5bb3ac-4b6a-4e50-8438-367d042a254f}" single_keyframe_only="1" name="Y"/>
+  <DOUBLE default="0" hidden="false" order="2" animated="1" id="{99f359e7-f5e3-40b4-8afc-be9f2d2be7bf}" single_keyframe_only="1" name="Z"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{db118dad-cdc6-4b90-986d-9bd601f3385f}" name="rotation">
+  <RADIAN default="0" hidden="false" order="0" animated="1" id="{6fc9a4a9-b842-4642-b710-39adfea69db8}" single_keyframe_only="1" name="X"/>
+  <RADIAN default="0" hidden="false" order="1" animated="1" id="{4feecca1-bfc6-4ea0-89b1-cfe2ea458503}" single_keyframe_only="1" name="Y"/>
+  <RADIAN default="0" hidden="false" order="2" animated="1" id="{26626fd9-b12d-4677-8efd-b665574abf24}" single_keyframe_only="1" name="Z"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{3cfd9b39-ca5b-4d4d-b604-7cef0865f1e2}" name="Links">
+  <LINK data="{1d7179cb-00b0-4181-94a8-84ad4c1a6375}" hidden="true" order="0" index="0" id="{01bc5d1f-7941-404b-a25c-148bf8698517}" name="ship_test_01.kfcs">
+   <LINK data="{dd64cb8c-6777-4a2b-97b0-d95ea677f615}" hidden="true" order="0" index="0" id="{22c3a4f4-98f9-4b1e-8cb5-563df4d34c13}" name="collision_ship_bow_wave.kfe"/>
+   <LINK data="{dd64cb8c-6777-4a2b-97b0-d95ea677f615}" hidden="true" order="0" index="1" id="{c61882fe-e011-43f4-bd68-657e2d841b4b}" name="collision_ship_bow_wave.kfe"/>
+  </LINK>
+  <LINK data="{8c80c430-6469-4bd3-a202-be3f34913504}" hidden="true" order="0" index="0" id="{2b61b872-f418-417e-8c22-0f37a6ca3eb1}" name="ship_test_02.kfcs">
+   <LINK data="{886bd775-7223-4b7d-b014-5def928f997b}" hidden="true" order="0" index="0" id="{d7647858-6d74-4966-8236-64b66dc4ba70}" name="collision_burn.kfe"/>
+   <LINK data="{886bd775-7223-4b7d-b014-5def928f997b}" hidden="true" order="0" index="1" id="{253d26fe-4dfe-4fe3-b84a-8989fb0abc3b}" name="collision_burn.kfe"/>
+  </LINK>
+ </NODE>
+ <NODE hidden="false" id="{e80b9d99-d6b8-4152-b1b2-d08a427835f3}" name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ship_test_01.kfcs" hidden="false" id="{7e766d2e-a61e-4516-bf98-465de5ae0d67}" name="ship_test_01.kfcs"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/ship_test_02.kfcs" hidden="false" id="{317069ac-bfc8-45eb-9f5d-05a7c761b351}" name="ship_test_02.kfcs"/>
+ </NODE>
+ <NODE hidden="false" id="{7f8b9070-131c-49d1-817c-a07a56e27669}" name="Particle Effects">
+  <EFFECT effect_file="../particles/collision_impact_test_01.kfe" hidden="false" id="{609a8703-8ddb-4439-a707-772e4f8038a2}" name="collision_impact_test_01.kfe"/>
+  <EFFECT effect_file="../particles/collision_burn.kfe" hidden="false" id="{9316970e-21dc-45c5-8aee-0e33a0c6046c}" name="collision_burn.kfe"/>
+  <EFFECT effect_file="../particles/collision_ship_bow_wave.kfe" hidden="false" id="{5b1466fd-2e50-42ee-8344-08eeee6702c4}" name="collision_ship_bow_wave.kfe"/>
+  <EFFECT effect_file="../particles/collision_water_test.kfe" hidden="false" id="{0659e5e0-4589-4790-9e60-a931ade4e877}" name="collision_water_test.kfe"/>
+ </NODE>
+ <NODE hidden="false" id="{f2a64ba8-390d-43ca-8366-e6705ad671b9}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES hidden="false" warscape_properties_file="../cameras/ship_collision_camera_01.xml" id="{83730425-76fa-443b-95f1-ea5322e61255}" name="ship_collision_camera_01.xml"/>
+ </NODE>
+</SCENE_FILE>

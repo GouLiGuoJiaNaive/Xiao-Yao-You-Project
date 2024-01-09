@@ -1,0 +1,20 @@
+<SCENE_FILE id="{30954b18-7763-45dd-841b-892cf629f29b}" end_record_time="35.8000018671155" version="23" perspective_camera="2.18579,203.218,2.00105:-17.1219,198.267,3.64535" start_record_time="34.76666847988963" name="bespoke_cincam_scene_M_s04.CindyScene">
+ <ENVIRONMENT id="{2098231c-83f5-4e89-88de-74dd2366bc8d}" data="projects/cincam_bespoke_prototype/weather/bespoke_prototype_01.environment" hidden="false" order="0" name="Environment"/>
+ <VECTOR id="{7c10ff97-722b-4fdb-8a53-5ef53e86e481}" is_linked="0" link_id="0" unique_id="{7c10ff97-722b-4fdb-8a53-5ef53e86e481}" name="position" surface_mode="Freeform">
+  <DOUBLE id="{13c13c3e-d33d-46c5-a22e-740088fe3f8b}" default="0" hidden="false" order="0" name="X" single_keyframe_only="1" animated="1"/>
+  <DOUBLE id="{65a6f50a-cd85-4760-b2a1-cdc76ea44703}" default="0" hidden="false" order="1" name="Y" single_keyframe_only="1" animated="1"/>
+  <DOUBLE id="{0da8e65d-7966-4c83-ba2e-554440f8eb08}" default="0" hidden="false" order="2" name="Z" single_keyframe_only="1" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES id="{7f1ea692-04e3-44ec-838d-a494a74597e9}" name="rotation">
+  <RADIAN id="{05a38c89-420c-4b08-82af-153d71de4bbd}" default="0" hidden="false" order="0" name="X" single_keyframe_only="1" animated="1"/>
+  <RADIAN id="{f74ec441-eeba-4184-ac13-26ee7e115566}" default="0" hidden="false" order="1" name="Y" single_keyframe_only="1" animated="1"/>
+  <RADIAN id="{bd5966f3-60ca-4378-a86e-572aec173364}" default="0" hidden="false" order="2" name="Z" single_keyframe_only="1" animated="1"/>
+ </ROTATION_AXES>
+ <NODE id="{5f714948-4274-4182-92aa-ce27f7af4647}" name="Links"/>
+ <NODE id="{613350be-7bc2-4403-9f2e-62c0a5d6b846}" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{8dc679ee-e937-40dd-9cd2-6bc4f76ea945}" composite_scene_file="../csc_ref/bespoke_test_01.kfcs" name="bespoke_cincam_scene_M_s04.CindyScene"/>
+ </NODE>
+ <NODE id="{8fc7f7be-050a-4934-93ee-bc85c67c5092}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{38abe4ec-721e-4216-bc2d-45d07b382e80}" warscape_properties_file="../cameras/bespoke_M_s04.xml" name="bespoke_cincam_scene_M_s04.CindyScene"/>
+ </NODE>
+</SCENE_FILE>

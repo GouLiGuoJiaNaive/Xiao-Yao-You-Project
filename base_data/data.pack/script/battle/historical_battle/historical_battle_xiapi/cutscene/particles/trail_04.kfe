@@ -1,0 +1,36 @@
+<EFFECT_FILE effect_name="3k_main_weapon_trail_rock" hidden="false" version="25" id="{059c069b-aef6-4bc4-9e3d-9695b1cb4b0d}">
+ <VECTOR unique_id="{b582e692-a663-4a27-827c-34581f279911}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{b582e692-a663-4a27-827c-34581f279911}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="0" default="0" id="{3bfd6966-883c-480e-8c29-f75156d7dc02}">
+   <KEYFRAME data="-143.29385375976562" time="68.23333740234375"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="0" default="0" id="{5a656879-664f-42a2-8039-babaa6fa8e2a}">
+   <KEYFRAME handle2_type="EASY" data="225.04690551757812" time="67.23332977294922"/>
+   <KEYFRAME handle1_y="204.716" handle1_x="68.2157" handle1_type="BEZIER" data="199.1069793701172" time="68.23333740234375"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="0" default="0" id="{a42424bd-31c9-41f6-b772-9492e94edc06}">
+   <KEYFRAME data="-480.3102722167969" time="67.23332977294922"/>
+   <KEYFRAME data="-387.66436767578125" time="68.23333740234375"/>
+  </DOUBLE>
+ </VECTOR>
+ <VECTOR unique_id="{9d339d8b-1cb8-4c34-97c9-ca503f05473b}" name="target" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{9d339d8b-1cb8-4c34-97c9-ca503f05473b}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="0" default="0" id="{5d65aa9d-0c15-4b35-9239-479ffca7967f}">
+   <KEYFRAME data="-73.85759735107422" time="65.16667175292969"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="0" default="0" id="{0c36b2ad-26bd-4667-8c66-2c053c6fcec4}">
+   <KEYFRAME data="201.237060546875" time="65.16667175292969"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="0" default="0" id="{64890fde-63d7-46e8-800b-f898532b3ad8}">
+   <KEYFRAME data="-649.533203125" time="65.16667175292969"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL user_friendy_name="Active" name="active" hidden="false" order="2" animated="1" single_keyframe_only="0" default="0" id="{3faaa990-aa5c-4325-b7f0-4737053a7e49}">
+  <KEYFRAME data="0" time="0"/>
+  <KEYFRAME data="0" time="64.73333740234375"/>
+  <KEYFRAME data="1" time="64.76667022705078"/>
+ </BOOL>
+ <BOOL user_friendy_name="Tracked" name="tracked" hidden="false" order="3" animated="0" single_keyframe_only="1" default="0" id="{b2d85a5b-8e65-4ed2-9a7d-e345cc5284f0}">
+  <KEYFRAME data="1" time="0"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Scale" name="scale" hidden="false" order="4" animated="0" single_keyframe_only="1" default="1" id="{cb05f962-9ddb-4ac2-9013-1159d14e365d}"/>
+ <BOOL user_friendy_name="Emit Light" name="is_light_enabled" hidden="false" order="5" animated="0" single_keyframe_only="1" default="1" id="{67e38bd5-ab9d-4b4a-8137-7207ba298bb0}"/>
+</EFFECT_FILE>

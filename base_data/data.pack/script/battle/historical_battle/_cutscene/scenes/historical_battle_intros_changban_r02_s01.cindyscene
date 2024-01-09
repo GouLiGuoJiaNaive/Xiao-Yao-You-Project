@@ -1,0 +1,37 @@
+<SCENE_FILE start_record_time="10.00000052154064" hidden="false" perspective_camera="-136.32,607.86,10.09:-144.94,604.47,24.33" version="25" id="{d0bb37a9-ead0-414c-8e53-465c8625ac4c}" end_record_time="46.33333574980497">
+ <ENVIRONMENT data="" name="Environment" order="0" hidden="false" id="{4da3b100-27f8-4976-a7f1-86d2792689fb}"/>
+ <VECTOR name="position" unique_id="{8e10689b-9192-4f6e-8570-cc54d37fa237}" is_linked="0" hidden="false" surface_mode="Freeform" link_id="0" id="{8e10689b-9192-4f6e-8570-cc54d37fa237}">
+  <DOUBLE name="X" order="0" single_keyframe_only="1" default="0" hidden="false" animated="1" id="{09475cfc-accb-4676-8818-104dd91263af}">
+   <KEYFRAME data="0" time="12.50900077819824"/>
+  </DOUBLE>
+  <DOUBLE name="Y" order="1" single_keyframe_only="1" default="0" hidden="false" animated="1" id="{b8dbb26f-0fc8-4b8f-8859-9bd81c4d4822}">
+   <KEYFRAME data="0" time="12.50900077819824"/>
+  </DOUBLE>
+  <DOUBLE name="Z" order="2" single_keyframe_only="1" default="0" hidden="false" animated="1" id="{03f5bc3b-e3f3-44b9-a2ff-a157698ba98a}">
+   <KEYFRAME data="0" time="12.50900077819824"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{781e64cc-f867-4347-8a0e-8af57e6fe5a8}">
+  <RADIAN name="X" order="0" single_keyframe_only="1" default="0" hidden="false" animated="1" id="{99a9feec-cd70-4232-bf46-1f61f8e03382}">
+   <KEYFRAME data="0" time="12.50900077819824"/>
+  </RADIAN>
+  <RADIAN name="Y" order="1" single_keyframe_only="1" default="0" hidden="false" animated="1" id="{0747703e-c926-4e18-837e-0706ed8b0d7c}">
+   <KEYFRAME data="0" time="12.50900077819824"/>
+  </RADIAN>
+  <RADIAN name="Z" order="2" single_keyframe_only="1" default="0" hidden="false" animated="1" id="{3e0eb1ce-7a3e-42fd-a248-9c2b4326df4c}">
+   <KEYFRAME data="0" time="12.50900077819824"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" hidden="false" id="{d2b04a2e-a26c-4ba5-a767-9d521bb61aa9}"/>
+ <NODE name="Warscape Properties" hidden="false" id="{b6142928-64f4-4b9c-9608-ce1a068fabc3}">
+  <WARSCAPE_PROPERTIES name="changban_army_r02_s01.xml" warscape_properties_file="../cameras/changban_army_r02_s01.xml" hidden="false" id="{2f29a6ea-8624-4f66-920c-1b96859d28fe}"/>
+ </NODE>
+ <NODE name="Audio Events" hidden="false" id="{8d89e5de-0c46-4c4a-91c7-23353e74cb2a}">
+  <AUDIO_EVENT audio_event_file="../audio/v01.kfa" name="v01.kfa" hidden="false" id="{6388e00f-5ca1-4eb3-bee0-8eeb5c931515}"/>
+  <AUDIO_EVENT audio_event_file="../audio/v02.kfa" name="v02.kfa" hidden="false" id="{ab30eb25-cf47-4754-9a40-3fb075216978}"/>
+  <AUDIO_EVENT audio_event_file="../audio/v03.kfa" name="v03.kfa" hidden="false" id="{ec5321e4-15d5-4a21-98aa-9a21c2ef6291}"/>
+  <AUDIO_EVENT audio_event_file="../audio/v04.kfa" name="v04.kfa" hidden="false" id="{64cbf8c3-0b29-4ec4-99ad-07e2c3dcda82}"/>
+  <AUDIO_EVENT audio_event_file="../audio/v05.kfa" name="v05.kfa" hidden="false" id="{7c1dbbd8-bc6a-4376-b25f-bb6e547dc377}"/>
+  <AUDIO_EVENT audio_event_file="../audio/sound_sweet_changban.kfa" name="sound_sweet_changban.kfa" hidden="false" id="{5a4a0797-7261-4cee-a794-c245464d821f}"/>
+ </NODE>
+</SCENE_FILE>

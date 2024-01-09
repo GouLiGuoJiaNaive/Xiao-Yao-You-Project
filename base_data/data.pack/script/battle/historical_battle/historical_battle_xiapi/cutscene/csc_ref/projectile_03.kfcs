@@ -1,0 +1,27 @@
+<COMPOSITE_SCENE_FILE directory="script/battle/historical_battle/historical_battle_xiapi/composite_scene/scene01_catapult_projectile.csc" id="{dc71bffb-8838-4bf3-a359-8a2737b42bd3}" version="23" name="projectile_03.kfcs">
+ <VECTOR surface_mode="Freeform" link_id="0" id="{b2801378-125b-4dea-83e5-1a981e4b541c}" unique_id="{b2801378-125b-4dea-83e5-1a981e4b541c}" is_linked="0" name="position">
+  <DOUBLE default="0" hidden="false" order="0" single_keyframe_only="0" animated="1" name="X">
+   <KEYFRAME data="-114.3792266845703" time="16.43333435058594"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" order="1" single_keyframe_only="0" animated="1" name="Y">
+   <KEYFRAME data="207.3650512695313" time="16.43333435058594"/>
+   <KEYFRAME handle2_y="233.692" handle1_y="219.122" handle2_x="18.0889" data="224.0333099365234" handle1_x="17.1" time="17.43333435058594" handle1_type="SMOOTH" handle2_type="SMOOTH"/>
+   <KEYFRAME data="209.7083587646484" time="19.40000152587891"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" order="2" single_keyframe_only="0" animated="1" name="Z">
+   <KEYFRAME data="-630.4600219726563" time="16.43333435058594"/>
+   <KEYFRAME data="-419.6059265136719" time="19.40000152587891"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{9822eaa1-ef63-4211-9845-f7798ad74317}" name="rotation">
+  <RADIAN default="0" hidden="false" order="0" single_keyframe_only="1" animated="0" name="X"/>
+  <RADIAN default="0" hidden="false" order="1" single_keyframe_only="1" animated="0" name="Y"/>
+  <RADIAN default="0" hidden="false" order="2" single_keyframe_only="1" animated="0" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" user_friendy_name="Scale" hidden="false" order="2" single_keyframe_only="1" animated="0" name="scale"/>
+ <BOOL default="0" user_friendy_name="Active" hidden="false" order="3" single_keyframe_only="0" animated="1" name="active">
+  <KEYFRAME data="0" time="16.13333702087402"/>
+  <KEYFRAME data="1" time="16.43333435058594"/>
+ </BOOL>
+ <DOUBLE default="1" user_friendy_name="Speed Multiplier" hidden="false" order="4" single_keyframe_only="0" animated="1" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

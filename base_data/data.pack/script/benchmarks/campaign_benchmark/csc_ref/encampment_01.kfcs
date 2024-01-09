@@ -1,0 +1,32 @@
+<COMPOSITE_SCENE_FILE hidden="false" id="{2e7bd618-01e4-4ae1-9c5c-c18ce0dfec3f}" version="25" directory="composite_scene/campaign/stances/encamp.csc">
+ <VECTOR surface_mode="Freeform" hidden="false" unique_id="{40b28aab-7da0-46e6-bf72-7565a4b2b558}" name="position" link_id="0" id="{40b28aab-7da0-46e6-bf72-7565a4b2b558}" is_linked="0">
+  <DOUBLE hidden="false" name="X" default="0" animated="0" id="{1c089748-5884-487d-aea1-179fa2f5321a}" order="0" single_keyframe_only="1">
+   <KEYFRAME time="0" data="187.24240112304688"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" name="Y" default="0" animated="0" id="{a7934ce0-c419-462c-919b-6b242262afa8}" order="1" single_keyframe_only="1">
+   <KEYFRAME time="0" data="6.115206718444824"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" name="Z" default="0" animated="0" id="{ddb069cd-5ca0-4784-81eb-654e1fceee73}" order="2" single_keyframe_only="1">
+   <KEYFRAME time="0" data="401.51910400390625"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{ca2c3d54-edd2-40ab-9037-68ef0da24008}">
+  <RADIAN hidden="false" name="X" default="0" animated="0" id="{e93f442a-0159-4604-8dbc-cce0ff021815}" order="0" single_keyframe_only="1">
+   <KEYFRAME time="0" data="-3.1221585273742676"/>
+  </RADIAN>
+  <RADIAN hidden="false" name="Y" default="0" animated="0" id="{f1aed904-c0b9-470d-94a5-25865c9cce84}" order="1" single_keyframe_only="1">
+   <KEYFRAME time="0" data="5.408398628234863"/>
+  </RADIAN>
+  <RADIAN hidden="false" name="Z" default="0" animated="0" id="{3911516b-d490-42af-baf7-d3ae6f0c4bb5}" order="2" single_keyframe_only="1">
+   <KEYFRAME time="0" data="3.141591787338257"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" name="scale" user_friendy_name="Scale" default="1" animated="0" id="{f1857f97-89ec-43e4-afbc-bc0302c1ed17}" order="2" single_keyframe_only="1">
+  <KEYFRAME time="0" data="0.6499999761581421"/>
+ </DOUBLE>
+ <BOOL hidden="false" name="active" user_friendy_name="Active" default="0" animated="1" id="{a20d6482-3c87-4b77-aa18-eaad62e1797d}" order="3" single_keyframe_only="0">
+  <KEYFRAME time="49.86666870117188" data="0"/>
+  <KEYFRAME time="49.93333435058594" data="1"/>
+ </BOOL>
+ <DOUBLE hidden="false" name="speed_multiplier" user_friendy_name="Speed Multiplier" default="1" animated="1" id="{e0f7c4ee-d62a-4966-a665-7d80689b5b74}" order="4" single_keyframe_only="0"/>
+</COMPOSITE_SCENE_FILE>

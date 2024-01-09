@@ -1,0 +1,18 @@
+<AUDIO_EVENT_FILE hidden="false" version="26" audio_event_name="/" id="{657330b1-a791-468f-9cf6-ababa8551b88}">
+ <VECTOR is_linked="0" unique_id="{9a2106e6-9d95-40d0-938c-0f18e064283a}" surface_mode="Freeform" hidden="false" name="position" link_id="0" id="{9a2106e6-9d95-40d0-938c-0f18e064283a}">
+  <DOUBLE default="0" single_keyframe_only="1" hidden="false" animated="0" name="X" order="0" id="{f87022b9-f20c-4a53-825f-9a7892b7c1fe}">
+   <KEYFRAME data="329.4620056152344" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" single_keyframe_only="1" hidden="false" animated="0" name="Y" order="1" id="{ee2c4fe3-574e-47aa-8952-2cea037f57c2}">
+   <KEYFRAME data="0.4440891742706299" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" single_keyframe_only="1" hidden="false" animated="0" name="Z" order="2" id="{465fd63b-7a9d-4c9a-9710-0b16dd1239f3}">
+   <KEYFRAME data="350.42742919921875" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL default="0" single_keyframe_only="0" hidden="false" animated="1" name="active" order="2" user_friendy_name="Active" id="{94c7273f-b42c-4c79-b7bb-101d66700bec}">
+  <KEYFRAME data="0" time="20.39900207519531"/>
+  <KEYFRAME data="1" time="20.40000152587891"/>
+ </BOOL>
+ <DOUBLE default="100" single_keyframe_only="1" hidden="false" animated="0" name="volume" order="3" user_friendy_name="Volume" id="{525f6418-7882-496b-8187-19c93e9af833}"/>
+</AUDIO_EVENT_FILE>

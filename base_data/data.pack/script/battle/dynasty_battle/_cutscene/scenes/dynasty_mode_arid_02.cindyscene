@@ -1,0 +1,29 @@
+<SCENE_FILE hidden="false" start_record_time="4.9" version="26" id="{b5b03ba3-4ece-433f-abae-36edbbd13610}" perspective_camera="46.1905,624.999,130.209:-26.1831,507.022,-73.2518" end_record_time="15.03333411738276">
+ <ENVIRONMENT hidden="false" id="{a8313669-1130-401a-8200-ffd98e6378d2}" order="0" name="Environment" data=""/>
+ <VECTOR hidden="false" link_id="0" is_linked="0" id="{1604cb82-9ae1-480d-8621-95a3430b13bf}" unique_id="{1604cb82-9ae1-480d-8621-95a3430b13bf}" surface_mode="Freeform" name="position">
+  <DOUBLE hidden="false" single_keyframe_only="1" default="0" id="{42862739-95d7-485e-9d4c-62723e83ca87}" order="0" animated="1" name="X">
+   <KEYFRAME time="5.505847454071045" data="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" single_keyframe_only="1" default="0" id="{0778b3db-f70c-4a2e-9277-e0fc05172239}" order="1" animated="1" name="Y">
+   <KEYFRAME time="5.505847454071045" data="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" single_keyframe_only="1" default="0" id="{a73fca21-e63a-4e7f-beef-1343a5303fd5}" order="2" animated="1" name="Z">
+   <KEYFRAME time="5.505847454071045" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{66358cdd-cec2-4810-94b6-0b68dc4278f9}" name="rotation">
+  <RADIAN hidden="false" single_keyframe_only="1" default="0" id="{6861f5c2-974e-46d1-8906-37d2e69ab440}" order="0" animated="1" name="X">
+   <KEYFRAME time="5.505847454071045" data="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" single_keyframe_only="1" default="0" id="{07e6f315-7077-48f2-a145-d3847bb1f6fa}" order="1" animated="1" name="Y">
+   <KEYFRAME time="5.505847454071045" data="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" single_keyframe_only="1" default="0" id="{37d7d7d7-fdb3-439f-a424-338ca119db3b}" order="2" animated="1" name="Z">
+   <KEYFRAME time="5.505847454071045" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{d69ee54d-4732-41af-87f7-edd9ae2a3302}" name="Links"/>
+ <NODE hidden="false" id="{7eca1a00-62bc-4f02-9047-c9d0150dd9a2}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES hidden="false" warscape_properties_file="../cameras/pan_camera_dynasty_arid_02.xml" id="{10be0296-63d2-468a-908e-e1cba40069c6}" name="pan_camera_dynasty_arid_02.xml"/>
+ </NODE>
+</SCENE_FILE>

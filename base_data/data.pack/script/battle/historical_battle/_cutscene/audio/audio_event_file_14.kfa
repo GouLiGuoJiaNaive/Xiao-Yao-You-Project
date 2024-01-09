@@ -1,0 +1,20 @@
+<AUDIO_EVENT_FILE hidden="false" version="25" id="{90d47726-3368-4abe-8b0a-1915ef4720d7}" audio_event_name="Play_3k_main_historical_battle_jing_province_guan_yu_03_1">
+ <VECTOR hidden="false" surface_mode="Freeform" unique_id="{5d1387df-7ea1-4fc2-af61-9b60d16b4c91}" id="{5d1387df-7ea1-4fc2-af61-9b60d16b4c91}" name="position" is_linked="0" link_id="0">
+  <DOUBLE hidden="false" animated="0" single_keyframe_only="1" order="0" id="{d346deb7-17bb-459a-98a9-720a0e3a2b63}" name="X" default="0">
+   <KEYFRAME data="379.87725830078125" time="-0.2739037573337555"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" animated="0" single_keyframe_only="1" order="1" id="{315d7296-c1a9-4f39-a6d3-45d780b92ff8}" name="Y" default="0">
+   <KEYFRAME data="609.9031982421875" time="-0.2739037573337555"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" animated="0" single_keyframe_only="1" order="2" id="{b9c09885-8ffb-4554-b3ae-6cac7d384446}" name="Z" default="0">
+   <KEYFRAME data="81.35006713867188" time="-0.2739037573337555"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL hidden="false" animated="1" single_keyframe_only="0" order="2" id="{9864ce8e-de0a-48b6-a174-443a7f65485b}" name="active" default="0" user_friendy_name="Active">
+  <KEYFRAME data="0" time="-0.8999853134155273"/>
+  <KEYFRAME data="1" time="18.5594539642334"/>
+  <KEYFRAME data="1" time="18.5594539642334"/>
+  <KEYFRAME data="0" time="24.92612266540527"/>
+ </BOOL>
+ <DOUBLE hidden="false" animated="0" single_keyframe_only="1" order="3" id="{0ea61a8a-916d-4fe6-a303-382cfa8bb3a0}" name="volume" default="100" user_friendy_name="Volume"/>
+</AUDIO_EVENT_FILE>

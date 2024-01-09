@@ -1,0 +1,44 @@
+<COMPOSITE_SCENE_FILE id="{1d871e08-76a3-48f5-90bb-d53d4838b720}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/red_cliff_fire_ships_group_approach.csc" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{8820b356-43cc-4b29-adfa-3a60c379c9c1}" hidden="false" unique_id="{8820b356-43cc-4b29-adfa-3a60c379c9c1}" name="position">
+  <DOUBLE order="0" id="{00ec99fb-ed65-403f-9b2a-c2da67436344}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="X">
+   <KEYFRAME time="26.90000152587891" data="239.87179565429688"/>
+   <KEYFRAME time="33.40000152587891" data="206.3773956298828"/>
+   <KEYFRAME time="40.73333358764648" data="54.90929412841797"/>
+   <KEYFRAME time="44.5" data="25.798843383789062"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{8015599f-e807-42f8-97f5-92a03edf3d3a}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Y">
+   <KEYFRAME time="26.90000152587891" data="12.868903160095215"/>
+   <KEYFRAME time="33.40000152587891" data="12.86865234375"/>
+   <KEYFRAME time="40.73333358764648" data="12.86752700805664"/>
+   <KEYFRAME time="44.5" data="12.867315292358398"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{6cc3c824-0216-43b4-84a1-68be9a601f45}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Z">
+   <KEYFRAME time="26.90000152587891" data="-1039.485107421875"/>
+   <KEYFRAME time="33.40000152587891" data="-940.9456787109375"/>
+   <KEYFRAME time="40.73333358764648" data="-495.3318786621094"/>
+   <KEYFRAME time="44.5" data="-409.6899719238281"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{4d098342-657b-420c-bff7-a6029505547c}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{058c8f79-92f7-4d1a-b71b-5dfc47ba8604}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X">
+   <KEYFRAME time="0" data="-3.1415908336639404"/>
+  </RADIAN>
+  <RADIAN order="1" id="{6d5663d3-7008-496e-9f33-c3661f23a159}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="0" data="0.3276568055152893"/>
+  </RADIAN>
+  <RADIAN order="2" id="{eade47d7-e764-42b3-afad-4bc4a5eb2635}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z">
+   <KEYFRAME time="0" data="-3.1415908336639404"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{4bbaa984-4142-4cce-9924-48ba10f110a0}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale">
+  <KEYFRAME time="0" data="0.8999999761581421"/>
+ </DOUBLE>
+ <BOOL order="3" id="{778b17fb-521a-48a3-a0d2-ef66d8ea3a52}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="19.99899864196777" data="0"/>
+  <KEYFRAME time="20.20000076293945" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" id="{29e5b4b4-f2c8-40a8-abd7-d6a5b0ed4198}" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" animated="1" default="1" name="speed_multiplier">
+  <KEYFRAME time="26.90000152587891" data="1"/>
+  <KEYFRAME time="33.40000152587891" data="1"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

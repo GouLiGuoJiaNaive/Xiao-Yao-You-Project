@@ -1,0 +1,11 @@
+<TRIGGER_FILE version="26" id="{9c171f1e-1119-4b22-8fec-fd6430ededb0}" hidden="false">
+ <STRING order="0" name="Timeline" id="{8ec727f1-ed7b-430c-b6d4-bc4b3635576b}" hidden="false">
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_lady_zhurong_01_advisor" time="0.5"/>
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_lady_zhurong_02_advisor" time="9.500000953674316"/>
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_lady_zhurong_03_advisor" time="21.00000190734863"/>
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_lady_zhurong_04_advisor" time="26.50000190734863"/>
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_lady_zhurong_05_advisor" time="33.99997711181641"/>
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_lady_zhurong_06_advisor" time="44.49998092651367"/>
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_lady_zhurong_07_advisor" time="54.99998092651367"/>
+ </STRING>
+</TRIGGER_FILE>

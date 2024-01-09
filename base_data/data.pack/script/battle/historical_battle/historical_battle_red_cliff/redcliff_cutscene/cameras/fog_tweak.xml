@@ -1,0 +1,40 @@
+<WARSCAPE_PROPERTIES_FILE version="26" id="{93747ef2-d78c-44a3-8c4a-834fc919f71c}" supported_warscape_properties="8" hidden="false">
+ <NODE name="Fog" id="{c17f8d41-7c97-4f98-9ecd-2c87f697448a}" hidden="false">
+  <BOOL name="enabled" single_keyframe_only="1" id="{69cae9be-805f-4780-bc1e-62b99d09e171}" order="0" animated="0" default="1" hidden="false"/>
+  <DOUBLE name="density" single_keyframe_only="1" id="{99a96e3f-0506-451c-8e3e-30a4868dade7}" order="0" animated="0" default="0.3700000047683716" hidden="false"/>
+  <DOUBLE name="haziness" single_keyframe_only="1" id="{83c715b3-ee20-48bc-8949-c895541d8717}" order="0" animated="0" default="1" hidden="false"/>
+  <DOUBLE name="height top" single_keyframe_only="1" id="{865df992-cc6f-4fa9-a73a-097b3ebf0b43}" order="0" animated="0" default="270" hidden="false"/>
+  <DOUBLE name="height bottom" single_keyframe_only="1" id="{f12666f4-402d-4393-b73a-7cd1b57ddfb1}" order="0" animated="0" default="0" hidden="false"/>
+  <DOUBLE name="height density" single_keyframe_only="1" id="{0ccadd08-7926-4fed-92c7-b99f8d3d6e95}" order="0" animated="0" default="0.5" hidden="false">
+   <KEYFRAME data="0.20000000298023224" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="constant fog clear distance" single_keyframe_only="1" id="{bd9e55b8-6548-471a-b493-bd96eaff9aa7}" order="0" animated="0" default="500" hidden="false">
+   <KEYFRAME data="1000" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="height fog clear distance" single_keyframe_only="1" id="{c5daa893-ee81-4c33-af77-4416f2a5bb5f}" order="0" animated="0" default="200" hidden="false">
+   <KEYFRAME data="100" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="clear distance fade out" single_keyframe_only="1" id="{3f5e5bb8-5301-485e-8ac9-5d3acc31783c}" order="0" animated="0" default="500" hidden="false">
+   <KEYFRAME data="1024" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="2d - 3d" single_keyframe_only="1" id="{de64dfd3-7a6e-4ab6-aa96-aa61d58161ce}" order="0" animated="0" default="1" hidden="false"/>
+  <DOUBLE name="noise" single_keyframe_only="1" id="{0d72622a-1033-41c7-8274-69be85a7226f}" order="0" animated="0" default="1" hidden="false"/>
+  <BOOL name="terrain relative height" single_keyframe_only="1" id="{0aaa5296-d794-4b44-a844-3b1198a132f1}" order="0" animated="0" default="1" hidden="false"/>
+  <NODE name="Advanced" id="{2dab5a6c-5e82-45c3-8d4f-62269ce86df7}" hidden="false">
+   <RGB name="colour" id="{05ef12ff-3dde-4e2f-8891-5dec69300a11}" hidden="false">
+    <DOUBLE name="R" single_keyframe_only="1" id="{f6109bea-5ba2-4f6f-a519-a5354c5e0351}" order="0" animated="0" default="0.003921568859368563" hidden="false">
+     <KEYFRAME data="32.125492095947266" time="-1"/>
+    </DOUBLE>
+    <DOUBLE name="G" single_keyframe_only="1" id="{bed61383-e1d2-48c6-a7d6-d81bba2bd286}" order="0" animated="0" default="0.03921568766236305" hidden="false">
+     <KEYFRAME data="329.2862854003906" time="-1"/>
+    </DOUBLE>
+    <DOUBLE name="B" single_keyframe_only="1" id="{666ee807-a20c-42e5-afa4-fbc4a6054c51}" order="0" animated="0" default="0.1215686351060867" hidden="false">
+     <KEYFRAME data="1024" time="-1"/>
+    </DOUBLE>
+   </RGB>
+   <DOUBLE name="shadow strength" single_keyframe_only="1" id="{388d3280-04b0-465c-a147-7932cf1d6851}" order="0" animated="0" default="1" hidden="false"/>
+   <DOUBLE name="blur strength" single_keyframe_only="1" id="{b876554c-3184-4e5f-af2a-7b21fbf58533}" order="0" animated="0" default="0" hidden="false"/>
+   <DOUBLE name="blur offset" single_keyframe_only="1" id="{19df7698-4b5b-4e16-bb04-1bf5f310a1c7}" order="0" animated="0" default="0" hidden="false"/>
+  </NODE>
+ </NODE>
+</WARSCAPE_PROPERTIES_FILE>

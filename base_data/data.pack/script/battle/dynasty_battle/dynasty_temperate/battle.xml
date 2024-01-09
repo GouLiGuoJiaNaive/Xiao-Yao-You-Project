@@ -1,0 +1,1029 @@
+<?xml version="1.0"?>
+<battle>
+  <!--     _    _     _     ___    _    _   _  ____ _____   _  -->
+  <!--    / \  | |   | |   |_ _|  / \  | \ | |/ ___| ____| / | -->
+  <!--   / _ \ | |   | |    | |  / _ \ |  \| | |   |  _|   | | -->
+  <!--  / ___ \| |___| |___ | | / ___ \| |\  | |___| |___  | | -->
+  <!-- /_/   \_\_____|_____|___|_/   \_\_| \_|\____|_____| |_| -->
+  <!-- Everything in the first alliance will be replaced by the
+	 unit setup from the Dynasty mode menu, but it does need 
+	 to exist and have at least one unit here in the xml,
+	 otherwise the game refuses to load it!
+	 It's essentially just a placeholder -->
+  <alliance id="0">
+    <army>
+      <faction>3k_main_faction_liu_bei</faction>
+      <deployment_area>
+        <centre x="0" y="0" />
+        <width metres="50.00" />
+        <height metres="50.00" />
+        <orientation radians="0" />
+      </deployment_area>
+      <camera_start_position x="16.1" y="603.8" z="95.1" />
+      <camera_target_position x="-12.0" y="480.0" z="-115.7" />
+      <campaign_ai_battle_hints aggression="0.50" />
+      <unit>
+        <unit_type type="ep_dyn_hero_earth_cao_cao" />
+        <position x="7.23" y="-16.35" />
+        <orientation radians="3.40" />
+        <width metres="1.04" />
+      </unit>
+      <unit>
+        <unit_type type="ep_dyn_hero_wood_dian_wei" />
+        <position x="11.55" y="20.03" />
+        <orientation radians="0.35" />
+        <width metres="1.04" />
+      </unit>
+      <unit>
+        <unit_type type="ep_dyn_hero_fire_dong_zhuo" />
+        <position x="-13.83" y="-1.87" />
+        <orientation radians="4.34" />
+        <width metres="1.04" />
+      </unit>
+    </army>
+    <rout_position x="0.00" y="0.00" />
+  </alliance>
+  <!--     _    _     _     ___    _    _   _  ____ _____   ____   -->
+  <!--    / \  | |   | |   |_ _|  / \  | \ | |/ ___| ____| |___ \  -->
+  <!--   / _ \ | |   | |    | |  / _ \ |  \| | |   |  _|     __) | -->
+  <!--  / ___ \| |___| |___ | | / ___ \| |\  | |___| |___   / __/  -->
+  <!-- /_/   \_\_____|_____|___|_/   \_\_| \_|\____|_____| |_____| -->
+  <alliance id="1">
+    <army>
+      <faction>random</faction>
+      <deployment_area>
+        <centre x="0" y="0" />
+        <width metres="600.00" />
+        <height metres="600.00" />
+        <orientation radians="0" />
+      </deployment_area>
+      <camera_start_position x="-347.30" y="697.33" z="-384.41" />
+      <camera_target_position x="-256.13" y="583.09" z="-184.86" />
+      <campaign_ai_battle_hints aggression="0.50" />
+      <unit>
+        <unit_type type="3k_ytr_unit_metal_peasant_warriors" />
+        <position x="-5.26" y="-61.48" />
+        <orientation radians="0.33" />
+        <unit_capabilities>
+          <firing_drill>fire_volley</firing_drill>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_metal_peasant_warriors" hp_pool="200" />
+      </unit>
+      <unit>
+        <unit_type type="3k_ytr_unit_metal_peasant_warriors" />
+        <position x="45.32" y="-59.58" />
+        <orientation radians="5.95" />
+        <unit_capabilities>
+          <firing_drill>fire_volley</firing_drill>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_metal_peasant_warriors" hp_pool="200" />
+      </unit>
+      <unit>
+        <unit_type type="3k_ytr_unit_metal_peasant_warriors" />
+        <position x="-57.85" y="-21.11" />
+        <orientation radians="1.16" />
+        <unit_capabilities>
+          <firing_drill>fire_volley</firing_drill>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_metal_peasant_warriors" hp_pool="200" />
+      </unit>
+      <unit>
+        <unit_type type="3k_ytr_unit_metal_yellow_turban_warriors" />
+        <position x="-57.24" y="28.46" />
+        <orientation radians="2.07" />
+        <unit_capabilities>
+          <firing_drill>fire_volley</firing_drill>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_metal_yellow_turban_warriors" hp_pool="200" />
+      </unit>
+      <unit>
+        <unit_type type="3k_main_unit_metal_sabre_militia" />
+        <position x="55.38" y="42.44" />
+        <orientation radians="4.18" />
+        <unit_capabilities>
+          <firing_drill>fire_volley</firing_drill>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_metal_sabre_militia" hp_pool="200" />
+      </unit>
+      <unit>
+        <unit_type type="3k_ytr_unit_metal_scholar_warriors" />
+        <position x="15.17" y="69.58" />
+        <orientation radians="3.31" />
+        <unit_capabilities>
+          <firing_drill>fire_volley</firing_drill>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_metal_scholar_warriors" hp_pool="200" />
+      </unit>
+      <spawnable_unit max_count="3">
+        <unit_type type="3k_main_unit_metal_sabre_militia" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_metal_sabre_militia" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_wood_ji_militia" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_wood_ji_militia" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_wood_peasant_band" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_wood_peasant_band" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_wood_ji_infantry" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_wood_ji_infantry" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_wood_spear_warriors" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_wood_spear_warriors" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="3">
+        <unit_type type="3k_main_unit_metal_axe_band" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_metal_axe_band" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="3">
+        <unit_type type="3k_main_unit_metal_jian_swordguards" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_metal_jian_swordguards" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="3">
+        <unit_type type="3k_main_unit_metal_sabre_infantry" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_metal_sabre_infantry" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="2">
+        <unit_type type="3k_main_unit_metal_mercenary_infantry" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_metal_mercenary_infantry" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_metal_pearl_dragons" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_metal_pearl_dragons" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_wood_spear_guards" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_wood_spear_guards" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_wood_heavy_ji_infantry" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_wood_heavy_ji_infantry" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_wood_heavy_spear_guards" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_wood_heavy_spear_guards" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_wood_protectors_of_heaven" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_wood_protectors_of_heaven" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_wood_azure_dragons" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_wood_azure_dragons" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_ytr_unit_metal_chanters" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_metal_chanters" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="2">
+        <unit_type type="3k_ytr_unit_metal_scholar_warriors" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_metal_scholar_warriors" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_ytr_unit_wood_peasant_spearmen" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_wood_peasant_spearmen" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_ytr_unit_wood_yellow_turban_spearmen" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_wood_yellow_turban_spearmen" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_ytr_unit_wood_reclaimers" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_wood_reclaimers" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_ytr_unit_wood_guardians_of_the_land" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_wood_guardians_of_the_land" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_ytr_unit_metal_yellow_turban_warriors" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_metal_yellow_turban_warriors" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_ytr_unit_metal_peoples_warband" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_metal_peoples_warband" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_ytr_unit_metal_white_wave_veterans" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_metal_white_wave_veterans" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_ytr_unit_metal_arm_of_the_supreme_peace" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_metal_arm_of_the_supreme_peace" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_ytr_unit_wood_bringers_of_righteousness" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_wood_bringers_of_righteousness" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="2">
+        <unit_type type="ep_dyn_unit_water_archer_militia" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_water_archer_militia" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="2">
+        <unit_type type="ep_dyn_unit_water_crossbowmen" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_water_crossbowmen" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="2">
+        <unit_type type="ep_dyn_unit_water_archers" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_water_archers" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="2">
+        <unit_type type="ep_dyn_unit_water_repeating_crossbowmen" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_water_repeating_crossbowmen" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="2">
+        <unit_type type="ep_dyn_unit_water_onyx_dragons" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_water_onyx_dragons" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_earth_mounted_sabre_militia" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_earth_mounted_sabre_militia" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_earth_jian_swordguard_cavalry" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_earth_jian_swordguard_cavalry" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_earth_sabre_cavalry" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_earth_sabre_cavalry" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_fire_mercenary_cavalry" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_fire_mercenary_cavalry" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_fire_lance_cavalry" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_fire_lance_cavalry" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_fire_raider_cavalry" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_fire_raider_cavalry" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_fire_peasant_raiders" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_fire_peasant_raiders" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_fire_mounted_lancer_militia" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_fire_mounted_lancer_militia" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_fire_xiliang_cavalry" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_fire_xiliang_cavalry" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_fire_heavy_xiliang_cavalry" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_fire_heavy_xiliang_cavalry" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_fire_jade_dragons" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_fire_jade_dragons" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_ytr_unit_earth_yellow_turban_horsemen" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_earth_yellow_turban_horsemen" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_ytr_unit_earth_white_wave_horsemen" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_ytr_unit_fire_white_wave_horsemen" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_metal_warriors_of_the_left" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_metal_warriors_of_the_left" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_metal_rapid_tiger_infantry" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_metal_rapid_tiger_infantry" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_earth_yellow_dragons" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_earth_yellow_dragons" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_metal_black_mountain_marauders" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_metal_black_mountain_marauders" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_metal_fists_of_the_bandit_queen" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_metal_fists_of_the_bandit_queen" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="3k_main_unit_metal_hidden_axes" />
+        <unit_experience level="0" />
+        <composed_entities type="3k_main_unit_metal_hidden_axes" hp_pool="160" />
+        <unit_capabilities>
+          <special_ability>3k_dummy_ability</special_ability>
+        </unit_capabilities>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_earth_cao_cao" />
+        <composed_entities type="ep_dyn_hero_earth_cao_cao" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_cao_caos_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_shadow_runner" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_trust_of_god" />
+          <art_set_key>391535320</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_wood_dian_wei" />
+        <composed_entities type="ep_dyn_hero_wood_dian_wei" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_dian_weis_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_grey_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_dual_short_ji_exceptional" />
+          <art_set_key>483504599</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_fire_dong_zhuo" />
+        <composed_entities type="ep_dyn_hero_fire_dong_zhuo" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_dong_zhuos_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_black_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_blade_of_xiang_yu" />
+          <art_set_key>3480</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_fire_gan_ning" />
+        <composed_entities type="ep_dyn_hero_fire_gan_ning" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_gan_nings_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_brown_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_short_ji_exceptional" />
+          <art_set_key>1209641854</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_fire_gongsun_zan" />
+        <composed_entities type="ep_dyn_hero_fire_gongsun_zan" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_gongsun_zans_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_white_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_ma_su" />
+          <art_set_key>1794331165</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_wood_guan_yu" />
+        <composed_entities type="ep_dyn_hero_wood_guan_yu" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_guan_yus_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_red_hare" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_green_dragon_crescent_blade" />
+          <art_set_key>882124145</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_metal_han_sui" />
+        <composed_entities type="ep_dyn_hero_metal_han_sui" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_han_suis_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_grey_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_double_edged_sword_unique" />
+          <art_set_key>303613360</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_metal_huang_zhong" />
+        <composed_entities type="ep_dyn_hero_metal_huang_zhong" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_huang_zhongs_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_black_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_ceremonial_sword_unique" />
+          <art_set_key>253497230</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_water_kong_rong" />
+        <composed_entities type="ep_dyn_hero_water_kong_rong" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_kong_rongs_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_black_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_ceremonial_sword_unique" />
+          <art_set_key>365489572</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_fire_lady_sun" />
+        <composed_entities type="ep_dyn_hero_fire_lady_sun" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_lady_suns_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_white_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_ceremonial_sword_unique" />
+          <art_set_key>330984742</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_wood_zheng_jiang" />
+        <composed_entities type="ep_dyn_hero_wood_zheng_jiang" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_zheng_jiangs_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_brown_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_axes_of_the_bandit_queen" />
+          <art_set_key>129632788</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_earth_liu_bei" />
+        <composed_entities type="ep_dyn_hero_earth_liu_bei" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_liu_beis_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_white_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_shuang_gu_jian" />
+          <art_set_key>1496655158</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_earth_liu_biao" />
+        <composed_entities type="ep_dyn_hero_earth_liu_biao" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_liu_biaos_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_grey_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_ceremonial_sword_unique" />
+          <art_set_key>2093561718</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_earth_liu_zhang" />
+        <composed_entities type="ep_dyn_hero_earth_liu_zhang" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_liu_zhangs_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_red_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_ceremonial_sword_unique" />
+          <art_set_key>1580339105</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_fire_lu_bu" />
+        <composed_entities type="ep_dyn_hero_fire_lu_bu" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_lu_bus_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_red_hare" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_trident_halberd" />
+          <art_set_key>380411754</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_fire_ma_chao" />
+        <composed_entities type="ep_dyn_hero_fire_ma_chao" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_ma_chaos_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_brown_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_two_handed_spear_unique" />
+          <art_set_key>848996998</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_fire_ma_teng" />
+        <composed_entities type="ep_dyn_hero_fire_ma_teng" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_ma_tengs_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_white_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_two_handed_spear_unique" />
+          <art_set_key>422317690</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_water_sima_yi" />
+        <composed_entities type="ep_dyn_hero_water_sima_yi" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_sima_yis_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_black_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_ceremonial_sword_unique" />
+          <art_set_key>713409628</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_fire_sun_ce" />
+        <composed_entities type="ep_dyn_hero_fire_sun_ce" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_sun_ces_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_grey_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_two_handed_spear_unique" />
+          <art_set_key>864520493</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_metal_sun_jian" />
+        <composed_entities type="ep_dyn_hero_metal_sun_jian" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_sun_jians_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_grey_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_double_edged_sword_unique" />
+          <art_set_key>1288729677</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_earth_sun_quan" />
+        <composed_entities type="ep_dyn_hero_earth_sun_quan" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_sun_quans_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_white_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_double_edged_sword_unique" />
+          <art_set_key>1473873929</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_metal_taishi_ci" />
+        <composed_entities type="ep_dyn_hero_metal_taishi_ci" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_taishi_cis_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_red_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_ceremonial_sword_unique" />
+          <art_set_key>927741761</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_water_tao_qian" />
+        <composed_entities type="ep_dyn_hero_water_tao_qian" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_tao_qians_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_black_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_ceremonial_sword_unique" />
+          <art_set_key>1880411482</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_wood_xiahou_dun" />
+        <composed_entities type="ep_dyn_hero_wood_xiahou_dun" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_xiahou_duns_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_brown_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_two_handed_spear_unique" />
+          <art_set_key>588473930</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_fire_xiahou_yuan" />
+        <composed_entities type="ep_dyn_hero_fire_xiahou_yuan" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_xiahou_yuans_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_red_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_two_handed_spear_unique" />
+          <art_set_key>697570495</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_wood_xu_chu" />
+        <composed_entities type="ep_dyn_hero_wood_xu_chu" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_xu_chus_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_brown_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_giant_mace_unique" />
+          <art_set_key>1254899227</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_metal_xu_huang" />
+        <composed_entities type="ep_dyn_hero_metal_xu_huang" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_xu_huangs_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_grey_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_cleaver_of_mountains_unique" />
+          <art_set_key>276291771</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_earth_yuan_shao" />
+        <composed_entities type="ep_dyn_hero_earth_yuan_shao" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_yuan_shaos_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_white_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_double_edged_sword_unique" />
+          <art_set_key>1706648106</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_earth_yuan_shu" />
+        <composed_entities type="ep_dyn_hero_earth_yuan_shu" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_yuan_shus_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_white_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_ceremonial_sword_unique" />
+          <art_set_key>1676687685</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_metal_yue_jin" />
+        <composed_entities type="ep_dyn_hero_metal_yue_jin" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_yue_jins_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_grey_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_double_edged_sword_unique" />
+          <art_set_key>1629105866</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_fire_zhang_fei" />
+        <composed_entities type="ep_dyn_hero_fire_zhang_fei" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_zhang_feis_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_brown_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_serpent_spear" />
+          <art_set_key>337199855</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_metal_zhang_liao" />
+        <composed_entities type="ep_dyn_hero_metal_zhang_liao" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_zhang_liaos_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_grey_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_double_edged_sword_unique" />
+          <art_set_key>152891638</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_wood_zhang_yan" />
+        <composed_entities type="ep_dyn_hero_wood_zhang_yan" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_zhang_yans_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_brown_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_dual_axes_exceptional" />
+          <art_set_key>1897995689</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_metal_zhao_yun" />
+        <composed_entities type="ep_dyn_hero_metal_zhao_yun" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_zhao_yuns_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_grey_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_the_blue_blade" />
+          <art_set_key>1963865337</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_water_zhou_yu" />
+        <composed_entities type="ep_dyn_hero_water_zhou_yu" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_zhou_yus_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_black_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_ceremonial_sword_unique" />
+          <art_set_key>1094185794</art_set_key>
+        </general>
+      </spawnable_unit>
+      <spawnable_unit max_count="1">
+        <unit_type type="ep_dyn_hero_water_zhuge_liang" />
+        <composed_entities type="ep_dyn_hero_water_zhuge_liang" hp_pool="15000" />
+        <general>
+          <commander_id>0</commander_id>
+          <commander_type>non_commanding_general</commander_type>
+          <game_mode>romance</game_mode>
+          <equipped_ceos category="3k_main_ceo_category_ancillary_armour" ceo_key="ep_dyn_ancillary_armour_zhuge_liangs_armour_unique" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_mount" ceo_key="ep_dyn_ancillary_mount_black_elite" />
+          <equipped_ceos category="3k_main_ceo_category_ancillary_weapon" ceo_key="ep_dyn_ancillary_weapon_ceremonial_sword_unique" />
+          <art_set_key>367862627</art_set_key>
+        </general>
+      </spawnable_unit>
+    </army>
+    <victory_condition>
+      <kill_or_rout_enemy>
+      </kill_or_rout_enemy>
+    </victory_condition>
+    <rout_position x="0.00" y="0.00" />
+  </alliance>
+  <battle_description>
+    <battle_script is_tutorial="false" prepare_for_fade_in="true">battle_script.lua</battle_script>
+    <battle_db_record>dynasty_temperate</battle_db_record>
+    <time_of_day>day</time_of_day>
+    <season>season_spring</season>
+    <precipitation_type>dry</precipitation_type>
+    <game_mode>romance</game_mode>
+    <type>dynasty</type>
+    <duration>3600.00</duration>
+    <timeout_winning_alliance_index>0</timeout_winning_alliance_index>
+    <boiling_oil>
+    </boiling_oil>
+    <playable_area centre_x="0" centre_y="0" dimension="384" />
+  </battle_description>
+  <weather>
+    <prevailing_wind x="1.00" y="0.00" />
+    <environment_key>Weather\dynasty_temperate_01.environment</environment_key>
+  </weather>
+  <sea_surface_name>wind_level_0</sea_surface_name>
+  <battle_map_definition>
+    <name>terrain\battles\dynasty_temperate_01\</name>
+    <tile_map_position x="0.5" y="0.5" />
+    <playable_area centre_x="0" centre_y="0" dimension="384" />
+  </battle_map_definition>
+  <can_chase_down_routers>true</can_chase_down_routers>
+</battle>

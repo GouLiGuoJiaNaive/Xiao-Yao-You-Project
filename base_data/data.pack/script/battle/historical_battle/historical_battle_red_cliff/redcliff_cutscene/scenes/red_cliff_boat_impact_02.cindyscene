@@ -1,0 +1,52 @@
+<SCENE_FILE start_record_time="0" id="{13cdcdca-31ce-4117-bd11-b06f702707bd}" hidden="false" end_record_time="79.4000041410327" version="26" perspective_camera="22.2924,94.159,582.481:22.5602,93.1407,564.405">
+ <ENVIRONMENT order="0" id="{84bb7e44-ac6b-4beb-a3a0-75304aea29dd}" hidden="false" name="Environment" data="script/battle/historical_battle/historical_battle_red_cliff/redcliff_cutscene/weather/red_cliff_cutscene.environment"/>
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{a8e1fd34-ab21-45c0-9a35-bbb2858e9a68}" hidden="false" unique_id="{a8e1fd34-ab21-45c0-9a35-bbb2858e9a68}" name="position">
+  <DOUBLE order="0" id="{c82d2297-314e-4fac-9aa2-fbf15fc671b2}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="X"/>
+  <DOUBLE order="1" id="{3504a11e-bda7-495e-908c-9c70dab8e4bf}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Y"/>
+  <DOUBLE order="2" id="{2cdd53d0-7f3d-4131-93c1-0c423e8c7445}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Z"/>
+ </VECTOR>
+ <ROTATION_AXES id="{9f8e39ce-e120-4d00-b4d1-071fb0c86697}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{f37d39b5-382e-466f-ab39-ae94282c4a1d}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="X"/>
+  <RADIAN order="1" id="{1da3a5ad-b5a3-4136-a44f-bb6247e91d5a}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Y"/>
+  <RADIAN order="2" id="{bc9d3378-7f96-41cc-b172-a2aab631fcfe}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Z"/>
+ </ROTATION_AXES>
+ <NODE id="{4f29ba51-7a07-454f-a011-f7af850cb786}" hidden="false" name="Links">
+  <LINK order="0" id="{d3731865-719d-443a-9baf-f2fb909e1096}" hidden="true" name="ship_impact_cu_01.kfcs" data="{446ce805-a3dc-43ec-beb6-4cf122b00967}" index="0">
+   <LINK order="0" id="{16438320-58c3-4227-9086-0c11fc3536d6}" hidden="true" name="ship01_impact01.kfe" data="{e41dc210-e2be-4795-870d-ec1a205bbb5d}" index="0"/>
+   <LINK order="0" id="{94d1ae96-935a-42ac-9446-6ca910daea09}" hidden="true" name="ship01_impact01.kfe" data="{e41dc210-e2be-4795-870d-ec1a205bbb5d}" index="1"/>
+  </LINK>
+  <LINK order="0" id="{099f225e-bb45-47ae-9c5c-6bd8801a9b36}" hidden="true" name="red_cliff_boat_impact_02.xml" data="{c5392c25-d5e4-4215-a89b-bee61ba1a64f}" index="0">
+   <LINK order="0" id="{22ab0319-5d0b-4495-ba1b-757018993500}" hidden="true" name="ship01_impact02.kfe" data="{aeb98a89-4bfc-4847-8749-cd72396457d2}" index="0"/>
+   <LINK order="0" id="{81424d35-a168-4337-9b8a-18c5af15039b}" hidden="true" name="ship01_impact02.kfe" data="{aeb98a89-4bfc-4847-8749-cd72396457d2}" index="1"/>
+   <LINK order="0" id="{8e72947a-c9da-446f-8a79-002d040e01ec}" hidden="true" name="ship01_impact_splash.kfe" data="{d4a4673c-284b-43ec-a097-523b0b9de7e0}" index="0"/>
+   <LINK order="0" id="{bba54d63-c863-41b6-8ec3-7f0fc794b5fb}" hidden="true" name="ship01_impact_splash.kfe" data="{d4a4673c-284b-43ec-a097-523b0b9de7e0}" index="1"/>
+  </LINK>
+ </NODE>
+ <NODE id="{220b8a79-b62b-4d4a-9da1-9003a92d98cd}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{468930ec-955d-43a6-9595-b8dc4b30236c}" hidden="false" warscape_properties_file="../cameras/red_cliff_boat_impact_02.xml" name="red_cliff_boat_impact_02.xml"/>
+ </NODE>
+ <NODE id="{460e0b88-29ff-43c6-8e0a-d55d2dcd65fb}" hidden="false" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{6281b9e2-59c2-4495-9aa3-3a812041ae6a}" hidden="false" composite_scene_file="../csc_ref/ship_impact_cu_01.kfcs" name="ship_impact_cu_01.kfcs"/>
+  <COMPOSITE_SCENE id="{5597dda4-d225-48ed-ab28-8e2befc9edb3}" hidden="false" composite_scene_file="../csc_ref/ship_impact_cu_01_impact.kfcs" name="ship_impact_cu_01_impact.kfcs"/>
+ </NODE>
+ <NODE id="{8191aa8c-12a4-4f15-b29e-70a090b9eaed}" hidden="false" name="Particle Effects">
+  <EFFECT id="{b145d751-fd27-410a-8276-f1491782cd94}" hidden="false" effect_file="../particles/ship01_impact01.kfe" name="ship01_impact01.kfe"/>
+  <EFFECT id="{846376bf-f496-4c74-991b-6dadee9d9d33}" hidden="false" effect_file="../particles/ship01_impact02.kfe" name="ship01_impact02.kfe"/>
+  <EFFECT id="{6a733bd5-8371-4bd3-b584-6d1093e91881}" hidden="false" effect_file="../particles/ship01_impact_splash.kfe" name="ship01_impact_splash.kfe"/>
+  <EFFECT id="{c8e97933-a39f-40c1-a095-56deb4037798}" hidden="false" effect_file="../particles/ship01_impact_splash01.kfe" name="ship01_impact_splash01.kfe"/>
+  <EFFECT id="{0cad9a1d-fdab-4060-824c-b81dbf321983}" hidden="false" effect_file="../particles/water_splash_01.kfe" name="water_splash_01.kfe"/>
+  <EFFECT id="{9b076230-a1dd-4695-b04c-08dfb124f698}" hidden="false" effect_file="../particles/ship01_impact_splash02.kfe" name="ship01_impact_splash02.kfe"/>
+  <EFFECT id="{ae4ee365-cdaa-49b3-9472-dd8dc1c40b02}" hidden="false" effect_file="../particles/ship_impact.kfe" name="ship_impact.kfe"/>
+ </NODE>
+ <NODE id="{83b0ebf1-521e-4244-b500-cd61fd4746c0}" hidden="false" name="Point Lights">
+  <POINT_LIGHT id="{92d1dd2d-b15d-446c-b6df-116e16cfc52a}" hidden="false" point_light_file="../lights/point_light_file_02.kfl" name="point_light_file_02.kfl"/>
+ </NODE>
+ <NODE id="{2161668f-7303-4bcf-8edd-b3c38c2ea789}" hidden="false" name="Audio Events">
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_01.kfa" id="{55c55a56-ddc2-4762-a444-7f4f0add2096}" hidden="false" name="red_cliff_advice_01.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_sweetner_pass.kfa" id="{9aa54687-88e8-472d-a630-ddd603cdf8c0}" hidden="false" name="red_cliff_sweetner_pass.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_02.kfa" id="{cdc87475-74ba-4017-a4ff-8ffc4739cbc8}" hidden="false" name="red_cliff_advice_02.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_03.kfa" id="{6afad9d7-f93c-4dfd-a5c6-fb0e16e32ede}" hidden="false" name="red_cliff_advice_03.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_05.kfa" id="{137f6bbb-ee65-479c-b8a5-476b85a76276}" hidden="false" name="red_cliff_advice_05.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_04.kfa" id="{66d6b8da-5dc7-405f-897c-107536f70634}" hidden="false" name="red_cliff_advice_04.kfa"/>
+ </NODE>
+</SCENE_FILE>

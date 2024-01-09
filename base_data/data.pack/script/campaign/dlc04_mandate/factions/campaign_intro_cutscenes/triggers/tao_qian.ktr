@@ -1,0 +1,10 @@
+<TRIGGER_FILE version="26" id="{d7ae4387-ee52-45c3-84fe-89928f138494}" hidden="false">
+ <STRING id="{f1281fbf-0196-4ea8-8b19-10b3ebe78f92}" hidden="false" name="Timeline" order="0">
+  <KEYFRAME data="tao_qian_advisor_01" time="4.5"/>
+  <KEYFRAME data="tao_qian_advisor_02" time="12.60000038146973"/>
+  <KEYFRAME data="tao_qian_advisor_03" time="22.69000053405762"/>
+  <KEYFRAME data="tao_qian_advisor_04" time="35.38999938964844"/>
+  <KEYFRAME data="tao_qian_advisor_05" time="43.11999893188477"/>
+  <KEYFRAME data="tao_qian_advisor_06" time="55.90000152587891"/>
+ </STRING>
+</TRIGGER_FILE>

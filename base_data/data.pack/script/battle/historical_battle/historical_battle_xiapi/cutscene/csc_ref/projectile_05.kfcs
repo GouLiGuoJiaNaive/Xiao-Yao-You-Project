@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE directory="script/battle/historical_battle/historical_battle_xiapi/composite_scene/scene01_catapult_projectile.csc" version="23" name="projectile_05.kfcs" id="{66365dab-2bbe-491d-b14d-c01fd6905116}">
+ <VECTOR is_linked="0" link_id="0" unique_id="{138a0183-88c1-454e-ab59-2507f10c05c1}" name="position" surface_mode="Freeform" id="{138a0183-88c1-454e-ab59-2507f10c05c1}">
+  <DOUBLE hidden="false" default="0" order="0" animated="1" single_keyframe_only="0" name="X">
+   <KEYFRAME data="-143.2938537597656" time="68.23333740234375"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" order="1" animated="1" single_keyframe_only="0" name="Y">
+   <KEYFRAME data="225.0469055175781" handle2_type="EASY" time="67.23332977294922"/>
+   <KEYFRAME data="199.1069793701172" handle1_x="68.2157" handle1_y="204.716" handle1_type="BEZIER" time="68.23333740234375"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" default="0" order="2" animated="1" single_keyframe_only="0" name="Z">
+   <KEYFRAME data="-480.3102722167969" time="67.23332977294922"/>
+   <KEYFRAME data="-387.6643676757813" time="68.23333740234375"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{6e2f8c18-7c8a-4025-b239-45febafd085e}">
+  <RADIAN hidden="false" default="0" order="0" animated="0" single_keyframe_only="1" name="X"/>
+  <RADIAN hidden="false" default="0" order="1" animated="0" single_keyframe_only="1" name="Y"/>
+  <RADIAN hidden="false" default="0" order="2" animated="0" single_keyframe_only="1" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" default="1" order="2" user_friendy_name="Scale" animated="0" single_keyframe_only="1" name="scale"/>
+ <BOOL hidden="false" default="0" order="3" user_friendy_name="Active" animated="1" single_keyframe_only="0" name="active">
+  <KEYFRAME data="0" time="67"/>
+  <KEYFRAME data="1" time="67.23332977294922"/>
+ </BOOL>
+ <DOUBLE hidden="false" default="1" order="4" user_friendy_name="Speed Multiplier" animated="1" single_keyframe_only="0" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

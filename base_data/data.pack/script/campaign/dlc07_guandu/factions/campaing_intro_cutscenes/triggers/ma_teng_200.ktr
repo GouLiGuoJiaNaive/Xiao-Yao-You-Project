@@ -1,0 +1,10 @@
+<TRIGGER_FILE version="26" hidden="false" id="{e896f529-4b83-4dee-9fd0-9efb019b8ceb}">
+ <STRING order="0" name="Timeline" hidden="false" id="{3ed0b498-f1f5-486e-b2a9-22876bab72b4}">
+  <KEYFRAME data="ma_teng_01" time="1"/>
+  <KEYFRAME data="ma_teng_02" time="9"/>
+  <KEYFRAME data="ma_teng_03" time="26.50000190734863"/>
+  <KEYFRAME data="ma_teng_04" time="42.29999542236328"/>
+  <KEYFRAME data="ma_teng_05" time="58.50000381469727"/>
+  <KEYFRAME data="ma_teng_06" time="73.99998474121094"/>
+ </STRING>
+</TRIGGER_FILE>

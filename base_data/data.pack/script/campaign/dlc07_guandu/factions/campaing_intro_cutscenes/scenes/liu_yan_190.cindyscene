@@ -1,0 +1,38 @@
+<SCENE_FILE end_record_time="68.99752266356073" hidden="false" start_record_time="0" perspective_camera="120.155,7.28826,283.111:119.736,4.61729,287.104" id="{18af4c83-e426-4fcd-9b61-664df8f961e3}" version="26">
+ <ENVIRONMENT hidden="false" name="Environment" id="{9f24b50b-e856-4308-bba7-a90fc728c9a0}" order="0" data=""/>
+ <VECTOR surface_mode="Freeform" unique_id="{21c5b087-6d94-49fd-9155-17d2a3a0425f}" hidden="false" name="position" id="{21c5b087-6d94-49fd-9155-17d2a3a0425f}" is_linked="0" link_id="0">
+  <DOUBLE hidden="false" single_keyframe_only="1" animated="1" name="X" default="0" id="{876baedf-061f-429a-ade1-8317dd500751}" order="0">
+   <KEYFRAME time="0.5" data="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" single_keyframe_only="1" animated="1" name="Y" default="0" id="{444876b4-fcc0-4181-bfc3-5ef886a93007}" order="1">
+   <KEYFRAME time="0.5" data="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" single_keyframe_only="1" animated="1" name="Z" default="0" id="{5f4196cb-762a-4e4b-81b7-e05f5702217e}" order="2">
+   <KEYFRAME time="0.5" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{78f91203-ad25-4b19-afd0-256f86363a43}">
+  <RADIAN hidden="false" single_keyframe_only="1" animated="1" name="X" default="0" id="{ef67b104-1e0d-46c5-b9b0-6bdab9134ae0}" order="0">
+   <KEYFRAME time="0.5" data="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" single_keyframe_only="1" animated="1" name="Y" default="0" id="{6d4721c4-c19a-4645-a806-7eed60fb18ba}" order="1">
+   <KEYFRAME time="0.5" data="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" single_keyframe_only="1" animated="1" name="Z" default="0" id="{aacda787-1492-4d9b-9c07-d4e4784d45d4}" order="2">
+   <KEYFRAME time="0.5" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE hidden="false" name="Links" id="{97a99646-c952-4d84-9952-c98080cc31a0}"/>
+ <NODE hidden="false" name="Warscape Properties" id="{01b01d4b-c7e7-4895-9b0f-d7cf69fd07e1}">
+  <WARSCAPE_PROPERTIES hidden="false" name="liu_yan_cam.xml" warscape_properties_file="../cameras/liu_yan_cam.xml" id="{a4dda73b-2f76-4aa8-aa15-1383b5b517de}"/>
+ </NODE>
+ <NODE hidden="false" name="Particle Effects" id="{afeb7ee7-8231-4234-902f-560da6b3f6cc}">
+  <EFFECT hidden="false" name="smoke.kfe" id="{275b000a-45fa-4dba-8545-0df8cdfb563b}" effect_file="../particles/smoke.kfe"/>
+ </NODE>
+ <NODE hidden="false" name="Triggers" id="{b3e149e4-9b9f-449d-841e-5c8139a2d5e3}">
+  <TRIGGER hidden="false" trigger_file="../triggers/liu_yan_190.ktr" name="liu_yan_190.ktr" id="{708a63c8-d7d8-471b-9cb1-6544f04b00b7}"/>
+ </NODE>
+ <NODE hidden="false" name="Composite Scenes" id="{e0803766-a1ea-4dd4-90e4-c4e48ced56c0}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/dong_zhuo_intro.kfcs" hidden="false" name="dong_zhuo_intro.kfcs" id="{956c87b5-40f6-4b77-8b26-d9eb5af3285d}"/>
+ </NODE>
+</SCENE_FILE>

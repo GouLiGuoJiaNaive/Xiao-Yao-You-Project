@@ -1,0 +1,74 @@
+<WARSCAPE_PROPERTIES_FILE version="26" id="{ecfdfe73-6189-4e51-9d20-b2efbce4f3ca}" supported_warscape_properties="32" hidden="false">
+ <NODE name="Lighting" id="{46b1a09c-bb99-4ee0-995d-9d86b22f525a}" hidden="false">
+  <RGB name="ambient cube left" id="{486b2bd2-20ce-4eab-96e5-95150cd03f43}" hidden="true">
+   <DOUBLE name="R" single_keyframe_only="1" id="{d883e057-7558-4cdb-99d7-6788c07fa889}" order="0" animated="0" default="0.3921568989753723" hidden="true"/>
+   <DOUBLE name="G" single_keyframe_only="1" id="{67848cbd-b90a-48e8-ad82-fd8b05fe191d}" order="1" animated="0" default="0.3254902064800262" hidden="true"/>
+   <DOUBLE name="B" single_keyframe_only="1" id="{a8d9b8cb-7748-473b-8b8d-66050a363260}" order="2" animated="0" default="0.294117659330368" hidden="true"/>
+  </RGB>
+  <RGB name="ambient cube right" id="{0e990e53-a18a-4623-bd67-03d425c7e350}" hidden="true">
+   <DOUBLE name="R" single_keyframe_only="1" id="{d2354885-2203-4807-9c03-382ce19c1326}" order="0" animated="0" default="0.1803921610116959" hidden="true"/>
+   <DOUBLE name="G" single_keyframe_only="1" id="{6f2c0769-670d-481c-b74d-b8b44df75949}" order="1" animated="0" default="0.2000000178813934" hidden="true"/>
+   <DOUBLE name="B" single_keyframe_only="1" id="{f6668afc-b726-4987-bcb4-d89376ebcdbb}" order="2" animated="0" default="0.2313725650310516" hidden="true"/>
+  </RGB>
+  <RGB name="ambient cube front" id="{6f613437-f5c2-4bde-ae24-4179e29f7839}" hidden="true">
+   <DOUBLE name="R" single_keyframe_only="1" id="{011d56b3-a42e-4623-a6e2-024c0439279c}" order="0" animated="0" default="0.2313725650310516" hidden="true"/>
+   <DOUBLE name="G" single_keyframe_only="1" id="{7889d0c2-920f-4458-b874-83af384d3c3d}" order="1" animated="0" default="0.2313725650310516" hidden="true"/>
+   <DOUBLE name="B" single_keyframe_only="1" id="{df91ad2f-9edb-4e4c-ba68-350008d0b23e}" order="2" animated="0" default="0.2431372702121735" hidden="true"/>
+  </RGB>
+  <RGB name="ambient cube back" id="{4e1d5aa2-e035-45b6-85ea-3592830ad695}" hidden="true">
+   <DOUBLE name="R" single_keyframe_only="1" id="{735f48e7-f33d-41c9-8f7b-10c1a992ecd7}" order="0" animated="0" default="0.2745098173618317" hidden="true"/>
+   <DOUBLE name="G" single_keyframe_only="1" id="{b4eff3db-7e32-401f-bc84-7e76a00363ba}" order="1" animated="0" default="0.2588235437870026" hidden="true"/>
+   <DOUBLE name="B" single_keyframe_only="1" id="{bc00a9eb-dd85-462f-9e5d-0acaed0277ad}" order="2" animated="0" default="0.2666666805744171" hidden="true"/>
+  </RGB>
+  <RGB name="ambient cube top" id="{806825d9-113d-45d9-a688-e601cd789d8e}" hidden="true">
+   <DOUBLE name="R" single_keyframe_only="1" id="{8d7ad634-6699-4de8-bb76-c71c83f9bc12}" order="0" animated="0" default="0.3372549116611481" hidden="true"/>
+   <DOUBLE name="G" single_keyframe_only="1" id="{47d43485-57e3-4a7a-a4d7-a89fdf43d663}" order="1" animated="0" default="0.3294117748737335" hidden="true"/>
+   <DOUBLE name="B" single_keyframe_only="1" id="{27643ce0-a4cc-449d-a830-738801f4bc8c}" order="2" animated="0" default="0.3568627536296844" hidden="true"/>
+  </RGB>
+  <RGB name="ambient cube bottom" id="{e101e9f7-5e25-4d73-9159-68363f70d504}" hidden="true">
+   <DOUBLE name="R" single_keyframe_only="1" id="{18511fad-f259-49b4-89f9-e51d4dd60f76}" order="0" animated="0" default="0" hidden="true"/>
+   <DOUBLE name="G" single_keyframe_only="1" id="{b2c2cd00-b9e8-4fdd-8222-a7e57b67d818}" order="1" animated="0" default="0" hidden="true"/>
+   <DOUBLE name="B" single_keyframe_only="1" id="{89c1f663-b84b-480a-a8b4-2365029bcfc7}" order="2" animated="0" default="0" hidden="true"/>
+  </RGB>
+  <DOUBLE name="sun azimuth (y-axis rotation,degrees)" single_keyframe_only="1" id="{b70dd9ab-fe9c-45a7-bf01-7c09a5499e85}" user_friendy_name="Sun Azimuth (Y-Axis Rotation in Degrees)" order="9" animated="0" default="261.3740539550781" hidden="false">
+   <KEYFRAME data="261.3740539550781" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="sun elevation (degrees)" single_keyframe_only="1" id="{7769d7c5-c66d-4718-aef9-a4b1ad84c805}" user_friendy_name="Sun Elevation (Degrees)" order="9" animated="0" default="10.07244396209717" hidden="false">
+   <KEYFRAME data="10.072444915771484" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="sun colour scale" single_keyframe_only="1" id="{39e9e24c-e725-4aec-a77f-17d5d1b951ae}" user_friendy_name="Sun Colour Scale" order="11" animated="0" default="15000" hidden="false"/>
+  <DOUBLE name="cubemap sun colour scale" single_keyframe_only="1" id="{59ec4243-6ebf-4d30-a1af-f19745eafd08}" order="0" animated="0" default="50000" hidden="true"/>
+  <RGB name="sun colour" id="{970578ab-ef05-4510-bb16-529a63005c8b}" hidden="false">
+   <DOUBLE name="R" single_keyframe_only="1" id="{2032ba1d-40cc-4ae9-8e20-9c04b7964b9b}" order="0" animated="0" default="1" hidden="false">
+    <KEYFRAME data="1024" time="-1"/>
+   </DOUBLE>
+   <DOUBLE name="G" single_keyframe_only="1" id="{74803331-da86-4d20-87a5-eaa6d11183c8}" order="1" animated="0" default="0.5490196347236633" hidden="false">
+    <KEYFRAME data="562.1961059570312" time="-1"/>
+   </DOUBLE>
+   <DOUBLE name="B" single_keyframe_only="1" id="{52fa50f5-379a-4ef8-918e-a4993f73e0f3}" order="2" animated="0" default="0.1764705926179886" hidden="false">
+    <KEYFRAME data="180.7058868408203" time="-1"/>
+   </DOUBLE>
+  </RGB>
+  <DOUBLE name="ambient fudge factor" single_keyframe_only="1" id="{333583e6-665d-41c1-bf27-91e91fe3eb50}" order="0" animated="0" default="2" hidden="true"/>
+  <BOOL name="use custom ambient cube colours" single_keyframe_only="1" id="{e239e3ee-ae8d-450e-bc7b-f92530e7399d}" order="0" animated="0" default="0" hidden="true"/>
+  <DOUBLE name="ambient cube hdr scaler" single_keyframe_only="1" id="{c60750c6-d5fa-455d-8ee7-6f5c0e62ca17}" order="0" animated="0" default="1" hidden="true"/>
+  <DOUBLE name="ambient scale" single_keyframe_only="1" id="{de13836b-b55d-4309-8517-89b399b7ff0c}" order="0" animated="0" default="1" hidden="true"/>
+  <RGB name="deep water colour" id="{cc549685-b16c-42f8-8611-a6d2bc7fe13b}" hidden="true">
+   <DOUBLE name="R" single_keyframe_only="1" id="{91f62cd8-063e-4522-b691-1b2a81356dad}" order="0" animated="0" default="0.3058823645114899" hidden="true"/>
+   <DOUBLE name="G" single_keyframe_only="1" id="{845f548b-72c8-4ea0-86bd-208ee57e6cd9}" order="1" animated="0" default="0.3686274588108063" hidden="true"/>
+   <DOUBLE name="B" single_keyframe_only="1" id="{a838f752-4500-4fc0-bc7d-991978486d1a}" order="2" animated="0" default="0.3607843220233917" hidden="true"/>
+  </RGB>
+  <RGB name="shallow water colour" id="{21017ed0-c315-44c4-8b21-26e800b5f543}" hidden="true">
+   <DOUBLE name="R" single_keyframe_only="1" id="{fdaf34fc-3637-44b0-9901-da3e28bc1500}" order="0" animated="0" default="0.2352941334247589" hidden="true"/>
+   <DOUBLE name="G" single_keyframe_only="1" id="{e8321794-9ae0-48bf-b6b7-58229df4c12f}" order="1" animated="0" default="0.529411792755127" hidden="true"/>
+   <DOUBLE name="B" single_keyframe_only="1" id="{e8b2e3c5-52ed-47e2-b811-6193eac44d5d}" order="2" animated="0" default="0.5450980663299561" hidden="true"/>
+  </RGB>
+  <DOUBLE name="sea bed light scatter red" single_keyframe_only="1" id="{f0eb6b61-e444-4016-8df0-c4845b389d1d}" order="0" animated="0" default="0.9800000190734863" hidden="true"/>
+  <DOUBLE name="sea bed light scatter green" single_keyframe_only="1" id="{5c514472-7392-467e-804d-7e3791b468ab}" order="0" animated="0" default="0.9800000190734863" hidden="true"/>
+  <DOUBLE name="sea bed light scatter blue" single_keyframe_only="1" id="{5037695d-13c8-4f00-843b-e7843a87e869}" order="0" animated="0" default="0.9800000190734863" hidden="true"/>
+  <DOUBLE name="refraction light scatter" single_keyframe_only="1" id="{ec40de62-6528-49f7-b03a-76c1e6688ac7}" order="0" animated="0" default="0.6299999952316284" hidden="true"/>
+  <DOUBLE name="cloud shadow scroll speed" single_keyframe_only="1" id="{ef4a9275-4ff6-4a02-931c-1b7f2c71c8de}" order="0" animated="0" default="3" hidden="true"/>
+  <DOUBLE name="cloud shadow uv scale" single_keyframe_only="1" id="{1d6261ac-1249-4047-be8c-febc69df5b46}" order="0" animated="0" default="0" hidden="true"/>
+  <DOUBLE name="cloud shadow lerp" single_keyframe_only="1" id="{d090c205-be39-47c4-9a21-e330250900ce}" order="0" animated="0" default="0.1500000059604645" hidden="true"/>
+ </NODE>
+</WARSCAPE_PROPERTIES_FILE>

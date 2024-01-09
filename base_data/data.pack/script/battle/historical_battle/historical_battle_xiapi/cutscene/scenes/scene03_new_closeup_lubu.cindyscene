@@ -1,0 +1,23 @@
+<SCENE_FILE start_record_time="0" end_record_time="18.700000975281" version="23" perspective_camera="2.41926,199.508,-93.454:-10.9638,194.52,-107.454" name="scene03_new_closeup_lubu.CindyScene">
+ <ENVIRONMENT hidden="false" data="Weather/xiapi.environment" order="0" name="Environment"/>
+ <VECTOR is_linked="0" link_id="0" unique_id="{77fc4cc9-def3-4dc1-b9b6-e50bcf5f3dad}" name="position" surface_mode="Freeform" id="{77fc4cc9-def3-4dc1-b9b6-e50bcf5f3dad}">
+  <DOUBLE hidden="false" default="0" order="0" animated="1" single_keyframe_only="1" name="X"/>
+  <DOUBLE hidden="false" default="0" order="1" animated="1" single_keyframe_only="1" name="Y"/>
+  <DOUBLE hidden="false" default="0" order="2" animated="1" single_keyframe_only="1" name="Z"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{e714e62e-169f-43ff-a99f-bba390b1070d}">
+  <RADIAN hidden="false" default="0" order="0" animated="1" single_keyframe_only="1" name="X"/>
+  <RADIAN hidden="false" default="0" order="1" animated="1" single_keyframe_only="1" name="Y"/>
+  <RADIAN hidden="false" default="0" order="2" animated="1" single_keyframe_only="1" name="Z"/>
+ </ROTATION_AXES>
+ <NODE name="Links"/>
+ <NODE name="Warscape Properties">
+  <WARSCAPE_PROPERTIES name="closeup_lubu.xml" warscape_properties_file="../cameras/closeup_lubu.xml"/>
+ </NODE>
+ <NODE name="Point Lights">
+  <POINT_LIGHT point_light_file="../lights/combat_point_light_01.kfl" name="combat_point_light_01.kfl"/>
+ </NODE>
+ <NODE name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/lubu_fight_xiahoudun.kfcs" name="lubu_fight_xiahoudun.kfcs"/>
+ </NODE>
+</SCENE_FILE>

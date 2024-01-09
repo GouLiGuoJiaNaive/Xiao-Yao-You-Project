@@ -1,0 +1,26 @@
+<SCENE_FILE start_record_time="0.4666666910052299" version="25" perspective_camera="-368.729,19.9771,-507.262:-144.895,12.1537,-638.701" end_record_time="27.00000140815973" id="{654b7202-0718-46ef-9d0d-be47ee2b15be}" hidden="false">
+ <ENVIRONMENT name="Environment" id="{1d8325f3-4a87-46ba-8b02-d108b5a86c1d}" order="0" hidden="false" data=""/>
+ <VECTOR name="position" unique_id="{4ba3083c-6f00-429d-9635-9dbe2bceaa51}" surface_mode="Freeform" is_linked="0" link_id="0" id="{4ba3083c-6f00-429d-9635-9dbe2bceaa51}" hidden="false">
+  <DOUBLE animated="1" name="X" default="0" id="{a62d9ed9-b5b6-4e15-bb09-fa98080b38ea}" order="0" hidden="false" single_keyframe_only="1"/>
+  <DOUBLE animated="1" name="Y" default="0" id="{b1fbd33d-9aef-4500-9fea-d45e736d9636}" order="1" hidden="false" single_keyframe_only="1"/>
+  <DOUBLE animated="1" name="Z" default="0" id="{5f1de61d-0196-48d1-af02-902734b1b1d6}" order="2" hidden="false" single_keyframe_only="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{c4244f3a-b155-4de9-b6c9-f14ed76f5a1a}" hidden="false">
+  <RADIAN animated="1" name="X" default="0" id="{e8335c71-5bc5-4aa6-8185-bbbafebe8ce8}" order="0" hidden="false" single_keyframe_only="1"/>
+  <RADIAN animated="1" name="Y" default="0" id="{88007938-cfd5-4b89-b8cc-509a5d91a98f}" order="1" hidden="false" single_keyframe_only="1"/>
+  <RADIAN animated="1" name="Z" default="0" id="{8b9ea803-f7d3-4b2f-a3df-586eb647ffe5}" order="2" hidden="false" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{4915e66e-f3e7-496b-8dd7-1fc4d428e47a}" hidden="false"/>
+ <NODE name="Composite Scenes" id="{0422655c-9e7a-4f94-bfa2-c32139980055}" hidden="false">
+  <COMPOSITE_SCENE name="caocao.kfcs" composite_scene_file="../csc_ref/caocao.kfcs" id="{da3edca9-02f8-4d4a-a495-97888e0f82b6}" hidden="false"/>
+  <COMPOSITE_SCENE name="fireship_approach_01.kfcs" composite_scene_file="../csc_ref/fireship_approach_01.kfcs" id="{465517ce-cbe4-45f6-b68e-4f42bfbaac5f}" hidden="false"/>
+  <COMPOSITE_SCENE name="fireship_approach_02.kfcs" composite_scene_file="../csc_ref/fireship_approach_02.kfcs" id="{4c5c13ac-44de-4287-b469-af2b40b22e80}" hidden="false"/>
+  <COMPOSITE_SCENE name="fireship_approach_03.kfcs" composite_scene_file="../csc_ref/fireship_approach_03.kfcs" id="{f00910cb-f72f-4643-a857-01a7e8a0c08e}" hidden="false"/>
+  <COMPOSITE_SCENE name="fireship_approach_04.kfcs" composite_scene_file="../csc_ref/fireship_approach_04.kfcs" id="{7c2d7f9a-f517-47f9-b5af-b6af5a1bd591}" hidden="false"/>
+  <COMPOSITE_SCENE name="fireship_approach_05.kfcs" composite_scene_file="../csc_ref/fireship_approach_05.kfcs" id="{0f127766-be36-4ae1-a8f9-cc9ba3399bcd}" hidden="false"/>
+  <COMPOSITE_SCENE name="fireship_approach_06.kfcs" composite_scene_file="../csc_ref/fireship_approach_06.kfcs" id="{b26bb4ec-330e-4f2f-a640-962c2e8d7a00}" hidden="false"/>
+ </NODE>
+ <NODE name="Warscape Properties" id="{5fafe133-de5a-4ef0-b0a8-11ac4fbaa240}" hidden="false">
+  <WARSCAPE_PROPERTIES name="redcliff_medium_ships_burn.xml" id="{9a6de00e-e253-48b0-83c6-0194e107f1a2}" warscape_properties_file="../cameras/redcliff_medium_ships_burn.xml" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

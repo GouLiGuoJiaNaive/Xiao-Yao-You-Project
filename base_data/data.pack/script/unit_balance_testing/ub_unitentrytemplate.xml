@@ -1,0 +1,9 @@
+			<unit script_name="{SCRIPT_NAME}">
+				<unit_type type="{UNIT}"/>
+				<position x="{POS_X}" y="{POS_Y}"/>
+				<orientation radians="{ORIENTATION}"/>
+				<unit_experience level="0"/>
+				<retinue id="{RETINUE_ID}"/>
+				{COMPOSED_ENTITIES}
+				{GENERAL_DATA}
+			</unit>

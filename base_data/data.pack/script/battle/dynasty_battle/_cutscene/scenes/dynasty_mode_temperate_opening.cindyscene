@@ -1,0 +1,29 @@
+<SCENE_FILE end_record_time="11.02170247499918" id="{a1ac41b6-da14-438e-b2b2-d6f24302f5cd}" version="26" perspective_camera="34.601,612.77,117.728:-20.4887,519.322,-103.146" hidden="false" start_record_time="0">
+ <ENVIRONMENT name="Environment" order="0" id="{30d42191-fd8f-404a-8480-fff6f48cbee3}" data="" hidden="false"/>
+ <VECTOR link_id="0" surface_mode="Freeform" is_linked="0" name="position" unique_id="{63d6913f-c74a-4654-8138-a97ee364d17b}" id="{63d6913f-c74a-4654-8138-a97ee364d17b}" hidden="false">
+  <DOUBLE name="X" order="0" default="0" id="{6303d624-c8cd-4cd3-b2f9-73f8bec9f73e}" animated="1" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" order="1" default="0" id="{dd4cb1e3-3015-4c06-8243-dfc9c45c7b5d}" animated="1" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" order="2" default="0" id="{e975313e-88d4-43f0-a970-416e96b7a0cd}" animated="1" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{e939051b-0fe9-443d-83ee-613f2de24d5d}" hidden="false">
+  <RADIAN name="X" order="0" default="0" id="{62c4061b-9a7c-4462-8a1a-e76ad6b4a7d6}" animated="1" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN name="Y" order="1" default="0" id="{af194de2-3481-448a-9c00-912233b5fe5e}" animated="1" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN name="Z" order="2" default="0" id="{52dc818f-5716-4c7c-9ffe-5ad112ec1ec5}" animated="1" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{22ba3b4e-b767-4632-a693-dc684736d388}" hidden="false"/>
+ <NODE name="Warscape Properties" id="{8e88d6b4-e85f-4e87-b33d-44353187f10f}" hidden="false">
+  <WARSCAPE_PROPERTIES name="pan_camera_dynasty_temperate_opening.xml" warscape_properties_file="../cameras/pan_camera_dynasty_temperate_opening.xml" id="{3f8aa228-e21b-4078-9ac7-05097e96370d}" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

@@ -1,0 +1,12 @@
+<NOISE_FILE id="{092f663b-ba4c-40fa-9f2d-8f018d5822fa}" hidden="false" version="26">
+ <DOUBLE order="0" id="{ac4b39e3-ae9b-4f46-9eed-2dad30b2e9cf}" user_friendy_name="Amplitude" hidden="false" single_keyframe_only="1" animated="0" default="20" name="amplitude">
+  <KEYFRAME time="0" data="2"/>
+ </DOUBLE>
+ <DOUBLE order="1" id="{a5a93b01-1ceb-44ad-8cb9-9230833ed79b}" user_friendy_name="Frequency" hidden="false" single_keyframe_only="1" animated="0" default="5" name="frequency">
+  <KEYFRAME time="0" data="3"/>
+ </DOUBLE>
+ <INT order="2" id="{80dcb40b-37d0-406d-a3b1-9adb35647f9d}" user_friendy_name="Number of Octaves" hidden="false" single_keyframe_only="0" animated="1" default="3" name="number_of_octaves"/>
+ <DOUBLE order="3" id="{67378964-3c28-420a-9241-c3454a1f92be}" user_friendy_name="Offset" hidden="false" single_keyframe_only="0" animated="1" default="10" name="offset"/>
+ <DOUBLE order="4" id="{f32ca5a0-82dc-4a03-aa90-9ef01739be68}" user_friendy_name="Persistence" hidden="false" single_keyframe_only="0" animated="1" default="0.5" name="persistence"/>
+ <DOUBLE order="5" id="{f1800c81-67d9-4a98-950b-a3e17dc5f4dd}" user_friendy_name="Lacunarity" hidden="false" single_keyframe_only="0" animated="1" default="2" name="lacunarity"/>
+</NOISE_FILE>

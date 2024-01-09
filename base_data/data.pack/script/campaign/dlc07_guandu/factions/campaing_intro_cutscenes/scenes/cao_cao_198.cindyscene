@@ -1,0 +1,32 @@
+<SCENE_FILE hidden="false" end_record_time="85.00000443309546" version="26" id="{b060b14d-6ec0-4316-bd02-dad9dc00189d}" perspective_camera="332.628,3.60498,378.94:334.316,1.63796,387.204" start_record_time="0">
+ <ENVIRONMENT hidden="false" name="Environment" id="{4d86a2b8-7a03-45a5-b599-ed46363e55c7}" data="" order="0"/>
+ <VECTOR hidden="false" name="position" id="{615e7ee1-54bb-4dde-af27-73db2e3d1489}" surface_mode="Freeform" is_linked="0" unique_id="{615e7ee1-54bb-4dde-af27-73db2e3d1489}" link_id="0">
+  <DOUBLE hidden="false" name="X" id="{783d6249-e8e8-4882-b7dc-d8aaee1454c3}" default="0" single_keyframe_only="1" order="0" animated="1">
+   <KEYFRAME data="0" time="10.50000476837158"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" name="Y" id="{c80152c7-c7f9-4fba-8802-6695cb3ce7fd}" default="0" single_keyframe_only="1" order="1" animated="1">
+   <KEYFRAME data="0" time="10.50000476837158"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" name="Z" id="{daf17f25-b132-4182-8e19-9726ab5013b7}" default="0" single_keyframe_only="1" order="2" animated="1">
+   <KEYFRAME data="0" time="10.50000476837158"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{3a286ad1-fbc5-44fb-a4c9-dcaabac2484e}">
+  <RADIAN hidden="false" name="X" id="{0c5c5773-5d5d-4d41-8798-91179b010d5d}" default="0" single_keyframe_only="1" order="0" animated="1">
+   <KEYFRAME data="0" time="10.50000476837158"/>
+  </RADIAN>
+  <RADIAN hidden="false" name="Y" id="{854081fb-0c2e-4af2-aafe-26df3ccbe0b3}" default="0" single_keyframe_only="1" order="1" animated="1">
+   <KEYFRAME data="0" time="10.50000476837158"/>
+  </RADIAN>
+  <RADIAN hidden="false" name="Z" id="{aa63e0de-58f3-49a4-8674-eb5619398944}" default="0" single_keyframe_only="1" order="2" animated="1">
+   <KEYFRAME data="0" time="10.50000476837158"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE hidden="false" name="Links" id="{d42f82d0-a03b-4f52-a1e3-f17d7c21e552}"/>
+ <NODE hidden="false" name="Warscape Properties" id="{18c38ef9-f660-4afe-91c3-41800cd14d17}">
+  <WARSCAPE_PROPERTIES hidden="false" name="cao_cao_cam.xml" id="{782e4ba3-2a56-4a35-8af9-24e5a88d8a24}" warscape_properties_file="../cameras/cao_cao_cam.xml"/>
+ </NODE>
+ <NODE hidden="false" name="Triggers" id="{491aa0f4-9d51-421d-9eca-c19af6dc1b11}">
+  <TRIGGER hidden="false" trigger_file="../triggers/cao_cao_200.ktr" name="cao_cao_200.ktr" id="{d9d080d5-879f-41f2-9c2a-9cb21ba6f0c5}"/>
+ </NODE>
+</SCENE_FILE>

@@ -1,0 +1,9 @@
+<TRIGGER_FILE version="26" id="{2d428e5e-9319-4b12-b86e-75b2e47699dd}" hidden="false">
+ <STRING id="{695e7476-9619-4f7c-a48f-b92d0e7282b3}" hidden="false" order="0" name="Timeline">
+  <KEYFRAME time="1" data="shi_xie_01"/>
+  <KEYFRAME time="12.50000095367432" data="shi_xie_02"/>
+  <KEYFRAME time="23.00100135803223" data="shi_xie_03"/>
+  <KEYFRAME time="41.00000381469727" data="shi_xie_04"/>
+  <KEYFRAME time="56.50000381469727" data="shi_xie_05"/>
+ </STRING>
+</TRIGGER_FILE>

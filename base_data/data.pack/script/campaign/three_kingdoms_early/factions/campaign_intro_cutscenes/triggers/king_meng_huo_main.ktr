@@ -1,0 +1,13 @@
+<TRIGGER_FILE hidden="false" version="26" id="{f6b2219d-318f-4045-b7e2-87548b78d7a8}">
+ <STRING hidden="false" order="0" id="{e414b3b2-9b41-4a49-bb37-5a00e54579d9}" name="Timeline">
+  <KEYFRAME time="1" data="3k_dlc06_190_campaign_faction_intro_king_meng_huo_01_advisor"/>
+  <KEYFRAME time="16.00004959106445" data="3k_dlc06_190_campaign_faction_intro_king_meng_huo_02_advisor"/>
+  <KEYFRAME time="30.00000190734863" data="3k_dlc06_190_campaign_faction_intro_king_meng_huo_03_advisor"/>
+  <KEYFRAME time="38.99999618530273" data="3k_dlc06_190_campaign_faction_intro_king_meng_huo_04_advisor"/>
+  <KEYFRAME time="46.99999618530273" data="3k_dlc06_190_campaign_faction_intro_king_meng_huo_05_advisor"/>
+  <KEYFRAME time="56.49999618530273" data="3k_dlc06_190_campaign_faction_intro_king_meng_huo_06_advisor"/>
+  <KEYFRAME time="65" data="3k_dlc06_190_campaign_faction_intro_king_meng_huo_07_advisor"/>
+  <KEYFRAME time="78.00000762939453" data="3k_dlc06_190_campaign_faction_intro_king_meng_huo_08_advisor"/>
+  <KEYFRAME time="86.00001525878906" data="3k_dlc06_190_campaign_faction_intro_king_meng_huo_09_advisor"/>
+ </STRING>
+</TRIGGER_FILE>

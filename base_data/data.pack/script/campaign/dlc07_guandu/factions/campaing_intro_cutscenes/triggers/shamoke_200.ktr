@@ -1,0 +1,9 @@
+<TRIGGER_FILE hidden="false" version="26" id="{45c2ef9a-fcc5-4807-af60-6b032112a9b1}">
+ <STRING order="0" name="Timeline" hidden="false" id="{bfa31b5d-2c76-4955-ba6e-f56ea13be854}">
+  <KEYFRAME time="1" data="shamoke_01"/>
+  <KEYFRAME time="16" data="shamoke_02"/>
+  <KEYFRAME time="31.00000190734863" data="shamoke_03"/>
+  <KEYFRAME time="45.00000381469727" data="shamoke_04"/>
+  <KEYFRAME time="59.50000381469727" data="shamoke_05"/>
+ </STRING>
+</TRIGGER_FILE>

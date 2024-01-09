@@ -1,0 +1,9 @@
+<TRIGGER_FILE id="{8d597ba9-f66f-4e2b-9436-d5717369797c}" hidden="false" version="26">
+ <STRING name="Timeline" id="{ba40d24c-f70c-4560-8325-6a650cb034bd}" order="0" hidden="false">
+  <KEYFRAME data="zhang_yan_01" time="1.000000238418579"/>
+  <KEYFRAME data="zhang_yan_02" time="14.00000095367432"/>
+  <KEYFRAME data="zhang_yan_03" time="29.00000190734863"/>
+  <KEYFRAME data="zhang_yan_04" time="42.50000762939453"/>
+  <KEYFRAME data="zhang_yan_05" time="57.00000762939453"/>
+ </STRING>
+</TRIGGER_FILE>

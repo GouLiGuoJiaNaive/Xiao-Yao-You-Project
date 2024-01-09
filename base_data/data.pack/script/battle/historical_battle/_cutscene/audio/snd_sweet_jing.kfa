@@ -1,0 +1,12 @@
+<AUDIO_EVENT_FILE hidden="false" audio_event_name="Play_Movie_3K_Historical_Battle_Jing_Province" version="25" id="{7cd877ee-269d-48b1-ad17-4cb37715b13c}">
+ <VECTOR surface_mode="Freeform" hidden="false" unique_id="{c626cb9e-b97c-405b-b56a-4eef08802be6}" link_id="-1" name="position" is_linked="0" id="{c626cb9e-b97c-405b-b56a-4eef08802be6}">
+  <DOUBLE hidden="false" order="0" single_keyframe_only="1" animated="0" default="0" name="X" id="{d7252b47-02f6-4f35-a0bf-38714f365cb9}"/>
+  <DOUBLE hidden="false" order="1" single_keyframe_only="1" animated="0" default="0" name="Y" id="{7e7ad703-8512-4cdb-b8d2-c1ee3aa16950}"/>
+  <DOUBLE hidden="false" order="2" single_keyframe_only="1" animated="0" default="0" name="Z" id="{a6fdfafc-54d8-4ea5-8afd-335aeb17bf02}"/>
+ </VECTOR>
+ <BOOL hidden="false" order="2" single_keyframe_only="0" animated="1" user_friendy_name="Active" default="0" name="active" id="{879a2490-cca9-46d1-9b91-09425ae94434}">
+  <KEYFRAME time="0.5" data="0"/>
+  <KEYFRAME time="1.166666746139526" data="1"/>
+ </BOOL>
+ <DOUBLE hidden="false" order="3" single_keyframe_only="1" animated="0" user_friendy_name="Volume" default="100" name="volume" id="{1da0eb7f-992f-45d3-8050-b63dc845de2e}"/>
+</AUDIO_EVENT_FILE>

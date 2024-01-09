@@ -1,0 +1,37 @@
+<SCENE_FILE perspective_camera="-246.22,31.295,748.965:-162.054,-15.8645,723.702" version="25" start_record_time="3.766666863113642" hidden="false" end_record_time="41.56666883453727" id="{bb7ba93d-f17b-45f2-9e42-516fdba23ca8}">
+ <ENVIRONMENT hidden="false" order="0" data="" name="Environment" id="{c22df47b-9772-4491-9117-db522ba98e2f}"/>
+ <VECTOR is_linked="0" surface_mode="Freeform" unique_id="{954a8a5d-2630-4a3f-a256-30ea2b38bd95}" hidden="false" link_id="0" name="position" id="{954a8a5d-2630-4a3f-a256-30ea2b38bd95}">
+  <DOUBLE animated="1" default="0" hidden="false" order="0" single_keyframe_only="1" name="X" id="{a2d35445-1339-4c63-b85a-4a74be69b7f8}">
+   <KEYFRAME data="-30" time="93.86666870117188"/>
+  </DOUBLE>
+  <DOUBLE animated="1" default="0" hidden="false" order="1" single_keyframe_only="1" name="Y" id="{061c700b-dc5c-45e3-a9d5-1e452a0bec7c}">
+   <KEYFRAME data="650" time="93.86666870117188"/>
+  </DOUBLE>
+  <DOUBLE animated="1" default="0" hidden="false" order="2" single_keyframe_only="1" name="Z" id="{a7acc13d-c6e9-474d-b015-495f32af1973}">
+   <KEYFRAME data="60" time="93.86666870117188"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{7fa0bc1c-5b3e-4d42-a51d-c72e5104ff85}">
+  <RADIAN animated="1" default="0" hidden="false" order="0" single_keyframe_only="1" name="X" id="{caef2c56-8814-48f9-ab5d-2f4d1273f0e8}">
+   <KEYFRAME data="0" time="93.86666870117188"/>
+  </RADIAN>
+  <RADIAN animated="1" default="0" hidden="false" order="1" single_keyframe_only="1" name="Y" id="{e0aad9f6-b63e-4f36-8276-b2b16d337703}">
+   <KEYFRAME data="0" time="93.86666870117188"/>
+  </RADIAN>
+  <RADIAN animated="1" default="0" hidden="false" order="2" single_keyframe_only="1" name="Z" id="{8ed6e72a-8d16-4776-86f8-2ada58109e38}">
+   <KEYFRAME data="0" time="93.86666870117188"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE hidden="false" name="Links" id="{f1d5baa5-08d0-4864-a18f-7f188f792043}"/>
+ <NODE hidden="false" name="Warscape Properties" id="{f224f71c-2436-4f7d-95ab-43bb8eddf20a}">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/wuzhang_plains_city0101.xml" hidden="false" name="wuzhang_plains_city0101.xml" id="{a8aa44c4-72b0-4706-a3a3-4b980c93b7bd}"/>
+ </NODE>
+ <NODE hidden="false" name="Audio Events" id="{6a47afb5-610a-4a2e-be38-2058bdf50bfa}">
+  <AUDIO_EVENT audio_event_file="../audio/audio_event_file_16.kfa" hidden="false" name="audio_event_file_16.kfa" id="{354e5480-61f6-440c-bd21-d4966734957a}"/>
+  <AUDIO_EVENT audio_event_file="../audio/audio_event_file_17.kfa" hidden="false" name="audio_event_file_17.kfa" id="{c3ffe0a3-b514-45dd-8935-076179508a2a}"/>
+  <AUDIO_EVENT audio_event_file="../audio/audio_event_file_18.kfa" hidden="false" name="audio_event_file_18.kfa" id="{6550a304-eadd-43df-b47e-c4661fecc3eb}"/>
+  <AUDIO_EVENT audio_event_file="../audio/audio_event_file_19.kfa" hidden="false" name="audio_event_file_19.kfa" id="{ad758f95-8d37-4bc1-b31d-73e25af824f6}"/>
+  <AUDIO_EVENT audio_event_file="../audio/audio_event_file_20.kfa" hidden="false" name="audio_event_file_20.kfa" id="{61e271c9-7ab4-4142-8f3f-0fbd5bf3722b}"/>
+  <AUDIO_EVENT audio_event_file="../audio/audio_event_file_21.kfa" hidden="false" name="audio_event_file_21.kfa" id="{c95be16b-5903-4669-98fc-cfea4b8401ea}"/>
+ </NODE>
+</SCENE_FILE>

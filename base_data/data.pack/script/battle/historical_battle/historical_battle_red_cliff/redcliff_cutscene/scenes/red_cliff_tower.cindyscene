@@ -1,0 +1,33 @@
+<SCENE_FILE start_record_time="0" id="{e9a6c81b-7e06-48be-9014-381dbae3a9b0}" hidden="false" end_record_time="53.70000280067325" version="26" perspective_camera="22.2924,94.159,582.481:22.5602,93.1407,564.405">
+ <ENVIRONMENT order="0" id="{cabaaae7-7cf2-4603-a860-3c622b439675}" hidden="false" name="Environment" data="script/battle/historical_battle/historical_battle_red_cliff/redcliff_cutscene/weather/red_cliff_cutscene.environment"/>
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{18775396-5f5b-4d5b-a579-9c8ce936e6f5}" hidden="false" unique_id="{18775396-5f5b-4d5b-a579-9c8ce936e6f5}" name="position">
+  <DOUBLE order="0" id="{45f225dc-f685-4f8f-8fbb-54cbe3e78783}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="X"/>
+  <DOUBLE order="1" id="{be7d7dbb-a767-4514-af9d-c241df2756f5}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Y"/>
+  <DOUBLE order="2" id="{22832b4f-dbce-46d5-8d37-b9c89278fed3}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Z"/>
+ </VECTOR>
+ <ROTATION_AXES id="{7605cc3b-ecc1-46a9-b236-f6fdc25f9c54}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{d9184e03-6083-466e-b07d-ff722228e2a6}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="X"/>
+  <RADIAN order="1" id="{b542a72d-f9c1-4df3-9942-87c9e669de34}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Y"/>
+  <RADIAN order="2" id="{80c4a5fb-5264-47b3-ad09-0cf899199e69}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Z"/>
+ </ROTATION_AXES>
+ <NODE id="{29dd303a-7167-4562-a349-e8ea45843ac8}" hidden="false" name="Links"/>
+ <NODE id="{41ab6368-1e5c-43e0-8635-fa929fbde407}" hidden="false" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{a6d0d8a6-c2fb-47fa-b8d1-441f99d44efd}" hidden="false" composite_scene_file="../csc_ref/panic.kfcs" name="panic.kfcs"/>
+  <COMPOSITE_SCENE id="{1141c449-111f-4cd7-b11e-35f20823e87f}" hidden="false" composite_scene_file="../csc_ref/guard_alert.kfcs" name="guard_alert.kfcs"/>
+ </NODE>
+ <NODE id="{45329184-109d-443c-887d-0eda19b8a4b8}" hidden="false" name="Point Lights">
+  <POINT_LIGHT id="{43dcfe54-68c5-4d4b-9d3d-521d898a38ce}" hidden="false" point_light_file="../lights/panic_light_01.kfl" name="panic_light_01.kfl"/>
+  <POINT_LIGHT id="{d8fce7e4-b178-472a-96d8-323fc4a84e80}" hidden="false" point_light_file="../lights/tower_light_01.kfl" name="tower_light_01.kfl"/>
+ </NODE>
+ <NODE id="{ce18af69-a1c9-43d1-be98-ea92827771f8}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{3cfb34d9-e928-40d7-9a9c-f4c1a7e83f5e}" hidden="false" warscape_properties_file="../cameras/red_cliff_tower.xml" name="red_cliff_tower.xml"/>
+ </NODE>
+ <NODE id="{2a8c10fa-c425-4454-9fdd-cc214c6edeb3}" hidden="false" name="Audio Events">
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_01.kfa" id="{66cd55ef-8631-44b9-ac51-596e8107e819}" hidden="false" name="red_cliff_advice_01.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_sweetner_pass.kfa" id="{1e82c8c6-ad3d-49e9-b321-c4dd4fa36d38}" hidden="false" name="red_cliff_sweetner_pass.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_02.kfa" id="{9c06eca2-67df-44fc-b648-8e34d7e4b17f}" hidden="false" name="red_cliff_advice_02.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_03.kfa" id="{6fe29b87-2f41-4f23-b3f3-721bd2adf819}" hidden="false" name="red_cliff_advice_03.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_05.kfa" id="{cae83012-2e2d-46a4-a431-18dc6594caa3}" hidden="false" name="red_cliff_advice_05.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_04.kfa" id="{369f56ae-8542-4386-9be4-e3cd762ab5c7}" hidden="false" name="red_cliff_advice_04.kfa"/>
+ </NODE>
+</SCENE_FILE>

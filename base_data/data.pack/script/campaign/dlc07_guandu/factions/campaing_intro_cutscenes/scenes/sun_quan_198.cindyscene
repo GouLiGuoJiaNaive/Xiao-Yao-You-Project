@@ -1,0 +1,32 @@
+<SCENE_FILE id="{18dd271f-937a-444e-b047-0e365f3bc8be}" hidden="false" end_record_time="98.2000051215291" perspective_camera="351.709,3.12034,228.526:351.299,-0.200295,236.103" start_record_time="0" version="26">
+ <ENVIRONMENT name="Environment" id="{ba29cb66-d517-49da-b457-60ec081e954f}" hidden="false" data="" order="0"/>
+ <VECTOR name="position" id="{dee3313e-0482-4152-a710-a9789709ffa2}" is_linked="0" hidden="false" link_id="0" surface_mode="Freeform" unique_id="{dee3313e-0482-4152-a710-a9789709ffa2}">
+  <DOUBLE name="X" id="{edae8820-8fd8-4ab2-b7b2-7c9e66b69a35}" hidden="false" animated="1" single_keyframe_only="1" order="0" default="0">
+   <KEYFRAME handle1_x="90" data="0" handle1_y="0" time="90.00002288818359" handle1_type="SMOOTH"/>
+  </DOUBLE>
+  <DOUBLE name="Y" id="{a69581c7-b922-4701-95ce-ab3d6911a5c8}" hidden="false" animated="1" single_keyframe_only="1" order="1" default="0">
+   <KEYFRAME handle1_x="90" data="0" handle1_y="0" time="90.00002288818359" handle1_type="SMOOTH"/>
+  </DOUBLE>
+  <DOUBLE name="Z" id="{00f413c9-bb27-4691-b907-67f689040279}" hidden="false" animated="1" single_keyframe_only="1" order="2" default="0">
+   <KEYFRAME handle1_x="90" data="0" handle1_y="0" time="90.00002288818359" handle1_type="SMOOTH"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{5e4475c1-88e8-4602-82db-34606a7741a8}" hidden="false">
+  <RADIAN name="X" id="{ce42b56a-1c2b-415e-8880-bac286c6bb08}" hidden="false" animated="1" single_keyframe_only="1" order="0" default="0">
+   <KEYFRAME handle1_x="90" data="0" handle1_y="0" time="90.00002288818359" handle1_type="SMOOTH"/>
+  </RADIAN>
+  <RADIAN name="Y" id="{8213d052-b0cd-4b82-8639-fbaf960a8b0b}" hidden="false" animated="1" single_keyframe_only="1" order="1" default="0">
+   <KEYFRAME handle1_x="90" data="0" handle1_y="0" time="90.00002288818359" handle1_type="SMOOTH"/>
+  </RADIAN>
+  <RADIAN name="Z" id="{dace560a-d3cd-4781-ac11-3d0f04439c5a}" hidden="false" animated="1" single_keyframe_only="1" order="2" default="0">
+   <KEYFRAME handle1_x="90" data="0" handle1_y="0" time="90.00002288818359" handle1_type="SMOOTH"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{b37f44a8-c14c-4e39-9ccc-f44404f18b18}" hidden="false"/>
+ <NODE name="Warscape Properties" id="{53ce605c-e0de-417d-b8b0-052e9f8f4f8b}" hidden="false">
+  <WARSCAPE_PROPERTIES name="sun_quan_cam.xml" id="{660a57a9-bd73-4989-ab35-ddc88e7d21a3}" hidden="false" warscape_properties_file="../cameras/sun_quan_cam.xml"/>
+ </NODE>
+ <NODE name="Triggers" id="{1a88d77a-d01c-4ddf-9bd2-687587c2f8dc}" hidden="false">
+  <TRIGGER name="sun_ce_200.ktr" id="{e074b462-cedc-4bde-aceb-29ba303a7d5c}" hidden="false" trigger_file="../triggers/sun_ce_200.ktr"/>
+ </NODE>
+</SCENE_FILE>

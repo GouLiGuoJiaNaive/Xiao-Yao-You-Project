@@ -1,0 +1,9 @@
+<TRIGGER_FILE hidden="false" version="26" id="{4b85125d-c4ed-48fb-8211-9cc74a6c0df2}">
+ <STRING name="Timeline" hidden="false" order="0" id="{72fe10d8-534b-442a-996a-92302049780d}">
+  <KEYFRAME time="1" data="cao_cao_01"/>
+  <KEYFRAME time="18" data="cao_cao_02"/>
+  <KEYFRAME time="38.50000762939453" data="cao_cao_03"/>
+  <KEYFRAME time="52.00000762939453" data="cao_cao_04"/>
+  <KEYFRAME time="65.96666717529297" data="cao_cao_05"/>
+ </STRING>
+</TRIGGER_FILE>

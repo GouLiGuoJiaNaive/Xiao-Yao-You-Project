@@ -1,0 +1,28 @@
+<SCENE_FILE start_record_time="0" hidden="false" end_record_time="75.00000391155481" version="26" perspective_camera="389.848,9.50385,225.582:414.57,-10.0929,244.052" id="{7cd9c7b3-bc9d-4288-ac20-c76e2408959c}">
+ <ENVIRONMENT hidden="false" order="0" data="" name="Environment" id="{2ebb61b8-8b7d-4ca3-ab5f-946509d75044}"/>
+ <VECTOR hidden="false" link_id="0" unique_id="{8e8d66ee-9280-4cc3-9746-da44a6506eab}" name="position" is_linked="0" surface_mode="Freeform" id="{8e8d66ee-9280-4cc3-9746-da44a6506eab}">
+  <DOUBLE hidden="false" order="0" animated="1" single_keyframe_only="1" default="0" name="X" id="{4693874f-1f01-424e-9863-685f679905c4}"/>
+  <DOUBLE hidden="false" order="1" animated="1" single_keyframe_only="1" default="0" name="Y" id="{7b8e7c8c-d97a-49bd-827c-147daaf769e6}"/>
+  <DOUBLE hidden="false" order="2" animated="1" single_keyframe_only="1" default="0" name="Z" id="{bbe5fc97-8b8a-4017-a210-ade70bf898bd}"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{5f2c1cd3-6e6c-4de0-898e-59fde7f7569b}">
+  <RADIAN hidden="false" order="0" animated="1" single_keyframe_only="1" default="0" name="X" id="{e95b7398-56a9-42c4-9f12-c7bec455d1cb}"/>
+  <RADIAN hidden="false" order="1" animated="1" single_keyframe_only="1" default="0" name="Y" id="{11c8c9ea-600e-457c-867d-3b1d9f950fbb}"/>
+  <RADIAN hidden="false" order="2" animated="1" single_keyframe_only="1" default="0" name="Z" id="{6f3b7201-8910-46a1-a8f3-71de72f93f91}"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" name="Links" id="{cc4cf190-8353-439e-b655-3a7adaae82d4}"/>
+ <NODE hidden="false" name="Warscape Properties" id="{f3fb72c7-decf-479f-a1d2-4ae07d253a4e}">
+  <WARSCAPE_PROPERTIES hidden="false" name="pan_camera_he_jin.xml" id="{e1db7784-3461-47e8-9c33-b11ff7988994}" warscape_properties_file="../cameras/pan_camera_he_jin.xml"/>
+ </NODE>
+ <NODE hidden="false" name="Triggers" id="{c477493e-5ca2-49e3-bfb8-c4817c3b120b}">
+  <TRIGGER hidden="false" name="empress_he.ktr" id="{2710672f-bf85-4c31-bf5e-358000af7427}" trigger_file="../triggers/empress_he.ktr"/>
+ </NODE>
+ <NODE hidden="false" name="Composite Scenes" id="{e440f85a-25f0-419a-abc1-50a559ddbb3b}">
+  <COMPOSITE_SCENE hidden="false" name="general_eunuch_argue.kfcs" id="{ba48865f-631a-40d3-8cdb-bb18cf2a3048}" composite_scene_file="../csc_ref/general_eunuch_argue.kfcs"/>
+ </NODE>
+ <NODE hidden="false" name="Particle Effects" id="{9ce275b0-f416-4d65-91c3-7e6340ca5885}">
+  <EFFECT hidden="false" name="rebellions_fire_04_he_jin.kfe" effect_file="../particles/rebellions_fire_04_he_jin.kfe" id="{d1d0f6e9-6e6e-4890-baab-2bb757c37ecf}"/>
+  <EFFECT hidden="false" name="rebellions_fire_05_he_jin.kfe" effect_file="../particles/rebellions_fire_05_he_jin.kfe" id="{3366767f-7b20-46a7-9b13-14cb00d95ad3}"/>
+  <EFFECT hidden="false" name="rebellions_fire_06_he_jin.kfe" effect_file="../particles/rebellions_fire_06_he_jin.kfe" id="{5482a2df-cae4-4d0f-ad19-6cf0dac154f4}"/>
+ </NODE>
+</SCENE_FILE>

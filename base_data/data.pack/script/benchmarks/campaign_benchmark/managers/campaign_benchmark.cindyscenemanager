@@ -1,0 +1,6 @@
+<SCENE_MANAGER_FILE hidden="false" id="{cfc55a0e-f904-405d-9d77-80d8a9158b66}" end_record_time="90.03333802893758" version="25" start_record_time="0" perspective_camera="206.421,10.1994,395.188:198.147,8.30693,396.905">
+ <NODE hidden="false" name="Links" id="{24bbe21a-745a-47c6-a113-2b0bd639b36c}"/>
+ <NODE hidden="false" name="Scenes" id="{5bf12084-7da9-4424-a100-1262ca48f49b}">
+  <SCENE hidden="false" scene_file="../scenes/main.CindyScene" name="main.CindyScene" id="{1e14085f-4cf9-4477-bfc5-f0f2b0ea36e9}"/>
+ </NODE>
+</SCENE_MANAGER_FILE>

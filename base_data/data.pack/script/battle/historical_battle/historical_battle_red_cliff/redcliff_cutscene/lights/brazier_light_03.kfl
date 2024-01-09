@@ -1,0 +1,34 @@
+<POINT_LIGHT_FILE id="{1c459e21-a475-4ae2-aead-107e83154735}" hidden="false" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{6e6455bb-5936-4a33-bb6f-4f16ea2f29fd}" hidden="false" unique_id="{6e6455bb-5936-4a33-bb6f-4f16ea2f29fd}" name="position">
+  <DOUBLE order="0" id="{c77fdb0d-d6bd-4d0e-a996-5493c1b9019d}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X">
+   <KEYFRAME time="0" data="24.450923919677734"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{9e14331c-d2f9-465e-bbb9-5d36dc883cfb}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="0" data="93.74967193603516"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{1ab90998-c3d1-4c2b-93a9-4165791a96aa}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z">
+   <KEYFRAME time="0" data="578.4096069335938"/>
+  </DOUBLE>
+ </VECTOR>
+ <RGB id="{693d9252-1799-4088-b5eb-d31b5a1cd68c}" hidden="false" name="colour">
+  <DOUBLE order="0" id="{1a14e6a3-c2d6-4dcc-98a9-b9bde855cd6f}" hidden="false" single_keyframe_only="1" animated="0" default="1024" name="R">
+   <KEYFRAME time="0" data="1024"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{ce29122f-fe9b-416d-844f-ef0bc2797d32}" hidden="false" single_keyframe_only="1" animated="0" default="1024" name="G">
+   <KEYFRAME time="0" data="546.1333618164062"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{c7c116ef-7b82-4228-879c-1b4c08374638}" hidden="false" single_keyframe_only="1" animated="0" default="1024" name="B">
+   <KEYFRAME time="0" data="152.59608459472656"/>
+  </DOUBLE>
+ </RGB>
+ <DOUBLE order="3" id="{3df2eefd-0147-40e5-8152-9c7ede8229a6}" hidden="false" single_keyframe_only="1" animated="0" default="100" name="Multiplier">
+  <KEYFRAME time="0" data="3"/>
+ </DOUBLE>
+ <DOUBLE order="4" id="{ce75722c-8ef2-49e4-9785-8e8c034024ed}" hidden="false" single_keyframe_only="1" animated="0" default="10" name="Range">
+  <KEYFRAME time="0" data="50"/>
+ </DOUBLE>
+ <DOUBLE order="5" id="{6568f201-e74d-4ba7-ace2-37deb804d09f}" hidden="false" single_keyframe_only="1" animated="0" default="0.2000000029802322" name="Scatter Diameter"/>
+ <BOOL order="6" id="{0c3e9184-b2fa-40b6-906f-372cad54fb79}" hidden="false" single_keyframe_only="1" animated="0" default="1" name="Casts Shadows">
+  <KEYFRAME time="0" data="1"/>
+ </BOOL>
+</POINT_LIGHT_FILE>

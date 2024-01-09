@@ -1,0 +1,17 @@
+<SCENE_FILE hidden="false" id="{bb34979a-2212-4a0d-9dd8-8e28fad0c264}" start_record_time="0" end_record_time="51.53333602100611" perspective_camera="-2.16619,78.6856,595.91:-0.945982,78.7549,597.671" version="25">
+ <ENVIRONMENT hidden="false" data="" id="{1a9dac11-c50d-4f93-8abb-517ace16489d}" name="Environment" order="0"/>
+ <VECTOR hidden="false" id="{ba2d4dd6-7385-47d5-8148-4badcaad9250}" surface_mode="Freeform" name="position" unique_id="{ba2d4dd6-7385-47d5-8148-4badcaad9250}" is_linked="0" link_id="0">
+  <DOUBLE hidden="false" id="{f9dd3184-529a-4437-8340-152b682d7e79}" default="0" name="X" single_keyframe_only="1" order="0" animated="1"/>
+  <DOUBLE hidden="false" id="{17be6f6e-9669-4d6c-96f8-5aa0097c6e5c}" default="0" name="Y" single_keyframe_only="1" order="1" animated="1"/>
+  <DOUBLE hidden="false" id="{d990fd1a-36b0-4763-833f-96e4d1eca600}" default="0" name="Z" single_keyframe_only="1" order="2" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{27afbc84-f9dd-4fd0-a358-d752f0d085c7}" name="rotation">
+  <RADIAN hidden="false" id="{2b477166-e7ab-4deb-8cb0-e13a4cc9b2dd}" default="0" name="X" single_keyframe_only="1" order="0" animated="1"/>
+  <RADIAN hidden="false" id="{657ddf60-4f50-484a-9e73-5992ee055695}" default="0" name="Y" single_keyframe_only="1" order="1" animated="1"/>
+  <RADIAN hidden="false" id="{ae60a858-ea47-498b-a180-ac9f039f9147}" default="0" name="Z" single_keyframe_only="1" order="2" animated="1"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{c2f85583-bbd6-4592-b44f-585debb34de2}" name="Links"/>
+ <NODE hidden="false" id="{1e5cee27-34db-4a2e-b6ba-c3f7a0f6ff5f}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES hidden="false" warscape_properties_file="../cameras/redcliff_caocao_walk_out.xml" id="{ce23476d-a7b7-4980-81ce-620c143f199b}" name="redcliff_caocao_walk_out.xml"/>
+ </NODE>
+</SCENE_FILE>

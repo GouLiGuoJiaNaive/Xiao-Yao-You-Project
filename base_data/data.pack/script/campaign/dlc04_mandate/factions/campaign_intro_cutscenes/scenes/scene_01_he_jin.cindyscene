@@ -1,0 +1,20 @@
+<SCENE_FILE hidden="false" start_record_time="0" perspective_camera="266.018,6.79096,395.728:278.432,-6.36047,363.956" id="{e5af9ff4-4570-4055-9498-0da6fb4ab060}" version="26" end_record_time="75.24023958217607">
+ <ENVIRONMENT hidden="false" id="{315d2cff-e46d-44d8-accc-b0582c8071d4}" data="" name="Environment" order="0"/>
+ <VECTOR hidden="false" id="{01a0c054-1801-41c7-8ada-67619bb77d05}" link_id="0" is_linked="0" surface_mode="Freeform" name="position" unique_id="{01a0c054-1801-41c7-8ada-67619bb77d05}">
+  <DOUBLE hidden="false" animated="1" id="{8b5e8bdc-0dc5-44fc-ad1e-49eb94105982}" single_keyframe_only="1" name="X" default="0" order="0"/>
+  <DOUBLE hidden="false" animated="1" id="{20ee8027-80db-4709-99a4-87170ed9a8d3}" single_keyframe_only="1" name="Y" default="0" order="1"/>
+  <DOUBLE hidden="false" animated="1" id="{9ac8a4bc-a33b-4d75-bddf-6fc8bd2043b5}" single_keyframe_only="1" name="Z" default="0" order="2"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{a6b08252-a667-49a7-9abc-5a8a17b9074f}" name="rotation">
+  <RADIAN hidden="false" animated="1" id="{c5c73f51-853a-4293-b25a-c3b83698aca6}" single_keyframe_only="1" name="X" default="0" order="0"/>
+  <RADIAN hidden="false" animated="1" id="{f456e5c0-62fd-4221-b8e1-79143c0b87d4}" single_keyframe_only="1" name="Y" default="0" order="1"/>
+  <RADIAN hidden="false" animated="1" id="{ae727629-f60d-41ad-aeae-e3919e05cd79}" single_keyframe_only="1" name="Z" default="0" order="2"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{34299d47-e3d0-4eea-b064-1a3e7dfca284}" name="Links"/>
+ <NODE hidden="false" id="{93237499-6712-4bc6-8cf1-11bd56befe61}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES hidden="false" id="{2b255b5b-0e6a-4ecf-a9b4-5d4742503286}" warscape_properties_file="../cameras/pan_camera_he_jin.xml" name="pan_camera_he_jin.xml"/>
+ </NODE>
+ <NODE hidden="false" id="{1e142858-6383-4849-803f-0b87905b482c}" name="Triggers">
+  <TRIGGER hidden="false" id="{ee941a0b-0b3b-4bde-8b4f-8f0e1a8905e6}" trigger_file="../triggers/he_jin.ktr" name="he_jin.ktr"/>
+ </NODE>
+</SCENE_FILE>

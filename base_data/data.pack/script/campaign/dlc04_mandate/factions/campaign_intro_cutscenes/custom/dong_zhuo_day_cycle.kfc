@@ -1,0 +1,7 @@
+<CUSTOM_FILE type="Tweak" hidden="false" entry_name="campaign_time_override_value" id="{0b8859ed-20fe-45aa-963e-a347cc281c46}" version="26">
+ <INT default="0" hidden="false" order="0" animated="1" name="Value" id="{49f4418a-7593-4b32-82eb-cb55941e35e0}" single_keyframe_only="0">
+  <KEYFRAME time="0" data="1"/>
+  <KEYFRAME time="27.16666793823242" data="12"/>
+  <KEYFRAME time="33.90000152587891" data="12"/>
+ </INT>
+</CUSTOM_FILE>

@@ -1,0 +1,35 @@
+<SCENE_FILE start_record_time="0" id="{769629ae-fcd0-4d3a-92ff-b485922c966f}" hidden="false" end_record_time="69.63333696499467" version="26" perspective_camera="22.2924,94.159,582.481:22.5602,93.1407,564.405">
+ <ENVIRONMENT order="0" id="{be4e0544-8266-47e9-814d-2c059c444201}" hidden="false" name="Environment" data="script/battle/historical_battle/historical_battle_red_cliff/redcliff_cutscene/weather/red_cliff_cutscene.environment"/>
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{384e18fb-0cb9-4168-aa29-2d3415645857}" hidden="false" unique_id="{384e18fb-0cb9-4168-aa29-2d3415645857}" name="position">
+  <DOUBLE order="0" id="{374e77f7-3538-48ec-8588-dcecb0e8906e}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="X"/>
+  <DOUBLE order="1" id="{24c0ed37-9f4a-4cef-812a-0f99aa60f6d6}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Y"/>
+  <DOUBLE order="2" id="{d36dc067-be2c-4ea5-bab2-f3e2791a99a5}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Z"/>
+ </VECTOR>
+ <ROTATION_AXES id="{53b14be2-cd4e-4daa-9577-a5b9ec0bcf71}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{0f3aa7c6-d6df-4c5d-a163-cd5ee16da3f5}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="X"/>
+  <RADIAN order="1" id="{5ebfdfaa-88ef-4652-806c-167deb173238}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Y"/>
+  <RADIAN order="2" id="{e8f17943-8955-4a2a-a8a8-ba5d8e00a5ae}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Z"/>
+ </ROTATION_AXES>
+ <NODE id="{2ca35614-d07c-4812-b0e2-f248b99ad143}" hidden="false" name="Links"/>
+ <NODE id="{0e6bb83d-d30c-4e4c-b71a-44534f817cf3}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{81564104-6ca5-4495-86f0-fd7030d57b85}" hidden="false" warscape_properties_file="../cameras/red_cliff_boat_impact_06.xml" name="red_cliff_boat_impact_06.xml"/>
+ </NODE>
+ <NODE id="{e048bfa6-884b-4559-a302-91a198338af7}" hidden="false" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{a23339fa-f043-478e-a2be-1d9eb4278977}" hidden="false" composite_scene_file="../csc_ref/ship_impact_cu_03_impact.kfcs" name="ship_impact_cu_03_impact.kfcs"/>
+  <COMPOSITE_SCENE id="{f754cccb-c93c-42c3-88e4-6c59ced51c9d}" hidden="false" composite_scene_file="../csc_ref/ship_impact_cu_04.kfcs" name="ship_impact_cu_04.kfcs"/>
+ </NODE>
+ <NODE id="{ee5157f1-813e-4c02-96e2-ec0c7d222850}" hidden="false" name="Particle Effects">
+  <EFFECT id="{9e1780c5-34fd-48d2-91c3-4a024b6a8d68}" hidden="false" effect_file="../particles/ship_impact_explosion_03_01.kfe" name="ship_impact_explosion_03_01.kfe"/>
+  <EFFECT id="{164a8186-7df9-496a-a814-8f3c014f1e16}" hidden="false" effect_file="../particles/ship_impact_explosion_03_02.kfe" name="ship_impact_explosion_03_02.kfe"/>
+  <EFFECT id="{88ef3d64-ccdd-499b-bb28-fdb69958d239}" hidden="false" effect_file="../particles/ship_impact_explosion_03_03.kfe" name="ship_impact_explosion_03_03.kfe"/>
+  <EFFECT id="{7482fe4d-a28f-4504-a4ef-08dcc400b46e}" hidden="false" effect_file="../particles/wood_fire_01.kfe" name="wood_fire_01.kfe"/>
+ </NODE>
+ <NODE id="{7da0c37e-fd49-460a-bbe1-65a4e02617eb}" hidden="false" name="Audio Events">
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_05.kfa" id="{ec4e948f-5685-47de-a45c-953550e0b9de}" hidden="false" name="red_cliff_advice_05.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_01.kfa" id="{afa5bb82-7948-4712-880f-a09181282d4c}" hidden="false" name="red_cliff_advice_01.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_sweetner_pass.kfa" id="{342d56df-d2b1-4a56-81df-8af2b054582c}" hidden="false" name="red_cliff_sweetner_pass.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_02.kfa" id="{76c3582e-329d-44cc-85b4-ca01ea0e98c2}" hidden="false" name="red_cliff_advice_02.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_03.kfa" id="{decd4c58-a282-46a6-be82-3ad4704925e9}" hidden="false" name="red_cliff_advice_03.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_04.kfa" id="{2fea0f7e-84c4-48e5-8f6c-8b724bec9540}" hidden="false" name="red_cliff_advice_04.kfa"/>
+ </NODE>
+</SCENE_FILE>

@@ -1,0 +1,24 @@
+<COMPOSITE_SCENE_FILE directory="script/battle/historical_battle/historical_battle_xiapi/composite_scene/scene01_door_closed.csc" hidden="false" version="25" id="{5f0342b4-bb36-4c7a-846b-2da22a029374}">
+ <VECTOR unique_id="{96657238-0c1f-41bb-a6dc-9cc4bb456dca}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{96657238-0c1f-41bb-a6dc-9cc4bb456dca}">
+  <DOUBLE name="X" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{f11c4e49-8e6e-4839-bf18-8e9fdbec8fba}">
+   <KEYFRAME data="-11.963401794433594" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" id="{abc1f87e-cc90-49dc-91df-3b35314ce782}">
+   <KEYFRAME data="192.77166748046875" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" id="{69078c86-f3fd-4046-8278-44672ecb08a3}">
+   <KEYFRAME data="-378.3698425292969" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{fec3fd3f-25de-4fcc-b4c9-a342cdbcf2f9}">
+  <RADIAN name="X" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{eed16238-016d-4b71-8fe9-776474c5f6f6}"/>
+  <RADIAN name="Y" hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" id="{43b7a3f7-a363-4db6-a51b-d41baf528c72}"/>
+  <RADIAN name="Z" hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" id="{fb7abb3c-a313-4274-95c4-cf1fbaaa8058}"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" name="scale" hidden="false" order="2" animated="0" single_keyframe_only="1" default="1" id="{d8a0381a-6a41-4bbf-a2dc-22800a69510d}"/>
+ <BOOL user_friendy_name="Active" name="active" hidden="false" order="3" animated="1" single_keyframe_only="0" default="0" id="{dbfd799c-5ada-43d4-a87c-66c477f3df8e}">
+  <KEYFRAME data="0" time="0"/>
+  <KEYFRAME data="1" time="0"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" name="speed_multiplier" hidden="false" order="4" animated="1" single_keyframe_only="0" default="1" id="{9b307f58-a13d-432c-82d3-1064be404fc0}"/>
+</COMPOSITE_SCENE_FILE>

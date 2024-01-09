@@ -1,0 +1,8 @@
+<NOISE_FILE version="23" name="smoke_slow_wobble_01.xml">
+ <DOUBLE default="20" order="0" hidden="false" user_friendy_name="Amplitude" single_keyframe_only="1" name="amplitude" animated="0"/>
+ <DOUBLE default="5" order="1" hidden="false" user_friendy_name="Frequency" single_keyframe_only="1" name="frequency" animated="0"/>
+ <INT default="3" order="2" hidden="false" user_friendy_name="Number of Octaves" single_keyframe_only="0" name="number_of_octaves" animated="1"/>
+ <DOUBLE default="10" order="3" hidden="false" user_friendy_name="Offset" single_keyframe_only="0" name="offset" animated="1"/>
+ <DOUBLE default="0.5" order="4" hidden="false" user_friendy_name="Persistence" single_keyframe_only="0" name="persistence" animated="1"/>
+ <DOUBLE default="2" order="5" hidden="false" user_friendy_name="Lacunarity" single_keyframe_only="0" name="lacunarity" animated="1"/>
+</NOISE_FILE>

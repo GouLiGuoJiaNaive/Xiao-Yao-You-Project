@@ -1,0 +1,32 @@
+<SCENE_FILE perspective_camera="314.901,88.6987,352.779:308.823,-8.89209,373.781" version="26" start_record_time="2.000000104308128" id="{cc9cae70-0401-40f1-a51c-61c125113193}" end_record_time="62.3000032491982" hidden="false">
+ <ENVIRONMENT data="t:/branches/3k/dev/three_kingdoms/working_data_cinematics/projects/campaign_screenshots/weather/morning_03.environment" id="{441c69f1-8439-45c6-af5c-7032514fa843}" name="Environment" order="0" hidden="false"/>
+ <VECTOR is_linked="0" id="{7e9bafb3-bb93-4fcf-a9aa-15748c377299}" unique_id="{7e9bafb3-bb93-4fcf-a9aa-15748c377299}" name="position" surface_mode="Freeform" link_id="0" hidden="false">
+  <DOUBLE single_keyframe_only="1" id="{b79b6972-815f-451b-bf3b-749d683d76e2}" animated="1" name="X" order="0" default="0" hidden="false">
+   <KEYFRAME data="0" time="1.866666793823242"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" id="{efe4ec73-3239-4225-8c0a-2cf8d6591db8}" animated="1" name="Y" order="1" default="0" hidden="false">
+   <KEYFRAME data="0" time="1.866666793823242"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" id="{fff740f6-3294-40d2-bb57-a2bbe24427d0}" animated="1" name="Z" order="2" default="0" hidden="false">
+   <KEYFRAME data="0" time="1.866666793823242"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{c36292e0-f9cc-45b0-8630-29cb958afbc2}" name="rotation" hidden="false">
+  <RADIAN single_keyframe_only="1" id="{c320128c-c673-4abe-8378-84371b8a3378}" animated="1" name="X" order="0" default="0" hidden="false">
+   <KEYFRAME data="0" time="1.866666793823242"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" id="{212b919e-922e-4ecc-a2f9-2035762b8018}" animated="1" name="Y" order="1" default="0" hidden="false">
+   <KEYFRAME data="0" time="1.866666793823242"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" id="{39e7bba7-711e-4dce-bfc0-420074214c83}" animated="1" name="Z" order="2" default="0" hidden="false">
+   <KEYFRAME data="0" time="1.866666793823242"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{d916edbf-4ca1-45d0-a52c-d8c8a456a97a}" name="Links" hidden="false"/>
+ <NODE id="{c1e84dfa-eede-4af4-b4e4-d4d0ffb3670c}" name="Warscape Properties" hidden="false">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/he_yi.xml" id="{8c7bc03e-7063-4912-a212-32c239e03113}" name="he_yi.xml" hidden="false"/>
+ </NODE>
+ <NODE id="{ce8058ac-0e3e-432e-b45f-41708d085ba3}" name="Particle Effects" hidden="false">
+  <EFFECT id="{5a60e520-f756-4136-9cf9-a19e7c1993ee}" effect_file="../particles/luoyang_fire.kfe" name="luoyang_fire.kfe" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

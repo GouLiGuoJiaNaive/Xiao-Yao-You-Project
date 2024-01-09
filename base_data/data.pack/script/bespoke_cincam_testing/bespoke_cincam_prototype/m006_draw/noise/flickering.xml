@@ -1,0 +1,14 @@
+<NOISE_FILE version="23" name="flickering.xml">
+ <DOUBLE order="0" user_friendy_name="Amplitude" animated="0" name="amplitude" hidden="false" default="20" single_keyframe_only="1">
+  <KEYFRAME data="100" time="0"/>
+ </DOUBLE>
+ <DOUBLE order="1" user_friendy_name="Frequency" animated="0" name="frequency" hidden="false" default="5" single_keyframe_only="1">
+  <KEYFRAME data="10" time="0"/>
+ </DOUBLE>
+ <INT order="2" user_friendy_name="Number of Octaves" animated="0" name="number_of_octaves" hidden="false" default="3" single_keyframe_only="1"/>
+ <DOUBLE order="3" user_friendy_name="Offset" animated="0" name="offset" hidden="false" default="10" single_keyframe_only="1">
+  <KEYFRAME data="100" time="0"/>
+ </DOUBLE>
+ <DOUBLE order="4" user_friendy_name="Persistence" animated="0" name="persistence" hidden="false" default="0.5" single_keyframe_only="1"/>
+ <DOUBLE order="5" user_friendy_name="Lacunarity" animated="0" name="lacunarity" hidden="false" default="2" single_keyframe_only="1"/>
+</NOISE_FILE>

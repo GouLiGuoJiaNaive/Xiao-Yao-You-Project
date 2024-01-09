@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<battle>
+	<alliance id="0">
+		<army>
+      <faction>3k_main_faction_cao_cao</faction>
+  
+      <assault_equipment>
+        <assault_equipment_item equipment_name="mh_vehicle_siege_tower_01">
+          <position x="135" y="20"/>
+          <orientation radians="3.14"/>
+        </assault_equipment_item>
+        </assault_equipment>
+
+      <deployment_area>
+				<centre x="0.0" y="250.0"/>
+				<width metres="500.0"/>
+				<height metres="200.0"/>
+				<orientation radians="3.14"/>
+			</deployment_area>
+			<camera_start_position x="30.6" y="100.0" z="376.0"/>
+			<camera_target_position x="37.2" y="30.0" z="232.1"/>
+      <unit custom_name="Zhang Liao">
+        <retinue id="1"/>
+        <unit_type type="3k_main_hero_metal_zhang_liao"/>
+        <position x="50" y="0"/>
+        <orientation radians="3.14"/>
+        <unit_experience level="7"/>
+        <general>
+          <name>Zhang Liao</name>
+          <star_rating level="7"/>
+          <commander_type>non_commanding_general</commander_type>
+          <art_set_key>152891638</art_set_key>
+          <commander_id>1</commander_id>
+          <!--
+          <equipped_ceos ceo_key="3k_main_ancillary_weapon_double_edged_sword_exceptional" category="3k_main_ceo_category_ancillary_weapon"/>
+          <equipped_ceos ceo_key="3k_main_ancillary_armour_zhang_liaos_armour_unique" category="3k_main_ceo_category_ancillary_armour"/>
+          <equipped_ceos ceo_key="3k_main_ancillary_mount_grey_elite" category="3k_main_ceo_category_ancillary_mount"/>
+          -->
+        </general>
+        <unit_capabilities>
+          <special_ability>3k_main_ability_binding_fury</special_ability>
+          <special_ability>3k_main_ability_hail_of_arrows</special_ability>
+         <!--
+          <firing_drill>fire_volley</firing_drill>
+          <special_ability>3k_main_ability_flames_of_the_phoenix</special_ability>
+          <special_ability>3k_main_ability_hamstring</special_ability>       
+          <special_ability>3k_main_ability_warning_shot</special_ability>
+          <special_ability>3k_main_ability_flames_of_the_phoenix</special_ability>    
+          <special_ability>3k_main_ability_reign_of_terror</special_ability>
+          <special_ability>3k_main_hero_relationship_effect_brother_killed</special_ability>
+          <special_ability>3k_main_ability_blade_breaker</special_ability>
+          <special_ability>3k_main_ability_swift_fingers</special_ability>
+          <special_ability>3k_main_hero_duel_ability_accept</special_ability>
+          <special_ability>3k_main_ability_reign_of_terror</special_ability>
+          <special_ability>3k_main_hero_duel_ability_retreat</special_ability>
+          <special_ability>3k_main_hero_duel_ability_propose</special_ability>
+          -->
+         
+        </unit_capabilities>
+      </unit>
+      <unit script_name="">
+        <unit_type type="3k_main_general_earth_liu_bei"/>
+        <position x="50" y="20"/>
+        <orientation radians="3.14"/>
+        <width metres="10"/>
+        <unit_experience level="9"/>
+        <general>
+          <name>Zhang Liao</name>
+          <star_rating level="7"/>
+          <commander_type>non_commanding_general</commander_type>
+          <art_set_key>152891638</art_set_key>
+          <commander_id>2</commander_id>
+        </general>
+      </unit>
+      <!--
+      <unit script_name="">
+        <unit_type type="3k_main_unit_water_archer_militia"/>
+        <position x="70" y="20"/>
+        <orientation radians="3.14"/>
+        <width metres="10"/>
+        <unit_experience level="9"/>
+        <composed_entities num_instances="60" type="3k_main_unit_wood_protectors_of_heaven" />
+      </unit>
+      -->  
+      <unit script_name="">
+        <unit_type type="3k_main_general_metal_sun_jian"/>
+        <position x="30" y="20"/>
+        <orientation radians="3.14"/>
+        <width metres="10"/>
+        <unit_experience level="9"/>
+        <general>
+          <name>Zhang Liao</name>
+          <star_rating level="7"/>
+          <commander_type>non_commanding_general</commander_type>
+          <art_set_key>152891638</art_set_key>
+          <commander_id>3</commander_id>
+        </general>
+        <unit_capabilities>
+        </unit_capabilities>
+      </unit>
+
+      <unit script_name="">
+        <unit_type type="3k_main_unit_wood_protectors_of_heaven"/>
+        <position x="110" y="20"/>
+        <orientation radians="3.14"/>
+        <width metres="10"/>
+        <unit_experience level="9"/>
+        <composed_entities num_instances="10" type="3k_main_unit_wood_protectors_of_heaven" />
+      </unit>
+      <unit script_name="">
+        <unit_type type="3k_main_unit_wood_protectors_of_heaven"/>
+        <position x="130" y="20"/>
+        <orientation radians="3.14"/>
+        <width metres="10"/>
+        <unit_experience level="9"/>
+        <composed_entities num_instances="10" type="3k_main_unit_wood_protectors_of_heaven" />
+      </unit>
+      <unit script_name="">
+        <unit_type type="3k_main_unit_wood_protectors_of_heaven"/>
+        <position x="140" y="20"/>
+        <orientation radians="3.14"/>
+        <width metres="10"/>
+        <unit_experience level="9"/>
+        <composed_entities num_instances="10" type="3k_main_unit_wood_protectors_of_heaven" />
+      </unit>
+      <unit script_name="">
+        <unit_type type="3k_main_unit_wood_protectors_of_heaven"/>
+        <position x="150" y="20"/>
+        <orientation radians="3.14"/>
+        <width metres="10"/>
+        <unit_experience level="9"/>
+        <composed_entities num_instances="10" type="3k_main_unit_wood_protectors_of_heaven" />
+      </unit>
+
+
+    </army>
+		<victory_condition>
+			<kill_or_rout_enemy></kill_or_rout_enemy>
+		</victory_condition>
+		<rout_position x="-1000.00" y="0.00"/>
+	</alliance>
+	<alliance id="1">
+		<army>
+      <faction>3k_main_faction_daijun</faction>
+			<deployment_area>
+				<centre x="0.0" y="-250.0"/>
+				<width metres="500.0"/>
+				<height metres="200.0"/>
+				<orientation radians="0.0"/>
+			</deployment_area>
+			<camera_start_position x="-94.77" y="43.70" z="-92.44"/>
+			<camera_target_position x="-17.19" y="11.57" z="-172.34"/>
+			
+			<unit script_name="">
+				<unit_type type="3k_main_general_wood_xu_chu"/>
+				<position x="0" y="0"/>
+				<orientation radians="3.14"/>
+				<width metres="10"/>
+				<unit_experience level="9"/>
+        <general>
+          <name>Zhang Liao</name>
+          <star_rating level="7"/>
+          <commander_type>non_commanding_general</commander_type>
+          <art_set_key>152891638</art_set_key>
+          <commander_id>4</commander_id>
+        </general>
+       <unit_capabilities>
+          <firing_drill>fire_volley</firing_drill>
+          <special_ability>3k_main_ability_earth_shattering_strike</special_ability>
+        </unit_capabilities>
+      </unit>
+      <unit script_name="">
+        <unit_type type="3k_main_unit_wood_protectors_of_heaven"/>
+        <position x="20" y="0"/>
+        <orientation radians="3.14"/>
+        <width metres="10"/>
+        <unit_experience level="9"/>
+        <composed_entities num_instances="60" type="3k_main_unit_wood_protectors_of_heaven" />
+      </unit>
+      <unit script_name="">
+        <unit_type type="3k_main_unit_wood_protectors_of_heaven"/>
+        <position x="30" y="0"/>
+        <orientation radians="3.14"/>
+        <width metres="10"/>
+        <unit_experience level="9"/>
+        <composed_entities num_instances="60" type="3k_main_unit_wood_protectors_of_heaven" />
+      </unit>
+      <unit script_name="">
+        <unit_type type="3k_main_unit_wood_protectors_of_heaven"/>
+        <position x="40" y="0"/>
+        <orientation radians="3.14"/>
+        <width metres="10"/>
+        <unit_experience level="9"/>
+        <composed_entities num_instances="60" type="3k_main_unit_wood_protectors_of_heaven" />
+      </unit>
+    </army>
+		<victory_condition>
+			<kill_or_rout_enemy></kill_or_rout_enemy>
+		</victory_condition>
+		<rout_position x="0.00" y="1300.00"/>
+	</alliance>
+
+  <character_relationships>
+    <!--<relationship character_1_id="1" character_2_id="2" relationship_key="3k_main_relationship_positive_03"/>
+    <relationship character_1_id="1" character_2_id="3" relationship_key="3k_main_relationship_positive_03"/>
+    <family_relationship character_1_id="1" character_2_id="2" relationship_type="parent" />
+    <family_relationship character_1_id="2" character_2_id="1" relationship_type="child" />-->
+  </character_relationships>
+
+  <battle_description>
+		<time_of_day>day</time_of_day>
+		<season>Summer</season>
+		<precipitation_type>dry</precipitation_type>
+		<type>land_normal</type>
+		<timeout_winning_alliance_index>1</timeout_winning_alliance_index>
+	</battle_description>
+
+	<weather>
+		<prevailing_wind x="0.00" y="1.00"/>
+		<environment_key>Weather\blue_01.environment</environment_key>
+	</weather>
+
+	<sea_surface_name>wind_level_1</sea_surface_name>
+		
+  <battle_map_definition>
+    <name>Terrain/battles/test_map_flat_map_2</name>
+    <!--<name>Terrain/battles/test_map_ground_types</name>-->
+
+
+    <!-- Battle Type -->
+    <type>settlement_standard</type>
+    <tile_upgrade>settlement_standard</tile_upgrade>
+
+    <!-- Environment -->
+    <tile_upgrade>tag:season.sp</tile_upgrade>
+    <tile_upgrade>tag:time_of_day.day</tile_upgrade>
+
+    <!-- Density -->
+    <tile_upgrade>tag:settlement_density.settlement_density_medium</tile_upgrade>
+
+    <!-- Escalation -->
+    <tile_upgrade>tag:settlement_siege_escalation.settlement_escalation_level_02</tile_upgrade>
+
+    <!-- District Upgrades -->
+    <!-- Water -->
+    <tile_upgrade>tag:settlement_district.settlement_district_wa.settlement_district_region.settlement_district_region_1+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_wa.settlement_district_region.settlement_district_region_2+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_wa.settlement_district_region.settlement_district_region_3+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_wa.settlement_district_region.settlement_district_region_4+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_wa.settlement_district_region.settlement_district_region_5+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_wa.settlement_district_region.settlement_district_region_6+building_level.building_level_5</tile_upgrade>
+    <!-- Wood -->
+    <tile_upgrade>tag:settlement_district.settlement_district_wo.settlement_district_region.settlement_district_region_1+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_wo.settlement_district_region.settlement_district_region_2+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_wo.settlement_district_region.settlement_district_region_3+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_wo.settlement_district_region.settlement_district_region_4+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_wo.settlement_district_region.settlement_district_region_5+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_wo.settlement_district_region.settlement_district_region_6+building_level.building_level_5</tile_upgrade>
+    <!-- Earth -->
+    <tile_upgrade>tag:settlement_district.settlement_district_ea.settlement_district_region.settlement_district_region_1+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_ea.settlement_district_region.settlement_district_region_2+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_ea.settlement_district_region.settlement_district_region_3+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_ea.settlement_district_region.settlement_district_region_4+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_ea.settlement_district_region.settlement_district_region_5+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_ea.settlement_district_region.settlement_district_region_6+building_level.building_level_5</tile_upgrade>
+    <!-- Fire -->
+    <tile_upgrade>tag:settlement_district.settlement_district_fi.settlement_district_region.settlement_district_region_1+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_fi.settlement_district_region.settlement_district_region_2+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_fi.settlement_district_region.settlement_district_region_3+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_fi.settlement_district_region.settlement_district_region_4+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_fi.settlement_district_region.settlement_district_region_5+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_fi.settlement_district_region.settlement_district_region_6+building_level.building_level_5</tile_upgrade>
+    <!-- Metal -->
+    <tile_upgrade>tag:settlement_district.settlement_district_me.settlement_district_region.settlement_district_region_1+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_me.settlement_district_region.settlement_district_region_2+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_me.settlement_district_region.settlement_district_region_3+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_me.settlement_district_region.settlement_district_region_4+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_me.settlement_district_region.settlement_district_region_5+building_level.building_level_5</tile_upgrade>
+    <tile_upgrade>tag:settlement_district.settlement_district_me.settlement_district_region.settlement_district_region_6+building_level.building_level_5</tile_upgrade>
+    <!-- Palace -->
+    <!-- <tile_upgrade>tag:settlement_district.settlement_district_ea_palace.settlement_district_region.settlement_district_region_1+building_level.building_level_5</tile_upgrade> -->
+    <tile_upgrade>tag:settlement_district.settlement_district_ea_palace+building_level.building_level_5</tile_upgrade>
+
+    <tile_upgrade>tag:settlement_district.settlement_district_exterior+building_level.building_level_1</tile_upgrade>
+
+  </battle_map_definition>
+	<playable_area dimension = "1000"></playable_area>
+</battle>

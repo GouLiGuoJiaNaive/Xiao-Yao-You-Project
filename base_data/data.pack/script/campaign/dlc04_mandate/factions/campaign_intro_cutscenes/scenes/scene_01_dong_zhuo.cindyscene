@@ -1,0 +1,30 @@
+<SCENE_FILE perspective_camera="364.342,10.5117,271.628:369.342,5.51167,276.628" hidden="false" version="26" start_record_time="0" end_record_time="59.46667098999023" id="{c11c8659-ae91-4b6c-8738-b2c203feaeca}">
+ <ENVIRONMENT data="" hidden="false" order="0" id="{f3505055-fe47-4ec0-a48d-94ad54e0ae1b}" name="Environment"/>
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" hidden="false" id="{8934581d-a25b-43f2-9233-5cccffee02ed}" name="position" unique_id="{8934581d-a25b-43f2-9233-5cccffee02ed}">
+  <DOUBLE animated="1" hidden="false" order="0" default="0" single_keyframe_only="1" id="{7796fccf-29f7-4c9e-b592-a16ab2a2204f}" name="X"/>
+  <DOUBLE animated="1" hidden="false" order="1" default="0" single_keyframe_only="1" id="{9fe2f488-2ee3-47f9-9a37-d7c45c00a995}" name="Y"/>
+  <DOUBLE animated="1" hidden="false" order="2" default="0" single_keyframe_only="1" id="{b216b8f9-a8d0-4432-84fc-c302c0ad7d81}" name="Z"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{b4caae7f-4176-462e-be53-a3df2e24a841}" name="rotation">
+  <RADIAN animated="1" hidden="false" order="0" default="0" single_keyframe_only="1" id="{7e3857bc-3570-40e6-8ffe-3d6c542d7d0e}" name="X"/>
+  <RADIAN animated="1" hidden="false" order="1" default="0" single_keyframe_only="1" id="{e1746c70-3b4c-45b9-8bdb-27843695a1a0}" name="Y"/>
+  <RADIAN animated="1" hidden="false" order="2" default="0" single_keyframe_only="1" id="{8a3dcdda-8224-4330-8e2b-3a8d80a3df24}" name="Z"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{e4c39d9e-c0e6-4ea4-b3e8-583449a08648}" name="Links"/>
+ <NODE hidden="false" id="{aee89a82-9715-486b-b9f1-2190d85d6a40}" name="Composite Scenes">
+  <COMPOSITE_SCENE hidden="false" id="{628832a9-6204-4130-87f7-1826dc767d98}" name="dong_zhuo_turn_walk.kfcs" composite_scene_file="../csc_ref/dong_zhuo_turn_walk.kfcs"/>
+  <COMPOSITE_SCENE hidden="false" id="{eb3ff9e0-516c-4282-9986-29441d8b524e}" name="general_eunuch_argue.kfcs" composite_scene_file="../csc_ref/general_eunuch_argue.kfcs"/>
+ </NODE>
+ <NODE hidden="false" id="{9fc6e418-5fb7-44f2-be67-e659cbc0e716}" name="Custom File">
+  <CUSTOM custom_file="../custom/dong_zhuo_day_cycle.kfc" hidden="false" id="{4f1487b8-a510-4d72-9ae0-bed7e1f140f5}" name="dong_zhuo_day_cycle.kfc"/>
+ </NODE>
+ <NODE hidden="false" id="{d2fc2266-1252-4fa9-bff3-c6741c35d722}" name="Particle Effects">
+  <EFFECT effect_file="../particles/capital_glow_selection.kfe" hidden="false" id="{db43b198-8010-4cf5-a97c-6024204808bb}" name="capital_glow_selection.kfe"/>
+ </NODE>
+ <NODE hidden="false" id="{e449ca4a-91ba-4bbe-a8f7-421b224e4998}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/pan_camera_dong_zhuo.xml" hidden="false" id="{9d3de89e-3d04-4071-96a6-1bd7e2f68fa8}" name="pan_camera_dong_zhuo.xml"/>
+ </NODE>
+ <NODE hidden="false" id="{d18189e6-41aa-46ce-97db-372064528f86}" name="Triggers">
+  <TRIGGER hidden="false" id="{7592bab1-9fb0-4b15-9b15-817aa65175f9}" name="dong_zhuo.ktr" trigger_file="../triggers/dong_zhuo.ktr"/>
+ </NODE>
+</SCENE_FILE>

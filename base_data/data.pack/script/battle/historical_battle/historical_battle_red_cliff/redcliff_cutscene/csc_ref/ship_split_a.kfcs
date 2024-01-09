@@ -1,0 +1,48 @@
+<COMPOSITE_SCENE_FILE id="{1fdbbf51-89ce-4c49-ba90-8c0b3165f7e1}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/junk_split_in_half_a.csc" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{c63b9144-c623-4436-8871-703f5467ff54}" hidden="false" unique_id="{c63b9144-c623-4436-8871-703f5467ff54}" name="position">
+  <DOUBLE order="0" id="{f9d627f7-8d27-4376-bc56-c9f96453f63d}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="X">
+   <KEYFRAME time="50.73334121704102" data="-70.71104431152344"/>
+   <KEYFRAME handle2_x="52.4875" handle2_y="-75.3563" handle2_type="SMOOTH" time="51.90000534057617" data="-73.80048370361328"/>
+   <KEYFRAME handle1_y="-81.0203" handle1_x="53.075" handle1_type="SMOOTH" time="53.66253662109375" data="-81.02027130126953"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{586a8fdb-50d6-46f5-914b-efa4ed746c18}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Y">
+   <KEYFRAME time="50.73333740234375" data="8.377202987670898"/>
+   <KEYFRAME handle2_x="52.4875" handle2_y="11.6615" handle2_type="SMOOTH" time="51.90000534057617" data="10.5615234375"/>
+   <KEYFRAME handle2_x="53.6625" handle2_y="6.63309" handle1_y="6.63309" handle2_type="SMOOTH" handle1_x="53.075" handle1_type="SMOOTH" time="53.66253662109375" data="6.633094787597656"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{b0cbb15d-c859-4e46-9bcb-2d49d397bbf3}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Z">
+   <KEYFRAME time="50.73334121704102" data="-143.2108917236328"/>
+   <KEYFRAME handle2_x="52.4875" handle2_y="-119.211" handle2_type="SMOOTH" time="51.90000152587891" data="-127.24899291992188"/>
+   <KEYFRAME handle2_x="53.6625" handle2_y="-123.12" handle1_y="-123.12" handle2_type="SMOOTH" handle1_x="53.075" handle1_type="SMOOTH" time="53.66253662109375" data="-123.11952209472656"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{750f262d-f6d2-44fe-9a8a-4686ab95ff55}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{8c8b4e6d-8555-4c50-a03d-d976ed7cd9f6}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="X">
+   <KEYFRAME time="49.26667022705078" data="0"/>
+   <KEYFRAME handle2_type="EASY" time="50.73334121704102" data="0"/>
+   <KEYFRAME handle2_x="52.4875" handle2_y="7.50435" handle2_type="SMOOTH" time="51.90000534057617" data="0.07617512345314026"/>
+   <KEYFRAME time="53.66253662109375" data="0.04744913429021835"/>
+  </RADIAN>
+  <RADIAN order="1" id="{6a84b968-4d04-41f5-b727-0f04d27ac6f1}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Y">
+   <KEYFRAME handle2_type="EASY" time="50.73334121704102" data="0.2657155394554138"/>
+   <KEYFRAME handle2_type="EASY" time="50.73334121704102" data="0.2657155394554138"/>
+   <KEYFRAME handle2_x="52.4875" handle2_y="-18.043" handle2_type="SMOOTH" time="51.90000534057617" data="-0.07197477668523788"/>
+   <KEYFRAME time="53.66253662109375" data="-0.2502991855144501"/>
+  </RADIAN>
+  <RADIAN order="2" id="{f54762c6-5627-4e30-a523-1a9da5893ca7}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Z">
+   <KEYFRAME handle2_type="EASY" time="50.73334121704102" data="0"/>
+   <KEYFRAME handle2_type="EASY" time="50.73334121704102" data="0"/>
+   <KEYFRAME handle2_x="52.4875" handle2_y="19.8102" handle2_type="SMOOTH" time="51.90000534057617" data="0.2010897547006607"/>
+   <KEYFRAME time="53.66253662109375" data="0.144548699259758"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{b48e3dbe-97d0-4ac9-93ed-77db8e211ce4}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale"/>
+ <BOOL order="3" id="{fefe10e8-8931-498e-804a-8d2155fbd254}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="45.73334121704102" data="0"/>
+  <KEYFRAME time="45.73434066772461" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" id="{a88f7617-e026-4980-8338-94a132ae0739}" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" animated="1" default="1" name="speed_multiplier">
+  <KEYFRAME time="49.23333740234375" data="1"/>
+  <KEYFRAME time="53.66253662109375" data="1"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

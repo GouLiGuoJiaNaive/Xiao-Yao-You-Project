@@ -1,0 +1,14 @@
+<NOISE_FILE version="23" name="action_roll.xml">
+ <DOUBLE default="20" animated="0" hidden="false" user_friendy_name="Amplitude" name="amplitude" order="0" single_keyframe_only="1">
+  <KEYFRAME time="0" data="20"/>
+ </DOUBLE>
+ <DOUBLE default="5" animated="0" hidden="false" user_friendy_name="Frequency" name="frequency" order="1" single_keyframe_only="1">
+  <KEYFRAME time="0" data="3"/>
+ </DOUBLE>
+ <INT default="3" animated="0" hidden="false" user_friendy_name="Number of Octaves" name="number_of_octaves" order="2" single_keyframe_only="1"/>
+ <DOUBLE default="10" animated="0" hidden="false" user_friendy_name="Offset" name="offset" order="3" single_keyframe_only="1">
+  <KEYFRAME time="0" data="3"/>
+ </DOUBLE>
+ <DOUBLE default="0.5" animated="0" hidden="false" user_friendy_name="Persistence" name="persistence" order="4" single_keyframe_only="1"/>
+ <DOUBLE default="2" animated="0" hidden="false" user_friendy_name="Lacunarity" name="lacunarity" order="5" single_keyframe_only="1"/>
+</NOISE_FILE>

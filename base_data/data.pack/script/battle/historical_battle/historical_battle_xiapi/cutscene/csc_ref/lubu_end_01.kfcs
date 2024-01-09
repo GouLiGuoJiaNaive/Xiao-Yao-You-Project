@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE id="{88ee209e-2ba4-4062-88da-a86fffeaed39}" name="lubu_end_01.kfcs" version="23" directory="script/battle/historical_battle/historical_battle_xiapi/composite_scene/scene03_lubu.csc">
+ <VECTOR unique_id="{73277ab0-0ac6-4768-89bc-4c7eac900bf9}" id="{73277ab0-0ac6-4768-89bc-4c7eac900bf9}" link_id="0" name="position" surface_mode="Freeform" is_linked="0">
+  <DOUBLE single_keyframe_only="0" hidden="false" order="0" name="X" default="0" animated="1">
+   <KEYFRAME time="10.03333377838135" data="0.1554955244064331"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="0" hidden="false" order="1" name="Y" default="0" animated="1">
+   <KEYFRAME time="10.03333377838135" data="196.8763885498047"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="0" hidden="false" order="2" name="Z" default="0" animated="1">
+   <KEYFRAME time="10.03333377838135" data="-64.99848175048828"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{a7f26278-e61f-4b57-8a5c-00c697d838b6}" name="rotation">
+  <RADIAN single_keyframe_only="1" hidden="false" order="0" name="X" default="0" animated="0"/>
+  <RADIAN single_keyframe_only="1" hidden="false" order="1" name="Y" default="0" animated="0">
+   <KEYFRAME time="10.03333377838135" data="3.141592741012573"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" hidden="false" order="2" name="Z" default="0" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE single_keyframe_only="1" user_friendy_name="Scale" hidden="false" order="2" name="scale" default="1" animated="0"/>
+ <BOOL single_keyframe_only="0" user_friendy_name="Active" hidden="false" order="3" name="active" default="0" animated="1">
+  <KEYFRAME time="11.48553276062012" data="0"/>
+  <KEYFRAME time="11.55220031738281" data="1"/>
+ </BOOL>
+ <DOUBLE single_keyframe_only="0" user_friendy_name="Speed Multiplier" hidden="false" order="4" name="speed_multiplier" default="1" animated="1"/>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,23 @@
+<SCENE_FILE perspective_camera="276.058,11.0287,318.857:275.436,2.01511,333.712" version="26" start_record_time="2.000000104308128" id="{2d9d515b-50e3-4cc1-b806-998aa750e9fc}" end_record_time="82.00000427663326" hidden="false">
+ <ENVIRONMENT data="" id="{96787c15-1e45-48b0-98c0-641bd72f562d}" name="Environment" order="0" hidden="false"/>
+ <VECTOR is_linked="0" id="{23c938b3-07dd-4c42-bd64-a2d859d8654c}" unique_id="{23c938b3-07dd-4c42-bd64-a2d859d8654c}" name="position" surface_mode="Freeform" link_id="0" hidden="false">
+  <DOUBLE single_keyframe_only="1" id="{db029ddd-d95d-4a69-817a-d3508889716d}" animated="1" name="X" order="0" default="0" hidden="false"/>
+  <DOUBLE single_keyframe_only="1" id="{e07613ed-58f6-41d7-9833-468d721c0ce6}" animated="1" name="Y" order="1" default="0" hidden="false"/>
+  <DOUBLE single_keyframe_only="1" id="{8a3e000e-af6b-4fb9-a489-6e625fd2c91a}" animated="1" name="Z" order="2" default="0" hidden="false"/>
+ </VECTOR>
+ <ROTATION_AXES id="{a9921a46-9f20-4569-bd09-706bec3c5b32}" name="rotation" hidden="false">
+  <RADIAN single_keyframe_only="1" id="{c2c6170e-6cae-47a5-b5bb-0962e3c33b93}" animated="1" name="X" order="0" default="0" hidden="false"/>
+  <RADIAN single_keyframe_only="1" id="{c50f393f-5eb4-4858-b502-e3b66ceabba3}" animated="1" name="Y" order="1" default="0" hidden="false"/>
+  <RADIAN single_keyframe_only="1" id="{53aec8a0-abd1-4ce6-b26b-8c79e5e45483}" animated="1" name="Z" order="2" default="0" hidden="false"/>
+ </ROTATION_AXES>
+ <NODE id="{9b6dce2e-c1a3-48ad-af93-83ff14f0550c}" name="Links" hidden="false"/>
+ <NODE id="{d51547e9-8a7d-4275-a8a6-fe9a2ebcb407}" name="Warscape Properties" hidden="false">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/liu_biao.xml" id="{2a1c5a0a-b002-42ab-a8fe-66eea00c3656}" name="liu_biao.xml" hidden="false"/>
+ </NODE>
+ <NODE id="{07598d2c-b09b-42aa-8513-8f1cb49b67fe}" name="Particle Effects" hidden="false">
+  <EFFECT id="{f4514d4e-ab72-477e-81b5-1f3845caf027}" effect_file="../particles/luoyang_fire.kfe" name="luoyang_fire.kfe" hidden="false"/>
+ </NODE>
+ <NODE id="{3795890a-53ac-4e6e-bef9-9ed30c1ec523}" name="Composite Scenes" hidden="false">
+  <COMPOSITE_SCENE id="{d5a5b99d-0026-4c52-8acc-8819f7797fe6}" name="dong_zhuo_liu_biao.kfcs" composite_scene_file="../csc_ref/dong_zhuo_liu_biao.kfcs" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

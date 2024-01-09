@@ -1,0 +1,10 @@
+<TRIGGER_FILE id="{dc633bde-7372-4719-9796-571510f67545}" version="26" hidden="false">
+ <STRING id="{4e579139-caac-435e-a6ec-3bca7b8236c7}" hidden="false" name="Timeline" order="0">
+  <KEYFRAME data="liu_yan_194_01" time="1.000999927520752"/>
+  <KEYFRAME data="liu_yan_194_02" time="12.50000095367432"/>
+  <KEYFRAME data="liu_yan_194_03" time="25.50366020202637"/>
+  <KEYFRAME data="liu_yan_194_04" time="34.00465774536133"/>
+  <KEYFRAME data="liu_yan_194_05" time="47.503662109375"/>
+  <KEYFRAME data="liu_yan_194_06" time="62.003662109375"/>
+ </STRING>
+</TRIGGER_FILE>

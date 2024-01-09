@@ -1,0 +1,45 @@
+<WARSCAPE_PROPERTIES_FILE version="26" id="{dafdafed-7883-41c2-a560-bc088ce24e2f}" supported_warscape_properties="2" hidden="false">
+ <NODE name="Post Processing" id="{d4949b9c-5a34-4c99-9a9f-7e1fe658e2f1}" hidden="false">
+  <RGB name="overlay" id="{16357a13-66ff-4962-a1dd-7a9ae005cde6}" hidden="false">
+   <DOUBLE name="R" single_keyframe_only="0" id="{20805ba1-a741-4aa5-83f6-fcd39ce0ac48}" order="0" animated="1" default="1" hidden="false">
+    <KEYFRAME data="1024" time="0"/>
+   </DOUBLE>
+   <DOUBLE name="G" single_keyframe_only="0" id="{f72539c2-8b94-4006-99c9-5e4a2486cad2}" order="0" animated="1" default="1" hidden="false">
+    <KEYFRAME data="1024" time="0"/>
+   </DOUBLE>
+   <DOUBLE name="B" single_keyframe_only="0" id="{f64b07c3-e622-4b8c-81cb-4a26c1ca415c}" order="0" animated="1" default="1" hidden="false">
+    <KEYFRAME data="1024" time="0"/>
+   </DOUBLE>
+  </RGB>
+  <DOUBLE name="brightness - red" single_keyframe_only="0" id="{f263484c-facc-49fb-84ad-0ae81773b600}" order="0" animated="1" default="1" hidden="false">
+   <KEYFRAME data="0" time="0.03333333507180214" handle2_type="EASY"/>
+   <KEYFRAME data="1" time="0.6000000238418579" handle1_type="EASY" handle2_type="EASY"/>
+   <KEYFRAME data="1" time="81.83333587646484" handle1_type="EASY" handle2_type="EASY"/>
+   <KEYFRAME data="0" time="82.43333435058594" handle1_type="EASY" handle2_type="EASY"/>
+  </DOUBLE>
+  <DOUBLE name="brightness - green" single_keyframe_only="0" id="{b128ea64-ac28-468d-8a11-a95929c59f7c}" order="0" animated="1" default="1" hidden="false">
+   <KEYFRAME data="0" time="0.03333333507180214" handle2_type="EASY"/>
+   <KEYFRAME data="1" time="0.6000000238418579" handle1_type="EASY" handle2_type="EASY"/>
+   <KEYFRAME data="1" time="81.83333587646484" handle1_type="EASY" handle2_type="EASY"/>
+   <KEYFRAME data="0" time="82.43333435058594" handle1_type="EASY" handle2_type="EASY"/>
+  </DOUBLE>
+  <DOUBLE name="brightness - blue" single_keyframe_only="0" id="{54fbe031-9381-4e04-8f7a-42eb8b865bb4}" order="0" animated="1" default="1" hidden="false">
+   <KEYFRAME data="0" time="0.03333333507180214" handle2_type="EASY"/>
+   <KEYFRAME data="1" time="0.6000000238418579" handle1_type="EASY" handle2_type="EASY"/>
+   <KEYFRAME data="1" time="81.83333587646484" handle1_type="EASY" handle2_type="EASY"/>
+   <KEYFRAME data="0" time="82.43333435058594" handle1_type="EASY" handle2_type="EASY"/>
+  </DOUBLE>
+  <DOUBLE name="contrast - red" single_keyframe_only="0" id="{41b21f7a-0563-483b-a67d-9b578e296dab}" order="0" animated="1" default="1" hidden="false">
+   <KEYFRAME data="1" time="0.03333333507180214"/>
+  </DOUBLE>
+  <DOUBLE name="contrast - green" single_keyframe_only="0" id="{a636de72-85a3-4c96-86fc-2e16fc927a8e}" order="0" animated="1" default="1" hidden="false"/>
+  <DOUBLE name="contrast - blue" single_keyframe_only="0" id="{4763557d-09d5-4cb5-ad76-ea8108220ff8}" order="0" animated="1" default="1" hidden="false"/>
+  <DOUBLE name="saturation - red" single_keyframe_only="0" id="{698a1b2c-7742-4545-8bd6-073eb77aae77}" order="0" animated="1" default="1" hidden="false"/>
+  <DOUBLE name="saturation - green" single_keyframe_only="0" id="{c1781016-c176-4268-80f6-0c872f11fe13}" order="0" animated="1" default="1" hidden="false"/>
+  <DOUBLE name="saturation - blue" single_keyframe_only="0" id="{b23ca236-0d98-48f5-a50e-bf437d4c05d9}" order="0" animated="1" default="1" hidden="false"/>
+  <DOUBLE name="hue" single_keyframe_only="0" id="{4cc7fad0-78f6-4dda-80e3-8b978ba74d6d}" order="0" animated="1" default="0" hidden="false"/>
+  <DOUBLE name="sharpening_strength" single_keyframe_only="0" id="{2d84617a-f603-49ab-81c1-506296c4ccff}" order="0" animated="1" default="0.300000011920929" hidden="false"/>
+  <DOUBLE name="sharpening_strength_TAA" single_keyframe_only="0" id="{7780b53d-4e92-435d-b0be-bf934bdf568d}" order="0" animated="1" default="0.4000000059604645" hidden="false"/>
+  <DOUBLE name="global_mip_bias" single_keyframe_only="0" id="{9b550f48-4163-44d2-b5a0-a48ce0a557ed}" order="0" animated="1" default="0" hidden="false"/>
+ </NODE>
+</WARSCAPE_PROPERTIES_FILE>

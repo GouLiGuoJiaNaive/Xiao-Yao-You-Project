@@ -1,0 +1,40 @@
+<SCENE_FILE end_record_time="30.00000156462193" start_record_time="0" hidden="false" perspective_camera="5.96001,5.57182,-82.4642:1.24043,0.508102,-67.0719" version="25" id="{34730bd6-1776-44e4-8082-ac443dd80ab7}">
+ <ENVIRONMENT name="Environment" hidden="false" order="0" data="" id="{66528ef0-bd9c-4810-9bbb-d237b0dd9ea1}"/>
+ <VECTOR unique_id="{edeb9fe4-c607-40f4-bcb4-7fdc04d6701a}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{edeb9fe4-c607-40f4-bcb4-7fdc04d6701a}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="1" default="0" id="{6123150d-7a2c-4caf-9b5b-c06280b701f4}"/>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="1" default="0" id="{f0810995-29a9-441f-8031-9a47be700344}"/>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="1" default="0" id="{43b4abeb-d4d5-4fb4-97c8-74999dea9479}"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{7311d9f7-4b40-4441-8fc7-432b795eeebb}">
+  <RADIAN name="X" hidden="false" order="0" animated="1" single_keyframe_only="1" default="0" id="{b6d4f19e-a8cb-4e86-a7cc-afbb2907b3ae}"/>
+  <RADIAN name="Y" hidden="false" order="1" animated="1" single_keyframe_only="1" default="0" id="{d37a37ea-5179-4db0-a150-e4d3d0eac51e}"/>
+  <RADIAN name="Z" hidden="false" order="2" animated="1" single_keyframe_only="1" default="0" id="{b8d80f5b-9331-48df-b887-c102ed81651e}"/>
+ </ROTATION_AXES>
+ <NODE name="Links" hidden="false" id="{fd7e60e2-534e-411e-b8ee-d545e6694ce7}"/>
+ <NODE name="Composite Scenes" hidden="false" id="{effe8c0c-12f9-46b9-ad87-e90356c95576}">
+  <COMPOSITE_SCENE name="lubu_end_02.kfcs" hidden="false" composite_scene_file="../csc_ref/lubu_end_02.kfcs" id="{ac9f1a65-ff26-40f2-aada-6df42facd2fa}"/>
+  <COMPOSITE_SCENE name="troops_end_05.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_05.kfcs" id="{ba813fb8-f4a3-49f9-8e5f-f9b14497b638}"/>
+  <COMPOSITE_SCENE name="troops_end_06.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_06.kfcs" id="{e2659360-7ebf-418d-9c38-4dc9498cd0f3}"/>
+  <COMPOSITE_SCENE name="troops_end_07.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_07.kfcs" id="{76f786dc-0204-4f28-b24a-6dae9b0741b5}"/>
+  <COMPOSITE_SCENE name="troops_end_08.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_08.kfcs" id="{a5bad749-ae90-4c7b-9049-ace0f972f9a1}"/>
+  <COMPOSITE_SCENE name="troops_end_09.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_09.kfcs" id="{5a277eda-0442-4d10-bb4a-addf3feabe5c}"/>
+  <COMPOSITE_SCENE name="troops_end_10.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_10.kfcs" id="{cc237f2e-52bb-4516-9b74-8daad5f88f05}"/>
+  <COMPOSITE_SCENE name="troops_end_11.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_11.kfcs" id="{89a3214f-07b5-4d6d-b837-b6e8d360ed39}"/>
+  <COMPOSITE_SCENE name="xiahou_end.kfcs" hidden="false" composite_scene_file="../csc_ref/xiahou_end.kfcs" id="{f0352a1f-b20d-4775-aeae-38964bb772b7}"/>
+  <COMPOSITE_SCENE name="troops_end_13.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_13.kfcs" id="{f72a79f6-557e-4ab6-a7a4-70ea53d529ff}"/>
+  <COMPOSITE_SCENE name="troops_end_12.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_12.kfcs" id="{aba55447-7543-4597-afbb-bc852952f331}"/>
+  <COMPOSITE_SCENE name="troops_end_14.kfcs" hidden="false" composite_scene_file="../csc_ref/troops_end_14.kfcs" id="{3b602096-8d37-4ec0-951a-57d8e622efd5}"/>
+ </NODE>
+ <NODE name="Warscape Properties" hidden="false" id="{2a20e041-1375-4186-95d5-77ec43b246ef}">
+  <WARSCAPE_PROPERTIES name="scene06_lubu_surrounded.xml" hidden="false" warscape_properties_file="../cameras/scene06_lubu_surrounded.xml" id="{2c114ef1-ac37-442c-8fb3-0ffc5bc88619}"/>
+  <WARSCAPE_PROPERTIES name="fade_to_black.xml" hidden="false" warscape_properties_file="../cameras/fade_to_black.xml" id="{aca88da2-7780-4904-b331-b527338573e1}"/>
+ </NODE>
+ <NODE name="Props" hidden="false" id="{7c437240-4655-4978-8f52-63ca04a561ad}">
+  <PROP prop_file="../props/sun_blocker_cao_cao.kfp" name="sun_blocker_cao_cao.kfp" hidden="false" id="{bd0093e6-83db-418e-829e-8e05bc2db604}"/>
+ </NODE>
+ <NODE name="Custom File" hidden="false" id="{b9499ed3-c24b-429f-bad5-9d5982cfac6b}">
+  <CUSTOM name="split_d2_default.kfc" hidden="false" custom_file="../custom/split_d2_default.kfc" id="{fe07c523-073a-435d-ae86-a26538035373}"/>
+  <CUSTOM name="split_d1_default.kfc" hidden="false" custom_file="../custom/split_d1_default.kfc" id="{af9febe9-b6a9-45ca-a7ea-0938d5cac7dd}"/>
+  <CUSTOM name="split_d0_default.kfc" hidden="false" custom_file="../custom/split_d0_default.kfc" id="{5d57ac5e-1b8a-4d5b-80eb-a05bad6fdb28}"/>
+ </NODE>
+</SCENE_FILE>

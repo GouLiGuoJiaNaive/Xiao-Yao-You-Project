@@ -1,0 +1,32 @@
+<SCENE_FILE end_record_time="100.0000052154064" start_record_time="0" hidden="false" version="26" perspective_camera="78.7428,14.749,191.927:82.7279,7.01413,206.459" id="{ffb53f14-a15a-4816-8f65-b4a0edcdc3bd}">
+ <ENVIRONMENT hidden="false" order="0" id="{5ef8a82d-3eaf-4ecc-809c-cfd14cb2ba3e}" name="Environment" data=""/>
+ <VECTOR is_linked="0" surface_mode="Freeform" hidden="false" id="{db471c5e-75c2-45d9-ab15-83975441d46b}" name="position" link_id="0" unique_id="{db471c5e-75c2-45d9-ab15-83975441d46b}">
+  <DOUBLE animated="1" single_keyframe_only="1" hidden="false" order="0" id="{4dedc51d-6c3a-441a-badd-915fc5b33215}" name="X" default="0">
+   <KEYFRAME time="4.5" data="0"/>
+  </DOUBLE>
+  <DOUBLE animated="1" single_keyframe_only="1" hidden="false" order="1" id="{3e18fe5d-031c-453a-9320-5cc7bde85553}" name="Y" default="0">
+   <KEYFRAME time="4.5" data="0"/>
+  </DOUBLE>
+  <DOUBLE animated="1" single_keyframe_only="1" hidden="false" order="2" id="{2b3a8cd4-425b-4262-9696-178db041c580}" name="Z" default="0">
+   <KEYFRAME time="4.5" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{bb17a9ff-4c62-44e9-8ecc-c4c1e82bcb65}" name="rotation">
+  <RADIAN animated="1" single_keyframe_only="1" hidden="false" order="0" id="{c121c0ac-c518-4a36-b849-4fb82111e553}" name="X" default="0">
+   <KEYFRAME time="4.5" data="0"/>
+  </RADIAN>
+  <RADIAN animated="1" single_keyframe_only="1" hidden="false" order="1" id="{ca775f07-8fac-45a8-b8eb-7cb0d315c3b6}" name="Y" default="0">
+   <KEYFRAME time="4.5" data="0"/>
+  </RADIAN>
+  <RADIAN animated="1" single_keyframe_only="1" hidden="false" order="2" id="{066e2074-cc47-47b5-8685-aae13512238a}" name="Z" default="0">
+   <KEYFRAME time="4.5" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{e1540262-56a2-42b2-8e29-415bc916d544}" name="Links"/>
+ <NODE hidden="false" id="{fa4ad744-5c2e-49d2-9e11-592e5c00a89a}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/king_meng_huo_cam.xml" hidden="false" id="{eb9a87ae-500b-43df-a049-27c7df5ce9c0}" name="king_meng_huo_cam.xml"/>
+ </NODE>
+ <NODE hidden="false" id="{f34cde06-2676-462b-a04e-1039b5148e25}" name="Triggers">
+  <TRIGGER trigger_file="../triggers/king_meng_huo_main.ktr" hidden="false" id="{08e2b02d-701a-457a-afa1-68fb5ff0ce14}" name="king_meng_huo_main.ktr"/>
+ </NODE>
+</SCENE_FILE>

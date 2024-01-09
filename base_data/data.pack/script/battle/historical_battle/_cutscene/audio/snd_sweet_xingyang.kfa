@@ -1,0 +1,12 @@
+<AUDIO_EVENT_FILE hidden="false" audio_event_name="Play_Movie_3K_Historical_Battle_Xingyang" version="25" id="{625796e4-b55c-4bac-8af0-6909c6a2a59e}">
+ <VECTOR surface_mode="Freeform" hidden="false" unique_id="{fb32e55a-5dec-4813-8c59-1551f4fc8f81}" link_id="-1" name="position" is_linked="0" id="{fb32e55a-5dec-4813-8c59-1551f4fc8f81}">
+  <DOUBLE hidden="false" order="0" single_keyframe_only="1" animated="0" default="0" name="X" id="{0425989f-a2fe-495a-b68b-581908c62a1b}"/>
+  <DOUBLE hidden="false" order="1" single_keyframe_only="1" animated="0" default="0" name="Y" id="{c551a860-b8f0-43cd-9e20-86bbcad29315}"/>
+  <DOUBLE hidden="false" order="2" single_keyframe_only="1" animated="0" default="0" name="Z" id="{107d10da-4fed-4eab-9f90-8f9dda687b1d}"/>
+ </VECTOR>
+ <BOOL hidden="false" order="2" single_keyframe_only="0" animated="1" user_friendy_name="Active" default="0" name="active" id="{ded09270-eb38-47b2-92c4-1217add144b0}">
+  <KEYFRAME time="11.90000057220459" data="0"/>
+  <KEYFRAME time="13.10000038146973" data="1"/>
+ </BOOL>
+ <DOUBLE hidden="false" order="3" single_keyframe_only="1" animated="0" user_friendy_name="Volume" default="100" name="volume" id="{9fe88bfa-7fb7-4d0f-8275-85628a0d777d}"/>
+</AUDIO_EVENT_FILE>

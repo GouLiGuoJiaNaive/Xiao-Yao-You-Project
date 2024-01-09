@@ -1,0 +1,37 @@
+<PROP_FILE hidden="false" prop_name="projectiles/siege_stone_01_projectile.wsmodel" version="25" id="{eee8683c-b0b5-4134-a750-b9951f02325c}">
+ <VECTOR unique_id="{5c90be0f-625d-432a-ae55-3b883687025f}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{5c90be0f-625d-432a-ae55-3b883687025f}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="0" default="0" id="{d395068c-61db-4ada-8b4f-104abfa9eebf}">
+   <KEYFRAME data="-95.4398422241211" time="64.89830780029297"/>
+   <KEYFRAME data="-95.81036376953125" time="64.92642974853516"/>
+   <KEYFRAME data="-96.6961441040039" time="64.98627471923828"/>
+   <KEYFRAME data="-97.94515228271484" time="65.06558227539063"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="0" default="0" id="{059ccadd-c5fc-4a8a-9a2b-77b3cc9ec12c}">
+   <KEYFRAME data="207.6121063232422" time="0"/>
+   <KEYFRAME data="203.38209533691406" time="64.89830780029297"/>
+   <KEYFRAME data="204.47283935546875" time="64.92642974853516"/>
+   <KEYFRAME data="205.59130859375" time="64.98627471923828"/>
+   <KEYFRAME data="206.8208770751953" time="65.02365875244141"/>
+   <KEYFRAME data="207.35183715820312" time="65.06558227539063"/>
+   <KEYFRAME handle2_x="66.9889" handle1_y="221.847" handle2_y="225.87" handle1_x="65.9107" handle2_type="SMOOTH" handle1_type="SMOOTH" data="223.423583984375" time="66.33330535888672"/>
+   <KEYFRAME data="209.70835876464844" time="68.29998016357422"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="0" default="0" id="{ebcf09b8-8456-48ac-85fd-0a989c279dd2}">
+   <KEYFRAME data="-637.1754150390625" time="64.89830780029297"/>
+   <KEYFRAME data="-635.6192626953125" time="64.92642974853516"/>
+   <KEYFRAME data="-632.9552612304688" time="64.98627471923828"/>
+   <KEYFRAME data="-631.4588012695312" time="65.02365875244141"/>
+   <KEYFRAME data="-628.8688354492188" time="65.06558227539063"/>
+   <KEYFRAME data="-424.0508117675781" time="68.29998016357422"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{3950d990-ac7c-44db-9cf4-528cfd8b7332}">
+  <RADIAN name="X" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{1ecefb4c-1767-4cf0-aba1-2a5e19e9dad8}"/>
+  <RADIAN name="Y" hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" id="{9c564acb-a7db-407d-946a-870ec978e808}"/>
+  <RADIAN name="Z" hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" id="{1b4d4075-5132-4666-89f8-c4e85f19dfb0}"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" hidden="false" order="1" animated="0" single_keyframe_only="1" default="1" id="{6916f673-4fb8-49a4-9ebb-85bb8e574514}"/>
+ <BOOL name="always visible" hidden="false" order="3" animated="0" single_keyframe_only="1" default="0" id="{0aa0f6f1-7a82-40c1-a7f6-97c4a9e84142}">
+  <KEYFRAME data="1" time="0"/>
+ </BOOL>
+</PROP_FILE>

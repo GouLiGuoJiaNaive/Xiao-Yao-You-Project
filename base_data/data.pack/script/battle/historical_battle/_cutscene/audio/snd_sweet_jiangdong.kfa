@@ -1,0 +1,12 @@
+<AUDIO_EVENT_FILE hidden="false" audio_event_name="Play_Movie_3K_Historical_Battle_Jiangdong" version="26" id="{e3c1cca5-5c4f-4cfc-b6b4-b20db0423bbd}">
+ <VECTOR surface_mode="Freeform" name="position" is_linked="0" link_id="0" hidden="false" unique_id="{91c5836e-cfe2-4875-8477-2ba384760b90}" id="{91c5836e-cfe2-4875-8477-2ba384760b90}">
+  <DOUBLE default="0" name="X" single_keyframe_only="1" hidden="false" animated="0" order="0" id="{8c37fa3a-8097-48e0-879a-f423590a66a9}"/>
+  <DOUBLE default="0" name="Y" single_keyframe_only="1" hidden="false" animated="0" order="1" id="{5720b8b1-5c26-4fe4-a007-3b3bdc43c1a8}"/>
+  <DOUBLE default="0" name="Z" single_keyframe_only="1" hidden="false" animated="0" order="2" id="{5c481c68-8b3b-42df-a42c-e2f17611604e}"/>
+ </VECTOR>
+ <BOOL default="0" user_friendy_name="Active" name="active" single_keyframe_only="0" hidden="false" animated="1" order="2" id="{77fbc55e-c48d-4fbd-8627-3b26db5e4155}">
+  <KEYFRAME time="1.666666746139526" data="0"/>
+  <KEYFRAME time="2.819424629211426" data="1"/>
+ </BOOL>
+ <DOUBLE default="100" user_friendy_name="Volume" name="volume" single_keyframe_only="1" hidden="false" animated="0" order="3" id="{5bada6e2-6fef-4424-b62d-9ef5ad640d86}"/>
+</AUDIO_EVENT_FILE>

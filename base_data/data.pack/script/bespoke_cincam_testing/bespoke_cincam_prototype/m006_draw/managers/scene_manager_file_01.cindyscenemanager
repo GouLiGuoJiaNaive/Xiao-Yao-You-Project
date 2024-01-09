@@ -1,0 +1,15 @@
+<SCENE_MANAGER_FILE end_record_time="37.36600112915039" perspective_camera="4.88614,0.399994,2.00353:-0.565828,201.7,1.48014" id="{25683271-4b9a-4532-a755-de9b9f71dbe1}" version="23" name="scene_manager_file_01.CindySceneManager" start_record_time="30.96500015258789">
+ <START_SCENE real_time="0" scene="bespoke_cincam_scene_WS_s01.CindyScene"/>
+ <SCENE_SWITCH time="31.9" real_time="0" switch_scene="bespoke_cincam_scene_M_s02.CindyScene"/>
+ <SCENE_SWITCH time="32.6" real_time="0" switch_scene="bespoke_cincam_scene_WS_s01.CindyScene"/>
+ <SCENE_SWITCH time="33.5" real_time="0" switch_scene="bespoke_cincam_scene_M_s03.CindyScene"/>
+ <SCENE_SWITCH time="34.233" real_time="0" switch_scene="bespoke_cincam_scene_WS_s01.CindyScene"/>
+ <SCENE_SWITCH time="34.7667" real_time="0" switch_scene="bespoke_cincam_scene_M_s04.CindyScene"/>
+ <SCENE_SWITCH time="35.8333" real_time="0" switch_scene="bespoke_cincam_scene_WS_s01.CindyScene"/>
+ <NODE id="{53dd35a2-2054-425f-af27-24273b2f4ab4}" name="Scenes">
+  <SCENE id="{04172de7-480b-4647-ab54-5b669123b584}" scene_file="../scenes/bespoke_cincam_scene_WS_s01.CindyScene" name="bespoke_cincam_scene_WS_s01.CindyScene"/>
+  <SCENE id="{3d7d91e6-e1e9-4dd6-a7d0-681d5d496405}" scene_file="../scenes/bespoke_cincam_scene_M_s02.CindyScene" name="bespoke_cincam_scene_M_s02.CindyScene"/>
+  <SCENE id="{fb835333-caa6-423e-b73f-40206061b975}" scene_file="../scenes/bespoke_cincam_scene_M_s03.CindyScene" name="bespoke_cincam_scene_M_s03.CindyScene"/>
+  <SCENE id="{da2e4cdf-3cf6-414d-ae95-8221da153712}" scene_file="../scenes/bespoke_cincam_scene_M_s04.CindyScene" name="bespoke_cincam_scene_M_s04.CindyScene"/>
+ </NODE>
+</SCENE_MANAGER_FILE>

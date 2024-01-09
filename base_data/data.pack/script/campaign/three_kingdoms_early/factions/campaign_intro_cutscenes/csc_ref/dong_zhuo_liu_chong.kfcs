@@ -1,0 +1,29 @@
+<COMPOSITE_SCENE_FILE version="26" hidden="false" id="{f28cfb6b-a911-42a0-9c46-ab72f4491141}" directory="composite_scene/campaign/dong_zhuo_intro.csc">
+ <VECTOR is_linked="0" hidden="false" id="{fa9f7fed-f290-49f1-9ee7-5172378d661e}" link_id="0" name="position" surface_mode="Freeform" unique_id="{fa9f7fed-f290-49f1-9ee7-5172378d661e}">
+  <DOUBLE animated="0" single_keyframe_only="1" default="0" hidden="false" id="{79b39611-8f7f-41c7-92ed-c3bcafd4b089}" name="X" order="0">
+   <KEYFRAME time="0" data="207.94117736816406"/>
+  </DOUBLE>
+  <DOUBLE animated="1" single_keyframe_only="0" default="0" hidden="false" id="{56367d41-0da1-4a92-8498-e94c9e39a1c6}" name="Y" order="1">
+   <KEYFRAME time="14.81831550598145" data="-5.508487701416016"/>
+   <KEYFRAME time="15.59999942779541" data="2.7679836750030518"/>
+  </DOUBLE>
+  <DOUBLE animated="0" single_keyframe_only="1" default="0" hidden="false" id="{edb19cf8-88c1-4551-9f8a-7510891051c3}" name="Z" order="2">
+   <KEYFRAME time="0" data="368.6387023925781"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{6907473b-2de2-4f9c-8e1d-c3a37e0b82a9}" name="rotation">
+  <RADIAN animated="0" single_keyframe_only="1" default="0" hidden="false" id="{d53a2e38-11fc-4d10-bd89-6e65139a05ed}" name="X" order="0"/>
+  <RADIAN animated="0" single_keyframe_only="1" default="0" hidden="false" id="{05b23bf6-f921-4e37-a61f-575c6e904920}" name="Y" order="1">
+   <KEYFRAME time="0" data="3.6138124465942383"/>
+  </RADIAN>
+  <RADIAN animated="0" single_keyframe_only="1" default="0" hidden="false" id="{4950c1ef-8a25-4002-9eb6-3dea46ea1df8}" name="Z" order="2"/>
+ </ROTATION_AXES>
+ <DOUBLE animated="0" single_keyframe_only="1" default="1" hidden="false" id="{b26ca1e4-bfbc-4892-bdd2-a79f653bf6d8}" name="scale" user_friendy_name="Scale" order="2">
+  <KEYFRAME time="0" data="1.5"/>
+ </DOUBLE>
+ <BOOL animated="1" single_keyframe_only="0" default="0" hidden="false" id="{b0992633-3577-4df6-8dd0-d0b0fa29a219}" name="active" user_friendy_name="Active" order="3">
+  <KEYFRAME time="12.93333435058594" data="0"/>
+  <KEYFRAME time="12.93433380126953" data="1"/>
+ </BOOL>
+ <DOUBLE animated="1" single_keyframe_only="0" default="1" hidden="false" id="{232f407f-112e-44ee-8368-ce6d0d0bbe0f}" name="speed_multiplier" user_friendy_name="Speed Multiplier" order="4"/>
+</COMPOSITE_SCENE_FILE>

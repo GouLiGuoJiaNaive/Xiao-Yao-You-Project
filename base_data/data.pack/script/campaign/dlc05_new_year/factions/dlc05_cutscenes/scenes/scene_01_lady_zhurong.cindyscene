@@ -1,0 +1,32 @@
+<SCENE_FILE end_record_time="70.00000365078449" perspective_camera="79.212,12.2927,196.877:83.8836,7.93306,206.033" version="26" start_record_time="0" id="{eb5bf50d-4c09-4c57-ba11-42c09ae0e210}" hidden="false">
+ <ENVIRONMENT data="" order="0" name="Environment" id="{4e4be15e-59f6-4207-a35a-7cb128cf0da8}" hidden="false"/>
+ <VECTOR surface_mode="Freeform" link_id="0" is_linked="0" unique_id="{c66ab485-3b0f-4664-ad3d-a906305b47c8}" name="position" id="{c66ab485-3b0f-4664-ad3d-a906305b47c8}" hidden="false">
+  <DOUBLE default="0" single_keyframe_only="1" animated="0" order="0" name="X" id="{43dbbda3-ee0d-4aab-9dbd-084b09c5f316}" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" single_keyframe_only="1" animated="0" order="1" name="Y" id="{879cb0ef-11c6-4052-8e88-829bda626946}" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" single_keyframe_only="1" animated="0" order="2" name="Z" id="{4256f3aa-ed93-403a-ada5-18f27cbaddb1}" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{9592faf6-d9ac-40be-bd0a-58587b1502ca}" hidden="false">
+  <RADIAN default="0" single_keyframe_only="1" animated="0" order="0" name="X" id="{c3ba473d-169a-4084-853b-998856e8466b}" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" single_keyframe_only="1" animated="0" order="1" name="Y" id="{4f3c404d-1c64-432d-be7f-333ecbd8f99f}" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" single_keyframe_only="1" animated="0" order="2" name="Z" id="{05bbcb3c-365c-4429-a133-0e7aad03a9ee}" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{999407ff-950f-4881-a7d0-ebcb9ab7a5da}" hidden="false"/>
+ <NODE name="Warscape Properties" id="{b13c62a6-9f17-4576-9851-8826da3bce4c}" hidden="false">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/lady_zhurong_cam.xml" name="lady_zhurong_cam.xml" id="{898d2165-2b59-43d0-a942-5fa50e2fd910}" hidden="false"/>
+ </NODE>
+ <NODE name="Triggers" id="{6c753c12-0309-45bf-9194-ac5796f4f929}" hidden="false">
+  <TRIGGER trigger_file="../triggers/lady_zhurong_main.ktr" name="lady_zhurong_main.ktr" id="{322a973a-49f9-4989-94e2-077f0e7f1cfc}" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

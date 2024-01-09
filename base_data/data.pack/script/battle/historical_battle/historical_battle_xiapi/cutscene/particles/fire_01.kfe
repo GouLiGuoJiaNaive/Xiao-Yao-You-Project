@@ -1,0 +1,35 @@
+<EFFECT_FILE version="23" id="{6c5b5a36-e491-4f2d-baed-29fade53239e}" name="fire_01.kfe" effect_name="3k_main_generic_fire_smoke_loop">
+ <VECTOR is_linked="0" link_id="0" unique_id="{4b3c70f9-9fe6-4a10-ba1e-d1f99c907717}" id="{4b3c70f9-9fe6-4a10-ba1e-d1f99c907717}" name="position" surface_mode="Freeform">
+  <DOUBLE single_keyframe_only="0" hidden="false" animated="1" order="0" name="X" default="0">
+   <KEYFRAME data="-7.681825637817383" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="0" hidden="false" animated="1" order="1" name="Y" default="0">
+   <KEYFRAME data="197.1099395751953" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="0" hidden="false" animated="1" order="2" name="Z" default="0">
+   <KEYFRAME data="-95.23403167724609" time="10.03333377838135"/>
+  </DOUBLE>
+ </VECTOR>
+ <VECTOR is_linked="0" link_id="0" unique_id="{4ba6d24b-99d7-461a-902c-fafbfc4714d1}" id="{4ba6d24b-99d7-461a-902c-fafbfc4714d1}" name="target" surface_mode="Freeform">
+  <DOUBLE single_keyframe_only="0" hidden="false" animated="1" order="0" name="X" default="0">
+   <KEYFRAME data="-1.915377140045166" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="0" hidden="false" animated="1" order="1" name="Y" default="0">
+   <KEYFRAME data="201.7686767578125" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="0" hidden="false" animated="1" order="2" name="Z" default="0">
+   <KEYFRAME data="-94.48382568359375" time="10.03333377838135"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL user_friendy_name="Active" single_keyframe_only="0" hidden="false" animated="1" order="2" name="active" default="0">
+  <KEYFRAME data="0" time="10.0656681060791"/>
+  <KEYFRAME data="1" time="10.0666675567627"/>
+ </BOOL>
+ <BOOL user_friendy_name="Tracked" single_keyframe_only="0" hidden="false" animated="1" order="3" name="tracked" default="0"/>
+ <DOUBLE user_friendy_name="Scale" single_keyframe_only="1" hidden="false" animated="0" order="4" name="scale" default="1">
+  <KEYFRAME data="1" time="10.03333377838135"/>
+ </DOUBLE>
+ <BOOL user_friendy_name="Emit Light" single_keyframe_only="1" hidden="false" animated="0" order="5" name="is_light_enabled" default="1">
+  <KEYFRAME data="0" time="10.03333377838135"/>
+ </BOOL>
+</EFFECT_FILE>

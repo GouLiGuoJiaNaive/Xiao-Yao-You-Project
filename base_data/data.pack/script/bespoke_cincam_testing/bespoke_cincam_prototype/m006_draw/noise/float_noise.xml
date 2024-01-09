@@ -1,0 +1,16 @@
+<NOISE_FILE name="float_noise.xml" version="23">
+ <DOUBLE order="0" name="amplitude" user_friendy_name="Amplitude" hidden="false" single_keyframe_only="1" animated="0" default="50">
+  <KEYFRAME data="1" time="0"/>
+ </DOUBLE>
+ <DOUBLE order="1" name="frequency" user_friendy_name="Frequency" hidden="false" single_keyframe_only="1" animated="0" default="1">
+  <KEYFRAME data="1" time="-1"/>
+ </DOUBLE>
+ <INT order="2" name="number_of_octaves" user_friendy_name="Number of Octaves" hidden="false" single_keyframe_only="1" animated="0" default="3">
+  <KEYFRAME data="4" time="0"/>
+ </INT>
+ <DOUBLE order="3" name="offset" user_friendy_name="Offset" hidden="false" single_keyframe_only="1" animated="0" default="10">
+  <KEYFRAME data="0.5" time="0"/>
+ </DOUBLE>
+ <DOUBLE order="4" name="persistence" user_friendy_name="Persistence" hidden="false" single_keyframe_only="1" animated="0" default="0.5"/>
+ <DOUBLE order="5" name="lacunarity" user_friendy_name="Lacunarity" hidden="false" single_keyframe_only="1" animated="0" default="2"/>
+</NOISE_FILE>

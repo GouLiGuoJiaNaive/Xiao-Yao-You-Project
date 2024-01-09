@@ -1,0 +1,32 @@
+<SCENE_FILE version="26" perspective_camera="382.02,6.31,350.74:378.9,0.66,365.733" hidden="false" start_record_time="0" end_record_time="59.00000307708979" id="{1b60d1d4-8732-46de-b6c8-1ee6996cc63c}">
+ <ENVIRONMENT data="" name="Environment" order="0" hidden="false" id="{06c114a2-c835-458b-98d1-d2d317c2df76}"/>
+ <VECTOR is_linked="0" name="position" link_id="0" hidden="false" surface_mode="Freeform" unique_id="{61e3784c-3502-45a1-b4dd-a7c18fe94cca}" id="{61e3784c-3502-45a1-b4dd-a7c18fe94cca}">
+  <DOUBLE name="X" default="0" order="0" single_keyframe_only="1" animated="1" hidden="false" id="{ea9a2b91-1c5d-4ca4-ad21-85a1b4e7155c}">
+   <KEYFRAME data="0" time="18.63333511352539"/>
+  </DOUBLE>
+  <DOUBLE name="Y" default="0" order="1" single_keyframe_only="1" animated="1" hidden="false" id="{82397f8f-1e98-4855-8527-d0cf47ddefcf}">
+   <KEYFRAME data="0" time="18.63333511352539"/>
+  </DOUBLE>
+  <DOUBLE name="Z" default="0" order="2" single_keyframe_only="1" animated="1" hidden="false" id="{5e602211-cad1-4cc1-82eb-c9cc4cdae853}">
+   <KEYFRAME data="0" time="18.63333511352539"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{96d74055-ad12-480b-870d-475e4473fabc}">
+  <RADIAN name="X" default="0" order="0" single_keyframe_only="1" animated="1" hidden="false" id="{51821d79-160b-4ad8-84f3-d4b75fd00137}">
+   <KEYFRAME data="0" time="18.63333511352539"/>
+  </RADIAN>
+  <RADIAN name="Y" default="0" order="1" single_keyframe_only="1" animated="1" hidden="false" id="{bf077660-2def-4187-bc66-8c0d950321c1}">
+   <KEYFRAME data="0" time="18.63333511352539"/>
+  </RADIAN>
+  <RADIAN name="Z" default="0" order="2" single_keyframe_only="1" animated="1" hidden="false" id="{fe3b6aa9-3f4c-4903-9e1a-beeabfc0fb50}">
+   <KEYFRAME data="0" time="18.63333511352539"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" hidden="false" id="{11ea97f2-005a-4333-90fa-55f83dfb7bcf}"/>
+ <NODE name="Warscape Properties" hidden="false" id="{34484257-1f61-4c99-b92c-1eea19fb6d42}">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/pan_camera_sima_yue.xml" name="pan_camera_sima_yue.xml" hidden="false" id="{91ace888-abf4-4154-bd1e-ffc686f5c2d3}"/>
+ </NODE>
+ <NODE name="Triggers" hidden="false" id="{d16a0f41-b2ca-4cb1-832c-be3f978771a9}">
+  <TRIGGER name="audio_yue.ktr" trigger_file="../triggers/audio_yue.ktr" hidden="false" id="{540cdbcd-272a-4a5f-aa3c-53e7e0472bfd}"/>
+ </NODE>
+</SCENE_FILE>

@@ -1,0 +1,29 @@
+<COMPOSITE_SCENE_FILE id="{b45318e1-5ccc-48a6-ba5c-b0664078f191}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/zhou_yu_boat_background_large.csc" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{67bfe976-4e87-43d6-aa29-4b8b099c662a}" hidden="false" unique_id="{67bfe976-4e87-43d6-aa29-4b8b099c662a}" name="position">
+  <DOUBLE order="0" id="{5e4f3496-bc56-4359-a0ff-ee37a132331a}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="X">
+   <KEYFRAME time="71.5" data="-348.3117370605469"/>
+   <KEYFRAME time="84.43331909179688" data="-338.6207580566406"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{34076f54-423a-4773-8a70-6278c76d63c9}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Y">
+   <KEYFRAME time="71.5" data="14.493827819824219"/>
+   <KEYFRAME time="84.43331909179688" data="14.526243209838867"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{fe0bbc87-4cca-430f-8e55-930d9502de5a}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Z">
+   <KEYFRAME time="71.5" data="-881.9827880859375"/>
+   <KEYFRAME time="84.43331909179688" data="-834.4547119140625"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{2769be6f-7acd-4ce0-b04c-74e4679ed020}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{275d6a82-9620-4837-9d26-21300c989690}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X"/>
+  <RADIAN order="1" id="{1c5c70fe-bbeb-451e-930a-e1b931f992e9}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="0.4000014662742615" data="4.913531303405762"/>
+  </RADIAN>
+  <RADIAN order="2" id="{63d89548-3e5d-40e5-b5bc-d8c28f4ff7bf}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{8b38569e-548a-48ec-8e03-974b8fc5a067}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale"/>
+ <BOOL order="3" id="{daa4569f-9a37-43d0-8e28-e7e0c8d25c27}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="69.13333892822266" data="0"/>
+  <KEYFRAME time="69.13433837890625" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" id="{f1f685af-029d-445c-abbc-5a10e8682fa8}" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" animated="1" default="1" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,34 @@
+<SCENE_FILE start_record_time="0" perspective_camera="-66.3139,7.54568,-678.858:-95.8238,10.4178,-570.931" version="25" id="{1b56084e-63be-48c8-8874-34dd110008e3}" hidden="false" end_record_time="1000">
+ <ENVIRONMENT name="Environment" data="" id="{a67a0594-96d6-46a0-af46-f4d877e49927}" hidden="false" order="0"/>
+ <VECTOR link_id="0" name="position" surface_mode="Freeform" is_linked="0" id="{8aa062eb-4064-4db3-b052-eba1aecefa92}" hidden="false" unique_id="{8aa062eb-4064-4db3-b052-eba1aecefa92}">
+  <DOUBLE single_keyframe_only="1" default="0" name="X" id="{bd3fa58d-a738-4fd6-a225-05dc72742d6c}" hidden="false" order="0" animated="1"/>
+  <DOUBLE single_keyframe_only="1" default="0" name="Y" id="{a24ecf58-6c7c-41ea-aa0c-63dc2cbe7029}" hidden="false" order="1" animated="1"/>
+  <DOUBLE single_keyframe_only="1" default="0" name="Z" id="{770e7c43-c6d1-41dd-89f3-966e54e82918}" hidden="false" order="2" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{79d61ca4-d57b-4b6d-8565-3471bd5e2e80}" hidden="false">
+  <RADIAN single_keyframe_only="1" default="0" name="X" id="{855761d9-2d2f-446c-92b0-96a977c94c4d}" hidden="false" order="0" animated="1"/>
+  <RADIAN single_keyframe_only="1" default="0" name="Y" id="{e1cd7ff4-bee2-4dbb-b9fa-fb76d50cfba1}" hidden="false" order="1" animated="1"/>
+  <RADIAN single_keyframe_only="1" default="0" name="Z" id="{131c788a-2fad-47cd-bffe-96a992293455}" hidden="false" order="2" animated="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{28a8236c-1075-4d10-868b-7aa0832c64a3}" hidden="false"/>
+ <NODE name="Composite Scenes" id="{c8b0f0b2-94d3-4a4a-a3a0-f617109f0dd0}" hidden="false">
+  <COMPOSITE_SCENE name="cao_cao_arrive.kfcs" id="{f841bb9a-7bb0-4f4c-af5e-6039bb714691}" hidden="false" composite_scene_file="../csc_ref/cao_cao_arrive.kfcs"/>
+  <COMPOSITE_SCENE name="tower_01.kfcs" id="{b67ca4d2-9a8c-4e91-a5d3-5fa7a858b5ba}" hidden="false" composite_scene_file="../csc_ref/tower_01.kfcs"/>
+  <COMPOSITE_SCENE name="door_closed.kfcs" id="{8ff1c295-fff0-43df-858a-88f7b0ad8ade}" hidden="false" composite_scene_file="../csc_ref/door_closed.kfcs"/>
+ </NODE>
+ <NODE name="Warscape Properties" id="{a7d327e4-5e7b-40e2-a97b-5cbd69b43551}" hidden="false">
+  <WARSCAPE_PROPERTIES name="fly_around_01.xml" id="{3d906adb-d065-44fd-b52c-8bdf6e6e532c}" warscape_properties_file="../cameras/fly_around_01.xml" hidden="false"/>
+ </NODE>
+ <NODE name="Audio Events" id="{468cd3fe-c678-443b-891f-3609b9f94b16}" hidden="false">
+  <AUDIO_EVENT name="audio_event_file_01.kfa" audio_event_file="../audio/audio_event_file_01.kfa" id="{0354487d-bd72-41de-a472-9d39c7070d5d}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_02.kfa" audio_event_file="../audio/audio_event_file_02.kfa" id="{cf14c6bf-4637-4817-ad72-18c4bfac9904}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_03.kfa" audio_event_file="../audio/audio_event_file_03.kfa" id="{217d961f-cdc7-4161-ac40-48928e035f93}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_04.kfa" audio_event_file="../audio/audio_event_file_04.kfa" id="{c965b353-5ec3-4247-9491-0b01321ba4dd}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_05.kfa" audio_event_file="../audio/audio_event_file_05.kfa" id="{3af269f0-56f3-4143-858d-1ac5aa2ef6cb}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_06.kfa" audio_event_file="../audio/audio_event_file_06.kfa" id="{4ca47fbc-bb9d-4d37-862c-160209d6a6a1}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_07.kfa" audio_event_file="../audio/audio_event_file_07.kfa" id="{c948fe26-6b6e-4dbe-b2fb-10c880ca51f4}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_08.kfa" audio_event_file="../audio/audio_event_file_08.kfa" id="{79c26bf6-630e-4520-9de2-8cb659449695}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_09.kfa" audio_event_file="../audio/audio_event_file_09.kfa" id="{53bc06cc-3456-4ece-bceb-215578a3ca24}" hidden="false"/>
+  <AUDIO_EVENT name="sweetener_pass.kfa" audio_event_file="../audio/sweetener_pass.kfa" id="{6fde5f84-063b-4e19-8075-1f90c30a4305}" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

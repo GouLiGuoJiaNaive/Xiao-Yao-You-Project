@@ -1,0 +1,69 @@
+<SCENE_MANAGER_FILE hidden="false" perspective_camera="43.8616,30.4034,5.18841:40.885,23.7564,-13.4384" start_record_time="0" version="25" end_record_time="82.43333763256669" id="{04475b0e-65ff-4467-a9b1-2c15dbeb11ad}">
+ <START_SCENE scene="redcliff_wide_opening.CindyScene" real_time="1"/>
+ <SCENE_SWITCH switch_scene="red_cliff_camp_medium.CindyScene" real_time="1" time="5.06667"/>
+ <SCENE_SWITCH switch_scene="red_cliff_camp_closer.CindyScene" real_time="1" time="6.9"/>
+ <SCENE_SWITCH switch_scene="red_cliff_camp_caocao_smile.CindyScene" real_time="1" time="10.3333"/>
+ <SCENE_SWITCH switch_scene="red_cliff_boats_wide_arrive.CindyScene" real_time="1" time="13.7572"/>
+ <SCENE_SWITCH switch_scene="red_cliff_boats_getting_near.CindyScene" real_time="1" time="16.9667"/>
+ <SCENE_SWITCH switch_scene="red_cliff_camp_cu_smile.CindyScene" real_time="1" time="19.3667"/>
+ <SCENE_SWITCH switch_scene="red_cliff_boats_side.CindyScene" real_time="1" time="22.3701"/>
+ <SCENE_SWITCH switch_scene="red_cliff_ship_throw_torch.CindyScene" real_time="1" time="25.0667"/>
+ <SCENE_SWITCH switch_scene="red_cliff_ships_light_up.CindyScene" real_time="1" time="28.5667"/>
+ <SCENE_SWITCH switch_scene="red_cliff_caocao_happy_to_sad.CindyScene" real_time="1" time="30.9333"/>
+ <SCENE_SWITCH switch_scene="red_cliff_boats_side_ramming_speed.CindyScene" real_time="1" time="33.3"/>
+ <SCENE_SWITCH switch_scene="red_cliff_boats_side_rowing.CindyScene" real_time="1" time="35.6579"/>
+ <SCENE_SWITCH switch_scene="red_cliff_tower.CindyScene" real_time="1" time="37.9671"/>
+ <SCENE_SWITCH switch_scene="red_cliff_panic.CindyScene" real_time="1" time="39.8884"/>
+ <SCENE_SWITCH switch_scene="red_cliff_archers_ready.CindyScene" real_time="1" time="41.8333"/>
+ <SCENE_SWITCH switch_scene="red_cliff_boat_impact_01.CindyScene" real_time="1" time="44.2553"/>
+ <SCENE_SWITCH switch_scene="red_cliff_boat_impact_02.CindyScene" real_time="1" time="46.1505"/>
+ <SCENE_SWITCH switch_scene="red_cliff_boat_impact_03.CindyScene" real_time="1" time="48.0666"/>
+ <SCENE_SWITCH switch_scene="red_cliff_close-up_death.CindyScene" real_time="1" time="49.0643"/>
+ <SCENE_SWITCH switch_scene="red_cliff_boat_impact_04.CindyScene" real_time="1" time="50.1333"/>
+ <SCENE_SWITCH switch_scene="red_cliff_boat_impact_05.CindyScene" real_time="1" time="51.7333"/>
+ <SCENE_SWITCH switch_scene="red_cliff_boat_impact_06.CindyScene" real_time="1" time="53.5322"/>
+ <SCENE_SWITCH switch_scene="red_cliff_carnage_wide.CindyScene" real_time="1" time="55.1333"/>
+ <SCENE_SWITCH switch_scene="red_cliff_caocao_sad_to_miserable.CindyScene" real_time="1" time="58.4871"/>
+ <SCENE_SWITCH switch_scene="red_cliff_zhou_yu_arrive_01_romance.CindyScene" real_time="1" time="61.1715"/>
+ <SCENE_SWITCH switch_scene="red_cliff_zhou_yu_arrive_02_romance.CindyScene" real_time="1" time="63.4647"/>
+ <SCENE_SWITCH switch_scene="red_cliff_zhou_yu_arrive_03_romance.CindyScene" real_time="1" time="65.9075"/>
+ <SCENE_SWITCH switch_scene="red_cliff_archers_run.CindyScene" real_time="1" time="72.0164"/>
+ <SCENE_SWITCH switch_scene="red_cliff_liu_bei_romance.CindyScene" real_time="1" time="75.8"/>
+ <SCENE_SWITCH switch_scene="red_cliff_liu_bei_closeup_romance.CindyScene" real_time="1" time="78.2667"/>
+ <SCENE_SWITCH switch_scene="red_cliff_liu_bei_charge_romance.CindyScene" real_time="1" time="80.3001"/>
+ <NODE hidden="false" id="{0cde23a4-e94d-4ac1-a0e5-c2f55065de8d}" name="Links"/>
+ <NODE hidden="false" id="{0c609199-1246-4848-9c2d-e2524f1c80d4}" name="Scenes">
+  <SCENE scene_file="../scenes/redcliff_wide_opening.CindyScene" hidden="false" id="{ee5eeb9b-ff6b-43f9-9963-fc02856b7ff2}" name="redcliff_wide_opening.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_camp_medium.CindyScene" hidden="false" id="{ae6f31b7-8a5c-44c1-b13b-2d590ac2396f}" name="red_cliff_camp_medium.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_camp_closer.CindyScene" hidden="false" id="{a0eaa48b-089a-47cb-aff0-1583a3db86d8}" name="red_cliff_camp_closer.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_camp_caocao_smile.CindyScene" hidden="false" id="{cea7ba5b-38b5-4e2f-a413-5cdb8f2f0263}" name="red_cliff_camp_caocao_smile.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_boats_wide_arrive.CindyScene" hidden="false" id="{993740a7-9a15-4a08-85e4-1b2d738351d7}" name="red_cliff_boats_wide_arrive.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_boats_getting_near.CindyScene" hidden="false" id="{64adc271-19aa-44a3-9802-f02d0fbec679}" name="red_cliff_boats_getting_near.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_boats_side.CindyScene" hidden="false" id="{e08ee350-13a0-48ea-89c7-228e0520184b}" name="red_cliff_boats_side.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_camp_cu_smile.CindyScene" hidden="false" id="{8b33fb8f-96cd-4b47-ae6f-d8e42782bc1a}" name="red_cliff_camp_cu_smile.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_ship_throw_torch.CindyScene" hidden="false" id="{cf8975e0-e8e8-41bf-813b-3cf21da5dff5}" name="red_cliff_ship_throw_torch.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_ships_light_up.CindyScene" hidden="false" id="{bd72d574-dcbc-4b4a-a8c4-9361871dac49}" name="red_cliff_ships_light_up.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_caocao_happy_to_sad.CindyScene" hidden="false" id="{fb2aa450-bb86-4ed8-8cb0-a13cf6c8723f}" name="red_cliff_caocao_happy_to_sad.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_boats_side_ramming_speed.CindyScene" hidden="false" id="{5ffae752-2c20-4293-b33c-f73d4ed4a4d2}" name="red_cliff_boats_side_ramming_speed.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_panic.CindyScene" hidden="false" id="{5c9e2004-b94d-4e30-b430-215b482805d8}" name="red_cliff_panic.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_boats_side_rowing.CindyScene" hidden="false" id="{4dcd4af8-5f0b-41e6-9791-d48e5122de64}" name="red_cliff_boats_side_rowing.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_tower.CindyScene" hidden="false" id="{0e8d7d11-0742-4af4-8a80-1c30a3dd816c}" name="red_cliff_tower.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_archers_ready.CindyScene" hidden="false" id="{62b980f6-ebfb-41ca-aa1d-55dd998e3c55}" name="red_cliff_archers_ready.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_boat_impact_01.CindyScene" hidden="false" id="{131c1458-f043-4d4a-ad49-7f2e9b26b359}" name="red_cliff_boat_impact_01.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_boat_impact_02.CindyScene" hidden="false" id="{24b53306-42b3-4a10-b9aa-1d2769943afb}" name="red_cliff_boat_impact_02.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_boat_impact_03.CindyScene" hidden="false" id="{c73e45fd-e125-4f1a-8684-ede36a5eda94}" name="red_cliff_boat_impact_03.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_boat_impact_04.CindyScene" hidden="false" id="{070fb76d-c736-44fc-9424-34d4943c0f0f}" name="red_cliff_boat_impact_04.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_boat_impact_05.CindyScene" hidden="false" id="{617942c4-564e-434f-ad77-bbb52222d943}" name="red_cliff_boat_impact_05.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_boat_impact_06.CindyScene" hidden="false" id="{c1489d69-8fed-4f47-8900-e43619bb4d44}" name="red_cliff_boat_impact_06.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_carnage_wide.CindyScene" hidden="false" id="{4754aaf6-32de-436b-99b2-14b868037026}" name="red_cliff_carnage_wide.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_caocao_sad_to_miserable.CindyScene" hidden="false" id="{2da86898-2fad-4b01-9e69-75dd4e673772}" name="red_cliff_caocao_sad_to_miserable.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_zhou_yu_arrive_01_romance.CindyScene" hidden="false" id="{705f54d3-907f-418a-b59a-bdd13b09628d}" name="red_cliff_zhou_yu_arrive_01_romance.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_zhou_yu_arrive_02_romance.CindyScene" hidden="false" id="{e79f57f6-a713-42fb-b502-0777a71df7cc}" name="red_cliff_zhou_yu_arrive_02_romance.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_zhou_yu_arrive_03_romance.CindyScene" hidden="false" id="{9b219fc2-50ba-484d-8e28-91a93c14235a}" name="red_cliff_zhou_yu_arrive_03_romance.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_liu_bei_romance.CindyScene" hidden="false" id="{92535c1d-daf6-4659-88ea-e6034610dd90}" name="red_cliff_liu_bei_romance.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_liu_bei_closeup_romance.CindyScene" hidden="false" id="{6215401f-85d2-44c0-8324-7b4f93e29367}" name="red_cliff_liu_bei_closeup_romance.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_liu_bei_charge_romance.CindyScene" hidden="false" id="{216d428d-b39c-4275-8219-d0ac7939d6cd}" name="red_cliff_liu_bei_charge_romance.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_close-up_death.CindyScene" hidden="false" id="{131d9295-e56b-4172-8936-ce4b307c5483}" name="red_cliff_close-up_death.CindyScene"/>
+  <SCENE scene_file="../scenes/red_cliff_archers_run.CindyScene" hidden="false" id="{aaa0d20e-cb0d-4be0-861a-0a297336dbec}" name="red_cliff_archers_run.CindyScene"/>
+ </NODE>
+</SCENE_MANAGER_FILE>

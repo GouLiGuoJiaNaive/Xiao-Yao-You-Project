@@ -1,0 +1,25 @@
+<SCENE_FILE end_record_time="81.38376920922524" start_record_time="0" version="25" id="{60f04dc9-3ec2-41bd-99f2-21e239a5f245}" perspective_camera="5.54481,26.3779,-186.67:54.9786,-97.266,21.7809" hidden="false">
+ <ENVIRONMENT order="0" data="" name="Environment" id="{35f7a81a-c168-499b-a786-46311104bc4d}" hidden="false"/>
+ <VECTOR is_linked="0" surface_mode="Freeform" link_id="0" name="position" id="{cb8d7354-3607-4f0f-88f7-e152397742b3}" unique_id="{cb8d7354-3607-4f0f-88f7-e152397742b3}" hidden="false">
+  <DOUBLE animated="1" order="0" default="0" name="X" single_keyframe_only="1" id="{b5273dc3-95b7-480d-8904-ae8b6d2edcd6}" hidden="false"/>
+  <DOUBLE animated="1" order="1" default="0" name="Y" single_keyframe_only="1" id="{38df1a2a-792a-41b2-a243-d52f039e42ab}" hidden="false"/>
+  <DOUBLE animated="1" order="2" default="0" name="Z" single_keyframe_only="1" id="{dd1e4005-8aea-4d76-94eb-4f5e029f63f3}" hidden="false"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{3ded90f5-9ab7-436a-9b6a-dda926652aa2}" hidden="false">
+  <RADIAN animated="1" order="0" default="0" name="X" single_keyframe_only="1" id="{03445be9-f87e-4444-bbc3-9e60055a6aed}" hidden="false"/>
+  <RADIAN animated="1" order="1" default="0" name="Y" single_keyframe_only="1" id="{84c99365-be38-4773-a494-c3bcfcf9a3cb}" hidden="false"/>
+  <RADIAN animated="1" order="2" default="0" name="Z" single_keyframe_only="1" id="{aed569a4-2a2c-4f1d-a8d2-65893fe3dc49}" hidden="false"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{f301b728-a7a2-44c9-be62-43716bdd4c28}" hidden="false"/>
+ <NODE name="Composite Scenes" id="{9e441bf8-52d0-47c8-92dd-fde339c7ea73}" hidden="false">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/parked_ships_08.kfcs" name="parked_ships_08.kfcs" id="{4e83d292-9f4b-444c-a8d6-1c841fb1e7f5}" hidden="false"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/parked_ships_09.kfcs" name="parked_ships_09.kfcs" id="{3ce711b5-da8a-46c1-b6a5-31020c3a2650}" hidden="false"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/parked_ships_10.kfcs" name="parked_ships_10.kfcs" id="{c05a8149-eeab-45a4-8455-c2479be6f5fb}" hidden="false"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/parked_ships_11.kfcs" name="parked_ships_11.kfcs" id="{56523272-1da9-4eb3-a38a-cb1386875767}" hidden="false"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/parked_ships_12.kfcs" name="parked_ships_12.kfcs" id="{49167681-7381-4a4d-a4c2-0d5cc3b9a6c5}" hidden="false"/>
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/zhou_yu_arrive.kfcs" name="zhou_yu_arrive.kfcs" id="{53cc863c-3e98-4283-a4cb-9546dc22f78b}" hidden="false"/>
+ </NODE>
+ <NODE name="Warscape Properties" id="{bcd21019-b6b9-40d0-ace1-113067e3b9d7}" hidden="false">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/red_cliff_zhou_you_arrive_03.xml" name="red_cliff_zhou_you_arrive_03.xml" id="{e57d76d9-146f-47ea-a4f5-704d95f523fc}" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

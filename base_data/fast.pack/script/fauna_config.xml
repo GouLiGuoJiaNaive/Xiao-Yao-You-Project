@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fauna_config>
+
+	<!-- Inland animals -->
+
+	<wolf>
+		<min_entities>3</min_entities>
+		<max_entities>15</max_entities>
+		<spawn_probability>0.5</spawn_probability>
+		<spawn_conditions>
+			<tile>inland</tile>
+			<climate>any</climate>
+			<season>any</season>
+			<time_of_day>night</time_of_day>
+			<precipitation>any</precipitation>
+		</spawn_conditions>
+	</wolf>
+	
+	<deer>
+		<min_entities>1</min_entities>
+		<max_entities>16</max_entities>
+		<spawn_probability>1.0</spawn_probability>
+		<spawn_conditions>
+			<tile>inland</tile>
+			<climate>cold</climate>
+			<climate>temperate</climate>
+			<climate>subtropical</climate>
+			<season>any</season>
+			<time_of_day>any</time_of_day>
+			<precipitation>any</precipitation>
+		</spawn_conditions>
+	</deer>
+
+	<horse>
+		<min_entities>16</min_entities>
+		<max_entities>40</max_entities>
+		<spawn_probability>1.0</spawn_probability>
+		<spawn_conditions>
+			<tile>inland</tile>
+			<climate>arid_fertile</climate>
+			<season>any</season>
+			<time_of_day>any</time_of_day>
+			<precipitation>any</precipitation>
+		</spawn_conditions>
+	</horse>	
+	
+	<boar>
+		<min_entities>0</min_entities>
+		<max_entities>0</max_entities>
+		<spawn_probability>0.25</spawn_probability>
+		<spawn_conditions>
+			<tile>inland</tile>
+			<climate>any</climate>
+			<season>any</season>
+			<time_of_day>any</time_of_day>
+			<precipitation>any</precipitation>
+		</spawn_conditions>
+	</boar>
+
+	<!-- Birds -->
+
+	<crow>
+		<min_entities>20</min_entities>
+		<max_entities>40</max_entities>
+		<spawn_probability>1.0</spawn_probability>
+		<spawn_conditions>
+			<tile>inland</tile>
+			<climate>any</climate>
+			<season>any</season>
+			<time_of_day>any</time_of_day>
+			<precipitation>any</precipitation>
+		</spawn_conditions>
+	</crow>
+	
+	<vulture>
+		<min_entities>0</min_entities>
+		<max_entities>0</max_entities>
+		<spawn_probability>1.0</spawn_probability>
+		<spawn_conditions>
+			<tile>inland</tile>
+			<climate>any</climate>
+			<season>any</season>
+			<time_of_day>any</time_of_day>
+			<precipitation>any</precipitation>
+		</spawn_conditions>
+	</vulture>
+
+</fauna_config>

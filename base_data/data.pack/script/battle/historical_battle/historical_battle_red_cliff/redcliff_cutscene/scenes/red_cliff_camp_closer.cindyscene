@@ -1,0 +1,40 @@
+<SCENE_FILE start_record_time="0" id="{e89eb0e3-7d76-4051-a3ad-d52b8dad34d9}" hidden="false" end_record_time="14.32645016764201" version="26" perspective_camera="22.2924,94.159,582.481:22.5602,93.1407,564.405">
+ <ENVIRONMENT order="0" id="{65bea4bc-4236-4ab8-ad17-e8022cc66162}" hidden="false" name="Environment" data="script/battle/historical_battle/historical_battle_red_cliff/redcliff_cutscene/weather/red_cliff_cutscene.environment"/>
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{912f044f-7598-4f9c-b309-3f1396480fea}" hidden="false" unique_id="{912f044f-7598-4f9c-b309-3f1396480fea}" name="position">
+  <DOUBLE order="0" id="{ed3d7864-21e0-4bfb-9a38-275f4d41ba56}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="X">
+   <KEYFRAME time="24.80000114440918" data="0"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{8bc77c43-b5e3-424e-b098-d71b53841979}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Y">
+   <KEYFRAME time="24.80000114440918" data="0"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{c7dfcae0-9cc0-4aa6-99bb-f43a14e727c0}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Z">
+   <KEYFRAME time="24.80000114440918" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{d2ea4321-82e3-4b79-b55c-ad3359dafe09}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{28c42570-ae80-4eb5-abf1-1e2bc44c79df}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="X"/>
+  <RADIAN order="1" id="{8db2b337-0047-4c43-8447-e18840d769c0}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Y"/>
+  <RADIAN order="2" id="{dae5c0a5-1778-4671-a1e3-369eac735621}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Z"/>
+ </ROTATION_AXES>
+ <NODE id="{93a1d5f4-57aa-4c62-9e4d-ebe4b7094c35}" hidden="false" name="Links"/>
+ <NODE id="{22c69fe2-18b9-4046-943a-68cb8bb6e0dc}" hidden="false" name="Point Lights">
+  <POINT_LIGHT id="{039ec328-aabc-454f-b9f0-dcabe73cce3a}" hidden="false" point_light_file="../lights/brazier_light_01.kfl" name="brazier_light_01.kfl"/>
+ </NODE>
+ <NODE id="{fbb02568-b924-4fe1-9f4e-b8c4ccaef43b}" hidden="false" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{f966f062-80ea-4d18-9104-d422d6ceccd6}" hidden="false" composite_scene_file="../csc_ref/caocao_placeholder_01.kfcs" name="caocao_placeholder_01.kfcs"/>
+  <COMPOSITE_SCENE id="{14ce73f8-cfe6-4ee5-8369-98f1ad8813c8}" hidden="false" composite_scene_file="../csc_ref/general_placeholder_01.kfcs" name="general_placeholder_01.kfcs"/>
+  <COMPOSITE_SCENE id="{594eee94-b953-444a-b239-a722de8e8aa7}" hidden="false" composite_scene_file="../csc_ref/general_placeholder_02.kfcs" name="general_placeholder_02.kfcs"/>
+  <COMPOSITE_SCENE id="{fdfa4cfc-ff33-4f47-a094-e1f84493fd48}" hidden="false" composite_scene_file="../csc_ref/caocao_and_generals_01.kfcs" name="caocao_and_generals_01.kfcs"/>
+ </NODE>
+ <NODE id="{e8aba74e-ad4c-470d-aac1-d2622aed9cb0}" hidden="false" name="Audio Events">
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_01.kfa" id="{26e582f8-fd39-457d-8579-a2863c81a67a}" hidden="false" name="red_cliff_advice_01.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_sweetner_pass.kfa" id="{d3049ea1-3fc3-4d92-a06d-50261da1330c}" hidden="false" name="red_cliff_sweetner_pass.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_02.kfa" id="{65a329f1-3c08-4bba-b9db-18d6275adbed}" hidden="false" name="red_cliff_advice_02.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_03.kfa" id="{2fb46801-244e-43cc-ad58-ca1617f533fc}" hidden="false" name="red_cliff_advice_03.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_05.kfa" id="{36d7f5f0-dd9f-473a-a38a-a04e5363c9a3}" hidden="false" name="red_cliff_advice_05.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_04.kfa" id="{0bde1f01-9afa-4ecb-a803-609cc50e6ca8}" hidden="false" name="red_cliff_advice_04.kfa"/>
+ </NODE>
+ <NODE id="{2fedfa10-bc8c-414b-8551-e647a2c7c278}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{65c8f98d-8f24-4ce3-85a2-d6f0cdf5a94b}" hidden="false" warscape_properties_file="../cameras/red_cliff_camp_closer.xml" name="red_cliff_camp_closer.xml"/>
+ </NODE>
+</SCENE_FILE>

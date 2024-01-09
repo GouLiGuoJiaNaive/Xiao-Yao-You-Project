@@ -1,0 +1,37 @@
+<COMPOSITE_SCENE_FILE id="{e0956e14-fcf9-45f4-b39e-51831c17c899}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/fire_ship_burning_attack_physics.csc" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{cb090ce6-1bda-4b33-ab7e-4062c62a1abf}" hidden="false" unique_id="{cb090ce6-1bda-4b33-ab7e-4062c62a1abf}" name="position">
+  <DOUBLE order="0" id="{f3c2a36b-6a65-42f1-850c-550333e00aa4}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="X">
+   <KEYFRAME time="52.13333892822266" data="-38.78672409057617"/>
+   <KEYFRAME handle2_x="54.3445" handle2_y="-24.4887" handle2_type="SMOOTH" time="53.63333892822266" data="-29.0870361328125"/>
+   <KEYFRAME handle1_type="EASY" time="55.76667404174805" data="-20.526472091674805"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{db600c86-6e6a-4991-bcff-48c183c97659}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Y">
+   <KEYFRAME time="51.4333381652832" data="14.398370742797852"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{5940a36f-704e-4b8b-8303-c09423ae7466}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Z">
+   <KEYFRAME time="52.13333892822266" data="-198.1923370361328"/>
+   <KEYFRAME handle2_x="54.3445" handle2_y="-144.438" handle2_type="SMOOTH" time="53.63333892822266" data="-161.72607421875"/>
+   <KEYFRAME handle1_type="EASY" time="55.76667404174805" data="-129.5424041748047"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{de72e1a4-36a7-49df-9895-07a0dd0f0670}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{1558675e-d34b-4af8-a56c-23b080c90000}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="X">
+   <KEYFRAME time="51.4333381652832" data="0"/>
+  </RADIAN>
+  <RADIAN order="1" id="{14b04541-a1b6-41a6-97e4-89e1bae9e648}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Y">
+   <KEYFRAME time="51.50000762939453" data="3.401564121246338"/>
+   <KEYFRAME time="51.76667404174805" data="3.401564121246338"/>
+  </RADIAN>
+  <RADIAN order="2" id="{16cfffe9-4df4-4155-b4c6-65776b3dae7d}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Z">
+   <KEYFRAME time="51.4333381652832" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{f28ec72d-7ca0-4867-94f9-e5ca1db0b372}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale"/>
+ <BOOL order="3" id="{f3bcd79f-44d9-4c95-90a6-fdb88b83068f}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="49.0333366394043" data="0"/>
+  <KEYFRAME time="49.03433609008789" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" id="{033a928b-3eae-4b34-9f87-7293719ac76f}" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" animated="1" default="1" name="speed_multiplier">
+  <KEYFRAME time="51.4333381652832" data="1"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

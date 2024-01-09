@@ -1,0 +1,5 @@
+<CUSTOM_FILE hidden="false" entry_name="g_new_depth_bias" type="Tweak" version="25" id="{be52c0e3-55fe-459e-938a-8a58c2a3f2a3}">
+ <DOUBLE name="Value" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{add1c34b-210b-44ae-ac1c-88f106028aaf}">
+  <KEYFRAME data="0" time="15.30000114440918"/>
+ </DOUBLE>
+</CUSTOM_FILE>

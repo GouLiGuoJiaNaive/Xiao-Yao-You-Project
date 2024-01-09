@@ -1,0 +1,20 @@
+<SCENE_FILE id="{70355d04-19a5-41fd-9734-f9e29f4ad059}" hidden="false" end_record_time="69.00000359863043" version="26" perspective_camera="308.16,5.79,407.56:304.97,0.32,420.96" start_record_time="0">
+ <ENVIRONMENT id="{21e056c8-3746-4f30-9303-9802cf807281}" hidden="false" name="Environment" order="0" data=""/>
+ <VECTOR id="{fce064e8-752a-40cb-923c-64cd2d4f667f}" unique_id="{fce064e8-752a-40cb-923c-64cd2d4f667f}" hidden="false" is_linked="0" name="position" surface_mode="Freeform" link_id="0">
+  <DOUBLE id="{a8614813-74cc-4e84-b5d6-2905286e5e72}" animated="1" default="0" hidden="false" name="X" order="0" single_keyframe_only="1"/>
+  <DOUBLE id="{25f8a662-dfba-4012-9741-97204b37bff8}" animated="1" default="0" hidden="false" name="Y" order="1" single_keyframe_only="1"/>
+  <DOUBLE id="{d8f37c05-5c17-4274-831a-41af38007f27}" animated="1" default="0" hidden="false" name="Z" order="2" single_keyframe_only="1"/>
+ </VECTOR>
+ <ROTATION_AXES id="{202bce36-e7c8-4bb5-b202-7fb16c935162}" hidden="false" name="rotation">
+  <RADIAN id="{b18194ee-84cc-4d93-bb66-bbee232344dc}" animated="1" default="0" hidden="false" name="X" order="0" single_keyframe_only="1"/>
+  <RADIAN id="{1c7eafa6-d19d-4bf5-8ae2-78da08c99f4c}" animated="1" default="0" hidden="false" name="Y" order="1" single_keyframe_only="1"/>
+  <RADIAN id="{d100399d-cad8-43fc-b57f-9b19c1b2ce44}" animated="1" default="0" hidden="false" name="Z" order="2" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <NODE id="{66b7a916-b012-467e-a0d8-cf676765d235}" hidden="false" name="Links"/>
+ <NODE id="{8a4351f6-ab68-438b-b381-eb094608085f}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{1720b464-05d7-408d-8e3f-b5852aacfacc}" hidden="false" warscape_properties_file="../cameras/zhang_yan_cam.xml" name="zhang_yan_cam.xml"/>
+ </NODE>
+ <NODE id="{ce989f89-0be0-47f4-b3f7-aeb581a239df}" hidden="false" name="Triggers">
+  <TRIGGER id="{fa926e5e-a73f-4637-bf77-7b7e83081982}" trigger_file="../triggers/zhang_yan_200.ktr" hidden="false" name="zhang_yan_200.ktr"/>
+ </NODE>
+</SCENE_FILE>

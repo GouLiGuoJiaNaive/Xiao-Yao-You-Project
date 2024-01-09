@@ -1,0 +1,30 @@
+<COMPOSITE_SCENE_FILE id="{33160f82-3d99-4644-a0c5-aee7dbd61b39}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/liu_bei_general_02.csc" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{47c762db-463b-49c8-bd3e-cbbed2596bcf}" hidden="false" unique_id="{47c762db-463b-49c8-bd3e-cbbed2596bcf}" name="position">
+  <DOUBLE order="0" id="{e1265ebb-ea90-46f5-b94c-0a4a62ac026c}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="X">
+   <KEYFRAME time="2.399988174438477" data="532.7679443359375"/>
+   <KEYFRAME time="79.50001525878906" data="532.7679443359375"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{492e2493-f661-4153-9d42-a46e72a74b2d}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Y">
+   <KEYFRAME time="2.399988174438477" data="37.10250473022461"/>
+   <KEYFRAME handle2_type="EASY" time="79.06668090820313" data="37.10250473022461"/>
+   <KEYFRAME time="80.63334655761719" data="36.48134231567383"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{5c582730-461b-483d-b4d7-670b7c36341d}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Z">
+   <KEYFRAME time="2.399988174438477" data="4.654845237731934"/>
+   <KEYFRAME time="79.50001525878906" data="4.654845237731934"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{98a3e602-fc18-4267-bef7-5a3b14d6383e}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{c1c7d6de-9642-4397-9d6d-07f75cf445ba}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X"/>
+  <RADIAN order="1" id="{8da3a0f2-7ab7-4f17-85ed-52c03ba61157}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="2.399988174438477" data="-1.5707963705062866"/>
+  </RADIAN>
+  <RADIAN order="2" id="{36ed4541-ce6e-41f5-8a07-35a3b8f4775f}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{c6d99550-9046-4c98-a145-a7354e364fea}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale"/>
+ <BOOL order="3" id="{cdf85d5d-a724-4ef4-9add-707f33c20747}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="76.433349609375" data="0"/>
+  <KEYFRAME time="76.43434906005859" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" id="{d202f7b8-ddb6-4211-aa0c-803d0ffece8b}" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" animated="1" default="1" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

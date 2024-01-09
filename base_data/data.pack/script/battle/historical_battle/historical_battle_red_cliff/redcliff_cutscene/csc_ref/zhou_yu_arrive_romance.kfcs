@@ -1,0 +1,35 @@
+<COMPOSITE_SCENE_FILE hidden="false" version="25" id="{d9df1c07-f694-4e7e-be9c-57afe328cc53}" directory="script/battle/historical_battle/historical_battle_red_cliff_romance/redcliff_csc/zhou_yu_boat_surveys.csc">
+ <VECTOR hidden="false" is_linked="0" link_id="0" unique_id="{4485f1d1-84fc-4deb-93c3-60390846f57f}" id="{4485f1d1-84fc-4deb-93c3-60390846f57f}" name="position" surface_mode="Freeform">
+  <DOUBLE hidden="false" single_keyframe_only="0" default="0" animated="1" id="{3877d6cd-9194-4210-93e6-44ea034fefbb}" name="X" order="0">
+   <KEYFRAME data="-3.6429672241210938" time="0.4000014662742615"/>
+   <KEYFRAME data="-3.6429672241210938" time="58.79999923706055"/>
+   <KEYFRAME data="19.76023292541504" time="74.59998321533203"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" single_keyframe_only="0" default="0" animated="1" id="{9ee893c7-ed61-45a3-a54a-7f9b95cac7a7}" name="Y" order="1">
+   <KEYFRAME data="14.45887565612793" time="0.4000014662742615"/>
+   <KEYFRAME data="13.741866111755371" time="64.06665802001953"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" single_keyframe_only="0" default="0" animated="1" id="{685515f2-53d6-45a3-ba0f-43ab3a135c82}" name="Z" order="2">
+   <KEYFRAME data="-232.4545440673828" time="0.4000014662742615"/>
+   <KEYFRAME data="-232.4545440673828" time="58.79999923706055"/>
+   <KEYFRAME data="-111.63746643066406" time="74.59998321533203"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{7ade60c3-e27b-4528-a689-753f6a6f626b}" name="rotation">
+  <RADIAN hidden="false" single_keyframe_only="1" default="0" animated="0" id="{68729422-4662-41a5-af91-bf36f1e5d81b}" name="X" order="0">
+   <KEYFRAME data="0" time="0.4000014662742615"/>
+  </RADIAN>
+  <RADIAN hidden="false" single_keyframe_only="1" default="0" animated="0" id="{e4f037bd-ae13-49f1-b56b-44f1d2d1c89c}" name="Y" order="1">
+   <KEYFRAME data="4.9037275314331055" time="0.4000014662742615"/>
+  </RADIAN>
+  <RADIAN hidden="false" single_keyframe_only="1" default="0" animated="0" id="{ff2956be-643a-4484-8123-539cd9b610d5}" name="Z" order="2"/>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" single_keyframe_only="1" default="1" user_friendy_name="Scale" animated="0" id="{2ed3f530-73c0-490a-a91c-3952aa433bd6}" name="scale" order="2"/>
+ <BOOL hidden="false" single_keyframe_only="0" default="0" user_friendy_name="Active" animated="1" id="{4ed9ac1b-1453-47e4-b52d-831cd9703999}" name="active" order="3">
+  <KEYFRAME data="0" time="60.59900283813477"/>
+  <KEYFRAME data="1" time="60.63631820678711"/>
+ </BOOL>
+ <DOUBLE hidden="false" single_keyframe_only="0" default="1" user_friendy_name="Speed Multiplier" animated="1" id="{05987ad1-dbff-4a43-8fde-014010f1a329}" name="speed_multiplier" order="4">
+  <KEYFRAME data="1" time="60.29999923706055"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

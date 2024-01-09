@@ -1,0 +1,24 @@
+<SCENE_FILE perspective_camera="266.018,6.79096,395.728:278.432,-6.36047,363.956" hidden="false" version="26" start_record_time="0" end_record_time="55.82354488185604" id="{5040bf84-51a0-419a-af79-853b192a7f32}">
+ <ENVIRONMENT data="" hidden="false" order="0" id="{307e2346-b454-4259-9553-49ce9e4152ff}" name="Environment"/>
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" hidden="false" id="{09e69a9f-bd18-46ae-abd4-52ceead358da}" name="position" unique_id="{09e69a9f-bd18-46ae-abd4-52ceead358da}">
+  <DOUBLE animated="1" hidden="false" order="0" default="0" single_keyframe_only="1" id="{e5f4bed4-169f-4937-a60f-a6d523b81810}" name="X"/>
+  <DOUBLE animated="1" hidden="false" order="1" default="0" single_keyframe_only="1" id="{2b5c60a7-b6ad-4673-a230-011ca923d5a0}" name="Y"/>
+  <DOUBLE animated="1" hidden="false" order="2" default="0" single_keyframe_only="1" id="{af73015c-1efb-46c7-a9f5-132392121ade}" name="Z"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{75e20961-340c-42b1-a58a-f4584ac1abd5}" name="rotation">
+  <RADIAN animated="1" hidden="false" order="0" default="0" single_keyframe_only="1" id="{f1157872-89bd-4588-8dfb-2f479bff0d9e}" name="X"/>
+  <RADIAN animated="1" hidden="false" order="1" default="0" single_keyframe_only="1" id="{3c271c84-5a73-4e3a-9afe-d06eebb28ac3}" name="Y"/>
+  <RADIAN animated="1" hidden="false" order="2" default="0" single_keyframe_only="1" id="{66bc7e08-d309-4941-ab12-017ee6cbfb27}" name="Z"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{ea25cab4-5a1a-43c2-9416-6e690e715634}" name="Links"/>
+ <NODE hidden="false" id="{619a02c5-2be1-42b8-b014-09fe0a47b1f0}" name="Composite Scenes">
+  <COMPOSITE_SCENE hidden="false" id="{473b8bb9-9469-4c71-8bcc-95d87ebd3b18}" name="zhang_brothers_trio.kfcs" composite_scene_file="../csc_ref/zhang_brothers_trio.kfcs"/>
+  <COMPOSITE_SCENE hidden="false" id="{e3d067ff-9b68-416e-ae76-f0dd52b383d6}" name="general_eunuch_argue.kfcs" composite_scene_file="../csc_ref/general_eunuch_argue.kfcs"/>
+ </NODE>
+ <NODE hidden="false" id="{b6970cb3-bc5b-4f7c-ab87-ce6f943e752f}" name="Triggers">
+  <TRIGGER hidden="false" id="{6a271f03-f6fc-471c-b254-dd6530e27ec6}" name="zhang_liang.ktr" trigger_file="../triggers/zhang_liang.ktr"/>
+ </NODE>
+ <NODE hidden="false" id="{d92a22a5-e0d3-4cb1-9d42-9bc65535b2af}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/pan_camera_zhang_liang02.xml" hidden="false" id="{ee4708a2-953f-4a2a-9207-030acf3d69b2}" name="pan_camera_zhang_liang02.xml"/>
+ </NODE>
+</SCENE_FILE>

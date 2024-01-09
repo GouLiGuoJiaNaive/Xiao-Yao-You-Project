@@ -1,0 +1,32 @@
+<SCENE_FILE hidden="false" version="25" end_record_time="74.90000390633941" perspective_camera="43.8616,30.4034,5.18841:40.885,23.7564,-13.4384" start_record_time="0" id="{3283e1ef-b35d-4d71-bb3b-c8e77d33a761}">
+ <ENVIRONMENT hidden="false" name="Environment" data="" order="0" id="{4fc4330c-c258-48a0-8810-17a0c3c08041}"/>
+ <VECTOR hidden="false" name="position" link_id="0" unique_id="{01c92398-5862-4624-9419-d2db021cbb48}" is_linked="0" surface_mode="Freeform" id="{01c92398-5862-4624-9419-d2db021cbb48}">
+  <DOUBLE animated="1" hidden="false" name="X" default="0" order="0" single_keyframe_only="1" id="{eb454972-2c50-46a6-9c35-2ba95250e8f2}"/>
+  <DOUBLE animated="1" hidden="false" name="Y" default="0" order="1" single_keyframe_only="1" id="{fe5d8676-f323-4d0b-ab31-1c04c73ff708}"/>
+  <DOUBLE animated="1" hidden="false" name="Z" default="0" order="2" single_keyframe_only="1" id="{98e8256c-8237-4b07-9906-1aad75ba7791}"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{cedb132f-1afe-4cc1-948c-359a2af547eb}">
+  <RADIAN animated="1" hidden="false" name="X" default="0" order="0" single_keyframe_only="1" id="{c3f70ffd-6c07-4641-be5d-396c218021ed}"/>
+  <RADIAN animated="1" hidden="false" name="Y" default="0" order="1" single_keyframe_only="1" id="{df02227d-4803-476a-9906-0cbfda466983}"/>
+  <RADIAN animated="1" hidden="false" name="Z" default="0" order="2" single_keyframe_only="1" id="{0d6275d3-fe16-4ccd-bfc4-48e333562eae}"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" name="Links" id="{675fcde6-106b-430e-85ae-b9ea5550bb1e}"/>
+ <NODE hidden="false" name="Composite Scenes" id="{425175ab-951a-4b7f-9416-7901c62b04da}">
+  <COMPOSITE_SCENE hidden="false" name="parked_ships_13.kfcs" composite_scene_file="../csc_ref/parked_ships_13.kfcs" id="{fdbee80f-d81e-4430-a047-f6b07bf320a7}"/>
+  <COMPOSITE_SCENE hidden="false" name="liu_bei_arrive_romance.kfcs" composite_scene_file="../csc_ref/liu_bei_arrive_romance.kfcs" id="{3c23edb8-62e5-4fc5-8052-2c4c93c69988}"/>
+ </NODE>
+ <NODE hidden="false" name="Warscape Properties" id="{f88b997f-1645-4620-b9dc-403f97e98b54}">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/red_cliff_liu_bei.xml" hidden="false" name="red_cliff_liu_bei.xml" id="{582f9872-8710-4e57-bb17-64a3cb7fa6fb}"/>
+ </NODE>
+ <NODE hidden="false" name="Point Lights" id="{b0159368-319d-4666-871e-525cce6eba4a}">
+  <POINT_LIGHT hidden="false" name="liu_bei_point_light_01.kfl" point_light_file="../lights/liu_bei_point_light_01.kfl" id="{5fabb591-d91e-41ca-99e8-e26201182c57}"/>
+ </NODE>
+ <NODE hidden="false" name="Audio Events" id="{9ada4391-18f8-4a7f-9eae-db4b546c9bbf}">
+  <AUDIO_EVENT hidden="false" name="red_cliff_advice_01.kfa" audio_event_file="../audio/red_cliff_advice_01.kfa" id="{aba05f6d-9bdf-4bbe-9cd7-8a2955e103a9}"/>
+  <AUDIO_EVENT hidden="false" name="red_cliff_sweetner_pass.kfa" audio_event_file="../audio/red_cliff_sweetner_pass.kfa" id="{0373ea49-b40f-4f54-90e3-c231cc2304c3}"/>
+  <AUDIO_EVENT hidden="false" name="red_cliff_advice_02.kfa" audio_event_file="../audio/red_cliff_advice_02.kfa" id="{6a01168e-c624-4d41-a8e4-f66463eb0269}"/>
+  <AUDIO_EVENT hidden="false" name="red_cliff_advice_03.kfa" audio_event_file="../audio/red_cliff_advice_03.kfa" id="{c5f69fd6-35da-4c7e-80e3-061fc7678d5a}"/>
+  <AUDIO_EVENT hidden="false" name="red_cliff_advice_05.kfa" audio_event_file="../audio/red_cliff_advice_05.kfa" id="{dd1d5213-3512-4431-932b-3d8e19f699b3}"/>
+  <AUDIO_EVENT hidden="false" name="red_cliff_advice_04.kfa" audio_event_file="../audio/red_cliff_advice_04.kfa" id="{d132d4cb-22d1-4224-b98e-396edc99a125}"/>
+ </NODE>
+</SCENE_FILE>

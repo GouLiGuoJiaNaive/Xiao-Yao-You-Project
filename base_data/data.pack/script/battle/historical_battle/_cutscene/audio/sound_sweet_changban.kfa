@@ -1,0 +1,12 @@
+<AUDIO_EVENT_FILE hidden="false" audio_event_name="Play_Movie_3K_Historical_Battle_Changban" version="25" id="{25f99c61-f564-4b06-96ac-40a4ea804e34}">
+ <VECTOR name="position" unique_id="{552011bf-67eb-4515-9be4-ce2aadaf1437}" is_linked="0" hidden="false" surface_mode="Freeform" link_id="-1" id="{552011bf-67eb-4515-9be4-ce2aadaf1437}">
+  <DOUBLE name="X" order="0" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{18be00f5-261c-4dc0-9ff6-39bf6a9f2be7}"/>
+  <DOUBLE name="Y" order="1" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{1bdcc8ef-7fc6-49ea-8d22-4a1a5f50df02}"/>
+  <DOUBLE name="Z" order="2" single_keyframe_only="1" default="0" hidden="false" animated="0" id="{94e6c7b6-35e9-4d65-b948-bc69d48f7ab3}"/>
+ </VECTOR>
+ <BOOL name="active" order="2" single_keyframe_only="0" default="0" hidden="false" animated="1" user_friendy_name="Active" id="{930c2b3e-6cc7-4ab5-99ce-962132337d83}">
+  <KEYFRAME data="0" time="8.733330726623535"/>
+  <KEYFRAME data="1" time="10.00000095367432"/>
+ </BOOL>
+ <DOUBLE name="volume" order="3" single_keyframe_only="1" default="100" hidden="false" animated="0" user_friendy_name="Volume" id="{fd09a6c0-e9f0-497b-a3fa-3bf3bff746b9}"/>
+</AUDIO_EVENT_FILE>

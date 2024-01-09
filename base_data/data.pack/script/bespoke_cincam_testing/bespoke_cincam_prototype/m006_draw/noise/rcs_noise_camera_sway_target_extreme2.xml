@@ -1,0 +1,20 @@
+<NOISE_FILE name="RCS_NOISE_camera_sway_target_extreme2.xml" version="23">
+ <DOUBLE name="Amplitude" default="50" animated="0" order="0" hidden="false" single_keyframe_only="1">
+  <KEYFRAME time="0" data="4"/>
+ </DOUBLE>
+ <DOUBLE name="Frequency" default="1" animated="0" order="0" hidden="false" single_keyframe_only="1">
+  <KEYFRAME time="0" data="30"/>
+ </DOUBLE>
+ <INT name="Number of Octaves" default="3" animated="0" order="0" hidden="false" single_keyframe_only="1">
+  <KEYFRAME time="0" data="1"/>
+ </INT>
+ <DOUBLE name="Offset" default="10" animated="0" order="0" hidden="false" single_keyframe_only="1">
+  <KEYFRAME time="0" data="10"/>
+ </DOUBLE>
+ <DOUBLE name="Persistence" default="0.5" animated="0" order="0" hidden="false" single_keyframe_only="1">
+  <KEYFRAME time="0" data="0.5"/>
+ </DOUBLE>
+ <DOUBLE name="Lacunarity" default="2" animated="0" order="0" hidden="false" single_keyframe_only="1">
+  <KEYFRAME time="207.2666931152344" data="2"/>
+ </DOUBLE>
+</NOISE_FILE>

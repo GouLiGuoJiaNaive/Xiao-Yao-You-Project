@@ -1,0 +1,11 @@
+<TRIGGER_FILE version="26" id="{e93484ce-bf8b-4ba9-8d84-196d7cabc581}" hidden="false">
+ <STRING name="Timeline" id="{81c01225-554a-484b-8967-6b73a1192833}" hidden="false" order="0">
+  <KEYFRAME time="4.533333778381348" data="cao_cao_advisor_01"/>
+  <KEYFRAME time="13.66375064849854" data="cao_cao_advisor_02"/>
+  <KEYFRAME time="24.30709266662598" data="cao_cao_advisor_03"/>
+  <KEYFRAME time="38.33041763305664" data="cao_cao_advisor_04"/>
+  <KEYFRAME time="47.75121307373047" data="cao_cao_advisor_05"/>
+  <KEYFRAME time="53.00096893310547" data="cao_cao_advisor_06"/>
+  <KEYFRAME time="65.80174255371094" data="cao_cao_advisor_07"/>
+ </STRING>
+</TRIGGER_FILE>

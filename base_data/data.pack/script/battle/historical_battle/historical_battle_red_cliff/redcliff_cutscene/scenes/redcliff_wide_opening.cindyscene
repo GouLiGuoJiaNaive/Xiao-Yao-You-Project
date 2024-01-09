@@ -1,0 +1,41 @@
+<SCENE_FILE start_record_time="0" id="{90a1c6eb-cd67-41b9-aa57-ef8a71767a3b}" hidden="false" end_record_time="51.53333602100611" version="26" perspective_camera="22.2924,94.159,582.481:22.5602,93.1407,564.405">
+ <ENVIRONMENT order="0" id="{8871f00b-12c5-4589-b836-dfb7b5652126}" hidden="false" name="Environment" data="script/battle/historical_battle/historical_battle_red_cliff/redcliff_cutscene/weather/red_cliff_cutscene.environment"/>
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{54e6e2c5-2d4d-4463-bb51-63e41e51af14}" hidden="false" unique_id="{54e6e2c5-2d4d-4463-bb51-63e41e51af14}" name="position">
+  <DOUBLE order="0" id="{4e961b7f-b99f-44ab-b1f5-3aa679dda020}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="X">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{fe7bf583-0cd7-4113-97fb-2210afc3f854}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Y">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{5d73c28a-3a23-4dd9-b15d-e77c1542d5b3}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Z">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{5bb60a0e-37bf-47a2-bf4a-5f9bf603cc75}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{f872b975-62da-4251-a007-35ca8667062c}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="X"/>
+  <RADIAN order="1" id="{5680e57b-cf0d-4310-8c0c-2357bebfc3dc}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Y"/>
+  <RADIAN order="2" id="{7b60f473-aae3-4473-96e7-fc9306714747}" hidden="false" single_keyframe_only="1" animated="1" default="0" name="Z"/>
+ </ROTATION_AXES>
+ <NODE id="{f7a041c3-6d10-4dc9-ac88-1793996f6bdf}" hidden="false" name="Links"/>
+ <NODE id="{4f6b9f98-c89b-4155-96f9-a4b4278feb9e}" hidden="false" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{1fe068f3-4141-4e23-89aa-f8d3327ac703}" hidden="false" composite_scene_file="../csc_ref/caocao_and_generals_01.kfcs" name="caocao_and_generals_01.kfcs"/>
+ </NODE>
+ <NODE id="{814a9b54-d965-48d5-971b-2d39716e5aea}" hidden="false" name="Point Lights">
+  <POINT_LIGHT id="{531105a2-6cfd-4423-b9e2-8092d721805b}" hidden="false" point_light_file="../lights/brazier_light_01.kfl" name="brazier_light_01.kfl"/>
+ </NODE>
+ <NODE id="{8af08f9e-37a6-499b-b66a-39c5cc49e3f5}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{5ffcebb8-2885-446a-8137-fbcd14693035}" hidden="false" warscape_properties_file="../cameras/redcliff_wide_opening.xml" name="redcliff_wide_opening.xml"/>
+  <WARSCAPE_PROPERTIES id="{6db2e2c8-4058-409e-85e6-32dd78bef091}" hidden="false" warscape_properties_file="../cameras/fade_in_and_out.xml" name="fade_in_and_out.xml"/>
+ </NODE>
+ <NODE id="{c26e2e58-4b4a-499b-98dc-f0b9d09c1c17}" hidden="false" name="Audio Events">
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_01.kfa" id="{7e088d5d-b856-459d-8937-6d88d0463f21}" hidden="false" name="red_cliff_advice_01.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_sweetner_pass.kfa" id="{a7ef2a47-06e9-4374-9c74-8ec177d4424e}" hidden="false" name="red_cliff_sweetner_pass.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_02.kfa" id="{cc7e0d64-c288-48cf-a829-18f6f5d84855}" hidden="false" name="red_cliff_advice_02.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_03.kfa" id="{224ed2ed-3620-4e0d-8c35-613c410bc6b7}" hidden="false" name="red_cliff_advice_03.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_05.kfa" id="{422a480c-e5e7-49e8-a364-b45315767ab3}" hidden="false" name="red_cliff_advice_05.kfa"/>
+  <AUDIO_EVENT audio_event_file="../audio/red_cliff_advice_04.kfa" id="{4d5511f3-6177-4084-b59b-906fb5272f94}" hidden="false" name="red_cliff_advice_04.kfa"/>
+ </NODE>
+ <NODE id="{650f2728-b896-4d03-b618-c4a15d9bdcf1}" hidden="false" name="Triggers">
+  <TRIGGER id="{14ae69fb-277f-457a-a738-17d0eeddabe7}" trigger_file="../triggers/start_fade_in.ktr" hidden="false" name="start_fade_in.ktr"/>
+ </NODE>
+</SCENE_FILE>

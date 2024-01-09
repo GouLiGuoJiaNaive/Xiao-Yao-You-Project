@@ -1,0 +1,5 @@
+<TRIGGER_FILE version="25" id="{cc2bf566-6738-43b2-a127-337f8990bfe1}" hidden="false">
+ <STRING name="Timeline" id="{dfb7a71c-2958-474a-b605-4db8163711e8}" order="0" hidden="false">
+  <KEYFRAME data="change_me" time="3.266666889190674"/>
+ </STRING>
+</TRIGGER_FILE>

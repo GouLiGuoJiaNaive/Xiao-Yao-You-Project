@@ -1,0 +1,28 @@
+<COMPOSITE_SCENE_FILE directory="script/battle/historical_battle/historical_battle_xiapi/composite_scene/scene01_catapult_projectile.csc" hidden="false" version="25" id="{673c07c1-1f17-4a74-ba99-dda5956341ec}">
+ <VECTOR unique_id="{41ac4983-b8a3-4cce-b758-fbbf50048438}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{41ac4983-b8a3-4cce-b758-fbbf50048438}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="0" default="0" id="{0eebe7ab-d2eb-44cd-a366-809393f251c5}">
+   <KEYFRAME data="-84.78036499023438" time="64.9000244140625"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="0" default="0" id="{910c12b2-e621-4120-aae0-f3c5802eeaed}">
+   <KEYFRAME data="207.6121063232422" time="64.9000244140625"/>
+   <KEYFRAME handle2_x="65.8889" handle2_y="218.936" handle2_type="SMOOTH" data="211.42919921875" time="65.23335266113281"/>
+   <KEYFRAME data="220.73753356933594" time="67.19999694824219"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="0" default="0" id="{d7bf8309-dadc-4e5c-8801-f57e491b2335}">
+   <KEYFRAME data="-633.934326171875" time="64.9000244140625"/>
+   <KEYFRAME handle2_x="65.8889" handle2_y="-582.702" handle2_type="SMOOTH" data="-616.6650390625" time="65.23335266113281"/>
+   <KEYFRAME data="-507.88690185546875" time="67.19999694824219"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{0e45b3db-9400-4cc6-ba25-fa6d50727d01}">
+  <RADIAN name="X" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{5ae87f67-ed63-4d1c-853d-3f454ac979e6}"/>
+  <RADIAN name="Y" hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" id="{9e1451c0-cd87-4dfd-9fcf-97717b8692b6}"/>
+  <RADIAN name="Z" hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" id="{a7452d61-9fc9-462a-a3b0-b8ee9f0732d3}"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" name="scale" hidden="false" order="2" animated="0" single_keyframe_only="1" default="1" id="{72cada83-2818-4f24-a2a3-8acad7a6b1b9}"/>
+ <BOOL user_friendy_name="Active" name="active" hidden="false" order="3" animated="1" single_keyframe_only="0" default="0" id="{28ef30a4-d5c1-4de7-b2ba-8ae30b84b73b}">
+  <KEYFRAME data="0" time="64.60000610351563"/>
+  <KEYFRAME data="1" time="64.9000244140625"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" name="speed_multiplier" hidden="false" order="4" animated="1" single_keyframe_only="0" default="1" id="{11cbb21c-93c0-44d8-9b37-3ddd418627be}"/>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,11 @@
+<TRIGGER_FILE hidden="false" version="26" id="{47b50750-30ab-43e7-ba96-4270183bc712}">
+ <STRING hidden="false" order="0" id="{d5421878-0b80-4f09-b835-1de2ad31c088}" name="Timeline">
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_shi_xie_01_advisor" time="1.200000047683716"/>
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_shi_xie_02_advisor" time="9.70000171661377"/>
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_shi_xie_03_advisor" time="18.19999694824219"/>
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_shi_xie_04_advisor" time="30.50000190734863"/>
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_shi_xie_05_advisor" time="45.50000381469727"/>
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_shi_xie_06_advisor" time="57.50000381469727"/>
+  <KEYFRAME data="3k_dlc06_194_campaign_faction_intro_shi_xie_07_advisor" time="71"/>
+ </STRING>
+</TRIGGER_FILE>

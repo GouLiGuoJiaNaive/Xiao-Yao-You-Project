@@ -1,0 +1,32 @@
+<SCENE_FILE id="{644b68fe-0c8e-4c6c-8ab7-ab17609b24da}" start_record_time="0" end_record_time="67.0000034943223" hidden="false" perspective_camera="201.1,12.0145,310.085:203.485,8.18564,317.286" version="26">
+ <ENVIRONMENT id="{4479094b-3fc1-4f77-b6f0-58d852456f7d}" hidden="false" name="Environment" order="0" data=""/>
+ <VECTOR id="{db05426a-6e26-48ab-a361-a07245e46f4a}" hidden="false" name="position" link_id="0" surface_mode="Freeform" unique_id="{db05426a-6e26-48ab-a361-a07245e46f4a}" is_linked="0">
+  <DOUBLE id="{97518ca6-3a53-405c-bd65-cb7b10b3f478}" hidden="false" name="X" animated="0" single_keyframe_only="1" default="0" order="0">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE id="{39b53ad5-34e9-47e8-8d90-05f6828f3623}" hidden="false" name="Y" animated="0" single_keyframe_only="1" default="0" order="1">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+  <DOUBLE id="{b923a511-fc3d-4513-ba15-42f0a7e944bb}" hidden="false" name="Z" animated="0" single_keyframe_only="1" default="0" order="2">
+   <KEYFRAME time="0" data="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{4524a652-21cd-4099-bbab-b100a2ceb56c}" hidden="false" name="rotation">
+  <RADIAN id="{1cce6ada-5661-4584-9e5d-f3382c71cb7c}" hidden="false" name="X" animated="0" single_keyframe_only="1" default="0" order="0">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN id="{c1f37af2-47da-46fa-a9f6-2f95eab9aec8}" hidden="false" name="Y" animated="0" single_keyframe_only="1" default="0" order="1">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN id="{74fc8947-a6e4-42fa-bb2e-c0a4f3f6ad85}" hidden="false" name="Z" animated="0" single_keyframe_only="1" default="0" order="2">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{7e929ee4-55bc-4eef-ace4-31852042556f}" hidden="false" name="Links"/>
+ <NODE id="{2688ca80-5be5-46a5-b946-b4cfc1d615d9}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{6fea9835-542a-42f5-a45b-df6be4febb50}" hidden="false" name="king_mulu_cam.xml" warscape_properties_file="../cameras/king_mulu_cam.xml"/>
+ </NODE>
+ <NODE id="{0e44b695-223f-4052-990b-b48e0b2d94b6}" hidden="false" name="Triggers">
+  <TRIGGER id="{85dfc968-0b21-4d13-b028-fbf736c7d471}" trigger_file="../triggers/king_mulu_200.ktr" hidden="false" name="king_mulu_200.ktr"/>
+ </NODE>
+</SCENE_FILE>

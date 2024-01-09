@@ -1,0 +1,28 @@
+<SCENE_FILE id="{a4b1a086-6d0d-49db-ab6d-b3a53c55ab52}" perspective_camera="266.018,6.79096,395.728:278.432,-6.36047,363.956" hidden="false" version="26" end_record_time="64.10000334307551" start_record_time="0">
+ <ENVIRONMENT order="0" data="" id="{c9d91e70-4322-41e6-9772-ffe0a9f67e78}" name="Environment" hidden="false"/>
+ <VECTOR id="{ddda841a-0adb-4c46-b04f-43465cf43c56}" name="position" hidden="false" surface_mode="Freeform" link_id="0" is_linked="0" unique_id="{ddda841a-0adb-4c46-b04f-43465cf43c56}">
+  <DOUBLE order="0" id="{6392641c-98a2-4c99-ba52-6e721ef4452e}" name="X" hidden="false" single_keyframe_only="1" animated="1" default="0"/>
+  <DOUBLE order="1" id="{5e08640b-d100-4862-8f09-0dd745fc6f13}" name="Y" hidden="false" single_keyframe_only="1" animated="1" default="0"/>
+  <DOUBLE order="2" id="{b4847db3-24d0-47f2-b4cb-108705b74403}" name="Z" hidden="false" single_keyframe_only="1" animated="1" default="0"/>
+ </VECTOR>
+ <ROTATION_AXES id="{6912feb1-a6b0-47bd-ba52-c8b6e7b72f46}" name="rotation" hidden="false">
+  <RADIAN order="0" id="{6c76a0f1-4a8b-483b-b8f9-667a6956bc99}" name="X" hidden="false" single_keyframe_only="1" animated="1" default="0"/>
+  <RADIAN order="1" id="{4ddbe768-e3ac-4145-adc6-736f392b0c89}" name="Y" hidden="false" single_keyframe_only="1" animated="1" default="0"/>
+  <RADIAN order="2" id="{fa5857e9-8eb7-4941-bdb5-1aa17c0d6082}" name="Z" hidden="false" single_keyframe_only="1" animated="1" default="0"/>
+ </ROTATION_AXES>
+ <NODE id="{406eeb09-5408-4279-a4fb-576bcc338b2a}" name="Links" hidden="false"/>
+ <NODE id="{714b528f-8996-48f4-81cc-7cd88b198f06}" name="Warscape Properties" hidden="false">
+  <WARSCAPE_PROPERTIES id="{41e36f5e-721e-46ab-a070-4440d9f8d43f}" name="pan_camera_sun_jian.xml" hidden="false" warscape_properties_file="../cameras/pan_camera_sun_jian.xml"/>
+ </NODE>
+ <NODE id="{8c7b0700-9641-46c2-b574-f4f8c66fe54a}" name="Triggers" hidden="false">
+  <TRIGGER id="{b9182551-bc52-4841-b381-7d085e4b11e0}" name="sun_jian.ktr" hidden="false" trigger_file="../triggers/sun_jian.ktr"/>
+ </NODE>
+ <NODE id="{ac73a43b-9e4f-4c30-9b3d-fa6da65e6571}" name="Composite Scenes" hidden="false">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/general_eunuch_argue.kfcs" id="{b7386ebc-f3b1-4607-a650-a0e0e463c595}" name="general_eunuch_argue.kfcs" hidden="false"/>
+ </NODE>
+ <NODE id="{e53c625e-2246-4ede-b1fb-00de934d5a0e}" name="Particle Effects" hidden="false">
+  <EFFECT id="{e3fca40c-70be-4c37-86b8-a44c5f27a106}" name="rebellions_fire_01.kfe" effect_file="../particles/rebellions_fire_01.kfe" hidden="false"/>
+  <EFFECT id="{23c008aa-a12c-47d6-9f19-8e20a1b6be09}" name="rebellions_fire_02.kfe" effect_file="../particles/rebellions_fire_02.kfe" hidden="false"/>
+  <EFFECT id="{8955afda-9eb6-4b0f-9283-09972ec13d00}" name="rebellions_fire_03.kfe" effect_file="../particles/rebellions_fire_03.kfe" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

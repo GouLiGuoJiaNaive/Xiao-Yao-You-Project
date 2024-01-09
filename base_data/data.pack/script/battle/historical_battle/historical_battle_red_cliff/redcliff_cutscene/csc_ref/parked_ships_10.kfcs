@@ -1,0 +1,30 @@
+<COMPOSITE_SCENE_FILE id="{a5cc1632-78ab-400c-a28b-b77210264be0}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/static_crashed_burning_ships.csc" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{91e967f5-d4e2-44a0-b588-3754557683fd}" hidden="false" unique_id="{91e967f5-d4e2-44a0-b588-3754557683fd}" name="position">
+  <DOUBLE order="0" id="{ccb462df-2336-4818-abe9-4df03e75302b}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X">
+   <KEYFRAME time="0.4000014662742615" data="-28.66236114501953"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{91d05703-4690-4270-8324-6a1d7b9d0e01}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="0.4000014662742615" data="11.505308151245117"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{94409730-535a-4629-a787-1084491cb186}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z">
+   <KEYFRAME time="0.4000014662742615" data="-84.15817260742188"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{1297a5bc-3f2b-4900-8b18-b940830dd398}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{437a7c8d-480f-4305-9b94-d43d25ad355d}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X">
+   <KEYFRAME time="0.4000014662742615" data="0"/>
+  </RADIAN>
+  <RADIAN order="1" id="{38bf6254-ac1c-4dd6-99a1-d7e16ee404ca}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="0.4000014662742615" data="1.7454314231872559"/>
+  </RADIAN>
+  <RADIAN order="2" id="{63c0cc11-e3ac-401d-838c-7a58dd3d3c4e}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z">
+   <KEYFRAME time="0.4000014662742615" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{14f6dd6d-c026-4f71-b57e-e9dccc992d77}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale"/>
+ <BOOL order="3" id="{80e8f810-1d93-4f15-97e4-2e6a1ec37b42}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="54.20000076293945" data="0"/>
+  <KEYFRAME time="54.20100021362305" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" id="{e5239fb3-20a0-4775-8571-7a28e234dd24}" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" animated="1" default="1" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

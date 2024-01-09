@@ -1,0 +1,9 @@
+<TRIGGER_FILE id="{ff8be97a-8829-45aa-9d6a-a0169fa24560}" hidden="false" version="26">
+ <STRING name="Timeline" id="{0d7d693e-2100-4e24-bcfa-a9dabd22af29}" hidden="false" order="0">
+  <KEYFRAME time="1" data="gongsun_zan_advisor_01"/>
+  <KEYFRAME time="10.66399478912354" data="gongsun_zan_advisor_02"/>
+  <KEYFRAME time="29.46900367736816" data="gongsun_zan_advisor_03"/>
+  <KEYFRAME time="46.30801010131836" data="gongsun_zan_advisor_04"/>
+  <KEYFRAME time="61.6810188293457" data="gongsun_zan_advisor_05"/>
+ </STRING>
+</TRIGGER_FILE>

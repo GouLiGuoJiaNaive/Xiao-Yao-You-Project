@@ -1,0 +1,37 @@
+<SCENE_FILE start_record_time="0" perspective_camera="-66.3139,7.54568,-678.858:-95.8238,10.4178,-570.931" version="25" id="{1c5500bd-0b73-46a8-882b-7192420999a4}" hidden="false" end_record_time="81.50000425055623">
+ <ENVIRONMENT name="Environment" data="" id="{b4466140-d871-48ca-a3b1-99b27b54ba62}" hidden="false" order="0"/>
+ <VECTOR link_id="0" name="position" surface_mode="Freeform" is_linked="0" id="{b6294960-89d2-4a55-adcd-17aab16f43a3}" hidden="false" unique_id="{b6294960-89d2-4a55-adcd-17aab16f43a3}">
+  <DOUBLE single_keyframe_only="1" default="0" name="X" id="{05ea674f-a07d-4c22-815c-5d5c2a252eda}" hidden="false" order="0" animated="1"/>
+  <DOUBLE single_keyframe_only="1" default="0" name="Y" id="{76979699-d85f-4405-8f99-8681d982452f}" hidden="false" order="1" animated="1"/>
+  <DOUBLE single_keyframe_only="1" default="0" name="Z" id="{d4275a44-19f1-4901-9ab0-3e46b4c02e57}" hidden="false" order="2" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{d1d6fadc-a648-4aea-896d-3456ef02609e}" hidden="false">
+  <RADIAN single_keyframe_only="1" default="0" name="X" id="{ffa869b5-2ae3-45bc-b029-01c8e7b20498}" hidden="false" order="0" animated="1"/>
+  <RADIAN single_keyframe_only="1" default="0" name="Y" id="{9500ac3d-4da7-4c71-b009-4d687298f5da}" hidden="false" order="1" animated="1"/>
+  <RADIAN single_keyframe_only="1" default="0" name="Z" id="{aaee76a1-f7cd-499c-9234-ff3dd0adc369}" hidden="false" order="2" animated="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{56b01923-38be-41b4-8cbd-ff0df6710f5e}" hidden="false"/>
+ <NODE name="Composite Scenes" id="{71cc4f4b-1028-4d84-8dea-7fbabe9485d1}" hidden="false">
+  <COMPOSITE_SCENE name="lubu_angry_romance.kfcs" id="{5ba3e37c-10d1-498e-a966-b3f1c728b901}" hidden="false" composite_scene_file="../csc_ref/lubu_angry_romance.kfcs"/>
+  <COMPOSITE_SCENE name="tower_02.kfcs" id="{4f2cf32b-52af-4bc6-bdbc-d6da27c2967a}" hidden="false" composite_scene_file="../csc_ref/tower_02.kfcs"/>
+ </NODE>
+ <NODE name="Particle Effects" id="{e8a21d02-26ae-4b97-bb0d-525bb7cc82af}" hidden="false">
+  <EFFECT name="effect_file_01.kfe" effect_file="../particles/effect_file_01.kfe" id="{024a4dbf-f31a-4ea6-ae44-784017124611}" hidden="false"/>
+  <EFFECT name="collapse_01.kfe" effect_file="../particles/collapse_01.kfe" id="{bb9c853f-bf22-4707-bf0c-0d3c2bca6e84}" hidden="false"/>
+ </NODE>
+ <NODE name="Warscape Properties" id="{97dbda30-3b91-4668-821b-5779cfce6e12}" hidden="false">
+  <WARSCAPE_PROPERTIES name="shot08_lu_bu_angry02.xml" id="{e99f1966-f02c-4b88-9f98-7a3806fdaea1}" warscape_properties_file="../cameras/shot08_lu_bu_angry02.xml" hidden="false"/>
+ </NODE>
+ <NODE name="Audio Events" id="{172f4bd2-0c6c-45b9-a242-325677236640}" hidden="false">
+  <AUDIO_EVENT name="audio_event_file_01.kfa" audio_event_file="../audio/audio_event_file_01.kfa" id="{c1ff67a8-a2da-4864-aa99-e57ce04398cb}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_02.kfa" audio_event_file="../audio/audio_event_file_02.kfa" id="{dfea2ec0-3a2f-430e-8b7e-b713a2885297}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_03.kfa" audio_event_file="../audio/audio_event_file_03.kfa" id="{ec2dc8fd-d4ec-45ba-b00c-bb496d0a5756}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_04.kfa" audio_event_file="../audio/audio_event_file_04.kfa" id="{58114dd6-bec6-4876-bfa5-6e5d3ae1aa99}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_05.kfa" audio_event_file="../audio/audio_event_file_05.kfa" id="{7a369f4f-ef4f-4772-a4ca-1af132279e7f}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_06.kfa" audio_event_file="../audio/audio_event_file_06.kfa" id="{271eeea4-c2f0-4360-8d36-5c7ce8d02f06}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_07.kfa" audio_event_file="../audio/audio_event_file_07.kfa" id="{4579cf8f-a92c-40a4-8355-aa3a7a023512}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_08.kfa" audio_event_file="../audio/audio_event_file_08.kfa" id="{1a698ae4-7c5a-4fd2-aaf5-ec6e2decdae5}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_09.kfa" audio_event_file="../audio/audio_event_file_09.kfa" id="{ce6d367e-2a5d-454b-83cd-6783e1e55167}" hidden="false"/>
+  <AUDIO_EVENT name="sweetener_pass.kfa" audio_event_file="../audio/sweetener_pass.kfa" id="{1d110453-df7f-4f19-ac61-42108e124be4}" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

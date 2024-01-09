@@ -1,0 +1,7 @@
+<SCENE_MANAGER_FILE start_record_time="10.00000052154064" hidden="false" end_record_time="46.33333574980497" version="25" perspective_camera="-136.32,607.86,10.09:-144.94,604.47,24.33" id="{7d36f103-a5dd-4982-932a-2555f55af76f}">
+ <START_SCENE scene="historical_battle_intros_changban_r02_s01.CindyScene" real_time="0"/>
+ <NODE hidden="false" name="Links" id="{4daa4a2c-c76e-4ae9-a42d-4a28cb65427e}"/>
+ <NODE hidden="false" name="Scenes" id="{809dd851-c8c0-43d7-8218-56079d5fefd0}">
+  <SCENE hidden="false" scene_file="../scenes/historical_battle_intros_changban_r02_s01.CindyScene" name="historical_battle_intros_changban_r02_s01.CindyScene" id="{9e142584-0261-4a20-9f51-d5a0cfb67638}"/>
+ </NODE>
+</SCENE_MANAGER_FILE>

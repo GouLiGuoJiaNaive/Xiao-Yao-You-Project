@@ -1,0 +1,41 @@
+<COMPOSITE_SCENE_FILE id="{37d39afa-5cdd-4348-a739-f0888893b41c}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/fire_ship_burning_attack.csc" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{d953f4c2-56e2-4583-890a-d73ae977674b}" hidden="false" unique_id="{d953f4c2-56e2-4583-890a-d73ae977674b}" name="position">
+  <DOUBLE order="0" id="{c884aa8f-a507-4e09-8dc7-a21e4880ba42}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="X">
+   <KEYFRAME time="51.33333969116211" data="-46.941444396972656"/>
+   <KEYFRAME time="53.56667327880859" data="-35.99079513549805"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{d0b7f3d4-ee3b-459b-8f28-b2921e7eb6c2}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Y">
+   <KEYFRAME time="51.4333381652832" data="14.398370742797852"/>
+   <KEYFRAME time="53.56667327880859" data="14.398370742797852"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{df79657e-8f3c-4ade-abca-4f1cbc8698cc}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Z">
+   <KEYFRAME time="51.33333969116211" data="-228.85020446777344"/>
+   <KEYFRAME time="53.56667327880859" data="-187.68093872070312"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{50b3c3fb-77a3-4505-920d-4faa0c56fee8}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{c1178cf6-b398-449d-bae6-f08604278078}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="X">
+   <KEYFRAME time="51.4333381652832" data="0"/>
+   <KEYFRAME time="53.50000762939453" data="0"/>
+  </RADIAN>
+  <RADIAN order="1" id="{b74f7425-cf07-4aea-9464-ca10909196cf}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Y">
+   <KEYFRAME time="51.50000762939453" data="3.401564121246338"/>
+   <KEYFRAME time="51.76667404174805" data="3.401564121246338"/>
+  </RADIAN>
+  <RADIAN order="2" id="{fa71de35-2ab9-4af3-aed4-76eb2fd28f5c}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Z">
+   <KEYFRAME time="51.4333381652832" data="0"/>
+   <KEYFRAME time="53.50000762939453" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{0585fe95-f7c1-437a-a1c0-287952f4cf94}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale">
+  <KEYFRAME time="49.70000457763672" data="1.2963262796401978"/>
+ </DOUBLE>
+ <BOOL order="3" id="{58e36dc5-7ace-41c8-b616-2b27510f7b40}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="48.73334121704102" data="0"/>
+  <KEYFRAME time="48.73434066772461" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" id="{058fc98a-4002-450f-8af5-1afa2603d9ce}" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" animated="1" default="1" name="speed_multiplier">
+  <KEYFRAME time="51.4333381652832" data="1"/>
+  <KEYFRAME time="53.50000762939453" data="1"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

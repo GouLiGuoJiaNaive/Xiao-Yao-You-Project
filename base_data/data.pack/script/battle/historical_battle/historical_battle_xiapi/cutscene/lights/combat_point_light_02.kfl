@@ -1,0 +1,24 @@
+<POINT_LIGHT_FILE id="{2f047a55-f7d0-4344-961f-ee4df370bf72}" name="combat_point_light_02.kfl" version="23">
+ <VECTOR unique_id="{06aae770-7de1-4619-b858-d2c745147b5f}" id="{06aae770-7de1-4619-b858-d2c745147b5f}" link_id="0" name="position" surface_mode="Freeform" is_linked="0">
+  <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="X" default="0" animated="0">
+   <KEYFRAME time="0" data="-0.0973365306854248"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="1" name="Y" default="0" animated="0">
+   <KEYFRAME time="0" data="198.9173583984375"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="2" name="Z" default="0" animated="0">
+   <KEYFRAME time="0" data="-84.67405700683594"/>
+  </DOUBLE>
+ </VECTOR>
+ <RGB name="colour">
+  <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="R" default="1024" animated="0"/>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="1" name="G" default="1024" animated="0"/>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="2" name="B" default="1024" animated="0"/>
+ </RGB>
+ <DOUBLE single_keyframe_only="1" hidden="false" order="3" name="Multiplier" default="100" animated="0">
+  <KEYFRAME time="0" data="15"/>
+ </DOUBLE>
+ <DOUBLE single_keyframe_only="1" hidden="false" order="4" name="Range" default="10" animated="0"/>
+ <DOUBLE single_keyframe_only="1" hidden="false" order="5" name="Scatter Diameter" default="0.2000000029802322" animated="0"/>
+ <BOOL single_keyframe_only="1" hidden="false" order="6" name="Casts Shadows" default="1" animated="0"/>
+</POINT_LIGHT_FILE>

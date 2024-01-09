@@ -1,0 +1,35 @@
+<SCENE_FILE version="26" id="{dec4a03e-70c2-46ef-a345-648d1ab5bff6}" end_record_time="67.0000034943223" start_record_time="0" perspective_camera="434.884,15.0962,257.181:433.724,9.77712,263.916" hidden="false">
+ <ENVIRONMENT order="0" data="" id="{69382ff7-0c03-4204-a0ae-6f249344d7ea}" name="Environment" hidden="false"/>
+ <VECTOR is_linked="0" surface_mode="Freeform" id="{9c965ff1-ee66-4655-a1db-d61dc4ed715f}" name="position" link_id="0" unique_id="{9c965ff1-ee66-4655-a1db-d61dc4ed715f}" hidden="false">
+  <DOUBLE order="0" single_keyframe_only="1" animated="1" default="0" id="{54c55153-db20-4cb3-8269-b4acc36e7679}" name="X" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="1" single_keyframe_only="1" animated="1" default="0" id="{0d1c4072-671b-49dd-916e-12eae5383109}" name="Y" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="2" single_keyframe_only="1" animated="1" default="0" id="{e51755e4-e60a-4f1b-b9dc-779e3b5b54d1}" name="Z" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{03712396-fdfd-4523-9fe0-1065e2a46cb5}" name="rotation" hidden="false">
+  <RADIAN order="0" single_keyframe_only="1" animated="1" default="0" id="{a9ee0cbd-10d2-4291-97d2-50e1d9a176ad}" name="X" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN order="1" single_keyframe_only="1" animated="1" default="0" id="{4754bc07-e163-49a3-8763-db7d47648cdb}" name="Y" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN order="2" single_keyframe_only="1" animated="1" default="0" id="{05c6cad3-d199-4c98-a6d1-e377be5c7ca3}" name="Z" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{61e1ee65-7af2-4540-a145-e40b9661637e}" name="Links" hidden="false"/>
+ <NODE id="{26759e9e-4e0b-4ea3-aab9-6f62b29dc039}" name="Warscape Properties" hidden="false">
+  <WARSCAPE_PROPERTIES id="{b090e997-ef96-4ed3-8b57-799518d042a7}" name="early_cam_yan_baihu.xml" warscape_properties_file="../cameras/early_cam_yan_baihu.xml" hidden="false"/>
+ </NODE>
+ <NODE id="{1059e80a-a4b8-462e-9c20-efc06c3dccd9}" name="Triggers" hidden="false">
+  <TRIGGER id="{a5dc78e1-f6ec-4d7e-b05c-aef8fa900cb8}" name="yan_baihu_main.ktr" trigger_file="../triggers/yan_baihu_main.ktr" hidden="false"/>
+ </NODE>
+ <NODE id="{e714bed1-93db-41d2-8eec-460edd5ce914}" name="Particle Effects" hidden="false">
+  <EFFECT id="{62e32899-ee68-4185-83b2-ae0a33f222a2}" name="yan_baihu_smoke.kfe" effect_file="../particles/yan_baihu_smoke.kfe" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

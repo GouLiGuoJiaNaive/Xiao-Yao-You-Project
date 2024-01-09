@@ -1,0 +1,23 @@
+<SCENE_FILE version="26" perspective_camera="266.018,6.79096,395.728:278.432,-6.36047,363.956" id="{e4dc2543-67c7-49d5-a3fe-d07c8396e0d6}" end_record_time="63.80000332742929" start_record_time="0" hidden="false">
+ <ENVIRONMENT id="{fcfa5341-70d5-4503-b540-9cc224664dc6}" hidden="false" name="Environment" order="0" data=""/>
+ <VECTOR link_id="0" id="{8e0ae1c0-f36c-4c6b-b616-716bc2501f34}" hidden="false" surface_mode="Freeform" name="position" unique_id="{8e0ae1c0-f36c-4c6b-b616-716bc2501f34}" is_linked="0">
+  <DOUBLE id="{461324ef-2259-41c7-a07e-8065a029557e}" single_keyframe_only="1" default="0" hidden="false" animated="1" name="X" order="0"/>
+  <DOUBLE id="{f48ae49c-1d9f-4b99-9288-d0fb11d969d4}" single_keyframe_only="1" default="0" hidden="false" animated="1" name="Y" order="1"/>
+  <DOUBLE id="{e550a133-2e7a-45f7-b1e2-0c1ee0705284}" single_keyframe_only="1" default="0" hidden="false" animated="1" name="Z" order="2"/>
+ </VECTOR>
+ <ROTATION_AXES id="{a352ccc1-2272-4ac4-a267-8d08d1723acb}" hidden="false" name="rotation">
+  <RADIAN id="{e146e447-814e-4b11-8999-fa153742ada4}" single_keyframe_only="1" default="0" hidden="false" animated="1" name="X" order="0"/>
+  <RADIAN id="{e95322aa-d0fd-438d-8ab6-00a5668ff03e}" single_keyframe_only="1" default="0" hidden="false" animated="1" name="Y" order="1"/>
+  <RADIAN id="{7cfb17ca-7869-427b-894d-51cbc12e4f50}" single_keyframe_only="1" default="0" hidden="false" animated="1" name="Z" order="2"/>
+ </ROTATION_AXES>
+ <NODE id="{9cb96c0f-a9de-408a-9d06-ce7b333fdffb}" hidden="false" name="Links"/>
+ <NODE id="{a29f4822-2069-41c4-92a5-ade26160575d}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{54337590-4b12-43b8-9b4e-f53226e07405}" warscape_properties_file="../cameras/pan_camera_tao_qian.xml" hidden="false" name="pan_camera_tao_qian.xml"/>
+ </NODE>
+ <NODE id="{5f3d14e9-de87-4526-9928-d0c29dd02bc7}" hidden="false" name="Triggers">
+  <TRIGGER id="{7b9f2cb7-f053-4a6e-b63e-9d31c77d20bd}" trigger_file="../triggers/tao_qian.ktr" hidden="false" name="tao_qian.ktr"/>
+ </NODE>
+ <NODE id="{7c4f74da-db97-49bb-9784-c9424490aeeb}" hidden="false" name="Composite Scenes">
+  <COMPOSITE_SCENE id="{48f9f45f-e22a-4ab9-8cce-cd4cdecf1077}" hidden="false" name="general_eunuch_argue.kfcs" composite_scene_file="../csc_ref/general_eunuch_argue.kfcs"/>
+ </NODE>
+</SCENE_FILE>

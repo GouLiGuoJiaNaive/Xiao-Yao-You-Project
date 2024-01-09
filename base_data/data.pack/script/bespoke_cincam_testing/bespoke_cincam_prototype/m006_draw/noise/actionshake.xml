@@ -1,0 +1,14 @@
+<NOISE_FILE version="23" name="actionshake.xml">
+ <DOUBLE user_friendy_name="Amplitude" hidden="false" single_keyframe_only="1" name="amplitude" default="20" animated="0" order="0">
+  <KEYFRAME time="0" data="10"/>
+ </DOUBLE>
+ <DOUBLE user_friendy_name="Frequency" hidden="false" single_keyframe_only="1" name="frequency" default="5" animated="0" order="1">
+  <KEYFRAME time="0" data="3"/>
+ </DOUBLE>
+ <INT user_friendy_name="Number of Octaves" hidden="false" single_keyframe_only="1" name="number_of_octaves" default="3" animated="0" order="2"/>
+ <DOUBLE user_friendy_name="Offset" hidden="false" single_keyframe_only="1" name="offset" default="10" animated="0" order="3">
+  <KEYFRAME time="0" data="3"/>
+ </DOUBLE>
+ <DOUBLE user_friendy_name="Persistence" hidden="false" single_keyframe_only="1" name="persistence" default="0.5" animated="0" order="4"/>
+ <DOUBLE user_friendy_name="Lacunarity" hidden="false" single_keyframe_only="1" name="lacunarity" default="2" animated="0" order="5"/>
+</NOISE_FILE>

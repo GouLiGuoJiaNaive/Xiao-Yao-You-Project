@@ -1,0 +1,30 @@
+<POINT_LIGHT_FILE id="{f83bd312-8840-4672-99b0-fc63f2e5d9b1}" name="lubu_light_02.kfl" version="23">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{317d5abd-f436-4336-a095-aa564a034437}" name="position" unique_id="{317d5abd-f436-4336-a095-aa564a034437}">
+  <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="X" animated="0" default="0">
+   <KEYFRAME data="-0.1766487658023834" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="1" name="Y" animated="0" default="0">
+   <KEYFRAME data="198.1786499023438" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="2" name="Z" animated="0" default="0">
+   <KEYFRAME data="14.78165435791016" time="10.03333377838135"/>
+  </DOUBLE>
+ </VECTOR>
+ <RGB name="colour">
+  <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="R" animated="0" default="1024">
+   <KEYFRAME data="534.0863037109375" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="1" name="G" animated="0" default="1024">
+   <KEYFRAME data="730.8549194335938" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="2" name="B" animated="0" default="1024">
+   <KEYFRAME data="1024" time="10.03333377838135"/>
+  </DOUBLE>
+ </RGB>
+ <DOUBLE single_keyframe_only="1" hidden="false" order="3" name="Multiplier" animated="0" default="100">
+  <KEYFRAME data="20" time="10.03333377838135"/>
+ </DOUBLE>
+ <DOUBLE single_keyframe_only="1" hidden="false" order="4" name="Range" animated="0" default="10"/>
+ <DOUBLE single_keyframe_only="1" hidden="false" order="5" name="Scatter Diameter" animated="0" default="0.2000000029802322"/>
+ <BOOL single_keyframe_only="1" hidden="false" order="6" name="Casts Shadows" animated="0" default="1"/>
+</POINT_LIGHT_FILE>

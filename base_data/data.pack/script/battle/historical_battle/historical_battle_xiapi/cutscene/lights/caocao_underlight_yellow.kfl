@@ -1,0 +1,54 @@
+<POINT_LIGHT_FILE id="{54e7b1f1-e24f-46d5-b6c9-5d84257daaca}" name="caocao_underlight_yellow.kfl" version="23">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{d21653d7-b2ba-41f2-b0a9-d27ef8ab5e65}" name="position" unique_id="{d21653d7-b2ba-41f2-b0a9-d27ef8ab5e65}">
+  <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="X" animated="0" default="0">
+   <KEYFRAME data="-1.294881343841553" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="1" name="Y" animated="0" default="0">
+   <KEYFRAME data="199.0555725097656" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="2" name="Z" animated="0" default="0">
+   <KEYFRAME data="-99.61318206787109" time="10.03333377838135"/>
+  </DOUBLE>
+  <NOISE noise_path="../noise/fire_wobble_01.xml" name="Noise" noise_file="fire_wobble_01.xml">
+   <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="Amount" animated="0" default="1">
+    <KEYFRAME data="1" time="10.03333377838135"/>
+   </DOUBLE>
+   <INT single_keyframe_only="0" hidden="false" order="1" name="Offset Multiplier" animated="1" default="1">
+    <KEYFRAME data="189" time="21.69999694824219"/>
+   </INT>
+  </NOISE>
+ </VECTOR>
+ <RGB name="colour">
+  <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="R" animated="0" default="1024">
+   <KEYFRAME data="1024" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="1" name="G" animated="0" default="1024">
+   <KEYFRAME data="959.7490234375" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="2" name="B" animated="0" default="1024">
+   <KEYFRAME data="469.8352966308594" time="10.03333377838135"/>
+  </DOUBLE>
+ </RGB>
+ <DOUBLE single_keyframe_only="0" hidden="false" order="3" name="Multiplier" animated="1" default="100">
+  <KEYFRAME data="5" time="10.03333377838135"/>
+  <NOISE noise_path="../noise/fire_wobble_01.xml" name="Noise" noise_file="fire_wobble_01.xml">
+   <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="Amount" animated="0" default="1">
+    <KEYFRAME data="5" time="10.03333377838135"/>
+   </DOUBLE>
+   <INT single_keyframe_only="1" hidden="false" order="1" name="Offset Multiplier" animated="0" default="31">
+    <KEYFRAME data="200" time="10.03333377838135"/>
+   </INT>
+  </NOISE>
+ </DOUBLE>
+ <DOUBLE single_keyframe_only="0" hidden="false" order="4" name="Range" animated="1" default="10">
+  <KEYFRAME data="5" time="10.03333377838135"/>
+  <NOISE noise_path="../noise/fire_wobble_01.xml" name="Noise" noise_file="fire_wobble_01.xml">
+   <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="Amount" animated="0" default="1"/>
+   <INT single_keyframe_only="0" hidden="false" order="1" name="Offset Multiplier" animated="1" default="66">
+    <KEYFRAME data="500" time="21.69999694824219"/>
+   </INT>
+  </NOISE>
+ </DOUBLE>
+ <DOUBLE single_keyframe_only="1" hidden="false" order="5" name="Scatter Diameter" animated="0" default="0.2000000029802322"/>
+ <BOOL single_keyframe_only="1" hidden="false" order="6" name="Casts Shadows" animated="0" default="1"/>
+</POINT_LIGHT_FILE>

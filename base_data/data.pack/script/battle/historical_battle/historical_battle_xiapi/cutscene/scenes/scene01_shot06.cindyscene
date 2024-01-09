@@ -1,0 +1,42 @@
+<SCENE_FILE start_record_time="0" perspective_camera="-66.3139,7.54568,-678.858:-95.8238,10.4178,-570.931" version="25" id="{878def56-4a13-4720-9979-c5d395de19a2}" hidden="false" end_record_time="23.3666678853333">
+ <ENVIRONMENT name="Environment" data="" id="{b0914717-142b-48f9-aec6-94d414f548b8}" hidden="false" order="0"/>
+ <VECTOR link_id="0" name="position" surface_mode="Freeform" is_linked="0" id="{09b88d78-8a06-4ac6-af1f-07c19c9c2abb}" hidden="false" unique_id="{09b88d78-8a06-4ac6-af1f-07c19c9c2abb}">
+  <DOUBLE single_keyframe_only="1" default="0" name="X" id="{0b0d1a3e-06c7-4b4f-9d6a-5129938a58f2}" hidden="false" order="0" animated="1"/>
+  <DOUBLE single_keyframe_only="1" default="0" name="Y" id="{b1d21ed2-b24f-4f40-9dc6-94fc8afaeb1b}" hidden="false" order="1" animated="1"/>
+  <DOUBLE single_keyframe_only="1" default="0" name="Z" id="{78ceb2b2-95df-4c1d-b5c8-1f72b3b6364f}" hidden="false" order="2" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{0ef544ea-ed85-48b7-8f42-88011ff404eb}" hidden="false">
+  <RADIAN single_keyframe_only="1" default="0" name="X" id="{5258fd01-843f-47cf-8393-a2fbf769518e}" hidden="false" order="0" animated="1"/>
+  <RADIAN single_keyframe_only="1" default="0" name="Y" id="{dfd40415-39ae-446f-806c-22372e11c3c5}" hidden="false" order="1" animated="1"/>
+  <RADIAN single_keyframe_only="1" default="0" name="Z" id="{2b1e0a35-2b34-4e8f-a0f0-0a02aeed4413}" hidden="false" order="2" animated="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{dd06e868-9d96-4816-8af0-ce10585c0329}" hidden="false"/>
+ <NODE name="Composite Scenes" id="{7dbae2d9-6a77-43b5-9a5b-5862fae89b0b}" hidden="false">
+  <COMPOSITE_SCENE name="tower_02.kfcs" id="{b06d1a81-6e43-4f78-b370-5062ce1ae32f}" hidden="false" composite_scene_file="../csc_ref/tower_02.kfcs"/>
+ </NODE>
+ <NODE name="Warscape Properties" id="{49feb73b-a9b2-4a14-9179-4ed6f71c6aaf}" hidden="false">
+  <WARSCAPE_PROPERTIES name="shot06_catapults_impact.xml" id="{f2942065-4def-4c8b-827f-8bd8b482b76c}" warscape_properties_file="../cameras/shot06_catapults_impact.xml" hidden="false"/>
+ </NODE>
+ <NODE name="Particle Effects" id="{7666b0c9-2865-421b-bdd2-06ecd1e5164b}" hidden="false">
+  <EFFECT name="effect_file_01.kfe" effect_file="../particles/effect_file_01.kfe" id="{9e26bb43-1a0b-4b8b-bd8d-66a875e95510}" hidden="false"/>
+  <EFFECT name="effect_file_02.kfe" effect_file="../particles/effect_file_02.kfe" id="{2a00dd16-ad7c-4ae7-afd6-bb672dab8d56}" hidden="false"/>
+  <EFFECT name="trail_03.kfe" effect_file="../particles/trail_03.kfe" id="{4281b0f5-c6d7-4a87-8ea3-2eeadfac0aa9}" hidden="false"/>
+  <EFFECT name="trail_04.kfe" effect_file="../particles/trail_04.kfe" id="{da216b48-964d-4bcf-9573-5c162a0db3be}" hidden="false"/>
+ </NODE>
+ <NODE name="Props" id="{a531548d-6a3e-4357-92c4-47d747ce05eb}" hidden="false">
+  <PROP name="siege_stone_03.kfp" prop_file="../props/siege_stone_03.kfp" id="{543ae8a6-c985-4d47-81b7-c4052bb76aef}" hidden="false"/>
+  <PROP name="siege_stone_04.kfp" prop_file="../props/siege_stone_04.kfp" id="{368df550-2c09-4036-ae12-66aae82ee929}" hidden="false"/>
+ </NODE>
+ <NODE name="Audio Events" id="{4513a3f3-483c-44f8-88d8-e009e5a5bd3a}" hidden="false">
+  <AUDIO_EVENT name="audio_event_file_01.kfa" audio_event_file="../audio/audio_event_file_01.kfa" id="{bbbfea04-71a7-478d-9dcb-e3d7e34657df}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_02.kfa" audio_event_file="../audio/audio_event_file_02.kfa" id="{a52c3d75-a185-4429-8f9d-e38fe76f41d7}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_03.kfa" audio_event_file="../audio/audio_event_file_03.kfa" id="{93d0fd95-4030-4bb0-8e6a-ef5e1c203828}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_04.kfa" audio_event_file="../audio/audio_event_file_04.kfa" id="{b8d3d1ff-1292-4d58-9520-de0daf05e084}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_05.kfa" audio_event_file="../audio/audio_event_file_05.kfa" id="{86d5737e-cfc8-4b72-99e2-9676f8a1f22f}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_06.kfa" audio_event_file="../audio/audio_event_file_06.kfa" id="{7accb0d1-9179-4bd6-96d0-b2350a0b1a7c}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_07.kfa" audio_event_file="../audio/audio_event_file_07.kfa" id="{92615ab6-e9cb-4971-91c1-f6d49ec0c619}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_08.kfa" audio_event_file="../audio/audio_event_file_08.kfa" id="{2588c9f9-e608-4eb4-9050-3f7cbaa2866b}" hidden="false"/>
+  <AUDIO_EVENT name="audio_event_file_09.kfa" audio_event_file="../audio/audio_event_file_09.kfa" id="{a0b294d8-a0fe-40d2-bb1b-6bd9b3eccfd0}" hidden="false"/>
+  <AUDIO_EVENT name="sweetener_pass.kfa" audio_event_file="../audio/sweetener_pass.kfa" id="{4d2094db-8c25-41a7-b240-73ffa63d5eba}" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

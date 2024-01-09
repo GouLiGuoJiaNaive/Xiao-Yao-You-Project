@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE directory="composite_scene/campaign/he_jin_stand.csc" hidden="false" id="{dbb7f360-523e-491c-8953-06476ec189df}" version="26">
+ <VECTOR link_id="0" is_linked="0" name="position" unique_id="{159d926a-3405-4144-a0f4-7f1782da1268}" hidden="false" surface_mode="Freeform" id="{159d926a-3405-4144-a0f4-7f1782da1268}">
+  <DOUBLE order="0" name="X" default="0" hidden="false" id="{f12e9af7-0f47-44e6-9702-a4a640bb74d6}" animated="0" single_keyframe_only="1">
+   <KEYFRAME data="254.233154296875" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="1" name="Y" default="0" hidden="false" id="{4664d409-b621-4090-9102-568d8f2af3cc}" animated="0" single_keyframe_only="1">
+   <KEYFRAME data="1.894160270690918" time="0"/>
+  </DOUBLE>
+  <DOUBLE order="2" name="Z" default="0" hidden="false" id="{8f230167-9867-4059-844a-05584c8f4428}" animated="0" single_keyframe_only="1">
+   <KEYFRAME data="375.7664794921875" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{60b1be2b-172f-4b65-9493-51b62de22884}">
+  <RADIAN order="0" name="X" default="0" hidden="false" id="{d6375e52-29d8-4080-8f54-133be715b4c0}" animated="0" single_keyframe_only="1"/>
+  <RADIAN order="1" name="Y" default="0" hidden="false" id="{71b97361-ff53-4050-8733-b165ff6e7303}" animated="0" single_keyframe_only="1">
+   <KEYFRAME data="2.3740177154541016" time="0"/>
+  </RADIAN>
+  <RADIAN order="2" name="Z" default="0" hidden="false" id="{2877f7f7-ade9-4082-8884-da5371300c0f}" animated="0" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" name="scale" default="1" hidden="false" id="{1613ef35-4378-4f94-846f-0ac4abb07e40}" user_friendy_name="Scale" animated="0" single_keyframe_only="1"/>
+ <BOOL order="3" name="active" default="0" hidden="false" id="{58b7dcf9-6cfe-4b87-bc02-b3b51e824396}" user_friendy_name="Active" animated="1" single_keyframe_only="0">
+  <KEYFRAME data="0" time="38.46666717529297"/>
+  <KEYFRAME data="1" time="38.46766662597656"/>
+ </BOOL>
+ <DOUBLE order="4" name="speed_multiplier" default="1" hidden="false" id="{cd537ea9-712f-492a-80e1-38e8e0653091}" user_friendy_name="Speed Multiplier" animated="1" single_keyframe_only="0"/>
+</COMPOSITE_SCENE_FILE>

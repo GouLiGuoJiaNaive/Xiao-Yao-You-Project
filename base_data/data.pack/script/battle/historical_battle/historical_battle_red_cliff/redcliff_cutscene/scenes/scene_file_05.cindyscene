@@ -1,0 +1,14 @@
+<SCENE_FILE version="25" id="{93dedd9f-1920-411f-abcc-c8eb9caa2efa}" hidden="false" end_record_time="51.53333602100611" start_record_time="0" perspective_camera="25.5597,96.5103,573.564:-159.692,-21.2855,687.536">
+ <ENVIRONMENT name="Environment" order="0" id="{7342aeb3-dd5e-4dc0-b338-0b5814f737ab}" hidden="false" data=""/>
+ <VECTOR name="position" is_linked="0" link_id="-1" id="{5a7592af-436c-4ef6-9500-c1517dc28a65}" hidden="false" unique_id="{5a7592af-436c-4ef6-9500-c1517dc28a65}" surface_mode="Freeform">
+  <DOUBLE name="X" order="0" single_keyframe_only="1" id="{0c1ce230-14ec-477d-82e0-27d7f2b7a693}" default="0" hidden="false" animated="1"/>
+  <DOUBLE name="Y" order="1" single_keyframe_only="1" id="{affd5927-d310-4678-9b32-fbb7be40fca8}" default="0" hidden="false" animated="1"/>
+  <DOUBLE name="Z" order="2" single_keyframe_only="1" id="{4dbbba0b-827e-4dd1-aaa9-c484d17e3cd9}" default="0" hidden="false" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{6faa40dc-b3dd-412c-92c9-6905aad0585c}" hidden="false">
+  <RADIAN name="X" order="0" single_keyframe_only="1" id="{5a2dfc4a-755e-4140-b2a3-0675215f170e}" default="0" hidden="false" animated="1"/>
+  <RADIAN name="Y" order="1" single_keyframe_only="1" id="{9455d9ed-df96-4207-b32d-5c1b4ca3401c}" default="0" hidden="false" animated="1"/>
+  <RADIAN name="Z" order="2" single_keyframe_only="1" id="{61cdf86d-8646-4cb9-bbc0-d8978e148dcd}" default="0" hidden="false" animated="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{cd669717-74dd-4b78-b487-04ef7ba023ce}" hidden="false"/>
+</SCENE_FILE>

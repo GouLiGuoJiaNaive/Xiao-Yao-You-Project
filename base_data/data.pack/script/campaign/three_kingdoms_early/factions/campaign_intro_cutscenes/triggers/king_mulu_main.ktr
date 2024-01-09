@@ -1,0 +1,12 @@
+<TRIGGER_FILE hidden="false" version="26" id="{c5281afc-d3a2-44b4-830c-8252d52aa28c}">
+ <STRING name="Timeline" hidden="false" order="0" id="{adb19a72-68db-4f79-8520-7107a3f440f5}">
+  <KEYFRAME data="3k_dlc06_190_campaign_faction_intro_king_mulu_01_advisor" time="0.5"/>
+  <KEYFRAME data="3k_dlc06_190_campaign_faction_intro_king_mulu_02_advisor" time="11.00000095367432"/>
+  <KEYFRAME data="3k_dlc06_190_campaign_faction_intro_king_mulu_03_advisor" time="19.00000190734863"/>
+  <KEYFRAME data="3k_dlc06_190_campaign_faction_intro_king_mulu_04_advisor" time="35.5"/>
+  <KEYFRAME data="3k_dlc06_190_campaign_faction_intro_king_mulu_05_advisor" time="53.50000381469727"/>
+  <KEYFRAME data="3k_dlc06_190_campaign_faction_intro_king_mulu_06_advisor" time="66.5"/>
+  <KEYFRAME data="3k_dlc06_190_campaign_faction_intro_king_mulu_07_advisor" time="81.50000762939453"/>
+  <KEYFRAME data="3k_dlc06_190_campaign_faction_intro_king_mulu_08_advisor" time="97.50000762939453"/>
+ </STRING>
+</TRIGGER_FILE>

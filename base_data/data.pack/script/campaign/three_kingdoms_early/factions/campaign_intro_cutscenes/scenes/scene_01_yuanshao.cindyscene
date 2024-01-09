@@ -1,0 +1,35 @@
+<SCENE_FILE perspective_camera="302.54,17.46,454.87:281.32,4.13,454.54" version="26" start_record_time="2.000000104308128" id="{7e9538fb-3645-425d-b340-31f6dfb87bf1}" end_record_time="68.00000354647636" hidden="false">
+ <ENVIRONMENT data="" id="{fa83da49-744f-4ca6-b432-97cb1ddbb3ec}" name="Environment" order="0" hidden="false"/>
+ <VECTOR is_linked="0" id="{a0fd2b72-cf9d-4d6b-89a8-3f0fc12ff6b4}" unique_id="{a0fd2b72-cf9d-4d6b-89a8-3f0fc12ff6b4}" name="position" surface_mode="Freeform" link_id="0" hidden="false">
+  <DOUBLE single_keyframe_only="1" id="{573fded6-8af2-4af8-84af-2234d0620fae}" animated="1" name="X" order="0" default="0" hidden="false">
+   <KEYFRAME data="0" time="1.866666793823242"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" id="{a50769f3-98b0-4241-8198-685672bce3b5}" animated="1" name="Y" order="1" default="0" hidden="false">
+   <KEYFRAME data="0" time="1.866666793823242"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" id="{e7913015-cc6f-4324-bc1a-76188ab434ce}" animated="1" name="Z" order="2" default="0" hidden="false">
+   <KEYFRAME data="0" time="1.866666793823242"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{d5d304c5-3e8d-44ec-aa30-73ec29ee7067}" name="rotation" hidden="false">
+  <RADIAN single_keyframe_only="1" id="{1d38d7c4-8fe4-46af-bb66-10a8c7199bc6}" animated="1" name="X" order="0" default="0" hidden="false">
+   <KEYFRAME data="0" time="1.866666793823242"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" id="{8dc99418-2f86-4c56-a138-fc2c39955a6c}" animated="1" name="Y" order="1" default="0" hidden="false">
+   <KEYFRAME data="0" time="1.866666793823242"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" id="{32fd9124-9a18-474e-9c92-c166f29e0e40}" animated="1" name="Z" order="2" default="0" hidden="false">
+   <KEYFRAME data="0" time="1.866666793823242"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{b24d325d-078c-4271-9249-b3ed34d7a757}" name="Links" hidden="false"/>
+ <NODE id="{87b2523e-5835-4a63-9151-13e76bc21195}" name="Warscape Properties" hidden="false">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/yuan_shao.xml" id="{904c9b2c-8e61-4c00-bc9b-e5ebbc247f0a}" name="yuan_shao.xml" hidden="false"/>
+ </NODE>
+ <NODE id="{963fb7cd-61e1-4be0-9aa8-5d37bd7079fe}" name="Particle Effects" hidden="false">
+  <EFFECT id="{d7cc27fd-6349-4eb7-aeef-85dfffe9831b}" effect_file="../particles/luoyang_fire.kfe" name="luoyang_fire.kfe" hidden="false"/>
+ </NODE>
+ <NODE id="{bf2b56da-a7d6-4437-8a84-ce234a149197}" name="Composite Scenes" hidden="false">
+  <COMPOSITE_SCENE id="{3bcb1c7f-5f1a-44c3-88cb-5e9a191cd68c}" name="dong_zhuo_yuan_shao.kfcs" composite_scene_file="../csc_ref/dong_zhuo_yuan_shao.kfcs" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

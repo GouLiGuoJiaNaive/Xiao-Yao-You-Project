@@ -1,0 +1,45 @@
+<COMPOSITE_SCENE_FILE id="{6e9ccb2c-3532-4356-80d2-4f4df04044bc}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/small_junk_for_impact_01b.csc" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{14aee83d-1f30-41d7-9137-253669bda30a}" hidden="false" unique_id="{14aee83d-1f30-41d7-9137-253669bda30a}" name="position">
+  <DOUBLE order="0" id="{06df4c68-23b6-4705-9ba2-2417e930cb29}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="X">
+   <KEYFRAME time="47.5333366394043" data="17.366239547729492"/>
+   <KEYFRAME handle2_x="48.9111" handle2_y="17.5514" handle1_y="17.4708" handle2_type="SMOOTH" handle1_x="48.2" handle1_type="SMOOTH" time="48.5333366394043" data="17.508567810058594"/>
+   <KEYFRAME time="49.66667175292969" data="17.508567810058594"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{0277c48b-26d3-4245-affa-f2c512cf40d3}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Y">
+   <KEYFRAME time="47.5333366394043" data="12.275257110595703"/>
+   <KEYFRAME handle2_x="48.9111" handle2_y="12.1917" handle1_y="12.349" handle2_type="SMOOTH" handle1_x="48.2" handle1_type="SMOOTH" time="48.5333366394043" data="12.275257110595703"/>
+   <KEYFRAME time="49.66667175292969" data="11.562252044677734"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{7ceb35a1-d0c2-451b-92cc-8198705def58}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Z">
+   <KEYFRAME time="47.5333366394043" data="-146.6982879638672"/>
+   <KEYFRAME handle2_x="48.9111" handle2_y="-136.591" handle1_y="-141.954" handle2_type="SMOOTH" handle1_x="48.2" handle1_type="SMOOTH" time="48.5333366394043" data="-139.43988037109375"/>
+   <KEYFRAME time="49.66667175292969" data="-133.7724151611328"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{1a93c8de-b99c-4a5d-be4b-29dd6287ca11}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{79f77a28-67b7-454f-bcce-cffab37c9797}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="X">
+   <KEYFRAME time="46.10000228881836" data="0"/>
+   <KEYFRAME time="47.5333366394043" data="0"/>
+   <KEYFRAME handle2_x="48.9111" handle2_y="11.6553" handle1_y="7.1474" handle2_type="SMOOTH" handle1_x="48.2" handle1_type="SMOOTH" time="48.5333366394043" data="0.1616256833076477"/>
+   <KEYFRAME time="49.66667175292969" data="0.31069695949554443"/>
+  </RADIAN>
+  <RADIAN order="1" id="{46144a14-1330-4214-987c-488db5bdf6a3}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Y">
+   <KEYFRAME time="47.5333366394043" data="0"/>
+   <KEYFRAME handle2_x="48.9111" handle2_y="0" handle1_y="0" handle2_type="SMOOTH" handle1_x="48.2" handle1_type="SMOOTH" time="48.5333366394043" data="0"/>
+   <KEYFRAME time="49.66667175292969" data="0"/>
+  </RADIAN>
+  <RADIAN order="2" id="{f9e5465b-2ccb-4bad-ae94-57af1e2444f2}" hidden="false" single_keyframe_only="0" animated="1" default="0" name="Z">
+   <KEYFRAME time="47.5333366394043" data="0"/>
+   <KEYFRAME handle2_x="48.9111" handle2_y="0" handle1_y="0" handle2_type="SMOOTH" handle1_x="48.2" handle1_type="SMOOTH" time="48.5333366394043" data="0"/>
+   <KEYFRAME time="49.66667175292969" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{a12c83d5-e54e-460b-aacd-decf3e96bda2}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale"/>
+ <BOOL order="3" id="{80fa290f-6359-47f7-87de-0ad48817c059}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="46.0333366394043" data="0"/>
+  <KEYFRAME time="46.03433609008789" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" id="{75ef373a-7fac-4d15-abdc-2c64b0393e37}" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" animated="1" default="1" name="speed_multiplier">
+  <KEYFRAME time="46.06666946411133" data="1"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

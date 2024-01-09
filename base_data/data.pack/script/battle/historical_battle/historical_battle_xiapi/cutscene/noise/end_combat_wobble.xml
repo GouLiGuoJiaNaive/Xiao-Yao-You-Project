@@ -1,0 +1,12 @@
+<NOISE_FILE version="23" name="end_combat_wobble.xml">
+ <DOUBLE order="0" animated="0" default="20" name="amplitude" user_friendy_name="Amplitude" hidden="false" single_keyframe_only="1">
+  <KEYFRAME time="-1" data="3"/>
+ </DOUBLE>
+ <DOUBLE order="1" animated="0" default="5" name="frequency" user_friendy_name="Frequency" hidden="false" single_keyframe_only="1">
+  <KEYFRAME time="-1" data="6"/>
+ </DOUBLE>
+ <INT order="2" animated="1" default="3" name="number_of_octaves" user_friendy_name="Number of Octaves" hidden="false" single_keyframe_only="0"/>
+ <DOUBLE order="3" animated="1" default="10" name="offset" user_friendy_name="Offset" hidden="false" single_keyframe_only="0"/>
+ <DOUBLE order="4" animated="1" default="0.5" name="persistence" user_friendy_name="Persistence" hidden="false" single_keyframe_only="0"/>
+ <DOUBLE order="5" animated="1" default="2" name="lacunarity" user_friendy_name="Lacunarity" hidden="false" single_keyframe_only="0"/>
+</NOISE_FILE>

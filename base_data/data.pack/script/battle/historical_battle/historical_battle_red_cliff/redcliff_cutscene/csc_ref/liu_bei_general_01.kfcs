@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE id="{804c1ebd-6f72-4a82-92f0-09817f01c85a}" hidden="false" directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/liu_bei_general_01.csc" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{50b7b406-d45f-4bc8-afd1-187adf4c0359}" hidden="false" unique_id="{50b7b406-d45f-4bc8-afd1-187adf4c0359}" name="position">
+  <DOUBLE order="0" id="{e95bd3ba-4f96-45f5-b1c1-e8175ab71115}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X">
+   <KEYFRAME time="2.399988174438477" data="532.2601928710938"/>
+  </DOUBLE>
+  <DOUBLE order="1" id="{f032aaac-e8ab-44f4-8842-1104a4bee625}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="2.399988174438477" data="37.064361572265625"/>
+  </DOUBLE>
+  <DOUBLE order="2" id="{b67ead60-e43b-45db-bfa9-1f0cd2f106f8}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z">
+   <KEYFRAME time="2.399988174438477" data="7.802677154541016"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{a277b91d-512e-4e6f-9540-c9fe848bf2ca}" hidden="false" name="rotation">
+  <RADIAN order="0" id="{ff364696-219d-44ab-ae57-5c29a3a07776}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X"/>
+  <RADIAN order="1" id="{b6d5b309-726a-458b-8001-a428ff9c25c3}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y">
+   <KEYFRAME time="2.399988174438477" data="-1.5707963705062866"/>
+  </RADIAN>
+  <RADIAN order="2" id="{0a55fd5a-3e39-434a-8787-d924e60cdb3c}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z"/>
+ </ROTATION_AXES>
+ <DOUBLE order="2" id="{fe3c2b59-19d3-4dc3-811c-bb024bac6288}" user_friendy_name="Scale" hidden="false" single_keyframe_only="1" animated="0" default="1" name="scale"/>
+ <BOOL order="3" id="{97cb9798-8ffa-4ab0-906a-b6f3a2e658a5}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="76.33335113525391" data="0"/>
+  <KEYFRAME time="76.3343505859375" data="1"/>
+ </BOOL>
+ <DOUBLE order="4" id="{f504cb90-5066-4bca-ad29-1735ddfbcbee}" user_friendy_name="Speed Multiplier" hidden="false" single_keyframe_only="0" animated="1" default="1" name="speed_multiplier"/>
+</COMPOSITE_SCENE_FILE>

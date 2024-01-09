@@ -1,0 +1,27 @@
+<COMPOSITE_SCENE_FILE directory="script/battle/historical_battle/historical_battle_xiapi/composite_scene/scene01_tower_collapse.csc" hidden="false" version="25" id="{f769247b-6848-497f-aab0-4d74dc5cab60}">
+ <VECTOR unique_id="{00a6f44e-f7a3-446e-98cd-d72fbcc8850a}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{00a6f44e-f7a3-446e-98cd-d72fbcc8850a}">
+  <DOUBLE name="X" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{a9e8b8da-a93d-4ea1-a24d-90c5c43a21fc}">
+   <KEYFRAME data="-126.47187805175781" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" id="{33280e62-e0ce-44e0-8adc-ad12b3c4d76d}">
+   <KEYFRAME data="171.7227020263672" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" id="{16d033b9-b398-4ef2-aa19-a8fced6491f1}">
+   <KEYFRAME data="-364.2244567871094" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{04a89adb-f4fd-4a5a-9bd3-cbbedeeb3ea0}">
+  <RADIAN name="X" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{93beddee-20ae-497f-adfa-a4cfc317a434}"/>
+  <RADIAN name="Y" hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" id="{c25f9de9-ce8b-4681-90f1-dc83e57ffc6e}"/>
+  <RADIAN name="Z" hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" id="{e094e217-fedc-43fc-b40d-e0c96eb7828a}"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" name="scale" hidden="false" order="2" animated="0" single_keyframe_only="1" default="1" id="{235cbb35-fd1c-4590-b4f5-10d3bc3ac730}"/>
+ <BOOL user_friendy_name="Active" name="active" hidden="false" order="3" animated="1" single_keyframe_only="0" default="0" id="{724fbd71-ca7d-464b-adc1-5f20d6127d24}">
+  <KEYFRAME data="0" time="58.40775680541992"/>
+  <KEYFRAME data="1" time="58.46664810180664"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" name="speed_multiplier" hidden="false" order="4" animated="1" single_keyframe_only="0" default="1" id="{07e48380-ea00-4d89-b287-029c4eef1712}">
+  <KEYFRAME data="1" time="68.53334045410156"/>
+  <KEYFRAME data="0.5134852528572083" time="68.70000457763672"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

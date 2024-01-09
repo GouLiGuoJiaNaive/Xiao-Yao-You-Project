@@ -1,0 +1,33 @@
+<EFFECT_FILE id="{daa06529-628f-4bda-8a98-e53f774bebf8}" effect_name="3k_main_enviro_mist" name="mist02.kfe" version="23">
+ <VECTOR unique_id="{2a66174c-1a43-44c5-9d0e-ef4a13096357}" id="{2a66174c-1a43-44c5-9d0e-ef4a13096357}" link_id="0" name="position" surface_mode="Freeform" is_linked="0">
+  <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="X" default="0" animated="0">
+   <KEYFRAME time="0" data="-0.6410422325134277"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="1" name="Y" default="0" animated="0">
+   <KEYFRAME time="0" data="197.3837585449219"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="2" name="Z" default="0" animated="0">
+   <KEYFRAME time="0" data="-77.38874053955078"/>
+  </DOUBLE>
+ </VECTOR>
+ <VECTOR unique_id="{fc369a1f-f6c2-42e0-8217-f8e5134a8fc7}" id="{fc369a1f-f6c2-42e0-8217-f8e5134a8fc7}" link_id="0" name="target" surface_mode="Freeform" is_linked="0">
+  <DOUBLE single_keyframe_only="0" hidden="false" order="0" name="X" default="0" animated="1">
+   <KEYFRAME time="10.03333377838135" data="-0.6410422325134277"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="0" hidden="false" order="1" name="Y" default="0" animated="1">
+   <KEYFRAME time="10.03333377838135" data="198.7966003417969"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="0" hidden="false" order="2" name="Z" default="0" animated="1">
+   <KEYFRAME time="0.8000000715255737" data="-77.38874053955078"/>
+   <KEYFRAME time="10.03333377838135" data="-97.77742004394531"/>
+   <KEYFRAME time="24.43333435058594" data="-66.08364105224609"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL single_keyframe_only="0" user_friendy_name="Active" hidden="false" order="2" name="active" default="0" animated="1">
+  <KEYFRAME time="-0.03333377838134766" data="0"/>
+  <KEYFRAME time="0" data="1"/>
+ </BOOL>
+ <BOOL single_keyframe_only="0" user_friendy_name="Tracked" hidden="false" order="3" name="tracked" default="0" animated="1"/>
+ <DOUBLE single_keyframe_only="1" user_friendy_name="Scale" hidden="false" order="4" name="scale" default="1" animated="0"/>
+ <BOOL single_keyframe_only="1" user_friendy_name="Emit Light" hidden="false" order="5" name="is_light_enabled" default="1" animated="0"/>
+</EFFECT_FILE>

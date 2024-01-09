@@ -1,0 +1,14 @@
+<SCENE_MANAGER_FILE hidden="false" start_record_time="0" version="26" id="{a9748356-c3a3-4bd4-abc5-db5be8a2a0ee}" perspective_camera="46.1905,624.999,130.209:-26.1831,507.022,-73.2518" end_record_time="13">
+ <START_SCENE real_time="1" scene="dynasty_mode_arid_opening.CindyScene"/>
+ <SCENE_SWITCH switch_scene="dynasty_mode_arid_01.CindyScene" real_time="1" time="3"/>
+ <SCENE_SWITCH switch_scene="dynasty_mode_arid_02.CindyScene" real_time="1" time="5.5"/>
+ <SCENE_SWITCH switch_scene="dynasty_mode_arid_03.CindyScene" real_time="1" time="8"/>
+ <SCENE_SWITCH switch_scene="dynasty_mode_arid_opening.CindyScene" real_time="1" time="10.5"/>
+ <NODE hidden="false" id="{4daa4a2c-c76e-4ae9-a42d-4a28cb65427e}" name="Links"/>
+ <NODE hidden="false" id="{809dd851-c8c0-43d7-8218-56079d5fefd0}" name="Scenes">
+  <SCENE hidden="false" scene_file="../scenes/dynasty_mode_arid_opening.CindyScene" id="{9e142584-0261-4a20-9f51-d5a0cfb67638}" name="dynasty_mode_arid_opening.CindyScene"/>
+  <SCENE hidden="false" scene_file="../scenes/dynasty_mode_arid_01.CindyScene" id="{e52eb04f-9c04-4c81-a020-e9d1011b272f}" name="dynasty_mode_arid_01.CindyScene"/>
+  <SCENE hidden="false" scene_file="../scenes/dynasty_mode_arid_02.CindyScene" id="{4cc521f2-8068-4f2d-bdb8-6c7ee64d0c4f}" name="dynasty_mode_arid_02.CindyScene"/>
+  <SCENE hidden="false" scene_file="../scenes/dynasty_mode_arid_03.CindyScene" id="{624ce415-a0c9-4b9a-9841-9c5cb134518d}" name="dynasty_mode_arid_03.CindyScene"/>
+ </NODE>
+</SCENE_MANAGER_FILE>

@@ -1,0 +1,23 @@
+<SCENE_FILE hidden="false" start_record_time="0" perspective_camera="266.018,6.79096,395.728:278.432,-6.36047,363.956" id="{4573a287-d77c-4865-8a91-4951897c7eff}" version="26" end_record_time="75.25162278037035">
+ <ENVIRONMENT hidden="false" id="{bcd353e9-d9d1-4a56-a4d3-85ff88db6175}" data="" name="Environment" order="0"/>
+ <VECTOR hidden="false" id="{e26ea757-d240-4885-a05a-cd4f7fe3cbc3}" link_id="0" is_linked="0" surface_mode="Freeform" name="position" unique_id="{e26ea757-d240-4885-a05a-cd4f7fe3cbc3}">
+  <DOUBLE hidden="false" animated="1" id="{0fd87e80-0b62-44ec-990b-6e053fc9f52c}" single_keyframe_only="1" name="X" default="0" order="0"/>
+  <DOUBLE hidden="false" animated="1" id="{d8acb564-103f-4eb6-9b0e-3f39afc370fd}" single_keyframe_only="1" name="Y" default="0" order="1"/>
+  <DOUBLE hidden="false" animated="1" id="{cf9edc90-08b7-4f64-980f-f9f703937e6d}" single_keyframe_only="1" name="Z" default="0" order="2"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{31e36f86-2c07-493f-8f25-79acf03e5ac5}" name="rotation">
+  <RADIAN hidden="false" animated="1" id="{c7c3c25a-962a-49cc-8331-812678448a23}" single_keyframe_only="1" name="X" default="0" order="0"/>
+  <RADIAN hidden="false" animated="1" id="{fa741091-7693-4b6b-847f-c1f1b1d392fd}" single_keyframe_only="1" name="Y" default="0" order="1"/>
+  <RADIAN hidden="false" animated="1" id="{31fb552b-7555-415a-a114-9aae51603700}" single_keyframe_only="1" name="Z" default="0" order="2"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{db232bcb-85d1-49c0-a26a-38cc09072eba}" name="Links"/>
+ <NODE hidden="false" id="{ef599c47-5266-45e9-8eb3-19348c90de54}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES hidden="false" id="{1adc757f-7f6e-45ac-a470-2aff9ce45487}" warscape_properties_file="../cameras/pan_camera_lu_zhi.xml" name="pan_camera_lu_zhi.xml"/>
+ </NODE>
+ <NODE hidden="false" id="{8110a52c-059c-4da7-bd74-a972311a645c}" name="Triggers">
+  <TRIGGER hidden="false" id="{d6b3102c-ad1c-4cdf-8368-2755e2a1fb63}" trigger_file="../triggers/lu_zhi.ktr" name="lu_zhi.ktr"/>
+ </NODE>
+ <NODE hidden="false" id="{678f5252-2456-41e9-bdb6-ff95dd080be4}" name="Composite Scenes">
+  <COMPOSITE_SCENE hidden="false" composite_scene_file="../csc_ref/general_eunuch_argue.kfcs" id="{e5a4334a-3d96-4ea2-bf36-fb99e2995692}" name="general_eunuch_argue.kfcs"/>
+ </NODE>
+</SCENE_FILE>

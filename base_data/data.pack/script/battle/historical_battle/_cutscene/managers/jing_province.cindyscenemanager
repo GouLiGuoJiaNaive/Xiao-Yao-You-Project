@@ -1,0 +1,7 @@
+<SCENE_MANAGER_FILE perspective_camera="677.183,72.305,-583.514:652.088,64.1734,-561.127" hidden="false" start_record_time="1.166666727513075" version="25" id="{fda2a076-984f-42af-8783-ff59367d83f7}" end_record_time="36.96666859462857">
+ <START_SCENE real_time="0" scene="historical_battle_intros_jing_province_r01_s01.CindyScene"/>
+ <NODE hidden="false" id="{dec020ce-86bf-4608-8fc0-f2a33394e4c3}" name="Links"/>
+ <NODE hidden="false" id="{fb24352c-0c75-4218-8172-35c9e38fe8d7}" name="Scenes">
+  <SCENE hidden="false" id="{2d0d04c2-b864-4d72-893f-acafdc99234b}" name="historical_battle_intros_jing_province_r01_s01.CindyScene" scene_file="../scenes/historical_battle_intros_jing_province_r01_s01.CindyScene"/>
+ </NODE>
+</SCENE_MANAGER_FILE>

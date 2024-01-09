@@ -1,0 +1,31 @@
+<COMPOSITE_SCENE_FILE hidden="false" version="26" directory="composite_scene/campaign/zhang_brothers_stand.csc" id="{e65b6d35-cdac-462d-9589-6c3e6d29d37f}">
+ <VECTOR hidden="false" link_id="0" unique_id="{759e1121-47d3-460c-b72c-1e98e83a6cda}" name="position" is_linked="0" surface_mode="Freeform" id="{759e1121-47d3-460c-b72c-1e98e83a6cda}">
+  <DOUBLE hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" name="X" id="{4755eef9-8821-4bb7-a9a6-bac92a053870}">
+   <KEYFRAME time="0" data="269.99346923828125"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" name="Y" id="{631c30e3-5923-4884-9f54-4010c00c96c5}">
+   <KEYFRAME time="0" data="3.3202853202819824"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" name="Z" id="{0e7d356d-f7a3-4c5a-b6f4-efa4af9a253d}">
+   <KEYFRAME time="0" data="389.4696350097656"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{5471a71e-bbc6-44f6-aa68-3228096e9090}">
+  <RADIAN hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" name="X" id="{d1e1ed27-efe6-48fa-9be7-df8f55acdfa5}">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" name="Y" id="{7dfdbf1a-aa47-46a5-a987-6b7ea8415cd8}">
+   <KEYFRAME time="0" data="2.8991811275482178"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" name="Z" id="{03c6efd4-9363-4c28-b292-d6da3fe3775a}">
+   <KEYFRAME time="0" data="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" order="2" animated="0" user_friendy_name="Scale" single_keyframe_only="1" default="1" name="scale" id="{a8b97360-0d8d-4d0c-8ee7-58f398f5c379}">
+  <KEYFRAME time="0" data="1"/>
+ </DOUBLE>
+ <BOOL hidden="false" order="3" animated="1" user_friendy_name="Active" single_keyframe_only="0" default="0" name="active" id="{d45daff7-5e26-4612-9cda-73b39a10654b}">
+  <KEYFRAME time="0" data="1"/>
+ </BOOL>
+ <DOUBLE hidden="false" order="4" animated="1" user_friendy_name="Speed Multiplier" single_keyframe_only="0" default="1" name="speed_multiplier" id="{eb9abd40-7d0f-48cb-a591-ed312b6191ba}"/>
+</COMPOSITE_SCENE_FILE>

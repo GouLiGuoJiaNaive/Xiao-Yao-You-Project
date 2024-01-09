@@ -1,0 +1,23 @@
+<SCENE_FILE hidden="false" start_record_time="0" perspective_camera="383.711,10.5821,358.391:388.711,5.58211,363.391" id="{80667b04-97e0-4b43-b8d8-f07928fde986}" version="26" end_record_time="73.3000038228929">
+ <ENVIRONMENT hidden="false" id="{626116a4-bfa5-478c-8033-6d91645d8cd4}" data="" name="Environment" order="0"/>
+ <VECTOR hidden="false" id="{589716da-f63e-4c88-8841-dd9cd2a4e067}" link_id="0" is_linked="0" surface_mode="Freeform" name="position" unique_id="{589716da-f63e-4c88-8841-dd9cd2a4e067}">
+  <DOUBLE hidden="false" animated="1" id="{ccee5ba6-1b96-47a8-bb13-a7450eed8b42}" single_keyframe_only="1" name="X" default="0" order="0"/>
+  <DOUBLE hidden="false" animated="1" id="{9141dbbf-8625-4ebf-a6d2-9921f1bfe728}" single_keyframe_only="1" name="Y" default="0" order="1"/>
+  <DOUBLE hidden="false" animated="1" id="{1b6c4296-90a0-4da9-a6c3-46da72f1ac33}" single_keyframe_only="1" name="Z" default="0" order="2"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{a10d46cd-79b0-4354-b900-c626ba6806a2}" name="rotation">
+  <RADIAN hidden="false" animated="1" id="{79665c68-9239-45a5-bded-d03c937381d1}" single_keyframe_only="1" name="X" default="0" order="0"/>
+  <RADIAN hidden="false" animated="1" id="{d63a38ec-40a2-4af3-9db8-411706058da0}" single_keyframe_only="1" name="Y" default="0" order="1"/>
+  <RADIAN hidden="false" animated="1" id="{fb8e0884-db52-42fa-ab8a-b8dea2192a0b}" single_keyframe_only="1" name="Z" default="0" order="2"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{94e87978-45cc-48fe-af2d-2850c5accb51}" name="Links"/>
+ <NODE hidden="false" id="{b20423fd-9c88-425e-b014-81e37562b2e5}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES hidden="false" id="{714722e3-1e07-4d49-a426-17247b57a4cc}" warscape_properties_file="../cameras/tao_qian.xml" name="tao_qian.xml"/>
+ </NODE>
+ <NODE hidden="false" id="{4999742d-86a9-47b6-bad5-9e93c9e3c8f0}" name="Composite Scenes">
+  <COMPOSITE_SCENE hidden="false" composite_scene_file="../csc_ref/dong_zhuo_tao_qian.kfcs" id="{bcf75100-285b-4cc8-abfa-cb57eab47c97}" name="dong_zhuo_tao_qian.kfcs"/>
+ </NODE>
+ <NODE hidden="false" id="{3d852d8b-5ea2-4f48-8cb8-50f4093d8db5}" name="Triggers">
+  <TRIGGER hidden="false" id="{f1700128-d1fc-4148-bb16-27b71f6545a4}" trigger_file="../triggers/tao_qian_main.ktr" name="tao_qian_main.ktr"/>
+ </NODE>
+</SCENE_FILE>

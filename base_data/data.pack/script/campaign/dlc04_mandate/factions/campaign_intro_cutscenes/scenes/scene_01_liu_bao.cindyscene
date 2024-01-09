@@ -1,0 +1,23 @@
+<SCENE_FILE perspective_camera="266.018,6.79096,395.728:278.432,-6.36047,363.956" hidden="false" end_record_time="51.00000265985727" start_record_time="0" id="{1cc452a9-faa2-4c06-b345-d18f10ac25f9}" version="26">
+ <ENVIRONMENT order="0" hidden="false" name="Environment" id="{95953ca3-cc92-4229-baf5-83c3b4462c16}" data=""/>
+ <VECTOR unique_id="{e4d675b1-e8ce-4966-aeb7-5f5495fe0edd}" hidden="false" is_linked="0" name="position" link_id="0" surface_mode="Freeform" id="{e4d675b1-e8ce-4966-aeb7-5f5495fe0edd}">
+  <DOUBLE order="0" single_keyframe_only="1" hidden="false" default="0" name="X" id="{a879ae3d-637c-4d46-a7b2-9f8b0dec9912}" animated="1"/>
+  <DOUBLE order="1" single_keyframe_only="1" hidden="false" default="0" name="Y" id="{bd8f2484-e031-446b-9d62-3abe5f34493e}" animated="1"/>
+  <DOUBLE order="2" single_keyframe_only="1" hidden="false" default="0" name="Z" id="{3d0208a7-a11a-4e19-83d0-e67cfec656be}" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{fa8ea01f-32b6-4a8e-b490-8425305d1f06}">
+  <RADIAN order="0" single_keyframe_only="1" hidden="false" default="0" name="X" id="{bb7a4715-2f4e-4d95-a474-a0e1054ad7ae}" animated="1"/>
+  <RADIAN order="1" single_keyframe_only="1" hidden="false" default="0" name="Y" id="{5f98ff92-450b-4b07-99df-b8f2c2dcb60a}" animated="1"/>
+  <RADIAN order="2" single_keyframe_only="1" hidden="false" default="0" name="Z" id="{e4d8feb1-8031-4281-8a5a-92e9efe92784}" animated="1"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" name="Links" id="{772b1098-cd26-406e-8a07-84d90798fad6}"/>
+ <NODE hidden="false" name="Warscape Properties" id="{6604e08d-889a-41f3-a35b-2695b6b4dbf3}">
+  <WARSCAPE_PROPERTIES hidden="false" name="pan_camera_liu_bao.xml" warscape_properties_file="../cameras/pan_camera_liu_bao.xml" id="{f4417758-8535-4df4-b15a-842c138ce040}"/>
+ </NODE>
+ <NODE hidden="false" name="Triggers" id="{8ad3253b-95de-42ce-9319-2f1fcf959e50}">
+  <TRIGGER hidden="false" trigger_file="../triggers/liu_bao.ktr" name="liu_bao.ktr" id="{1abe61d8-efbe-4df4-bcd1-855434183f80}"/>
+ </NODE>
+ <NODE hidden="false" name="Composite Scenes" id="{cb6bfd2a-97cb-4e77-ae12-c31430e1152d}">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/general_eunuch_argue.kfcs" hidden="false" name="general_eunuch_argue.kfcs" id="{b4aed47a-3010-4c6b-8853-39b6e0f1a6d9}"/>
+ </NODE>
+</SCENE_FILE>

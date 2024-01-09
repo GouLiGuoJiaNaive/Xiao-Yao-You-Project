@@ -1,0 +1,20 @@
+<SCENE_FILE end_record_time="73.00000380724669" start_record_time="0" id="{5a460d95-99b6-4cfb-be7d-be5375bbdcb7}" perspective_camera="307.053,15.474,369.766:309.05,11.7544,377.307" hidden="false" version="26">
+ <ENVIRONMENT order="0" data="" name="Environment" id="{9a753a84-42fa-4fad-9387-562b630897e2}" hidden="false"/>
+ <VECTOR name="position" unique_id="{3b7100db-9542-458e-acd0-ac5629ddd992}" is_linked="0" id="{3b7100db-9542-458e-acd0-ac5629ddd992}" hidden="false" link_id="0" surface_mode="Freeform">
+  <DOUBLE order="0" animated="1" name="X" default="0" id="{3eb22c51-edb2-4480-aeb3-ccbea0d35133}" hidden="false" single_keyframe_only="1"/>
+  <DOUBLE order="1" animated="1" name="Y" default="0" id="{9c699be8-ac7f-4b6a-8c42-964a69a8ce81}" hidden="false" single_keyframe_only="1"/>
+  <DOUBLE order="2" animated="1" name="Z" default="0" id="{4ce58f5c-1bf8-4bdb-a507-b1a67690fc53}" hidden="false" single_keyframe_only="1"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{044c2fbf-a101-4c92-98e7-c29b677569d8}" hidden="false">
+  <RADIAN order="0" animated="1" name="X" default="0" id="{edef4f79-7346-4dc0-9f67-e9412fb63da1}" hidden="false" single_keyframe_only="1"/>
+  <RADIAN order="1" animated="1" name="Y" default="0" id="{d6d17685-39b0-43b3-8cc4-5d67db1ed10b}" hidden="false" single_keyframe_only="1"/>
+  <RADIAN order="2" animated="1" name="Z" default="0" id="{3b1a339b-bcdf-4259-a6dc-775e4a966b87}" hidden="false" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{6af70e6c-86a2-427c-b17a-a1d0d2eae5d9}" hidden="false"/>
+ <NODE name="Warscape Properties" id="{41306f85-5553-4426-a77d-969471dce353}" hidden="false">
+  <WARSCAPE_PROPERTIES name="liu_zhang_cam01.xml" id="{ba36b9b1-4797-43f4-804c-31118bd27404}" hidden="false" warscape_properties_file="../cameras/liu_zhang_cam01.xml"/>
+ </NODE>
+ <NODE name="Triggers" id="{729c55f9-ac00-4b02-b656-df1d586dcd31}" hidden="false">
+  <TRIGGER name="liu_zhang_200.ktr" id="{da146e55-2518-4407-8752-6060f4a91955}" trigger_file="../triggers/liu_zhang_200.ktr" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

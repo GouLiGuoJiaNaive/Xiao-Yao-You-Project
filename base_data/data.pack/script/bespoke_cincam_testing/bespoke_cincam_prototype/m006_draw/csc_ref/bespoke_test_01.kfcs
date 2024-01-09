@@ -1,0 +1,18 @@
+<COMPOSITE_SCENE_FILE name="bespoke_test_01.kfcs" id="{be39b12d-cd8f-4d88-bc8a-1e0e579b7d62}" version="23" directory="animations/library/csc/tests/bespoke_cindy_cam_mtch_test.csc">
+ <VECTOR link_id="-1" unique_id="{433e26d1-865d-4528-a1c3-c004510f2bac}" name="position" id="{433e26d1-865d-4528-a1c3-c004510f2bac}" is_linked="0" surface_mode="Lock to Terrain">
+  <DOUBLE single_keyframe_only="1" name="X" animated="0" id="{4e9d30b6-4ee6-4758-a20e-71bafb20a40f}" order="0" hidden="false" default="0"/>
+  <DOUBLE single_keyframe_only="1" name="Y" animated="0" id="{31ee4d04-7ca0-49a6-bc1b-508e1e9c9b0d}" order="1" hidden="false" default="0"/>
+  <DOUBLE single_keyframe_only="1" name="Z" animated="0" id="{2a9b9b14-3c85-4bba-99d7-3e97dd147382}" order="2" hidden="false" default="0"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{2ff24fb7-9519-4cfb-b412-f7f4341a7bf5}">
+  <RADIAN single_keyframe_only="1" name="X" animated="0" id="{b449e597-85a7-4762-9ae6-518a16d92d8c}" order="0" hidden="false" default="0"/>
+  <RADIAN single_keyframe_only="1" name="Y" animated="0" id="{9240091d-0854-43d6-9181-8befac6e087d}" order="1" hidden="false" default="0"/>
+  <RADIAN single_keyframe_only="1" name="Z" animated="0" id="{d16cf739-66f9-46c2-b69b-a4c9e172075a}" order="2" hidden="false" default="0"/>
+ </ROTATION_AXES>
+ <DOUBLE single_keyframe_only="1" name="scale" animated="0" id="{ba3e6306-4bde-4513-9ee8-07bbda6bd1dd}" order="2" hidden="false" user_friendy_name="Scale" default="1"/>
+ <BOOL single_keyframe_only="0" name="active" animated="1" id="{cea26007-df21-494b-bb24-7597f3407b1b}" order="3" hidden="false" user_friendy_name="Active" default="0">
+  <KEYFRAME data="0" time="30.83333587646484"/>
+  <KEYFRAME data="1" time="30.9666690826416"/>
+ </BOOL>
+ <DOUBLE single_keyframe_only="0" name="speed_multiplier" animated="1" id="{4a697099-2387-4abb-8f75-4b894e3f9bf9}" order="4" hidden="false" user_friendy_name="Speed Multiplier" default="1"/>
+</COMPOSITE_SCENE_FILE>

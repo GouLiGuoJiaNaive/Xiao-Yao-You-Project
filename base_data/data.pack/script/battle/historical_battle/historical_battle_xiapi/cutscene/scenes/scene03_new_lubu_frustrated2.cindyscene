@@ -1,0 +1,28 @@
+<SCENE_FILE start_record_time="0" end_record_time="18.700000975281" version="23" perspective_camera="1.1949,199.508,-101.953:-9.58737,191.144,-87.3326" name="scene03_new_lubu_frustrated2.CindyScene">
+ <ENVIRONMENT hidden="false" data="Weather/xiapi.environment" order="0" name="Environment"/>
+ <VECTOR is_linked="0" link_id="0" unique_id="{23fe9d19-188f-442c-a44e-3cbafff65eec}" name="position" surface_mode="Freeform" id="{23fe9d19-188f-442c-a44e-3cbafff65eec}">
+  <DOUBLE hidden="false" default="0" order="0" animated="1" single_keyframe_only="1" name="X"/>
+  <DOUBLE hidden="false" default="0" order="1" animated="1" single_keyframe_only="1" name="Y"/>
+  <DOUBLE hidden="false" default="0" order="2" animated="1" single_keyframe_only="1" name="Z"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{3c1438b8-2a29-45be-8c0a-087ae3b25942}">
+  <RADIAN hidden="false" default="0" order="0" animated="1" single_keyframe_only="1" name="X"/>
+  <RADIAN hidden="false" default="0" order="1" animated="1" single_keyframe_only="1" name="Y"/>
+  <RADIAN hidden="false" default="0" order="2" animated="1" single_keyframe_only="1" name="Z"/>
+ </ROTATION_AXES>
+ <NODE name="Links"/>
+ <NODE name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/end_fight.kfcs" name="end_fight.kfcs"/>
+ </NODE>
+ <NODE name="Warscape Properties">
+  <WARSCAPE_PROPERTIES name="lubu_frustrated2.xml" warscape_properties_file="../cameras/lubu_frustrated2.xml"/>
+ </NODE>
+ <NODE name="Props">
+  <PROP prop_file="../props/sun_blocker_cao_cao.kfp" name="sun_blocker_cao_cao.kfp"/>
+ </NODE>
+ <NODE name="Custom File">
+  <CUSTOM custom_file="../custom/split_d2_default.kfc" name="split_d2_default.kfc"/>
+  <CUSTOM custom_file="../custom/split_d1_default.kfc" name="split_d1_default.kfc"/>
+  <CUSTOM custom_file="../custom/split_d0_default.kfc" name="split_d0_default.kfc"/>
+ </NODE>
+</SCENE_FILE>

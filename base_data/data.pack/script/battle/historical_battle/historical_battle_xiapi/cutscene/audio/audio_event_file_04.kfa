@@ -1,0 +1,13 @@
+<AUDIO_EVENT_FILE id="{fc2a08ac-c296-4df8-ac43-a24735948f79}" version="25" audio_event_name="Play_Battle_Historical_Cao_Cao_Xia_Pi_04_1" hidden="false">
+ <VECTOR surface_mode="Freeform" id="{0fe5cf6c-34fb-45cb-8353-33c750c8ebcf}" name="position" link_id="0" is_linked="0" hidden="false" unique_id="{0fe5cf6c-34fb-45cb-8353-33c750c8ebcf}">
+  <DOUBLE id="{46a03f1d-6978-40c9-8349-12963d5ec4a8}" default="0" name="X" animated="0" order="0" single_keyframe_only="1" hidden="false"/>
+  <DOUBLE id="{4f570cb6-cdf4-43f2-a8e5-88066e495180}" default="0" name="Y" animated="0" order="1" single_keyframe_only="1" hidden="false"/>
+  <DOUBLE id="{3c379fc7-21f0-4354-b5d8-70488d1a4377}" default="0" name="Z" animated="0" order="2" single_keyframe_only="1" hidden="false"/>
+ </VECTOR>
+ <BOOL user_friendy_name="Active" id="{b50f713c-aa0e-469b-9a74-e8c69ce1f55a}" default="0" name="active" animated="1" order="2" single_keyframe_only="0" hidden="false">
+  <KEYFRAME data="0" time="0.9000000357627869"/>
+  <KEYFRAME data="1" time="47.46667098999023"/>
+  <KEYFRAME data="0" time="51.93333435058594"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Volume" id="{5eccc43e-d536-493a-9e3d-e143b7cf5be8}" default="100" name="volume" animated="0" order="3" single_keyframe_only="1" hidden="false"/>
+</AUDIO_EVENT_FILE>

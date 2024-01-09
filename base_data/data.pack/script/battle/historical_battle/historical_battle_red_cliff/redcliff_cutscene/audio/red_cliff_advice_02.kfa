@@ -1,0 +1,13 @@
+<AUDIO_EVENT_FILE audio_event_name="Play_3k_main_historical_battle_red_cliff_liu_bei_02_1" id="{e2ed618a-60f9-43a3-a326-3939f1aa5414}" hidden="false" version="26">
+ <VECTOR is_linked="0" link_id="0" surface_mode="Freeform" id="{e831f474-b33e-49f3-94e5-491b879af918}" hidden="false" unique_id="{e831f474-b33e-49f3-94e5-491b879af918}" name="position">
+  <DOUBLE order="0" id="{3ce4e7b3-4261-4cc9-90d4-5ff4993fb046}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="X"/>
+  <DOUBLE order="1" id="{2a63598d-4e7f-4d06-9733-66a8c57093ee}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Y"/>
+  <DOUBLE order="2" id="{35bf8553-6d78-4fd2-9c53-a8be5ade51d4}" hidden="false" single_keyframe_only="1" animated="0" default="0" name="Z"/>
+ </VECTOR>
+ <BOOL order="2" id="{b0b32b57-9089-497a-912d-c7327bda142b}" user_friendy_name="Active" hidden="false" single_keyframe_only="0" animated="1" default="0" name="active">
+  <KEYFRAME time="27.23233604431152" data="0"/>
+  <KEYFRAME time="27.23333549499512" data="1"/>
+  <KEYFRAME time="37.16666793823242" data="0"/>
+ </BOOL>
+ <DOUBLE order="3" id="{1e7a4baf-bc8a-4201-8624-d4900693cbda}" user_friendy_name="Volume" hidden="false" single_keyframe_only="1" animated="0" default="100" name="volume"/>
+</AUDIO_EVENT_FILE>

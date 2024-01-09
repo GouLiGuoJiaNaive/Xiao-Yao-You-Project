@@ -1,0 +1,17 @@
+<NOISE_FILE name="siege_cam1_noise.xml" version="23">
+ <DOUBLE name="amplitude" animated="0" hidden="false" user_friendy_name="Amplitude" order="0" default="20" single_keyframe_only="1">
+  <KEYFRAME data="15" time="-1"/>
+ </DOUBLE>
+ <DOUBLE name="frequency" animated="1" hidden="false" user_friendy_name="Frequency" order="1" default="5" single_keyframe_only="0">
+  <KEYFRAME data="1" time="-1"/>
+  <KEYFRAME data="1" time="45.33333587646484"/>
+ </DOUBLE>
+ <INT name="number_of_octaves" animated="1" hidden="false" user_friendy_name="Number of Octaves" order="2" default="3" single_keyframe_only="0">
+  <KEYFRAME data="3" time="48.80000305175781"/>
+ </INT>
+ <DOUBLE name="offset" animated="1" hidden="false" user_friendy_name="Offset" order="3" default="10" single_keyframe_only="0">
+  <KEYFRAME data="6" time="50.36666870117188"/>
+ </DOUBLE>
+ <DOUBLE name="persistence" animated="1" hidden="false" user_friendy_name="Persistence" order="4" default="0.5" single_keyframe_only="0"/>
+ <DOUBLE name="lacunarity" animated="1" hidden="false" user_friendy_name="Lacunarity" order="5" default="2" single_keyframe_only="0"/>
+</NOISE_FILE>

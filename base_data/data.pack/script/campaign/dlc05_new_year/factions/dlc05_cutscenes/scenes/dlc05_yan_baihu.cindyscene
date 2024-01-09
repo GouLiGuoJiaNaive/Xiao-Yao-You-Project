@@ -1,0 +1,32 @@
+<SCENE_FILE end_record_time="76.00000396370888" perspective_camera="306.235,11.151,358.391:311.235,6.15101,363.391" id="{2d162e6a-f215-4c03-9a6e-2a1bb5a0d3c1}" hidden="false" start_record_time="0" version="26">
+ <ENVIRONMENT data="" order="0" id="{9c26b806-052e-4c4d-8ff3-ea720a422d29}" name="Environment" hidden="false"/>
+ <VECTOR id="{9c1c9986-37f8-4140-aa87-09750a16ef00}" unique_id="{9c1c9986-37f8-4140-aa87-09750a16ef00}" name="position" surface_mode="Freeform" hidden="false" is_linked="0" link_id="0">
+  <DOUBLE default="0" order="0" id="{f6598dd3-33c4-43c9-a2b1-06d9a7158f0d}" animated="1" name="X" hidden="false" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="1" id="{d53a315a-f28f-4ef4-aa08-7c63b1ce91cb}" animated="1" name="Y" hidden="false" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" order="2" id="{2fbc0207-be5b-4c96-a1a9-fea4e40f305f}" animated="1" name="Z" hidden="false" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{5dd77c81-22a3-4107-bebb-6508e89b805d}" name="rotation" hidden="false">
+  <RADIAN default="0" order="0" id="{dbc40757-cd43-45d2-9055-54198dd77c85}" animated="1" name="X" hidden="false" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" order="1" id="{539e66ab-d6df-4a17-8aa8-2b4f25f671dd}" animated="1" name="Y" hidden="false" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" order="2" id="{1988d26f-6ba1-4b4f-98cb-48ae5e9f9136}" animated="1" name="Z" hidden="false" single_keyframe_only="1">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE id="{c935a6cb-e583-4f50-8f13-35e49b0f5e00}" name="Links" hidden="false"/>
+ <NODE id="{5fd449d6-199a-4c1f-8c28-28c322eded99}" name="Warscape Properties" hidden="false">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/cam_yan_baihu.xml" id="{8c19d770-3cd4-49e1-b1ae-59ee5d116796}" name="cam_yan_baihu.xml" hidden="false"/>
+ </NODE>
+ <NODE id="{490951a1-22ea-484c-8755-5fa6ac4572ef}" name="Triggers" hidden="false">
+  <TRIGGER trigger_file="../triggers/yan_baihu.ktr" id="{7e552af7-0b1e-4f8b-8579-5006310a620f}" name="yan_baihu.ktr" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

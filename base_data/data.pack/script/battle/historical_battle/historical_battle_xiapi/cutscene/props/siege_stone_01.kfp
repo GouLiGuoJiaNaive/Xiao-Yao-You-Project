@@ -1,0 +1,29 @@
+<PROP_FILE hidden="false" prop_name="projectiles/siege_stone_01_projectile.wsmodel" version="25" id="{a9996d24-f98d-433a-8ab5-6e3009ee386e}">
+ <VECTOR unique_id="{260e194f-f6d3-4419-88d1-f7377e99e2b7}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{260e194f-f6d3-4419-88d1-f7377e99e2b7}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="0" default="0" id="{236c2314-3974-4d6e-8ea9-f8ef36332193}">
+   <KEYFRAME data="-85.90784454345703" time="64.30000305175781"/>
+   <KEYFRAME data="-85.90784454345703" time="67.30000305175781"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="0" default="0" id="{b09db728-8e2f-4850-a3cc-3888342478e4}">
+   <KEYFRAME data="207.6121063232422" time="64.30000305175781"/>
+   <KEYFRAME handle2_x="65.2889" handle2_y="218.936" handle2_type="SMOOTH" data="211.42919921875" time="64.63333129882813"/>
+   <KEYFRAME handle2_x="66.8333" handle1_y="220.29" handle2_y="220.897" handle1_x="65.9444" handle2_type="SMOOTH" handle1_type="SMOOTH" data="220.73753356933594" time="66.5999755859375"/>
+   <KEYFRAME data="221.1455535888672" time="67.30000305175781"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="0" default="0" id="{0bf8e632-d2dd-4a80-9b1e-3364115bb45f}">
+   <KEYFRAME data="-633.934326171875" time="64.30000305175781"/>
+   <KEYFRAME handle2_x="65.2889" handle2_y="-582.702" handle2_type="SMOOTH" data="-616.6650390625" time="64.63333129882813"/>
+   <KEYFRAME data="-507.88690185546875" time="66.5999755859375"/>
+   <KEYFRAME data="-468.80072021484375" time="67.30000305175781"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{ca54cec0-df76-48ab-bd44-8d2e3b91ba1d}">
+  <RADIAN name="X" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{7fe73ef2-e105-4299-8149-075a04d2b373}"/>
+  <RADIAN name="Y" hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" id="{2aa6b8f8-0e34-4f6d-a1de-1b3c9d107167}"/>
+  <RADIAN name="Z" hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" id="{0c1b93c7-e4b9-44ff-ac1b-7c687b47c724}"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" hidden="false" order="1" animated="0" single_keyframe_only="1" default="1" id="{5df95af9-2831-414e-b82a-7bc3d1ff883d}"/>
+ <BOOL name="always visible" hidden="false" order="3" animated="0" single_keyframe_only="1" default="0" id="{f93e114b-5c08-4953-836e-4aea49985b19}">
+  <KEYFRAME data="1" time="0"/>
+ </BOOL>
+</PROP_FILE>

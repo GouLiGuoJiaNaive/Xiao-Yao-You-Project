@@ -1,0 +1,12 @@
+<NOISE_FILE version="23" name="fastTracking.xml">
+ <DOUBLE order="0" hidden="false" single_keyframe_only="1" name="amplitude" user_friendy_name="Amplitude" animated="0" default="20">
+  <KEYFRAME data="10" time="0"/>
+ </DOUBLE>
+ <DOUBLE order="1" hidden="false" single_keyframe_only="1" name="frequency" user_friendy_name="Frequency" animated="0" default="5">
+  <KEYFRAME data="5" time="0"/>
+ </DOUBLE>
+ <INT order="2" hidden="false" single_keyframe_only="0" name="number_of_octaves" user_friendy_name="Number of Octaves" animated="1" default="3"/>
+ <DOUBLE order="3" hidden="false" single_keyframe_only="0" name="offset" user_friendy_name="Offset" animated="1" default="10"/>
+ <DOUBLE order="4" hidden="false" single_keyframe_only="0" name="persistence" user_friendy_name="Persistence" animated="1" default="0.5"/>
+ <DOUBLE order="5" hidden="false" single_keyframe_only="0" name="lacunarity" user_friendy_name="Lacunarity" animated="1" default="2"/>
+</NOISE_FILE>

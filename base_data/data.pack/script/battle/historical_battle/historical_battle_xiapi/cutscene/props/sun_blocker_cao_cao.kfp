@@ -1,0 +1,24 @@
+<PROP_FILE hidden="false" prop_name="battleterrain/vegetation/trees/bamboo/tree_bamboogroup_a.rigid_model_v2" version="25" id="{4b83232b-925b-47ad-bfc1-73f8a035bbf4}">
+ <VECTOR unique_id="{6b618f7a-4322-4870-acf7-c0c20eb64783}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{6b618f7a-4322-4870-acf7-c0c20eb64783}">
+  <DOUBLE name="X" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{4c65cce8-6412-402a-97a1-152118bcb80a}">
+   <KEYFRAME data="24.156354904174805" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" id="{22968e5e-f81c-4080-83ef-1b154fa7abe7}">
+   <KEYFRAME data="188.32847595214844" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" id="{688761d8-839e-49b1-a270-5d2bc380a85b}">
+   <KEYFRAME data="-95.1663818359375" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{f12e9c7b-b83c-4975-b884-8c6cb120066e}">
+  <RADIAN name="X" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{b4c29a9a-fc40-40ce-afab-9529859c1196}"/>
+  <RADIAN name="Y" hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" id="{a5d845e1-9e13-4498-972e-10e7536b9509}"/>
+  <RADIAN name="Z" hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" id="{4acbeee0-3e2c-4a22-a19b-f383666f5ed0}"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" hidden="false" order="1" animated="0" single_keyframe_only="1" default="1" id="{c81e7eca-027a-4edc-809b-7b9eea88b8c7}">
+  <KEYFRAME data="1" time="0"/>
+ </DOUBLE>
+ <BOOL name="always visible" hidden="false" order="3" animated="0" single_keyframe_only="1" default="0" id="{9a7e80ab-54a1-457b-9e27-ac686158098a}">
+  <KEYFRAME data="1" time="0"/>
+ </BOOL>
+</PROP_FILE>

@@ -1,0 +1,12 @@
+<NOISE_FILE version="23" name="fire_wobble_01.xml">
+ <DOUBLE name="amplitude" user_friendy_name="Amplitude" order="0" single_keyframe_only="1" default="20" animated="0" hidden="false">
+  <KEYFRAME data="5" time="0"/>
+ </DOUBLE>
+ <DOUBLE name="frequency" user_friendy_name="Frequency" order="1" single_keyframe_only="1" default="5" animated="0" hidden="false">
+  <KEYFRAME data="6" time="0"/>
+ </DOUBLE>
+ <INT name="number_of_octaves" user_friendy_name="Number of Octaves" order="2" single_keyframe_only="0" default="3" animated="1" hidden="false"/>
+ <DOUBLE name="offset" user_friendy_name="Offset" order="3" single_keyframe_only="0" default="10" animated="1" hidden="false"/>
+ <DOUBLE name="persistence" user_friendy_name="Persistence" order="4" single_keyframe_only="0" default="0.5" animated="1" hidden="false"/>
+ <DOUBLE name="lacunarity" user_friendy_name="Lacunarity" order="5" single_keyframe_only="0" default="2" animated="1" hidden="false"/>
+</NOISE_FILE>

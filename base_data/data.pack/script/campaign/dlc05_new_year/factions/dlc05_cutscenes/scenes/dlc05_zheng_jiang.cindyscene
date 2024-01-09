@@ -1,0 +1,35 @@
+<SCENE_FILE version="26" perspective_camera="374.637,5.13292,399.59:368.725,2.5896,405.384" start_record_time="0" end_record_time="80.00000417232513" id="{d2337a07-7e7c-4e6c-8117-785518755864}" hidden="false">
+ <ENVIRONMENT name="Environment" data="" order="0" id="{315ef477-e620-425c-88b3-de8f311a3322}" hidden="false"/>
+ <VECTOR unique_id="{81e683e1-056a-43c1-a812-91fee064e62e}" link_id="0" name="position" is_linked="0" surface_mode="Freeform" id="{81e683e1-056a-43c1-a812-91fee064e62e}" hidden="false">
+  <DOUBLE default="0" animated="1" name="X" order="0" single_keyframe_only="1" id="{b420eba2-3dff-4540-b8b7-cf092bc385f8}" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" animated="1" name="Y" order="1" single_keyframe_only="1" id="{8d41e724-bf5c-4a8b-9bc3-1248cb12f4e3}" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" animated="1" name="Z" order="2" single_keyframe_only="1" id="{7b7a2535-3d7b-44e2-bf9b-1f9a6a62e7ee}" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{399b8e8c-0641-4ca6-9d30-afa1aed0a11d}" hidden="false">
+  <RADIAN default="0" animated="1" name="X" order="0" single_keyframe_only="1" id="{9d07449d-1f6b-4644-bf42-0a1254095276}" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" animated="1" name="Y" order="1" single_keyframe_only="1" id="{8528a5b6-fbcc-44dc-9473-fa1633d24e43}" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+  <RADIAN default="0" animated="1" name="Z" order="2" single_keyframe_only="1" id="{c556db31-e6a7-4979-bda6-b8d8b6a5e3b9}" hidden="false">
+   <KEYFRAME data="0" time="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <NODE name="Links" id="{4ab9bf22-e048-4e34-ad62-c060939fad87}" hidden="false"/>
+ <NODE name="Warscape Properties" id="{4c2f5921-30bc-4130-9c29-0e6177bb0f19}" hidden="false">
+  <WARSCAPE_PROPERTIES name="cam_zheng_jiang.xml" warscape_properties_file="../cameras/cam_zheng_jiang.xml" id="{3eceec59-2738-4d34-861c-33b9c79bb679}" hidden="false"/>
+ </NODE>
+ <NODE name="Triggers" id="{3632f195-a78e-4df2-a781-5e9e188adf9a}" hidden="false">
+  <TRIGGER trigger_file="../triggers/zheng_jiang.ktr" name="zheng_jiang.ktr" id="{fc77e0a9-f26b-4072-b7df-92735fa45e5f}" hidden="false"/>
+ </NODE>
+ <NODE name="Particle Effects" id="{88eb207e-54c7-4f94-ad57-4dd2c89bbbfb}" hidden="false">
+  <EFFECT effect_file="../particles/yuan_shao_fire.kfe" name="yuan_shao_fire.kfe" id="{d8781148-cbd1-4f42-95b7-839aa2f8a7b3}" hidden="false"/>
+ </NODE>
+</SCENE_FILE>

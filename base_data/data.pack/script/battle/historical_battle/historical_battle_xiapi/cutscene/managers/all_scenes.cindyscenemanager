@@ -1,0 +1,26 @@
+<SCENE_MANAGER_FILE end_record_time="1000" start_record_time="0" hidden="false" perspective_camera="5.96001,5.57182,-82.4642:1.24043,0.508102,-67.0719" version="25" id="{4bb84bf7-a9f6-4efd-9ea3-24d772b4fa9c}">
+ <START_SCENE real_time="0" scene="scene01_shot01.CindyScene"/>
+ <SCENE_SWITCH real_time="0" switch_scene="scene01_shot02.CindyScene" time="5.94742"/>
+ <SCENE_SWITCH real_time="0" switch_scene="scene01_shot03.CindyScene" time="11.8403"/>
+ <SCENE_SWITCH real_time="0" switch_scene="scene01_shot04.CindyScene" time="18.8244"/>
+ <NODE name="Scenes" hidden="false" id="{574f2a8e-99f1-4393-b067-82400f7eecad}">
+  <SCENE name="scene01_shot01.CindyScene" hidden="false" scene_file="../scenes/scene01_shot01.CindyScene" id="{f2ff56ed-760f-4d93-bf81-0b5b9525724b}"/>
+  <SCENE name="scene01_shot02.CindyScene" hidden="false" scene_file="../scenes/scene01_shot02.CindyScene" id="{f3b4d9d3-f23b-4fc4-93a2-f9d4164b807c}"/>
+  <SCENE name="scene01_shot03.CindyScene" hidden="false" scene_file="../scenes/scene01_shot03.CindyScene" id="{f620843d-2734-49ff-9404-f17f40802496}"/>
+  <SCENE name="scene01_shot04.CindyScene" hidden="false" scene_file="../scenes/scene01_shot04.CindyScene" id="{d94ced70-7e13-4d94-b610-0c72ea77179b}"/>
+  <SCENE name="scene01_shot05.CindyScene" hidden="false" scene_file="../scenes/scene01_shot05.CindyScene" id="{44ec9824-01bf-401e-9469-712003a59b5e}"/>
+  <SCENE name="scene01_shot06.CindyScene" hidden="false" scene_file="../scenes/scene01_shot06.CindyScene" id="{e828919f-a669-45a1-97ba-3a44ccf42d08}"/>
+  <SCENE name="scene01_shot07.CindyScene" hidden="false" scene_file="../scenes/scene01_shot07.CindyScene" id="{3c1f406b-dfe0-43f9-b404-c8a7236e2e39}"/>
+  <SCENE name="scene01_shot08.CindyScene" hidden="false" scene_file="../scenes/scene01_shot08.CindyScene" id="{45a8495d-ecbd-4caf-b04c-25dc54eb9852}"/>
+  <SCENE name="scene02_shot01.CindyScene" hidden="false" scene_file="../scenes/scene02_shot01.CindyScene" id="{b2d90653-c10b-4973-928a-03ea2eaaf325}"/>
+  <SCENE name="scene02_shot02.CindyScene" hidden="false" scene_file="../scenes/scene02_shot02.CindyScene" id="{48f97658-11f1-46b1-9636-4174e7a7193f}"/>
+  <SCENE name="scene02_shot03.CindyScene" hidden="false" scene_file="../scenes/scene02_shot03.CindyScene" id="{4e6f1d96-6c30-4ed0-ac25-44cad4d5797c}"/>
+  <SCENE name="scene03_shot01.CindyScene" hidden="false" scene_file="../scenes/scene03_shot01.CindyScene" id="{754a0b26-1dcf-4453-8598-58792585abad}"/>
+  <SCENE name="scene03_shot02.CindyScene" hidden="false" scene_file="../scenes/scene03_shot02.CindyScene" id="{0da4bb89-afd2-4ab0-b38c-2937ba49b9a0}"/>
+  <SCENE name="scene03_shot03.CindyScene" hidden="false" scene_file="../scenes/scene03_shot03.CindyScene" id="{cb5ff766-5c8b-4cdb-b42a-7e6b9435e0f3}"/>
+  <SCENE name="scene03_shot04.CindyScene" hidden="false" scene_file="../scenes/scene03_shot04.CindyScene" id="{5957642f-0a3e-4203-9ae7-63dcda7f45e8}"/>
+  <SCENE name="scene03_shot05.CindyScene" hidden="false" scene_file="../scenes/scene03_shot05.CindyScene" id="{26e83a2f-bb8d-4886-9fb2-9fe40cfea01b}"/>
+  <SCENE name="scene03_shot06.CindyScene" hidden="false" scene_file="../scenes/scene03_shot06.CindyScene" id="{d7444265-de16-4e8d-b172-1136990d6ba5}"/>
+ </NODE>
+ <NODE name="Links" hidden="false" id="{183a361f-e60c-471f-880a-d4e43778f4ad}"/>
+</SCENE_MANAGER_FILE>

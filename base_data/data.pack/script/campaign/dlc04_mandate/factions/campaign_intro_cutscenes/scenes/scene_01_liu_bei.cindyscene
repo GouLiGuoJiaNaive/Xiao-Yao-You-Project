@@ -1,0 +1,23 @@
+<SCENE_FILE hidden="false" start_record_time="0" perspective_camera="266.018,6.79096,395.728:278.432,-6.36047,363.956" id="{de99fe1b-605d-49bd-a928-2f99924a9d9b}" version="26" end_record_time="56.14801646249552">
+ <ENVIRONMENT hidden="false" id="{0655d968-a07b-4ad7-b6c0-3a7bee68c6e5}" data="" name="Environment" order="0"/>
+ <VECTOR hidden="false" id="{51ae42c2-9e92-4fe5-a9c5-c33a787f63bc}" link_id="0" is_linked="0" surface_mode="Freeform" name="position" unique_id="{51ae42c2-9e92-4fe5-a9c5-c33a787f63bc}">
+  <DOUBLE hidden="false" animated="1" id="{dbf18515-7de0-4e6c-b6f5-1c98f0c2f0d5}" single_keyframe_only="1" name="X" default="0" order="0"/>
+  <DOUBLE hidden="false" animated="1" id="{d6f8d070-e2ec-41fb-bb3b-e828958cf67f}" single_keyframe_only="1" name="Y" default="0" order="1"/>
+  <DOUBLE hidden="false" animated="1" id="{f5781265-64ff-4f56-9e86-92d6617b51e9}" single_keyframe_only="1" name="Z" default="0" order="2"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{62f0da00-2fb6-4e40-98f4-9489dfe76804}" name="rotation">
+  <RADIAN hidden="false" animated="1" id="{38837b17-d2a6-48c1-86c5-b9144595aba4}" single_keyframe_only="1" name="X" default="0" order="0"/>
+  <RADIAN hidden="false" animated="1" id="{537a34d0-7f6a-4f54-97f7-7428fbed18bd}" single_keyframe_only="1" name="Y" default="0" order="1"/>
+  <RADIAN hidden="false" animated="1" id="{12756cae-941c-432c-acf4-85c078383610}" single_keyframe_only="1" name="Z" default="0" order="2"/>
+ </ROTATION_AXES>
+ <NODE hidden="false" id="{5e43b6c5-b410-4876-a495-584c0f08b46f}" name="Links"/>
+ <NODE hidden="false" id="{1183ea31-3b44-45e6-a9b7-38d0ae7cc835}" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES hidden="false" id="{f9a433d7-330a-449e-beb5-e59a7a86c025}" warscape_properties_file="../cameras/pan_camera_liu_bei.xml" name="pan_camera_liu_bei.xml"/>
+ </NODE>
+ <NODE hidden="false" id="{db4ea697-390e-4adb-a676-03833af5225f}" name="Triggers">
+  <TRIGGER hidden="false" id="{ffd05343-89d0-4628-ad9f-5f6fafdd718f}" trigger_file="../triggers/liu_bei.ktr" name="liu_bei.ktr"/>
+ </NODE>
+ <NODE hidden="false" id="{923af189-b9ad-49f1-bd6b-8f6acf57deb1}" name="Composite Scenes">
+  <COMPOSITE_SCENE hidden="false" composite_scene_file="../csc_ref/general_eunuch_argue.kfcs" id="{a0423e87-df10-4bc1-81c6-1bb8a69e6e15}" name="general_eunuch_argue.kfcs"/>
+ </NODE>
+</SCENE_FILE>

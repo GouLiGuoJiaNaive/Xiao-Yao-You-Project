@@ -1,0 +1,19 @@
+<AUDIO_EVENT_FILE audio_event_name="Play_3k_main_historical_battle_changban_liu_bei_02_1" hidden="false" version="25" id="{060ba501-5163-45e1-ba2f-ed260cace5ae}">
+ <VECTOR link_id="0" is_linked="0" hidden="false" name="position" id="{0840597f-e8e3-4c0d-8b79-e16e9b92a871}" unique_id="{0840597f-e8e3-4c0d-8b79-e16e9b92a871}" surface_mode="Freeform">
+  <DOUBLE default="0" hidden="false" name="X" id="{fe6b69d0-338f-49c7-82b5-efec939bda4d}" single_keyframe_only="1" order="0" animated="0">
+   <KEYFRAME data="11.047500610351562" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" name="Y" id="{c3bd9c8c-c46f-4b5e-b0bf-0d2607e87acf}" single_keyframe_only="1" order="1" animated="0">
+   <KEYFRAME data="741.3482666015625" time="0"/>
+  </DOUBLE>
+  <DOUBLE default="0" hidden="false" name="Z" id="{f5bc6346-09e5-4c80-8dd4-36ed1c8339cf}" single_keyframe_only="1" order="2" animated="0">
+   <KEYFRAME data="823.3529663085938" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <BOOL default="0" user_friendy_name="Active" hidden="false" name="active" id="{e0882439-f7d0-449b-addf-63867e1aa943}" single_keyframe_only="0" order="2" animated="1">
+  <KEYFRAME data="0" time="18.60000038146973"/>
+  <KEYFRAME data="1" time="18.60099983215332"/>
+  <KEYFRAME data="0" time="27.63333511352539"/>
+ </BOOL>
+ <DOUBLE default="100" user_friendy_name="Volume" hidden="false" name="volume" id="{f4a2673b-d701-42ea-a658-1d2e55f31076}" single_keyframe_only="1" order="3" animated="0"/>
+</AUDIO_EVENT_FILE>

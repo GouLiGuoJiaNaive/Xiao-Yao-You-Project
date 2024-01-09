@@ -1,0 +1,34 @@
+<COMPOSITE_SCENE_FILE hidden="false" id="{09a9b132-ab7f-4edb-8b09-8fbe6ece6ed7}" version="25" directory="composite_scene/campaign/seige/trebuchet_1.csc">
+ <VECTOR surface_mode="Freeform" hidden="false" unique_id="{8e15e44c-6d1c-4eac-8211-c54fb6aca058}" name="position" link_id="0" id="{8e15e44c-6d1c-4eac-8211-c54fb6aca058}" is_linked="0">
+  <DOUBLE hidden="false" name="X" default="0" animated="0" id="{9c6df8af-f9bb-471e-9466-6062dd856b4f}" order="0" single_keyframe_only="1">
+   <KEYFRAME time="0" data="187.0614471435547"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" name="Y" default="0" animated="0" id="{45ffd7b0-7678-4cb0-8d65-7c9f9609cabc}" order="1" single_keyframe_only="1">
+   <KEYFRAME time="0" data="6.023868083953857"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" name="Z" default="0" animated="0" id="{de282312-eb04-40c5-b6f8-07bf13a598d6}" order="2" single_keyframe_only="1">
+   <KEYFRAME time="0" data="400.2880859375"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{af1137db-0ed1-4b26-ac27-ec7b146ef137}">
+  <RADIAN hidden="false" name="X" default="0" animated="0" id="{db5e77af-18eb-47ea-b250-353e3a529456}" order="0" single_keyframe_only="1"/>
+  <RADIAN hidden="false" name="Y" default="0" animated="0" id="{94c9c4c4-72bf-4c62-92dc-35bd3329c59b}" order="1" single_keyframe_only="1">
+   <KEYFRAME time="0" data="5.787087440490723"/>
+  </RADIAN>
+  <RADIAN hidden="false" name="Z" default="0" animated="0" id="{a18971ac-fb79-4d5f-bccc-11aa808207b1}" order="2" single_keyframe_only="1"/>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" name="scale" user_friendy_name="Scale" default="1" animated="0" id="{b58e22eb-7bc8-4be1-a336-04b8883c3234}" order="2" single_keyframe_only="1">
+  <KEYFRAME time="0" data="0.5"/>
+ </DOUBLE>
+ <BOOL hidden="false" name="active" user_friendy_name="Active" default="0" animated="1" id="{2e672ab6-d05e-4b17-9b2f-a46e808ecb30}" order="3" single_keyframe_only="0">
+  <KEYFRAME time="83.13333892822266" data="0"/>
+  <KEYFRAME time="84.20000457763672" data="1"/>
+  <KEYFRAME time="84.20000457763672" data="1"/>
+ </BOOL>
+ <DOUBLE hidden="false" name="speed_multiplier" user_friendy_name="Speed Multiplier" default="1" animated="1" id="{275cb0f4-1b87-4233-8895-96d09173ed7e}" order="4" single_keyframe_only="0">
+  <KEYFRAME time="56.26667022705078" data="1"/>
+  <KEYFRAME time="60.83333587646484" data="1"/>
+  <KEYFRAME time="82.53334045410156" data="1"/>
+  <KEYFRAME time="85.26667022705078" data="1"/>
+ </DOUBLE>
+</COMPOSITE_SCENE_FILE>

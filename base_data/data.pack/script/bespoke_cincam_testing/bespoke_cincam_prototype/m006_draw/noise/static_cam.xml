@@ -1,0 +1,14 @@
+<NOISE_FILE version="21" name="static_cam.xml">
+ <DOUBLE animated="0" single_keyframe_only="1" default="20" order="0" hidden="false" user_friendy_name="Amplitude" name="amplitude">
+  <KEYFRAME data="2" time="0"/>
+ </DOUBLE>
+ <DOUBLE animated="0" single_keyframe_only="1" default="5" order="1" hidden="false" user_friendy_name="Frequency" name="frequency">
+  <KEYFRAME data="1" time="0"/>
+ </DOUBLE>
+ <INT animated="1" single_keyframe_only="0" default="3" order="2" hidden="false" user_friendy_name="Number of Octaves" name="number_of_octaves"/>
+ <DOUBLE animated="1" single_keyframe_only="0" default="10" order="3" hidden="false" user_friendy_name="Offset" name="offset">
+  <KEYFRAME data="2" time="19.80000114440918"/>
+ </DOUBLE>
+ <DOUBLE animated="1" single_keyframe_only="0" default="0.5" order="4" hidden="false" user_friendy_name="Persistence" name="persistence"/>
+ <DOUBLE animated="1" single_keyframe_only="0" default="2" order="5" hidden="false" user_friendy_name="Lacunarity" name="lacunarity"/>
+</NOISE_FILE>

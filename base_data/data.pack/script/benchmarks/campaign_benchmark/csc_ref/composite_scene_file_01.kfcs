@@ -1,0 +1,18 @@
+<COMPOSITE_SCENE_FILE directory="animations/comp_scenes/archer_previs/cavalry_archer_firing_previs_01.csc" hidden="false" version="25" id="{1cb9c6ce-8205-41be-b3b5-a30df19336d2}">
+ <VECTOR is_linked="0" unique_id="{17d8d38e-ecf9-4d7e-8b0f-a07e2bc995b3}" hidden="false" surface_mode="Freeform" name="position" id="{17d8d38e-ecf9-4d7e-8b0f-a07e2bc995b3}" link_id="-1">
+  <DOUBLE default="0" animated="0" hidden="false" order="0" name="X" single_keyframe_only="1" id="{85a5f9a6-7fc1-43a8-a992-4778609d7b08}"/>
+  <DOUBLE default="0" animated="0" hidden="false" order="1" name="Y" single_keyframe_only="1" id="{46d4dab3-536e-42ab-bc16-0e6c1e0ae568}"/>
+  <DOUBLE default="0" animated="0" hidden="false" order="2" name="Z" single_keyframe_only="1" id="{9dc0cb58-d0a7-4842-866c-a12dbd64be38}"/>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" name="rotation" id="{5cba81eb-8acc-43ad-8e0e-b13afa498a21}">
+  <RADIAN default="0" animated="0" hidden="false" order="0" name="X" single_keyframe_only="1" id="{3fe764ca-f2ce-4c36-91b1-716d0b29f902}"/>
+  <RADIAN default="0" animated="0" hidden="false" order="1" name="Y" single_keyframe_only="1" id="{27f1d31d-e219-45ca-b9dd-d9d2ae292097}"/>
+  <RADIAN default="0" animated="0" hidden="false" order="2" name="Z" single_keyframe_only="1" id="{aa684029-61cd-4096-8c92-72574ddedce9}"/>
+ </ROTATION_AXES>
+ <DOUBLE default="1" animated="0" hidden="false" user_friendy_name="Scale" order="2" name="scale" single_keyframe_only="1" id="{103f6002-2891-40ae-ab01-39c3a70198d2}"/>
+ <BOOL default="0" animated="1" hidden="false" user_friendy_name="Active" order="3" name="active" single_keyframe_only="0" id="{b130b5f2-2a18-4ab3-b55e-80e874435225}">
+  <KEYFRAME time="70.89900207519531" data="0"/>
+  <KEYFRAME time="70.90000152587891" data="1"/>
+ </BOOL>
+ <DOUBLE default="1" animated="1" hidden="false" user_friendy_name="Speed Multiplier" order="4" name="speed_multiplier" single_keyframe_only="0" id="{8415f389-7be1-4ac0-a2b2-29bb64953105}"/>
+</COMPOSITE_SCENE_FILE>

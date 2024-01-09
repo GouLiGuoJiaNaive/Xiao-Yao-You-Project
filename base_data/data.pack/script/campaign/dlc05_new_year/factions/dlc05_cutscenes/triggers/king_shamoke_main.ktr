@@ -1,0 +1,11 @@
+<TRIGGER_FILE id="{06b1b6da-25f6-4509-99fd-0a3ef1195917}" hidden="false" version="26">
+ <STRING order="0" id="{d9714254-b26c-4971-8b57-91d8ce2fe6ef}" hidden="false" name="Timeline">
+  <KEYFRAME time="1" data="3k_dlc06_194_campaign_faction_intro_king_shamoke_01_advisor"/>
+  <KEYFRAME time="9" data="3k_dlc06_194_campaign_faction_intro_king_shamoke_02_advisor"/>
+  <KEYFRAME time="16.5" data="3k_dlc06_194_campaign_faction_intro_king_shamoke_03_advisor"/>
+  <KEYFRAME time="27.50000190734863" data="3k_dlc06_194_campaign_faction_intro_king_shamoke_04_advisor"/>
+  <KEYFRAME time="37.50000381469727" data="3k_dlc06_194_campaign_faction_intro_king_shamoke_05_advisor"/>
+  <KEYFRAME time="47.00000381469727" data="3k_dlc06_194_campaign_faction_intro_king_shamoke_06_advisor"/>
+  <KEYFRAME time="58.00000381469727" data="3k_dlc06_194_campaign_faction_intro_king_shamoke_07_advisor"/>
+ </STRING>
+</TRIGGER_FILE>

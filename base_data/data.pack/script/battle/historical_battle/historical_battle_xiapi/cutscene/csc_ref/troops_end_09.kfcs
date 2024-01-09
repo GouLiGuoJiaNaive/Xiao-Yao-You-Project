@@ -1,0 +1,26 @@
+<COMPOSITE_SCENE_FILE directory="script/battle/historical_battle/historical_battle_xiapi/composite_scene/scene03_spearmen.csc" hidden="false" version="25" id="{5c36f086-4567-465c-8c0f-728e01430d09}">
+ <VECTOR unique_id="{5ff91981-6bf4-4a31-b953-76b99180a314}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{5ff91981-6bf4-4a31-b953-76b99180a314}">
+  <DOUBLE name="X" hidden="false" order="0" animated="1" single_keyframe_only="0" default="0" id="{e839db4c-e59e-43f1-9809-bd24476edd5f}">
+   <KEYFRAME data="10.322126388549805" time="10.03333377838135"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="1" single_keyframe_only="0" default="0" id="{87cb371f-fc85-47c9-b6e5-3535c6436263}">
+   <KEYFRAME data="196.8419952392578" time="25.70000076293945"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="1" single_keyframe_only="0" default="0" id="{b987b2f9-2146-478a-bb7b-7a189ec4cd93}">
+   <KEYFRAME data="-79.68682861328125" time="10.03333377838135"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" hidden="false" id="{d4260ea5-f6e4-4ef0-8ab9-407de224a790}">
+  <RADIAN name="X" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{24215168-711c-4b76-a572-832db1d1728e}"/>
+  <RADIAN name="Y" hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" id="{4f44f92e-c323-488b-b9f2-c2fcd059d266}">
+   <KEYFRAME data="5.973072528839111" time="10.03333377838135"/>
+  </RADIAN>
+  <RADIAN name="Z" hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" id="{5235ebaf-5ff0-4e7d-809f-f10addf36b28}"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" name="scale" hidden="false" order="2" animated="0" single_keyframe_only="1" default="1" id="{5424fdff-5ee2-4c26-a799-a9e124ed3aea}"/>
+ <BOOL user_friendy_name="Active" name="active" hidden="false" order="3" animated="1" single_keyframe_only="0" default="0" id="{afe0239a-0335-4b87-bc47-12a800b598cb}">
+  <KEYFRAME data="0" time="25.70000076293945"/>
+  <KEYFRAME data="1" time="25.76666641235352"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" name="speed_multiplier" hidden="false" order="4" animated="1" single_keyframe_only="0" default="1" id="{213748f7-d090-4ed3-958e-df51188d3d91}"/>
+</COMPOSITE_SCENE_FILE>

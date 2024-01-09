@@ -1,0 +1,32 @@
+<COMPOSITE_SCENE_FILE directory="script/battle/historical_battle/historical_battle_red_cliff/redcliff_csc/caocao_compound.csc" hidden="false" version="25" id="{d4d87ea0-23a4-4da9-a4c9-7a66bc396619}">
+ <VECTOR link_id="0" hidden="false" unique_id="{b3231628-2f8a-426b-a6e7-9f0a4fc2c914}" id="{b3231628-2f8a-426b-a6e7-9f0a4fc2c914}" name="position" is_linked="0" surface_mode="Freeform">
+  <DOUBLE hidden="false" order="0" animated="0" id="{b174d070-1530-47cc-ad6c-a91ea02291a6}" single_keyframe_only="1" name="X" default="0">
+   <KEYFRAME data="101.53640747070312" time="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="1" animated="0" id="{af79493c-b026-491c-ad69-8cd0b5a26d5d}" single_keyframe_only="1" name="Y" default="0">
+   <KEYFRAME data="4.472620010375977" time="0"/>
+  </DOUBLE>
+  <DOUBLE hidden="false" order="2" animated="0" id="{d6bd833b-3613-4d62-bd68-c48a2b7aefdd}" single_keyframe_only="1" name="Z" default="0">
+   <KEYFRAME data="2331.13525390625" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES hidden="false" id="{a9dd8ff7-c814-433a-ab2b-309c63fba901}" name="rotation">
+  <RADIAN hidden="false" order="0" animated="0" id="{3e618c7e-f53d-4f1b-9823-8a439358038e}" single_keyframe_only="1" name="X" default="0">
+   <KEYFRAME data="3.14155912399292" time="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="1" animated="0" id="{8aa1805e-1bb2-41c8-be87-7df035e308d2}" single_keyframe_only="1" name="Y" default="0">
+   <KEYFRAME data="-1.4890539646148682" time="0"/>
+  </RADIAN>
+  <RADIAN hidden="false" order="2" animated="0" id="{fc847735-755f-4344-94d3-e70713384d09}" single_keyframe_only="1" name="Z" default="0">
+   <KEYFRAME data="-3.14155912399292" time="0"/>
+  </RADIAN>
+ </ROTATION_AXES>
+ <DOUBLE hidden="false" order="2" animated="0" id="{fad72848-105c-42d3-94e1-bd0ed0be171e}" single_keyframe_only="1" name="scale" default="1" user_friendy_name="Scale">
+  <KEYFRAME data="0.9999998211860657" time="0"/>
+ </DOUBLE>
+ <BOOL hidden="false" order="3" animated="1" id="{6ae11a80-d753-4e39-9780-a81e56ef5b31}" single_keyframe_only="0" name="active" default="0" user_friendy_name="Active">
+  <KEYFRAME data="0" time="0.1333333402872086"/>
+  <KEYFRAME data="1" time="0.1413196921348572"/>
+ </BOOL>
+ <DOUBLE hidden="false" order="4" animated="1" id="{d50fd477-f232-4f93-91f8-a2a3ac7a5ff0}" single_keyframe_only="0" name="speed_multiplier" default="1" user_friendy_name="Speed Multiplier"/>
+</COMPOSITE_SCENE_FILE>

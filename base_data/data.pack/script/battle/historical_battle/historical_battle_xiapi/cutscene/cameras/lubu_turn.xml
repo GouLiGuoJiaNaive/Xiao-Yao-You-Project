@@ -1,0 +1,83 @@
+<WARSCAPE_PROPERTIES_FILE id="{64ae4ab4-8e00-4e85-b0a6-246b13497300}" version="23" name="lubu_turn.xml" supported_warscape_properties="16">
+ <NODE name="Camera">
+  <VECTOR is_linked="0" id="{f2b61560-b2ed-4d99-813d-cc086a566fb7}" name="position" unique_id="{f2b61560-b2ed-4d99-813d-cc086a566fb7}" surface_mode="Freeform" link_id="0">
+   <DOUBLE order="0" animated="1" default="0" name="X" hidden="false" single_keyframe_only="0">
+    <KEYFRAME handle1_type="EASY" time="2.493762016296387" data="-3.711409330368042" handle2_type="EASY"/>
+    <KEYFRAME handle2_x="3.21099" handle1_type="SMOOTH" handle2_y="-3.52022" time="3.09431529045105" handle1_x="2.89413" data="-3.538750410079956" handle1_y="-3.57054" handle2_type="SMOOTH"/>
+    <KEYFRAME handle1_type="EASY" time="3.444339275360107" data="-3.538750410079956"/>
+   </DOUBLE>
+   <DOUBLE order="1" animated="1" default="600" name="Y" hidden="false" single_keyframe_only="0">
+    <KEYFRAME handle1_type="EASY" time="2.493762016296387" data="198.2886505126953" handle2_type="EASY"/>
+    <KEYFRAME handle2_x="3.21099" handle1_type="SMOOTH" handle2_y="198.12" time="3.09431529045105" handle1_x="2.89413" data="198.136474609375" handle1_y="198.164" handle2_type="SMOOTH"/>
+    <KEYFRAME handle1_type="EASY" time="3.444339275360107" data="198.136474609375"/>
+   </DOUBLE>
+   <DOUBLE order="2" animated="1" default="-950" name="Z" hidden="false" single_keyframe_only="0">
+    <KEYFRAME handle1_type="EASY" time="2.493762016296387" data="-85.26416778564453" handle2_type="EASY"/>
+    <KEYFRAME handle2_x="3.21099" handle1_type="SMOOTH" handle2_y="-84.5759" time="3.09431529045105" handle1_x="2.89413" data="-84.64260864257813" handle1_y="-84.757" handle2_type="SMOOTH"/>
+    <KEYFRAME handle1_type="EASY" time="3.444339275360107" data="-84.64260864257813"/>
+   </DOUBLE>
+  </VECTOR>
+  <VECTOR is_linked="0" id="{3a400f11-3dbb-4ace-bd4b-a21758cebf79}" name="target" unique_id="{3a400f11-3dbb-4ace-bd4b-a21758cebf79}" surface_mode="Freeform" link_id="0">
+   <DOUBLE order="0" animated="1" default="-22.45215225219727" name="X" hidden="false" single_keyframe_only="0">
+    <KEYFRAME handle1_type="EASY" time="2.493762016296387" data="-1.038580656051636" handle2_type="EASY"/>
+    <KEYFRAME handle2_x="3.21099" handle1_type="SMOOTH" handle2_y="0.515381" time="3.09431529045105" handle1_x="2.89413" data="0.3033168315887451" handle1_y="-0.0605325" handle2_type="SMOOTH"/>
+    <KEYFRAME handle1_type="EASY" time="3.444339275360107" data="0.5188038349151611"/>
+   </DOUBLE>
+   <DOUBLE order="1" animated="1" default="203.6044006347656" name="Y" hidden="false" single_keyframe_only="0">
+    <KEYFRAME handle1_type="EASY" time="2.493762016296387" data="195.1547698974609" handle2_type="EASY"/>
+    <KEYFRAME handle2_x="3.21099" handle1_type="SMOOTH" handle2_y="198.092" time="3.09431529045105" handle1_x="2.89413" data="197.7714538574219" handle1_y="197.221" handle2_type="SMOOTH"/>
+    <KEYFRAME handle1_type="EASY" time="3.444339275360107" data="197.8979644775391"/>
+   </DOUBLE>
+   <DOUBLE order="2" animated="1" default="-198.4242553710938" name="Z" hidden="false" single_keyframe_only="0">
+    <KEYFRAME handle1_type="EASY" time="2.493762016296387" data="-79.53015899658203" handle2_type="EASY"/>
+    <KEYFRAME handle2_x="3.21099" handle1_type="SMOOTH" handle2_y="-78.6889" time="3.09431529045105" handle1_x="2.89413" data="-78.73077392578125" handle1_y="-78.8025" handle2_type="SMOOTH"/>
+    <KEYFRAME handle1_type="EASY" time="3.444339275360107" data="-78.86991882324219"/>
+   </DOUBLE>
+  </VECTOR>
+  <NODE name="rotation">
+   <RADIAN order="3" animated="0" default="0" name="yaw" user_friendy_name="Yaw" hidden="false" single_keyframe_only="1"/>
+   <RADIAN order="4" animated="0" default="0" name="pitch" user_friendy_name="Pitch" hidden="false" single_keyframe_only="1"/>
+   <RADIAN order="5" animated="0" default="0" name="roll" user_friendy_name="Roll" hidden="false" single_keyframe_only="1"/>
+   <NOISE noise_path="../noise/end_combat_wobble.xml" name="Noise" noise_file="end_combat_wobble.xml">
+    <DOUBLE order="0" animated="0" default="1" name="Amount" hidden="false" single_keyframe_only="1"/>
+    <INT order="1" animated="1" default="92" name="Offset Multiplier" hidden="false" single_keyframe_only="0"/>
+   </NOISE>
+  </NODE>
+  <RADIAN order="6" animated="1" default="0.9599310755729675" name="vertical_fov" user_friendy_name="Field of View" hidden="false" single_keyframe_only="0">
+   <KEYFRAME handle1_type="EASY" time="2.493762016296387" data="0.4363322556018829" handle2_type="EASY"/>
+   <KEYFRAME handle2_x="3.21099" handle1_type="SMOOTH" handle2_y="25" time="3.09431529045105" handle1_x="2.89413" data="0.4363322556018829" handle1_y="25" handle2_type="SMOOTH"/>
+   <KEYFRAME handle1_type="EASY" time="3.444339275360107" data="0.4363322556018829"/>
+  </RADIAN>
+  <NODE name="DOF">
+   <DOUBLE order="12" animated="0" default="20" name="Focal Depth" hidden="false" single_keyframe_only="1">
+    <KEYFRAME time="0.01328264828771353" data="2.346783876419067"/>
+   </DOUBLE>
+   <DOUBLE order="13" animated="0" default="3.402823466385289e+38" name="Focal Width" hidden="false" single_keyframe_only="1">
+    <KEYFRAME time="0.01328264828771353" data="3"/>
+   </DOUBLE>
+   <DOUBLE order="14" animated="0" default="1" name="Focal Falloff Near" hidden="false" single_keyframe_only="1">
+    <KEYFRAME time="0.01328264828771353" data="3"/>
+   </DOUBLE>
+   <DOUBLE order="15" animated="0" default="1" name="Focal Falloff Far" hidden="false" single_keyframe_only="1">
+    <KEYFRAME time="0.01328264828771353" data="3"/>
+   </DOUBLE>
+   <DOUBLE order="16" animated="0" default="10" name="Blur Kernel Radius - Background" user_friendy_name="Background Blur Radius" hidden="false" single_keyframe_only="1"/>
+   <DOUBLE order="17" animated="0" default="10" name="Blur Kernel Radius - Foreground" user_friendy_name="Foreground Blur Radius" hidden="false" single_keyframe_only="1"/>
+   <DOUBLE order="19" animated="0" default="10" name="Bokeh Sprite Radius" hidden="false" single_keyframe_only="1"/>
+   <DOUBLE order="20" animated="0" default="100" name="Bokeh Threshold" hidden="false" single_keyframe_only="1"/>
+   <DOUBLE order="21" animated="0" default="5" name="Bokeh Hotspot Kernel Size" hidden="false" single_keyframe_only="1"/>
+   <DOUBLE order="22" animated="0" default="2" name="Bokeh Intensity" hidden="false" single_keyframe_only="1"/>
+   <DOUBLE order="18" animated="0" default="20" name="Blur Kernel Radius - Foreground CoC" user_friendy_name="Foreground CoC Blur Radius" hidden="false" single_keyframe_only="1"/>
+  </NODE>
+  <DOUBLE order="9" animated="0" default="1" name="near_distance" user_friendy_name="Near Distance" hidden="false" single_keyframe_only="1">
+   <KEYFRAME time="0.01328264828771353" data="1"/>
+  </DOUBLE>
+  <DOUBLE order="10" animated="0" default="13000" name="far_distance" user_friendy_name="Far Distance" hidden="false" single_keyframe_only="1"/>
+  <DOUBLE order="7" animated="0" default="0" name="exposure" user_friendy_name="Exposure" hidden="false" single_keyframe_only="1"/>
+  <NODE name="time speed multipliers">
+   <DOUBLE order="0" animated="0" default="1" name="global" user_friendy_name="Global" hidden="false" single_keyframe_only="1"/>
+   <DOUBLE order="1" animated="0" default="1" name="cinematic" user_friendy_name="Cinematic" hidden="false" single_keyframe_only="1"/>
+   <DOUBLE order="2" animated="0" default="1" name="game logic" user_friendy_name="Game Logic" hidden="false" single_keyframe_only="1"/>
+  </NODE>
+ </NODE>
+</WARSCAPE_PROPERTIES_FILE>

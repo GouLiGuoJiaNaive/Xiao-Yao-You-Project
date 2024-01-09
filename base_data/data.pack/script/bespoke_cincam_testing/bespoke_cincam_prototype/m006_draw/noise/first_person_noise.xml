@@ -1,0 +1,18 @@
+<NOISE_FILE version="23" name="first_person_noise.xml">
+ <DOUBLE user_friendy_name="Amplitude" animated="0" order="0" single_keyframe_only="1" default="50" hidden="false" name="amplitude">
+  <KEYFRAME data="0.01999999955296516" time="0"/>
+ </DOUBLE>
+ <DOUBLE user_friendy_name="Frequency" animated="0" order="1" single_keyframe_only="1" default="1" hidden="false" name="frequency">
+  <KEYFRAME data="2" time="0"/>
+ </DOUBLE>
+ <INT user_friendy_name="Number of Octaves" animated="0" order="2" single_keyframe_only="1" default="3" hidden="false" name="number_of_octaves">
+  <KEYFRAME data="4" time="0"/>
+ </INT>
+ <DOUBLE user_friendy_name="Offset" animated="0" order="3" single_keyframe_only="1" default="10" hidden="false" name="offset">
+  <KEYFRAME data="0.2000000029802322" time="0"/>
+ </DOUBLE>
+ <DOUBLE user_friendy_name="Persistence" animated="0" order="4" single_keyframe_only="1" default="0.5" hidden="false" name="persistence">
+  <KEYFRAME data="1" time="0"/>
+ </DOUBLE>
+ <DOUBLE user_friendy_name="Lacunarity" animated="0" order="5" single_keyframe_only="1" default="2" hidden="false" name="lacunarity"/>
+</NOISE_FILE>

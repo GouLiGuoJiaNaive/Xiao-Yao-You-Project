@@ -1,0 +1,18 @@
+<COMPOSITE_SCENE_FILE version="25" id="{a7329978-0536-43d4-9ebd-4b15d9252427}" hidden="false" directory="animations/cinematic/library/csc/bespoke/igc_red_cliff/cao_camp_concern.csc">
+ <VECTOR name="position" is_linked="0" link_id="-1" id="{3bf3c214-6868-4475-af40-23a1ef74bc63}" hidden="false" unique_id="{3bf3c214-6868-4475-af40-23a1ef74bc63}" surface_mode="Freeform">
+  <DOUBLE name="X" order="0" single_keyframe_only="1" id="{e32242c1-72e9-4c19-bd5a-fd8a1dc38cec}" default="0" hidden="false" animated="0"/>
+  <DOUBLE name="Y" order="1" single_keyframe_only="1" id="{fb5d52c8-65fe-4605-971f-26e4bccc35bb}" default="0" hidden="false" animated="0"/>
+  <DOUBLE name="Z" order="2" single_keyframe_only="1" id="{0acb04ea-11d7-47fe-84f0-d01ce76e3fb4}" default="0" hidden="false" animated="0"/>
+ </VECTOR>
+ <ROTATION_AXES name="rotation" id="{78493b65-7f86-4cb3-8a02-355bb34e651e}" hidden="false">
+  <RADIAN name="X" order="0" single_keyframe_only="1" id="{f0a58a18-7998-4368-81ab-3ff9cc5cb729}" default="0" hidden="false" animated="0"/>
+  <RADIAN name="Y" order="1" single_keyframe_only="1" id="{87eeb9c8-249c-4409-903f-9201c50e995e}" default="0" hidden="false" animated="0"/>
+  <RADIAN name="Z" order="2" single_keyframe_only="1" id="{7b6897a6-29e0-4221-8a87-7fc2edacaa2a}" default="0" hidden="false" animated="0"/>
+ </ROTATION_AXES>
+ <DOUBLE name="scale" order="2" user_friendy_name="Scale" single_keyframe_only="1" id="{5d0961f9-0d6c-4244-b5ba-08db3ffafed0}" default="1" hidden="false" animated="0"/>
+ <BOOL name="active" order="3" user_friendy_name="Active" single_keyframe_only="0" id="{a9a9d37b-5019-4179-ace0-671098e3adfa}" default="0" hidden="false" animated="1">
+  <KEYFRAME time="24.73233604431152" data="0"/>
+  <KEYFRAME time="24.73333549499512" data="1"/>
+ </BOOL>
+ <DOUBLE name="speed_multiplier" order="4" user_friendy_name="Speed Multiplier" single_keyframe_only="0" id="{0665b4e7-ff45-49dc-b5b8-a6f958370385}" default="1" hidden="false" animated="1"/>
+</COMPOSITE_SCENE_FILE>

@@ -1,0 +1,24 @@
+<POINT_LIGHT_FILE hidden="false" version="25" id="{694571e4-30b9-4ed6-87ef-12f60f3b190b}">
+ <VECTOR unique_id="{1f1af777-509d-4904-ba35-f59f757c05f8}" name="position" hidden="false" is_linked="0" link_id="0" surface_mode="Freeform" id="{1f1af777-509d-4904-ba35-f59f757c05f8}">
+  <DOUBLE name="X" hidden="false" order="0" animated="0" single_keyframe_only="1" default="0" id="{6999c89b-0af1-405c-9312-aeea577eaf4c}">
+   <KEYFRAME data="-0.939319372177124" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Y" hidden="false" order="1" animated="0" single_keyframe_only="1" default="0" id="{8c3ba472-82d5-4a8f-b68c-96d362e18889}">
+   <KEYFRAME data="199.83743286132812" time="0"/>
+  </DOUBLE>
+  <DOUBLE name="Z" hidden="false" order="2" animated="0" single_keyframe_only="1" default="0" id="{bd8c6f3f-9293-4b5c-ab11-9b80b18b0891}">
+   <KEYFRAME data="-66.54519653320312" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <RGB name="colour" hidden="false" id="{9ed29710-5a89-4398-b78e-c59c8de6e631}">
+  <DOUBLE name="R" hidden="false" order="0" animated="0" single_keyframe_only="1" default="1024" id="{392aabc6-1750-43d9-a930-e83fc0a70145}"/>
+  <DOUBLE name="G" hidden="false" order="1" animated="0" single_keyframe_only="1" default="1024" id="{c872d46f-4518-42fc-a274-f8315868b479}"/>
+  <DOUBLE name="B" hidden="false" order="2" animated="0" single_keyframe_only="1" default="1024" id="{3ec5b9e5-3599-45ea-b82f-f6e6969b8fff}"/>
+ </RGB>
+ <DOUBLE name="Multiplier" hidden="false" order="3" animated="0" single_keyframe_only="1" default="100" id="{271f7953-4ee0-44c6-b183-b72fd53b978c}">
+  <KEYFRAME data="20" time="0"/>
+ </DOUBLE>
+ <DOUBLE name="Range" hidden="false" order="4" animated="0" single_keyframe_only="1" default="10" id="{4f17deac-c4b2-44f6-8bd1-2ba40d762782}"/>
+ <DOUBLE name="Scatter Diameter" hidden="false" order="5" animated="0" single_keyframe_only="1" default="0.2000000029802322" id="{e132dc7b-5e0a-42b4-97a8-3bc16623cea5}"/>
+ <BOOL name="Casts Shadows" hidden="false" order="6" animated="0" single_keyframe_only="1" default="1" id="{f5ffe023-cfed-477b-9cfb-c3f3239098bd}"/>
+</POINT_LIGHT_FILE>

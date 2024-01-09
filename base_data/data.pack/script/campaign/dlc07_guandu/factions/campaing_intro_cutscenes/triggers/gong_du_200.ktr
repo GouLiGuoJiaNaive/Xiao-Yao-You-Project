@@ -1,0 +1,8 @@
+<TRIGGER_FILE version="26" id="{596b3374-2ea5-4022-8593-b758c3c70181}" hidden="false">
+ <STRING order="0" name="Timeline" hidden="false" id="{51f8a8bf-d666-4a78-a3de-9801f34531b3}">
+  <KEYFRAME data="gong_du_01" time="1"/>
+  <KEYFRAME data="gong_du_02" time="13.00100040435791"/>
+  <KEYFRAME data="gong_du_03" time="26.00000190734863"/>
+  <KEYFRAME data="gong_du_04" time="42.00099563598633"/>
+ </STRING>
+</TRIGGER_FILE>

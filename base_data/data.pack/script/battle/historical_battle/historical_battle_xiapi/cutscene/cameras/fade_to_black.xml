@@ -1,0 +1,36 @@
+<WARSCAPE_PROPERTIES_FILE hidden="false" id="{7e17bc41-06ce-4585-91d7-f9527937c4e7}" supported_warscape_properties="2" version="26">
+ <NODE hidden="false" name="Post Processing" id="{da857322-c4ec-4dd7-b811-92289b303df8}">
+  <RGB hidden="false" name="overlay" id="{3a6223db-1873-4580-87aa-73ef8b275f93}">
+   <DOUBLE hidden="false" single_keyframe_only="0" name="R" id="{9cef2706-384f-4de9-8300-6d7e7b4edee1}" order="0" animated="1" default="1">
+    <KEYFRAME data="0" handle2_type="EASY" time="0.03333333507180214" handle1_type="EASY"/>
+    <KEYFRAME data="1" handle2_type="EASY" time="0.2333333492279053" handle1_type="EASY"/>
+    <KEYFRAME data="1" handle2_type="EASY" time="28.58114242553711" handle1_type="EASY"/>
+    <KEYFRAME data="0" handle2_type="EASY" time="28.88114166259766" handle1_type="EASY"/>
+   </DOUBLE>
+   <DOUBLE hidden="false" single_keyframe_only="0" name="G" id="{2dd38a42-631a-4737-b913-addf1d6200f6}" order="0" animated="1" default="1">
+    <KEYFRAME data="0" handle2_type="EASY" time="0.03333333507180214" handle1_type="EASY"/>
+    <KEYFRAME data="1" handle2_type="EASY" time="0.2333333492279053" handle1_type="EASY"/>
+    <KEYFRAME data="1" handle2_type="EASY" time="28.58114242553711" handle1_type="EASY"/>
+    <KEYFRAME data="0" handle2_type="EASY" time="28.88114166259766" handle1_type="EASY"/>
+   </DOUBLE>
+   <DOUBLE hidden="false" single_keyframe_only="0" name="B" id="{ddfc8c7a-cb9a-4450-a872-ce0a8686e973}" order="0" animated="1" default="1">
+    <KEYFRAME data="0" handle2_type="EASY" time="0.03333333507180214" handle1_type="EASY"/>
+    <KEYFRAME data="1" handle2_type="EASY" time="0.2333333492279053" handle1_type="EASY"/>
+    <KEYFRAME data="1" handle2_type="EASY" time="28.58114242553711" handle1_type="EASY"/>
+    <KEYFRAME data="0" handle2_type="EASY" time="28.88114166259766" handle1_type="EASY"/>
+   </DOUBLE>
+  </RGB>
+  <DOUBLE hidden="false" single_keyframe_only="0" name="brightness - red" id="{910922dd-acd6-4190-8e88-3ecdf843c647}" order="0" animated="1" default="1"/>
+  <DOUBLE hidden="false" single_keyframe_only="0" name="brightness - green" id="{dfe4b8a4-b0af-42ba-a59f-729685e6eeaa}" order="0" animated="1" default="1"/>
+  <DOUBLE hidden="false" single_keyframe_only="0" name="brightness - blue" id="{8e5a4460-aa23-46dd-8e58-86b711742447}" order="0" animated="1" default="1"/>
+  <DOUBLE hidden="false" single_keyframe_only="0" name="contrast - red" id="{6cb2682b-c417-4dd1-94f8-8c6432064b2e}" order="0" animated="1" default="1"/>
+  <DOUBLE hidden="false" single_keyframe_only="0" name="contrast - green" id="{8867a7dd-c0b2-4326-b7ee-f1456692f556}" order="0" animated="1" default="1"/>
+  <DOUBLE hidden="false" single_keyframe_only="0" name="contrast - blue" id="{fffaca6e-b7e9-4de3-8b5f-568838a266be}" order="0" animated="1" default="1"/>
+  <DOUBLE hidden="false" single_keyframe_only="0" name="saturation - red" id="{013389fa-4d68-4fb3-8053-21ad79810f5e}" order="0" animated="1" default="1.049999952316284"/>
+  <DOUBLE hidden="false" single_keyframe_only="0" name="saturation - green" id="{a554c4b9-c848-459c-b09e-22c0483bfb25}" order="0" animated="1" default="1"/>
+  <DOUBLE hidden="false" single_keyframe_only="0" name="saturation - blue" id="{c2cb9e6a-f895-4924-b530-68e0b6ca3b54}" order="0" animated="1" default="1"/>
+  <DOUBLE hidden="false" single_keyframe_only="0" name="hue" id="{ab6ca2d6-5e65-4c6f-bc9e-0c137e9cb9ad}" order="0" animated="1" default="0"/>
+  <DOUBLE hidden="false" single_keyframe_only="0" name="sharpening_strength" id="{6c3d47d2-2460-4b65-b552-f2916cd96fe4}" order="0" animated="1" default="0.300000011920929"/>
+  <DOUBLE hidden="false" single_keyframe_only="0" name="global_mip_bias" id="{9c5deba2-a87a-4200-ae80-7a2b5c254414}" order="0" animated="1" default="0"/>
+ </NODE>
+</WARSCAPE_PROPERTIES_FILE>

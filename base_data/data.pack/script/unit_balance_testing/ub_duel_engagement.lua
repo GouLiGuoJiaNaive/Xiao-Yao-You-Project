@@ -1,0 +1,89 @@
+------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------- Three Kingdoms UB - Duel Engagement  ----------------------------------
+------------------------------------------------ Hugh McLaughlin / Nov 2018 --------------------------------------------------
+----------------------------------------- Based on original by Ewan Stone / Oct 2015 -----------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
+
+print("Here we go again!")
+
+-- load the script libraries
+load_script_libraries()
+
+-- declare battlemanager object
+bm = battle_manager:new(empire_battle:new())
+
+package.path = package.path .. ";TestData/UnitTesting/?.lua" .. ";data/script/unit_balance_testing/_lib/?.lua"
+
+-- get battle name from folder, and print header
+battle_name = "HeroDuel"
+battle_shorthand = "UB"
+
+require ("ub_setup_armies_v2")
+require ("ub_common_functions_v2")
+
+bm:out("==============================")
+bm:out("Script started: " .. battle_name .. " Engagement")
+bm:out("==============================")
+
+-- subtitles/camera object
+subtitles = bm:subtitles()
+subtitles:clear()
+cam = bm:camera()
+
+------ Tables ------
+watches_table = {}
+callback_table = {}
+
+--------------------------------------------------
+------------------ Start Script ------------------
+--------------------------------------------------
+
+bm:setup_battle(function() deployment_phase() end)
+bm:setup_victory_callback(function() battle_ending() end)
+
+function deployment_phase()
+	bm:out("---------------------------------")
+	bm:out("Beginning of deployment_phase V2")
+	bm:out("---------------------------------")
+	determine_unit_type()
+	bm:out("---------------------------------")
+	bm:out(battle_name .. " Engagement Started")
+	bm:out("---------------------------------")
+	
+	bm:debug_only_set_tweaker("DUEL_DISABLE_DUEL_RESULT_EFFECTS", "1") --Disable any alliance/army/unit effects from winning/losing a duel
+	bm:debug_only_set_tweaker("DUEL_FORCE_PREFER_SPARE_OUTCOME", "1") --Force the spare outcome for duels so we can calculate a valid ccp delta value (with 1 hp)
+	
+	battle_count = 0
+	cam:fade(false, 0)
+	bm:change_victory_countdown_limit(0)
+	start_battle_timer()	
+	bm:callback(function() engagement_behaviour() end, 0, "engagement_behaviour")
+end
+
+--------------------------------------------------
+-------------- Engagement Behaviour --------------
+--------------------------------------------------
+
+function engagement_behaviour()
+	for i = 1,num_matchups,1 
+	do 
+		local SUnit_01_01 = Unit_Matchup_Controllers[i][1]
+		local SUnit_02_01 = Unit_Matchup_Controllers[i][2]
+		
+		bm:out(SUnit_01_01.unit:name() .. " vs " .. SUnit_02_01.unit:name())
+		
+		--Force unit 1 into melee mode and attack
+		SUnit_01_01.uc:melee(true)
+		
+		if unit_matchup_can_duel(SUnit_01_01, SUnit_02_01) then 
+			unit_duel_propose(SUnit_01_01, SUnit_02_01)
+		else 
+			bm:out("Specified units cannot duel! They should be removed from further tests, falling back to attack order")
+			unit_attack_loop(SUnit_01_01, SUnit_02_01)
+			unit_attack_loop(SUnit_02_01, SUnit_01_01)
+		end
+		
+		--We Add a watch to teleport the completed matchup when finished 
+		watch_unit_vs_unit_matchup_loop(SUnit_01_01, SUnit_02_01)
+	end
+end

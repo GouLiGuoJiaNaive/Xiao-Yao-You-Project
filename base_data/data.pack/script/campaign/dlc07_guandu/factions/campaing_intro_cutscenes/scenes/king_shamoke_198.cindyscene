@@ -1,0 +1,20 @@
+<SCENE_FILE id="{587fdab0-2d1e-4e22-af40-24bdb95cec52}" start_record_time="0" end_record_time="75.00000391155481" hidden="false" perspective_camera="201.1,12.0145,310.085:203.485,8.18564,317.286" version="26">
+ <ENVIRONMENT id="{a060e393-789c-4ba4-9118-cc2141a9cba2}" hidden="false" name="Environment" order="0" data=""/>
+ <VECTOR id="{ab0478ff-cc49-4261-b520-6fc267ec6980}" hidden="false" name="position" link_id="0" surface_mode="Freeform" unique_id="{ab0478ff-cc49-4261-b520-6fc267ec6980}" is_linked="0">
+  <DOUBLE id="{296d2bdc-2eeb-471b-9992-be3608ddbe00}" hidden="false" name="X" animated="1" single_keyframe_only="1" default="0" order="0"/>
+  <DOUBLE id="{e6b3c844-ae81-47a5-940c-f6c8d02104f5}" hidden="false" name="Y" animated="1" single_keyframe_only="1" default="0" order="1"/>
+  <DOUBLE id="{c248e68c-6d0e-49d6-a709-3e48227f8cbd}" hidden="false" name="Z" animated="1" single_keyframe_only="1" default="0" order="2"/>
+ </VECTOR>
+ <ROTATION_AXES id="{65e2bdd0-a7cb-4b85-9ac4-2316979b8127}" hidden="false" name="rotation">
+  <RADIAN id="{54b7e171-1441-4bb4-8e12-e87b50a02e8b}" hidden="false" name="X" animated="1" single_keyframe_only="1" default="0" order="0"/>
+  <RADIAN id="{50137a8c-edd3-41f0-b1e6-575e4dccc007}" hidden="false" name="Y" animated="1" single_keyframe_only="1" default="0" order="1"/>
+  <RADIAN id="{1aa27844-488e-4b22-8678-95e340cd479b}" hidden="false" name="Z" animated="1" single_keyframe_only="1" default="0" order="2"/>
+ </ROTATION_AXES>
+ <NODE id="{0af1134f-1fcb-4b8e-82d8-12ae2ed34e21}" hidden="false" name="Links"/>
+ <NODE id="{b2e2a69d-c9ec-4445-ba73-28a1feba4cd1}" hidden="false" name="Warscape Properties">
+  <WARSCAPE_PROPERTIES id="{86312ab9-fc9d-4adc-8fd2-e754dfdf489c}" hidden="false" name="king_shamoke_cam.xml" warscape_properties_file="../cameras/king_shamoke_cam.xml"/>
+ </NODE>
+ <NODE id="{a5ad6bc7-cd05-4c77-a6aa-c259134af9f4}" hidden="false" name="Triggers">
+  <TRIGGER id="{9f800db6-5c0a-4efe-a684-6926f571b2a0}" trigger_file="../triggers/shamoke_200.ktr" hidden="false" name="shamoke_200.ktr"/>
+ </NODE>
+</SCENE_FILE>

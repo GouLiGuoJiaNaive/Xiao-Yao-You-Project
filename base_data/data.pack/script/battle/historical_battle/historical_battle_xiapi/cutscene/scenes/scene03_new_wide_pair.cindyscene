@@ -1,0 +1,24 @@
+<SCENE_FILE name="scene03_new_wide_pair.CindyScene" start_record_time="0" perspective_camera="9.86408,198.337,-83.8919:-10.0359,197.509,-82.0704" version="23" end_record_time="0">
+ <ENVIRONMENT hidden="false" order="0" name="Environment" data="Weather/xiapi.environment"/>
+ <VECTOR unique_id="{f0456683-fbdd-4830-988e-5925137dc6da}" id="{f0456683-fbdd-4830-988e-5925137dc6da}" link_id="0" name="position" surface_mode="Freeform" is_linked="0">
+  <DOUBLE single_keyframe_only="1" hidden="false" order="0" name="X" default="0" animated="1"/>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="1" name="Y" default="0" animated="1"/>
+  <DOUBLE single_keyframe_only="1" hidden="false" order="2" name="Z" default="0" animated="1"/>
+ </VECTOR>
+ <ROTATION_AXES id="{076fc6fe-70ba-404b-8a10-f186d30c86a6}" name="rotation">
+  <RADIAN single_keyframe_only="1" hidden="false" order="0" name="X" default="0" animated="1"/>
+  <RADIAN single_keyframe_only="1" hidden="false" order="1" name="Y" default="0" animated="1"/>
+  <RADIAN single_keyframe_only="1" hidden="false" order="2" name="Z" default="0" animated="1"/>
+ </ROTATION_AXES>
+ <NODE name="Links"/>
+ <NODE name="Warscape Properties">
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/wide_pair.xml" name="wide_pair.xml"/>
+  <WARSCAPE_PROPERTIES warscape_properties_file="../cameras/fade_to_black.xml" name="fade_to_black.xml"/>
+ </NODE>
+ <NODE name="Point Lights">
+  <POINT_LIGHT name="combat_point_light_01.kfl" point_light_file="../lights/combat_point_light_01.kfl"/>
+ </NODE>
+ <NODE name="Composite Scenes">
+  <COMPOSITE_SCENE composite_scene_file="../csc_ref/lubu_fight_xiahoudun.kfcs" name="lubu_fight_xiahoudun.kfcs"/>
+ </NODE>
+</SCENE_FILE>

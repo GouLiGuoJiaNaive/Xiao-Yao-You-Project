@@ -1,0 +1,27 @@
+<COMPOSITE_SCENE_FILE directory="script/battle/historical_battle/historical_battle_xiapi/composite_scene/scene01_catapult_fire.csc" version="23" id="{91e82cf4-cfc7-4ef2-97d4-50d5e0c5f1f7}" name="catapult_04.kfcs">
+ <VECTOR is_linked="0" link_id="0" unique_id="{5970b69d-bbb9-4ec1-a0a0-92abc2c938bb}" id="{5970b69d-bbb9-4ec1-a0a0-92abc2c938bb}" name="position" surface_mode="Lock to Terrain">
+  <DOUBLE single_keyframe_only="1" hidden="false" animated="0" order="0" name="X" default="0">
+   <KEYFRAME data="-113.3648300170898" time="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" animated="0" order="1" name="Y" default="0">
+   <KEYFRAME data="0" time="0"/>
+  </DOUBLE>
+  <DOUBLE single_keyframe_only="1" hidden="false" animated="0" order="2" name="Z" default="0">
+   <KEYFRAME data="-634.15283203125" time="0"/>
+  </DOUBLE>
+ </VECTOR>
+ <ROTATION_AXES id="{a82fe83d-acf3-482f-a615-8261e2e50b2b}" name="rotation">
+  <RADIAN single_keyframe_only="1" hidden="false" animated="0" order="0" name="X" default="0"/>
+  <RADIAN single_keyframe_only="1" hidden="false" animated="0" order="1" name="Y" default="0">
+   <KEYFRAME data="6.0343918800354" time="0"/>
+  </RADIAN>
+  <RADIAN single_keyframe_only="1" hidden="false" animated="0" order="2" name="Z" default="0"/>
+ </ROTATION_AXES>
+ <DOUBLE user_friendy_name="Scale" single_keyframe_only="1" hidden="false" animated="0" order="2" name="scale" default="1"/>
+ <BOOL user_friendy_name="Active" single_keyframe_only="0" hidden="false" animated="1" order="3" name="active" default="0">
+  <KEYFRAME data="0" time="62.62297821044922"/>
+  <KEYFRAME data="1" time="62.75631713867188"/>
+  <KEYFRAME data="1" time="70.19999694824219"/>
+ </BOOL>
+ <DOUBLE user_friendy_name="Speed Multiplier" single_keyframe_only="0" hidden="false" animated="1" order="4" name="speed_multiplier" default="1"/>
+</COMPOSITE_SCENE_FILE>

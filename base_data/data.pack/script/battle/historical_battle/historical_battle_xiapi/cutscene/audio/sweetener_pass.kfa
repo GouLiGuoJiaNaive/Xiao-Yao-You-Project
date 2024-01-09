@@ -1,0 +1,13 @@
+<AUDIO_EVENT_FILE audio_event_name="Play_Movie_3K_Historical_Battle_Xiapi" version="25" id="{886f4e36-b75e-45b8-a890-4b719df166d2}" hidden="false">
+ <VECTOR link_id="-1" name="position" surface_mode="Freeform" is_linked="0" id="{0cbe7b31-1700-49d0-ae70-fab85dc2e206}" hidden="false" unique_id="{0cbe7b31-1700-49d0-ae70-fab85dc2e206}">
+  <DOUBLE single_keyframe_only="1" default="0" name="X" id="{95b25415-1329-4858-9a9b-6de7b1e74f03}" hidden="false" order="0" animated="0"/>
+  <DOUBLE single_keyframe_only="1" default="0" name="Y" id="{a0b26a2b-5932-456e-badb-802e9cfd5ece}" hidden="false" order="1" animated="0"/>
+  <DOUBLE single_keyframe_only="1" default="0" name="Z" id="{1a14ebaf-70c0-4367-a1ef-9bea56ee2c20}" hidden="false" order="2" animated="0"/>
+ </VECTOR>
+ <BOOL single_keyframe_only="0" default="0" name="active" user_friendy_name="Active" id="{64d1d359-cf60-4c23-87bf-5ee94fe67bd0}" hidden="false" order="2" animated="1">
+  <KEYFRAME time="0" data="0"/>
+  <KEYFRAME time="0.00099945068359375" data="1"/>
+  <KEYFRAME time="80.16667175292969" data="0"/>
+ </BOOL>
+ <DOUBLE single_keyframe_only="1" default="100" name="volume" user_friendy_name="Volume" id="{eb687679-a31e-4173-9423-fdc5a0a7d8e1}" hidden="false" order="3" animated="0"/>
+</AUDIO_EVENT_FILE>
