@@ -389,7 +389,7 @@ function toggleButton()
             art_siege_button:SetState( "active" );
         end
     end
-    if is_control() then
+    if control_mode_enable then
         control_button:SetState( "selected" );
     else
         control_button:SetState( "active" );
