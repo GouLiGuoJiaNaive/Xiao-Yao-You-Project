@@ -1691,7 +1691,6 @@ core:add_listener(
             local fu_xuan = cm:query_model():character_for_template("hlyjcp");
             local amber = cm:query_model():character_for_template("hlyjcq");
             local lisa = cm:query_model():character_for_template("hlyjcr");
-            local lisa = cm:query_model():character_for_template("hlyjcr");
             local nilou = cm:query_model():character_for_template("hlyjcs");
             
             if cm:get_saved_value("guaranteed") then
@@ -1915,7 +1914,7 @@ local function add_character_button(parent, slot_icon_size, slot_icon, slot_labe
             return bt == UIComponent(context.component)
         end,
         function(context)
-            if #character_list < 8 then
+            if #character_list < 7 then
                 --隐藏商店面板
                 if(parent ~= nil) then
                 parent:SetVisible(false) 
@@ -2025,7 +2024,7 @@ local function add_confirm_button(parent, x, y)
             return bt == UIComponent(context.component)
         end,
         function(context)
-            if #character_list == 8 then
+            if #character_list == 7 then
                 --隐藏商店面板
                 if(parent ~= nil) then
                 parent:SetVisible(false) 
@@ -2274,8 +2273,8 @@ function character_browser()
     end
 
     for i=1,#character_browser_list do
-        local x = 310+120*((i-1)%12)
-        local y = 450+120*math.floor((i-1)/12)
+        local x = 310+120*((i-1)%11)
+        local y = 450+120*math.floor((i-1)/11)
         ModLog(x..","..y);
         local slot = add_character_button(character_panel, 100, "ui/skins/default/character_browser/".. character_browser_list[i] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_browser_list[i]), character_browser_list[i])
         UIComponent_move_relative(slot, character_panel, x, y, false)
