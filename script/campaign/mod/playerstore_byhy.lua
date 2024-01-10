@@ -118,7 +118,7 @@ local character_browser_list = {
     "hlyjcp",
     "hlyjcq",
     "hlyjcr",
-    --"hlyjcs",
+    "hlyjcs",
     --"hlyjct",
     --"hlyjcu",
     --"hlyjcv",
@@ -1245,6 +1245,15 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                     incident:add_character_target("target_character_1", character);
                                     incident:add_faction_target("target_faction_1", player_own_modify_faction:query_faction());
                                     incident:trigger(player_own_modify_faction, true);
+                                elseif index[i] == "hlyjcs" then
+                                    character_list_remove("hlyjcs")
+                                    local character = xyy_character_add("hlyjcs", player_own_modify_faction:query_faction():name(), "3k_general_wood");
+                                    xyy_character_close_agent("hlyjcs");
+                                    cm:modify_character(character):reset_skills();
+                                    incident = cm:modify_model():create_incident("summon_hlyjcs");
+                                    incident:add_character_target("target_character_1", character);
+                                    incident:add_faction_target("target_faction_1", player_own_modify_faction:query_faction());
+                                    incident:trigger(player_own_modify_faction, true);
                                 end
                             end)
                             creaded_pannel= -1
@@ -1682,6 +1691,8 @@ core:add_listener(
             local fu_xuan = cm:query_model():character_for_template("hlyjcp");
             local amber = cm:query_model():character_for_template("hlyjcq");
             local lisa = cm:query_model():character_for_template("hlyjcr");
+            local lisa = cm:query_model():character_for_template("hlyjcr");
+            local nilou = cm:query_model():character_for_template("hlyjcs");
             
             if cm:get_saved_value("guaranteed") then
                 guaranteed = cm:get_saved_value("guaranteed")
@@ -1838,6 +1849,18 @@ core:add_listener(
                     character_list_remove("hlyjcr")
                     ModLog( "丽莎已经存在")
                 end
+
+                if not is_character_list_have("hlyjcs") then
+                        --character_list_remove("hlyjcs")
+                        ModLog( "妮露已经存在")
+                elseif nilou 
+                and not nilou:is_null_interface()
+                and not nilou:is_dead()
+                and nilou:faction():is_human()
+                then
+                    character_list_remove("hlyjcs")
+                    ModLog( "妮露已经存在")
+                end
                 
                 cm:set_saved_value("character_list", character_list)
             end
@@ -1892,7 +1915,7 @@ local function add_character_button(parent, slot_icon_size, slot_icon, slot_labe
             return bt == UIComponent(context.component)
         end,
         function(context)
-            if #character_list < 7 then
+            if #character_list < 8 then
                 --隐藏商店面板
                 if(parent ~= nil) then
                 parent:SetVisible(false) 
@@ -2002,7 +2025,7 @@ local function add_confirm_button(parent, x, y)
             return bt == UIComponent(context.component)
         end,
         function(context)
-            if #character_list == 7 then
+            if #character_list == 8 then
                 --隐藏商店面板
                 if(parent ~= nil) then
                 parent:SetVisible(false) 
@@ -2163,6 +2186,13 @@ core:add_listener(
                 cm:modify_character(hlyjcr):add_experience(88000,0);
             end
         end
+        if v == "hlyjcs" then
+            local hlyjcs = cm:query_model():character_for_template("hlyjcs")
+            if not hlyjcs or hlyjcs:is_null_interface() then
+                hlyjcs = xyy_character_add("hlyjcs", context:faction():name(),  "3k_general_wood");
+                cm:modify_character(hlyjcs):add_experience(88000,0);
+            end
+        end
     end,
     true
 )
@@ -2171,6 +2201,7 @@ function character_browser()
     if not cm:get_saved_value("character_list") then
         if not character_list or character_list == {} then
             character_list = {}
+            -- 商店里默认的3个up角色 分别是 卡夫卡：hlyjcj  芙宁娜：hlyjco  符玄：hlyjcp
             table.insert(character_list, "hlyjcj");
             table.insert(character_list, "hlyjco");
             table.insert(character_list, "hlyjcp");
@@ -2182,6 +2213,8 @@ function character_browser()
     else
         return;
     end
+
+    -- 选择up角色的槽位
     local ui_root = core:get_ui_root()
     local ui_panel_name = UI_MOD_NAME .. "_character_panel" .. static_id;
     character_panel = core:get_or_create_component( ui_panel_name, "ui/xyy/character_browser_1") --date.pack中自带的panel_frame.twui.xml布局文件
@@ -2231,10 +2264,18 @@ function character_browser()
         local slot7 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/placeholder.png", effect.get_localised_string("mod_xyy_character_browser_unknown"), "unknown", false, false)
         UIComponent_move_relative(slot7, character_panel, xoffset+180*7, yoffset, false)
     end
-        
+    
+    if character_list[8] then
+        local slot8 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/".. character_list[8] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_list[8]), character_list[8], false, true)
+        UIComponent_move_relative(slot8, character_panel, xoffset+180*8, yoffset, false)
+    else
+        local slot8 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/placeholder.png", effect.get_localised_string("mod_xyy_character_browser_unknown"), "unknown", false, false)
+        UIComponent_move_relative(slot8, character_panel, xoffset+180*8, yoffset, false)
+    end
+
     for i=1,#character_browser_list do
-        local x = 310+120*((i-1)%11)
-        local y = 450+120*math.floor((i-1)/11)
+        local x = 310+120*((i-1)%12)
+        local y = 450+120*math.floor((i-1)/12)
         ModLog(x..","..y);
         local slot = add_character_button(character_panel, 100, "ui/skins/default/character_browser/".. character_browser_list[i] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_browser_list[i]), character_browser_list[i])
         UIComponent_move_relative(slot, character_panel, x, y, false)
