@@ -149,7 +149,7 @@ local items_names = {
 ['3k_main_ancillary_weapon_dual_swords_unique'] = { dlc = "tke", category = "weapon", tier = "unique", en = "Sworn Brothers", kr = "의형제", zh = "義結金蘭", cn = "金兰剑",  },
 ['3k_main_ancillary_weapon_ganjiang'] = { dlc = "tke", category = "weapon", tier = "unique", en = "Gan Jiang", kr = "간장", zh = "干將", cn = "干将",  },
 ['3k_main_ancillary_weapon_halberd_unique'] = { dlc = "tke", category = "weapon", tier = "unique", en = "Ji of Heavenly Mandate", kr = "천명의 극", zh = "天命之戟", cn = "天命戟",  },
-    ['3k_main_ancillary_weapon_moye'] = { dlc = "tke", category = "weapon", tier = "unique", en = "Mo Ye", kr = "막야", zh = "莫邪", cn = "莫邪",  },
+['3k_main_ancillary_weapon_moye'] = { dlc = "tke", category = "weapon", tier = "unique", en = "Mo Ye", kr = "막야", zh = "莫邪", cn = "莫邪",  },
 ['3k_main_ancillary_weapon_the_blue_blade'] = { dlc = "tke", category = "weapon", tier = "unique", en = "The Blue Blade", kr = "청강검", zh = "青釭劍", cn = "青釭剑",  },
 ['3k_main_ancillary_weapon_two_handed_axe_unique'] = { dlc = "tke", category = "weapon", tier = "unique", en = "Eater of Courage", kr = "서용부", zh = "噬勇斧", cn = "破胆斧",  },
 ['3k_main_ancillary_weapon_two_handed_spear_unique'] = { dlc = "tke", category = "weapon", tier = "unique", en = "Ancestral Pledge", kr = "선조의 창", zh = "祖誓之槍", cn = "祖誓矛",  },
@@ -248,7 +248,7 @@ local items_names = {
 ['3k_main_ancillary_armour_medium_armour_earth_and_metal_common'] = { dlc = "tke", category = "armour", tier = "common", en = "Instructor's Leather", kr = "교관의 가죽 갑옷", zh = "教官皮甲", cn = "教头革甲",  },
 ['3k_main_ancillary_armour_medium_armour_wood_and_fire_common'] = { dlc = "tke", category = "armour", tier = "common", en = "Soldier's Reinforced Leather ", kr = "병사의 보강된 가죽갑옷 ", zh = "加固兵士皮甲 ", cn = "军士精革甲",  },
 ['3k_main_ancillary_armour_strategist_light_armour_water_common'] = { dlc = "tke", category = "armour", tier = "common", en = "Vestments of Learning", kr = "학문의 예복", zh = "太學服飾", cn = "学士服",  },
-    ['3k_main_ancillary_mount_dilu'] = { dlc = "tke", category = "mount", tier = "legendary", en = "Dilu", kr = "적로", zh = "的盧", cn = "的卢",  },
+['3k_main_ancillary_mount_dilu'] = { dlc = "tke", category = "mount", tier = "legendary", en = "Dilu", kr = "적로", zh = "的盧", cn = "的卢",  },
 ['3k_main_ancillary_mount_heavenly_fire'] = { dlc = "tke", category = "mount", tier = "legendary", en = "Heavenly Fire", kr = "화종마", zh = "天火", cn = "天火",  },
 ['3k_main_ancillary_mount_red_hare'] = { dlc = "tke", category = "mount", tier = "legendary", en = "Red Hare", kr = "적토마", zh = "赤兔", cn = "赤兔",  },
 ['3k_main_ancillary_mount_shadow_runner'] = { dlc = "tke", category = "mount", tier = "legendary", en = "Shadow Runner", kr = "절영", zh = "絕影", cn = "绝影",  },
@@ -776,7 +776,6 @@ local random_item3_weapon={
     "legendary,3k_dlc05_ancillary_weapon_white_tigers_claws_faction,白虎之爪",  
     "legendary,3k_main_ancillary_weapon_axes_of_the_bandit_queen_faction,血红姊妹",
     "legendary,3k_main_ancillary_weapon_shuang_gu_jian_faction,双股剑",
-    
     "unique,3k_main_ancillary_weapon_two_handed_spear_unique,祖誓矛",
     "unique,3k_ytr_ancillary_weapon_2h_ball_mace_unique,破天锤",
     "unique,3k_ytr_ancillary_weapon_dual_maces_unique,天躯锤",
@@ -821,7 +820,6 @@ local random_item3_armour={
     "unique,ep_ancillary_armour_medium_armour_wood_unique,林中仙鹤",
     "unique,ep_ancillary_armour_strategist_light_armour_water_unique,金丝螳螂袍", 
     "unique,3k_main_ancillary_armour_strategist_light_armour_water_unique,惊龙"
-
 }
 
 local random_item3_mount={
@@ -863,7 +861,6 @@ local random_item3_accessory={
     "legendary,3k_main_ancillary_weapon_composite_bow_unique,黑螭弓",
     "legendary,3k_dlc04_ancillary_accessory_zhang_liang_unique,张梁的流珠",
     "legendary,3k_dlc04_ancillary_weapon_crossbow_prince_liu_chong_unique,辅汉弩",
-    
     "unique,3k_main_ancillary_accessory_blade_of_seven_gems,七星刀",
     "unique,3k_main_ancillary_accessory_book_of_concealing_method,《遁甲天书》",
     "unique,3k_main_ancillary_accessory_book_of_documents,《书经》",
@@ -954,7 +951,7 @@ local function create_bt_close(parent)
             ModLog( "playerstore_byhy============closeStorePanel=================" )
             --隐藏商店面板
             if(store_panel ~= nil) then
-            store_panel:SetVisible(false) 
+                store_panel:SetVisible(false) 
             end
             --销毁商店面板中的所有按钮，并移除监听
             for i = 1, #store_panel_btn_table do
@@ -964,7 +961,7 @@ local function create_bt_close(parent)
             store_panel_btn_table = {}
             
             --销毁商店面板
-                UIComponent_destroy(store_panel)
+            UIComponent_destroy(store_panel)
             store_panel = nil
             creaded_pannel = 0
             static_id = static_id + 1;
@@ -1270,7 +1267,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                             store_panel_btn_table = {}
                             
                             --销毁商店面板
-                                UIComponent_destroy(store_panel)
+                            UIComponent_destroy(store_panel)
                             store_panel = nil
                             creaded_pannel = 0
                             static_id = static_id + 1;
@@ -1489,8 +1486,8 @@ local function togglePanelVisible()
             {panel_size_x/2-bt_execute_size_x/2,panel_size_y/2-bt_execute_size_y/2},
             {panel_size_x/2-bt_execute_size_x/2 + bt_execute_size_x,panel_size_y/2-bt_execute_size_y/2}
         }
+
         local all_buy_btn_list = {
-            
             {effect.get_localised_string("mod_xyy_store_main_button_cropper")..":"..effect.get_localised_string("mod_xyy_store_main_button_weapon"),random_item1_weapon,1500,button_relative[1][1], button_relative[1][2] + bt_execute_size_y *3},
             {effect.get_localised_string("mod_xyy_store_main_button_cropper")..":"..effect.get_localised_string("mod_xyy_store_main_button_armor"),random_item1_armour,1200,button_relative[1][1], button_relative[1][2] + bt_execute_size_y *2},
             {effect.get_localised_string("mod_xyy_store_main_button_cropper")..":"..effect.get_localised_string("mod_xyy_store_main_button_mount"),random_item1_mount,1200,button_relative[1][1], button_relative[1][2] + bt_execute_size_y *1}, 
@@ -1550,7 +1547,7 @@ local function closeStorePanel()
     store_panel_btn_table = {}
     
     --销毁商店面板
-        UIComponent_destroy(store_panel)
+    UIComponent_destroy(store_panel)
     store_panel = nil
     creaded_pannel = 0
     static_id = static_id + 1;
@@ -2262,14 +2259,6 @@ function character_browser()
     else
         local slot7 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/placeholder.png", effect.get_localised_string("mod_xyy_character_browser_unknown"), "unknown", false, false)
         UIComponent_move_relative(slot7, character_panel, xoffset+180*7, yoffset, false)
-    end
-    
-    if character_list[8] then
-        local slot8 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/".. character_list[8] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_list[8]), character_list[8], false, true)
-        UIComponent_move_relative(slot8, character_panel, xoffset+180*8, yoffset, false)
-    else
-        local slot8 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/placeholder.png", effect.get_localised_string("mod_xyy_character_browser_unknown"), "unknown", false, false)
-        UIComponent_move_relative(slot8, character_panel, xoffset+180*8, yoffset, false)
     end
 
     for i=1,#character_browser_list do

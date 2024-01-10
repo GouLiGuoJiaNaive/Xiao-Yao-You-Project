@@ -1067,5 +1067,6 @@ sandbox.db_heroes =
    ['hlyjcn'] = { kr = "keqing", birth = 0, en_key = "keqing", en = "Keqing", zh = "刻晴", cn = "刻晴", element = "metal", dlc = "xyy" },
    ['hlyjco'] = { kr = "푸리나", birth = 0, en_key = "furina", en = "Furina", zh = "芙宁娜", cn = "芙寧娜", element = "water", dlc = "xyy" },
    ['hlyjcp'] = { kr = "부현", birth = 0, en_key = "fu_xuan", en = "Fu Xuan", zh = "符玄", cn = "符玄", element = "earth", dlc = "xyy" },
+   ['hlyjc'] = { kr = "nilou", birth = 0, en_key = "nilou", en = "Nilou", zh = "妮露", cn = "妮露", element = "", dlc = "xyy" },
 
 }
