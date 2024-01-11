@@ -977,7 +977,22 @@ local function create_bt_close(parent)
 end
 
 function is_character_list_have(value)
+    if not character_list then
+        return false;
+    end
     for k,v in ipairs(character_list) do
+        if v == value then
+            return true;
+        end
+    end
+    return false;
+end
+
+function is_character_browser_list_have(value)
+    if not character_browser_list then
+        return false;
+    end
+    for k,v in ipairs(character_browser_list) do
         if v == value then
             return true;
         end
@@ -1676,191 +1691,72 @@ core:add_listener(
         local player_query_faction = cm:query_local_faction();--玩家的势力
         
         if player_query_faction then
-            
-            local zhongli = cm:query_model():character_for_template("hlyjch");
-            local ganyu = cm:query_model():character_for_template("hlyjci");
-            local kafka = cm:query_model():character_for_template("hlyjcj");
-            local jingliu = cm:query_model():character_for_template("hlyjck");
-            local neuvillette = cm:query_model():character_for_template("hlyjcl");
-            local raiden_shogun = cm:query_model():character_for_template("hlyjcm");
-            local keqing = cm:query_model():character_for_template("hlyjcn");
-            local furina = cm:query_model():character_for_template("hlyjco");
-            local fu_xuan = cm:query_model():character_for_template("hlyjcp");
-            local amber = cm:query_model():character_for_template("hlyjcq");
-            local lisa = cm:query_model():character_for_template("hlyjcr");
-            local nilou = cm:query_model():character_for_template("hlyjcs");
+            local char_names = {
+                ['hlyjch'] = "钟离",
+                ['hlyjci'] = "甘雨",
+                ['hlyjcj'] = "卡芙卡",
+                ['hlyjck'] = "镜流",
+                ['hlyjcl'] = "那维莱特",
+                ['hlyjcm'] = "雷电将军",
+                ['hlyjcn'] = "刻晴",
+                ['hlyjco'] = "芙宁娜",
+                ['hlyjcp'] = "符玄",
+                ['hlyjcq'] = "安柏",
+                ['hlyjcr'] = "丽莎",
+                ['hlyjcs'] = "妮露",
+            };
             
             if cm:get_saved_value("guaranteed") then
-                guaranteed = cm:get_saved_value("guaranteed")
-                ModLog( "读取保底抽数:" .. guaranteed)
+                guaranteed = cm:get_saved_value("guaranteed");
+                ModLog( "读取保底抽数:" .. (50 - guaranteed));
             end
             
             if cm:get_saved_value("character_browser_list") then
-                character_browser_list = cm:get_saved_value("character_browser_list")
+                character_browser_list = cm:get_saved_value("character_browser_list");
+                ModLog("随机武将列表：");
+                for k,v in ipairs(character_browser_list) do
+                    ModLog(k ..": " .. char_names[v]);
+                end
             else 
-                cm:set_saved_value("character_browser_list", character_browser_list)
+                cm:set_saved_value("character_browser_list", character_browser_list);
             end
             
             if cm:get_saved_value("character_list") then 
-                character_list = cm:get_saved_value("character_list")
-                --监测钟离是否存在
-                if not is_character_list_have("hlyjch") then
-                    --character_list_remove("hlyjch")
-                    ModLog( "钟离已经存在")
-                elseif zhongli 
-                and not zhongli:is_null_interface() 
-                and not zhongli:is_dead() 
-                and zhongli:faction():is_human() 
-                then
-                    --cm:set_saved_value("is_player_have_zhongli", true);
-                    character_list_remove("hlyjch")
-                    ModLog( "钟离已经存在")
+                character_list = cm:get_saved_value("character_list");
+                ModLog("抽奖池列表：");
+                for k,v in ipairs(character_list) do
+                    ModLog(k ..": " .. char_names[v]);
                 end
-                
-                if not is_character_list_have("hlyjci") then
-                    --character_list_remove("hlyjci")
-                    ModLog( "甘雨已经存在")
-                elseif ganyu 
-                and not ganyu:is_null_interface() 
-                and not ganyu:is_dead() 
-                and ganyu:faction():is_human() 
-                then
-                    --cm:set_saved_value("is_player_have_ganyu", true);
-                    character_list_remove("hlyjci")
-                    ModLog( "甘雨已经存在")
+                for k,v in pairs(char_names) do
+                    local query_character = cm:query_model():character_for_template(k);
+                    ModLog( "=============================" );
+                    if not is_character_list_have(k) then
+                        if not query_character
+                        or query_character:is_null_interface()
+                        and not is_character_browser_list_have(k) 
+                        then
+                            ModLog( v .. "不存在世界上，将添加进随机派系");
+                            table.insert(character_browser_list, k);
+                        end
+                    elseif query_character 
+                    and not query_character:is_null_interface() 
+                    and not query_character:is_dead() 
+		    then
+                        ModLog( v .. "在" .. query_character:faction():name() .. "派系");
+                    	if query_character:faction():is_human() 
+                    	and not query_character:faction():is_character_is_faction_recruitment_pool()
+                   	then
+                            ModLog( v .. "在玩家派系且不在武将招募池");
+			end
+                        character_list_remove(k);
+                        character_browser_list_remove(k);
+		    end
                 end
-                
-                if not is_character_list_have("hlyjcl") then
-                    --character_list_remove("hlyjcl")
-                    ModLog( "那维莱特已经存在")
-                elseif neuvillette 
-                and not neuvillette:is_null_interface() 
-                and not neuvillette:is_dead() 
-                and neuvillette:faction():is_human() 
-                then
-                    --cm:set_saved_value("is_player_have_neuvillette", true);
-                    character_list_remove("hlyjcl")
-                    ModLog( "那维莱特已经存在")
-                end
-                
-                if not is_character_list_have("hlyjck") then
-                    --character_list_remove("hlyjck")
-                    ModLog( "镜流已经存在")
-                elseif jingliu 
-                and not jingliu:is_null_interface() 
-                and not jingliu:is_dead() 
-                and jingliu:faction():is_human() 
-                then
-                    --cm:set_saved_value("is_player_have_jingliu", true);
-                    character_list_remove("hlyjck")
-                    ModLog( "镜流已经存在")
-                end
-                
-                if not is_character_list_have("hlyjcj") then
-                    --character_list_remove("hlyjcj")
-                    ModLog( "卡芙卡已经存在")
-                elseif cm:get_saved_value("kafka_mission") 
-                and kafka and not kafka:is_null_interface() 
-                and kafka and not kafka:is_dead() 
-                and kafka:faction():is_human() then
-                    --cm:set_saved_value("is_player_have_kafka", true);
-                    character_list_remove("hlyjcj")
-                    ModLog( "卡芙卡已经存在")
-                end
-                
-                if not is_character_list_have("hlyjcm") then
-                    --character_list_remove("hlyjcm")
-                    ModLog( "雷电将军已经存在")
-                elseif raiden_shogun 
-                and not raiden_shogun:is_null_interface() 
-                and not raiden_shogun:is_dead() 
-                and raiden_shogun:faction():is_human() 
-                then
-                    --cm:set_saved_value("is_player_have_raiden_shogun", true);
-                    character_list_remove("hlyjcm")
-                    ModLog( "雷电将军已经存在")
-                end
-                
-                if not is_character_list_have("hlyjcn") then
-                    --character_list_remove("hlyjcn")
-                    ModLog( "刻晴已经存在")
-                elseif keqing 
-                and not keqing:is_null_interface() 
-                and not keqing:is_dead() 
-                and keqing:faction():is_human() 
-                then
-                    --cm:set_saved_value("is_player_have_keqing", true);
-                    character_list_remove("hlyjcn")
-                    ModLog( "刻晴已经存在")
-                end
-                
-                if not is_character_list_have("hlyjco") then
-                    --character_list_remove("hlyjco")
-                    ModLog( "芙宁娜已经存在")
-                elseif furina 
-                and not furina:is_null_interface() 
-                and not furina:is_dead() 
-                and furina:faction():is_human() 
-                then
-                    --cm:set_saved_value("is_player_have_furina", true);
-                    character_list_remove("hlyjco")
-                    ModLog( "芙宁娜已经存在")
-                end
-                
-                if not is_character_list_have("hlyjcp") then
-                    --character_list_remove("hlyjcp")
-                    ModLog( "符玄已经存在")
-                elseif fu_xuan 
-                and not fu_xuan:is_null_interface() 
-                and not fu_xuan:is_dead() 
-                and fu_xuan:faction():is_human() 
-                then
-                    --cm:set_saved_value("is_player_have_fu_xuan", true);
-                    character_list_remove("hlyjcp")
-                    ModLog( "符玄已经存在")
-                end
-                
-                if not is_character_list_have("hlyjcq") then
-                    --character_list_remove("hlyjcp")
-                    ModLog( "安柏已经存在")
-                elseif amber 
-                and not amber:is_null_interface() 
-                and not amber:is_dead() 
-                and amber:faction():is_human() 
-                then
-                    --cm:set_saved_value("is_player_have_fu_xuan", true);
-                    character_list_remove("hlyjcq")
-                    ModLog( "安柏已经存在")
-                end
-                
-                if not is_character_list_have("hlyjcr") then
-                    --character_list_remove("hlyjcp")
-                    ModLog( "丽莎已经存在")
-                elseif lisa 
-                and not lisa:is_null_interface()
-                and not lisa:is_dead()
-                and lisa:faction():is_human()
-                then
-                    --cm:set_saved_value("is_player_have_fu_xuan", true);
-                    character_list_remove("hlyjcr")
-                    ModLog( "丽莎已经存在")
-                end
-
-                if not is_character_list_have("hlyjcs") then
-                        --character_list_remove("hlyjcs")
-                        ModLog( "妮露已经存在")
-                elseif nilou 
-                and not nilou:is_null_interface()
-                and not nilou:is_dead()
-                and nilou:faction():is_human()
-                then
-                    character_list_remove("hlyjcs")
-                    ModLog( "妮露已经存在")
-                end
-                
-                cm:set_saved_value("character_list", character_list)
+                ModLog( "=============================" );
+                cm:set_saved_value("character_list", character_list);
+                cm:set_saved_value("character_browser_list", character_browser_list);
             end
-            ModLog( "FirstTickAfterWorldCreated 成功,playerstore_byhy.lua 获得玩家派系的 modify_faction ")
+            ModLog( "FirstTickAfterWorldCreated 成功,playerstore_byhy.lua 获得玩家派系的 modify_faction ");
             player_own_modify_faction = cm:modify_faction(player_query_faction);
         end
     end,
