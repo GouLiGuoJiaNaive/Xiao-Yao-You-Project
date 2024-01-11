@@ -1692,23 +1692,23 @@ core:add_listener(
         
         if player_query_faction then
             local char_names = {
-                'hlyjch' = "钟离",
-                'hlyjci' = "甘雨",
-                'hlyjcj' = "卡芙卡",
-                'hlyjck' = "镜流",
-                'hlyjcl' = "那维莱特",
-                'hlyjcm' = "雷电将军",
-                'hlyjcn' = "刻晴",
-                'hlyjco' = "芙宁娜",
-                'hlyjcp' = "符玄",
-                'hlyjcq' = "安柏",
-                'hlyjcr' = "丽莎",
-                'hlyjcs' = "妮露",
+                ['hlyjch'] = "钟离",
+                ['hlyjci'] = "甘雨",
+                ['hlyjcj'] = "卡芙卡",
+                ['hlyjck'] = "镜流",
+                ['hlyjcl'] = "那维莱特",
+                ['hlyjcm'] = "雷电将军",
+                ['hlyjcn'] = "刻晴",
+                ['hlyjco'] = "芙宁娜",
+                ['hlyjcp'] = "符玄",
+                ['hlyjcq'] = "安柏",
+                ['hlyjcr'] = "丽莎",
+                ['hlyjcs'] = "妮露",
             };
             
             if cm:get_saved_value("guaranteed") then
                 guaranteed = cm:get_saved_value("guaranteed");
-                ModLog( "读取保底抽数:" .. guaranteed);
+                ModLog( "读取保底抽数:" .. (50 - guaranteed));
             end
             
             if cm:get_saved_value("character_browser_list") then
@@ -1731,7 +1731,6 @@ core:add_listener(
                     local query_character = cm:query_model():character_for_template(k);
                     ModLog( "=============================" );
                     if not is_character_list_have(k) then
-                        ModLog( v .. "不在抽奖池");
                         if not query_character
                         or query_character:is_null_interface()
                         and not is_character_browser_list_have(k) 
@@ -1742,13 +1741,16 @@ core:add_listener(
                     elseif query_character 
                     and not query_character:is_null_interface() 
                     and not query_character:is_dead() 
-                    and query_character:faction():is_human() 
-                    and not query_character:faction():is_character_is_faction_recruitment_pool()
-                    then
-                        ModLog( v .. "在玩家派系且不在招募池");
+		    then
+                        ModLog( v .. "在" .. query_character:faction():name() .. "派系");
+                    	if query_character:faction():is_human() 
+                    	and not query_character:faction():is_character_is_faction_recruitment_pool()
+                   	then
+                            ModLog( v .. "在玩家派系且不在武将招募池");
+			end
                         character_list_remove(k);
                         character_browser_list_remove(k);
-                    end
+		    end
                 end
                 ModLog( "=============================" );
                 cm:set_saved_value("character_list", character_list);
