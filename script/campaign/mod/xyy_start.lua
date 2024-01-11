@@ -363,16 +363,14 @@ function xyy_set_region_manager(region_key, faction_key)
 end;
 
 function xyy_set_region_manager_random(region_key, faction_key)
-    if not cm:query_region(region_key)
-    or cm:query_region(region_key):is_null_interface()
-        return;
-    end
     if cm:query_region(region_key):owning_faction():name() == faction_key
     then
         return;
     end
     local random = cm:random_int(1000,1)
-    if not cm:query_region(region_key):owning_faction():is_human()
+    if cm:query_region(region_key)
+    and not cm:query_region(region_key):is_null_interface()
+    and not cm:query_region(region_key):owning_faction():is_human()
     and cm:query_region(region_key):owning_faction():name() ~= "xyyhlyjf"
     and random > 200
     then
