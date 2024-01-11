@@ -1752,6 +1752,7 @@ core:add_listener(
                 end
                 ModLog( "=============================" );
                 cm:set_saved_value("character_list", character_list);
+                cm:set_saved_value("character_browser_list", character_browser_list);
             end
             ModLog( "FirstTickAfterWorldCreated 成功,playerstore_byhy.lua 获得玩家派系的 modify_faction ");
             player_own_modify_faction = cm:modify_faction(player_query_faction);
