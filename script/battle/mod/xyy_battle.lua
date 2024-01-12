@@ -1,4 +1,3 @@
-
 		--==============================================================================--
 							 -- UI通用工具方法--
 		--==============================================================================--
@@ -32,6 +31,7 @@ local function UIComponent_resize( component, width, height, can_resize )
     end
 end
 
+-- 设置ui组建的大小
 local function UIComponent_coordinates( component )
     if is_uicomponent( component ) then
         local x, y = component:Position()
@@ -59,9 +59,7 @@ end
 		--==============================================================================--
 							 -- 本lua的局部变量--
 		--==============================================================================--
-local playercontrol = {
-
-}
+local playercontrol = {}
 
 local static_id = 0
 
@@ -389,7 +387,7 @@ function toggleButton()
             art_siege_button:SetState( "active" );
         end
     end
-    if control_mode_enable then
+    if ai_control_mode_enable then
         control_button:SetState( "selected" );
     else
         control_button:SetState( "active" );
