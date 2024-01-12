@@ -1,0 +1,425 @@
+--[[ Layout created with UIEd.  Hand edit at your peril ]]--
+
+version = 105
+comment = ""
+export_directory = "T:/warhammer/working_data/UI/templates"
+references = {};
+root = {
+		["Visible"] = true, ["IsRelativeResize"] = false, ["Animations"] = { },
+		["IsAspectRatioLocked"] = false, ["Priority"] = 0, ["CurrentState"] = 513978816, ["RenderLastOnFocused"] = false, ["ClipImagesToComponent"] = false, ["AllowHorizontalResize"] = true, ["TooltipsLocalised"] = true, ["MaskImage"] = 0, ["CallbackID"] = "", ["UniqueGUID"] = {
+				[1] = 223, [2] = 20, [3] = 75, [4] = 65, [5] = 162, [6] = 103, [7] = 250, [8] = 72, [9] = 131, [10] = 185, [11] = 221, [12] = 55, [13] = 204, [14] = 49, [15] = 114, [16] = 233},
+		["TooltipLabel"] = "", ["offsetx"] = 0, ["States"] = {
+				["NewState"] = {
+						["TextHBehaviour"] = 1, ["Fontsize"] = 10, ["Fonttracking"] = 1, ["TextLocalised"] = false, ["TextShaderVars"] = {
+								[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+						["ShaderVars"] = {
+								[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+						["StateEditorDisplayPosy"] = 0, ["Width"] = 1440, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+								[1] = 103, [2] = 173, [3] = 226, [4] = 28, [5] = 158, [6] = 238, [7] = 99, [8] = 77, [9] = 141, [10] = 96, [11] = 55, [12] = 131, [13] = 243, [14] = 185, [15] = 85, [16] = 195},
+						["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 0, ["Disabled"] = false, ["Fontleading"] = 2, ["Fontfont_name"] = "Norse-Bold", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = { },
+						["this"] = 513978816, ["PixelCollision"] = false, ["Interactive"] = true, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+								[1] = {
+										["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 202528448, ["Colour"] = {
+												[1] = 240, [2] = 240, [3] = 240, [4] = 255},
+										["ShaderTechniquevarsw"] = 0, ["marginw"] = 0, ["Offsety"] = 0, ["Tile"] = false, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 1440, ["marginy"] = 0, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 900, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+						["fontcat_name"] = "Default Font Category", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+								[1] = 221, [2] = 218, [3] = 250, [4] = 255},
+						["shader_name"] = "normal_t0", ["Name"] = "NewState", ["Tooltip"] = "", ["Height"] = 900, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2}},
+		["Docking"] = 0, ["ClipChildren"] = false, ["RenderWhenDragged"] = false, ["SoundCategory"] = "", ["ComponentImages"] = {
+				[1] = {
+						["CanUse1BitAlpha"] = false, ["ComponentVisible"] = true, ["Height"] = 900, ["ImagePath"] = "", ["this"] = 202528448, ["Width"] = 1440}},
+		["this"] = 513977984, ["Locked"] = false, ["DefaultState"] = 513978816, ["UserProperties"] = { },
+		["children"] = {
+				[1] = {
+						["Visible"] = true, ["IsRelativeResize"] = false, ["Animations"] = { },
+						["IsAspectRatioLocked"] = false, ["Priority"] = 0, ["CurrentState"] = 659814976, ["RenderLastOnFocused"] = false, ["ClipImagesToComponent"] = false, ["AllowHorizontalResize"] = true, ["TooltipsLocalised"] = true, ["MaskImage"] = 0, ["CallbackID"] = "TextButton", ["UniqueGUID"] = {
+								[1] = 28, [2] = 57, [3] = 247, [4] = 63, [5] = 88, [6] = 162, [7] = 97, [8] = 66, [9] = 143, [10] = 105, [11] = 217, [12] = 157, [13] = 212, [14] = 72, [15] = 37, [16] = 6},
+						["TooltipLabel"] = "", ["offsetx"] = 550, ["States"] = {
+								["hover"] = {
+										["TextHBehaviour"] = 1, ["Fontsize"] = 12, ["Fonttracking"] = 0, ["TextLocalised"] = false, ["TextShaderVars"] = {
+												[1] = 154, [2] = 153, [3] = 153, [4] = 62, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["ShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["StateEditorDisplayPosy"] = 126, ["Width"] = 339, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+												[1] = 53, [2] = 185, [3] = 68, [4] = 212, [5] = 169, [6] = 230, [7] = 223, [8] = 66, [9] = 158, [10] = 205, [11] = 53, [12] = 25, [13] = 83, [14] = 58, [15] = 81, [16] = 42},
+										["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 137, ["Disabled"] = false, ["Fontleading"] = 1, ["Fontfont_name"] = "la_gioconda", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = {
+												[2] = {
+														["target"] = 659814976, ["property_mask"] = 64, ["time"] = 200, ["triggers"] = { }},
+												[3] = {
+														["target"] = 514058592, ["property_mask"] = 0, ["time"] = 0, ["triggers"] = { }}},
+										["this"] = 659813952, ["PixelCollision"] = false, ["Interactive"] = true, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+												[1] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544928, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[2] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 262733152, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 0},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[3] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544000, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+										["fontcat_name"] = "ingame_text", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 255},
+										["shader_name"] = "normal_t0", ["Name"] = "hover", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2},
+								["selected_down_off"] = {
+										["TextHBehaviour"] = 1, ["Fontsize"] = 12, ["Fonttracking"] = 0, ["TextLocalised"] = false, ["TextShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["ShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["StateEditorDisplayPosy"] = 21, ["Width"] = 339, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+												[1] = 201, [2] = 85, [3] = 196, [4] = 187, [5] = 5, [6] = 134, [7] = 251, [8] = 68, [9] = 174, [10] = 44, [11] = 73, [12] = 139, [13] = 141, [14] = 186, [15] = 210, [16] = 146},
+										["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 384, ["Disabled"] = false, ["Fontleading"] = 1, ["Fontfont_name"] = "la_gioconda", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = {
+												[1] = {
+														["target"] = 514058112, ["property_mask"] = 0, ["time"] = 0, ["triggers"] = { }},
+												[9] = {
+														["target"] = 659815936, ["property_mask"] = 0, ["time"] = 0, ["triggers"] = { }}},
+										["this"] = 659814464, ["PixelCollision"] = false, ["Interactive"] = true, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+												[1] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 510692736, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[2] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544384, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+										["fontcat_name"] = "ingame_text", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 255},
+										["shader_name"] = "normal_t0", ["Name"] = "selected_down_off", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2},
+								["active"] = {
+										["TextHBehaviour"] = 1, ["Fontsize"] = 12, ["Fonttracking"] = 0, ["TextLocalised"] = false, ["TextShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["ShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["StateEditorDisplayPosy"] = 24, ["Width"] = 339, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+												[1] = 143, [2] = 122, [3] = 201, [4] = 53, [5] = 29, [6] = 127, [7] = 250, [8] = 69, [9] = 134, [10] = 146, [11] = 121, [12] = 96, [13] = 214, [14] = 152, [15] = 76, [16] = 174},
+										["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 20, ["Disabled"] = false, ["Fontleading"] = 1, ["Fontfont_name"] = "la_gioconda", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = {
+												[1] = {
+														["target"] = 659813952, ["property_mask"] = 64, ["time"] = 200, ["triggers"] = { }}},
+										["this"] = 659814976, ["PixelCollision"] = false, ["Interactive"] = true, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+												[1] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544928, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[2] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 262733152, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[3] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544000, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 0},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+										["fontcat_name"] = "ingame_text", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 255},
+										["shader_name"] = "normal_t0", ["Name"] = "active", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2},
+								["selected_hover"] = {
+										["TextHBehaviour"] = 1, ["Fontsize"] = 12, ["Fonttracking"] = 0, ["TextLocalised"] = false, ["TextShaderVars"] = {
+												[1] = 154, [2] = 153, [3] = 153, [4] = 62, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["ShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["StateEditorDisplayPosy"] = 216, ["Width"] = 339, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+												[1] = 194, [2] = 100, [3] = 29, [4] = 180, [5] = 196, [6] = 177, [7] = 172, [8] = 74, [9] = 168, [10] = 181, [11] = 111, [12] = 196, [13] = 39, [14] = 54, [15] = 48, [16] = 119},
+										["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 269, ["Disabled"] = false, ["Fontleading"] = 1, ["Fontfont_name"] = "la_gioconda", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = {
+												[2] = {
+														["target"] = 659815936, ["property_mask"] = 64, ["time"] = 200, ["triggers"] = { }},
+												[3] = {
+														["target"] = 514058112, ["property_mask"] = 0, ["time"] = 0, ["triggers"] = { }}},
+										["this"] = 659815424, ["PixelCollision"] = false, ["Interactive"] = true, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+												[1] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 510692736, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[2] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544384, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 0},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[3] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544576, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+										["fontcat_name"] = "ingame_text", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 255},
+										["shader_name"] = "normal_t0", ["Name"] = "selected_hover", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2},
+								["inactive"] = {
+										["TextHBehaviour"] = 1, ["Fontsize"] = 12, ["Fonttracking"] = 0, ["TextLocalised"] = false, ["TextShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["ShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["StateEditorDisplayPosy"] = 0, ["Width"] = 339, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+												[1] = 153, [2] = 220, [3] = 42, [4] = 25, [5] = 91, [6] = 157, [7] = 68, [8] = 71, [9] = 143, [10] = 219, [11] = 59, [12] = 77, [13] = 181, [14] = 43, [15] = 207, [16] = 83},
+										["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 0, ["Disabled"] = true, ["Fontleading"] = 1, ["Fontfont_name"] = "la_gioconda", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = { },
+										["this"] = 514059328, ["PixelCollision"] = false, ["Interactive"] = true, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+												[1] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544928, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[2] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544192, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+										["fontcat_name"] = "ingame_text", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 255},
+										["shader_name"] = "normal_t0", ["Name"] = "inactive", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2},
+								["down_off"] = {
+										["TextHBehaviour"] = 1, ["Fontsize"] = 12, ["Fonttracking"] = 0, ["TextLocalised"] = false, ["TextShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["ShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["StateEditorDisplayPosy"] = 319, ["Width"] = 339, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+												[1] = 134, [2] = 176, [3] = 59, [4] = 226, [5] = 225, [6] = 217, [7] = 101, [8] = 70, [9] = 166, [10] = 28, [11] = 234, [12] = 114, [13] = 251, [14] = 150, [15] = 44, [16] = 52},
+										["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 29, ["Disabled"] = false, ["Fontleading"] = 1, ["Fontfont_name"] = "la_gioconda", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = {
+												[1] = {
+														["target"] = 514058592, ["property_mask"] = 0, ["time"] = 0, ["triggers"] = { }},
+												[9] = {
+														["target"] = 659814976, ["property_mask"] = 0, ["time"] = 0, ["triggers"] = { }}},
+										["this"] = 520548256, ["PixelCollision"] = false, ["Interactive"] = true, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+												[1] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544928, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[2] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 262733152, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+										["fontcat_name"] = "ingame_text", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 255},
+										["shader_name"] = "normal_t0", ["Name"] = "down_off", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2},
+								["selected_inactive"] = {
+										["TextHBehaviour"] = 1, ["Fontsize"] = 12, ["Fonttracking"] = 0, ["TextLocalised"] = false, ["TextShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["ShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["StateEditorDisplayPosy"] = 0, ["Width"] = 339, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+												[1] = 153, [2] = 151, [3] = 6, [4] = 177, [5] = 225, [6] = 238, [7] = 205, [8] = 72, [9] = 170, [10] = 157, [11] = 253, [12] = 156, [13] = 189, [14] = 117, [15] = 100, [16] = 107},
+										["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 0, ["Disabled"] = true, ["Fontleading"] = 1, ["Fontfont_name"] = "la_gioconda", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = { },
+										["this"] = 520549184, ["PixelCollision"] = false, ["Interactive"] = true, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+												[1] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 510692736, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[2] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544736, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+										["fontcat_name"] = "ingame_text", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 255},
+										["shader_name"] = "normal_t0", ["Name"] = "selected_inactive", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2},
+								["selected"] = {
+										["TextHBehaviour"] = 1, ["Fontsize"] = 12, ["Fonttracking"] = 0, ["TextLocalised"] = false, ["TextShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["ShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["StateEditorDisplayPosy"] = 333, ["Width"] = 339, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+												[1] = 200, [2] = 111, [3] = 25, [4] = 134, [5] = 124, [6] = 149, [7] = 17, [8] = 65, [9] = 147, [10] = 166, [11] = 78, [12] = 220, [13] = 213, [14] = 42, [15] = 196, [16] = 121},
+										["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 401, ["Disabled"] = false, ["Fontleading"] = 1, ["Fontfont_name"] = "la_gioconda", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = {
+												[1] = {
+														["target"] = 659815424, ["property_mask"] = 64, ["time"] = 200, ["triggers"] = { }}},
+										["this"] = 659815936, ["PixelCollision"] = false, ["Interactive"] = true, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+												[1] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 510692736, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[2] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544384, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[3] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544576, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 0},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+										["fontcat_name"] = "ingame_text", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 255},
+										["shader_name"] = "normal_t0", ["Name"] = "selected", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2},
+								["down"] = {
+										["TextHBehaviour"] = 1, ["Fontsize"] = 12, ["Fonttracking"] = 0, ["TextLocalised"] = false, ["TextShaderVars"] = {
+												[1] = 154, [2] = 153, [3] = 153, [4] = 62, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["ShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["StateEditorDisplayPosy"] = 219, ["Width"] = 339, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+												[1] = 32, [2] = 125, [3] = 54, [4] = 196, [5] = 110, [6] = 202, [7] = 242, [8] = 66, [9] = 129, [10] = 131, [11] = 185, [12] = 180, [13] = 254, [14] = 142, [15] = 145, [16] = 236},
+										["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 145, ["Disabled"] = false, ["Fontleading"] = 1, ["Fontfont_name"] = "la_gioconda", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = {
+												[4] = {
+														["target"] = 659815424, ["property_mask"] = 0, ["time"] = 0, ["triggers"] = { }},
+												[2] = {
+														["target"] = 520548256, ["property_mask"] = 0, ["time"] = 0, ["triggers"] = { }}},
+										["this"] = 514058592, ["PixelCollision"] = false, ["Interactive"] = true, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+												[1] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544928, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[2] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 567852992, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+										["fontcat_name"] = "ingame_text", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 255},
+										["shader_name"] = "normal_t0", ["Name"] = "down", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2},
+								["selected_down"] = {
+										["TextHBehaviour"] = 1, ["Fontsize"] = 12, ["Fonttracking"] = 0, ["TextLocalised"] = false, ["TextShaderVars"] = {
+												[1] = 154, [2] = 153, [3] = 153, [4] = 62, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["ShaderVars"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+										["StateEditorDisplayPosy"] = 120, ["Width"] = 339, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+												[1] = 232, [2] = 46, [3] = 97, [4] = 75, [5] = 52, [6] = 222, [7] = 120, [8] = 76, [9] = 148, [10] = 112, [11] = 49, [12] = 172, [13] = 156, [14] = 16, [15] = 99, [16] = 157},
+										["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 268, ["Disabled"] = false, ["Fontleading"] = 1, ["Fontfont_name"] = "la_gioconda", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = {
+												[4] = {
+														["target"] = 659813952, ["property_mask"] = 0, ["time"] = 0, ["triggers"] = { }},
+												[2] = {
+														["target"] = 659814464, ["property_mask"] = 0, ["time"] = 0, ["triggers"] = { }}},
+										["this"] = 514058112, ["PixelCollision"] = false, ["Interactive"] = true, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+												[1] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 510692736, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[2] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 520544000, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true},
+												[3] = {
+														["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 567852992, ["Colour"] = {
+																[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+														["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = true, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+										["fontcat_name"] = "ingame_text", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+												[1] = 0, [2] = 0, [3] = 0, [4] = 255},
+										["shader_name"] = "normal_t0", ["Name"] = "selected_down", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2}},
+						["Docking"] = 5, ["ClipChildren"] = false, ["RenderWhenDragged"] = false, ["SoundCategory"] = "UI_GBL_TMP_Square_Large_Wish_Button_Toggle", ["ComponentImages"] = {
+								[1] = {
+										["CanUse1BitAlpha"] = false, ["ComponentVisible"] = true, ["Height"] = 201, ["ImagePath"] = "ui/skins/default/button_square_large_text_pressed.png", ["this"] = 567852992, ["Width"] = 339},
+								[2] = {
+										["CanUse1BitAlpha"] = false, ["ComponentVisible"] = true, ["Height"] = 201, ["ImagePath"] = "ui/skins/default/button_square_large_text_active.png", ["this"] = 262733152, ["Width"] = 339},
+								[3] = {
+										["CanUse1BitAlpha"] = false, ["ComponentVisible"] = true, ["Height"] = 201, ["ImagePath"] = "ui/skins/default/button_square_large_text_hover.png", ["this"] = 520544000, ["Width"] = 339},
+								[4] = {
+										["CanUse1BitAlpha"] = false, ["ComponentVisible"] = true, ["Height"] = 201, ["ImagePath"] = "ui/skins/default/button_square_large_text_inactive.png", ["this"] = 520544192, ["Width"] = 339},
+								[5] = {
+										["CanUse1BitAlpha"] = false, ["ComponentVisible"] = true, ["Height"] = 201, ["ImagePath"] = "ui/skins/default/button_square_large_text_selected.png", ["this"] = 520544384, ["Width"] = 339},
+								[6] = {
+										["CanUse1BitAlpha"] = false, ["ComponentVisible"] = true, ["Height"] = 201, ["ImagePath"] = "ui/skins/default/button_square_large_text_selected_hover.png", ["this"] = 520544576, ["Width"] = 339},
+								[7] = {
+										["CanUse1BitAlpha"] = false, ["ComponentVisible"] = true, ["Height"] = 201, ["ImagePath"] = "ui/skins/default/button_square_large_text_selected_inactive.png", ["this"] = 520544736, ["Width"] = 339},
+								[8] = {
+										["CanUse1BitAlpha"] = false, ["ComponentVisible"] = true, ["Height"] = 201, ["ImagePath"] = "ui/skins/default/button_square_large_text_underlay.png", ["this"] = 520544928, ["Width"] = 339},
+								[9] = {
+										["CanUse1BitAlpha"] = false, ["ComponentVisible"] = true, ["Height"] = 201, ["ImagePath"] = "ui/skins/default/button_square_large_text_selected_underlay.png", ["this"] = 510692736, ["Width"] = 339}},
+						["this"] = 659813120, ["Locked"] = false, ["DefaultState"] = 659814976, ["UserProperties"] = { },
+						["children"] = {
+								[1] = {
+										["Visible"] = true, ["IsRelativeResize"] = true, ["Animations"] = { },
+										["IsAspectRatioLocked"] = false, ["Priority"] = 60, ["CurrentState"] = 754952512, ["RenderLastOnFocused"] = false, ["ClipImagesToComponent"] = false, ["AllowHorizontalResize"] = true, ["TooltipsLocalised"] = true, ["MaskImage"] = 0, ["CallbackID"] = "", ["UniqueGUID"] = {
+												[1] = 182, [2] = 105, [3] = 104, [4] = 155, [5] = 204, [6] = 49, [7] = 248, [8] = 78, [9] = 168, [10] = 66, [11] = 6, [12] = 190, [13] = 225, [14] = 72, [15] = 77, [16] = 234},
+										["TooltipLabel"] = "", ["offsetx"] = 28, ["States"] = {
+												["NewState"] = {
+														["TextHBehaviour"] = 2, ["Fontsize"] = 10, ["Fonttracking"] = 1, ["TextLocalised"] = false, ["TextShaderVars"] = {
+																[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+														["ShaderVars"] = {
+																[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+														["StateEditorDisplayPosy"] = 0, ["Width"] = 283, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+																[1] = 198, [2] = 172, [3] = 196, [4] = 78, [5] = 137, [6] = 120, [7] = 45, [8] = 64, [9] = 134, [10] = 241, [11] = 77, [12] = 151, [13] = 204, [14] = 141, [15] = 221, [16] = 142},
+														["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 0, ["Disabled"] = false, ["Fontleading"] = 2, ["Fontfont_name"] = "Norse-Bold", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = { },
+														["this"] = 754952512, ["PixelCollision"] = false, ["Interactive"] = false, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = { },
+														["fontcat_name"] = "Default Font Category", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+																[1] = 221, [2] = 218, [3] = 250, [4] = 255},
+														["shader_name"] = "normal_t0", ["Name"] = "NewState", ["Tooltip"] = "", ["Height"] = 40, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2}},
+										["Docking"] = 5, ["ClipChildren"] = true, ["RenderWhenDragged"] = false, ["SoundCategory"] = "", ["ComponentImages"] = { },
+										["this"] = 754951616, ["Locked"] = false, ["DefaultState"] = 754952512, ["UserProperties"] = {
+												[1] = {
+														[1] = "disable_override", [2] = "instance_resize"}},
+										["children"] = {
+												[1] = {
+														["Visible"] = true, ["IsRelativeResize"] = false, ["Animations"] = { },
+														["IsAspectRatioLocked"] = true, ["Priority"] = 60, ["CurrentState"] = 690616576, ["RenderLastOnFocused"] = false, ["ClipImagesToComponent"] = false, ["AllowHorizontalResize"] = true, ["TooltipsLocalised"] = true, ["MaskImage"] = 0, ["CallbackID"] = "", ["UniqueGUID"] = {
+																[1] = 181, [2] = 15, [3] = 255, [4] = 127, [5] = 64, [6] = 226, [7] = 181, [8] = 66, [9] = 184, [10] = 83, [11] = 210, [12] = 146, [13] = 59, [14] = 193, [15] = 2, [16] = 171},
+														["TooltipLabel"] = "", ["offsetx"] = -2, ["States"] = {
+																["NewState"] = {
+																		["TextHBehaviour"] = 2, ["Fontsize"] = 10, ["Fonttracking"] = 1, ["TextLocalised"] = false, ["TextShaderVars"] = {
+																				[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+																		["ShaderVars"] = {
+																				[1] = 0, [2] = 0, [3] = 128, [4] = 63, [5] = 0, [6] = 0, [7] = 32, [8] = 65, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+																		["StateEditorDisplayPosy"] = 0, ["Width"] = 283, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+																				[1] = 2, [2] = 229, [3] = 141, [4] = 101, [5] = 165, [6] = 20, [7] = 80, [8] = 65, [9] = 176, [10] = 210, [11] = 228, [12] = 208, [13] = 93, [14] = 232, [15] = 144, [16] = 88},
+																		["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 0, ["Disabled"] = false, ["Fontleading"] = 2, ["Fontfont_name"] = "Norse-Bold", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = { },
+																		["this"] = 690616576, ["PixelCollision"] = false, ["Interactive"] = false, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+																				[1] = {
+																						["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 742434944, ["Colour"] = {
+																								[1] = 64, [2] = 128, [3] = 255, [4] = 128},
+																						["ShaderTechniquevarsw"] = 0, ["marginw"] = 0, ["Offsety"] = 0, ["Tile"] = false, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 283, ["marginy"] = 0, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 283, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+																		["fontcat_name"] = "Default Font Category", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+																				[1] = 221, [2] = 218, [3] = 250, [4] = 255},
+																		["shader_name"] = "smoke_overlay_t0", ["Name"] = "NewState", ["Tooltip"] = "", ["Height"] = 283, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2}},
+														["Docking"] = 5, ["ClipChildren"] = false, ["RenderWhenDragged"] = false, ["SoundCategory"] = "", ["ComponentImages"] = {
+																[1] = {
+																		["CanUse1BitAlpha"] = false, ["ComponentVisible"] = true, ["Height"] = 201, ["ImagePath"] = "ui/skins/default/button_square_large_text_hover.png", ["this"] = 742434944, ["Width"] = 339}},
+														["this"] = 742138496, ["Locked"] = false, ["DefaultState"] = 690616576, ["UserProperties"] = {
+																[1] = {
+																		[1] = "disable_override", [2] = "instance_resize"}},
+														["children"] = { },
+														["ComponentLevelTooltip"] = "", ["id"] = "smoke_overlay", ["Moveable"] = 0, ["UpdateWhenNotVisible"] = false, ["offsety"] = -124, ["dock_offsetx"] = -2, ["RenderIfRoot"] = false, ["dock_offsety"] = -3, ["DrawMode"] = 0, ["LayoutTransition"] = "", ["AllowVerticalResize"] = true, ["template_id"] = "", ["UseGlobalClicks"] = false}},
+										["ComponentLevelTooltip"] = "", ["id"] = "smoke_clip_parent", ["Moveable"] = 0, ["UpdateWhenNotVisible"] = false, ["offsety"] = 3, ["dock_offsetx"] = 0, ["RenderIfRoot"] = false, ["dock_offsety"] = -2, ["DrawMode"] = 0, ["LayoutTransition"] = "", ["AllowVerticalResize"] = false, ["template_id"] = "", ["UseGlobalClicks"] = false},
+								[2] = {
+										["Visible"] = true, ["IsRelativeResize"] = false, ["Animations"] = { },
+										["IsAspectRatioLocked"] = false, ["Priority"] = 60, ["CurrentState"] = 307051968, ["RenderLastOnFocused"] = false, ["ClipImagesToComponent"] = false, ["AllowHorizontalResize"] = true, ["TooltipsLocalised"] = true, ["MaskImage"] = 0, ["CallbackID"] = "", ["UniqueGUID"] = {
+												[1] = 151, [2] = 183, [3] = 92, [4] = 59, [5] = 2, [6] = 221, [7] = 228, [8] = 74, [9] = 153, [10] = 144, [11] = 27, [12] = 237, [13] = 14, [14] = 177, [15] = 224, [16] = 78},
+										["TooltipLabel"] = "", ["offsetx"] = 0, ["States"] = {
+												["NewState"] = {
+														["TextHBehaviour"] = 2, ["Fontsize"] = 10, ["Fonttracking"] = 1, ["TextLocalised"] = false, ["TextShaderVars"] = {
+																[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+														["ShaderVars"] = {
+																[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+														["StateEditorDisplayPosy"] = 0, ["Width"] = 339, ["TextYOffsetx"] = 0, ["TextLabel"] = "", ["UniqueGUID"] = {
+																[1] = 220, [2] = 212, [3] = 84, [4] = 70, [5] = 31, [6] = 144, [7] = 90, [8] = 71, [9] = 162, [10] = 153, [11] = 34, [12] = 243, [13] = 35, [14] = 180, [15] = 182, [16] = 127},
+														["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 0, ["Disabled"] = false, ["Fontleading"] = 2, ["Fontfont_name"] = "Norse-Bold", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = { },
+														["this"] = 307051968, ["PixelCollision"] = false, ["Interactive"] = false, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = {
+																[1] = {
+																		["Y_Flipped"] = false, ["X_Flipped"] = false, ["DockPoint"] = 0, ["rotation_axisz"] = 1, ["ShaderTechniquevarsx"] = 0, ["ShaderTechniquevarsz"] = 0, ["ShaderTechniquevarsy"] = 0, ["pivot_pointx"] = 0, ["rotation_axisy"] = 0, ["rotation_angle"] = 0, ["CanResizeHeight"] = true, ["ComponentImage"] = 307051776, ["Colour"] = {
+																				[1] = 255, [2] = 255, [3] = 255, [4] = 255},
+																		["ShaderTechniquevarsw"] = 0, ["marginw"] = 60, ["Offsety"] = 0, ["Tile"] = false, ["dock_offsetx"] = 0, ["marginz"] = 0, ["marginx"] = 0, ["Width"] = 339, ["marginy"] = 60, ["shader_name"] = "", ["dock_offsety"] = 0, ["rotation_axisx"] = 0, ["Height"] = 201, ["Offsetx"] = 0, ["pivot_pointy"] = 0, ["CanResizeWidth"] = true}},
+														["fontcat_name"] = "Default Font Category", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+																[1] = 221, [2] = 218, [3] = 250, [4] = 255},
+														["shader_name"] = "normal_t0", ["Name"] = "NewState", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 2}},
+										["Docking"] = 5, ["ClipChildren"] = false, ["RenderWhenDragged"] = false, ["SoundCategory"] = "", ["ComponentImages"] = {
+												[1] = {
+														["CanUse1BitAlpha"] = false, ["ComponentVisible"] = true, ["Height"] = 201, ["ImagePath"] = "ui/skins/default/button_square_large_text_mask.png", ["this"] = 307051776, ["Width"] = 339}},
+										["this"] = 307044832, ["Locked"] = false, ["DefaultState"] = 307051968, ["UserProperties"] = {
+												[1] = {
+														[1] = "disable_override", [2] = "instance_resize"}},
+										["children"] = { },
+										["ComponentLevelTooltip"] = "", ["id"] = "frame_over", ["Moveable"] = 0, ["UpdateWhenNotVisible"] = false, ["offsety"] = 0, ["dock_offsetx"] = 0, ["RenderIfRoot"] = false, ["dock_offsety"] = 0, ["DrawMode"] = 0, ["LayoutTransition"] = "", ["AllowVerticalResize"] = false, ["template_id"] = "", ["UseGlobalClicks"] = false},
+								[3] = {
+										["Visible"] = true, ["IsRelativeResize"] = true, ["Animations"] = { },
+										["IsAspectRatioLocked"] = false, ["Priority"] = 0, ["CurrentState"] = 463077408, ["RenderLastOnFocused"] = false, ["ClipImagesToComponent"] = false, ["AllowHorizontalResize"] = true, ["TooltipsLocalised"] = true, ["MaskImage"] = 0, ["CallbackID"] = "", ["UniqueGUID"] = {
+												[1] = 222, [2] = 167, [3] = 188, [4] = 179, [5] = 193, [6] = 242, [7] = 84, [8] = 64, [9] = 137, [10] = 152, [11] = 124, [12] = 56, [13] = 63, [14] = 28, [15] = 51, [16] = 182},
+										["TooltipLabel"] = "", ["offsetx"] = 37, ["States"] = {
+												["inactive"] = {
+														["TextHBehaviour"] = 2, ["Fontsize"] = 16, ["Fonttracking"] = 1, ["TextLocalised"] = true, ["TextShaderVars"] = {
+																[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+														["ShaderVars"] = {
+																[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+														["StateEditorDisplayPosy"] = 0, ["Width"] = 264, ["TextYOffsetx"] = 12, ["TextLabel"] = "", ["UniqueGUID"] = {
+																[1] = 226, [2] = 113, [3] = 156, [4] = 143, [5] = 57, [6] = 114, [7] = 176, [8] = 64, [9] = 129, [10] = 32, [11] = 204, [12] = 186, [13] = 38, [14] = 143, [15] = 69, [16] = 37},
+														["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 0, ["Disabled"] = false, ["Fontleading"] = 2, ["Fontfont_name"] = "la_gioconda_uppercase", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = { },
+														["this"] = 463078592, ["PixelCollision"] = false, ["Interactive"] = false, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = { },
+														["fontcat_name"] = "fe_paragraph_heading_inactive", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+																[1] = 102, [2] = 102, [3] = 102, [4] = 255},
+														["shader_name"] = "normal_t0", ["Name"] = "inactive", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 4},
+												["active"] = {
+														["TextHBehaviour"] = 2, ["Fontsize"] = 16, ["Fonttracking"] = 0, ["TextLocalised"] = true, ["TextShaderVars"] = {
+																[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+														["ShaderVars"] = {
+																[1] = 0, [2] = 0, [3] = 0, [4] = 0, [5] = 0, [6] = 0, [7] = 0, [8] = 0, [9] = 0, [10] = 0, [11] = 0, [12] = 0, [13] = 0, [14] = 0, [15] = 0, [16] = 0},
+														["StateEditorDisplayPosy"] = 0, ["Width"] = 264, ["TextYOffsetx"] = 12, ["TextLabel"] = "", ["UniqueGUID"] = {
+																[1] = 19, [2] = 189, [3] = 134, [4] = 209, [5] = 141, [6] = 41, [7] = 116, [8] = 72, [9] = 189, [10] = 116, [11] = 227, [12] = 1, [13] = 6, [14] = 192, [15] = 239, [16] = 172},
+														["TooltipLabel"] = "", ["StateEditorDisplayPosx"] = 0, ["Disabled"] = false, ["Fontleading"] = 1, ["Fontfont_name"] = "la_gioconda_uppercase", ["ImageDock9Patch"] = false, ["FocusType"] = 0, ["TransitionMap"] = { },
+														["this"] = 463077408, ["PixelCollision"] = false, ["Interactive"] = false, ["TextVAlign"] = 0, ["text_shader_name"] = "normal_t0", ["TextHeight"] = 50, ["TextXOffsety"] = 0, ["BlockedAnims"] = "", ["ImageMetrics"] = { },
+														["fontcat_name"] = "fe_paragraph_heading", ["Text"] = "", ["TextWidth"] = 0, ["TextVBehaviour"] = 1, ["Fontcolour"] = {
+																[1] = 215, [2] = 248, [3] = 255, [4] = 255},
+														["shader_name"] = "normal_t0", ["Name"] = "active", ["Tooltip"] = "", ["Height"] = 201, ["TextXOffsetx"] = 0, ["TextYOffsety"] = 0, ["TextHAlign"] = 4}},
+										["Docking"] = 5, ["ClipChildren"] = false, ["RenderWhenDragged"] = false, ["SoundCategory"] = "", ["ComponentImages"] = { },
+										["this"] = 464780384, ["Locked"] = false, ["DefaultState"] = 463077408, ["UserProperties"] = {
+												[1] = {
+														[1] = "disable_override", [2] = "instance_resize"}},
+										["children"] = { },
+										["ComponentLevelTooltip"] = "", ["id"] = "button_txt", ["Moveable"] = 0, ["UpdateWhenNotVisible"] = false, ["offsety"] = 0, ["dock_offsetx"] = 0, ["RenderIfRoot"] = false, ["dock_offsety"] = 0, ["DrawMode"] = 0, ["LayoutTransition"] = "", ["AllowVerticalResize"] = false, ["template_id"] = "", ["UseGlobalClicks"] = false}},
+						["ComponentLevelTooltip"] = "", ["id"] = "square_large_wish_button_toggle", ["Moveable"] = 0, ["UpdateWhenNotVisible"] = false, ["offsety"] = 424, ["dock_offsetx"] = 0, ["RenderIfRoot"] = false, ["dock_offsety"] = 0, ["DrawMode"] = 0, ["LayoutTransition"] = "", ["AllowVerticalResize"] = false, ["template_id"] = "", ["UseGlobalClicks"] = false}},
+		["ComponentLevelTooltip"] = "", ["id"] = "root", ["Moveable"] = 0, ["UpdateWhenNotVisible"] = false, ["offsety"] = 0, ["dock_offsetx"] = 0, ["RenderIfRoot"] = false, ["dock_offsety"] = 0, ["DrawMode"] = 0, ["LayoutTransition"] = "", ["AllowVerticalResize"] = true, ["template_id"] = "", ["UseGlobalClicks"] = false}
+localisation = { }
