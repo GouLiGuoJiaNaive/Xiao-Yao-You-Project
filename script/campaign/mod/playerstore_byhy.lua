@@ -69,9 +69,7 @@ end
 		--==============================================================================--
 							 -- 本lua的局部变量--
 		--==============================================================================--
-local playerstore = {
-
-}
+-- local playerstore = {}
 
 local static_id = 0
 
@@ -88,8 +86,8 @@ local bt_execute_size_y = 50  --按钮大小
 
 local locale;
 
-local home_store_btn_obj = nil; --主界面入口按钮
-local home_store_btn_listener_name = nil; --主界面入口按钮的监听id
+-- local home_store_btn_obj = nil; --主界面入口按钮
+-- local home_store_btn_listener_name = nil; --主界面入口按钮的监听id
 
 local home_btn_table = {};--主界面的入口按钮
 local store_panel = nil;--商店面板
@@ -104,7 +102,22 @@ local last_random1 = 0;
 
 local guaranteed = 50;
 
-local character_list;
+local xyy_character_lottery_pool;
+
+local character_detils = { 
+    ['hlyjch'] = {['name']="钟离", ['subtype']='3k_general_earth'},
+    ['hlyjci'] = {['name']="甘雨", ['subtype']='3k_general_water'},
+    ['hlyjcj'] = {['name']="卡芙卡", ['subtype']='3k_general_fire'},
+    ['hlyjck'] = {['name']="镜流", ['subtype']='3k_general_metal'},
+    ['hlyjcl'] = {['name']="那维莱特", ['subtype']='3k_general_fire'},
+    ['hlyjcm'] = {['name']="雷电将军", ['subtype']='3k_general_earth'},
+    ['hlyjcn'] = {['name']="刻晴", ['subtype']='3k_general_metal'},
+    ['hlyjco'] = {['name']="芙宁娜", ['subtype']='3k_general_water'},
+    ['hlyjcp'] = {['name']="符玄", ['subtype']='3k_general_earth'},
+    ['hlyjcq'] = {['name']="安柏", ['subtype']='3k_general_fire'},
+    ['hlyjcr'] = {['name']="丽莎", ['subtype']='3k_general_water'},
+    ['hlyjcs'] = {['name']="妮露", ['subtype']='3k_general_wood'},
+};
 
 local character_browser_list = {
     "hlyjch",
@@ -796,8 +809,8 @@ local random_item3_weapon={
     "unique,3k_dlc06_ancillary_weapon_burning_mace_unique,烈焰锤",
     "unique,3k_main_ancillary_weapon_cleaver_of_mountains_unique,开山斧",
     "unique,3k_main_ancillary_weapon_giant_mace_unique,巨阙",
-    "unique, 3k_dlc04_ancillary_weapon_staff_zhang_jue_unique,张角之杖",
-    "unique, 3k_main_ancillary_weapon_two_handed_axe_unique,破胆斧头"
+    "unique,3k_dlc04_ancillary_weapon_staff_zhang_jue_unique,张角之杖",
+    "unique,3k_main_ancillary_weapon_two_handed_axe_unique,破胆斧头"
 }
 
 local random_item3_armour={
@@ -829,7 +842,6 @@ local random_item3_mount={
     "legendary,3k_main_ancillary_mount_red_hare,赤兔",
     "legendary,3k_main_ancillary_mount_shadow_runner,绝影",
     "legendary,3k_dlc04_ancillary_mount_liu_chong,乌木王",
-    
     "unique,3k_main_ancillary_mount_black_elite,黑骊",
     "unique,3k_main_ancillary_mount_brown_elite,腾黄",
     "unique,3k_main_ancillary_mount_grey_elite,青骢",
@@ -913,10 +925,23 @@ local function getRandomValue(min,max)
     return math.random(min,max);
 end
 
-local function character_list_remove(key)
-    for i, v in ipairs(character_list) do
+local function get_xyy_character_lottery_pool()
+    ModLog(type(cm:get_saved_value("xyy_character_lottery_pool")))
+    if cm:get_saved_value("character_list") 
+    and not cm:get_saved_value("xyy_character_lottery_pool")
+    then
+        xyy_character_lottery_pool = cm:get_saved_value("character_list")
+        ModLog('发现存档中的旧变量记录 character_list'.. #character_list)
+    else 
+        xyy_character_lottery_pool = cm:get_saved_value("xyy_character_lottery_pool")
+        ModLog('发现存档中的新变量记录 xyy_character_lottery_pool'.. #xyy_character_lottery_pool)
+    end
+end
+
+local function remove_character_from_pool(key)
+    for i, v in ipairs(xyy_character_lottery_pool) do
         if v == key then
-            table.remove(character_list, i)
+            table.remove(xyy_character_lottery_pool, i)
             return
         end
     end
@@ -929,6 +954,32 @@ local function character_browser_list_remove(key)
             return
         end
     end
+end
+
+function in_xyy_character_pool(value)
+    if not xyy_character_lottery_pool then
+        get_xyy_character_lottery_pool()
+    end
+
+    for k,v in ipairs(xyy_character_lottery_pool) do
+        if v == value then
+            return true;
+        end
+    end
+    return false;
+end
+
+function in_xyy_character_browser_list(value)
+    if not character_browser_list then
+        character_browser_list = cm:get_saved_value("character_browser_list")
+    end
+
+    for k,v in ipairs(character_browser_list) do
+        if v == value then
+            return true;
+        end
+    end
+    return false;
 end
 
 --创建ui：关闭按钮
@@ -976,30 +1027,6 @@ local function create_bt_close(parent)
     return bt
 end
 
-function is_character_list_have(value)
-    if not character_list then
-        return false;
-    end
-    for k,v in ipairs(character_list) do
-        if v == value then
-            return true;
-        end
-    end
-    return false;
-end
-
-function is_character_browser_list_have(value)
-    if not character_browser_list then
-        return false;
-    end
-    for k,v in ipairs(character_browser_list) do
-        if v == value then
-            return true;
-        end
-    end
-    return false;
-end
-
 --创建ui：购买按钮
 local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_item, button_txt)
     local btn_listener_name =  btn_name .. "_click_up"
@@ -1018,7 +1045,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
         local tooltip = effect.get_localised_string("mod_xyy_store_main_tooltip");
         tooltip = string.gsub(tooltip,"%%1", cost_money);
         bt_execute:SetTooltipText(tooltip, true);
-        if #character_list == 0 then
+        if #xyy_character_lottery_pool == 0 then
             bt_execute:SetImagePath("ui/skins/default/wish_unavailable.png");
             bt_execute:SetTooltipText(effect.get_localised_string("mod_xyy_store_main_tooltip_sold_out"), true);
         end
@@ -1053,7 +1080,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                 --cost_money = -1;
                 if player_faction:treasury() >= cost_money or ticket_points > 0 then
                     if btn_name == UI_MOD_NAME .. "_store_buy_btn16" then
-                        if #character_list == 0 then
+                        if #xyy_character_lottery_pool == 0 then
                             effect.advice(effect.get_localised_string("mod_xyy_store_main_message_sold_out"))
                             return true;
                         end
@@ -1122,30 +1149,30 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                             
                             index = {};
                             
-                            if is_character_list_have("hlyjcj") then
+                            if in_xyy_character_pool("hlyjcj") then
                                 table.insert(index, "hlyjcj");
                                 table.insert(index, "hlyjcj");
                             end
                             
-                            if is_character_list_have("hlyjco") and (min < 990 or not is_character_list_have("hlyjcj")) then
+                            if in_xyy_character_pool("hlyjco") and (min < 990 or not in_xyy_character_pool("hlyjcj")) then
                                 table.insert(index, "hlyjco");
                             end
                             
-                            if is_character_list_have("hlyjcp") and (min < 990 or not is_character_list_have("hlyjcj")) then
+                            if in_xyy_character_pool("hlyjcp") and (min < 990 or not in_xyy_character_pool("hlyjcj")) then
                                 table.insert(index, "hlyjcp");
                             end
                             
-                            if not is_character_list_have("hlyjcj")
-                            and not is_character_list_have("hlyjco")
-                            and not is_character_list_have("hlyjcp")
+                            if not in_xyy_character_pool("hlyjcj")
+                            and not in_xyy_character_pool("hlyjco")
+                            and not in_xyy_character_pool("hlyjcp")
                             then
-                                table.insert(index, character_list[1]);
+                                table.insert(index, xyy_character_lottery_pool[1]);
                             end
                             
                             cm:wait_for_model_sp(function()
                                 local i = math.floor(cm:random_int(#index * 10000, 10000)/10000);
                                 if index[i] == "hlyjco" then
-                                    character_list_remove("hlyjco")
+                                    remove_character_from_pool("hlyjco")
                                     cm:modify_model():get_modify_episodic_scripting():register_instant_movie_by_record("3k_main_game_lost_yellow_turbans");
                                     local character = xyy_character_add("hlyjco", player_own_modify_faction:query_faction():name(), "3k_general_water");
                                     xyy_character_close_agent("hlyjco");
@@ -1160,7 +1187,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                         cm:modify_character(character):apply_relationship_trigger_set(characterneuvillette, "3k_dlc05_relationship_trigger_set_startpos_romance");
                                     end
                                 elseif index[i] == "hlyjcp" then
-                                    character_list_remove("hlyjcp")
+                                    remove_character_from_pool("hlyjcp")
                                     cm:modify_model():get_modify_episodic_scripting():register_instant_movie_by_record("3k_main_game_lost_earth_yuan_shu");
                                     local character = xyy_character_add("hlyjcp", player_own_modify_faction:query_faction():name(), "3k_general_earth");
                                     xyy_character_close_agent("hlyjcp");
@@ -1170,7 +1197,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                     incident:add_faction_target("target_faction_1", player_own_modify_faction:query_faction());
                                     incident:trigger(player_own_modify_faction, true);
                                 elseif index[i] == "hlyjcj" then
-                                    character_list_remove("hlyjcj")
+                                    remove_character_from_pool("hlyjcj")
                                     cm:set_saved_value("is_player_have_kafka",true)
                                     cm:modify_model():get_modify_episodic_scripting():register_instant_movie_by_record("ep_faction_game_lost_sima_ai");
                                     local character = xyy_character_add("hlyjcj", player_own_modify_faction:query_faction():name(), "3k_general_fire");
@@ -1181,7 +1208,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                     incident:add_faction_target("target_faction_1", player_own_modify_faction:query_faction());
                                     incident:trigger(player_own_modify_faction, true);
                                 elseif index[i] == "hlyjch" then
-                                    character_list_remove("hlyjch")
+                                    remove_character_from_pool("hlyjch")
                                     local character = xyy_character_add("hlyjch", player_own_modify_faction:query_faction():name(), "3k_general_earth");
                                     xyy_character_close_agent("hlyjch");
                                     cm:modify_character(character):reset_skills();
@@ -1190,7 +1217,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                     incident:add_faction_target("target_faction_1", player_own_modify_faction:query_faction());
                                     incident:trigger(player_own_modify_faction, true);
                                 elseif index[i] == "hlyjci" then
-                                    character_list_remove("hlyjci")
+                                    remove_character_from_pool("hlyjci")
                                     local character = xyy_character_add("hlyjci", player_own_modify_faction:query_faction():name(), "3k_general_water");
                                     xyy_character_close_agent("hlyjci");
                                     cm:modify_character(character):reset_skills();
@@ -1199,7 +1226,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                     incident:add_faction_target("target_faction_1", player_own_modify_faction:query_faction());
                                     incident:trigger(player_own_modify_faction, true);
                                 elseif index[i] == "hlyjck" then
-                                    character_list_remove("hlyjck")
+                                    remove_character_from_pool("hlyjck")
                                     local character = xyy_character_add("hlyjck", player_own_modify_faction:query_faction():name(), "3k_general_metal");
                                     xyy_character_close_agent("hlyjck");
                                     cm:modify_character(character):reset_skills();
@@ -1208,7 +1235,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                     incident:add_faction_target("target_faction_1", player_own_modify_faction:query_faction());
                                     incident:trigger(player_own_modify_faction, true);
                                 elseif index[i] == "hlyjcl" then
-                                    character_list_remove("hlyjcl")
+                                    remove_character_from_pool("hlyjcl")
                                     local character = xyy_character_add("hlyjcl", player_own_modify_faction:query_faction():name(), "3k_general_fire");
                                     xyy_character_close_agent("hlyjcl");
                                     cm:modify_character(character):reset_skills();
@@ -1222,7 +1249,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                         cm:modify_character(furina):apply_relationship_trigger_set(character, "3k_dlc05_relationship_trigger_set_startpos_romance");
                                     end
                                 elseif index[i] == "hlyjcm" then
-                                    character_list_remove("hlyjcm")
+                                    remove_character_from_pool("hlyjcm")
                                     local character = xyy_character_add("hlyjcm", player_own_modify_faction:query_faction():name(), "3k_general_fire");
                                     xyy_character_close_agent("hlyjcm");
                                     cm:modify_character(character):reset_skills();
@@ -1231,7 +1258,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                     incident:add_faction_target("target_faction_1", player_own_modify_faction:query_faction());
                                     incident:trigger(player_own_modify_faction, true);
                                 elseif index[i] == "hlyjcn" then
-                                    character_list_remove("hlyjcn")
+                                    remove_character_from_pool("hlyjcn")
                                     local character = xyy_character_add("hlyjcn", player_own_modify_faction:query_faction():name(), "3k_general_metal");
                                     xyy_character_close_agent("hlyjcn");
                                     cm:modify_character(character):reset_skills();
@@ -1240,7 +1267,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                     incident:add_faction_target("target_faction_1", player_own_modify_faction:query_faction());
                                     incident:trigger(player_own_modify_faction, true);
                                 elseif index[i] == "hlyjcq" then
-                                    character_list_remove("hlyjcq")
+                                    remove_character_from_pool("hlyjcq")
                                     local character = xyy_character_add("hlyjcq", player_own_modify_faction:query_faction():name(), "3k_general_fire");
                                     xyy_character_close_agent("hlyjcq");
                                     cm:modify_character(character):reset_skills();
@@ -1249,7 +1276,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                     incident:add_faction_target("target_faction_1", player_own_modify_faction:query_faction());
                                     incident:trigger(player_own_modify_faction, true);
                                 elseif index[i] == "hlyjcr" then
-                                    character_list_remove("hlyjcr")
+                                    remove_character_from_pool("hlyjcr")
                                     local character = xyy_character_add("hlyjcr", player_own_modify_faction:query_faction():name(), "3k_general_water");
                                     xyy_character_close_agent("hlyjcr");
                                     cm:modify_character(character):reset_skills();
@@ -1258,7 +1285,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                     incident:add_faction_target("target_faction_1", player_own_modify_faction:query_faction());
                                     incident:trigger(player_own_modify_faction, true);
                                 elseif index[i] == "hlyjcs" then
-                                    character_list_remove("hlyjcs")
+                                    remove_character_from_pool("hlyjcs")
                                     local character = xyy_character_add("hlyjcs", player_own_modify_faction:query_faction():name(), "3k_general_wood");
                                     xyy_character_close_agent("hlyjcs");
                                     cm:modify_character(character):reset_skills();
@@ -1419,7 +1446,7 @@ local function togglePanelVisible()
         ModLog( creaded_pannel )
         return;
     end
-    if not cm:get_saved_value("character_list") then 
+    if not cm:get_saved_value("xyy_character_lottery_pool") then 
         effect.advice(effect.get_localised_string("mod_xyy_store_unavailable"));
         return;
     end
@@ -1605,7 +1632,7 @@ local function createHomeStoreButton()
         --“点击函数”
         function(context)
             local player_faction = cm:query_local_faction();--玩家的势力
-            local query_faction = cm:query_faction(player_faction:name());
+            -- local query_faction = cm:query_faction(player_faction:name());
             togglePanelVisible()
         end,
         true
@@ -1651,14 +1678,6 @@ end
 
 
 
-
-
-
-
-
-
-
-
 		--==============================================================================--
 							 -- Main Entry function 初始化--
 		--==============================================================================--
@@ -1691,69 +1710,59 @@ core:add_listener(
         local player_query_faction = cm:query_local_faction();--玩家的势力
         
         if player_query_faction then
-            local char_names = {
-                ['hlyjch'] = "钟离",
-                ['hlyjci'] = "甘雨",
-                ['hlyjcj'] = "卡芙卡",
-                ['hlyjck'] = "镜流",
-                ['hlyjcl'] = "那维莱特",
-                ['hlyjcm'] = "雷电将军",
-                ['hlyjcn'] = "刻晴",
-                ['hlyjco'] = "芙宁娜",
-                ['hlyjcp'] = "符玄",
-                ['hlyjcq'] = "安柏",
-                ['hlyjcr'] = "丽莎",
-                ['hlyjcs'] = "妮露",
-            };
             
             if cm:get_saved_value("guaranteed") then
                 guaranteed = cm:get_saved_value("guaranteed");
-                ModLog( "读取保底抽数:" .. (50 - guaranteed));
+                ModLog( "读取已用保底抽数:" .. guaranteed);
             end
             
             if cm:get_saved_value("character_browser_list") then
                 character_browser_list = cm:get_saved_value("character_browser_list");
                 ModLog("随机武将列表：");
                 for k,v in ipairs(character_browser_list) do
-                    ModLog(k ..": " .. char_names[v]);
+                    ModLog(k ..": " .. character_detils[v]['name']);
                 end
             else 
                 cm:set_saved_value("character_browser_list", character_browser_list);
             end
             
-            if cm:get_saved_value("character_list") then 
-                character_list = cm:get_saved_value("character_list");
+            if cm:get_saved_value("xyy_character_lottery_pool") then 
+                get_xyy_character_lottery_pool()
                 ModLog("抽奖池列表：");
-                for k,v in ipairs(character_list) do
-                    ModLog(k ..": " .. char_names[v]);
+                for k,v in ipairs(xyy_character_lottery_pool) do
+                    ModLog(k ..": " .. character_detils[v]['name']);
                 end
-                for k,v in pairs(char_names) do
+                for k,v in pairs(character_detils) do
                     local query_character = cm:query_model():character_for_template(k);
                     ModLog( "=============================" );
-                    if not is_character_list_have(k) then
+
+                    if not in_xyy_character_pool(k) then
                         if not query_character
                         or query_character:is_null_interface()
-                        and not is_character_browser_list_have(k) 
+                        and not in_xyy_character_browser_list(k) 
                         then
-                            ModLog( v .. "不存在世界上，将添加进随机派系");
+                            ModLog( v['name'] .. "不存在世界上，将添加进随机派系");
                             table.insert(character_browser_list, k);
                         end
+
                     elseif query_character 
                     and not query_character:is_null_interface() 
                     and not query_character:is_dead() 
-		    then
-                        ModLog( v .. "在" .. query_character:faction():name() .. "派系");
+		            then
+                        ModLog( v['name'] .. "在" .. query_character:faction():name() .. "派系");
+
                     	if query_character:faction():is_human() 
                     	and not query_character:faction():is_character_is_faction_recruitment_pool()
-                   	then
-                            ModLog( v .. "在玩家派系且不在武将招募池");
-			end
-                        character_list_remove(k);
+                   	    then
+                            ModLog( v['name'] .. "在玩家派系且不在武将招募池");
+			            end
+
+                        remove_character_from_pool(k);
                         character_browser_list_remove(k);
-		    end
+		            end
                 end
                 ModLog( "=============================" );
-                cm:set_saved_value("character_list", character_list);
+                cm:set_saved_value("xyy_character_lottery_pool", xyy_character_lottery_pool);
                 cm:set_saved_value("character_browser_list", character_browser_list);
             end
             ModLog( "FirstTickAfterWorldCreated 成功,playerstore_byhy.lua 获得玩家派系的 modify_faction ");
@@ -1789,10 +1798,10 @@ core:add_ui_created_callback( function( context ) createUI() end )
 
 
 local function add_character_button(parent, slot_icon_size, slot_icon, slot_label, character_key)
-    local bt_name = UI_MOD_NAME .. "_character_panel_" .. character_key;
+    local bt_name = UI_MOD_NAME .. "_xyy_select_character_panel_" .. character_key;
     local btn_listener_name = bt_name .. "_click_up"
     local bt = core:get_or_create_component(bt_name, "ui/templates/3k_btn_large")
-    local character = cm:query_model():character_for_template(character_key);
+    -- local character = cm:query_model():character_for_template(character_key);
     parent:Adopt(bt:Address())
     bt:PropagatePriority(parent:Priority())
     UIComponent_resize(bt, slot_icon_size, slot_icon_size, true)
@@ -1807,7 +1816,7 @@ local function add_character_button(parent, slot_icon_size, slot_icon, slot_labe
             return bt == UIComponent(context.component)
         end,
         function(context)
-            if #character_list < 7 then
+            if #xyy_character_lottery_pool < 7 then
                 --隐藏商店面板
                 if(parent ~= nil) then
                 parent:SetVisible(false) 
@@ -1823,7 +1832,7 @@ local function add_character_button(parent, slot_icon_size, slot_icon, slot_labe
                 UIComponent_destroy(parent)
                 parent = nil
                 
-                table.insert(character_list, character_key)
+                table.insert(xyy_character_lottery_pool, character_key)
                 
                 
                 for i, v in ipairs(character_browser_list) do
@@ -1844,8 +1853,8 @@ local function add_character_button(parent, slot_icon_size, slot_icon, slot_labe
     return bt;
 end
 
-local function add_character_list(parent, slot_icon_size, slot_icon, slot_label, character_key, lock, can_remove)
-    local bt_name = UI_MOD_NAME .. "_character_panel_" .. character_key;
+local function add_character_pool(parent, slot_icon_size, slot_icon, slot_label, character_key, lock, can_remove)
+    local bt_name = UI_MOD_NAME .. "_xyy_select_character_panel_" .. character_key;
     local btn_listener_name = bt_name .. "_click_up"
     local bt
     if lock then
@@ -1853,7 +1862,7 @@ local function add_character_list(parent, slot_icon_size, slot_icon, slot_label,
     else
         bt = core:get_or_create_component(bt_name, "ui/templates/3k_btn_large")
     end
-    local character = cm:query_model():character_for_template(character_key);
+    -- local character = cm:query_model():character_for_template(character_key);
     parent:Adopt(bt:Address())
     bt:PropagatePriority(parent:Priority())
     UIComponent_resize(bt, slot_icon_size, slot_icon_size, true)
@@ -1883,9 +1892,9 @@ local function add_character_list(parent, slot_icon_size, slot_icon, slot_label,
                 UIComponent_destroy(parent)
                 parent = nil
                 
-                for i, v in ipairs(character_list) do
+                for i, v in ipairs(xyy_character_lottery_pool) do
                     if v == character_key then
-                        table.remove(character_list, i)
+                        table.remove(xyy_character_lottery_pool, i)
                         break
                     end
                 end
@@ -1903,10 +1912,10 @@ local function add_character_list(parent, slot_icon_size, slot_icon, slot_label,
 end
 
 local function add_confirm_button(parent, x, y)
-    local bt_name = UI_MOD_NAME .. "_character_panel_confirm";
+    local bt_name = UI_MOD_NAME .. "_xyy_select_character_panel_confirm";
     local btn_listener_name = bt_name .. "_click_up"
     local bt = core:get_or_create_component(bt_name, "ui/templates/square_large_text_button")
-    local character = cm:query_model():character_for_template(character_key);
+    -- local character = cm:query_model():character_for_template(character_key);
     parent:Adopt(bt:Address())
     bt:PropagatePriority(parent:Priority())
     UIComponent_resize(bt, x, y, true)
@@ -1917,7 +1926,7 @@ local function add_confirm_button(parent, x, y)
             return bt == UIComponent(context.component)
         end,
         function(context)
-            if #character_list == 7 then
+            if #xyy_character_lottery_pool == 7 then
                 --隐藏商店面板
                 if(parent ~= nil) then
                 parent:SetVisible(false) 
@@ -1934,7 +1943,7 @@ local function add_confirm_button(parent, x, y)
                 parent = nil
                 
                 cm:wait_for_model_sp(function()
-                    cm:set_saved_value("character_list", character_list)
+                    cm:set_saved_value("xyy_character_lottery_pool", xyy_character_lottery_pool)
                     cm:set_saved_value("character_browser_list", character_browser_list)
                 end)
                 static_id = static_id + 1
@@ -1998,107 +2007,51 @@ core:add_listener(
             return;
         end
         ModLog(v.."加入了"..context:faction():name())
-        if v == "hlyjch" then
-            local hlyjch = cm:query_model():character_for_template("hlyjch")
-            if not hlyjch or hlyjch:is_null_interface() then
-                hlyjch = xyy_character_add("hlyjch", context:faction():name(), "3k_general_earth");
-                cm:modify_character(hlyjch):add_experience(88000,0);
+
+        local function xyy_character_official(character_id, character_detil)
+            -- 如果角色是卡芙卡，直接跳出
+            if character_id == 'hlyjcj' then
+                ModLog('角色出仕：跳过 卡芙卡')
+                return;
             end
-        end
-        if v == "hlyjci" then
-            local hlyjci = cm:query_model():character_for_template("hlyjci")
-            if not hlyjci or hlyjci:is_null_interface() then
-                hlyjci = xyy_character_add("hlyjci", context:faction():name(),  "3k_general_water");
-                cm:modify_character(hlyjci):add_experience(88000,0);
-            end
-        end
-        if v == "hlyjck" then
-            local hlyjck = cm:query_model():character_for_template("hlyjck")
-            if not hlyjck or hlyjck:is_null_interface() then
-                hlyjck = xyy_character_add("hlyjck", context:faction():name(),  "3k_general_metal");
-                cm:modify_character(hlyjck):add_experience(88000,0);
-            end
-        end
-        if v == "hlyjcl" then
-            local hlyjcl = cm:query_model():character_for_template("hlyjcl")
-            if not hlyjcl or hlyjcl:is_null_interface() then
-                hlyjcl = xyy_character_add("hlyjcl", context:faction():name(),  "3k_general_fire");
-                --设置和芙宁娜的关系
-                local furina = cm:query_model():character_for_template("hlyjco");
-                if furina and not furina:is_null_interface() then
-                    cm:modify_character(furina):apply_relationship_trigger_set(hlyjcl, "3k_dlc05_relationship_trigger_set_startpos_romance");
+            local character = cm:query_model():character_for_template(character_id)
+            if not character or character:is_null_interface() then
+                character = xyy_character_add(character_id, context:faction():name(), character_detil['subtype']);
+                -- 角色特殊处理阶段
+                -- 如果角色是那维莱特，设置和芙宁娜的关系
+                if character_id == "hlyjcl" then
+                    local furina = cm:query_model():character_for_template("hlyjco");
+                    if furina and not furina:is_null_interface() then
+                        cm:modify_character(furina):apply_relationship_trigger_set(character, "3k_dlc05_relationship_trigger_set_startpos_romance");
+                    end
+                -- 如果角色是芙宁娜，设置和那维莱特的关系
+                elseif character_id == "hlyjco" then
+                    local neuvillette = cm:query_model():character_for_template("hlyjcl");
+                    if neuvillette and not neuvillette:is_null_interface() then
+                        cm:modify_character(neuvillette):apply_relationship_trigger_set(character, "3k_dlc05_relationship_trigger_set_startpos_romance");
+                    end
                 end
-                cm:modify_character(hlyjcl):add_experience(88000,0);
+                cm:modify_character(character):add_experience(88000,0);
             end
         end
-        if v == "hlyjcm" then
-            local hlyjcm = cm:query_model():character_for_template("hlyjcm")
-            if not hlyjcm or hlyjcm:is_null_interface() then
-                hlyjcm = xyy_character_add("hlyjcm", context:faction():name(),  "3k_general_fire");
-                cm:modify_character(hlyjcm):add_experience(88000,0);
-            end
-        end
-        if v == "hlyjcn" then
-            local hlyjcn = cm:query_model():character_for_template("hlyjcn")
-            if not hlyjcn or hlyjcn:is_null_interface() then
-                hlyjcn = xyy_character_add("hlyjcn", context:faction():name(),  "3k_general_metal");
-                cm:modify_character(hlyjcn):add_experience(88000,0);
-            end
-        end
-        if v == "hlyjco" then
-            local hlyjco = cm:query_model():character_for_template("hlyjco")
-            if not hlyjco or hlyjco:is_null_interface() then
-                hlyjco = xyy_character_add("hlyjco", context:faction():name(),  "3k_general_water");
-                --设置和那维莱特的关系
-                local neuvillette = cm:query_model():character_for_template("hlyjcl");
-                if neuvillette and not neuvillette:is_null_interface() then
-                    cm:modify_character(hlyjco):apply_relationship_trigger_set(neuvillette, "3k_dlc05_relationship_trigger_set_startpos_romance");
-                end
-                cm:modify_character(hlyjco):add_experience(88000,0);
-            end
-        end
-        if v == "hlyjcp" then
-            local hlyjcp = cm:query_model():character_for_template("hlyjcp")
-            if not hlyjcp or hlyjcp:is_null_interface() then
-                hlyjcp = xyy_character_add("hlyjcp", context:faction():name(),  "3k_general_earth");
-                cm:modify_character(hlyjcp):add_experience(88000,0);
-            end
-        end
-        if v == "hlyjcq" then
-            local hlyjcq = cm:query_model():character_for_template("hlyjcq")
-            if not hlyjcq or hlyjcq:is_null_interface() then
-                hlyjcq = xyy_character_add("hlyjcq", context:faction():name(),  "3k_general_fire");
-                cm:modify_character(hlyjcq):add_experience(88000,0);
-            end
-        end
-        if v == "hlyjcr" then
-            local hlyjcr = cm:query_model():character_for_template("hlyjcr")
-            if not hlyjcr or hlyjcr:is_null_interface() then
-                hlyjcr = xyy_character_add("hlyjcr", context:faction():name(),  "3k_general_water");
-                cm:modify_character(hlyjcr):add_experience(88000,0);
-            end
-        end
-        if v == "hlyjcs" then
-            local hlyjcs = cm:query_model():character_for_template("hlyjcs")
-            if not hlyjcs or hlyjcs:is_null_interface() then
-                hlyjcs = xyy_character_add("hlyjcs", context:faction():name(),  "3k_general_wood");
-                cm:modify_character(hlyjcs):add_experience(88000,0);
-            end
+
+        for k, v in ipairs(character_detils) do
+            xyy_character_official(k,v)
         end
     end,
     true
 )
 
 function character_browser()
-    if not cm:get_saved_value("character_list") then
-        if not character_list or character_list == {} then
-            character_list = {}
+    if not cm:get_saved_value("xyy_character_lottery_pool") then
+        if not xyy_character_lottery_pool or xyy_character_lottery_pool == {} then
+            xyy_character_lottery_pool = {}
             -- 商店里默认的3个up角色 分别是 卡夫卡：hlyjcj  芙宁娜：hlyjco  符玄：hlyjcp
-            table.insert(character_list, "hlyjcj");
-            table.insert(character_list, "hlyjco");
-            table.insert(character_list, "hlyjcp");
+            table.insert(xyy_character_lottery_pool, "hlyjcj");
+            table.insert(xyy_character_lottery_pool, "hlyjco");
+            table.insert(xyy_character_lottery_pool, "hlyjcp");
             
-            for i, v in ipairs(character_list) do
+            for i, v in ipairs(xyy_character_lottery_pool) do
                 character_browser_list_remove(v)
             end
         end
@@ -2108,70 +2061,58 @@ function character_browser()
 
     -- 选择up角色的槽位
     local ui_root = core:get_ui_root()
-    local ui_panel_name = UI_MOD_NAME .. "_character_panel" .. static_id;
-    character_panel = core:get_or_create_component( ui_panel_name, "ui/xyy/character_browser_1") --date.pack中自带的panel_frame.twui.xml布局文件
-    ui_root:Adopt( character_panel:Address() )
-    character_panel:PropagatePriority(ui_root:Priority())
+    local ui_panel_name = UI_MOD_NAME .. "_xyy_select_character_panel" .. static_id;
+    xyy_select_character_panel = core:get_or_create_component( ui_panel_name, "ui/xyy/character_browser_1") --date.pack中自带的panel_frame.twui.xml布局文件
+    ui_root:Adopt( xyy_select_character_panel:Address() )
+    xyy_select_character_panel:PropagatePriority(ui_root:Priority())
     
     local xoffset = 160;
     local yoffset = 220;
     
-    local slot1 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/".. character_list[1] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_list[1]), character_list[1], true, false)
-    UIComponent_move_relative(slot1, character_panel, xoffset+180*1, yoffset, false)
-    
-    local slot2 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/".. character_list[2] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_list[2]), character_list[2], true, false)
-    UIComponent_move_relative(slot2, character_panel, xoffset+180*2, yoffset, false)
-    
-    local slot3 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/".. character_list[3] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_list[3]), character_list[3], true, false)
-    UIComponent_move_relative(slot3, character_panel, xoffset+180*3, yoffset, false)
-    
-    if character_list[4] then
-        local slot4 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/".. character_list[4] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_list[4]), character_list[4], false, true)
-        UIComponent_move_relative(slot4, character_panel, xoffset+180*4, yoffset, false)
-    else
-        local slot4 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/placeholder.png", effect.get_localised_string("mod_xyy_character_browser_unknown"), "unknown", false, false)
-        UIComponent_move_relative(slot4, character_panel, xoffset+180*4, yoffset, false)
+    -- 设置角色抽取池的永久up角色
+    function set_permanent_slot(index)
+        local slot = add_character_pool(xyy_select_character_panel, 160, "ui/skins/default/character_browser/".. xyy_character_lottery_pool[index] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. xyy_character_lottery_pool[index]), xyy_character_lottery_pool[index], true, false)
+        return slot
     end
-    
-    if character_list[5] then
-        local slot5 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/".. character_list[5] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_list[5]), character_list[5], false, true)
-        UIComponent_move_relative(slot5, character_panel, xoffset+180*5, yoffset, false)
-    else
-        local slot5 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/placeholder.png", effect.get_localised_string("mod_xyy_character_browser_unknown"), "unknown", false, false)
-        UIComponent_move_relative(slot5, character_panel, xoffset+180*5, yoffset, false)
+
+    -- 设置角色抽取池的本期up角色
+    function set_changeable_slot(index)
+        if xyy_character_lottery_pool[index] then
+            local slot = add_character_pool(xyy_select_character_panel, 160, "ui/skins/default/character_browser/".. xyy_character_lottery_pool[index] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. xyy_character_lottery_pool[index]), xyy_character_lottery_pool[index], false, true)
+        else
+            local slot = add_character_pool(xyy_select_character_panel, 160, "ui/skins/default/character_browser/placeholder.png", effect.get_localised_string("mod_xyy_character_browser_unknown"), "unknown", false, false)
+        end
+        return slot
     end
-    
-    if character_list[6] then
-        local slot6 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/".. character_list[6] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_list[6]), character_list[6], false, true)
-        UIComponent_move_relative(slot6, character_panel, xoffset+180*6, yoffset, false)
-    else
-        local slot6 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/placeholder.png", effect.get_localised_string("mod_xyy_character_browser_unknown"), "unknown", false, false)
-        UIComponent_move_relative(slot6, character_panel, xoffset+180*6, yoffset, false)
-    end
-    
-    if character_list[7] then
-        local slot7 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/".. character_list[7] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_list[7]), character_list[7], false, true)
-        UIComponent_move_relative(slot7, character_panel, xoffset+180*7, yoffset, false)
-    else
-        local slot7 = add_character_list(character_panel, 160, "ui/skins/default/character_browser/placeholder.png", effect.get_localised_string("mod_xyy_character_browser_unknown"), "unknown", false, false)
-        UIComponent_move_relative(slot7, character_panel, xoffset+180*7, yoffset, false)
+
+    -- 创建槽位 
+    local slot_list = {}
+    for i = 1,7 do
+        if i >= 3 then
+            slot_list[i] = set_permanent_slot(i)
+            UIComponent_move_relative(slot_list[i], xyy_select_character_panel, xoffset+180*i, yoffset, false)
+        else 
+            slot_list[i] = set_changeable_slot(i)
+            UIComponent_move_relative(slot_list[i], xyy_select_character_panel, xoffset+180*i, yoffset, false)
+        end
     end
 
     for i=1,#character_browser_list do
         local x = 310+120*((i-1)%11)
         local y = 450+120*math.floor((i-1)/11)
         ModLog(x..","..y);
-        local slot = add_character_button(character_panel, 100, "ui/skins/default/character_browser/".. character_browser_list[i] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_browser_list[i]), character_browser_list[i])
-        UIComponent_move_relative(slot, character_panel, x, y, false)
+        local slot = add_character_button(xyy_select_character_panel, 100, "ui/skins/default/character_browser/".. character_browser_list[i] ..".png", effect.get_localised_string("mod_xyy_character_browser_".. character_browser_list[i]), character_browser_list[i])
+        UIComponent_move_relative(slot, xyy_select_character_panel, x, y, false)
     end
     
-    local confirm_button =  add_confirm_button(character_panel, 800, 50)
-    UIComponent_move_relative(confirm_button, character_panel, 560, 720, false)
+    -- 确认选择按钮
+    local confirm_button =  add_confirm_button(xyy_select_character_panel, 800, 50)
+    UIComponent_move_relative(confirm_button, xyy_select_character_panel, 560, 720, false)
     
     confirm_button:SetState( "down" )
     find_uicomponent(confirm_button, "button_txt"):SetStateText(effect.get_localised_string("mod_xyy_character_browser_confirm"))
     
-    if #character_list == 7 then
+    if #xyy_character_lottery_pool == 7 then
         confirm_button:SetState( "active" )
         find_uicomponent(confirm_button, "button_txt"):SetStateText(effect.get_localised_string("mod_xyy_character_browser_confirm"))
     else
@@ -2179,9 +2120,10 @@ function character_browser()
         find_uicomponent(confirm_button, "button_txt"):SetStateText(effect.get_localised_string("mod_xyy_character_browser_confirm"))
     end
     
-    character_panel:SetVisible(true) 
+    xyy_select_character_panel:SetVisible(true) 
 end
 
+-- 超强老婆！ 点击即送！
 cm:add_first_tick_callback(
 function()
     core:add_listener(
