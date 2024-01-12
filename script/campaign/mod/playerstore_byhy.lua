@@ -104,7 +104,9 @@ local guaranteed = 50;
 
 local xyy_character_lottery_pool;
 
-local character_detils = { 
+local xxy_character_up_pool = {'hlyjcj', 'hlyjco', 'hlyjcp'};
+
+local all_character_detils = { 
     ['hlyjch'] = {['name']="钟离", ['subtype']='3k_general_earth'},
     ['hlyjci'] = {['name']="甘雨", ['subtype']='3k_general_water'},
     ['hlyjcj'] = {['name']="卡芙卡", ['subtype']='3k_general_fire'},
@@ -956,12 +958,11 @@ local function character_browser_list_remove(key)
     end
 end
 
-function in_xyy_character_pool(value)
+local function in_xyy_character_pool(value)
     if not xyy_character_lottery_pool then
         get_xyy_character_lottery_pool()
     end
-
-    for k,v in ipairs(xyy_character_lottery_pool) do
+    for k, v in ipairs(xyy_character_lottery_pool) do
         if v == value then
             return true;
         end
@@ -969,12 +970,12 @@ function in_xyy_character_pool(value)
     return false;
 end
 
-function in_xyy_character_browser_list(value)
+local function in_xyy_character_browser_list(value)
     if not character_browser_list then
         character_browser_list = cm:get_saved_value("character_browser_list")
     end
 
-    for k,v in ipairs(character_browser_list) do
+    for k, v in ipairs(character_browser_list) do
         if v == value then
             return true;
         end
@@ -1149,6 +1150,9 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                             
                             index = {};
                             
+                            -- TODO: 建一个池子  这个池子里有两个up 加卡芙卡  
+                            -- 在抽中角色的时候  如果池子有角色 就再走一次1-1000的随机数 大于500 卡芙卡 1-250 up角色1  251-499  up角色2
+                            -- 这个up池空了之后  剩下的4个角色 xxy_character_up_pool
                             if in_xyy_character_pool("hlyjcj") then
                                 table.insert(index, "hlyjcj");
                                 table.insert(index, "hlyjcj");
@@ -1719,8 +1723,8 @@ core:add_listener(
             if cm:get_saved_value("character_browser_list") then
                 character_browser_list = cm:get_saved_value("character_browser_list");
                 ModLog("随机武将列表：");
-                for k,v in ipairs(character_browser_list) do
-                    ModLog(k ..": " .. character_detils[v]['name']);
+                for k, v in ipairs(character_browser_list) do
+                    ModLog(k ..": " .. all_character_detils[v]['name']);
                 end
             else 
                 cm:set_saved_value("character_browser_list", character_browser_list);
@@ -1729,36 +1733,36 @@ core:add_listener(
             if cm:get_saved_value("xyy_character_lottery_pool") then 
                 get_xyy_character_lottery_pool()
                 ModLog("抽奖池列表：");
-                for k,v in ipairs(xyy_character_lottery_pool) do
-                    ModLog(k ..": " .. character_detils[v]['name']);
+                for k, v in ipairs(xyy_character_lottery_pool) do
+                    ModLog(k ..": " .. all_character_detils[v]['name']);
                 end
-                for k,v in pairs(character_detils) do
-                    local query_character = cm:query_model():character_for_template(k);
+                for char_id, char_info in pairs(all_character_detils) do
+                    local query_character = cm:query_model():character_for_template(char_id);
                     ModLog( "=============================" );
 
-                    if not in_xyy_character_pool(k) then
+                    if not in_xyy_character_pool(char_id) then
                         if not query_character
                         or query_character:is_null_interface()
-                        and not in_xyy_character_browser_list(k) 
+                        and not in_xyy_character_browser_list(char_id) 
                         then
-                            ModLog( v['name'] .. "不存在世界上，将添加进随机派系");
-                            table.insert(character_browser_list, k);
+                            ModLog( char_info['name'] .. "不存在世界上，将添加进随机派系");
+                            table.insert(character_browser_list, char_id);
                         end
 
                     elseif query_character 
                     and not query_character:is_null_interface() 
                     and not query_character:is_dead() 
 		            then
-                        ModLog( v['name'] .. "在" .. query_character:faction():name() .. "派系");
+                        ModLog( char_info['name'] .. "在" .. query_character:faction():name() .. "派系");
 
                     	if query_character:faction():is_human() 
                     	and not query_character:faction():is_character_is_faction_recruitment_pool()
                    	    then
-                            ModLog( v['name'] .. "在玩家派系且不在武将招募池");
+                            ModLog( char_info['name'] .. "在玩家派系且不在武将招募池");
 			            end
 
-                        remove_character_from_pool(k);
-                        character_browser_list_remove(k);
+                        remove_character_from_pool(char_id);
+                        character_browser_list_remove(char_id);
 		            end
                 end
                 ModLog( "=============================" );
@@ -1955,6 +1959,7 @@ local function add_confirm_button(parent, x, y)
     return bt;
 end
 
+-- 角色入仕
 core:add_listener(
     "character_join_event",
     "FactionTurnStart",
@@ -1998,25 +2003,30 @@ core:add_listener(
         if random > 10 then
             return;
         end
-        i = cm:random_int(#character_browser_list, i)
-        v = character_browser_list[i]
-        character_browser_list_remove(v);
+        -- 从待入仕角色中随机选一个
+        local character_id = character_browser_list[cm:random_int(#character_browser_list, i)]
+        character_browser_list_remove(character_id);
         cm:set_saved_value("character_browser_list", character_browser_list)
-        local character = cm:query_model():character_for_template(v)
+        local character = cm:query_model():character_for_template(character_id)
+        -- 如果角色已经入仕则取消
         if character and not character:is_null_interface() and character:faction():is_human() then
             return;
         end
-        ModLog(v.."加入了"..context:faction():name())
 
+        ModLog(all_character_detils[character_id]['name'].."加入了"..context:faction():name())
+
+        -- 角色入仕的方法
         local function xyy_character_official(character_id, character_detil)
-            -- 如果角色是卡芙卡，直接跳出
+            -- 如果角色是卡芙卡，直接取消
             if character_id == 'hlyjcj' then
-                ModLog('角色出仕：跳过 卡芙卡')
+                ModLog('角色入仕：跳过 卡芙卡')
                 return;
             end
+            -- 角色开始入仕
             local character = cm:query_model():character_for_template(character_id)
             if not character or character:is_null_interface() then
                 character = xyy_character_add(character_id, context:faction():name(), character_detil['subtype']);
+                ModLog('刚刚' .. all_character_detils[character_id]['name'] .. "加入" .. context:faction():name())
                 -- 角色特殊处理阶段
                 -- 如果角色是那维莱特，设置和芙宁娜的关系
                 if character_id == "hlyjcl" then
@@ -2035,8 +2045,10 @@ core:add_listener(
             end
         end
 
-        for k, v in ipairs(character_detils) do
-            xyy_character_official(k,v)
+        for char_id, char_info in pairs(all_character_detils) do
+            if character_id == char_id then
+                xyy_character_official(char_id, char_info)
+            end
         end
     end,
     true
