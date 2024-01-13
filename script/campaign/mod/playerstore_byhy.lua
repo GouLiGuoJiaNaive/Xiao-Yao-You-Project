@@ -1110,11 +1110,13 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                         
 
                         -- ModLog("generate " .. random)
-                        -- while random == last_random do
-                        --     random = getRandomValue(min,1000) 
-                        --     ModLog("重新生成随机数  " .. random)
-                        --     -- ModLog("generate " .. random)
-                        -- end
+                         local i = 1
+                         while random == last_random and random < 1000 and i < 9 do
+                             random = getRandomValue(min,1000)
+                             i = i + 1
+                             ModLog("重新生成随机数  " .. random)
+                             -- ModLog("generate " .. random)
+                         end
 
                         ModLog("random = " .. random .. "  min = " .. min)
                         if random <= 80 then
@@ -1185,8 +1187,8 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                 
                                 local t_random = getRandomValue(1,1000)
 
-                                while t_random == 502 do 
-                                    local t_random = getRandomValue(1,1000)
+                                if t_random == 502 then
+                                    local t_random = getRandomValue(1,500) + getRandomValue(1,500)
                                     -- ModLog("502 重抽")
                                 end
 
