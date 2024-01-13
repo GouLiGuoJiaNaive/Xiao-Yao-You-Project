@@ -1741,16 +1741,16 @@ core:add_listener(
                     elseif query_character 
                     and not query_character:is_null_interface() 
                     and not query_character:is_dead() 
-		    then
+                    then
                         ModLog( v .. "在" .. query_character:faction():name() .. "派系");
-                    	if query_character:faction():is_human() 
-                    	and not query_character:faction():is_character_is_faction_recruitment_pool()
-                   	then
+                    if query_character:faction():is_human() 
+                    and not query_character:is_character_is_faction_recruitment_pool()
+                    then
                             ModLog( v .. "在玩家派系且不在武将招募池");
-			end
+                    end
                         character_list_remove(k);
                         character_browser_list_remove(k);
-		    end
+                    end
                 end
                 ModLog( "=============================" );
                 cm:set_saved_value("character_list", character_list);
@@ -2213,3 +2213,7 @@ function()
     );
     end
 );
+
+function get_locale()
+    return locale;
+end
