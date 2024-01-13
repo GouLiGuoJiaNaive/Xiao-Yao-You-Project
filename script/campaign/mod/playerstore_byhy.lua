@@ -1673,7 +1673,7 @@ core:add_listener(
                 ModLog('character_browser_list 写入存档'..#character_browser_list)
                 cm:set_saved_value("character_browser_list", character_browser_list);
             end
-            
+
             get_xyy_character_lottery_pool()
             ModLog("抽奖池列表：");
             for k, v in pairs(xyy_character_lottery_pool) do
@@ -2168,4 +2168,8 @@ function()
         true
     );
     end
+
 );
+function get_locale()
+    return locale;
+end
