@@ -1086,7 +1086,8 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                 --cost_money = -1;
                 if player_faction:treasury() >= cost_money or ticket_points > 0 then
                     if btn_name == UI_MOD_NAME .. "_store_buy_btn16" then
-                        if #xyy_character_lottery_pool == 0 then
+                        ModLog("普池长度 ".. #xyy_character_lottery_pool)
+                        if #xyy_character_lottery_pool < 1 then
                             effect.advice(effect.get_localised_string("mod_xyy_store_main_message_sold_out"))
                             return true;
                         end
@@ -1173,7 +1174,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                     if char == "hlyjco" then
                                         local neuvillette = cm:query_model():character_for_template("hlyjcl");
                                         if neuvillette and not neuvillette:is_null_interface() then
-                                            cm:modify_character(character):apply_relationship_trigger_set(characterneuvillette, "3k_dlc05_relationship_trigger_set_startpos_romance");
+                                            cm:modify_character(character):apply_relationship_trigger_set(character, "3k_dlc05_relationship_trigger_set_startpos_romance");
                                         end
                                     elseif char == "hlyjcl" then
                                         local furina = cm:query_model():character_for_template("hlyjco");
@@ -1201,6 +1202,8 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                
                                 if #xyy_character_up_pool > 0 then
                                     -- ModLog('抽up池  '..t_random .. "  tl 长度".. #t_list)
+                                    -- 按照命中up池的轮次去解析
+                                    -- 如果池子里没有kafka 代表肯定抽中过  该条件命中必定为第二次或者第三次命中up池  随便出一个就行
                                     if not in_xyy_character_pool(xyy_character_up_pool, 'hlyjcj')   then
                                         -- ModLog('没有kafka  条件1')
                                         local t2 = getRandomValue(1, #t_list)
@@ -1209,6 +1212,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                         table.remove(t_list, t2)
                                         remove_character_from_pool(xyy_character_up_pool, char)
                                         add_character_to_player(char)
+                                    -- 如果池子里有kafka  随机大于500  池子有kafka就出kafka 该条件为获奖概率50%  可能出现在所有轮次
                                     elseif t_random > 500 then
                                         -- ModLog('大于500  是否有kafka')
                                         if in_xyy_character_pool(xyy_character_up_pool, 'hlyjcj') then
@@ -1216,7 +1220,7 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                             remove_character_from_pool(xyy_character_up_pool, 'hlyjcj')
                                             add_character_to_player('hlyjcj')
                                         else
-                                            -- ModLog('kafka不在池子里 随便来一个')
+                                            -- ModLog('kafka不在池子里 随便来一个  同条件一')
                                             local t2 = getRandomValue(1, #t_list)
                                             -- ModLog('t2   '..t2)
                                             local char = t_list[t2]
@@ -1224,10 +1228,12 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                             remove_character_from_pool(xyy_character_up_pool, char)
                                             add_character_to_player(char)
                                         end
+                                    -- 其他角色抽空了 必定是最后一次命中卡池
                                     elseif in_xyy_character_pool(xyy_character_up_pool, 'hlyjcj') and #t_list == 0 then
                                         -- ModLog('池子只有kafka')
                                         remove_character_from_pool(xyy_character_up_pool, 'hlyjcj')
                                         add_character_to_player('hlyjcj')
+                                    --  兜底随便出
                                     else
                                         -- ModLog('？？？？')
                                         local t2 = getRandomValue(1, #t_list)
@@ -1237,8 +1243,8 @@ local function create_bt_buyItem(parent, btn_name, btn_xml, cost_money, random_i
                                         add_character_to_player(char)
                                     end
                                 else
-                                    table.remove(xyy_character_lottery_pool, 1)
-                                    add_character_to_player(xyy_character_lottery_pool[1])
+                                    table.remove(xyy_character_lottery_pool, 0)
+                                    add_character_to_player(xyy_character_lottery_pool[0])
                                 end                     
                             end)
                             last_random = random;
