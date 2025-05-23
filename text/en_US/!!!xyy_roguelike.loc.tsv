@@ -1,475 +1,474 @@
-"location"	"source"	"target"
-"key"	"text"	""
-"#Loc;1;text/!!!xyy_roguelike.loc"	""	""
-"mod_xyy_roguelike_icon_earth"	"[[img:character_attribute_authority]][[/img]]"	""
-"mod_xyy_roguelike_description_earth"	"[[img:character_attribute_authority]][[/img]]每增加一点，派系范围士气+2，人物满意度+1"	""
-"mod_xyy_roguelike_icon_fire"	"[[img:character_attribute_instinct]][[/img]]"	""
-"mod_xyy_roguelike_description_fire"	"[[img:character_attribute_instinct]][[/img]]每增加一点，派系范围部队所有伤害+3%，部队维持费-1%"	""
-"mod_xyy_roguelike_icon_metal"	"[[img:character_attribute_expertise]][[/img]]"	""
-"mod_xyy_roguelike_description_metal"	"[[img:character_attribute_expertise]][[/img]]每增加一点，派系范围部队伤害抗性+1%，建筑维持费-2%"	""
-"mod_xyy_roguelike_icon_water"	"[[img:character_attribute_cunning]][[/img]]"	""
-"mod_xyy_roguelike_description_water"	"[[img:character_attribute_cunning]][[/img]]每增加一点，派系范围部队箭矢容量+2%，产值（所有来源）+1%"	""
-"mod_xyy_roguelike_icon_wood"	"[[img:character_attribute_resolve]][[/img]]"	""
-"mod_xyy_roguelike_description_wood"	"[[img:character_attribute_resolve]][[/img]]每增加一点，派系范围将领生命值+2%，人口增长+1000"	""
-"dilemmas_localised_title_roguelike_dilemma"	"是否开启「逐鹿天下」？"	""
-"dilemmas_localised_description_roguelike_dilemma"	"「逐鹿天下」模式将会随机分配地图，一旦启用，将会取消目前的所有任务，并且禁用卡芙卡剧情（卡芙卡会直接获得专属武器和坐骑）。\\n注意：该操作不可逆。根据您的硬件配置，重新生成地图可能需要几分钟的时间，请耐心等待。"	""
-"cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemmaFIRST"	"「逐鹿天下」"	""
-"cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemmaSECOND"	"正常模式"	""
-"dilemmas_localised_title_roguelike_dilemma_continue"	"继续「逐鹿天下」"	""
-"dilemmas_localised_description_roguelike_dilemma_continue"	"检测到未完成的武将选择或者赐福选择的存档，该存档可能已经损坏，点击继续将尝试修复"	""
-"cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemma_continueFIRST"	"继续"	""
-"uied_component_texts_localised_string_title_NewState_Text_2000005"	"[[col:flavour]]选择赐福[[/col]]"	""
-"uied_component_texts_localised_string_title_NewState_Text_2000006"	"[[col:flavour]]逐鹿商店[[/col]]"	""
-"mod_xyy_roguelike_info"	"鼠标悬停查看详细||"	""
-"effect_bundles_localised_title_xyy_roguelike_1"	"民心所向"	""
-"effect_bundles_localised_description_xyy_roguelike_1"	"你的领地被占领后，一年内若没有丢失新的领地，则强制收回该领地"	""
-"mod_info_xyy_roguelike_1"	"当你的领地被占领后，将「民心」标记至该领地，5回合后，你会重新获得「民心」所标记的领地；在此期间你若有另一个领地被占领，则刷新倒计时，将「民心」标记至新丢失的领地；你以其他手段控制领地后，清除「民心」标记；「民心」标记只能存在1个"	""
-"effect_bundles_localised_title_xyy_roguelike_2"	"败而不馁"	""
-"effect_bundles_localised_description_xyy_roguelike_2"	"当你打出一败涂地或悲惨失败，一定时间内增加派系内的满意度和部队补员"	""
-"mod_info_xyy_roguelike_2"	"当你战斗结果为 一败涂地 或 悲惨失败 ，派系范围内的补员增加25%，人物满意度增加50，持续5回合"	""
-"effect_bundles_localised_title_xyy_roguelike_3"	"胜者为王"	""
-"effect_bundles_localised_description_xyy_roguelike_3"	"当你打出酣畅大胜或史诗大捷，一定时间内派系范围获得不溃"	""
-"mod_info_xyy_roguelike_3"	"当你战斗结果为 酣畅大胜 或 史诗大捷 ，派系范围内获得不溃效果，持续5回合"	""
-"effect_bundles_localised_title_xyy_roguelike_4"	"天下归心"	""
-"effect_bundles_localised_description_xyy_roguelike_4"	"你更容易俘获敌方武将，且你的武将更难被敌人俘获"	""
-"mod_info_xyy_roguelike_4"	"派系范围所有武将避免被俘的概率增加50%，俘获敌方将领的概率增加25%"	""
-"effect_bundles_localised_title_xyy_roguelike_5"	"农业发达"	""
-"effect_bundles_localised_description_xyy_roguelike_5"	"你的粮食产量和农业产值增加"	""
-"mod_info_xyy_roguelike_5"	"派系范围内，所有领地粮食产量+5，农业产值+200%"	""
-"effect_bundles_localised_title_xyy_roguelike_6"	"商业发达"	""
-"effect_bundles_localised_description_xyy_roguelike_6"	"你可以签订更多贸易协议，贸易影响和商业产值均有增加"	""
-"mod_info_xyy_roguelike_6"	"派系范围内，可用贸易协议数量+2，商业产值+200%，贸易影响+500%"	""
-"effect_bundles_localised_title_xyy_roguelike_7"	"军工发达"	""
-"effect_bundles_localised_description_xyy_roguelike_7"	"你的部曲维持费降低，工业产值增加"	""
-"mod_info_xyy_roguelike_7"	"派系范围内，部曲维持费-50%，工业产值+200%"	""
-"effect_bundles_localised_title_xyy_roguelike_8"	"星神助我"	""
-"effect_bundles_localised_description_xyy_roguelike_8"	"你可以直接进行一次命途祈福，并且每年春季都可以祈福，若阮・梅存在，你的祈福获得明牌效果"	""
-"mod_info_xyy_roguelike_8"	"直接进行一次命途祈福，并且每年春季都可以祈福，若阮・梅存在，你的祈福获得明牌效果，你可以看见所有的牌面。"	""
-"effect_bundles_localised_title_xyy_roguelike_9"	"日益精进"	""
-"effect_bundles_localised_description_xyy_roguelike_9"	"武将可获得更多经验"	""
-"mod_info_xyy_roguelike_9"	"所有将领的人物经验增长+200%"	""
-"effect_bundles_localised_title_xyy_roguelike_10"	"屯田积粮"	""
-"effect_bundles_localised_description_xyy_roguelike_10"	"增加部队的补给，并且你不会再因为补给短缺而遭受损耗"	""
-"mod_info_xyy_roguelike_10"	"所有军队补给+30，并且免疫补给短缺造成的部队损耗"	""
-"effect_bundles_localised_title_xyy_roguelike_11"	"千锤百炼"	""
-"effect_bundles_localised_description_xyy_roguelike_11"	"增加部队的维持费，强化部队的进攻、防御等属性"	""
-"mod_info_xyy_roguelike_11"	"派系范围内，部曲维持费+30%，部队近战和远程杀伤+200%，近战闪避+50%"	""
-"effect_bundles_localised_title_xyy_roguelike_12"	"强制徭役"	""
-"effect_bundles_localised_description_xyy_roguelike_12"	"部曲征募费用降低，但增加部队集结时间"	""
-"mod_info_xyy_roguelike_12"	"派系范围内，部曲征募费用-90%，集结时间+50%"	""
-"effect_bundles_localised_title_xyy_roguelike_13"	"后勤保障"	""
-"effect_bundles_localised_description_xyy_roguelike_13"	"部队在境外可补员"	""
-"mod_info_xyy_roguelike_13"	"派系范围内，境外补员速率+20%"	""
-"effect_bundles_localised_title_xyy_roguelike_14"	"兵贵神速"	""
-"effect_bundles_localised_description_xyy_roguelike_14"	"部队可移动范围大幅提升"	""
-"mod_info_xyy_roguelike_14"	"每季的部队行动点数+100%"	""
-"effect_bundles_localised_title_xyy_roguelike_15"	"并无大碍"	""
-"effect_bundles_localised_description_xyy_roguelike_15"	"你的将领在轻伤状态下可获得增益，再次受伤或恢复健康后移除增益"	""
-"mod_info_xyy_roguelike_15"	"当武将的韧性值等于其韧性上限-1的时候，武将的基础杀伤+200%，破甲杀伤+200%，生命上限+200%，移动速度+50%，"	""
-"effect_bundles_localised_title_xyy_roguelike_16"	"年少有为"	""
-"effect_bundles_localised_description_xyy_roguelike_16"	"派系内年轻人物越多，所有武将经验增加越快"	""
-"mod_info_xyy_roguelike_16"	"你的派系内每有一个20岁以下的人物，派系范围内所有人物经验增长+20%，最高可叠加10层"	""
-"effect_bundles_localised_title_xyy_roguelike_17"	"老骥伏枥"	""
-"effect_bundles_localised_description_xyy_roguelike_17"	"派系内年长人物越多，所有部队士气增加"	""
-"mod_info_xyy_roguelike_17"	"你的派系内每有一个50岁以上的人物，派系范围内部队士气+5，最高可叠加10层"	""
-"effect_bundles_localised_title_xyy_roguelike_18"	"力大砖飞"	""
-"effect_bundles_localised_description_xyy_roguelike_18"	"所有部队破甲伤害大幅增加，但失去所有非破甲杀伤"	""
-"mod_info_xyy_roguelike_18"	"派系范围内，所有部队的破甲杀伤+200%，非破甲伤害-100%"	""
-"effect_bundles_localised_title_xyy_roguelike_19"	"后备计划"	""
-"effect_bundles_localised_description_xyy_roguelike_19"	"若你输掉了进攻战，恢复军队的行动点数"	""
-"mod_info_xyy_roguelike_19"	"若你作为进攻方输掉了战斗，该部队的行动点数恢复至回合开始的状态"	""
-"effect_bundles_localised_title_xyy_roguelike_20"	"反腐廉政"	""
-"effect_bundles_localised_description_xyy_roguelike_20"	"你的派系腐败大幅降低"	""
-"mod_info_xyy_roguelike_20"	"派系范围内，腐败-70%"	""
-"effect_bundles_localised_title_xyy_roguelike_21"	"多劳多得"	""
-"effect_bundles_localised_description_xyy_roguelike_21"	"你占领地区可获得更多资源[[img:pooled_resource_credibility]][[/img]]"	""
-"mod_info_xyy_roguelike_21"	"你占领地区获得的资源[[img:pooled_resource_credibility]][[/img]]数量+10"	""
-"effect_bundles_localised_title_xyy_roguelike_22"	"取之不竭"	""
-"effect_bundles_localised_description_xyy_roguelike_22"	"回合结束时，如果府库少于2000，则额外获得5000"	""
-"mod_info_xyy_roguelike_22"	"回合结束时，如果府库少于2000，则额外获得5000"	""
-"effect_bundles_localised_title_xyy_roguelike_23"	"紧急求援"	""
-"effect_bundles_localised_description_xyy_roguelike_23"	"(5回合)你可以立即抽取一次角色，但派系范围内人物满意度内因此减少"	""
-"mod_info_xyy_roguelike_23"	"立即抽取一次角色，派系范围内，人物满意度-75，持续5回合；持续回合结束后，收回此「赐福」"	""
-"effect_bundles_localised_title_xyy_roguelike_24"	"大力建设"	""
-"effect_bundles_localised_description_xyy_roguelike_24"	"你的的城市建设更快，费用更低，且可以进行更多建设"	""
-"mod_info_xyy_roguelike_24"	"派系范围内，建造时间-1,建设成本-50%，额外建造数量+2"	""
-"effect_bundles_localised_title_xyy_roguelike_25"	"吾乃天命"	""
-"effect_bundles_localised_description_xyy_roguelike_25"	"(15回合)强制改变非玩家派系的「逐鹿之势」"	""
-"mod_info_xyy_roguelike_25"	"非玩家派系的「逐鹿之势」（「天命之势」、「固守之势」、「巧变之势」、「勇武之势」、「破阵之势」）发生变化；15回合后，收回此「赐福」"	""
-"effect_bundles_localised_title_xyy_roguelike_26"	"鸿鹄之志"	""
-"effect_bundles_localised_description_xyy_roguelike_26"	"我方派系人物满意度增加，敌对派系人物满意度降低"	""
-"mod_info_xyy_roguelike_26"	"派系范围内人物满意度+20，敌对派系人物满意度-20"	""
-"effect_bundles_localised_title_xyy_roguelike_27"	"全神贯注"	""
-"effect_bundles_localised_description_xyy_roguelike_27"	"所有技能冷却时间降低"	""
-"mod_info_xyy_roguelike_27"	"派系范围内，武将技能冷却时间-25%"	""
-"effect_bundles_localised_title_xyy_roguelike_28"	"坚甲利刃"	""
-"effect_bundles_localised_description_xyy_roguelike_28"	"部队近战闪避和攻速提高"	""
-"mod_info_xyy_roguelike_28"	"派系范围部队近战闪避+50%，近战攻速+100%"	""
-"effect_bundles_localised_title_xyy_roguelike_29"	"浴火重生"	""
-"effect_bundles_localised_description_xyy_roguelike_29"	"你的人物和军队免疫火焰伤害"	""
-"mod_info_xyy_roguelike_29"	"派系范围，武将和部曲火焰抗性+100%"	""
-"effect_bundles_localised_title_xyy_roguelike_30"	"突骑横行"	""
-"effect_bundles_localised_description_xyy_roguelike_30"	"军队的冲锋加成提升"	""
-"mod_info_xyy_roguelike_30"	"派系范围，武将和部曲冲锋加成提升+30%"	""
-"effect_bundles_localised_title_xyy_roguelike_31"	"科技强国"	""
-"effect_bundles_localised_description_xyy_roguelike_31"	"你可以在每年夏季进行一次改革"	""
-"mod_info_xyy_roguelike_31"	"你可以在每年夏季进行一次改革，若你在本回合已经进行了一次改革，则顺延至这一年的秋收"	""
-"effect_bundles_localised_title_xyy_roguelike_32"	"卧龙出山"	""
-"effect_bundles_localised_description_xyy_roguelike_32"	"诸葛亮加入阵营"	""
-"mod_info_xyy_roguelike_32"	"传奇军师诸葛亮加入派系"	""
-"effect_bundles_localised_title_xyy_roguelike_33"	"游击扰敌"	""
-"effect_bundles_localised_description_xyy_roguelike_33"	"若你的城市遭到围攻，敌军将会承受高额的补给消耗"	""
-"mod_info_xyy_roguelike_33"	"你被围攻的城市领地范围内的敌军军队补给-100"	""
-"effect_bundles_localised_title_xyy_roguelike_34"	"坚韧不拔"	""
-"effect_bundles_localised_description_xyy_roguelike_34"	"增加武将的韧性"	""
-"mod_info_xyy_roguelike_34"	"派系范围内，武将韧性+1"	""
-"effect_bundles_localised_title_xyy_roguelike_35"	"稳如泰山"	""
-"effect_bundles_localised_description_xyy_roguelike_35"	"部队可以抵抗冲锋，反制骑兵冲锋"	""
-"mod_info_xyy_roguelike_35"	"派系范围内，军队解锁抵抗冲锋、反制骑兵冲锋能力"	""
-"effect_bundles_localised_title_xyy_roguelike_36"	"神出鬼没"	""
-"effect_bundles_localised_description_xyy_roguelike_36"	"伏击必定成功"	""
-"mod_info_xyy_roguelike_36"	"派系范围内，军队伏击成功率+100%"	""
-"effect_bundles_localised_title_xyy_roguelike_37"	"覆军杀将"	""
-"effect_bundles_localised_description_xyy_roguelike_37"	"在占领派系最后一座城市后，不论该派系是否还有军队，将直接覆灭"	""
-"mod_info_xyy_roguelike_37"	"在占领派系最后一座城市后，不论该派系是否还有军队，将直接覆灭"	""
-"effect_bundles_localised_title_xyy_roguelike_38"	"背水一战"	""
-"effect_bundles_localised_description_xyy_roguelike_38"	"如果你的军队已经撤退过，再次遭遇攻击时获得不溃，且无法被俘"	""
-"mod_info_xyy_roguelike_38"	"你的军队在防守时，如果这一回合已经撤退过一次，则获得不溃"	""
-"effect_bundles_localised_title_xyy_roguelike_39"	"势如破竹"	""
-"effect_bundles_localised_description_xyy_roguelike_39"	"当你进攻时取得一场胜利，将恢复军队的行动点数"	""
-"mod_info_xyy_roguelike_39"	"若你作为进攻方赢得了战斗，此部队的行动点数恢复至回合开始的状态"	""
-"effect_bundles_localised_title_xyy_roguelike_40"	"国富民强"	""
-"effect_bundles_localised_description_xyy_roguelike_40"	"你的十级城市腐败减少"	""
-"mod_info_xyy_roguelike_40"	"你的十级城市腐败-100%"	""
-"effect_bundles_localised_title_xyy_roguelike_41"	"手到擒来"	""
-"effect_bundles_localised_description_xyy_roguelike_41"	"你成功发动伏击并取胜，敌方将领逃跑几率降低"	""
-"mod_info_xyy_roguelike_41"	"当你你成功发动伏击并取胜时，敌方将领逃脱的几率-100%"	""
-"effect_bundles_localised_title_xyy_roguelike_42"	"无懈可击"	""
-"effect_bundles_localised_description_xyy_roguelike_42"	"你的部曲免疫淬毒、流血伤害"	""
-"mod_info_xyy_roguelike_42"	"你的部曲淬毒、流血伤害抗性+100%"	""
-"effect_bundles_localised_title_xyy_roguelike_43"	"临危受命"	""
-"effect_bundles_localised_description_xyy_roguelike_43"	"你的太守位增加"	""
-"mod_info_xyy_roguelike_43"	"可用太守位+2"	""
-"effect_bundles_localised_title_xyy_roguelike_44"	"毫发无损"	""
-"effect_bundles_localised_description_xyy_roguelike_44"	"你的武将不会残疾"	""
-"mod_info_xyy_roguelike_44"	"你的武将不会获得残疾特性，且恢复的回合数-1"	""
-"effect_bundles_localised_title_xyy_roguelike_45"	"精神焕发"	""
-"effect_bundles_localised_description_xyy_roguelike_45"	"所有武将免疫疲劳"	""
-"mod_info_xyy_roguelike_45"	"派系范围内，武将获得免疫疲劳特性"	""
-"effect_bundles_localised_title_xyy_roguelike_46"	"一臂之力"	""
-"effect_bundles_localised_description_xyy_roguelike_46"	"武将支援范围大幅增加"	""
-"mod_info_xyy_roguelike_46"	"派系范围内，武将支援范围+100%"	""
-"effect_bundles_localised_title_xyy_roguelike_47"	"特制箭矢"	""
-"effect_bundles_localised_description_xyy_roguelike_47"	"部队远程杀伤大幅增加，但是弹药量减少"	""
-"mod_info_xyy_roguelike_47"	"派系范围内，远程伤害+100%，远程弹药量-30%"	""
-"effect_bundles_localised_title_xyy_roguelike_48"	"豪华都市"	""
-"effect_bundles_localised_description_xyy_roguelike_48"	"你的十级城市减免所有建筑维护费"	""
-"mod_info_xyy_roguelike_48"	"所有十级城市的建筑维护费-100%"	""
-"effect_bundles_localised_title_xyy_roguelike_49"	"安居乐业"	""
-"effect_bundles_localised_description_xyy_roguelike_49"	"你的十级城市粮食产量大幅增加"	""
-"mod_info_xyy_roguelike_49"	"所有十级城市的粮食产量+100%"	""
-"effect_bundles_localised_title_xyy_roguelike_50"	"国库充盈"	""
-"effect_bundles_localised_description_xyy_roguelike_50"	"(1回合)你每有一座十级城市，可获得30[[img:pooled_resource_credibility]][[/img]]"	""
-"mod_info_xyy_roguelike_50"	"你每拥有一座十级城市，可获得30[[img:pooled_resource_credibility]][[/img]]；1回合后，收回此「赐福」"	""
-"effect_bundles_localised_title_xyy_roguelike_51"	"孤注一掷"	""
-"effect_bundles_localised_description_xyy_roguelike_51"	"(1回合)你可以立即抽取一次角色，但失去所有的[[img:pooled_resource_credibility]][[/img]]，你有概率再次抽取一次角色"	""
-"mod_info_xyy_roguelike_51"	"你失去所有的[[img:pooled_resource_credibility]][[/img]]并立即抽取一次角色，选择完角色之后，你有50%概率再选择一次角色；1回合后，收回此「赐福」"	""
-"effect_bundles_localised_title_xyy_roguelike_the_seven_kings"	"华夏助威"	""
-"effect_bundles_localised_description_xyy_roguelike_the_seven_kings"	"立即集齐华夏七王"	""
-"mod_info_xyy_roguelike_the_seven_kings"	"获得华夏七王的所有人物，如果已经获得其中部分人物，则获得剩余的人物"	""
-"effect_bundles_localised_title_xyy_roguelike_max_1"	"额外选项I"	""
-"effect_bundles_localised_description_xyy_roguelike_max_1"	"增加一个赐福选项"	""
-"mod_info_xyy_roguelike_max_1"	"选择「赐福」时，备选「赐福」列表上限+1"	""
-"effect_bundles_localised_title_xyy_roguelike_max_2"	"额外选项II"	""
-"effect_bundles_localised_description_xyy_roguelike_max_2"	"增加一个赐福选项"	""
-"mod_info_xyy_roguelike_max_2"	"选择「赐福」时，备选「赐福」列表上限+1"	""
-"effect_bundles_localised_title_xyy_roguelike_max_3"	"额外选项III"	""
-"effect_bundles_localised_description_xyy_roguelike_max_3"	"增加一个赐福选项"	""
-"mod_info_xyy_roguelike_max_3"	"选择「赐福」时，备选「赐福」列表上限+1"	""
-"effect_bundles_localised_title_xyy_roguelike_max_4"	"额外选项IV"	""
-"effect_bundles_localised_description_xyy_roguelike_max_4"	"增加一个赐福选项"	""
-"mod_info_xyy_roguelike_max_4"	"选择「赐福」时，备选「赐福」列表上限+1"	""
-"effect_bundles_localised_title_xyy_roguelike_max_character_browser_1"	"后备人物I"	""
-"effect_bundles_localised_description_xyy_roguelike_max_character_browser_1"	"增加一个角色备选数量"	""
-"mod_info_xyy_roguelike_max_characte_browserr_1"	"备选角色数量上限+1，如果剩余备选角色数量少于当前上限，则只显示剩余的备选角色"	""
-"effect_bundles_localised_title_xyy_roguelike_max_character_browser_2"	"后备人物II"	""
-"effect_bundles_localised_description_xyy_roguelike_max_character_browser_2"	"增加一个角色备选数量"	""
-"mod_info_xyy_roguelike_max_character_browser_2"	"备选角色数量上限+1，如果剩余备选角色数量少于当前上限，则只显示剩余的备选角色"	""
-"effect_bundles_localised_title_xyy_roguelike_max_character_browser_3"	"后备人物III"	""
-"effect_bundles_localised_description_xyy_roguelike_max_character_browser_3"	"增加一个角色备选数量"	""
-"mod_info_xyy_roguelike_max_character_browser_3"	"备选角色数量上限+1，如果剩余备选角色数量少于当前上限，则只显示剩余的备选角色"	""
-"effect_bundles_localised_title_xyy_roguelike_max_character_browser_4"	"后备人物IV"	""
-"effect_bundles_localised_description_xyy_roguelike_max_character_browser_4"	"增加一个角色备选数量"	""
-"mod_info_xyy_roguelike_max_character_browser_4"	"备选角色数量上限+1，如果剩余备选角色数量少于当前上限，则只显示剩余的备选角色"	""
-"effect_bundles_localised_title_xyy_roguelike_max_character_1"	"我全都要"	""
-"effect_bundles_localised_description_xyy_roguelike_max_character_1"	"增加一个角色可选数量"	""
-"mod_info_xyy_roguelike_max_character_1"	"角色可选数量+1。如果剩余可选角色数量少于备选角色数量，则只能选择目前的备选角色"	""
-"mod_xyy_roguelike_confirm"	"余额："	""
-"mod_xyy_roguelike_confirm_wait"	"结算"	""
-"campaign_diplomacy_treaty_availability_reasons_description_roguelike_mode"	"\\n[[col:red]]「逐鹿天下」模式无法进行此类外交。[[/col]]"	""
-"mission_text_text_treaty_components_war"	"选择一个派系宣战"	""
-"missions_localised_title_xyy_roguelike_mission_ready"	"「逐鹿天下」准备阶段"	""
-"missions_localised_description_xyy_roguelike_mission_ready"	"准备好之后请选择一个派系宣战并及时消灭对方则可以获得奖励，若倒计时结束之后你仍没有宣战，则此次逐鹿天下模式将[[b]]宣告失败[[/b]]。"	""
-"effect_bundles_localised_title_xyy_roguelike_redraw_1"	"不甘现状"	""
-"effect_bundles_localised_description_xyy_roguelike_redraw_1"	"你可以刷新一次赐福选择"	""
-"mod_info_xyy_roguelike_redraw_1"	"你每次选择赐福时，都可以刷新一次。"	""
-"missions_localised_title_xyy_roguelike_mission_easy"	"「逐鹿天下」消灭目标"	""
-"missions_localised_description_xyy_roguelike_mission_easy"	"一举消灭目标，如果你能在更快的时间内消灭对方，则可能获得更多奖励"	""
-"campaign_payload_ui_details_description_xyy_roguelike_mission_easy"	"[[img:pooled_resource_credibility]][[/img]]+100\\n10回合内完成可额外获得：[[img:pooled_resource_credibility]][[/img]]+50"	""
-"missions_localised_title_xyy_roguelike_mission_normal"	"「逐鹿天下」消灭目标"	""
-"missions_localised_description_xyy_roguelike_mission_normal"	"一举消灭目标，如果你能在更快的时间内消灭对方，则可能获得更多奖励"	""
-"campaign_payload_ui_details_description_xyy_roguelike_mission_normal"	"[[img:pooled_resource_credibility]][[/img]]+200\\n15回合内完成可额外获得：[[img:pooled_resource_credibility]][[/img]]+100"	""
-"missions_localised_title_xyy_roguelike_mission_hard"	"「逐鹿天下」消灭目标"	""
-"missions_localised_description_xyy_roguelike_mission_hard"	"一举消灭目标，如果你能在更快的时间内消灭对方，则可能获得更多奖励"	""
-"campaign_payload_ui_details_description_xyy_roguelike_mission_hard"	"[[img:pooled_resource_credibility]][[/img]]+400\\n20回合内完成可额外获得：[[img:pooled_resource_credibility]][[/img]]+200"	""
-"missions_localised_title_xyy_roguelike_mission_xyyhlyjf"	"「逐鹿天下」消灭目标"	""
-"missions_localised_description_xyy_roguelike_mission_xyyhlyjf"	"主公不断南征北战，兴复汉室，如今的目标只剩下不可一世的幻胧了，是时候与之一决雌雄了"	""
-"campaign_payload_ui_details_description_xyy_roguelike_mission_xyyhlyjf"	"战役胜利"	""
-"mod_xyy_character_roguelike_select"	"[[col:flavour]]选择加入的角色[[/col]]"	""
-"mod_xyy_character_roguelike_select_first"	"[[col:flavour]]选择您的初始角色[[/col]]"	""
-"dilemmas_localised_title_roguelike_dilemma_first_select"	"逐鹿天下规则简介"	""
-"dilemmas_localised_description_roguelike_dilemma_first_select"	"[[col:effect_icon_supplement_negative]][[b]]如果你是第一次游玩「逐鹿天下」模式，强烈建议阅读模式规则[[/b]][[/col]]\\n\\n1. 该模式将会随机分配势力地图，其中包含反物质军团，12~14个主要势力和若干次要势力；\\n\\n2. 该模式将禁用玩家对主要势力的部分外交（诸如附庸、外交通牒、联军或同盟），但对次要势力的外交不做限制；\\n\\n3. 玩家一次只能向一个主要势力宣战，并且中途不可议和。非法宣战或被AI宣战会直接强制和平。对次要势力则无此限制。玩家不可向反物质军团宣战；\\n\\n4. 开局将随机获得一个「逐鹿之势」，不同「逐鹿之势」对AI有着不一样的加成。一共有5种「逐鹿之势」：天命、破阵、勇武、固守、巧变；\\n\\n5. 随着玩家消灭主要势力，「逐鹿之势」等级会逐步提升，最大等级为6级；\\n\\n6. 「逐鹿之势」等级越高，敌对派系出现恶堕者的概率就越大，恶堕者的难度也随着「逐鹿之势」等级的提升而升高，恶堕者是十分强大的敌人，并且会始终尝试追杀你，一定要谨慎迎战；\\n\\n7. 「逐鹿之势」达到最高时，反物质军团会主动与玩家开战。此时玩家对于其他派系的外交将全部解除限制，但不可与反物质军团进行外交；\\n\\n8. 开局时，反物质军团默认会获得一个皇位，在击败反物质军团之前你将无法占领该皇位，这么做是为了防止由于攻下所有皇位而导致的战役提前获胜并结算；\\n\\n9. 与反物质军团交战时，你无法占领反物质军团的皇位，也无法消灭反物质军团，你只能根据任务指引击败幻胧；\\n\\n10. 在3次成功击败幻胧后，幻胧将会死亡，反物质军团将会在下一回合直接覆灭，此次「逐鹿天下」也宣告胜利；"	""
-"cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemma_first_selectFIRST"	"我已知悉"	""
-"missions_localised_title_xyy_roguelike_mission_boss"	"「逐鹿天下」迎战幻胧"	""
-"missions_localised_description_xyy_roguelike_mission_boss"	"主公，如今我等已傲视群雄，今可与幻胧一战！"	""
-"missions_localised_title_xyy_roguelike_mission_boss_2"	"「逐鹿天下」再战幻胧"	""
-"missions_localised_description_xyy_roguelike_mission_boss_2"	"主公，幻胧败走，我等且当乘胜追击！"	""
-"missions_localised_title_xyy_roguelike_mission_boss_3"	"「逐鹿天下」最终决战"	""
-"missions_localised_description_xyy_roguelike_mission_boss_3"	"主公，这次我们不能再让幻胧逃跑了，我们定要让她死于我军刀下！"	""
-"incidents_localised_title_roguelike_info_ticket"	"「逐鹿天下」提示：占领地区"	""
-"incidents_localised_description_roguelike_info_ticket"	"占领地区可以获得资源[[img:pooled_resource_credibility]][[/img]]\\n占领主要城市可以获得[[img:pooled_resource_credibility]][[/img]]+50\\n占领资源城镇可以获得[[img:pooled_resource_credibility]][[/img]]+20\\n\\n重复占领不会获得[[img:pooled_resource_credibility]][[/img]]\\n每积攒200点[[img:pooled_resource_credibility]][[/img]]可以抽取一次「赐福」(不会扣除[[img:pooled_resource_credibility]][[/img]])"	""
-"incidents_localised_title_xyy_roguelike_enemy_earth_1"	"「天命之势」"	""
-"incidents_localised_description_xyy_roguelike_enemy_earth_1"	"非玩家派系腐败减少，公共秩序增加；战场上表现为不溃和远程抗性，但抵抗冲锋能力大幅削弱。\\n\\n对远程单位和依赖远程攻击和技能的武将会很不友好；\\n\\n可利用骑兵和增强冲击骑兵的武将快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_earth_2"	"「天命之势」等级提高：2级"	""
-"incidents_localised_description_xyy_roguelike_enemy_earth_2"	"非玩家派系腐败减少，公共秩序增加；战场上表现为不溃和远程抗性，但抵抗冲锋能力大幅削弱。\\n\\n对远程单位和依赖远程攻击和技能的武将会很不友好；\\n\\n可利用骑兵和增强冲击骑兵的武将快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_earth_3"	"「天命之势」等级提高：3级"	""
-"incidents_localised_description_xyy_roguelike_enemy_earth_3"	"非玩家派系腐败减少，公共秩序增加；战场上表现为不溃和远程抗性，但抵抗冲锋能力大幅削弱。\\n\\n对远程单位和依赖远程攻击和技能的武将会很不友好；\\n\\n可利用骑兵和增强冲击骑兵的武将快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_earth_4"	"「天命之势」等级提高：4级"	""
-"incidents_localised_description_xyy_roguelike_enemy_earth_4"	"非玩家派系腐败减少，公共秩序增加；战场上表现为不溃和远程抗性，但抵抗冲锋能力大幅削弱。\\n\\n对远程单位和依赖远程攻击和技能的武将会很不友好；\\n\\n可利用骑兵和增强冲击骑兵的武将快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_earth_5"	"「天命之势」等级提高：5级"	""
-"incidents_localised_description_xyy_roguelike_enemy_earth_5"	"非玩家派系腐败减少，公共秩序增加；战场上表现为不溃和远程抗性，但抵抗冲锋能力大幅削弱。\\n\\n对远程单位和依赖远程攻击和技能的武将会很不友好；\\n\\n可利用骑兵和增强冲击骑兵的武将快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_earth_6"	"「天命之势」已达到最高等级：6级"	""
-"incidents_localised_description_xyy_roguelike_enemy_earth_6"	"非玩家派系腐败减少，公共秩序增加；战场上表现为不溃和远程抗性，但抵抗冲锋能力大幅削弱。\\n\\n对远程单位和依赖远程攻击和技能的武将会很不友好；\\n\\n可利用骑兵和增强冲击骑兵的武将快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_wood_1"	"「勇武之势」"	""
-"incidents_localised_description_xyy_roguelike_enemy_wood_1"	"非玩家派系军队补给增加，支援范围增加；战场上表现为更高的武将格斗能力，但士兵能力大幅削弱。\\n\\n敌方武将会增强自身与周围士兵的作战能力；\\n\\n没有武将保护下的士兵会很容易被击溃；\\n\\n利用对单能力强的武将斩杀敌对武将可快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_wood_2"	"「勇武之势」等级提高：2级"	""
-"incidents_localised_description_xyy_roguelike_enemy_wood_2"	"非玩家派系军队补给增加，支援范围增加；战场上表现为更高的武将格斗能力，但士兵能力大幅削弱。\\n\\n敌方武将会增强自身与周围士兵的作战能力；\\n\\n没有武将保护下的士兵会很容易被击溃；\\n\\n利用对单能力强的武将斩杀敌对武将可快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_wood_3"	"「勇武之势」等级提高：3级"	""
-"incidents_localised_description_xyy_roguelike_enemy_wood_3"	"非玩家派系军队补给增加，支援范围增加；战场上表现为更高的武将格斗能力，但士兵能力大幅削弱。\\n\\n敌方武将会增强自身与周围士兵的作战能力；\\n\\n没有武将保护下的士兵会很容易被击溃；\\n\\n利用对单能力强的武将斩杀敌对武将可快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_wood_4"	"「勇武之势」等级提高：4级"	""
-"incidents_localised_description_xyy_roguelike_enemy_wood_4"	"非玩家派系军队补给增加，支援范围增加；战场上表现为更高的武将格斗能力，但士兵能力大幅削弱。\\n\\n敌方武将会增强自身与周围士兵的作战能力；\\n\\n没有武将保护下的士兵会很容易被击溃；\\n\\n利用对单能力强的武将斩杀敌对武将可快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_wood_5"	"「勇武之势」等级提高：5级"	""
-"incidents_localised_description_xyy_roguelike_enemy_wood_5"	"非玩家派系军队补给增加，支援范围增加；战场上表现为更高的武将格斗能力，但士兵能力大幅削弱。\\n\\n敌方武将会增强自身与周围士兵的作战能力；\\n\\n没有武将保护下的士兵会很容易被击溃；\\n\\n利用对单能力强的武将斩杀敌对武将可快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_wood_6"	"「勇武之势」已达到最高等级：6级"	""
-"incidents_localised_description_xyy_roguelike_enemy_wood_6"	"非玩家派系军队补给增加，支援范围增加；战场上表现为更高的武将格斗能力，但士兵能力大幅削弱。\\n\\n敌方武将会增强自身与周围士兵的作战能力；\\n\\n没有武将保护下的士兵会很容易被击溃；\\n\\n利用对单能力强的武将斩杀敌对武将可快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_metal_1"	"「固守之势」"	""
-"incidents_localised_description_xyy_roguelike_enemy_metal_1"	"非玩家派系军队补员增加，防守时不溃；战场上表现为更高的防御水平，但进攻能力大幅削弱。\\n\\n对依赖造成物理伤害的士兵和武将会很不友好；\\n\\n可利用火焰、淬毒、流血等伤害快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_metal_2"	"「固守之势」等级提高：2级"	""
-"incidents_localised_description_xyy_roguelike_enemy_metal_2"	"非玩家派系军队补员增加，防守时不溃；战场上表现为更高的防御水平，但进攻能力大幅削弱。\\n\\n对依赖造成物理伤害的士兵和武将会很不友好；\\n\\n可利用火焰、淬毒、流血等伤害快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_metal_3"	"「固守之势」等级提高：3级"	""
-"incidents_localised_description_xyy_roguelike_enemy_metal_3"	"非玩家派系军队补员增加，防守时不溃；战场上表现为更高的防御水平，但进攻能力大幅削弱。\\n\\n对依赖造成物理伤害的士兵和武将会很不友好；\\n\\n可利用火焰、淬毒、流血等伤害快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_metal_4"	"「固守之势」等级提高：4级"	""
-"incidents_localised_description_xyy_roguelike_enemy_metal_4"	"非玩家派系军队补员增加，防守时不溃；战场上表现为更高的防御水平，但进攻能力大幅削弱。\\n\\n对依赖造成物理伤害的士兵和武将会很不友好；\\n\\n可利用火焰、淬毒、流血等伤害快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_metal_5"	"「固守之势」等级提高：5级"	""
-"incidents_localised_description_xyy_roguelike_enemy_metal_5"	"非玩家派系军队补员增加，防守时不溃；战场上表现为更高的防御水平，但进攻能力大幅削弱。\\n\\n对依赖造成物理伤害的士兵和武将会很不友好；\\n\\n可利用火焰、淬毒、流血等伤害快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_metal_6"	"「固守之势」已达到最高等级：6级"	""
-"incidents_localised_description_xyy_roguelike_enemy_metal_6"	"非玩家派系军队补员增加，防守时不溃；战场上表现为更高的防御水平，但进攻能力大幅削弱。\\n\\n对依赖造成物理伤害的士兵和武将会很不友好；\\n\\n可利用火焰、淬毒、流血等伤害快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_fire_1"	"「破阵之势」"	""
-"incidents_localised_description_xyy_roguelike_enemy_fire_1"	"非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_fire_2"	"「破阵之势」等级提高：2级"	""
-"incidents_localised_description_xyy_roguelike_enemy_fire_2"	"非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_fire_3"	"「破阵之势」等级提高：3级"	""
-"incidents_localised_description_xyy_roguelike_enemy_fire_3"	"非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_fire_4"	"「破阵之势」等级提高：4级"	""
-"incidents_localised_description_xyy_roguelike_enemy_fire_4"	"非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_fire_5"	"「破阵之势」等级提高：5级"	""
-"incidents_localised_description_xyy_roguelike_enemy_fire_5"	"非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_fire_6"	"「破阵之势」已达到最高等级：6级"	""
-"incidents_localised_description_xyy_roguelike_enemy_fire_6"	"非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_water_1"	"「巧变之势」"	""
-"incidents_localised_description_xyy_roguelike_enemy_water_1"	"非玩家派系武将解锁多种技能，更高的伏击成功率；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_water_2"	"「巧变之势」等级提高：2级"	""
-"incidents_localised_description_xyy_roguelike_enemy_water_2"	"非玩家派系武将解锁多种技能，更高的伏击成功率；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_water_3"	"「巧变之势」等级提高：3级"	""
-"incidents_localised_description_xyy_roguelike_enemy_water_3"	"非玩家派系武将解锁多种技能，更高的伏击成功率；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_water_4"	"「巧变之势」等级提高：4级"	""
-"incidents_localised_description_xyy_roguelike_enemy_water_4"	"非玩家派系武将解锁多种技能，更高的伏击成功率；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_water_5"	"「巧变之势」等级提高：5级"	""
-"incidents_localised_description_xyy_roguelike_enemy_water_5"	"非玩家派系武将解锁多种技能，更高的伏击成功率；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。"	""
-"incidents_localised_title_xyy_roguelike_enemy_water_6"	"「巧变之势」已达到最高等级：6级"	""
-"incidents_localised_description_xyy_roguelike_enemy_water_6"	"非玩家派系武将解锁多种技能，更高的伏击成功率；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。"	""
-"effect_bundles_localised_title_xyy_roguelike_52"	"势不可挡"	""
-"effect_bundles_localised_description_xyy_roguelike_52"	"你的武将破甲和非破甲伤害增加"	""
-"mod_info_xyy_roguelike_52"	"所有武将的破甲和非破甲伤害+100%"	""
-"effect_bundles_localised_title_xyy_roguelike_53"	"精力充沛"	""
-"effect_bundles_localised_description_xyy_roguelike_53"	"你的武将和部曲免疫疲劳"	""
-"mod_info_xyy_roguelike_53"	"所有武将和部曲获得免疫疲劳属性"	""
-"effect_bundles_localised_title_xyy_roguelike_54"	"草木皆兵"	""
-"effect_bundles_localised_description_xyy_roguelike_54"	"你的武将和部曲潜行强化"	""
-"mod_info_xyy_roguelike_54"	"所有武将和部曲获得「潜猎」属性，可在大部分环境下隐藏自身"	""
-"effect_bundles_localised_title_xyy_roguelike_craft_weapons"	"锻造传奇兵器"	""
-"effect_bundles_localised_description_xyy_roguelike_craft_weapons"	"(3回合)你可以消耗资源点数锻造一把传奇武器，你需要拥有传奇冶兵所。"	""
-"mod_info_xyy_roguelike_craft_weapons"	"你可以消耗资源点数锻造一把传奇武器，你需要拥有至少1所传奇冶兵所，3回合完成锻造，该项目会重新在商店里显示。"	""
-"effect_bundles_localised_title_xyy_roguelike_craft_armors"	"铸造传奇甲胄"	""
-"effect_bundles_localised_description_xyy_roguelike_craft_armors"	"(2回合)你可以消耗资源点数制作一套传奇护甲，你需要拥有传奇铸甲所。"	""
-"mod_info_xyy_roguelike_craft_armors"	"你可以消耗资源点数制作一套传奇护甲，你需要拥有至少1所传奇铸甲所，2回合完成制作，该项目会重新在商店里显示。"	""
-"effect_bundles_localised_title_xyy_roguelike_craft_mounts"	"驯养传奇马匹"	""
-"effect_bundles_localised_description_xyy_roguelike_craft_mounts"	"(4回合)你可以消耗资源点数驯养一匹传奇马，你需要拥有传奇驯兽场。"	""
-"mod_info_xyy_roguelike_craft_mounts"	"你可以消耗资源点数驯养一匹传奇马，你需要拥有至少1所传奇驯兽场，4回合后获取，该项目会重新在商店里显示。"	""
-"effect_bundles_localised_title_xyy_roguelike_craft_accessories"	"搜罗传奇见闻"	""
-"effect_bundles_localised_description_xyy_roguelike_craft_accessories"	"(2回合)你可以消耗资源点数获得一件传奇物件或者传奇侍从，你需要拥有皇宫。"	""
-"mod_info_xyy_roguelike_craft_accessories"	"你可以消耗资源点数获得一件传奇物件或者传奇侍从，你需要拥有至少1所皇宫，2回合后获取，该项目会重新在商店里显示。"	""
-"effect_bundles_localised_title_xyy_roguelike_craft_weapons_1"	"锻造兵器"	""
-"effect_bundles_localised_description_xyy_roguelike_craft_weapons_1"	"(3回合)你可以消耗资源点数锻造一把武器，你需要拥有冶兵所或制弓所。"	""
-"mod_info_xyy_roguelike_craft_weapons_1"	"你可以消耗资源点数锻造一把武器，你需要拥有至少1所冶兵所或制弓所，3回合完成锻造，该项目会重新在商店里显示。"	""
-"effect_bundles_localised_title_xyy_roguelike_craft_armors_1"	"铸造甲胄"	""
-"effect_bundles_localised_description_xyy_roguelike_craft_armors_1"	"(2回合)你可以消耗资源点数制作一套护甲，你需要拥有铸甲所。"	""
-"mod_info_xyy_roguelike_craft_armors_1"	"你可以消耗资源点数制作一套护甲，你需要拥有至少1所铸甲所，2回合完成制作，该项目会重新在商店里显示。"	""
-"effect_bundles_localised_title_xyy_roguelike_craft_mounts_1"	"驯养马匹"	""
-"effect_bundles_localised_description_xyy_roguelike_craft_mounts_1"	"(4回合)你可以消耗资源点数驯养一匹马，你需要拥有马场。"	""
-"mod_info_xyy_roguelike_craft_mounts_1"	"你可以消耗资源点数驯养一匹马，你需要拥有至少1所马场，4回合后获取，该项目会重新在商店里显示。"	""
-"effect_bundles_localised_title_xyy_roguelike_craft_accessories_1"	"搜罗见闻"	""
-"effect_bundles_localised_description_xyy_roguelike_craft_accessories_1"	"(2回合)你可以消耗资源点数获得一件传奇物件或者传奇侍从，你需要拥有郡府。"	""
-"mod_info_xyy_roguelike_craft_accessories_1"	"你可以消耗资源点数获得一件传奇物品或者传件侍从，你需要拥有至少1所郡府，2回合后获取，该项目会重新在商店里显示。"	""
-"mod_xyy_roguelike_icon_no_building"	"你缺少对应的建筑。"	""
-"mod_xyy_roguelike_icon_stopped"	"已终止，你缺少对应的建筑。"	""
-"mod_xyy_store_main_message_craft"	"你获得了[[col:%1]][[b]]%2[[/b]][[/col]]"	""
-"missions_localised_title_xyy_roguelike_kill_hlyjci_dark"	"「逐鹿天下」击败恶堕者"	""
-"missions_localised_description_xyy_roguelike_kill_hlyjci_dark"	"恶堕者・甘雨是甘雨的邪恶克隆人，其恐怖的四连发霜华矢可以在超远距离下对我方阵地进行毁灭打击，并造成冻结减速效果。恶堕者・甘雨善于隐藏在树林、草丛、丘陵之中，总是能出现在意想不到的位置对我方阵地进行偷袭。"	""
-"campaign_payload_ui_details_description_kill_hlyjci_dark"	"亡故角色：恶堕者・甘雨"	""
-"missions_localised_title_xyy_roguelike_kill_hlyjcj_dark"	"「逐鹿天下」击败恶堕者"	""
-"missions_localised_description_xyy_roguelike_kill_hlyjcj_dark"	"恶堕者・卡芙卡是卡芙卡的邪恶克隆人，如果说卡芙卡是很强力的清兵角色，那么恶堕者则有过之而无不及。恶堕者・卡芙卡拥有超高的技能转速，以及高额的持续穿盾伤害，更能让我方武将进入狂暴状态，导致被动技能失效。没有人能站着从她的大招范围里走出来。"	""
-"campaign_payload_ui_details_description_kill_hlyjcj_dark"	"亡故角色：恶堕者・卡芙卡"	""
-"missions_localised_title_xyy_roguelike_kill_hlyjck_dark"	"「逐鹿天下」击败恶堕者"	""
-"missions_localised_description_xyy_roguelike_kill_hlyjck_dark"	"恶堕者・镜流是镜流的邪恶克隆人，本身堕入魔阴对镜流而言已经是坏消息，而恶堕者则更是火上浇油，雪上加霜。恶堕者・镜流拥有恐怖的全场范围技能，并且在脱战状态下会持续回血。但别以为让她陷入近战就可以解决问题，近战状态下，她的魔阴身会传导至我方，导致我方将士持续损失生命值和士气。"	""
-"campaign_payload_ui_details_description_kill_hlyjck_dark"	"亡故角色：恶堕者・镜流"	""
-"missions_localised_title_xyy_roguelike_kill_hlyjcm_dark"	"「逐鹿天下」击败恶堕者"	""
-"missions_localised_description_xyy_roguelike_kill_hlyjcm_dark"	"恶堕者・雷电将军是雷电将军的邪恶克隆人，雷电将军的无想的一刀已经足够令人头疼，而恶堕者则拥有无想的十刀。恶堕者・雷电将军是迄今为止最恐怖的克隆人之一，其无想的十刀甚至可在瞬间全歼我方的兵力，一定要避免和她正面交锋！"	""
-"campaign_payload_ui_details_description_kill_hlyjcm_dark"	"亡故角色：恶堕者・雷电将军"	""
-"missions_localised_title_xyy_roguelike_kill_hlyjcn_dark"	"「逐鹿天下」击败恶堕者"	""
-"missions_localised_description_xyy_roguelike_kill_hlyjcn_dark"	"恶堕者・刻晴是刻晴的邪恶克隆人，拥有不错的近战能力，其超高的技能转速很容易对我方造成巨大的伤亡。恶堕者・刻晴同时有着十分出色的防御能力，其免疫大部分的攻击手段。也许只能利用穿盾、流血等机制对其造成有效的杀伤了。"	""
-"campaign_payload_ui_details_description_kill_hlyjcn_dark"	"亡故角色：恶堕者・刻晴"	""
-"missions_localised_title_xyy_roguelike_kill_hlyjcy_dark"	"「逐鹿天下」击败恶堕者"	""
-"missions_localised_description_xyy_roguelike_kill_hlyjcy_dark"	"恶堕者・夜兰是夜兰的邪恶克隆人，拥有很强的远程打击能力。务必要小心她的强化「破局矢」，其会在命中区域造成范围爆炸，对我方将士造成大量的伤害。与之近距离交战也许是唯一可行的选择。"	""
-"campaign_payload_ui_details_description_kill_hlyjcy_dark"	"亡故角色：恶堕者・夜兰"	""
-"missions_localised_title_xyy_roguelike_kill_hlyjda_dark"	"「逐鹿天下」击败恶堕者"	""
-"missions_localised_description_xyy_roguelike_kill_hlyjda_dark"	"恶堕者・优菈是优菈的邪恶克隆人，拥有超高的技能转速，在拥有超高技能伤害的前提下还会对周围的士兵造成减速和士气打击。应该尽量避免与之近战，她的技能会造成非常高的伤害，同时自身免疫大部分物理攻击。"	""
-"campaign_payload_ui_details_description_kill_hlyjda_dark"	"亡故角色：恶堕者・优菈"	""
-"missions_localised_title_xyy_roguelike_kill_hlyjdi_dark"	"「逐鹿天下」击败恶堕者"	""
-"missions_localised_description_xyy_roguelike_kill_hlyjdi_dark"	"恶堕者・吟霖是吟霖的邪恶克隆人，在近战时会锁定我方武将技能，并且造成我方部队减速和持续损失生命值（触电）。应该尽量避免与之近战，她的技能会造成我方士兵的大量伤亡。"	""
-"campaign_payload_ui_details_description_kill_hlyjdi_dark"	"亡故角色：恶堕者・吟霖"	""
-"missions_localised_title_xyy_roguelike_kill_hlyjdf_dark"	"「逐鹿天下」击败恶堕者"	""
-"missions_localised_description_xyy_roguelike_kill_hlyjdf_dark"	"恶堕者・九条裟罗是九条裟罗的邪恶克隆人，迄今为止最难应付的敌人之一。其四联装「鸦羽天狗霆雷召咒」可以在短时间内对我方士兵造成巨额伤亡，近战状态也拥有大范围的清兵技能。"	""
-"campaign_payload_ui_details_description_kill_hlyjdf_dark"	"亡故角色：恶堕者・九条裟罗"	""
-"effect_bundles_localised_title_dark_character_easy"	"[[img:pooled_resource_credibility]][[/img]]+500"	""
-"effect_bundles_localised_title_dark_character_normal"	"[[img:pooled_resource_credibility]][[/img]]+700"	""
-"effect_bundles_localised_title_dark_character_hard"	"[[img:pooled_resource_credibility]][[/img]]+1000"	""
-"mission_text_xyy_roguelike_kill_hlyjci_dark"	"（可选）在战斗中杀死恶堕者・甘雨"	""
-"mission_text_xyy_roguelike_kill_hlyjcj_dark"	"（可选）在战斗中杀死恶堕者・卡芙卡"	""
-"mission_text_xyy_roguelike_kill_hlyjck_dark"	"（可选）在战斗中杀死恶堕者・镜流"	""
-"mission_text_xyy_roguelike_kill_hlyjcm_dark"	"（可选）在战斗中杀死恶堕者・雷电将军"	""
-"mission_text_xyy_roguelike_kill_hlyjcn_dark"	"（可选）在战斗中杀死恶堕者・刻晴"	""
-"mission_text_xyy_roguelike_kill_hlyjcy_dark"	"（可选）在战斗中杀死恶堕者・夜兰"	""
-"mission_text_xyy_roguelike_kill_hlyjda_dark"	"（可选）在战斗中杀死恶堕者・优菈"	""
-"mission_text_xyy_roguelike_kill_hlyjdi_dark"	"（可选）在战斗中杀死恶堕者・吟霖"	""
-"mission_text_xyy_roguelike_kill_hlyjdf_dark"	"（可选）在战斗中杀死恶堕者・九条裟罗"	""
-"map_pins_localised_title_hlyjci_dark"	"恶堕者"	""
-"map_pins_localised_description_hlyjci_dark"	"任务目标"	""
-"map_pins_localised_title_hlyjcj_dark"	"恶堕者"	""
-"map_pins_localised_description_hlyjcj_dark"	"任务目标"	""
-"map_pins_localised_title_hlyjck_dark"	"恶堕者"	""
-"map_pins_localised_description_hlyjck_dark"	"任务目标"	""
-"map_pins_localised_title_hlyjcm_dark"	"恶堕者"	""
-"map_pins_localised_description_hlyjcm_dark"	"任务目标"	""
-"map_pins_localised_title_hlyjcn_dark"	"恶堕者"	""
-"map_pins_localised_description_hlyjcn_dark"	"任务目标"	""
-"map_pins_localised_title_hlyjcy_dark"	"恶堕者"	""
-"map_pins_localised_description_hlyjcy_dark"	"任务目标"	""
-"map_pins_localised_title_hlyjda_dark"	"恶堕者"	""
-"map_pins_localised_description_hlyjda_dark"	"任务目标"	""
-"map_pins_localised_title_hlyjdi_dark"	"恶堕者"	""
-"map_pins_localised_description_hlyjdi_dark"	"任务目标"	""
-"map_pins_localised_title_hlyjdf_dark"	"恶堕者"	""
-"map_pins_localised_description_hlyjdf_dark"	"任务目标"	""
-"missions_localised_title_xyy_roguelike_kill_hlyjdt_dark"	"「逐鹿天下」击败恶堕者"	""
-"missions_localised_description_xyy_roguelike_kill_hlyjdt_dark"	"恶堕者・申鹤是申鹤的邪恶克隆人，恶堕者・申鹤会召唤其恶堕「箓灵」加入战斗，「箓灵」会对我方造成高额伤害，并且使我方队伍的护盾失效，还能造成减速。「箓灵」倒下后会爆炸，对我方造成二次伤害。"	""
-"campaign_payload_ui_details_description_kill_hlyjdt_dark"	"亡故角色：恶堕者・申鹤"	""
-"mission_text_xyy_roguelike_kill_hlyjdt_dark"	"（可选）在战斗中杀死恶堕者・申鹤"	""
-"map_pins_localised_title_hlyjdt_dark"	"恶堕者"	""
-"map_pins_localised_description_hlyjdt_dark"	"任务目标"	""
-"effect_bundles_localised_title_xyy_roguelike_55"	"阴险狡诈"	""
-"effect_bundles_localised_description_xyy_roguelike_55"	"所有武将和部曲都可以游击部署"	""
-"mod_info_xyy_roguelike_55"	"所有武将和部曲启用「游击部署」"	""
-"effect_bundles_localised_title_xyy_roguelike_56"	"强化武器"	""
-"effect_bundles_localised_description_xyy_roguelike_56"	"部曲的近战杀伤些微增加"	""
-"mod_info_xyy_roguelike_56"	"所有部队的破甲和非破甲伤害+10%"	""
-"effect_bundles_localised_title_xyy_roguelike_57"	"制式武器"	""
-"effect_bundles_localised_description_xyy_roguelike_57"	"部曲的近战杀伤中幅增加"	""
-"mod_info_xyy_roguelike_57"	"所有部队的破甲和非破甲伤害+20%"	""
-"effect_bundles_localised_title_xyy_roguelike_58"	"精锻武器"	""
-"effect_bundles_localised_description_xyy_roguelike_58"	"部曲的近战杀伤大幅增加"	""
-"mod_info_xyy_roguelike_58"	"所有部队的破甲和非破甲伤害+40%"	""
-"effect_bundles_localised_title_xyy_roguelike_59"	"十日练兵"	""
-"effect_bundles_localised_description_xyy_roguelike_59"	"部曲的近战和远程防御些微增加"	""
-"mod_info_xyy_roguelike_59"	"所有部队的近战闪避和远程格挡+5%"	""
-"effect_bundles_localised_title_xyy_roguelike_60"	"百日练兵"	""
-"effect_bundles_localised_description_xyy_roguelike_60"	"部曲的近战和远程防御中幅增加"	""
-"mod_info_xyy_roguelike_60"	"所有部队的近战闪避和远程格挡+10%"	""
-"effect_bundles_localised_title_xyy_roguelike_61"	"千日练兵"	""
-"effect_bundles_localised_description_xyy_roguelike_61"	"部曲的近战和远程防御大幅增加"	""
-"mod_info_xyy_roguelike_61"	"所有部队的近战闪避和远程格挡+20%"	""
-"effect_bundles_localised_title_xyy_roguelike_62"	"火烧连营"	""
-"effect_bundles_localised_description_xyy_roguelike_62"	"所有部队解锁燃火箭矢和燃烧炮弹"	""
-"mod_info_xyy_roguelike_62"	"所有部队解锁燃火箭矢和燃烧炮弹"	""
-"effect_bundles_localised_title_xyy_roguelike_63"	"征召入伍"	""
-"effect_bundles_localised_description_xyy_roguelike_63"	"派系范围内部队补员效率些微提升"	""
-"mod_info_xyy_roguelike_63"	"派系范围内部队补员+5%，最大为50%"	""
-"effect_bundles_localised_title_xyy_roguelike_64"	"扩充军备"	""
-"effect_bundles_localised_description_xyy_roguelike_64"	"派系范围内部队补员效率中幅提升"	""
-"mod_info_xyy_roguelike_64"	"派系范围内部队补员+10%，最大为50%"	""
-"effect_bundles_localised_title_xyy_roguelike_65"	"兵源充足"	""
-"effect_bundles_localised_description_xyy_roguelike_65"	"派系范围内部队补员效率大幅提升"	""
-"mod_info_xyy_roguelike_65"	"派系范围内部队补员+20%，最大为50%"	""
-"effect_bundles_localised_title_xyy_roguelike_66"	"差强人意"	""
-"effect_bundles_localised_description_xyy_roguelike_66"	"派系范围内所有人物会满意度提升"	""
-"mod_info_xyy_roguelike_66"	"当一名人物满意度高于50，则额外获得25点满意度；当一名人物满意度低于50，则额外获得50点满意度；当一名人物满意度低于25，则额外获得75点满意度"	""
-"effect_bundles_localised_title_xyy_roguelike_sima_yi"	"鹰视狼顾"	""
-"effect_bundles_localised_description_xyy_roguelike_sima_yi"	"司马懿加入阵营"	""
-"mod_info_xyy_roguelike_sima_yi"	"司马懿加入阵营"	""
-"effect_bundles_localised_title_xyy_roguelike_67"	"雕虫小技"	""
-"effect_bundles_localised_description_xyy_roguelike_67"	"敌方部队伏击必定失败"	""
-"mod_info_xyy_roguelike_67"	"派系范围内，所有部队避免遭遇伏击概率+100%"	""
-"missions_localised_title_xyy_roguelike_kill_hlyjdy_dark"	"「逐鹿天下」击败恶堕者"	""
-"missions_localised_description_xyy_roguelike_kill_hlyjdy_dark"	"恶堕者・珂莱塔是珂莱塔的邪恶克隆人，恶堕者・珂莱塔的远程攻击极强，命中率极高，如果不能有效靠近，那么将对战局极为不利。"	""
-"campaign_payload_ui_details_description_kill_hlyjdy_dark"	"亡故角色：恶堕者・珂莱塔"	""
-"mission_text_xyy_roguelike_kill_hlyjdy_dark"	"（可选）在战斗中杀死恶堕者・珂莱塔"	""
-"map_pins_localised_title_hlyjdy_dark"	"恶堕者"	""
-"map_pins_localised_description_hlyjdy_dark"	"任务目标"	""
-"mod_store_disble_reason_the_seven_kings_dead"	"[[col:effect_icon_supplement_negative]][[b]]此项目不可用[[/b]][[/col]]\\n七王已陨落\\n\\n"	""
-"mod_store_disble_reason_already_have_character"	"[[col:effect_icon_supplement_negative]][[b]]此项目不可用[[/b]][[/col]]\\n你的派系已拥有此人物\\n\\n"	""
-"mod_store_disble_reason_character_dead"	"[[col:effect_icon_supplement_negative]][[b]]此项目不可用[[/b]][[/col]]\\n此人物已亡故\\n\\n"	""
-"effect_bundles_localised_title_xyy_roguelike_enemy_earth"	"「天命之势」"	""
-"effect_bundles_localised_description_xyy_roguelike_enemy_earth"	"敌方拥有不溃和远程抗性，但抵抗冲锋能力大幅削弱。"	""
-"mod_info_xyy_roguelike_enemy_earth"	"非玩家派系腐败减少，公共秩序增加；战场上表现为不溃和远程抗性，但抵抗冲锋能力大幅削弱。\\n\\n• 对远程单位和依赖远程攻击和技能的武将会很不友好\\n\\n• 可利用骑兵和增强冲击骑兵的武将快速击破敌军"	""
-"effect_bundles_localised_title_xyy_roguelike_enemy_wood"	"「勇武之势」"	""
-"effect_bundles_localised_description_xyy_roguelike_enemy_wood"	"敌方拥有更高的武将格斗能力，但士兵能力大幅削弱。"	""
-"mod_info_xyy_roguelike_enemy_wood"	"非玩家派系军队补给增加，支援范围增加；战场上表现为更高的武将格斗能力，但士兵能力大幅削弱。\\n\\n• 敌方武将会增强自身与周围士兵的作战能力\\n\\n• 没有武将保护下的士兵会很容易被击溃\\n\\n• 利用对单能力强的武将斩杀敌对武将可快速击破敌军"	""
-"effect_bundles_localised_title_xyy_roguelike_enemy_metal"	"「固守之势」"	""
-"effect_bundles_localised_description_xyy_roguelike_enemy_metal"	"敌方拥有更高的防御水平，但进攻能力大幅削弱。"	""
-"mod_info_xyy_roguelike_enemy_metal"	"非玩家派系军队补员增加，防守时不溃；战场上表现为更高的防御水平，但进攻能力大幅削弱。\\n\\n• 敌方士兵惧怕武将\\n\\n• 对依赖造成物理伤害的士兵和武将会很不友好\\n\\n• 可利用火焰、淬毒、流血等伤害快速击破敌军"	""
-"effect_bundles_localised_title_xyy_roguelike_enemy_fire"	"「破阵之势」"	""
-"effect_bundles_localised_description_xyy_roguelike_enemy_fire"	"敌方拥有更高的移速，破甲和冲锋加成，但防御能力大幅削弱。"	""
-"mod_info_xyy_roguelike_enemy_fire"	"非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n• 对近战、护盾、防护类型的武将会很不友好\\n\\n• 敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军"	""
-"effect_bundles_localised_title_xyy_roguelike_enemy_water"	"「巧变之势」"	""
-"effect_bundles_localised_description_xyy_roguelike_enemy_water"	"敌方掌握匿踪和各类技能，技能冷却时间减少，但作战能力大幅削弱。"	""
-"mod_info_xyy_roguelike_enemy_water"	"非玩家派系武将解锁多种技能，更高的伏击成功率；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n• 敌方武将会掌握大量技能\\n\\n• 敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军"	""
-"mod_xyy_character_roguelike_select_enemy_effect"	"[[col:flavour]]选择逐鹿之势[[/col]]"	""
-"missions_localised_title_xyy_roguelike_kill_hlyjeb_dark"	"「逐鹿天下」击败恶堕者"	""
-"missions_localised_description_xyy_roguelike_kill_hlyjeb_dark"	"恶堕者・坎特蕾拉是坎特蕾拉的邪恶克隆人，恶堕者・坎特蕾拥有极高的清兵效率，并限制我方武将的发挥。"	""
-"campaign_payload_ui_details_description_kill_hlyjeb_dark"	"亡故角色：恶堕者・坎特蕾拉"	""
-"mission_text_xyy_roguelike_kill_hlyjeb_dark"	"（可选）在战斗中杀死恶堕者・坎特蕾拉"	""
-"mod_title_xyy_roguelike_enemy_earth"	"「天命」"	""
-"mod_title_xyy_roguelike_enemy_wood"	"「勇武」"	""
-"mod_title_xyy_roguelike_enemy_metal"	"「固守」"	""
-"mod_title_xyy_roguelike_enemy_fire"	"「破阵」"	""
-"mod_title_xyy_roguelike_enemy_water"	"「巧变」"	""
+key	text	tooltip
+#Loc;1;text/!!!xyy_roguelike.loc		
+mod_xyy_roguelike_icon_earth	[[img:character_attribute_authority]][[/img]]	false
+mod_xyy_roguelike_description_earth	[[img:character_attribute_authority]][[/img]]for each point increase, faction wide morale +2, character satisfaction +1	false
+mod_xyy_roguelike_icon_fire	[[img:character_attribute_instinct]][[/img]]	false
+mod_xyy_roguelike_description_fire	[[img:character_attribute_instinct]][[/img]]for each point increase, all faction wide forces damage +3%, unit upkeep -1%	false
+mod_xyy_roguelike_icon_metal	[[img:character_attribute_expertise]][[/img]]	false
+mod_xyy_roguelike_description_metal	[[img:character_attribute_expertise]][[/img]]for each point increase, faction wide forces damage resistance +1%, building upkeep -2%	false
+mod_xyy_roguelike_icon_water	[[img:character_attribute_cunning]][[/img]]	false
+mod_xyy_roguelike_description_water	[[img:character_attribute_cunning]][[/img]]for each point increase, faction wide forces arrow capacity +2%, GDP +1%	false
+mod_xyy_roguelike_icon_wood	[[img:character_attribute_resolve]][[/img]]	false
+mod_xyy_roguelike_description_wood	[[img:character_attribute_resolve]][[/img]]for each point increase, faction wide generals health +2%, population increases +1000	false
+dilemmas_localised_title_roguelike_dilemma	Enable "Struggle Hegemony"?	false
+dilemmas_localised_description_roguelike_dilemma	Struggle Hegemony mode will randomly assign maps, and once enabled, will cancel all current missions and disable the Kafka storyline (Kafka will receive exclusive weapons and mounts directly). \\nCaution: This operation is not reversible. Depending on your hardware, it may take a few minutes to regenerate the map, so please be patient.	false
+cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemmaFIRST	Struggle Hegemony(Roguelike mode)	false
+cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemmaSECOND	Story Mode (Vanilla)	false
+dilemmas_localised_title_roguelike_dilemma_continue	Continue the Struggle Hegemony	false
+dilemmas_localised_description_roguelike_dilemma_continue	Detected unfinished character selection or blessing selection save, this save file might be damaged :( \\nClicking continue will try to fix it	false
+cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemma_continueFIRST	Continue	false
+uied_component_texts_localised_string_title_NewState_Text_2000005	[[col:flavour]]Choose Blessing[[/col]]	false
+uied_component_texts_localised_string_title_NewState_Text_2000006	[[col:flavour]]Hegemony Store[[/col]]	false
+mod_xyy_roguelike_info	Hover to view details||	false
+effect_bundles_localised_title_xyy_roguelike_1	People's Desire	false
+effect_bundles_localised_description_xyy_roguelike_1	After your region is occupied, if no new region is lost for one year, the region is forcibly reclaimed	false
+mod_info_xyy_roguelike_1	After your region is occupied, if no new region is lost for 5 turns, this region is forcibly reclaimed	false
+effect_bundles_localised_title_xyy_roguelike_2	Undiscouraged	false
+effect_bundles_localised_description_xyy_roguelike_2	When you get Decisive Defeat or Crushing Defeat, increases satisfaction and replenishment.	false
+mod_info_xyy_roguelike_2	When you get Decisive Defeat or Crushing Defeat, Faction wide replenishment +25%, character satisfaction +50 for 5 turns	false
+effect_bundles_localised_title_xyy_roguelike_3	The Winner	false
+effect_bundles_localised_description_xyy_roguelike_3	When you get Heroic Victory or Decisive Victory, all forces get unbreakable	false
+mod_info_xyy_roguelike_3	When you get Heroic Victory or Decisive Victory, all forces get unbreakable for 5 turns	false
+effect_bundles_localised_title_xyy_roguelike_4	It's All Mine	false
+effect_bundles_localised_description_xyy_roguelike_4	You are easier to capture enemy generals, and your generals are harder to capture by the enemy.	false
+mod_info_xyy_roguelike_4	All generals escape capture +50% and capture enemy generals +25%	false
+effect_bundles_localised_title_xyy_roguelike_5	Agricultural	false
+effect_bundles_localised_description_xyy_roguelike_5	Your food production and agricultural income increased	false
+mod_info_xyy_roguelike_5	 In the faction wide, [[b]]+200%[[/b]] Agricultural Income, [[b]]+5[[/b]] Food Production	false
+effect_bundles_localised_title_xyy_roguelike_6	Commercial	false
+effect_bundles_localised_description_xyy_roguelike_6	You can sign more trade agreements, with an increase in commercial income	false
+mod_info_xyy_roguelike_6	In the faction wide, [[b]]+2[[/b]] Available Trade Agreements, [[b]]+200%[[/b]] Commercial Income, [[b]]+500%[[/b]] Trade Influence	false
+effect_bundles_localised_title_xyy_roguelike_7	Army Factory	false
+effect_bundles_localised_description_xyy_roguelike_7	Decreased military upkeep and increased industrial income	false
+mod_info_xyy_roguelike_7	In the faction wide, -50% unit upkeep, +200% industrial income	false
+effect_bundles_localised_title_xyy_roguelike_8	Aeon Come	false
+effect_bundles_localised_description_xyy_roguelike_8	(5 turns) Your faction has unlocked the Path Blessing.	false
+mod_info_xyy_roguelike_8	Pray a Path Blessing, and you can re-pray it every spring. If Ruan Mei is in your faction, you can see all the under cards.	false
+effect_bundles_localised_title_xyy_roguelike_9	More Exp	false
+effect_bundles_localised_description_xyy_roguelike_9	Generals can gain more experience.	false
+mod_info_xyy_roguelike_9	[[b]]+200%[[/b]] Character Experience Increase for all generals	false
+effect_bundles_localised_title_xyy_roguelike_10	Store Grain	false
+effect_bundles_localised_description_xyy_roguelike_10	Increase force supplies and no longer suffer attrition due to supply shortages.	false
+mod_info_xyy_roguelike_10	[[b]]+30[[/b]] Supplies for all forces, and supply shortages no longer cause force attrition	false
+effect_bundles_localised_title_xyy_roguelike_11	Train Troops	false
+effect_bundles_localised_description_xyy_roguelike_11	Increase force upkeep and enhance force attributes such as damage, defense, etc.	false
+mod_info_xyy_roguelike_11	In the faction wide, [[b]]+30%[[/b]] Unit Upkeep Costs, [[b]]+200%[[/b]] Melee/Ranged Damage, [[b]]+50%[[/b]] Melee Evasion	false
+effect_bundles_localised_title_xyy_roguelike_12	Force Service	false
+effect_bundles_localised_description_xyy_roguelike_12	Decreased cost of recruitment for units, but increased mustering time.	false
+mod_info_xyy_roguelike_12	In the faction wide, [[b]]-90%[[/b]] Recruitment Costs, [[b]]+50%[[/b]] Mustering Time	false
+effect_bundles_localised_title_xyy_roguelike_13	Perfect Supply	false
+effect_bundles_localised_description_xyy_roguelike_13	Forces can be replenished in foreign territory.	false
+mod_info_xyy_roguelike_13	In foreign land, [[b]]+20%[[/b]] Replenishment for our units	false
+effect_bundles_localised_title_xyy_roguelike_14	Precious Speed	false
+effect_bundles_localised_description_xyy_roguelike_14	Increased range of movement of forces.	false
+mod_info_xyy_roguelike_14	[[b]]+100%[[/b]] Campaign Movement Range for all units	false
+effect_bundles_localised_title_xyy_roguelike_15	Just Minor Hurt	false
+effect_bundles_localised_description_xyy_roguelike_15	Your generals gain while wounded.	false
+mod_info_xyy_roguelike_15	When a general's resilience value is equal to his max resilience -1, [[b]]+200%[[/b]] Base Damage, [[b]]+200%[[/b]] AP Damage, [[b]]+200%[[/b]] Max Health, [[b]]+50%[[/b]] Movement Speed	false
+effect_bundles_localised_title_xyy_roguelike_16	Young Man!	false
+effect_bundles_localised_description_xyy_roguelike_16	The more young characters in the faction, the faster the exp of all generals increases.	false
+mod_info_xyy_roguelike_16	For every character under the age of 20 in your faction, [[b]]+20%[[/b]] Experience Increase for all characters within the faction wide, stackable up to 10 tiers	false
+effect_bundles_localised_title_xyy_roguelike_17	Elder Person	false
+effect_bundles_localised_description_xyy_roguelike_17	The more older characters in the faction, the more the morale of all forces increases.	false
+mod_info_xyy_roguelike_17	For every character over the age of 50 in your faction, [[b]]+5[[/b]] Morale for all forces within the faction wide, stackable up to 10 tiers	false
+effect_bundles_localised_title_xyy_roguelike_18	Powerful Army	false
+effect_bundles_localised_description_xyy_roguelike_18	All forces increase their AP damage greatly, but lose all non-AP damage.	false
+mod_info_xyy_roguelike_18	In the faction wide, [[b]]+200%[[/b]] AP Damage, [[b]]-100%[[/b]] Base Damage for all units	false
+effect_bundles_localised_title_xyy_roguelike_19	Plan B	false
+effect_bundles_localised_description_xyy_roguelike_19	If you lose the offensive battle, restore the army's action points.	false
+mod_info_xyy_roguelike_19	If you lose the battle as the attacking side, that unit's action points are restored to what they were at the start of the turn	false
+effect_bundles_localised_title_xyy_roguelike_20	Anti Corruption	false
+effect_bundles_localised_description_xyy_roguelike_20	Decreased corruption in your faction.	false
+mod_info_xyy_roguelike_20	In the faction wide, [[b]]-70%[[/b]] Corruption	false
+effect_bundles_localised_title_xyy_roguelike_21	Get More	false
+effect_bundles_localised_description_xyy_roguelike_21	You can get more resources [[img:pooled_resource_credibility]][[/img]] when you take a new region.	false
+mod_info_xyy_roguelike_21	[[b]]+10[[/b]][[img:pooled_resource_credibility]][[/img]] when you take a new region.	false
+effect_bundles_localised_title_xyy_roguelike_22	I'm Rich	false
+effect_bundles_localised_description_xyy_roguelike_22	At the end of the round, if the Treasury is less than 2,000, you get an additional 5,000.	false
+mod_info_xyy_roguelike_22	At the end of the round, if the Treasury is less than [[b]]2,000[[/b]], you get an additional [[b]]5,000[[/b]].	false
+effect_bundles_localised_title_xyy_roguelike_23	Need Help?	false
+effect_bundles_localised_description_xyy_roguelike_23	(5 Turns) Get a character immediate, but the satisfaction is decreased as a result.	false
+mod_info_xyy_roguelike_23	Draw a character immediately, faction-wide. [[b]]-75[[/b]] Character Satisfaction, lasts for 5 turns; after the duration ends, reclaim this "blessing"	false
+effect_bundles_localised_title_xyy_roguelike_24	Build Vigorously	false
+effect_bundles_localised_description_xyy_roguelike_24	Your city builds faster, cheaper, and can build more buildings.	false
+mod_info_xyy_roguelike_24	In the faction wide, -1 construction time, -50% construction cost, +2 construction slots	false
+effect_bundles_localised_title_xyy_roguelike_25	My Destiny	false
+effect_bundles_localised_description_xyy_roguelike_25	(15 turns) Forced change of non-player's faction's Hegemony Trend	false
+mod_info_xyy_roguelike_25	Forced change of non-player's faction's Hegemony Trend, after 15 turns, reclaim this blessing.	false
+effect_bundles_localised_title_xyy_roguelike_26	Aspirations	false
+effect_bundles_localised_description_xyy_roguelike_26	Our faction's satisfaction increased, enemy faction's satisfaction decreased.	false
+mod_info_xyy_roguelike_26	[[b]]+20[[/b]] Characters Satisfaction of our faction wide, [[b]]-20[[/b]] Characters Satisfaction of hostile factions	false
+effect_bundles_localised_title_xyy_roguelike_27	Volition	false
+effect_bundles_localised_description_xyy_roguelike_27	All skill cooldowns decreased.	false
+mod_info_xyy_roguelike_27	In the faction wide, [[b]]-25%[[/b]] Skill Cooldown of all generals	false
+effect_bundles_localised_title_xyy_roguelike_28	Sharp Blades	false
+effect_bundles_localised_description_xyy_roguelike_28	Increased Force Melee Defence and Attack Rate.	false
+mod_info_xyy_roguelike_28	In the faction wide, [[b]]+50%[[/b]] Melee Evasion, [[b]]+100%[[/b]] Melee Attack Rate for all units	false
+effect_bundles_localised_title_xyy_roguelike_29	Phoenix Born	false
+effect_bundles_localised_description_xyy_roguelike_29	Your characters and forces are immune to flame damage.	false
+mod_info_xyy_roguelike_29	In the faction wide, [[b]]+100%[[/b]] Flame Resistance for all units	false
+effect_bundles_localised_title_xyy_roguelike_30	Cavalry Rampage	false
+effect_bundles_localised_description_xyy_roguelike_30	The army's charge bonus is increased.	false
+mod_info_xyy_roguelike_30	In the faction wide, [[b]]+30%[[/b]] Melee Charge Bonus for all units	false
+effect_bundles_localised_title_xyy_roguelike_31	Technological	false
+effect_bundles_localised_description_xyy_roguelike_31	You can make reforms in summer.	false
+mod_info_xyy_roguelike_31	You can make a reform every summer.	false
+effect_bundles_localised_title_xyy_roguelike_32	Wo Long	false
+effect_bundles_localised_description_xyy_roguelike_32	Zhuge Liang joins.	false
+mod_info_xyy_roguelike_32	Legendary strategist Zhuge Liang joins the faction	false
+effect_bundles_localised_title_xyy_roguelike_33	Harass Enemy	false
+effect_bundles_localised_description_xyy_roguelike_33	If your city is under siege, the enemy forces will suffer a high consumption of supplies.	false
+mod_info_xyy_roguelike_33	[[b]]-100[[/b]] Supplies for enemy forces within your besieged city territory	false
+effect_bundles_localised_title_xyy_roguelike_34	Indomitable	false
+effect_bundles_localised_description_xyy_roguelike_34	Increase the resilience of generals	false
+mod_info_xyy_roguelike_34	In the faction wide,  [[b]]+1[[/b]] Resilience for all generals	false
+effect_bundles_localised_title_xyy_roguelike_35	Like a Wall	false
+effect_bundles_localised_description_xyy_roguelike_35	Forces can resist charges.	false
+mod_info_xyy_roguelike_35	In the faction wide, the army unlocked abilities: Charge Reflect, Charge Reflection vs Cavalry	false
+effect_bundles_localised_title_xyy_roguelike_36	Unexpected	false
+effect_bundles_localised_description_xyy_roguelike_36	Force ambushes are always successful.	false
+mod_info_xyy_roguelike_36	In the faction wide, [[b]]+100%[[/b]] Chance of Ambushing for all military forces	false
+effect_bundles_localised_title_xyy_roguelike_37	Total Defeat	false
+effect_bundles_localised_description_xyy_roguelike_37	After capturing the last city of a faction, whether it has any forces left, it will be destroyed.	false
+mod_info_xyy_roguelike_37	After capturing the last city of a faction, whether it has any forces left, it will be destroyed.	false
+effect_bundles_localised_title_xyy_roguelike_38	Fight or Die	false
+effect_bundles_localised_description_xyy_roguelike_38	If the forces have retreated, they gain unbreakable and cannot be captured when attacked again.	false
+mod_info_xyy_roguelike_38	If your army has already retreated once this turn while defending, it gains Unbreakable.	false
+effect_bundles_localised_title_xyy_roguelike_39	Unstoppable	false
+effect_bundles_localised_description_xyy_roguelike_39	When you attack and take a victory, you will restored the action points.	false
+mod_info_xyy_roguelike_39	If you win the battle as the attacking side, that unit's action points are restored to what they were at the start of the turn	false
+effect_bundles_localised_title_xyy_roguelike_40	Civilization	false
+effect_bundles_localised_description_xyy_roguelike_40	There's no corruption in your level 10 city.	false
+mod_info_xyy_roguelike_40	[[b]]-100%[[/b]] Corruption for every level 10 city 	false
+effect_bundles_localised_title_xyy_roguelike_41	Capture	false
+effect_bundles_localised_description_xyy_roguelike_41	If you succeed in ambushing and win, the enemy generals will be almost unable to escape.	false
+mod_info_xyy_roguelike_41	When you successfully launch an ambush and win, [[b]]-100%[[/b]] Escaping Chance for the enemy generals	false
+effect_bundles_localised_title_xyy_roguelike_42	Invulnerable	false
+effect_bundles_localised_description_xyy_roguelike_42	Your forces are immune to poisoning and bleeding damage.	false
+mod_info_xyy_roguelike_42	[[b]]+100%[[/b]] Bleeding Resistance	false
+effect_bundles_localised_title_xyy_roguelike_43	More Governor	false
+effect_bundles_localised_description_xyy_roguelike_43	You can assign more governors.	false
+mod_info_xyy_roguelike_43	[[b]]+2[[/b]] Available Administrator Positions	false
+effect_bundles_localised_title_xyy_roguelike_44	Unharmed	false
+effect_bundles_localised_description_xyy_roguelike_44	Your generals will no longer be disabled.	false
+mod_info_xyy_roguelike_44	Your generals will no longer be disabled.	false
+effect_bundles_localised_title_xyy_roguelike_45	I'm not Tired	false
+effect_bundles_localised_description_xyy_roguelike_45	All generals are immune to fatigue.	false
+mod_info_xyy_roguelike_45	All generals are immune to fatigue.	false
+effect_bundles_localised_title_xyy_roguelike_46	Support	false
+effect_bundles_localised_description_xyy_roguelike_46	Increased support range for generals.	false
+mod_info_xyy_roguelike_46	[[b]]+100%[[/b]] Reinforcement Range for all generals.	false
+effect_bundles_localised_title_xyy_roguelike_47	Special Arrows	false
+effect_bundles_localised_description_xyy_roguelike_47	The force's arrows damage is greatly increased, but the ammo is decreased.	false
+mod_info_xyy_roguelike_47	In the faction wide, [[b]]+100%[[/b]] Ranged Damage, [[/b]]-30%[[b]] Arrow Amount	false
+effect_bundles_localised_title_xyy_roguelike_48	Modern City	false
+effect_bundles_localised_description_xyy_roguelike_48	Your level 10 city waives all building upkeep costs.	false
+mod_info_xyy_roguelike_48	[[b]]-100%[[/b]] Building Upkeep Costs for all level 10 cities	false
+effect_bundles_localised_title_xyy_roguelike_49	Live in Peace	false
+effect_bundles_localised_description_xyy_roguelike_49	Food production in your level 10 city has increased greatly.	false
+mod_info_xyy_roguelike_49	+100% Food production in level 10 cities	false
+effect_bundles_localised_title_xyy_roguelike_50	Mom's Treasure	false
+effect_bundles_localised_description_xyy_roguelike_50	(1 Turn) You get 30 [[img:pooled_resource_credibility]][[/img]] for each level 10 city you have.	false
+mod_info_xyy_roguelike_50	You gain [[b]]30[[/b]] [[img:pooled_resource_credibility]][[/img]] for each level 10 city you own; after 1 turn, take back this blessing.	false
+effect_bundles_localised_title_xyy_roguelike_51	Stake All	false
+effect_bundles_localised_description_xyy_roguelike_51	(1 Turn) Take a character immediately, but lose all [[img:pooled_resource_credibility]][[/img]], you have a probability to take again.	false
+mod_info_xyy_roguelike_51	You lose all [[img:pooled_resource_credibility]][[/img]] and immediately draw the character once. After selecting the character, you have a 50% chance of selecting the character again; after 1 turn, reclaim this "blessing"	false
+effect_bundles_localised_title_xyy_roguelike_the_seven_kings	The Seven Kings	false
+effect_bundles_localised_description_xyy_roguelike_the_seven_kings	Get the Seven Kings immediately.	false
+mod_info_xyy_roguelike_the_seven_kings	Gain all the Seven Kings.	false
+effect_bundles_localised_title_xyy_roguelike_max_1	Option I	false
+effect_bundles_localised_description_xyy_roguelike_max_1	Add a blessing option.	false
+mod_info_xyy_roguelike_max_1	[[b]]+1[[/b]] Optional Blessing	false
+effect_bundles_localised_title_xyy_roguelike_max_2	Option II	false
+effect_bundles_localised_description_xyy_roguelike_max_2	Add a blessing option.	false
+mod_info_xyy_roguelike_max_2	[[b]]+1[[/b]] Optional Blessing	false
+effect_bundles_localised_title_xyy_roguelike_max_3	Option III	false
+effect_bundles_localised_description_xyy_roguelike_max_3	Add a blessing option.	false
+mod_info_xyy_roguelike_max_3	[[b]]+1[[/b]] Optional Blessing	false
+effect_bundles_localised_title_xyy_roguelike_max_4	Option IV	false
+effect_bundles_localised_description_xyy_roguelike_max_4	Add a blessing option .	false
+mod_info_xyy_roguelike_max_4	[[b]]+1[[/b]] Optional Blessing	false
+effect_bundles_localised_title_xyy_roguelike_max_character_browser_1	Character I	false
+effect_bundles_localised_description_xyy_roguelike_max_character_browser_1	Add a character option.	false
+mod_info_xyy_roguelike_max_characte_browserr_1	[[b]]+1[[/b]] Character Option, only shows remaining characters if fewer than selection limit.	false
+effect_bundles_localised_title_xyy_roguelike_max_character_browser_2	Character II	false
+effect_bundles_localised_description_xyy_roguelike_max_character_browser_2	Add a character option.	false
+mod_info_xyy_roguelike_max_character_browser_2	[[b]]+1[[/b]] Character Option, only shows remaining characters if fewer than selection limit.	false
+effect_bundles_localised_title_xyy_roguelike_max_character_browser_3	Character III	false
+effect_bundles_localised_description_xyy_roguelike_max_character_browser_3	Add a character option.	false
+mod_info_xyy_roguelike_max_character_browser_3	[[b]]+1[[/b]] Character Option, only shows remaining characters if fewer than selection limit.	false
+effect_bundles_localised_title_xyy_roguelike_max_character_browser_4	Character IV	false
+effect_bundles_localised_description_xyy_roguelike_max_character_browser_4	Add a character option.	false
+mod_info_xyy_roguelike_max_character_browser_4	[[b]]+1[[/b]] Character Option, only shows remaining characters if fewer than selection limit.	false
+effect_bundles_localised_title_xyy_roguelike_max_character_1	I'll Take It	false
+effect_bundles_localised_description_xyy_roguelike_max_character_1	You can take two characters at once.	false
+mod_info_xyy_roguelike_max_character_1	[[b]]+1[[/b]] Selectable Character, only shows remaining characters if fewer than selection limit.	false
+mod_xyy_roguelike_confirm	Resource:	false
+mod_xyy_roguelike_confirm_wait	Settle...	false
+campaign_diplomacy_treaty_availability_reasons_description_roguelike_mode	\\n[[col:red]]Hegemony mode does not allow for this type of diplomacy.[[/col]]	false
+mission_text_text_treaty_components_war	(Optional) Choose a faction to declare war on	false
+missions_localised_title_xyy_roguelike_mission_ready	Hegemony: Preparatory Phase	false
+missions_localised_description_xyy_roguelike_mission_ready	When you are ready, choose a faction to declare war on and destroy the other side in time to receive a reward. If you have not declared war after the timer has expired, a random faction will declare war on you.	false
+effect_bundles_localised_title_xyy_roguelike_redraw_1	Try Again?	false
+effect_bundles_localised_description_xyy_roguelike_redraw_1	You can refresh your blessing options once.	false
+mod_info_xyy_roguelike_redraw_1	You can refresh it once each time you choose a blessing.	false
+missions_localised_title_xyy_roguelike_mission_easy	Hegemony: Destroy Faction	false
+missions_localised_description_xyy_roguelike_mission_easy	Destroy the target faction, and possibly earn more rewards if you can destroy them in a faster timeframe.	false
+campaign_payload_ui_details_description_xyy_roguelike_mission_easy	[[img:pooled_resource_credibility]][[/img]]+100\\nExtra for completing within 10 turns: [[img:pooled_resource_credibility]][[/img]]+50	false
+missions_localised_title_xyy_roguelike_mission_normal	Hegemony: Destroy Faction	false
+missions_localised_description_xyy_roguelike_mission_normal	Destroy the target faction, and possibly earn more rewards if you can destroy them in a faster timeframe.	false
+campaign_payload_ui_details_description_xyy_roguelike_mission_normal	[[img:pooled_resource_credibility]][[/img]]+200\\nExtra for completing within 15 turns: [[img:pooled_resource_credibility]][[/img]]+100	false
+missions_localised_title_xyy_roguelike_mission_hard	Hegemony: Destroy Faction	false
+missions_localised_description_xyy_roguelike_mission_hard	Destroy the target faction, and possibly earn more rewards if you can destroy them in a faster timeframe.	false
+campaign_payload_ui_details_description_xyy_roguelike_mission_hard	[[img:pooled_resource_credibility]][[/img]]+400\\nExtra for completing within 20 turns: [[img:pooled_resource_credibility]][[/img]]+200	false
+missions_localised_title_xyy_roguelike_mission_xyyhlyjf	Hegemony: Destroy Faction	false
+missions_localised_description_xyy_roguelike_mission_xyyhlyjf	As you continue to battle in the war, you are now left with only the unstoppable Phantylia as your target, and it's time for you to fight her!	false
+campaign_payload_ui_details_description_xyy_roguelike_mission_xyyhlyjf	Winning the game	false
+mod_xyy_character_roguelike_select	[[col:flavour]]Choose the Character[[/col]]	false
+mod_xyy_character_roguelike_select_first	[[col:flavour]]Choose the Character[[/col]]	false
+dilemmas_localised_title_roguelike_dilemma_first_select	Choose your starting characters	false
+dilemmas_localised_description_roguelike_dilemma_first_select	Select your initial character and the character will join your faction immediately after you finish the choice.	false
+cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemma_first_selectFIRST	Understand	false
+missions_localised_title_xyy_roguelike_mission_boss	Hegemony: Fight With Phantylia	false
+missions_localised_description_xyy_roguelike_mission_boss	My Lord, now that we stand supreme above all rivals, the time has come to face Phantylia in battle!	false
+missions_localised_title_xyy_roguelike_mission_boss_2	Hegemony: Fight Again With Phantylia	false
+missions_localised_description_xyy_roguelike_mission_boss_2	My Lord, Phantylia is routed! Let us press our advantage and give chase!	false
+missions_localised_title_xyy_roguelike_mission_boss_3	Hegemony: The Final Battle	false
+missions_localised_description_xyy_roguelike_mission_boss_3	My Lord, though Phantylia flees swiftly, her doom is certain! This time we must ensure her escape ends beneath our blades!	false
+incidents_localised_title_roguelike_info_ticket	Hegemony: Tips	false
+incidents_localised_description_roguelike_info_ticket	Resources [[img:pooled_resource_credibility]][[/img]] can be obtained by occupying regions\\nMajor city: +50[[img:pooled_resource_credibility]][[/img]]\\nResource city: +20[[img:pooled_resource_credibility]][[/img]]\\n\\nRepeated occupations will not yield resources [[img:pooled_resource_credibility]][[/img]]\\nFor every 200 points of resources [[img:pooled_resource_credibility]][[/img]] accumulated, you can get a chance to choose a blessing.	false
+incidents_localised_title_xyy_roguelike_enemy_earth_1	The Trend of Destiny	false
+incidents_localised_description_xyy_roguelike_enemy_earth_1	Non-player faction corruption is reduced and public order is increased; it manifests on the battlefield as unbreakable and ranged resistance, but resistance to charge is weakened significantly.\\n\\nCould be unfriendly to ranged units or generals.\\n\\nCan quickly break enemy forces by using cavalry and generals with enhanced shock ability.	false
+incidents_localised_title_xyy_roguelike_enemy_earth_2	The Trend of Destiny: Level 2	false
+incidents_localised_description_xyy_roguelike_enemy_earth_2	Non-player faction corruption is reduced and public order is increased; it manifests on the battlefield as unbreakable and ranged resistance, but resistance to charge is weakened significantly.\\n\\nCould be unfriendly to ranged units or generals.\\n\\nCan quickly break enemy forces by using cavalry and generals with enhanced shock ability.	false
+incidents_localised_title_xyy_roguelike_enemy_earth_3	The Trend of Destiny: Level 3	false
+incidents_localised_description_xyy_roguelike_enemy_earth_3	Non-player faction corruption is reduced and public order is increased; it manifests on the battlefield as unbreakable and ranged resistance, but resistance to charge is weakened significantly.\\n\\nCould be unfriendly to ranged units or generals.\\n\\nCan quickly break enemy forces by using cavalry and generals with enhanced shock ability.	false
+incidents_localised_title_xyy_roguelike_enemy_earth_4	The Trend of Destiny: Level 4	false
+incidents_localised_description_xyy_roguelike_enemy_earth_4	Non-player faction corruption is reduced and public order is increased; it manifests on the battlefield as unbreakable and ranged resistance, but resistance to charge is weakened significantly.\\n\\nCould be unfriendly to ranged units or generals.\\n\\nCan quickly break enemy forces by using cavalry and generals with enhanced shock ability.	false
+incidents_localised_title_xyy_roguelike_enemy_earth_5	The Trend of Destiny: Level 5	false
+incidents_localised_description_xyy_roguelike_enemy_earth_5	Non-player faction corruption is reduced and public order is increased; it manifests on the battlefield as unbreakable and ranged resistance, but resistance to charge is weakened significantly.\\n\\nCould be unfriendly to ranged units or generals.\\n\\nCan quickly break enemy forces by using cavalry and generals with enhanced shock ability.	false
+incidents_localised_title_xyy_roguelike_enemy_earth_6	The Trend of Destiny: Level 6	false
+incidents_localised_description_xyy_roguelike_enemy_earth_6	Non-player faction corruption is reduced and public order is increased; it manifests on the battlefield as unbreakable and ranged resistance, but resistance to charge is weakened significantly.\\n\\nCould be unfriendly to ranged units or generals.\\n\\nCan quickly break enemy forces by using cavalry and generals with enhanced shock ability.	false
+incidents_localised_title_xyy_roguelike_enemy_wood_1	The Trend of Courage	false
+incidents_localised_description_xyy_roguelike_enemy_wood_1	Higher general ability to fight, but significantly weakened soldier ability.\\n\\nEnemy generals will enhance their own fighting ability and that of the soldiers around them.\\n\\nSoldiers who are not protected by a general can be easily defeated.\\n\\nUsing a powerful general to kill an enemy general can quickly break the enemy army.	false
+incidents_localised_title_xyy_roguelike_enemy_wood_2	The Trend of Courage: Level 2	false
+incidents_localised_description_xyy_roguelike_enemy_wood_2	Higher AI general ability to fight, but significantly weakened soldier ability.\\n\\nEnemy generals will enhance their own fighting ability and that of the soldiers around them.\\n\\nSoldiers who are not protected by a general can be easily defeated.\\n\\nUsing a powerful general to kill an enemy general can quickly break the enemy army.	false
+incidents_localised_title_xyy_roguelike_enemy_wood_3	The Trend of Courage: Level 3	false
+incidents_localised_description_xyy_roguelike_enemy_wood_3	Higher AI general ability to fight, but significantly weakened soldier ability.\\n\\nEnemy generals will enhance their own fighting ability and that of the soldiers around them.\\n\\nSoldiers who are not protected by a general can be easily defeated.\\n\\nUsing a powerful general to kill an enemy general can quickly break the enemy army.	false
+incidents_localised_title_xyy_roguelike_enemy_wood_4	The Trend of Courage: Level 4	false
+incidents_localised_description_xyy_roguelike_enemy_wood_4	Higher AI general ability to fight, but significantly weakened soldier ability.\\n\\nEnemy generals will enhance their own fighting ability and that of the soldiers around them.\\n\\nSoldiers who are not protected by a general can be easily defeated.\\n\\nUsing a powerful general to kill an enemy general can quickly break the enemy army.	false
+incidents_localised_title_xyy_roguelike_enemy_wood_5	The Trend of Courage: Level 5	false
+incidents_localised_description_xyy_roguelike_enemy_wood_5	Higher AI general ability to fight, but significantly weakened soldier ability.\\n\\nEnemy generals will enhance their own fighting ability and that of the soldiers around them.\\n\\nSoldiers who are not protected by a general can be easily defeated.\\n\\nUsing a powerful general to kill an enemy general can quickly break the enemy army.	false
+incidents_localised_title_xyy_roguelike_enemy_wood_6	The Trend of Courage: Level 6	false
+incidents_localised_description_xyy_roguelike_enemy_wood_6	Highe AI general ability to fight, but significantly weakened soldier ability.\\n\\nEnemy generals will enhance their own fighting ability and that of the soldiers around them.\\n\\nSoldiers who are not protected by a general can be easily defeated.\\n\\nUsing a powerful general to kill an enemy general can quickly break the enemy army.	false
+incidents_localised_title_xyy_roguelike_enemy_metal_1	The Trend of Entrench	false
+incidents_localised_description_xyy_roguelike_enemy_metal_1	Increased replenishment, unbreakable on defense for non-player force, but attack capability weakened dramatically.\\n\\nCould be unfriendly to soldiers and generals who rely on inflicting physical damage;\\n\\nEnemy armies can be broken quickly by utilizing damage such as flames, poison and bleeds etc.	false
+incidents_localised_title_xyy_roguelike_enemy_metal_2	The Trend of Entrench: Level 2	false
+incidents_localised_description_xyy_roguelike_enemy_metal_2	Increased replenishment, unbreakable on defense for non-player force, but attack capability weakened dramatically.\\n\\nCould be unfriendly to soldiers and generals who rely on inflicting physical damage;\\n\\nEnemy armies can be broken quickly by utilizing damage such as flames, poison and bleeds etc.	false
+incidents_localised_title_xyy_roguelike_enemy_metal_3	The Trend of Entrench: Level 3	false
+incidents_localised_description_xyy_roguelike_enemy_metal_3	Increased replenishment, unbreakable on defense for non-player force, but attack capability weakened dramatically.\\n\\nCould be unfriendly to soldiers and generals who rely on inflicting physical damage;\\n\\nEnemy armies can be broken quickly by utilizing damage such as flames, poison and bleeds etc.	false
+incidents_localised_title_xyy_roguelike_enemy_metal_4	The Trend of Entrench: Level 4	false
+incidents_localised_description_xyy_roguelike_enemy_metal_4	Increased replenishment, unbreakable on defense for non-player force, but attack capability weakened dramatically.\\n\\nCould be unfriendly to soldiers and generals who rely on inflicting physical damage;\\n\\nEnemy armies can be broken quickly by utilizing damage such as flames, poison and bleeds etc.	false
+incidents_localised_title_xyy_roguelike_enemy_metal_5	The Trend of Entrench: Level 5	false
+incidents_localised_description_xyy_roguelike_enemy_metal_5	Increased replenishment, unbreakable on defense for non-player force, but attack capability weakened dramatically.\\n\\nCould be unfriendly to soldiers and generals who rely on inflicting physical damage;\\n\\nEnemy armies can be broken quickly by utilizing damage such as flames, poison and bleeds etc.	false
+incidents_localised_title_xyy_roguelike_enemy_metal_6	The Trend of Entrench: Level 6	false
+incidents_localised_description_xyy_roguelike_enemy_metal_6	Increased replenishment, unbreakable on defense for non-player force, but attack capability weakened dramatically.\\n\\nCould be unfriendly to soldiers and generals who rely on inflicting physical damage;\\n\\nEnemy armies can be broken quickly by utilizing damage such as flames, poison and bleeds etc.	false
+incidents_localised_title_xyy_roguelike_enemy_fire_1	The Trend of Breakout	false
+incidents_localised_description_xyy_roguelike_enemy_fire_1	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false
+incidents_localised_title_xyy_roguelike_enemy_fire_2	The Trend of Breakout: Level 2	false
+incidents_localised_description_xyy_roguelike_enemy_fire_2	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false
+incidents_localised_title_xyy_roguelike_enemy_fire_3	The Trend of Breakout: Level 3	false
+incidents_localised_description_xyy_roguelike_enemy_fire_3	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false
+incidents_localised_title_xyy_roguelike_enemy_fire_4	The Trend of Breakout: Level 4	false
+incidents_localised_description_xyy_roguelike_enemy_fire_4	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false
+incidents_localised_title_xyy_roguelike_enemy_fire_5	The Trend of Breakout: Level 5	false
+incidents_localised_description_xyy_roguelike_enemy_fire_5	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false
+incidents_localised_title_xyy_roguelike_enemy_fire_6	The Trend of Breakout: Level 6	false
+incidents_localised_description_xyy_roguelike_enemy_fire_6	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false
+incidents_localised_title_xyy_roguelike_enemy_water_1	The Trend of Strategy	false
+incidents_localised_description_xyy_roguelike_enemy_water_1	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false
+incidents_localised_title_xyy_roguelike_enemy_water_2	The Trend of Strategy: Level 2	false
+incidents_localised_description_xyy_roguelike_enemy_water_2	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false
+incidents_localised_title_xyy_roguelike_enemy_water_3	The Trend of Strategy: Level 3	false
+incidents_localised_description_xyy_roguelike_enemy_water_3	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false
+incidents_localised_title_xyy_roguelike_enemy_water_4	The Trend of Strategy: Level 4	false
+incidents_localised_description_xyy_roguelike_enemy_water_4	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false
+incidents_localised_title_xyy_roguelike_enemy_water_5	The Trend of Strategy: Level 5	false
+incidents_localised_description_xyy_roguelike_enemy_water_5	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false
+incidents_localised_title_xyy_roguelike_enemy_water_6	The Trend of Strategy: Level 6	false
+incidents_localised_description_xyy_roguelike_enemy_water_6	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false
+effect_bundles_localised_title_xyy_roguelike_52	Unstoppable	false
+effect_bundles_localised_description_xyy_roguelike_52	Your general's AP and non-AP damage is increased.	false
+mod_info_xyy_roguelike_52	[[b]]+100%[[/b]] Base/AP Damage for all generals	false
+effect_bundles_localised_title_xyy_roguelike_53	Energetic	false
+effect_bundles_localised_description_xyy_roguelike_53	Your generals and units are immune to fatigue.	false
+mod_info_xyy_roguelike_53	Your generals and units are immune to fatigue.	false
+effect_bundles_localised_title_xyy_roguelike_54	I'm Invisible	false
+effect_bundles_localised_description_xyy_roguelike_54	Your generals and forces are sneak-enhanced.	false
+mod_info_xyy_roguelike_54	Your generals and forces can sneak around.	false
+effect_bundles_localised_title_xyy_roguelike_craft_weapons	Forging Weapon	false
+effect_bundles_localised_description_xyy_roguelike_craft_weapons	(3 Turns) Forge a Legendary Weapon. You need to have the Legendary Weaponsmith.	false
+mod_info_xyy_roguelike_craft_weapons	Forge a Legendary Weapon. You need to have the Legendary Weaponsmith. Finish after 3 turns and recycle this blessing	false
+effect_bundles_localised_title_xyy_roguelike_craft_armors	Crafting Armor	false
+effect_bundles_localised_description_xyy_roguelike_craft_armors	(2 Turns) Craft a Legendary Armor. You need to have the Legendary Armourer.	false
+mod_info_xyy_roguelike_craft_armors	Craft a Legendary Armor. You need to have the Legendary Armourer. Finish after 2 turns and recycle this blessing	false
+effect_bundles_localised_title_xyy_roguelike_craft_mounts	Training Horse	false
+effect_bundles_localised_description_xyy_roguelike_craft_mounts	(4 Turns) Tame a Legendary Horse. You need to have the Legendary Animal Tamer.	false
+mod_info_xyy_roguelike_craft_mounts	Tame a Legendary Horse. You need to have the Legendary Animal Tamer. Finish after 4 turns and recycle this blessing	false
+effect_bundles_localised_title_xyy_roguelike_craft_accessories	Explore Legend	false
+effect_bundles_localised_description_xyy_roguelike_craft_accessories	(2 Turns) Found a Legendary Accessory or Follower. You need to have the Imperial Palace.	false
+mod_info_xyy_roguelike_craft_accessories	Found a Legendary Accessory or Follower. You need to have the Imperial Palace. Finish after 2 turns and recycle this blessing	false
+effect_bundles_localised_title_xyy_roguelike_craft_weapons_1	Forging Weapon	false
+effect_bundles_localised_description_xyy_roguelike_craft_weapons_1	(3 Turns) Forge a Weapon. You need to have the Military Weaponsmith.	false
+mod_info_xyy_roguelike_craft_weapons_1	Forge a Weapon. You need to have the Military Weaponsmith. Finish after 3 turns and recycle this blessing	false
+effect_bundles_localised_title_xyy_roguelike_craft_armors_1	Crafting Armor	false
+effect_bundles_localised_description_xyy_roguelike_craft_armors_1	(2 Turns) Craft an Armor. You need to have the Military Armourer.	false
+mod_info_xyy_roguelike_craft_armors_1	Craft an Armor. You need to have the Military Armourer. Finish after 2 turns and recycle this blessing	false
+effect_bundles_localised_title_xyy_roguelike_craft_mounts_1	Training Horse	false
+effect_bundles_localised_description_xyy_roguelike_craft_mounts_1	(4 Turns) Tame a Horse. You need to have the Tribal Horse Host.	false
+mod_info_xyy_roguelike_craft_mounts_1	Tame a Horse. You need to have the Tribal Horse Host. Finish after 4 turns and recycle this blessing	false
+effect_bundles_localised_title_xyy_roguelike_craft_accessories_1	Explore Legend	false
+effect_bundles_localised_description_xyy_roguelike_craft_accessories_1	(2 Turns) Found an Accessory or Follower. You need to have the Commandery Directorate.	false
+mod_info_xyy_roguelike_craft_accessories_1	Found an Accessory or Follower. You need to have the Commandery Directorate. Finish after 2 turns and recycle this blessing	false
+mod_xyy_roguelike_icon_no_building	You're missing the corresponding building.	false
+mod_xyy_roguelike_icon_stopped	: The progress has been terminated and you are missing the corresponding building.	false
+mod_xyy_store_main_message_craft	You got: [[col:%1]][[b]]%2[[/b]][[/col]]	false
+missions_localised_title_xyy_roguelike_kill_hlyjci_dark	Hegemony: Defeat Fallen Ganyu	false
+missions_localised_description_xyy_roguelike_kill_hlyjci_dark	Fallen Ganyu is a fallen clone of Ganyu who is adept at hiding in mountains, forests, grass, and hills, always appearing in unexpected locations to conduct sneak attacks on our positions.	false
+campaign_payload_ui_details_description_kill_hlyjci_dark	Character killed: Fallen Ganyu	false
+missions_localised_title_xyy_roguelike_kill_hlyjcj_dark	Hegemony: Defeat Fallen Kafka	false
+missions_localised_description_xyy_roguelike_kill_hlyjcj_dark	Fallen Kafka is a fallen clone of Kafka who has a super high skill cooldown and high sustained armor breaking damage that puts our generals into a berserk state, causing passive skills to fail. There is no one who can stand and walk away from her skill range.	false
+campaign_payload_ui_details_description_kill_hlyjcj_dark	Character killed: Fallen Kafka	false
+missions_localised_title_xyy_roguelike_kill_hlyjck_dark	Hegemony: Defeat Fallen Jingliu	false
+missions_localised_description_xyy_roguelike_kill_hlyjck_dark	Fallen Jingliu is a fallen clone of Mirror Stream, with horrific skill damage and a continuous recovery of health while out of combat. But don't think that getting her into melee will solve the problem. In melee, her Mara will be transmitted to our side, causing our men to continue to lose life points and morale.	false
+campaign_payload_ui_details_description_kill_hlyjck_dark	Character killed: Fallen Jingliu	false
+missions_localised_title_xyy_roguelike_kill_hlyjcm_dark	Hegemony: Defeat Fallen Raiden Shogun	false
+missions_localised_description_xyy_roguelike_kill_hlyjcm_dark	Fallen Raiden Shogun is a fallen clone of Raiden Shogun, one of the most terrifying clones to date, and can even wipe out our forces in an instant, so be sure to always be sure to avoid going face-to-face with her!	false
+campaign_payload_ui_details_description_kill_hlyjcm_dark	Character killed: Fallen Raiden Shogun	false
+missions_localised_title_xyy_roguelike_kill_hlyjcn_dark	Hegemony: Defeat Fallen Keqing	false
+missions_localised_description_xyy_roguelike_kill_hlyjcn_dark	The Fallen Keqing is a fallen clone of Keqing, possessing decent melee combat abilities. Her extremely high skill recharge speed can easily cause massive casualties to our side. The Fallen Keqing also has excellent defensive capabilities, being immune to most forms of attack. Perhaps only mechanisms like shield penetration or bleeding can effectively harm her.	false
+campaign_payload_ui_details_description_kill_hlyjcn_dark	Character killed: Fallen Keqing	false
+missions_localised_title_xyy_roguelike_kill_hlyjcy_dark	Hegemony: Defeat Fallen Yelan	false
+missions_localised_description_xyy_roguelike_kill_hlyjcy_dark	The Fallen Yelan is a fallen clone of Yelan, possessing strong long-range attack capabilities. Be extremely cautious of her enhanced "Breakthrough Barb", which causes an area explosion upon hitting the target, inflicting massive damage to our troops. Engaging her in close combat might be the only viable option.	false
+campaign_payload_ui_details_description_kill_hlyjcy_dark	Character killed: Fallen Yelan	false
+missions_localised_title_xyy_roguelike_kill_hlyjda_dark	Hegemony: Defeat Fallen Eula	false
+missions_localised_description_xyy_roguelike_kill_hlyjda_dark	The Fallen Eula is Eula's fallen clone, possessing extremely high skill charge. While dealing skill damage, it also slows down and demoralizes surrounding soldiers. Close combat should be avoided as much as possible, as her skills can cause very high damage, and she is immune to most physical attacks.	false
+campaign_payload_ui_details_description_kill_hlyjda_dark	Character killed: Fallen Eula	false
+missions_localised_title_xyy_roguelike_kill_hlyjdi_dark	Hegemony: Defeat Fallen Yinlin	false
+missions_localised_description_xyy_roguelike_kill_hlyjdi_dark	The Fallen  Yinlin is the fallen clone of Yinlin, who locks our generals' skills in melee combat, slows down our troops, and causes continuous health loss (electric shock). It is advisable to avoid melee combat with her as her skills can cause heavy casualties to our soldiers.	false
+campaign_payload_ui_details_description_kill_hlyjdi_dark	Character killed: Fallen Yinlin	false
+missions_localised_title_xyy_roguelike_kill_hlyjdf_dark	Hegemony: Defeat Fallen Kujou Sara	false
+missions_localised_description_xyy_roguelike_kill_hlyjdf_dark	The Fallen Kujou Sara is a fallen clone of Kujou Sara, one of the most formidable enemies encountered thus far. Her quadruple-mounted "Tengu Stormcall" can inflict massive casualties on our soldiers in a short period, and in melee combat, she possesses wide-area clearing skills.	false
+campaign_payload_ui_details_description_kill_hlyjdf_dark	Character killed: Fallen Kujou Sara	false
+effect_bundles_localised_title_dark_character_easy	[[img:pooled_resource_credibility]][[/img]]+500	false
+effect_bundles_localised_title_dark_character_normal	[[img:pooled_resource_credibility]][[/img]]+700	false
+effect_bundles_localised_title_dark_character_hard	[[img:pooled_resource_credibility]][[/img]]+1000	false
+mission_text_xyy_roguelike_kill_hlyjci_dark	(Optional) Kill Fallen Ganyu in combat.	false
+mission_text_xyy_roguelike_kill_hlyjcj_dark	(Optional) Kill Fallen Kafka in combat.	false
+mission_text_xyy_roguelike_kill_hlyjck_dark	(Optional) Kill Fallen Jingliu in combat.	false
+mission_text_xyy_roguelike_kill_hlyjcm_dark	(Optional) Kill Fallen Raiden Shogun in combat.	false
+mission_text_xyy_roguelike_kill_hlyjcn_dark	(Optional) Kill Fallen Keqing in combat.	false
+mission_text_xyy_roguelike_kill_hlyjcy_dark	(Optional) Kill Fallen Yelan in combat.	false
+mission_text_xyy_roguelike_kill_hlyjda_dark	(Optional) Kill Fallen Eula in combat.	false
+mission_text_xyy_roguelike_kill_hlyjdi_dark	(Optional) Kill Fallen Yinlin in combat.	false
+mission_text_xyy_roguelike_kill_hlyjdf_dark	(Optional) Kill Fallen Kujou Sara in combat.	false
+map_pins_localised_title_hlyjci_dark	The Fallen Hero	false
+map_pins_localised_description_hlyjci_dark	Mission Objective	false
+map_pins_localised_title_hlyjcj_dark	The Fallen Hero	false
+map_pins_localised_description_hlyjcj_dark	Mission Objective	false
+map_pins_localised_title_hlyjck_dark	The Fallen Hero	false
+map_pins_localised_description_hlyjck_dark	Mission Objective	false
+map_pins_localised_title_hlyjcm_dark	The Fallen Hero	false
+map_pins_localised_description_hlyjcm_dark	Mission Objective	false
+map_pins_localised_title_hlyjcn_dark	The Fallen Hero	false
+map_pins_localised_description_hlyjcn_dark	Mission Objective	false
+map_pins_localised_title_hlyjcy_dark	The Fallen Hero	false
+map_pins_localised_description_hlyjcy_dark	Mission Objective	false
+map_pins_localised_title_hlyjda_dark	The Fallen Hero	false
+map_pins_localised_description_hlyjda_dark	Mission Objective	false
+map_pins_localised_title_hlyjdi_dark	The Fallen Hero	false
+map_pins_localised_description_hlyjdi_dark	Mission Objective	false
+map_pins_localised_title_hlyjdf_dark	The Fallen Hero	false
+map_pins_localised_description_hlyjdf_dark	Mission Objective	false
+missions_localised_title_xyy_roguelike_kill_hlyjdt_dark	Hegemony: Defeat Fallen Shenhe	false
+missions_localised_description_xyy_roguelike_kill_hlyjdt_dark	Fallen Shenhe is a Fallen clone of Shenhe who deals high damage to our side and disables our protection shield, as well as causing us to slow down.	false
+campaign_payload_ui_details_description_kill_hlyjdt_dark	Character killed: Fallen Shenhe	false
+mission_text_xyy_roguelike_kill_hlyjdt_dark	(Optional) Kill Fallen Shenhe in combat.	false
+map_pins_localised_title_hlyjdt_dark	The Fallen Hero	false
+map_pins_localised_description_hlyjdt_dark	Mission Objective	false
+effect_bundles_localised_title_xyy_roguelike_55	Treacherous	false
+effect_bundles_localised_description_xyy_roguelike_55	All generals and units can be deployed guerrilla.	false
+mod_info_xyy_roguelike_55	All generals and units can be deployed guerrilla.	false
+effect_bundles_localised_title_xyy_roguelike_56	Blade I	false
+effect_bundles_localised_description_xyy_roguelike_56	The forces' melee damage have increased slightly.	false
+mod_info_xyy_roguelike_56	[[b]]+10%[[/b]] Melee/Ranged Damage for all forces	false
+effect_bundles_localised_title_xyy_roguelike_57	Blade II	false
+effect_bundles_localised_description_xyy_roguelike_57	The force's melee damage have increased moderately.	false
+mod_info_xyy_roguelike_57	[[b]]+20%[[/b]] Melee/Ranged Damage for all forces	false
+effect_bundles_localised_title_xyy_roguelike_58	Blade III	false
+effect_bundles_localised_description_xyy_roguelike_58	The force's melee damage have increased greatly.	false
+mod_info_xyy_roguelike_58	[[b]]+40%[[/b]] Melee/Ranged Damage for all forces	false
+effect_bundles_localised_title_xyy_roguelike_59	Training I	false
+effect_bundles_localised_description_xyy_roguelike_59	The forces' melee and ranged defenses are increased slightly.	false
+mod_info_xyy_roguelike_59	[[b]]+5%[[/b]] Melee Evasion/Ranged Block Chance for all forces	false
+effect_bundles_localised_title_xyy_roguelike_60	Training II	false
+effect_bundles_localised_description_xyy_roguelike_60	The forces' melee and ranged defenses are increased moderately.	false
+mod_info_xyy_roguelike_60	[[b]]+10%[[/b]] Melee Evasion/Ranged Block Chance for all forces	false
+effect_bundles_localised_title_xyy_roguelike_61	Training III	false
+effect_bundles_localised_description_xyy_roguelike_61	The forces' melee and ranged defenses are increased greatly.	false
+mod_info_xyy_roguelike_61	[[b]]+20%[[/b]] Melee Evasion/Ranged Block Chance for all forces	false
+effect_bundles_localised_title_xyy_roguelike_62	Burning	false
+effect_bundles_localised_description_xyy_roguelike_62	All units unlock fire arrows and flaming artillery shells.	false
+mod_info_xyy_roguelike_62	All units unlock fire arrows and flaming artillery shells.	false
+effect_bundles_localised_title_xyy_roguelike_63	Enlist I	false
+effect_bundles_localised_description_xyy_roguelike_63	All forces replenishment increased slightly.	false
+mod_info_xyy_roguelike_63	 [[b]]+5%[[/b]] Replenishment for all units	false
+effect_bundles_localised_title_xyy_roguelike_64	Enlist II	false
+effect_bundles_localised_description_xyy_roguelike_64	All forces replenishment increased moderately.	false
+mod_info_xyy_roguelike_64	 [[b]]+10%[[/b]] Replenishment for all units	false
+effect_bundles_localised_title_xyy_roguelike_65	Enlist III	false
+effect_bundles_localised_description_xyy_roguelike_65	All forces replenishment increased greatly.	false
+mod_info_xyy_roguelike_65	 [[b]]+20%[[/b]] Replenishment for all units	false
+effect_bundles_localised_title_xyy_roguelike_66	Satisfactory	false
+effect_bundles_localised_description_xyy_roguelike_66	Increased satisfaction for all characters in faction.	false
+mod_info_xyy_roguelike_66	When a character's satisfaction is above 50, [[b]]+25[[/b]] Satisfaction for them; when a character's satisfaction is below 50,  [[b]]+50[[/b]] Satisfaction for them; when a character's satisfaction is below 25, [[b]]+75[[/b]] Satisfaction for them	false
+effect_bundles_localised_title_xyy_roguelike_sima_yi	Wolf Vision	false
+effect_bundles_localised_description_xyy_roguelike_sima_yi	Sima Yi joins.	false
+mod_info_xyy_roguelike_sima_yi	Sima Yi joins your faction, or has no real effect if Sima Yi is already in your faction	false
+effect_bundles_localised_title_xyy_roguelike_67	Ignoring Traps	false
+effect_bundles_localised_description_xyy_roguelike_67	An ambush by enemy forces is bound to fail	false
+mod_info_xyy_roguelike_67	In the faction wide, [[b]]+100%[[/b]] Chance of Avoiding Ambush	false
+missions_localised_title_xyy_roguelike_kill_hlyjdy_dark	Hegemony: Defeat Fallen Carlotta	false
+missions_localised_description_xyy_roguelike_kill_hlyjdy_dark	Fallen Carlotta is a fallen clone of Colletta, her long range attacks are extremely strong and have a high hit rate, which will be extremely detrimental to the battle if we can't get close enough to be effective.	false
+campaign_payload_ui_details_description_kill_hlyjdy_dark	Character killed: Fallen Carlotta	false
+mission_text_xyy_roguelike_kill_hlyjdy_dark	(Optional) Kill Fallen Carlotta in combat.	false
+map_pins_localised_title_hlyjdy_dark	The Fallen Hero	false
+map_pins_localised_description_hlyjdy_dark	Mission Objective	false
+mod_store_disble_reason_the_seven_kings_dead	[[col:effect_icon_supplement_negative]][[b]]This item is unavailable[[/b]][[/col]]\\nThe Seven Kings are fallen\\n\\n	false
+mod_store_disble_reason_already_have_character	[[col:effect_icon_supplement_negative]][[b]]This item is unavailable[[/b]][[/col]]\\nYou already has this character\\n\\n	false
+mod_store_disble_reason_character_dead	[[col:effect_icon_supplement_negative]][[b]]This item is unavailable[[/b]][[/col]]\\nThis character is dead\\n\\n	false
+effect_bundles_localised_title_xyy_roguelike_enemy_earth	“Destiny”	false
+effect_bundles_localised_description_xyy_roguelike_enemy_earth	The enemy is unbreakable, but fear the cavalry.	false
+mod_info_xyy_roguelike_enemy_earth	非玩家派系腐败减少，公共秩序增加；战场上表现为不溃和远程抗性，但抵抗冲锋能力大幅削弱。\\n\\n• 对远程单位和依赖远程攻击和技能的武将会很不友好\\n\\n• 可利用骑兵和增强冲击骑兵的武将快速击破敌军	false
+effect_bundles_localised_title_xyy_roguelike_enemy_wood	“Courage”	false
+effect_bundles_localised_description_xyy_roguelike_enemy_wood	The enemy generals are more aggressive, but they can't lose their generals.	false
+mod_info_xyy_roguelike_enemy_wood	非玩家派系军队补给增加，支援范围增加；战场上表现为更高的武将格斗能力，但士兵能力大幅削弱。\\n\\n• 敌方武将会增强自身与周围士兵的作战能力\\n\\n• 没有武将保护下的士兵会很容易被击溃\\n\\n• 利用对单能力强的武将斩杀敌对武将可快速击破敌军	false
+effect_bundles_localised_title_xyy_roguelike_enemy_metal	“Entrench”	false
+effect_bundles_localised_description_xyy_roguelike_enemy_metal	The enemy has a higher level of defense, but is very afraid of generals.	false
+mod_info_xyy_roguelike_enemy_metal	非玩家派系军队补员增加，防守时不溃；战场上表现为更高的防御水平，但进攻能力大幅削弱。\\n\\n• 敌方士兵惧怕武将\\n\\n• 对依赖造成物理伤害的士兵和武将会很不友好\\n\\n• 可利用火焰、淬毒、流血等伤害快速击破敌军	false
+effect_bundles_localised_title_xyy_roguelike_enemy_fire	“Breakout”	false
+effect_bundles_localised_description_xyy_roguelike_enemy_fire	Enemies have higher movement speed and damage, but fear ranged weapons.	false
+mod_info_xyy_roguelike_enemy_fire	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n• 对近战、护盾、防护类型的武将会很不友好\\n\\n• 敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军	false
+effect_bundles_localised_title_xyy_roguelike_enemy_water	“Strategy”	false
+effect_bundles_localised_description_xyy_roguelike_enemy_water	The enemy can ambush or hide, but is afraid of being exposed.	false
+mod_info_xyy_roguelike_enemy_water	非玩家派系武将解锁多种技能，更高的伏击成功率；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n• 敌方武将会掌握大量技能\\n\\n• 敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军	false
+mod_xyy_character_roguelike_select_enemy_effect	[[col:flavour]]Choose a Trend[[/col]]	false
+missions_localised_title_xyy_roguelike_kill_hlyjeb_dark	Hegemony: Defeat Fallen Cantarella	false
+missions_localised_description_xyy_roguelike_kill_hlyjeb_dark	Fallen Cantarella is a fallen clone of Cantarella, who has super long range vision that allows her to lock onto our generals' skills and limit our generals' abilities.	false
+campaign_payload_ui_details_description_kill_hlyjeb_dark	Character killed: Fallen Cantarella	false
+mission_text_xyy_roguelike_kill_hlyjeb_dark	(Optional) Kill Fallen Cantarella in combat.	false
+mod_title_xyy_roguelike_enemy_earth	"Destiny"	false
+mod_title_xyy_roguelike_enemy_wood	“Courage”	false
+mod_title_xyy_roguelike_enemy_metal	“Entrench”	false
+mod_title_xyy_roguelike_enemy_fire	“Breakout”	false
+mod_title_xyy_roguelike_enemy_water	“Strategy”	false
