@@ -1,474 +1,949 @@
-key	text	tooltip
-#Loc;1;text/!!!xyy_roguelike.loc		
-mod_xyy_roguelike_icon_earth	[[img:character_attribute_authority]][[/img]]	false
-mod_xyy_roguelike_description_earth	[[img:character_attribute_authority]][[/img]]for each point increase, faction wide morale +2, character satisfaction +1	false
-mod_xyy_roguelike_icon_fire	[[img:character_attribute_instinct]][[/img]]	false
-mod_xyy_roguelike_description_fire	[[img:character_attribute_instinct]][[/img]]for each point increase, all faction wide forces damage +3%, unit upkeep -1%	false
-mod_xyy_roguelike_icon_metal	[[img:character_attribute_expertise]][[/img]]	false
-mod_xyy_roguelike_description_metal	[[img:character_attribute_expertise]][[/img]]for each point increase, faction wide forces damage resistance +1%, building upkeep -2%	false
-mod_xyy_roguelike_icon_water	[[img:character_attribute_cunning]][[/img]]	false
-mod_xyy_roguelike_description_water	[[img:character_attribute_cunning]][[/img]]for each point increase, faction wide forces arrow capacity +2%, GDP +1%	false
-mod_xyy_roguelike_icon_wood	[[img:character_attribute_resolve]][[/img]]	false
-mod_xyy_roguelike_description_wood	[[img:character_attribute_resolve]][[/img]]for each point increase, faction wide generals health +2%, population increases +1000	false
-dilemmas_localised_title_roguelike_dilemma	Enable "Struggle Hegemony"?	false
-dilemmas_localised_description_roguelike_dilemma	Struggle Hegemony mode will randomly assign maps, and once enabled, will cancel all current missions and disable the Kafka storyline (Kafka will receive exclusive weapons and mounts directly). \\nCaution: This operation is not reversible. Depending on your hardware, it may take a few minutes to regenerate the map, so please be patient.	false
-cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemmaFIRST	Struggle Hegemony(Roguelike mode)	false
-cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemmaSECOND	Story Mode (Vanilla)	false
-dilemmas_localised_title_roguelike_dilemma_continue	Continue the Struggle Hegemony	false
-dilemmas_localised_description_roguelike_dilemma_continue	Detected unfinished character selection or blessing selection save, this save file might be damaged :( \\nClicking continue will try to fix it	false
-cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemma_continueFIRST	Continue	false
-uied_component_texts_localised_string_title_NewState_Text_2000005	[[col:flavour]]Choose Blessing[[/col]]	false
-uied_component_texts_localised_string_title_NewState_Text_2000006	[[col:flavour]]Hegemony Store[[/col]]	false
-mod_xyy_roguelike_info	Hover to view details||	false
-effect_bundles_localised_title_xyy_roguelike_1	People's Desire	false
-effect_bundles_localised_description_xyy_roguelike_1	After your region is occupied, if no new region is lost for one year, the region is forcibly reclaimed	false
-mod_info_xyy_roguelike_1	After your region is occupied, if no new region is lost for 5 turns, this region is forcibly reclaimed	false
-effect_bundles_localised_title_xyy_roguelike_2	Undiscouraged	false
-effect_bundles_localised_description_xyy_roguelike_2	When you get Decisive Defeat or Crushing Defeat, increases satisfaction and replenishment.	false
-mod_info_xyy_roguelike_2	When you get Decisive Defeat or Crushing Defeat, Faction wide replenishment +25%, character satisfaction +50 for 5 turns	false
-effect_bundles_localised_title_xyy_roguelike_3	The Winner	false
-effect_bundles_localised_description_xyy_roguelike_3	When you get Heroic Victory or Decisive Victory, all forces get unbreakable	false
-mod_info_xyy_roguelike_3	When you get Heroic Victory or Decisive Victory, all forces get unbreakable for 5 turns	false
-effect_bundles_localised_title_xyy_roguelike_4	It's All Mine	false
-effect_bundles_localised_description_xyy_roguelike_4	You are easier to capture enemy generals, and your generals are harder to capture by the enemy.	false
-mod_info_xyy_roguelike_4	All generals escape capture +50% and capture enemy generals +25%	false
-effect_bundles_localised_title_xyy_roguelike_5	Agricultural	false
-effect_bundles_localised_description_xyy_roguelike_5	Your food production and agricultural income increased	false
-mod_info_xyy_roguelike_5	 In the faction wide, [[b]]+200%[[/b]] Agricultural Income, [[b]]+5[[/b]] Food Production	false
-effect_bundles_localised_title_xyy_roguelike_6	Commercial	false
-effect_bundles_localised_description_xyy_roguelike_6	You can sign more trade agreements, with an increase in commercial income	false
-mod_info_xyy_roguelike_6	In the faction wide, [[b]]+2[[/b]] Available Trade Agreements, [[b]]+200%[[/b]] Commercial Income, [[b]]+500%[[/b]] Trade Influence	false
-effect_bundles_localised_title_xyy_roguelike_7	Army Factory	false
-effect_bundles_localised_description_xyy_roguelike_7	Decreased military upkeep and increased industrial income	false
-mod_info_xyy_roguelike_7	In the faction wide, -50% unit upkeep, +200% industrial income	false
-effect_bundles_localised_title_xyy_roguelike_8	Aeon Come	false
-effect_bundles_localised_description_xyy_roguelike_8	(5 turns) Your faction has unlocked the Path Blessing.	false
-mod_info_xyy_roguelike_8	Pray a Path Blessing, and you can re-pray it every spring. If Ruan Mei is in your faction, you can see all the under cards.	false
-effect_bundles_localised_title_xyy_roguelike_9	More Exp	false
-effect_bundles_localised_description_xyy_roguelike_9	Generals can gain more experience.	false
-mod_info_xyy_roguelike_9	[[b]]+200%[[/b]] Character Experience Increase for all generals	false
-effect_bundles_localised_title_xyy_roguelike_10	Store Grain	false
-effect_bundles_localised_description_xyy_roguelike_10	Increase force supplies and no longer suffer attrition due to supply shortages.	false
-mod_info_xyy_roguelike_10	[[b]]+30[[/b]] Supplies for all forces, and supply shortages no longer cause force attrition	false
-effect_bundles_localised_title_xyy_roguelike_11	Train Troops	false
-effect_bundles_localised_description_xyy_roguelike_11	Increase force upkeep and enhance force attributes such as damage, defense, etc.	false
-mod_info_xyy_roguelike_11	In the faction wide, [[b]]+30%[[/b]] Unit Upkeep Costs, [[b]]+200%[[/b]] Melee/Ranged Damage, [[b]]+50%[[/b]] Melee Evasion	false
-effect_bundles_localised_title_xyy_roguelike_12	Force Service	false
-effect_bundles_localised_description_xyy_roguelike_12	Decreased cost of recruitment for units, but increased mustering time.	false
-mod_info_xyy_roguelike_12	In the faction wide, [[b]]-90%[[/b]] Recruitment Costs, [[b]]+50%[[/b]] Mustering Time	false
-effect_bundles_localised_title_xyy_roguelike_13	Perfect Supply	false
-effect_bundles_localised_description_xyy_roguelike_13	Forces can be replenished in foreign territory.	false
-mod_info_xyy_roguelike_13	In foreign land, [[b]]+20%[[/b]] Replenishment for our units	false
-effect_bundles_localised_title_xyy_roguelike_14	Precious Speed	false
-effect_bundles_localised_description_xyy_roguelike_14	Increased range of movement of forces.	false
-mod_info_xyy_roguelike_14	[[b]]+100%[[/b]] Campaign Movement Range for all units	false
-effect_bundles_localised_title_xyy_roguelike_15	Just Minor Hurt	false
-effect_bundles_localised_description_xyy_roguelike_15	Your generals gain while wounded.	false
-mod_info_xyy_roguelike_15	When a general's resilience value is equal to his max resilience -1, [[b]]+200%[[/b]] Base Damage, [[b]]+200%[[/b]] AP Damage, [[b]]+200%[[/b]] Max Health, [[b]]+50%[[/b]] Movement Speed	false
-effect_bundles_localised_title_xyy_roguelike_16	Young Man!	false
-effect_bundles_localised_description_xyy_roguelike_16	The more young characters in the faction, the faster the exp of all generals increases.	false
-mod_info_xyy_roguelike_16	For every character under the age of 20 in your faction, [[b]]+20%[[/b]] Experience Increase for all characters within the faction wide, stackable up to 10 tiers	false
-effect_bundles_localised_title_xyy_roguelike_17	Elder Person	false
-effect_bundles_localised_description_xyy_roguelike_17	The more older characters in the faction, the more the morale of all forces increases.	false
-mod_info_xyy_roguelike_17	For every character over the age of 50 in your faction, [[b]]+5[[/b]] Morale for all forces within the faction wide, stackable up to 10 tiers	false
-effect_bundles_localised_title_xyy_roguelike_18	Powerful Army	false
-effect_bundles_localised_description_xyy_roguelike_18	All forces increase their AP damage greatly, but lose all non-AP damage.	false
-mod_info_xyy_roguelike_18	In the faction wide, [[b]]+200%[[/b]] AP Damage, [[b]]-100%[[/b]] Base Damage for all units	false
-effect_bundles_localised_title_xyy_roguelike_19	Plan B	false
-effect_bundles_localised_description_xyy_roguelike_19	If you lose the offensive battle, restore the army's action points.	false
-mod_info_xyy_roguelike_19	If you lose the battle as the attacking side, that unit's action points are restored to what they were at the start of the turn	false
-effect_bundles_localised_title_xyy_roguelike_20	Anti Corruption	false
-effect_bundles_localised_description_xyy_roguelike_20	Decreased corruption in your faction.	false
-mod_info_xyy_roguelike_20	In the faction wide, [[b]]-70%[[/b]] Corruption	false
-effect_bundles_localised_title_xyy_roguelike_21	Get More	false
-effect_bundles_localised_description_xyy_roguelike_21	You can get more resources [[img:pooled_resource_credibility]][[/img]] when you take a new region.	false
-mod_info_xyy_roguelike_21	[[b]]+10[[/b]][[img:pooled_resource_credibility]][[/img]] when you take a new region.	false
-effect_bundles_localised_title_xyy_roguelike_22	I'm Rich	false
-effect_bundles_localised_description_xyy_roguelike_22	At the end of the round, if the Treasury is less than 2,000, you get an additional 5,000.	false
-mod_info_xyy_roguelike_22	At the end of the round, if the Treasury is less than [[b]]2,000[[/b]], you get an additional [[b]]5,000[[/b]].	false
-effect_bundles_localised_title_xyy_roguelike_23	Need Help?	false
-effect_bundles_localised_description_xyy_roguelike_23	(5 Turns) Get a character immediate, but the satisfaction is decreased as a result.	false
-mod_info_xyy_roguelike_23	Draw a character immediately, faction-wide. [[b]]-75[[/b]] Character Satisfaction, lasts for 5 turns; after the duration ends, reclaim this "blessing"	false
-effect_bundles_localised_title_xyy_roguelike_24	Build Vigorously	false
-effect_bundles_localised_description_xyy_roguelike_24	Your city builds faster, cheaper, and can build more buildings.	false
-mod_info_xyy_roguelike_24	In the faction wide, -1 construction time, -50% construction cost, +2 construction slots	false
-effect_bundles_localised_title_xyy_roguelike_25	My Destiny	false
-effect_bundles_localised_description_xyy_roguelike_25	(15 turns) Forced change of non-player's faction's Hegemony Trend	false
-mod_info_xyy_roguelike_25	Forced change of non-player's faction's Hegemony Trend, after 15 turns, reclaim this blessing.	false
-effect_bundles_localised_title_xyy_roguelike_26	Aspirations	false
-effect_bundles_localised_description_xyy_roguelike_26	Our faction's satisfaction increased, enemy faction's satisfaction decreased.	false
-mod_info_xyy_roguelike_26	[[b]]+20[[/b]] Characters Satisfaction of our faction wide, [[b]]-20[[/b]] Characters Satisfaction of hostile factions	false
-effect_bundles_localised_title_xyy_roguelike_27	Volition	false
-effect_bundles_localised_description_xyy_roguelike_27	All skill cooldowns decreased.	false
-mod_info_xyy_roguelike_27	In the faction wide, [[b]]-25%[[/b]] Skill Cooldown of all generals	false
-effect_bundles_localised_title_xyy_roguelike_28	Sharp Blades	false
-effect_bundles_localised_description_xyy_roguelike_28	Increased Force Melee Defence and Attack Rate.	false
-mod_info_xyy_roguelike_28	In the faction wide, [[b]]+50%[[/b]] Melee Evasion, [[b]]+100%[[/b]] Melee Attack Rate for all units	false
-effect_bundles_localised_title_xyy_roguelike_29	Phoenix Born	false
-effect_bundles_localised_description_xyy_roguelike_29	Your characters and forces are immune to flame damage.	false
-mod_info_xyy_roguelike_29	In the faction wide, [[b]]+100%[[/b]] Flame Resistance for all units	false
-effect_bundles_localised_title_xyy_roguelike_30	Cavalry Rampage	false
-effect_bundles_localised_description_xyy_roguelike_30	The army's charge bonus is increased.	false
-mod_info_xyy_roguelike_30	In the faction wide, [[b]]+30%[[/b]] Melee Charge Bonus for all units	false
-effect_bundles_localised_title_xyy_roguelike_31	Technological	false
-effect_bundles_localised_description_xyy_roguelike_31	You can make reforms in summer.	false
-mod_info_xyy_roguelike_31	You can make a reform every summer.	false
-effect_bundles_localised_title_xyy_roguelike_32	Wo Long	false
-effect_bundles_localised_description_xyy_roguelike_32	Zhuge Liang joins.	false
-mod_info_xyy_roguelike_32	Legendary strategist Zhuge Liang joins the faction	false
-effect_bundles_localised_title_xyy_roguelike_33	Harass Enemy	false
-effect_bundles_localised_description_xyy_roguelike_33	If your city is under siege, the enemy forces will suffer a high consumption of supplies.	false
-mod_info_xyy_roguelike_33	[[b]]-100[[/b]] Supplies for enemy forces within your besieged city territory	false
-effect_bundles_localised_title_xyy_roguelike_34	Indomitable	false
-effect_bundles_localised_description_xyy_roguelike_34	Increase the resilience of generals	false
-mod_info_xyy_roguelike_34	In the faction wide,  [[b]]+1[[/b]] Resilience for all generals	false
-effect_bundles_localised_title_xyy_roguelike_35	Like a Wall	false
-effect_bundles_localised_description_xyy_roguelike_35	Forces can resist charges.	false
-mod_info_xyy_roguelike_35	In the faction wide, the army unlocked abilities: Charge Reflect, Charge Reflection vs Cavalry	false
-effect_bundles_localised_title_xyy_roguelike_36	Unexpected	false
-effect_bundles_localised_description_xyy_roguelike_36	Force ambushes are always successful.	false
-mod_info_xyy_roguelike_36	In the faction wide, [[b]]+100%[[/b]] Chance of Ambushing for all military forces	false
-effect_bundles_localised_title_xyy_roguelike_37	Total Defeat	false
-effect_bundles_localised_description_xyy_roguelike_37	After capturing the last city of a faction, whether it has any forces left, it will be destroyed.	false
-mod_info_xyy_roguelike_37	After capturing the last city of a faction, whether it has any forces left, it will be destroyed.	false
-effect_bundles_localised_title_xyy_roguelike_38	Fight or Die	false
-effect_bundles_localised_description_xyy_roguelike_38	If the forces have retreated, they gain unbreakable and cannot be captured when attacked again.	false
-mod_info_xyy_roguelike_38	If your army has already retreated once this turn while defending, it gains Unbreakable.	false
-effect_bundles_localised_title_xyy_roguelike_39	Unstoppable	false
-effect_bundles_localised_description_xyy_roguelike_39	When you attack and take a victory, you will restored the action points.	false
-mod_info_xyy_roguelike_39	If you win the battle as the attacking side, that unit's action points are restored to what they were at the start of the turn	false
-effect_bundles_localised_title_xyy_roguelike_40	Civilization	false
-effect_bundles_localised_description_xyy_roguelike_40	There's no corruption in your level 10 city.	false
-mod_info_xyy_roguelike_40	[[b]]-100%[[/b]] Corruption for every level 10 city 	false
-effect_bundles_localised_title_xyy_roguelike_41	Capture	false
-effect_bundles_localised_description_xyy_roguelike_41	If you succeed in ambushing and win, the enemy generals will be almost unable to escape.	false
-mod_info_xyy_roguelike_41	When you successfully launch an ambush and win, [[b]]-100%[[/b]] Escaping Chance for the enemy generals	false
-effect_bundles_localised_title_xyy_roguelike_42	Invulnerable	false
-effect_bundles_localised_description_xyy_roguelike_42	Your forces are immune to poisoning and bleeding damage.	false
-mod_info_xyy_roguelike_42	[[b]]+100%[[/b]] Bleeding Resistance	false
-effect_bundles_localised_title_xyy_roguelike_43	More Governor	false
-effect_bundles_localised_description_xyy_roguelike_43	You can assign more governors.	false
-mod_info_xyy_roguelike_43	[[b]]+2[[/b]] Available Administrator Positions	false
-effect_bundles_localised_title_xyy_roguelike_44	Unharmed	false
-effect_bundles_localised_description_xyy_roguelike_44	Your generals will no longer be disabled.	false
-mod_info_xyy_roguelike_44	Your generals will no longer be disabled.	false
-effect_bundles_localised_title_xyy_roguelike_45	I'm not Tired	false
-effect_bundles_localised_description_xyy_roguelike_45	All generals are immune to fatigue.	false
-mod_info_xyy_roguelike_45	All generals are immune to fatigue.	false
-effect_bundles_localised_title_xyy_roguelike_46	Support	false
-effect_bundles_localised_description_xyy_roguelike_46	Increased support range for generals.	false
-mod_info_xyy_roguelike_46	[[b]]+100%[[/b]] Reinforcement Range for all generals.	false
-effect_bundles_localised_title_xyy_roguelike_47	Special Arrows	false
-effect_bundles_localised_description_xyy_roguelike_47	The force's arrows damage is greatly increased, but the ammo is decreased.	false
-mod_info_xyy_roguelike_47	In the faction wide, [[b]]+100%[[/b]] Ranged Damage, [[/b]]-30%[[b]] Arrow Amount	false
-effect_bundles_localised_title_xyy_roguelike_48	Modern City	false
-effect_bundles_localised_description_xyy_roguelike_48	Your level 10 city waives all building upkeep costs.	false
-mod_info_xyy_roguelike_48	[[b]]-100%[[/b]] Building Upkeep Costs for all level 10 cities	false
-effect_bundles_localised_title_xyy_roguelike_49	Live in Peace	false
-effect_bundles_localised_description_xyy_roguelike_49	Food production in your level 10 city has increased greatly.	false
-mod_info_xyy_roguelike_49	+100% Food production in level 10 cities	false
-effect_bundles_localised_title_xyy_roguelike_50	Mom's Treasure	false
-effect_bundles_localised_description_xyy_roguelike_50	(1 Turn) You get 30 [[img:pooled_resource_credibility]][[/img]] for each level 10 city you have.	false
-mod_info_xyy_roguelike_50	You gain [[b]]30[[/b]] [[img:pooled_resource_credibility]][[/img]] for each level 10 city you own; after 1 turn, take back this blessing.	false
-effect_bundles_localised_title_xyy_roguelike_51	Stake All	false
-effect_bundles_localised_description_xyy_roguelike_51	(1 Turn) Take a character immediately, but lose all [[img:pooled_resource_credibility]][[/img]], you have a probability to take again.	false
-mod_info_xyy_roguelike_51	You lose all [[img:pooled_resource_credibility]][[/img]] and immediately draw the character once. After selecting the character, you have a 50% chance of selecting the character again; after 1 turn, reclaim this "blessing"	false
-effect_bundles_localised_title_xyy_roguelike_the_seven_kings	The Seven Kings	false
-effect_bundles_localised_description_xyy_roguelike_the_seven_kings	Get the Seven Kings immediately.	false
-mod_info_xyy_roguelike_the_seven_kings	Gain all the Seven Kings.	false
-effect_bundles_localised_title_xyy_roguelike_max_1	Option I	false
-effect_bundles_localised_description_xyy_roguelike_max_1	Add a blessing option.	false
-mod_info_xyy_roguelike_max_1	[[b]]+1[[/b]] Optional Blessing	false
-effect_bundles_localised_title_xyy_roguelike_max_2	Option II	false
-effect_bundles_localised_description_xyy_roguelike_max_2	Add a blessing option.	false
-mod_info_xyy_roguelike_max_2	[[b]]+1[[/b]] Optional Blessing	false
-effect_bundles_localised_title_xyy_roguelike_max_3	Option III	false
-effect_bundles_localised_description_xyy_roguelike_max_3	Add a blessing option.	false
-mod_info_xyy_roguelike_max_3	[[b]]+1[[/b]] Optional Blessing	false
-effect_bundles_localised_title_xyy_roguelike_max_4	Option IV	false
-effect_bundles_localised_description_xyy_roguelike_max_4	Add a blessing option .	false
-mod_info_xyy_roguelike_max_4	[[b]]+1[[/b]] Optional Blessing	false
-effect_bundles_localised_title_xyy_roguelike_max_character_browser_1	Character I	false
-effect_bundles_localised_description_xyy_roguelike_max_character_browser_1	Add a character option.	false
-mod_info_xyy_roguelike_max_characte_browserr_1	[[b]]+1[[/b]] Character Option, only shows remaining characters if fewer than selection limit.	false
-effect_bundles_localised_title_xyy_roguelike_max_character_browser_2	Character II	false
-effect_bundles_localised_description_xyy_roguelike_max_character_browser_2	Add a character option.	false
-mod_info_xyy_roguelike_max_character_browser_2	[[b]]+1[[/b]] Character Option, only shows remaining characters if fewer than selection limit.	false
-effect_bundles_localised_title_xyy_roguelike_max_character_browser_3	Character III	false
-effect_bundles_localised_description_xyy_roguelike_max_character_browser_3	Add a character option.	false
-mod_info_xyy_roguelike_max_character_browser_3	[[b]]+1[[/b]] Character Option, only shows remaining characters if fewer than selection limit.	false
-effect_bundles_localised_title_xyy_roguelike_max_character_browser_4	Character IV	false
-effect_bundles_localised_description_xyy_roguelike_max_character_browser_4	Add a character option.	false
-mod_info_xyy_roguelike_max_character_browser_4	[[b]]+1[[/b]] Character Option, only shows remaining characters if fewer than selection limit.	false
-effect_bundles_localised_title_xyy_roguelike_max_character_1	I'll Take It	false
-effect_bundles_localised_description_xyy_roguelike_max_character_1	You can take two characters at once.	false
-mod_info_xyy_roguelike_max_character_1	[[b]]+1[[/b]] Selectable Character, only shows remaining characters if fewer than selection limit.	false
-mod_xyy_roguelike_confirm	Resource:	false
-mod_xyy_roguelike_confirm_wait	Settle...	false
-campaign_diplomacy_treaty_availability_reasons_description_roguelike_mode	\\n[[col:red]]Hegemony mode does not allow for this type of diplomacy.[[/col]]	false
-mission_text_text_treaty_components_war	(Optional) Choose a faction to declare war on	false
-missions_localised_title_xyy_roguelike_mission_ready	Hegemony: Preparatory Phase	false
-missions_localised_description_xyy_roguelike_mission_ready	When you are ready, choose a faction to declare war on and destroy the other side in time to receive a reward. If you have not declared war after the timer has expired, a random faction will declare war on you.	false
-effect_bundles_localised_title_xyy_roguelike_redraw_1	Try Again?	false
-effect_bundles_localised_description_xyy_roguelike_redraw_1	You can refresh your blessing options once.	false
-mod_info_xyy_roguelike_redraw_1	You can refresh it once each time you choose a blessing.	false
-missions_localised_title_xyy_roguelike_mission_easy	Hegemony: Destroy Faction	false
-missions_localised_description_xyy_roguelike_mission_easy	Destroy the target faction, and possibly earn more rewards if you can destroy them in a faster timeframe.	false
-campaign_payload_ui_details_description_xyy_roguelike_mission_easy	[[img:pooled_resource_credibility]][[/img]]+100\\nExtra for completing within 10 turns: [[img:pooled_resource_credibility]][[/img]]+50	false
-missions_localised_title_xyy_roguelike_mission_normal	Hegemony: Destroy Faction	false
-missions_localised_description_xyy_roguelike_mission_normal	Destroy the target faction, and possibly earn more rewards if you can destroy them in a faster timeframe.	false
-campaign_payload_ui_details_description_xyy_roguelike_mission_normal	[[img:pooled_resource_credibility]][[/img]]+200\\nExtra for completing within 15 turns: [[img:pooled_resource_credibility]][[/img]]+100	false
-missions_localised_title_xyy_roguelike_mission_hard	Hegemony: Destroy Faction	false
-missions_localised_description_xyy_roguelike_mission_hard	Destroy the target faction, and possibly earn more rewards if you can destroy them in a faster timeframe.	false
-campaign_payload_ui_details_description_xyy_roguelike_mission_hard	[[img:pooled_resource_credibility]][[/img]]+400\\nExtra for completing within 20 turns: [[img:pooled_resource_credibility]][[/img]]+200	false
-missions_localised_title_xyy_roguelike_mission_xyyhlyjf	Hegemony: Destroy Faction	false
-missions_localised_description_xyy_roguelike_mission_xyyhlyjf	As you continue to battle in the war, you are now left with only the unstoppable Phantylia as your target, and it's time for you to fight her!	false
-campaign_payload_ui_details_description_xyy_roguelike_mission_xyyhlyjf	Winning the game	false
-mod_xyy_character_roguelike_select	[[col:flavour]]Choose the Character[[/col]]	false
-mod_xyy_character_roguelike_select_first	[[col:flavour]]Choose the Character[[/col]]	false
-dilemmas_localised_title_roguelike_dilemma_first_select	Choose your starting characters	false
-dilemmas_localised_description_roguelike_dilemma_first_select	Select your initial character and the character will join your faction immediately after you finish the choice.	false
-cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemma_first_selectFIRST	Understand	false
-missions_localised_title_xyy_roguelike_mission_boss	Hegemony: Fight With Phantylia	false
-missions_localised_description_xyy_roguelike_mission_boss	My Lord, now that we stand supreme above all rivals, the time has come to face Phantylia in battle!	false
-missions_localised_title_xyy_roguelike_mission_boss_2	Hegemony: Fight Again With Phantylia	false
-missions_localised_description_xyy_roguelike_mission_boss_2	My Lord, Phantylia is routed! Let us press our advantage and give chase!	false
-missions_localised_title_xyy_roguelike_mission_boss_3	Hegemony: The Final Battle	false
-missions_localised_description_xyy_roguelike_mission_boss_3	My Lord, though Phantylia flees swiftly, her doom is certain! This time we must ensure her escape ends beneath our blades!	false
-incidents_localised_title_roguelike_info_ticket	Hegemony: Tips	false
-incidents_localised_description_roguelike_info_ticket	Resources [[img:pooled_resource_credibility]][[/img]] can be obtained by occupying regions\\nMajor city: +50[[img:pooled_resource_credibility]][[/img]]\\nResource city: +20[[img:pooled_resource_credibility]][[/img]]\\n\\nRepeated occupations will not yield resources [[img:pooled_resource_credibility]][[/img]]\\nFor every 200 points of resources [[img:pooled_resource_credibility]][[/img]] accumulated, you can get a chance to choose a blessing.	false
-incidents_localised_title_xyy_roguelike_enemy_earth_1	The Trend of Destiny	false
-incidents_localised_description_xyy_roguelike_enemy_earth_1	Non-player faction corruption is reduced and public order is increased; it manifests on the battlefield as unbreakable and ranged resistance, but resistance to charge is weakened significantly.\\n\\nCould be unfriendly to ranged units or generals.\\n\\nCan quickly break enemy forces by using cavalry and generals with enhanced shock ability.	false
-incidents_localised_title_xyy_roguelike_enemy_earth_2	The Trend of Destiny: Level 2	false
-incidents_localised_description_xyy_roguelike_enemy_earth_2	Non-player faction corruption is reduced and public order is increased; it manifests on the battlefield as unbreakable and ranged resistance, but resistance to charge is weakened significantly.\\n\\nCould be unfriendly to ranged units or generals.\\n\\nCan quickly break enemy forces by using cavalry and generals with enhanced shock ability.	false
-incidents_localised_title_xyy_roguelike_enemy_earth_3	The Trend of Destiny: Level 3	false
-incidents_localised_description_xyy_roguelike_enemy_earth_3	Non-player faction corruption is reduced and public order is increased; it manifests on the battlefield as unbreakable and ranged resistance, but resistance to charge is weakened significantly.\\n\\nCould be unfriendly to ranged units or generals.\\n\\nCan quickly break enemy forces by using cavalry and generals with enhanced shock ability.	false
-incidents_localised_title_xyy_roguelike_enemy_earth_4	The Trend of Destiny: Level 4	false
-incidents_localised_description_xyy_roguelike_enemy_earth_4	Non-player faction corruption is reduced and public order is increased; it manifests on the battlefield as unbreakable and ranged resistance, but resistance to charge is weakened significantly.\\n\\nCould be unfriendly to ranged units or generals.\\n\\nCan quickly break enemy forces by using cavalry and generals with enhanced shock ability.	false
-incidents_localised_title_xyy_roguelike_enemy_earth_5	The Trend of Destiny: Level 5	false
-incidents_localised_description_xyy_roguelike_enemy_earth_5	Non-player faction corruption is reduced and public order is increased; it manifests on the battlefield as unbreakable and ranged resistance, but resistance to charge is weakened significantly.\\n\\nCould be unfriendly to ranged units or generals.\\n\\nCan quickly break enemy forces by using cavalry and generals with enhanced shock ability.	false
-incidents_localised_title_xyy_roguelike_enemy_earth_6	The Trend of Destiny: Level 6	false
-incidents_localised_description_xyy_roguelike_enemy_earth_6	Non-player faction corruption is reduced and public order is increased; it manifests on the battlefield as unbreakable and ranged resistance, but resistance to charge is weakened significantly.\\n\\nCould be unfriendly to ranged units or generals.\\n\\nCan quickly break enemy forces by using cavalry and generals with enhanced shock ability.	false
-incidents_localised_title_xyy_roguelike_enemy_wood_1	The Trend of Courage	false
-incidents_localised_description_xyy_roguelike_enemy_wood_1	Higher general ability to fight, but significantly weakened soldier ability.\\n\\nEnemy generals will enhance their own fighting ability and that of the soldiers around them.\\n\\nSoldiers who are not protected by a general can be easily defeated.\\n\\nUsing a powerful general to kill an enemy general can quickly break the enemy army.	false
-incidents_localised_title_xyy_roguelike_enemy_wood_2	The Trend of Courage: Level 2	false
-incidents_localised_description_xyy_roguelike_enemy_wood_2	Higher AI general ability to fight, but significantly weakened soldier ability.\\n\\nEnemy generals will enhance their own fighting ability and that of the soldiers around them.\\n\\nSoldiers who are not protected by a general can be easily defeated.\\n\\nUsing a powerful general to kill an enemy general can quickly break the enemy army.	false
-incidents_localised_title_xyy_roguelike_enemy_wood_3	The Trend of Courage: Level 3	false
-incidents_localised_description_xyy_roguelike_enemy_wood_3	Higher AI general ability to fight, but significantly weakened soldier ability.\\n\\nEnemy generals will enhance their own fighting ability and that of the soldiers around them.\\n\\nSoldiers who are not protected by a general can be easily defeated.\\n\\nUsing a powerful general to kill an enemy general can quickly break the enemy army.	false
-incidents_localised_title_xyy_roguelike_enemy_wood_4	The Trend of Courage: Level 4	false
-incidents_localised_description_xyy_roguelike_enemy_wood_4	Higher AI general ability to fight, but significantly weakened soldier ability.\\n\\nEnemy generals will enhance their own fighting ability and that of the soldiers around them.\\n\\nSoldiers who are not protected by a general can be easily defeated.\\n\\nUsing a powerful general to kill an enemy general can quickly break the enemy army.	false
-incidents_localised_title_xyy_roguelike_enemy_wood_5	The Trend of Courage: Level 5	false
-incidents_localised_description_xyy_roguelike_enemy_wood_5	Higher AI general ability to fight, but significantly weakened soldier ability.\\n\\nEnemy generals will enhance their own fighting ability and that of the soldiers around them.\\n\\nSoldiers who are not protected by a general can be easily defeated.\\n\\nUsing a powerful general to kill an enemy general can quickly break the enemy army.	false
-incidents_localised_title_xyy_roguelike_enemy_wood_6	The Trend of Courage: Level 6	false
-incidents_localised_description_xyy_roguelike_enemy_wood_6	Highe AI general ability to fight, but significantly weakened soldier ability.\\n\\nEnemy generals will enhance their own fighting ability and that of the soldiers around them.\\n\\nSoldiers who are not protected by a general can be easily defeated.\\n\\nUsing a powerful general to kill an enemy general can quickly break the enemy army.	false
-incidents_localised_title_xyy_roguelike_enemy_metal_1	The Trend of Entrench	false
-incidents_localised_description_xyy_roguelike_enemy_metal_1	Increased replenishment, unbreakable on defense for non-player force, but attack capability weakened dramatically.\\n\\nCould be unfriendly to soldiers and generals who rely on inflicting physical damage;\\n\\nEnemy armies can be broken quickly by utilizing damage such as flames, poison and bleeds etc.	false
-incidents_localised_title_xyy_roguelike_enemy_metal_2	The Trend of Entrench: Level 2	false
-incidents_localised_description_xyy_roguelike_enemy_metal_2	Increased replenishment, unbreakable on defense for non-player force, but attack capability weakened dramatically.\\n\\nCould be unfriendly to soldiers and generals who rely on inflicting physical damage;\\n\\nEnemy armies can be broken quickly by utilizing damage such as flames, poison and bleeds etc.	false
-incidents_localised_title_xyy_roguelike_enemy_metal_3	The Trend of Entrench: Level 3	false
-incidents_localised_description_xyy_roguelike_enemy_metal_3	Increased replenishment, unbreakable on defense for non-player force, but attack capability weakened dramatically.\\n\\nCould be unfriendly to soldiers and generals who rely on inflicting physical damage;\\n\\nEnemy armies can be broken quickly by utilizing damage such as flames, poison and bleeds etc.	false
-incidents_localised_title_xyy_roguelike_enemy_metal_4	The Trend of Entrench: Level 4	false
-incidents_localised_description_xyy_roguelike_enemy_metal_4	Increased replenishment, unbreakable on defense for non-player force, but attack capability weakened dramatically.\\n\\nCould be unfriendly to soldiers and generals who rely on inflicting physical damage;\\n\\nEnemy armies can be broken quickly by utilizing damage such as flames, poison and bleeds etc.	false
-incidents_localised_title_xyy_roguelike_enemy_metal_5	The Trend of Entrench: Level 5	false
-incidents_localised_description_xyy_roguelike_enemy_metal_5	Increased replenishment, unbreakable on defense for non-player force, but attack capability weakened dramatically.\\n\\nCould be unfriendly to soldiers and generals who rely on inflicting physical damage;\\n\\nEnemy armies can be broken quickly by utilizing damage such as flames, poison and bleeds etc.	false
-incidents_localised_title_xyy_roguelike_enemy_metal_6	The Trend of Entrench: Level 6	false
-incidents_localised_description_xyy_roguelike_enemy_metal_6	Increased replenishment, unbreakable on defense for non-player force, but attack capability weakened dramatically.\\n\\nCould be unfriendly to soldiers and generals who rely on inflicting physical damage;\\n\\nEnemy armies can be broken quickly by utilizing damage such as flames, poison and bleeds etc.	false
-incidents_localised_title_xyy_roguelike_enemy_fire_1	The Trend of Breakout	false
-incidents_localised_description_xyy_roguelike_enemy_fire_1	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false
-incidents_localised_title_xyy_roguelike_enemy_fire_2	The Trend of Breakout: Level 2	false
-incidents_localised_description_xyy_roguelike_enemy_fire_2	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false
-incidents_localised_title_xyy_roguelike_enemy_fire_3	The Trend of Breakout: Level 3	false
-incidents_localised_description_xyy_roguelike_enemy_fire_3	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false
-incidents_localised_title_xyy_roguelike_enemy_fire_4	The Trend of Breakout: Level 4	false
-incidents_localised_description_xyy_roguelike_enemy_fire_4	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false
-incidents_localised_title_xyy_roguelike_enemy_fire_5	The Trend of Breakout: Level 5	false
-incidents_localised_description_xyy_roguelike_enemy_fire_5	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false
-incidents_localised_title_xyy_roguelike_enemy_fire_6	The Trend of Breakout: Level 6	false
-incidents_localised_description_xyy_roguelike_enemy_fire_6	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false
-incidents_localised_title_xyy_roguelike_enemy_water_1	The Trend of Strategy	false
-incidents_localised_description_xyy_roguelike_enemy_water_1	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false
-incidents_localised_title_xyy_roguelike_enemy_water_2	The Trend of Strategy: Level 2	false
-incidents_localised_description_xyy_roguelike_enemy_water_2	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false
-incidents_localised_title_xyy_roguelike_enemy_water_3	The Trend of Strategy: Level 3	false
-incidents_localised_description_xyy_roguelike_enemy_water_3	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false
-incidents_localised_title_xyy_roguelike_enemy_water_4	The Trend of Strategy: Level 4	false
-incidents_localised_description_xyy_roguelike_enemy_water_4	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false
-incidents_localised_title_xyy_roguelike_enemy_water_5	The Trend of Strategy: Level 5	false
-incidents_localised_description_xyy_roguelike_enemy_water_5	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false
-incidents_localised_title_xyy_roguelike_enemy_water_6	The Trend of Strategy: Level 6	false
-incidents_localised_description_xyy_roguelike_enemy_water_6	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false
-effect_bundles_localised_title_xyy_roguelike_52	Unstoppable	false
-effect_bundles_localised_description_xyy_roguelike_52	Your general's AP and non-AP damage is increased.	false
-mod_info_xyy_roguelike_52	[[b]]+100%[[/b]] Base/AP Damage for all generals	false
-effect_bundles_localised_title_xyy_roguelike_53	Energetic	false
-effect_bundles_localised_description_xyy_roguelike_53	Your generals and units are immune to fatigue.	false
-mod_info_xyy_roguelike_53	Your generals and units are immune to fatigue.	false
-effect_bundles_localised_title_xyy_roguelike_54	I'm Invisible	false
-effect_bundles_localised_description_xyy_roguelike_54	Your generals and forces are sneak-enhanced.	false
-mod_info_xyy_roguelike_54	Your generals and forces can sneak around.	false
-effect_bundles_localised_title_xyy_roguelike_craft_weapons	Forging Weapon	false
-effect_bundles_localised_description_xyy_roguelike_craft_weapons	(3 Turns) Forge a Legendary Weapon. You need to have the Legendary Weaponsmith.	false
-mod_info_xyy_roguelike_craft_weapons	Forge a Legendary Weapon. You need to have the Legendary Weaponsmith. Finish after 3 turns and recycle this blessing	false
-effect_bundles_localised_title_xyy_roguelike_craft_armors	Crafting Armor	false
-effect_bundles_localised_description_xyy_roguelike_craft_armors	(2 Turns) Craft a Legendary Armor. You need to have the Legendary Armourer.	false
-mod_info_xyy_roguelike_craft_armors	Craft a Legendary Armor. You need to have the Legendary Armourer. Finish after 2 turns and recycle this blessing	false
-effect_bundles_localised_title_xyy_roguelike_craft_mounts	Training Horse	false
-effect_bundles_localised_description_xyy_roguelike_craft_mounts	(4 Turns) Tame a Legendary Horse. You need to have the Legendary Animal Tamer.	false
-mod_info_xyy_roguelike_craft_mounts	Tame a Legendary Horse. You need to have the Legendary Animal Tamer. Finish after 4 turns and recycle this blessing	false
-effect_bundles_localised_title_xyy_roguelike_craft_accessories	Explore Legend	false
-effect_bundles_localised_description_xyy_roguelike_craft_accessories	(2 Turns) Found a Legendary Accessory or Follower. You need to have the Imperial Palace.	false
-mod_info_xyy_roguelike_craft_accessories	Found a Legendary Accessory or Follower. You need to have the Imperial Palace. Finish after 2 turns and recycle this blessing	false
-effect_bundles_localised_title_xyy_roguelike_craft_weapons_1	Forging Weapon	false
-effect_bundles_localised_description_xyy_roguelike_craft_weapons_1	(3 Turns) Forge a Weapon. You need to have the Military Weaponsmith.	false
-mod_info_xyy_roguelike_craft_weapons_1	Forge a Weapon. You need to have the Military Weaponsmith. Finish after 3 turns and recycle this blessing	false
-effect_bundles_localised_title_xyy_roguelike_craft_armors_1	Crafting Armor	false
-effect_bundles_localised_description_xyy_roguelike_craft_armors_1	(2 Turns) Craft an Armor. You need to have the Military Armourer.	false
-mod_info_xyy_roguelike_craft_armors_1	Craft an Armor. You need to have the Military Armourer. Finish after 2 turns and recycle this blessing	false
-effect_bundles_localised_title_xyy_roguelike_craft_mounts_1	Training Horse	false
-effect_bundles_localised_description_xyy_roguelike_craft_mounts_1	(4 Turns) Tame a Horse. You need to have the Tribal Horse Host.	false
-mod_info_xyy_roguelike_craft_mounts_1	Tame a Horse. You need to have the Tribal Horse Host. Finish after 4 turns and recycle this blessing	false
-effect_bundles_localised_title_xyy_roguelike_craft_accessories_1	Explore Legend	false
-effect_bundles_localised_description_xyy_roguelike_craft_accessories_1	(2 Turns) Found an Accessory or Follower. You need to have the Commandery Directorate.	false
-mod_info_xyy_roguelike_craft_accessories_1	Found an Accessory or Follower. You need to have the Commandery Directorate. Finish after 2 turns and recycle this blessing	false
-mod_xyy_roguelike_icon_no_building	You're missing the corresponding building.	false
-mod_xyy_roguelike_icon_stopped	: The progress has been terminated and you are missing the corresponding building.	false
-mod_xyy_store_main_message_craft	You got: [[col:%1]][[b]]%2[[/b]][[/col]]	false
-missions_localised_title_xyy_roguelike_kill_hlyjci_dark	Hegemony: Defeat Fallen Ganyu	false
-missions_localised_description_xyy_roguelike_kill_hlyjci_dark	Fallen Ganyu is a fallen clone of Ganyu who is adept at hiding in mountains, forests, grass, and hills, always appearing in unexpected locations to conduct sneak attacks on our positions.	false
-campaign_payload_ui_details_description_kill_hlyjci_dark	Character killed: Fallen Ganyu	false
-missions_localised_title_xyy_roguelike_kill_hlyjcj_dark	Hegemony: Defeat Fallen Kafka	false
-missions_localised_description_xyy_roguelike_kill_hlyjcj_dark	Fallen Kafka is a fallen clone of Kafka who has a super high skill cooldown and high sustained armor breaking damage that puts our generals into a berserk state, causing passive skills to fail. There is no one who can stand and walk away from her skill range.	false
-campaign_payload_ui_details_description_kill_hlyjcj_dark	Character killed: Fallen Kafka	false
-missions_localised_title_xyy_roguelike_kill_hlyjck_dark	Hegemony: Defeat Fallen Jingliu	false
-missions_localised_description_xyy_roguelike_kill_hlyjck_dark	Fallen Jingliu is a fallen clone of Mirror Stream, with horrific skill damage and a continuous recovery of health while out of combat. But don't think that getting her into melee will solve the problem. In melee, her Mara will be transmitted to our side, causing our men to continue to lose life points and morale.	false
-campaign_payload_ui_details_description_kill_hlyjck_dark	Character killed: Fallen Jingliu	false
-missions_localised_title_xyy_roguelike_kill_hlyjcm_dark	Hegemony: Defeat Fallen Raiden Shogun	false
-missions_localised_description_xyy_roguelike_kill_hlyjcm_dark	Fallen Raiden Shogun is a fallen clone of Raiden Shogun, one of the most terrifying clones to date, and can even wipe out our forces in an instant, so be sure to always be sure to avoid going face-to-face with her!	false
-campaign_payload_ui_details_description_kill_hlyjcm_dark	Character killed: Fallen Raiden Shogun	false
-missions_localised_title_xyy_roguelike_kill_hlyjcn_dark	Hegemony: Defeat Fallen Keqing	false
-missions_localised_description_xyy_roguelike_kill_hlyjcn_dark	The Fallen Keqing is a fallen clone of Keqing, possessing decent melee combat abilities. Her extremely high skill recharge speed can easily cause massive casualties to our side. The Fallen Keqing also has excellent defensive capabilities, being immune to most forms of attack. Perhaps only mechanisms like shield penetration or bleeding can effectively harm her.	false
-campaign_payload_ui_details_description_kill_hlyjcn_dark	Character killed: Fallen Keqing	false
-missions_localised_title_xyy_roguelike_kill_hlyjcy_dark	Hegemony: Defeat Fallen Yelan	false
-missions_localised_description_xyy_roguelike_kill_hlyjcy_dark	The Fallen Yelan is a fallen clone of Yelan, possessing strong long-range attack capabilities. Be extremely cautious of her enhanced "Breakthrough Barb", which causes an area explosion upon hitting the target, inflicting massive damage to our troops. Engaging her in close combat might be the only viable option.	false
-campaign_payload_ui_details_description_kill_hlyjcy_dark	Character killed: Fallen Yelan	false
-missions_localised_title_xyy_roguelike_kill_hlyjda_dark	Hegemony: Defeat Fallen Eula	false
-missions_localised_description_xyy_roguelike_kill_hlyjda_dark	The Fallen Eula is Eula's fallen clone, possessing extremely high skill charge. While dealing skill damage, it also slows down and demoralizes surrounding soldiers. Close combat should be avoided as much as possible, as her skills can cause very high damage, and she is immune to most physical attacks.	false
-campaign_payload_ui_details_description_kill_hlyjda_dark	Character killed: Fallen Eula	false
-missions_localised_title_xyy_roguelike_kill_hlyjdi_dark	Hegemony: Defeat Fallen Yinlin	false
-missions_localised_description_xyy_roguelike_kill_hlyjdi_dark	The Fallen  Yinlin is the fallen clone of Yinlin, who locks our generals' skills in melee combat, slows down our troops, and causes continuous health loss (electric shock). It is advisable to avoid melee combat with her as her skills can cause heavy casualties to our soldiers.	false
-campaign_payload_ui_details_description_kill_hlyjdi_dark	Character killed: Fallen Yinlin	false
-missions_localised_title_xyy_roguelike_kill_hlyjdf_dark	Hegemony: Defeat Fallen Kujou Sara	false
-missions_localised_description_xyy_roguelike_kill_hlyjdf_dark	The Fallen Kujou Sara is a fallen clone of Kujou Sara, one of the most formidable enemies encountered thus far. Her quadruple-mounted "Tengu Stormcall" can inflict massive casualties on our soldiers in a short period, and in melee combat, she possesses wide-area clearing skills.	false
-campaign_payload_ui_details_description_kill_hlyjdf_dark	Character killed: Fallen Kujou Sara	false
-effect_bundles_localised_title_dark_character_easy	[[img:pooled_resource_credibility]][[/img]]+500	false
-effect_bundles_localised_title_dark_character_normal	[[img:pooled_resource_credibility]][[/img]]+700	false
-effect_bundles_localised_title_dark_character_hard	[[img:pooled_resource_credibility]][[/img]]+1000	false
-mission_text_xyy_roguelike_kill_hlyjci_dark	(Optional) Kill Fallen Ganyu in combat.	false
-mission_text_xyy_roguelike_kill_hlyjcj_dark	(Optional) Kill Fallen Kafka in combat.	false
-mission_text_xyy_roguelike_kill_hlyjck_dark	(Optional) Kill Fallen Jingliu in combat.	false
-mission_text_xyy_roguelike_kill_hlyjcm_dark	(Optional) Kill Fallen Raiden Shogun in combat.	false
-mission_text_xyy_roguelike_kill_hlyjcn_dark	(Optional) Kill Fallen Keqing in combat.	false
-mission_text_xyy_roguelike_kill_hlyjcy_dark	(Optional) Kill Fallen Yelan in combat.	false
-mission_text_xyy_roguelike_kill_hlyjda_dark	(Optional) Kill Fallen Eula in combat.	false
-mission_text_xyy_roguelike_kill_hlyjdi_dark	(Optional) Kill Fallen Yinlin in combat.	false
-mission_text_xyy_roguelike_kill_hlyjdf_dark	(Optional) Kill Fallen Kujou Sara in combat.	false
-map_pins_localised_title_hlyjci_dark	The Fallen Hero	false
-map_pins_localised_description_hlyjci_dark	Mission Objective	false
-map_pins_localised_title_hlyjcj_dark	The Fallen Hero	false
-map_pins_localised_description_hlyjcj_dark	Mission Objective	false
-map_pins_localised_title_hlyjck_dark	The Fallen Hero	false
-map_pins_localised_description_hlyjck_dark	Mission Objective	false
-map_pins_localised_title_hlyjcm_dark	The Fallen Hero	false
-map_pins_localised_description_hlyjcm_dark	Mission Objective	false
-map_pins_localised_title_hlyjcn_dark	The Fallen Hero	false
-map_pins_localised_description_hlyjcn_dark	Mission Objective	false
-map_pins_localised_title_hlyjcy_dark	The Fallen Hero	false
-map_pins_localised_description_hlyjcy_dark	Mission Objective	false
-map_pins_localised_title_hlyjda_dark	The Fallen Hero	false
-map_pins_localised_description_hlyjda_dark	Mission Objective	false
-map_pins_localised_title_hlyjdi_dark	The Fallen Hero	false
-map_pins_localised_description_hlyjdi_dark	Mission Objective	false
-map_pins_localised_title_hlyjdf_dark	The Fallen Hero	false
-map_pins_localised_description_hlyjdf_dark	Mission Objective	false
-missions_localised_title_xyy_roguelike_kill_hlyjdt_dark	Hegemony: Defeat Fallen Shenhe	false
-missions_localised_description_xyy_roguelike_kill_hlyjdt_dark	Fallen Shenhe is a Fallen clone of Shenhe who deals high damage to our side and disables our protection shield, as well as causing us to slow down.	false
-campaign_payload_ui_details_description_kill_hlyjdt_dark	Character killed: Fallen Shenhe	false
-mission_text_xyy_roguelike_kill_hlyjdt_dark	(Optional) Kill Fallen Shenhe in combat.	false
-map_pins_localised_title_hlyjdt_dark	The Fallen Hero	false
-map_pins_localised_description_hlyjdt_dark	Mission Objective	false
-effect_bundles_localised_title_xyy_roguelike_55	Treacherous	false
-effect_bundles_localised_description_xyy_roguelike_55	All generals and units can be deployed guerrilla.	false
-mod_info_xyy_roguelike_55	All generals and units can be deployed guerrilla.	false
-effect_bundles_localised_title_xyy_roguelike_56	Blade I	false
-effect_bundles_localised_description_xyy_roguelike_56	The forces' melee damage have increased slightly.	false
-mod_info_xyy_roguelike_56	[[b]]+10%[[/b]] Melee/Ranged Damage for all forces	false
-effect_bundles_localised_title_xyy_roguelike_57	Blade II	false
-effect_bundles_localised_description_xyy_roguelike_57	The force's melee damage have increased moderately.	false
-mod_info_xyy_roguelike_57	[[b]]+20%[[/b]] Melee/Ranged Damage for all forces	false
-effect_bundles_localised_title_xyy_roguelike_58	Blade III	false
-effect_bundles_localised_description_xyy_roguelike_58	The force's melee damage have increased greatly.	false
-mod_info_xyy_roguelike_58	[[b]]+40%[[/b]] Melee/Ranged Damage for all forces	false
-effect_bundles_localised_title_xyy_roguelike_59	Training I	false
-effect_bundles_localised_description_xyy_roguelike_59	The forces' melee and ranged defenses are increased slightly.	false
-mod_info_xyy_roguelike_59	[[b]]+5%[[/b]] Melee Evasion/Ranged Block Chance for all forces	false
-effect_bundles_localised_title_xyy_roguelike_60	Training II	false
-effect_bundles_localised_description_xyy_roguelike_60	The forces' melee and ranged defenses are increased moderately.	false
-mod_info_xyy_roguelike_60	[[b]]+10%[[/b]] Melee Evasion/Ranged Block Chance for all forces	false
-effect_bundles_localised_title_xyy_roguelike_61	Training III	false
-effect_bundles_localised_description_xyy_roguelike_61	The forces' melee and ranged defenses are increased greatly.	false
-mod_info_xyy_roguelike_61	[[b]]+20%[[/b]] Melee Evasion/Ranged Block Chance for all forces	false
-effect_bundles_localised_title_xyy_roguelike_62	Burning	false
-effect_bundles_localised_description_xyy_roguelike_62	All units unlock fire arrows and flaming artillery shells.	false
-mod_info_xyy_roguelike_62	All units unlock fire arrows and flaming artillery shells.	false
-effect_bundles_localised_title_xyy_roguelike_63	Enlist I	false
-effect_bundles_localised_description_xyy_roguelike_63	All forces replenishment increased slightly.	false
-mod_info_xyy_roguelike_63	 [[b]]+5%[[/b]] Replenishment for all units	false
-effect_bundles_localised_title_xyy_roguelike_64	Enlist II	false
-effect_bundles_localised_description_xyy_roguelike_64	All forces replenishment increased moderately.	false
-mod_info_xyy_roguelike_64	 [[b]]+10%[[/b]] Replenishment for all units	false
-effect_bundles_localised_title_xyy_roguelike_65	Enlist III	false
-effect_bundles_localised_description_xyy_roguelike_65	All forces replenishment increased greatly.	false
-mod_info_xyy_roguelike_65	 [[b]]+20%[[/b]] Replenishment for all units	false
-effect_bundles_localised_title_xyy_roguelike_66	Satisfactory	false
-effect_bundles_localised_description_xyy_roguelike_66	Increased satisfaction for all characters in faction.	false
-mod_info_xyy_roguelike_66	When a character's satisfaction is above 50, [[b]]+25[[/b]] Satisfaction for them; when a character's satisfaction is below 50,  [[b]]+50[[/b]] Satisfaction for them; when a character's satisfaction is below 25, [[b]]+75[[/b]] Satisfaction for them	false
-effect_bundles_localised_title_xyy_roguelike_sima_yi	Wolf Vision	false
-effect_bundles_localised_description_xyy_roguelike_sima_yi	Sima Yi joins.	false
-mod_info_xyy_roguelike_sima_yi	Sima Yi joins your faction, or has no real effect if Sima Yi is already in your faction	false
-effect_bundles_localised_title_xyy_roguelike_67	Ignoring Traps	false
-effect_bundles_localised_description_xyy_roguelike_67	An ambush by enemy forces is bound to fail	false
-mod_info_xyy_roguelike_67	In the faction wide, [[b]]+100%[[/b]] Chance of Avoiding Ambush	false
-missions_localised_title_xyy_roguelike_kill_hlyjdy_dark	Hegemony: Defeat Fallen Carlotta	false
-missions_localised_description_xyy_roguelike_kill_hlyjdy_dark	Fallen Carlotta is a fallen clone of Colletta, her long range attacks are extremely strong and have a high hit rate, which will be extremely detrimental to the battle if we can't get close enough to be effective.	false
-campaign_payload_ui_details_description_kill_hlyjdy_dark	Character killed: Fallen Carlotta	false
-mission_text_xyy_roguelike_kill_hlyjdy_dark	(Optional) Kill Fallen Carlotta in combat.	false
-map_pins_localised_title_hlyjdy_dark	The Fallen Hero	false
-map_pins_localised_description_hlyjdy_dark	Mission Objective	false
-mod_store_disble_reason_the_seven_kings_dead	[[col:effect_icon_supplement_negative]][[b]]This item is unavailable[[/b]][[/col]]\\nThe Seven Kings are fallen\\n\\n	false
-mod_store_disble_reason_already_have_character	[[col:effect_icon_supplement_negative]][[b]]This item is unavailable[[/b]][[/col]]\\nYou already has this character\\n\\n	false
-mod_store_disble_reason_character_dead	[[col:effect_icon_supplement_negative]][[b]]This item is unavailable[[/b]][[/col]]\\nThis character is dead\\n\\n	false
-effect_bundles_localised_title_xyy_roguelike_enemy_earth	“Destiny”	false
-effect_bundles_localised_description_xyy_roguelike_enemy_earth	The enemy is unbreakable, but fear the cavalry.	false
-mod_info_xyy_roguelike_enemy_earth	非玩家派系腐败减少，公共秩序增加；战场上表现为不溃和远程抗性，但抵抗冲锋能力大幅削弱。\\n\\n• 对远程单位和依赖远程攻击和技能的武将会很不友好\\n\\n• 可利用骑兵和增强冲击骑兵的武将快速击破敌军	false
-effect_bundles_localised_title_xyy_roguelike_enemy_wood	“Courage”	false
-effect_bundles_localised_description_xyy_roguelike_enemy_wood	The enemy generals are more aggressive, but they can't lose their generals.	false
-mod_info_xyy_roguelike_enemy_wood	非玩家派系军队补给增加，支援范围增加；战场上表现为更高的武将格斗能力，但士兵能力大幅削弱。\\n\\n• 敌方武将会增强自身与周围士兵的作战能力\\n\\n• 没有武将保护下的士兵会很容易被击溃\\n\\n• 利用对单能力强的武将斩杀敌对武将可快速击破敌军	false
-effect_bundles_localised_title_xyy_roguelike_enemy_metal	“Entrench”	false
-effect_bundles_localised_description_xyy_roguelike_enemy_metal	The enemy has a higher level of defense, but is very afraid of generals.	false
-mod_info_xyy_roguelike_enemy_metal	非玩家派系军队补员增加，防守时不溃；战场上表现为更高的防御水平，但进攻能力大幅削弱。\\n\\n• 敌方士兵惧怕武将\\n\\n• 对依赖造成物理伤害的士兵和武将会很不友好\\n\\n• 可利用火焰、淬毒、流血等伤害快速击破敌军	false
-effect_bundles_localised_title_xyy_roguelike_enemy_fire	“Breakout”	false
-effect_bundles_localised_description_xyy_roguelike_enemy_fire	Enemies have higher movement speed and damage, but fear ranged weapons.	false
-mod_info_xyy_roguelike_enemy_fire	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n• 对近战、护盾、防护类型的武将会很不友好\\n\\n• 敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军	false
-effect_bundles_localised_title_xyy_roguelike_enemy_water	“Strategy”	false
-effect_bundles_localised_description_xyy_roguelike_enemy_water	The enemy can ambush or hide, but is afraid of being exposed.	false
-mod_info_xyy_roguelike_enemy_water	非玩家派系武将解锁多种技能，更高的伏击成功率；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n• 敌方武将会掌握大量技能\\n\\n• 敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军	false
-mod_xyy_character_roguelike_select_enemy_effect	[[col:flavour]]Choose a Trend[[/col]]	false
-missions_localised_title_xyy_roguelike_kill_hlyjeb_dark	Hegemony: Defeat Fallen Cantarella	false
-missions_localised_description_xyy_roguelike_kill_hlyjeb_dark	Fallen Cantarella is a fallen clone of Cantarella, who has super long range vision that allows her to lock onto our generals' skills and limit our generals' abilities.	false
-campaign_payload_ui_details_description_kill_hlyjeb_dark	Character killed: Fallen Cantarella	false
-mission_text_xyy_roguelike_kill_hlyjeb_dark	(Optional) Kill Fallen Cantarella in combat.	false
-mod_title_xyy_roguelike_enemy_earth	"Destiny"	false
-mod_title_xyy_roguelike_enemy_wood	“Courage”	false
-mod_title_xyy_roguelike_enemy_metal	“Entrench”	false
-mod_title_xyy_roguelike_enemy_fire	“Breakout”	false
-mod_title_xyy_roguelike_enemy_water	“Strategy”	false
+"context" "target"
+"key	text	tooltip" ""
+"#Loc;1;text/!!!xyy_roguelike.loc		" ""
+"mod_xyy_roguelike_icon_earth	[[img:character_attribute_authority]][[/img]]	false" ""
+"mod_xyy_roguelike_description_earth	[[img:character_attribute_authority]][[/img]]for" "each"
+"mod_xyy_roguelike_icon_fire	[[img:character_attribute_instinct]][[/img]]	false" ""
+"mod_xyy_roguelike_description_fire	[[img:character_attribute_instinct]][[/img]]for" "each"
+"mod_xyy_roguelike_icon_metal	[[img:character_attribute_expertise]][[/img]]	false" ""
+"mod_xyy_roguelike_description_metal	[[img:character_attribute_expertise]][[/img]]for" "each"
+"mod_xyy_roguelike_icon_water	[[img:character_attribute_cunning]][[/img]]	false" ""
+"mod_xyy_roguelike_description_water	[[img:character_attribute_cunning]][[/img]]for" "each"
+"mod_xyy_roguelike_icon_wood	[[img:character_attribute_resolve]][[/img]]	false" ""
+"mod_xyy_roguelike_description_wood	[[img:character_attribute_resolve]][[/img]]for" "each"
+"dilemmas_localised_title_roguelike_dilemma	Enable" "Struggle Hegemony?	false"
+"dilemmas_localised_description_roguelike_dilemma	Struggle" "Hegemony"
+"cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemmaFIRST	Struggle" "Hegemony(Roguelike"
+"cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemmaSECOND	Story" "Mode"
+"dilemmas_localised_title_roguelike_dilemma_continue	Continue" "the"
+"dilemmas_localised_description_roguelike_dilemma_continue	Detected" "unfinished"
+"cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemma_continueFIRST	Continue	false" ""
+"uied_component_texts_localised_string_title_NewState_Text_2000005	[[col:flavour]]Choose" "Blessing[[/col]]	false"
+"uied_component_texts_localised_string_title_NewState_Text_2000006	[[col:flavour]]Hegemony" "Store[[/col]]	false"
+"mod_xyy_roguelike_info	Hover" "to"
+"effect_bundles_localised_title_xyy_roguelike_1	People's" "Desire	false"
+"effect_bundles_localised_description_xyy_roguelike_1	After" "your"
+"mod_info_xyy_roguelike_1	After" "your"
+"effect_bundles_localised_title_xyy_roguelike_2	Undiscouraged	false" ""
+"effect_bundles_localised_description_xyy_roguelike_2	When" "you"
+"mod_info_xyy_roguelike_2	When" "you"
+"effect_bundles_localised_title_xyy_roguelike_3	The" "Winner	false"
+"effect_bundles_localised_description_xyy_roguelike_3	When" "you"
+"mod_info_xyy_roguelike_3	When" "you"
+"effect_bundles_localised_title_xyy_roguelike_4	It's" "All"
+"effect_bundles_localised_description_xyy_roguelike_4	You" "are"
+"mod_info_xyy_roguelike_4	All" "generals"
+"effect_bundles_localised_title_xyy_roguelike_5	Agricultural	false" ""
+"effect_bundles_localised_description_xyy_roguelike_5	Your" "food"
+"mod_info_xyy_roguelike_5	" "In"
+"effect_bundles_localised_title_xyy_roguelike_6	Commercial	false" ""
+"effect_bundles_localised_description_xyy_roguelike_6	You" "can"
+"mod_info_xyy_roguelike_6	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_7	Army" "Factory	false"
+"effect_bundles_localised_description_xyy_roguelike_7	Decreased" "military"
+"mod_info_xyy_roguelike_7	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_8	Aeon" "Come	false"
+"effect_bundles_localised_description_xyy_roguelike_8	(5" "turns)"
+"mod_info_xyy_roguelike_8	Pray" "a"
+"effect_bundles_localised_title_xyy_roguelike_9	More" "Exp	false"
+"effect_bundles_localised_description_xyy_roguelike_9	Generals" "can"
+"mod_info_xyy_roguelike_9	[[b]]+200%[[/b]]" "Character"
+"effect_bundles_localised_title_xyy_roguelike_10	Store" "Grain	false"
+"effect_bundles_localised_description_xyy_roguelike_10	Increase" "force"
+"mod_info_xyy_roguelike_10	[[b]]+30[[/b]]" "Supplies"
+"effect_bundles_localised_title_xyy_roguelike_11	Train" "Troops	false"
+"effect_bundles_localised_description_xyy_roguelike_11	Increase" "force"
+"mod_info_xyy_roguelike_11	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_12	Force" "Service	false"
+"effect_bundles_localised_description_xyy_roguelike_12	Decreased" "cost"
+"mod_info_xyy_roguelike_12	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_13	Perfect" "Supply	false"
+"effect_bundles_localised_description_xyy_roguelike_13	Forces" "can"
+"mod_info_xyy_roguelike_13	In" "foreign"
+"effect_bundles_localised_title_xyy_roguelike_14	Precious" "Speed	false"
+"effect_bundles_localised_description_xyy_roguelike_14	Increased" "range"
+"mod_info_xyy_roguelike_14	[[b]]+100%[[/b]]" "Campaign"
+"effect_bundles_localised_title_xyy_roguelike_15	Just" "Minor"
+"effect_bundles_localised_description_xyy_roguelike_15	Your" "generals"
+"mod_info_xyy_roguelike_15	When" "a"
+"effect_bundles_localised_title_xyy_roguelike_16	Young" "Man!	false"
+"effect_bundles_localised_description_xyy_roguelike_16	The" "more"
+"mod_info_xyy_roguelike_16	For" "every"
+"effect_bundles_localised_title_xyy_roguelike_17	Elder" "Person	false"
+"effect_bundles_localised_description_xyy_roguelike_17	The" "more"
+"mod_info_xyy_roguelike_17	For" "every"
+"effect_bundles_localised_title_xyy_roguelike_18	Powerful" "Army	false"
+"effect_bundles_localised_description_xyy_roguelike_18	All" "forces"
+"mod_info_xyy_roguelike_18	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_19	Plan" "B	false"
+"effect_bundles_localised_description_xyy_roguelike_19	If" "you"
+"mod_info_xyy_roguelike_19	If" "you"
+"effect_bundles_localised_title_xyy_roguelike_20	Anti" "Corruption	false"
+"effect_bundles_localised_description_xyy_roguelike_20	Decreased" "corruption"
+"mod_info_xyy_roguelike_20	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_21	Get" "More	false"
+"effect_bundles_localised_description_xyy_roguelike_21	You" "can"
+"mod_info_xyy_roguelike_21	[[b]]+10[[/b]][[img:pooled_resource_credibility]][[/img]]" "when"
+"effect_bundles_localised_title_xyy_roguelike_22	I'm" "Rich	false"
+"effect_bundles_localised_description_xyy_roguelike_22	At" "the"
+"mod_info_xyy_roguelike_22	At" "the"
+"effect_bundles_localised_title_xyy_roguelike_23	Need" "Help?	false"
+"effect_bundles_localised_description_xyy_roguelike_23	(5" "Turns)"
+"mod_info_xyy_roguelike_23	Draw" "a"
+"effect_bundles_localised_title_xyy_roguelike_24	Build" "Vigorously	false"
+"effect_bundles_localised_description_xyy_roguelike_24	Your" "city"
+"mod_info_xyy_roguelike_24	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_25	My" "Destiny	false"
+"effect_bundles_localised_description_xyy_roguelike_25	(15" "turns)"
+"mod_info_xyy_roguelike_25	Forced" "change"
+"effect_bundles_localised_title_xyy_roguelike_26	Aspirations	false" ""
+"effect_bundles_localised_description_xyy_roguelike_26	Our" "faction's"
+"mod_info_xyy_roguelike_26	[[b]]+20[[/b]]" "Characters"
+"effect_bundles_localised_title_xyy_roguelike_27	Volition	false" ""
+"effect_bundles_localised_description_xyy_roguelike_27	All" "skill"
+"mod_info_xyy_roguelike_27	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_28	Sharp" "Blades	false"
+"effect_bundles_localised_description_xyy_roguelike_28	Increased" "Force"
+"mod_info_xyy_roguelike_28	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_29	Phoenix" "Born	false"
+"effect_bundles_localised_description_xyy_roguelike_29	Your" "characters"
+"mod_info_xyy_roguelike_29	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_30	Cavalry" "Rampage	false"
+"effect_bundles_localised_description_xyy_roguelike_30	The" "army's"
+"mod_info_xyy_roguelike_30	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_31	Technological	false" ""
+"effect_bundles_localised_description_xyy_roguelike_31	You" "can"
+"mod_info_xyy_roguelike_31	You" "can"
+"effect_bundles_localised_title_xyy_roguelike_32	Wo" "Long	false"
+"effect_bundles_localised_description_xyy_roguelike_32	Zhuge" "Liang"
+"mod_info_xyy_roguelike_32	Legendary" "strategist"
+"effect_bundles_localised_title_xyy_roguelike_33	Harass" "Enemy	false"
+"effect_bundles_localised_description_xyy_roguelike_33	If" "your"
+"mod_info_xyy_roguelike_33	[[b]]-100[[/b]]" "Supplies"
+"effect_bundles_localised_title_xyy_roguelike_34	Indomitable	false" ""
+"effect_bundles_localised_description_xyy_roguelike_34	Increase" "the"
+"mod_info_xyy_roguelike_34	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_35	Like" "a"
+"effect_bundles_localised_description_xyy_roguelike_35	Forces" "can"
+"mod_info_xyy_roguelike_35	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_36	Unexpected	false" ""
+"effect_bundles_localised_description_xyy_roguelike_36	Force" "ambushes"
+"mod_info_xyy_roguelike_36	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_37	Total" "Defeat	false"
+"effect_bundles_localised_description_xyy_roguelike_37	After" "capturing"
+"mod_info_xyy_roguelike_37	After" "capturing"
+"effect_bundles_localised_title_xyy_roguelike_38	Fight" "or"
+"effect_bundles_localised_description_xyy_roguelike_38	If" "the"
+"mod_info_xyy_roguelike_38	If" "your"
+"effect_bundles_localised_title_xyy_roguelike_39	Unstoppable	false" ""
+"effect_bundles_localised_description_xyy_roguelike_39	When" "you"
+"mod_info_xyy_roguelike_39	If" "you"
+"effect_bundles_localised_title_xyy_roguelike_40	Civilization	false" ""
+"effect_bundles_localised_description_xyy_roguelike_40	There's" "no"
+"mod_info_xyy_roguelike_40	[[b]]-100%[[/b]]" "Corruption"
+"effect_bundles_localised_title_xyy_roguelike_41	Capture	false" ""
+"effect_bundles_localised_description_xyy_roguelike_41	If" "you"
+"mod_info_xyy_roguelike_41	When" "you"
+"effect_bundles_localised_title_xyy_roguelike_42	Invulnerable	false" ""
+"effect_bundles_localised_description_xyy_roguelike_42	Your" "forces"
+"mod_info_xyy_roguelike_42	[[b]]+100%[[/b]]" "Bleeding"
+"effect_bundles_localised_title_xyy_roguelike_43	More" "Governor	false"
+"effect_bundles_localised_description_xyy_roguelike_43	You" "can"
+"mod_info_xyy_roguelike_43	[[b]]+2[[/b]]" "Available"
+"effect_bundles_localised_title_xyy_roguelike_44	Unharmed	false" ""
+"effect_bundles_localised_description_xyy_roguelike_44	Your" "generals"
+"mod_info_xyy_roguelike_44	Your" "generals"
+"effect_bundles_localised_title_xyy_roguelike_45	I'm" "not"
+"effect_bundles_localised_description_xyy_roguelike_45	All" "generals"
+"mod_info_xyy_roguelike_45	All" "generals"
+"effect_bundles_localised_title_xyy_roguelike_46	Support	false" ""
+"effect_bundles_localised_description_xyy_roguelike_46	Increased" "support"
+"mod_info_xyy_roguelike_46	[[b]]+100%[[/b]]" "Reinforcement"
+"effect_bundles_localised_title_xyy_roguelike_47	Special" "Arrows	false"
+"effect_bundles_localised_description_xyy_roguelike_47	The" "force's"
+"mod_info_xyy_roguelike_47	In" "the"
+"effect_bundles_localised_title_xyy_roguelike_48	Modern" "City	false"
+"effect_bundles_localised_description_xyy_roguelike_48	Your" "level"
+"mod_info_xyy_roguelike_48	[[b]]-100%[[/b]]" "Building"
+"effect_bundles_localised_title_xyy_roguelike_49	Live" "in"
+"effect_bundles_localised_description_xyy_roguelike_49	Food" "production"
+"mod_info_xyy_roguelike_49	+100%" "Food"
+"effect_bundles_localised_title_xyy_roguelike_50	Mom's" "Treasure	false"
+"effect_bundles_localised_description_xyy_roguelike_50	(1" "Turn)"
+"mod_info_xyy_roguelike_50	You" "gain"
+"effect_bundles_localised_title_xyy_roguelike_51	Stake" "All	false"
+"effect_bundles_localised_description_xyy_roguelike_51	(1" "Turn)"
+"mod_info_xyy_roguelike_51	You" "lose"
+"effect_bundles_localised_title_xyy_roguelike_the_seven_kings	The" "Seven"
+"effect_bundles_localised_description_xyy_roguelike_the_seven_kings	Get" "the"
+"mod_info_xyy_roguelike_the_seven_kings	Gain" "all"
+"effect_bundles_localised_title_xyy_roguelike_max_1	Option" "I	false"
+"effect_bundles_localised_description_xyy_roguelike_max_1	Add" "a"
+"mod_info_xyy_roguelike_max_1	[[b]]+1[[/b]]" "Optional"
+"effect_bundles_localised_title_xyy_roguelike_max_2	Option" "II	false"
+"effect_bundles_localised_description_xyy_roguelike_max_2	Add" "a"
+"mod_info_xyy_roguelike_max_2	[[b]]+1[[/b]]" "Optional"
+"effect_bundles_localised_title_xyy_roguelike_max_3	Option" "III	false"
+"effect_bundles_localised_description_xyy_roguelike_max_3	Add" "a"
+"mod_info_xyy_roguelike_max_3	[[b]]+1[[/b]]" "Optional"
+"effect_bundles_localised_title_xyy_roguelike_max_4	Option" "IV	false"
+"effect_bundles_localised_description_xyy_roguelike_max_4	Add" "a"
+"mod_info_xyy_roguelike_max_4	[[b]]+1[[/b]]" "Optional"
+"effect_bundles_localised_title_xyy_roguelike_max_character_browser_1	Character" "I	false"
+"effect_bundles_localised_description_xyy_roguelike_max_character_browser_1	Add" "a"
+"mod_info_xyy_roguelike_max_characte_browserr_1	[[b]]+1[[/b]]" "Character"
+"effect_bundles_localised_title_xyy_roguelike_max_character_browser_2	Character" "II	false"
+"effect_bundles_localised_description_xyy_roguelike_max_character_browser_2	Add" "a"
+"mod_info_xyy_roguelike_max_character_browser_2	[[b]]+1[[/b]]" "Character"
+"effect_bundles_localised_title_xyy_roguelike_max_character_browser_3	Character" "III	false"
+"effect_bundles_localised_description_xyy_roguelike_max_character_browser_3	Add" "a"
+"mod_info_xyy_roguelike_max_character_browser_3	[[b]]+1[[/b]]" "Character"
+"effect_bundles_localised_title_xyy_roguelike_max_character_browser_4	Character" "IV	false"
+"effect_bundles_localised_description_xyy_roguelike_max_character_browser_4	Add" "a"
+"mod_info_xyy_roguelike_max_character_browser_4	[[b]]+1[[/b]]" "Character"
+"effect_bundles_localised_title_xyy_roguelike_max_character_1	I'll" "Take"
+"effect_bundles_localised_description_xyy_roguelike_max_character_1	You" "can"
+"mod_info_xyy_roguelike_max_character_1	[[b]]+1[[/b]]" "Selectable"
+"mod_xyy_roguelike_confirm	Resource:	false" ""
+"mod_xyy_roguelike_confirm_wait	Settle...	false" ""
+"campaign_diplomacy_treaty_availability_reasons_description_roguelike_mode	\\n[[col:red]]Hegemony" "mode"
+"mission_text_text_treaty_components_war	(Optional)" "Choose"
+"missions_localised_title_xyy_roguelike_mission_ready	Hegemony:" "Preparatory"
+"missions_localised_description_xyy_roguelike_mission_ready	When" "you"
+"effect_bundles_localised_title_xyy_roguelike_redraw_1	Try" "Again?	false"
+"effect_bundles_localised_description_xyy_roguelike_redraw_1	You" "can"
+"mod_info_xyy_roguelike_redraw_1	You" "can"
+"missions_localised_title_xyy_roguelike_mission_easy	Hegemony:" "Destroy"
+"missions_localised_description_xyy_roguelike_mission_easy	Destroy" "the"
+"campaign_payload_ui_details_description_xyy_roguelike_mission_easy	[[img:pooled_resource_credibility]][[/img]]+100\\nExtra" "for"
+"missions_localised_title_xyy_roguelike_mission_normal	Hegemony:" "Destroy"
+"missions_localised_description_xyy_roguelike_mission_normal	Destroy" "the"
+"campaign_payload_ui_details_description_xyy_roguelike_mission_normal	[[img:pooled_resource_credibility]][[/img]]+200\\nExtra" "for"
+"missions_localised_title_xyy_roguelike_mission_hard	Hegemony:" "Destroy"
+"missions_localised_description_xyy_roguelike_mission_hard	Destroy" "the"
+"campaign_payload_ui_details_description_xyy_roguelike_mission_hard	[[img:pooled_resource_credibility]][[/img]]+400\\nExtra" "for"
+"missions_localised_title_xyy_roguelike_mission_xyyhlyjf	Hegemony:" "Destroy"
+"missions_localised_description_xyy_roguelike_mission_xyyhlyjf	As" "you"
+"campaign_payload_ui_details_description_xyy_roguelike_mission_xyyhlyjf	Winning" "the"
+"mod_xyy_character_roguelike_select	[[col:flavour]]Choose" "the"
+"mod_xyy_character_roguelike_select_first	[[col:flavour]]Choose" "the"
+"dilemmas_localised_title_roguelike_dilemma_first_select	Choose" "your"
+"dilemmas_localised_description_roguelike_dilemma_first_select	Select" "your"
+"cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemma_first_selectFIRST	Understand	false" ""
+"missions_localised_title_xyy_roguelike_mission_boss	Hegemony:" "Fight"
+"missions_localised_description_xyy_roguelike_mission_boss	My" "Lord,"
+"missions_localised_title_xyy_roguelike_mission_boss_2	Hegemony:" "Fight"
+"missions_localised_description_xyy_roguelike_mission_boss_2	My" "Lord,"
+"missions_localised_title_xyy_roguelike_mission_boss_3	Hegemony:" "The"
+"missions_localised_description_xyy_roguelike_mission_boss_3	My" "Lord,"
+"incidents_localised_title_roguelike_info_ticket	Hegemony:" "Tips	false"
+"incidents_localised_description_roguelike_info_ticket	Resources" "[[img:pooled_resource_credibility]][[/img]]"
+"incidents_localised_title_xyy_roguelike_enemy_earth_1	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_earth_1	Non-player" "faction"
+"incidents_localised_title_xyy_roguelike_enemy_earth_2	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_earth_2	Non-player" "faction"
+"incidents_localised_title_xyy_roguelike_enemy_earth_3	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_earth_3	Non-player" "faction"
+"incidents_localised_title_xyy_roguelike_enemy_earth_4	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_earth_4	Non-player" "faction"
+"incidents_localised_title_xyy_roguelike_enemy_earth_5	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_earth_5	Non-player" "faction"
+"incidents_localised_title_xyy_roguelike_enemy_earth_6	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_earth_6	Non-player" "faction"
+"incidents_localised_title_xyy_roguelike_enemy_wood_1	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_wood_1	Higher" "general"
+"incidents_localised_title_xyy_roguelike_enemy_wood_2	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_wood_2	Higher" "AI"
+"incidents_localised_title_xyy_roguelike_enemy_wood_3	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_wood_3	Higher" "AI"
+"incidents_localised_title_xyy_roguelike_enemy_wood_4	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_wood_4	Higher" "AI"
+"incidents_localised_title_xyy_roguelike_enemy_wood_5	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_wood_5	Higher" "AI"
+"incidents_localised_title_xyy_roguelike_enemy_wood_6	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_wood_6	Highe" "AI"
+"incidents_localised_title_xyy_roguelike_enemy_metal_1	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_metal_1	Increased" "replenishment,"
+"incidents_localised_title_xyy_roguelike_enemy_metal_2	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_metal_2	Increased" "replenishment,"
+"incidents_localised_title_xyy_roguelike_enemy_metal_3	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_metal_3	Increased" "replenishment,"
+"incidents_localised_title_xyy_roguelike_enemy_metal_4	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_metal_4	Increased" "replenishment,"
+"incidents_localised_title_xyy_roguelike_enemy_metal_5	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_metal_5	Increased" "replenishment,"
+"incidents_localised_title_xyy_roguelike_enemy_metal_6	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_metal_6	Increased" "replenishment,"
+"incidents_localised_title_xyy_roguelike_enemy_fire_1	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_fire_1	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false" ""
+"incidents_localised_title_xyy_roguelike_enemy_fire_2	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_fire_2	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false" ""
+"incidents_localised_title_xyy_roguelike_enemy_fire_3	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_fire_3	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false" ""
+"incidents_localised_title_xyy_roguelike_enemy_fire_4	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_fire_4	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false" ""
+"incidents_localised_title_xyy_roguelike_enemy_fire_5	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_fire_5	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false" ""
+"incidents_localised_title_xyy_roguelike_enemy_fire_6	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_fire_6	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n对近战、护盾、防护类型的武将会很不友好；\\n\\n敌军会非常惧怕远程杀伤，可利用远程单位快速击破敌军。	false" ""
+"incidents_localised_title_xyy_roguelike_enemy_water_1	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_water_1	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false" ""
+"incidents_localised_title_xyy_roguelike_enemy_water_2	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_water_2	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false" ""
+"incidents_localised_title_xyy_roguelike_enemy_water_3	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_water_3	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false" ""
+"incidents_localised_title_xyy_roguelike_enemy_water_4	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_water_4	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false" ""
+"incidents_localised_title_xyy_roguelike_enemy_water_5	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_water_5	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false" ""
+"incidents_localised_title_xyy_roguelike_enemy_water_6	The" "Trend"
+"incidents_localised_description_xyy_roguelike_enemy_water_6	非玩家派系武将解锁多种技能；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n敌方武将会掌握大量技能；\\n\\n敌方武将和部队作战能力较弱，可利用锁技能类型的武将击破敌军。	false" ""
+"effect_bundles_localised_title_xyy_roguelike_52	Unstoppable	false" ""
+"effect_bundles_localised_description_xyy_roguelike_52	Your" "general's"
+"mod_info_xyy_roguelike_52	[[b]]+100%[[/b]]" "Base/AP"
+"effect_bundles_localised_title_xyy_roguelike_53	Energetic	false" ""
+"effect_bundles_localised_description_xyy_roguelike_53	Your" "generals"
+"mod_info_xyy_roguelike_53	Your" "generals"
+"effect_bundles_localised_title_xyy_roguelike_54	I'm" "Invisible	false"
+"effect_bundles_localised_description_xyy_roguelike_54	Your" "generals"
+"mod_info_xyy_roguelike_54	Your" "generals"
+"effect_bundles_localised_title_xyy_roguelike_craft_weapons	Forging" "Weapon	false"
+"effect_bundles_localised_description_xyy_roguelike_craft_weapons	(3" "Turns)"
+"mod_info_xyy_roguelike_craft_weapons	Forge" "a"
+"effect_bundles_localised_title_xyy_roguelike_craft_armors	Crafting" "Armor	false"
+"effect_bundles_localised_description_xyy_roguelike_craft_armors	(2" "Turns)"
+"mod_info_xyy_roguelike_craft_armors	Craft" "a"
+"effect_bundles_localised_title_xyy_roguelike_craft_mounts	Training" "Horse	false"
+"effect_bundles_localised_description_xyy_roguelike_craft_mounts	(4" "Turns)"
+"mod_info_xyy_roguelike_craft_mounts	Tame" "a"
+"effect_bundles_localised_title_xyy_roguelike_craft_accessories	Explore" "Legend	false"
+"effect_bundles_localised_description_xyy_roguelike_craft_accessories	(2" "Turns)"
+"mod_info_xyy_roguelike_craft_accessories	Found" "a"
+"effect_bundles_localised_title_xyy_roguelike_craft_weapons_1	Forging" "Weapon	false"
+"effect_bundles_localised_description_xyy_roguelike_craft_weapons_1	(3" "Turns)"
+"mod_info_xyy_roguelike_craft_weapons_1	Forge" "a"
+"effect_bundles_localised_title_xyy_roguelike_craft_armors_1	Crafting" "Armor	false"
+"effect_bundles_localised_description_xyy_roguelike_craft_armors_1	(2" "Turns)"
+"mod_info_xyy_roguelike_craft_armors_1	Craft" "an"
+"effect_bundles_localised_title_xyy_roguelike_craft_mounts_1	Training" "Horse	false"
+"effect_bundles_localised_description_xyy_roguelike_craft_mounts_1	(4" "Turns)"
+"mod_info_xyy_roguelike_craft_mounts_1	Tame" "a"
+"effect_bundles_localised_title_xyy_roguelike_craft_accessories_1	Explore" "Legend	false"
+"effect_bundles_localised_description_xyy_roguelike_craft_accessories_1	(2" "Turns)"
+"mod_info_xyy_roguelike_craft_accessories_1	Found" "an"
+"mod_xyy_roguelike_icon_no_building	You're" "missing"
+"mod_xyy_roguelike_icon_stopped	:" "The"
+"mod_xyy_store_main_message_craft	You" "got:"
+"missions_localised_title_xyy_roguelike_kill_hlyjci_dark	Hegemony:" "Defeat"
+"missions_localised_description_xyy_roguelike_kill_hlyjci_dark	Fallen" "Ganyu"
+"campaign_payload_ui_details_description_kill_hlyjci_dark	Character" "killed:"
+"missions_localised_title_xyy_roguelike_kill_hlyjcj_dark	Hegemony:" "Defeat"
+"missions_localised_description_xyy_roguelike_kill_hlyjcj_dark	Fallen" "Kafka"
+"campaign_payload_ui_details_description_kill_hlyjcj_dark	Character" "killed:"
+"missions_localised_title_xyy_roguelike_kill_hlyjck_dark	Hegemony:" "Defeat"
+"missions_localised_description_xyy_roguelike_kill_hlyjck_dark	Fallen" "Jingliu"
+"campaign_payload_ui_details_description_kill_hlyjck_dark	Character" "killed:"
+"missions_localised_title_xyy_roguelike_kill_hlyjcm_dark	Hegemony:" "Defeat"
+"missions_localised_description_xyy_roguelike_kill_hlyjcm_dark	Fallen" "Raiden"
+"campaign_payload_ui_details_description_kill_hlyjcm_dark	Character" "killed:"
+"missions_localised_title_xyy_roguelike_kill_hlyjcn_dark	Hegemony:" "Defeat"
+"missions_localised_description_xyy_roguelike_kill_hlyjcn_dark	The" "Fallen"
+"campaign_payload_ui_details_description_kill_hlyjcn_dark	Character" "killed:"
+"missions_localised_title_xyy_roguelike_kill_hlyjcy_dark	Hegemony:" "Defeat"
+"missions_localised_description_xyy_roguelike_kill_hlyjcy_dark	The" "Fallen"
+"campaign_payload_ui_details_description_kill_hlyjcy_dark	Character" "killed:"
+"missions_localised_title_xyy_roguelike_kill_hlyjda_dark	Hegemony:" "Defeat"
+"missions_localised_description_xyy_roguelike_kill_hlyjda_dark	The" "Fallen"
+"campaign_payload_ui_details_description_kill_hlyjda_dark	Character" "killed:"
+"missions_localised_title_xyy_roguelike_kill_hlyjdi_dark	Hegemony:" "Defeat"
+"missions_localised_description_xyy_roguelike_kill_hlyjdi_dark	The" "Fallen"
+"campaign_payload_ui_details_description_kill_hlyjdi_dark	Character" "killed:"
+"missions_localised_title_xyy_roguelike_kill_hlyjdf_dark	Hegemony:" "Defeat"
+"missions_localised_description_xyy_roguelike_kill_hlyjdf_dark	The" "Fallen"
+"campaign_payload_ui_details_description_kill_hlyjdf_dark	Character" "killed:"
+"effect_bundles_localised_title_dark_character_easy	[[img:pooled_resource_credibility]][[/img]]+500	false" ""
+"effect_bundles_localised_title_dark_character_normal	[[img:pooled_resource_credibility]][[/img]]+700	false" ""
+"effect_bundles_localised_title_dark_character_hard	[[img:pooled_resource_credibility]][[/img]]+1000	false" ""
+"mission_text_xyy_roguelike_kill_hlyjci_dark	(Optional)" "Kill"
+"mission_text_xyy_roguelike_kill_hlyjcj_dark	(Optional)" "Kill"
+"mission_text_xyy_roguelike_kill_hlyjck_dark	(Optional)" "Kill"
+"mission_text_xyy_roguelike_kill_hlyjcm_dark	(Optional)" "Kill"
+"mission_text_xyy_roguelike_kill_hlyjcn_dark	(Optional)" "Kill"
+"mission_text_xyy_roguelike_kill_hlyjcy_dark	(Optional)" "Kill"
+"mission_text_xyy_roguelike_kill_hlyjda_dark	(Optional)" "Kill"
+"mission_text_xyy_roguelike_kill_hlyjdi_dark	(Optional)" "Kill"
+"mission_text_xyy_roguelike_kill_hlyjdf_dark	(Optional)" "Kill"
+"map_pins_localised_title_hlyjci_dark	The" "Fallen"
+"map_pins_localised_description_hlyjci_dark	Mission" "Objective	false"
+"map_pins_localised_title_hlyjcj_dark	The" "Fallen"
+"map_pins_localised_description_hlyjcj_dark	Mission" "Objective	false"
+"map_pins_localised_title_hlyjck_dark	The" "Fallen"
+"map_pins_localised_description_hlyjck_dark	Mission" "Objective	false"
+"map_pins_localised_title_hlyjcm_dark	The" "Fallen"
+"map_pins_localised_description_hlyjcm_dark	Mission" "Objective	false"
+"map_pins_localised_title_hlyjcn_dark	The" "Fallen"
+"map_pins_localised_description_hlyjcn_dark	Mission" "Objective	false"
+"map_pins_localised_title_hlyjcy_dark	The" "Fallen"
+"map_pins_localised_description_hlyjcy_dark	Mission" "Objective	false"
+"map_pins_localised_title_hlyjda_dark	The" "Fallen"
+"map_pins_localised_description_hlyjda_dark	Mission" "Objective	false"
+"map_pins_localised_title_hlyjdi_dark	The" "Fallen"
+"map_pins_localised_description_hlyjdi_dark	Mission" "Objective	false"
+"map_pins_localised_title_hlyjdf_dark	The" "Fallen"
+"map_pins_localised_description_hlyjdf_dark	Mission" "Objective	false"
+"missions_localised_title_xyy_roguelike_kill_hlyjdt_dark	Hegemony:" "Defeat"
+"missions_localised_description_xyy_roguelike_kill_hlyjdt_dark	Fallen" "Shenhe"
+"campaign_payload_ui_details_description_kill_hlyjdt_dark	Character" "killed:"
+"mission_text_xyy_roguelike_kill_hlyjdt_dark	(Optional)" "Kill"
+"map_pins_localised_title_hlyjdt_dark	The" "Fallen"
+"map_pins_localised_description_hlyjdt_dark	Mission" "Objective	false"
+"effect_bundles_localised_title_xyy_roguelike_55	Treacherous	false" ""
+"effect_bundles_localised_description_xyy_roguelike_55	All" "generals"
+"mod_info_xyy_roguelike_55	All" "generals"
+"effect_bundles_localised_title_xyy_roguelike_56	Blade" "I	false"
+"effect_bundles_localised_description_xyy_roguelike_56	The" "forces'"
+"mod_info_xyy_roguelike_56	[[b]]+10%[[/b]]" "Melee/Ranged"
+"effect_bundles_localised_title_xyy_roguelike_57	Blade" "II	false"
+"effect_bundles_localised_description_xyy_roguelike_57	The" "force's"
+"mod_info_xyy_roguelike_57	[[b]]+20%[[/b]]" "Melee/Ranged"
+"effect_bundles_localised_title_xyy_roguelike_58	Blade" "III	false"
+"effect_bundles_localised_description_xyy_roguelike_58	The" "force's"
+"mod_info_xyy_roguelike_58	[[b]]+40%[[/b]]" "Melee/Ranged"
+"effect_bundles_localised_title_xyy_roguelike_59	Training" "I	false"
+"effect_bundles_localised_description_xyy_roguelike_59	The" "forces'"
+"mod_info_xyy_roguelike_59	[[b]]+5%[[/b]]" "Melee"
+"effect_bundles_localised_title_xyy_roguelike_60	Training" "II	false"
+"effect_bundles_localised_description_xyy_roguelike_60	The" "forces'"
+"mod_info_xyy_roguelike_60	[[b]]+10%[[/b]]" "Melee"
+"effect_bundles_localised_title_xyy_roguelike_61	Training" "III	false"
+"effect_bundles_localised_description_xyy_roguelike_61	The" "forces'"
+"mod_info_xyy_roguelike_61	[[b]]+20%[[/b]]" "Melee"
+"effect_bundles_localised_title_xyy_roguelike_62	Burning	false" ""
+"effect_bundles_localised_description_xyy_roguelike_62	All" "units"
+"mod_info_xyy_roguelike_62	All" "units"
+"effect_bundles_localised_title_xyy_roguelike_63	Enlist" "I	false"
+"effect_bundles_localised_description_xyy_roguelike_63	All" "forces"
+"mod_info_xyy_roguelike_63	" "[[b]]+5%[[/b]]"
+"effect_bundles_localised_title_xyy_roguelike_64	Enlist" "II	false"
+"effect_bundles_localised_description_xyy_roguelike_64	All" "forces"
+"mod_info_xyy_roguelike_64	" "[[b]]+10%[[/b]]"
+"effect_bundles_localised_title_xyy_roguelike_65	Enlist" "III	false"
+"effect_bundles_localised_description_xyy_roguelike_65	All" "forces"
+"mod_info_xyy_roguelike_65	" "[[b]]+20%[[/b]]"
+"effect_bundles_localised_title_xyy_roguelike_66	Satisfactory	false" ""
+"effect_bundles_localised_description_xyy_roguelike_66	Increased" "satisfaction"
+"mod_info_xyy_roguelike_66	When" "a"
+"effect_bundles_localised_title_xyy_roguelike_sima_yi	Wolf" "Vision	false"
+"effect_bundles_localised_description_xyy_roguelike_sima_yi	Sima" "Yi"
+"mod_info_xyy_roguelike_sima_yi	Sima" "Yi"
+"effect_bundles_localised_title_xyy_roguelike_67	Ignoring" "Traps	false"
+"effect_bundles_localised_description_xyy_roguelike_67	An" "ambush"
+"mod_info_xyy_roguelike_67	In" "the"
+"missions_localised_title_xyy_roguelike_kill_hlyjdy_dark	Hegemony:" "Defeat"
+"missions_localised_description_xyy_roguelike_kill_hlyjdy_dark	Fallen" "Carlotta"
+"campaign_payload_ui_details_description_kill_hlyjdy_dark	Character" "killed:"
+"mission_text_xyy_roguelike_kill_hlyjdy_dark	(Optional)" "Kill"
+"map_pins_localised_title_hlyjdy_dark	The" "Fallen"
+"map_pins_localised_description_hlyjdy_dark	Mission" "Objective	false"
+"mod_store_disble_reason_the_seven_kings_dead	[[col:effect_icon_supplement_negative]][[b]]This" "item"
+"mod_store_disble_reason_already_have_character	[[col:effect_icon_supplement_negative]][[b]]This" "item"
+"mod_store_disble_reason_character_dead	[[col:effect_icon_supplement_negative]][[b]]This" "item"
+"effect_bundles_localised_title_xyy_roguelike_enemy_earth	“Destiny”	false" ""
+"effect_bundles_localised_description_xyy_roguelike_enemy_earth	The" "enemy"
+"mod_info_xyy_roguelike_enemy_earth	非玩家派系腐败减少，公共秩序增加；战场上表现为不溃和远程抗性，但抵抗冲锋能力大幅削弱。\\n\\n•" "对远程单位和依赖远程攻击和技能的武将会很不友好\\n\\n•"
+"effect_bundles_localised_title_xyy_roguelike_enemy_wood	“Courage”	false" ""
+"effect_bundles_localised_description_xyy_roguelike_enemy_wood	The" "enemy"
+"mod_info_xyy_roguelike_enemy_wood	非玩家派系军队补给增加，支援范围增加；战场上表现为更高的武将格斗能力，但士兵能力大幅削弱。\\n\\n•" "敌方武将会增强自身与周围士兵的作战能力\\n\\n•"
+"effect_bundles_localised_title_xyy_roguelike_enemy_metal	“Entrench”	false" ""
+"effect_bundles_localised_description_xyy_roguelike_enemy_metal	The" "enemy"
+"mod_info_xyy_roguelike_enemy_metal	非玩家派系军队补员增加，防守时不溃；战场上表现为更高的防御水平，但进攻能力大幅削弱。\\n\\n•" "敌方士兵惧怕武将\\n\\n•"
+"effect_bundles_localised_title_xyy_roguelike_enemy_fire	“Breakout”	false" ""
+"effect_bundles_localised_description_xyy_roguelike_enemy_fire	Enemies" "have"
+"mod_info_xyy_roguelike_enemy_fire	非玩家派系移动范围增加，进攻时不溃；战场上表现为更高的移速，破甲和冲锋加成，但防御能力大幅削弱。\\n\\n•" "对近战、护盾、防护类型的武将会很不友好\\n\\n•"
+"effect_bundles_localised_title_xyy_roguelike_enemy_water	“Strategy”	false" ""
+"effect_bundles_localised_description_xyy_roguelike_enemy_water	The" "enemy"
+"mod_info_xyy_roguelike_enemy_water	非玩家派系武将解锁多种技能，更高的伏击成功率；战场上表现为技能冷却时间减少，但作战能力大幅削弱。\\n\\n•" "敌方武将会掌握大量技能\\n\\n•"
+"mod_xyy_character_roguelike_select_enemy_effect	[[col:flavour]]Choose" "a"
+"missions_localised_title_xyy_roguelike_kill_hlyjeb_dark	Hegemony:" "Defeat"
+"missions_localised_description_xyy_roguelike_kill_hlyjeb_dark	Fallen" "Cantarella"
+"campaign_payload_ui_details_description_kill_hlyjeb_dark	Character" "killed:"
+"mission_text_xyy_roguelike_kill_hlyjeb_dark	(Optional)" "Kill"
+"mod_title_xyy_roguelike_enemy_earth	""Destiny""	false" ""
+"mod_title_xyy_roguelike_enemy_wood	“Courage”	false" ""
+"mod_title_xyy_roguelike_enemy_metal	“Entrench”	false" ""
+"mod_title_xyy_roguelike_enemy_fire	“Breakout”	false" ""
+"mod_title_xyy_roguelike_enemy_water	“Strategy”	false" ""
+"mod_info_xyy_roguelike_54" ""
+"mission_text_xyy_roguelike_kill_hlyjcm_dark" ""
+"effect_bundles_localised_description_xyy_roguelike_17" ""
+"campaign_payload_ui_details_description_kill_hlyjdt_dark" ""
+"mod_info_xyy_roguelike_38" ""
+"incidents_localised_description_xyy_roguelike_enemy_earth_6" ""
+"mod_info_xyy_roguelike_craft_accessories_1" ""
+"mod_info_xyy_roguelike_max_4" ""
+"mod_info_xyy_roguelike_max_1" ""
+"mission_text_xyy_roguelike_kill_hlyjda_dark" ""
+"map_pins_localised_title_hlyjci_dark" ""
+"map_pins_localised_description_hlyjdf_dark" ""
+"missions_localised_description_xyy_roguelike_kill_hlyjda_dark" ""
+"map_pins_localised_description_hlyjda_dark" ""
+"map_pins_localised_description_hlyjck_dark" ""
+"mission_text_xyy_roguelike_kill_hlyjdi_dark" ""
+"mod_info_xyy_roguelike_10" ""
+"mod_info_xyy_roguelike_31" ""
+"effect_bundles_localised_title_xyy_roguelike_32" ""
+"effect_bundles_localised_description_xyy_roguelike_19" ""
+"mod_xyy_roguelike_description_fire" ""
+"effect_bundles_localised_title_xyy_roguelike_enemy_wood" ""
+"effect_bundles_localised_description_xyy_roguelike_14" ""
+"incidents_localised_description_xyy_roguelike_enemy_fire_3" ""
+"mod_info_xyy_roguelike_max_character_1" ""
+"map_pins_localised_title_hlyjcj_dark" ""
+"effect_bundles_localised_title_xyy_roguelike_40" ""
+"incidents_localised_description_xyy_roguelike_enemy_water_2" ""
+"mod_info_xyy_roguelike_14" ""
+"mod_info_xyy_roguelike_53" ""
+"effect_bundles_localised_title_xyy_roguelike_max_character_browser_4" ""
+"mod_info_xyy_roguelike_the_seven_kings" ""
+"mod_info_xyy_roguelike_max_characte_browserr_1" ""
+"mod_info_xyy_roguelike_enemy_earth" ""
+"mod_info_xyy_roguelike_52" ""
+"mod_store_disble_reason_already_have_character" ""
+"effect_bundles_localised_title_xyy_roguelike_60" ""
+"effect_bundles_localised_description_xyy_roguelike_10" ""
+"effect_bundles_localised_description_xyy_roguelike_38" ""
+"missions_localised_description_xyy_roguelike_kill_hlyjeb_dark" ""
+"effect_bundles_localised_description_xyy_roguelike_craft_accessories_1" ""
+"incidents_localised_description_xyy_roguelike_enemy_metal_5" ""
+"mod_info_xyy_roguelike_44" ""
+"mod_info_xyy_roguelike_craft_accessories" ""
+"effect_bundles_localised_title_xyy_roguelike_57" ""
+"effect_bundles_localised_title_xyy_roguelike_craft_mounts_1" ""
+"effect_bundles_localised_title_xyy_roguelike_21" ""
+"effect_bundles_localised_description_xyy_roguelike_craft_armors_1" ""
+"incidents_localised_description_roguelike_info_ticket" ""
+"mod_xyy_roguelike_description_water" ""
+"mod_xyy_roguelike_icon_earth" ""
+"dilemmas_localised_title_roguelike_dilemma" ""
+"uied_component_texts_localised_string_title_NewState_Text_2000006" ""
+"effect_bundles_localised_title_xyy_roguelike_2" ""
+"effect_bundles_localised_title_xyy_roguelike_9" ""
+"effect_bundles_localised_title_xyy_roguelike_12" ""
+"effect_bundles_localised_description_xyy_roguelike_13" ""
+"effect_bundles_localised_title_xyy_roguelike_16" ""
+"effect_bundles_localised_description_xyy_roguelike_27" ""
+"effect_bundles_localised_title_xyy_roguelike_35" ""
+"mod_info_xyy_roguelike_34" ""
+"effect_bundles_localised_title_xyy_roguelike_38" ""
+"effect_bundles_localised_description_xyy_roguelike_41" ""
+"effect_bundles_localised_title_xyy_roguelike_48" ""
+"effect_bundles_localised_title_xyy_roguelike_49" ""
+"effect_bundles_localised_title_xyy_roguelike_max_1" ""
+"effect_bundles_localised_description_xyy_roguelike_max_4" ""
+"effect_bundles_localised_title_xyy_roguelike_max_character_1" ""
+"missions_localised_title_xyy_roguelike_mission_xyyhlyjf" ""
+"incidents_localised_title_xyy_roguelike_enemy_earth_2" ""
+"incidents_localised_title_xyy_roguelike_enemy_earth_3" ""
+"incidents_localised_title_xyy_roguelike_enemy_earth_4" ""
+"incidents_localised_title_xyy_roguelike_enemy_wood_1" ""
+"incidents_localised_title_xyy_roguelike_enemy_wood_2" ""
+"incidents_localised_title_xyy_roguelike_enemy_wood_4" ""
+"incidents_localised_title_xyy_roguelike_enemy_metal_4" ""
+"incidents_localised_title_xyy_roguelike_enemy_metal_5" ""
+"incidents_localised_title_xyy_roguelike_enemy_water_2" ""
+"incidents_localised_title_xyy_roguelike_enemy_water_5" ""
+"effect_bundles_localised_title_xyy_roguelike_craft_armors" ""
+"effect_bundles_localised_title_xyy_roguelike_craft_accessories" ""
+"effect_bundles_localised_title_xyy_roguelike_craft_accessories_1" ""
+"mod_xyy_roguelike_icon_no_building" ""
+"campaign_payload_ui_details_description_kill_hlyjci_dark" ""
+"campaign_payload_ui_details_description_kill_hlyjcm_dark" ""
+"campaign_payload_ui_details_description_kill_hlyjdi_dark" ""
+"effect_bundles_localised_title_dark_character_normal" ""
+"mission_text_xyy_roguelike_kill_hlyjcj_dark" ""
+"mission_text_xyy_roguelike_kill_hlyjcy_dark" ""
+"map_pins_localised_description_hlyjdi_dark" ""
+"effect_bundles_localised_title_xyy_roguelike_56" ""
+"effect_bundles_localised_title_xyy_roguelike_enemy_water" ""
+"mod_xyy_character_roguelike_select_enemy_effect" ""
+"mission_text_xyy_roguelike_kill_hlyjeb_dark" ""
+"mod_title_xyy_roguelike_enemy_earth" ""
+"mod_xyy_roguelike_icon_fire" ""
+"mod_xyy_roguelike_icon_metal" ""
+"uied_component_texts_localised_string_title_NewState_Text_2000005" ""
+"effect_bundles_localised_title_xyy_roguelike_6" ""
+"effect_bundles_localised_description_xyy_roguelike_7" ""
+"effect_bundles_localised_title_xyy_roguelike_19" ""
+"effect_bundles_localised_title_xyy_roguelike_31" ""
+"mod_info_xyy_roguelike_32" ""
+"effect_bundles_localised_description_xyy_roguelike_40" ""
+"effect_bundles_localised_title_xyy_roguelike_47" ""
+"mod_info_xyy_roguelike_49" ""
+"mod_info_xyy_roguelike_50" ""
+"effect_bundles_localised_title_xyy_roguelike_max_4" ""
+"effect_bundles_localised_description_xyy_roguelike_max_character_1" ""
+"missions_localised_title_xyy_roguelike_mission_easy" ""
+"effect_bundles_localised_description_xyy_roguelike_32" ""
+"mission_text_xyy_roguelike_kill_hlyjcn_dark" ""
+"missions_localised_title_xyy_roguelike_mission_boss_3" ""
+"effect_bundles_localised_title_xyy_roguelike_1" ""
+"effect_bundles_localised_title_xyy_roguelike_27" ""
+"effect_bundles_localised_title_xyy_roguelike_64" ""
+"mod_info_xyy_roguelike_6" ""
+"effect_bundles_localised_description_xyy_roguelike_31" ""
+"mod_info_xyy_roguelike_35" ""
+"mod_info_xyy_roguelike_64" ""
+"effect_bundles_localised_title_xyy_roguelike_13" ""
+"cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemmaFIRST" ""
+"effect_bundles_localised_title_xyy_roguelike_45" ""
+"map_pins_localised_title_hlyjcn_dark" ""
+"effect_bundles_localised_title_xyy_roguelike_enemy_earth" ""
+"effect_bundles_localised_description_xyy_roguelike_max_character_browser_3" ""
+"cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemmaSECOND" ""
+"mod_info_xyy_roguelike_65" ""
+"mod_info_xyy_roguelike_21" ""
+"effect_bundles_localised_description_xyy_roguelike_2" ""
+"missions_localised_description_xyy_roguelike_mission_boss_2" ""
+"incidents_localised_title_xyy_roguelike_enemy_water_6" ""
+"effect_bundles_localised_description_xyy_roguelike_55" ""
+"effect_bundles_localised_description_xyy_roguelike_53" ""
+"effect_bundles_localised_title_xyy_roguelike_14" ""
+"mod_info_xyy_roguelike_45" ""
+"mod_info_xyy_roguelike_15" ""
+"missions_localised_description_xyy_roguelike_mission_normal" ""
+"mod_info_xyy_roguelike_62" ""
+"effect_bundles_localised_description_xyy_roguelike_43" ""
+"effect_bundles_localised_title_xyy_roguelike_62" ""
+"mod_info_xyy_roguelike_7" ""
+"effect_bundles_localised_description_xyy_roguelike_54" ""
+"effect_bundles_localised_description_xyy_roguelike_redraw_1" ""
+"effect_bundles_localised_title_xyy_roguelike_30" ""
+"effect_bundles_localised_description_xyy_roguelike_3" ""
+"effect_bundles_localised_title_xyy_roguelike_3" ""
+"effect_bundles_localised_title_xyy_roguelike_20" ""
+"effect_bundles_localised_title_xyy_roguelike_43" ""
+"mod_info_xyy_roguelike_43" ""
+"mod_info_xyy_roguelike_41" ""
+"campaign_payload_ui_details_description_xyy_roguelike_mission_normal" ""
+"missions_localised_title_xyy_roguelike_mission_hard" ""
+"incidents_localised_title_xyy_roguelike_enemy_earth_6" ""
+"effect_bundles_localised_description_xyy_roguelike_craft_armors" ""
+"campaign_payload_ui_details_description_kill_hlyjck_dark" ""
+"missions_localised_title_xyy_roguelike_kill_hlyjcm_dark" ""
+"missions_localised_title_xyy_roguelike_kill_hlyjcy_dark" ""
+"campaign_payload_ui_details_description_kill_hlyjcy_dark" ""
+"missions_localised_title_xyy_roguelike_kill_hlyjdi_dark" ""
+"effect_bundles_localised_title_dark_character_hard" ""
+"effect_bundles_localised_title_dark_character_easy" ""
+"effect_bundles_localised_description_xyy_roguelike_67" ""
+"mod_info_xyy_roguelike_67" ""
+"effect_bundles_localised_title_xyy_roguelike_67" ""
+"effect_bundles_localised_title_xyy_roguelike_enemy_fire" ""
+"missions_localised_title_xyy_roguelike_kill_hlyjeb_dark" ""
+"mod_info_xyy_roguelike_61" ""
+"incidents_localised_title_xyy_roguelike_enemy_fire_5" ""
+"mod_info_xyy_roguelike_3" ""
+"incidents_localised_title_xyy_roguelike_enemy_fire_4" ""
+"effect_bundles_localised_title_xyy_roguelike_max_character_browser_1" ""
+"effect_bundles_localised_title_xyy_roguelike_max_character_browser_2" ""
+"mission_text_text_treaty_components_war" ""
+"mod_info_xyy_roguelike_37" ""
+"map_pins_localised_description_hlyjcn_dark" ""
+"effect_bundles_localised_title_xyy_roguelike_25" ""
+"effect_bundles_localised_title_xyy_roguelike_29" ""
+"mod_xyy_roguelike_confirm_wait" ""
+"mod_info_xyy_roguelike_28" ""
+"effect_bundles_localised_title_xyy_roguelike_44" ""
+"effect_bundles_localised_title_xyy_roguelike_58" ""
+"mod_xyy_roguelike_confirm" ""
+"incidents_localised_description_xyy_roguelike_enemy_earth_4" ""
+"incidents_localised_title_xyy_roguelike_enemy_water_3" ""
+"mod_info_xyy_roguelike_60" ""
+"incidents_localised_title_xyy_roguelike_enemy_metal_1" ""
+"mod_xyy_roguelike_icon_water" ""
+"mod_xyy_roguelike_description_wood" ""
+"mod_xyy_roguelike_icon_wood" ""
+"dilemmas_localised_description_roguelike_dilemma" ""
+"dilemmas_localised_description_roguelike_dilemma_continue" ""
+"effect_bundles_localised_description_xyy_roguelike_1" ""
+"effect_bundles_localised_title_xyy_roguelike_8" ""
+"effect_bundles_localised_description_xyy_roguelike_9" ""
+"mod_info_xyy_roguelike_9" ""
+"effect_bundles_localised_title_xyy_roguelike_18" ""
+"mod_info_xyy_roguelike_25" ""
+"effect_bundles_localised_description_xyy_roguelike_26" ""
+"mod_info_xyy_roguelike_29" ""
+"effect_bundles_localised_title_xyy_roguelike_28" ""
+"mod_info_xyy_roguelike_27" ""
+"effect_bundles_localised_title_xyy_roguelike_36" ""
+"effect_bundles_localised_description_xyy_roguelike_35" ""
+"effect_bundles_localised_title_xyy_roguelike_37" ""
+"effect_bundles_localised_description_xyy_roguelike_36" ""
+"effect_bundles_localised_description_xyy_roguelike_47" ""
+"effect_bundles_localised_description_xyy_roguelike_48" ""
+"effect_bundles_localised_description_xyy_roguelike_51" ""
+"mod_info_xyy_roguelike_max_2" ""
+"effect_bundles_localised_description_xyy_roguelike_max_2" ""
+"missions_localised_description_xyy_roguelike_mission_easy" ""
+"missions_localised_description_xyy_roguelike_mission_hard" ""
+"missions_localised_description_xyy_roguelike_mission_xyyhlyjf" ""
+"mod_xyy_character_roguelike_select" ""
+"mod_xyy_character_roguelike_select_first" ""
+"effect_bundles_localised_description_xyy_roguelike_max_character_browser_4" ""
+"mod_info_xyy_roguelike_58" ""
+"effect_bundles_localised_description_xyy_roguelike_21" ""
+"dilemmas_localised_title_roguelike_dilemma_continue" ""
+"mod_info_xyy_roguelike_16" ""
+"mod_info_xyy_roguelike_18" ""
+"effect_bundles_localised_description_xyy_roguelike_max_3" ""
+"incidents_localised_title_roguelike_info_ticket" ""
+"effect_bundles_localised_description_xyy_roguelike_craft_weapons_1" ""
+"effect_bundles_localised_description_xyy_roguelike_56" ""
+"mod_info_xyy_roguelike_17" ""
+"campaign_payload_ui_details_description_kill_hlyjda_dark" ""
+"effect_bundles_localised_description_xyy_roguelike_8" ""
+"mod_info_xyy_roguelike_craft_mounts" ""
+"incidents_localised_description_xyy_roguelike_enemy_water_3" ""
+"missions_localised_description_xyy_roguelike_kill_hlyjcy_dark" ""
+"mod_info_xyy_roguelike_8" ""
+"incidents_localised_title_xyy_roguelike_enemy_earth_1" ""
+"incidents_localised_description_xyy_roguelike_enemy_earth_1" ""
+"incidents_localised_description_xyy_roguelike_enemy_earth_2" ""
+"incidents_localised_description_xyy_roguelike_enemy_earth_3" ""
+"incidents_localised_description_xyy_roguelike_enemy_wood_2" ""
+"incidents_localised_title_xyy_roguelike_enemy_wood_3" ""
+"incidents_localised_description_xyy_roguelike_enemy_wood_3" ""
+"incidents_localised_description_xyy_roguelike_enemy_wood_4" ""
+"incidents_localised_title_xyy_roguelike_enemy_wood_6" ""
+"incidents_localised_title_xyy_roguelike_enemy_fire_3" ""
+"incidents_localised_description_xyy_roguelike_enemy_fire_2" ""
+"incidents_localised_title_xyy_roguelike_enemy_fire_6" ""
+"incidents_localised_description_xyy_roguelike_enemy_fire_4" ""
+"incidents_localised_title_xyy_roguelike_enemy_water_4" ""
+"effect_bundles_localised_title_xyy_roguelike_craft_weapons_1" ""
+"effect_bundles_localised_description_xyy_roguelike_craft_mounts_1" ""
+"mod_info_xyy_roguelike_craft_mounts_1" ""
+"missions_localised_description_xyy_roguelike_kill_hlyjcj_dark" ""
+"missions_localised_description_xyy_roguelike_kill_hlyjcm_dark" ""
+"mission_text_xyy_roguelike_kill_hlyjdt_dark" ""
+"map_pins_localised_title_hlyjdt_dark" ""
+"map_pins_localised_description_hlyjdt_dark" ""
+"effect_bundles_localised_description_xyy_roguelike_61" ""
+"effect_bundles_localised_title_xyy_roguelike_66" ""
+"mod_info_xyy_roguelike_sima_yi" ""
+"missions_localised_title_xyy_roguelike_kill_hlyjdy_dark" ""
+"mission_text_xyy_roguelike_kill_hlyjdy_dark" ""
+"missions_localised_description_xyy_roguelike_kill_hlyjdy_dark" ""
+"mod_store_disble_reason_the_seven_kings_dead" ""
+"mod_info_xyy_roguelike_enemy_wood" ""
+"mod_info_xyy_roguelike_enemy_metal" ""
+"mod_info_xyy_roguelike_enemy_fire" ""
+"mod_info_xyy_roguelike_enemy_water" ""
+"mod_title_xyy_roguelike_enemy_wood" ""
+"cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemma_continueFIRST" ""
+"effect_bundles_localised_description_xyy_roguelike_max_1" ""
+"mod_info_xyy_roguelike_13" ""
+"effect_bundles_localised_description_xyy_roguelike_23" ""
+"effect_bundles_localised_title_xyy_roguelike_max_2" ""
+"effect_bundles_localised_title_xyy_roguelike_50" ""
+"mod_info_xyy_roguelike_63" ""
+"mission_text_xyy_roguelike_kill_hlyjci_dark" ""
+"mod_title_xyy_roguelike_enemy_water" ""
+"effect_bundles_localised_title_xyy_roguelike_redraw_1" ""
+"mission_text_xyy_roguelike_kill_hlyjdf_dark" ""
+"incidents_localised_description_xyy_roguelike_enemy_fire_1" ""
+"mod_info_xyy_roguelike_48" ""
+"map_pins_localised_title_hlyjcm_dark" ""
+"effect_bundles_localised_description_xyy_roguelike_craft_accessories" ""
+"effect_bundles_localised_description_xyy_roguelike_34" ""
+"effect_bundles_localised_description_xyy_roguelike_the_seven_kings" ""
+"effect_bundles_localised_title_xyy_roguelike_26" ""
+"missions_localised_description_xyy_roguelike_mission_ready" ""
+"mod_info_xyy_roguelike_craft_armors" ""
+"mod_info_xyy_roguelike_30" ""
+"mod_info_xyy_roguelike_2" ""
+"missions_localised_description_xyy_roguelike_kill_hlyjck_dark" ""
+"mod_info_xyy_roguelike_max_3" ""
+"effect_bundles_localised_title_xyy_roguelike_46" ""
+"mod_info_xyy_roguelike_47" ""
+"effect_bundles_localised_description_xyy_roguelike_46" ""
+"missions_localised_title_xyy_roguelike_kill_hlyjci_dark" ""
+"effect_bundles_localised_title_xyy_roguelike_craft_armors_1" ""
+"mod_info_xyy_roguelike_craft_weapons_1" ""
+"effect_bundles_localised_description_xyy_roguelike_59" ""
+"effect_bundles_localised_title_xyy_roguelike_22" ""
+"mod_info_xyy_roguelike_24" ""
+"effect_bundles_localised_description_xyy_roguelike_25" ""
+"mod_info_xyy_roguelike_23" ""
+"effect_bundles_localised_description_xyy_roguelike_24" ""
+"effect_bundles_localised_description_xyy_roguelike_30" ""
+"effect_bundles_localised_title_xyy_roguelike_max_3" ""
+"missions_localised_title_xyy_roguelike_mission_normal" ""
+"missions_localised_description_xyy_roguelike_mission_boss_3" ""
+"missions_localised_title_xyy_roguelike_mission_boss" ""
+"incidents_localised_description_xyy_roguelike_enemy_wood_1" ""
+"incidents_localised_description_xyy_roguelike_enemy_metal_4" ""
+"incidents_localised_description_xyy_roguelike_enemy_water_6" ""
+"incidents_localised_description_xyy_roguelike_enemy_water_5" ""
+"effect_bundles_localised_title_xyy_roguelike_53" ""
+"mod_xyy_roguelike_icon_stopped" ""
+"missions_localised_description_xyy_roguelike_kill_hlyjdi_dark" ""
+"map_pins_localised_title_hlyjdf_dark" ""
+"effect_bundles_localised_description_xyy_roguelike_63" ""
+"effect_bundles_localised_title_xyy_roguelike_63" ""
+"effect_bundles_localised_description_xyy_roguelike_64" ""
+"effect_bundles_localised_description_xyy_roguelike_sima_yi" ""
+"mod_title_xyy_roguelike_enemy_fire" ""
+"mod_info_xyy_roguelike_max_character_browser_4" ""
+"mission_text_xyy_roguelike_kill_hlyjck_dark" ""
+"mod_xyy_roguelike_description_earth" ""
+"effect_bundles_localised_description_xyy_roguelike_16" ""
+"mod_info_xyy_roguelike_57" ""
+"map_pins_localised_description_hlyjcm_dark" ""
+"effect_bundles_localised_description_xyy_roguelike_enemy_metal" ""
+"missions_localised_description_xyy_roguelike_kill_hlyjdt_dark" ""
+"incidents_localised_description_xyy_roguelike_enemy_fire_5" ""
+"map_pins_localised_description_hlyjcy_dark" ""
+"mod_info_xyy_roguelike_59" ""
+"incidents_localised_description_xyy_roguelike_enemy_metal_3" ""
+"incidents_localised_description_xyy_roguelike_enemy_metal_6" ""
+"incidents_localised_description_xyy_roguelike_enemy_water_1" ""
+"incidents_localised_description_xyy_roguelike_enemy_wood_6" ""
+"mod_info_xyy_roguelike_55" ""
+"map_pins_localised_description_hlyjcj_dark" ""
+"campaign_payload_ui_details_description_xyy_roguelike_mission_easy" ""
+"incidents_localised_description_xyy_roguelike_enemy_metal_1" ""
+"effect_bundles_localised_description_xyy_roguelike_max_character_browser_2" ""
+"dilemmas_localised_description_roguelike_dilemma_first_select" ""
+"effect_bundles_localised_description_xyy_roguelike_18" ""
+"effect_bundles_localised_description_xyy_roguelike_craft_mounts" ""
+"effect_bundles_localised_description_xyy_roguelike_37" ""
+"effect_bundles_localised_description_xyy_roguelike_66" ""
+"missions_localised_description_xyy_roguelike_kill_hlyjcn_dark" ""
+"effect_bundles_localised_description_xyy_roguelike_62" ""
+"incidents_localised_description_xyy_roguelike_enemy_fire_6" ""
+"effect_bundles_localised_description_xyy_roguelike_44" ""
+"effect_bundles_localised_description_xyy_roguelike_45" ""
+"effect_bundles_localised_title_xyy_roguelike_the_seven_kings" ""
+"effect_bundles_localised_description_xyy_roguelike_57" ""
+"missions_localised_description_xyy_roguelike_kill_hlyjdf_dark" ""
+"mod_info_xyy_roguelike_max_character_browser_3" ""
+"missions_localised_description_xyy_roguelike_kill_hlyjci_dark" ""
+"effect_bundles_localised_title_xyy_roguelike_10" ""
+"mod_info_xyy_roguelike_40" ""
+"map_pins_localised_title_hlyjdi_dark" ""
+"incidents_localised_title_xyy_roguelike_enemy_earth_5" ""
+"incidents_localised_title_xyy_roguelike_enemy_metal_2" ""
+"incidents_localised_title_xyy_roguelike_enemy_metal_3" ""
+"incidents_localised_title_xyy_roguelike_enemy_fire_1" ""
+"incidents_localised_title_xyy_roguelike_enemy_fire_2" ""
+"effect_bundles_localised_title_xyy_roguelike_craft_weapons" ""
+"effect_bundles_localised_title_xyy_roguelike_craft_mounts" ""
+"mod_xyy_store_main_message_craft" ""
+"campaign_payload_ui_details_description_kill_hlyjcj_dark" ""
+"missions_localised_title_xyy_roguelike_kill_hlyjda_dark" ""
+"missions_localised_title_xyy_roguelike_kill_hlyjdf_dark" ""
+"effect_bundles_localised_title_xyy_roguelike_55" ""
+"effect_bundles_localised_title_xyy_roguelike_61" ""
+"effect_bundles_localised_title_xyy_roguelike_sima_yi" ""
+"mod_store_disble_reason_character_dead" ""
+"effect_bundles_localised_title_xyy_roguelike_enemy_metal" ""
+"effect_bundles_localised_description_xyy_roguelike_enemy_water" ""
+"campaign_payload_ui_details_description_kill_hlyjeb_dark" ""
+"mod_title_xyy_roguelike_enemy_metal" ""
+"effect_bundles_localised_description_xyy_roguelike_5" ""
+"mod_info_xyy_roguelike_5" ""
+"effect_bundles_localised_description_xyy_roguelike_11" ""
+"effect_bundles_localised_title_xyy_roguelike_11" ""
+"mod_info_xyy_roguelike_22" ""
+"effect_bundles_localised_title_xyy_roguelike_23" ""
+"mod_info_xyy_roguelike_33" ""
+"effect_bundles_localised_title_xyy_roguelike_34" ""
+"effect_bundles_localised_title_xyy_roguelike_39" ""
+"effect_bundles_localised_description_xyy_roguelike_49" ""
+"effect_bundles_localised_title_xyy_roguelike_51" ""
+"dilemmas_localised_title_roguelike_dilemma_first_select" ""
+"incidents_localised_title_xyy_roguelike_enemy_water_1" ""
+"incidents_localised_description_xyy_roguelike_enemy_water_4" ""
+"effect_bundles_localised_title_xyy_roguelike_54" ""
+"effect_bundles_localised_description_xyy_roguelike_craft_weapons" ""
+"mod_info_xyy_roguelike_craft_weapons" ""
+"missions_localised_title_xyy_roguelike_kill_hlyjcj_dark" ""
+"missions_localised_title_xyy_roguelike_kill_hlyjck_dark" ""
+"missions_localised_title_xyy_roguelike_kill_hlyjcn_dark" ""
+"campaign_payload_ui_details_description_kill_hlyjcn_dark" ""
+"map_pins_localised_title_hlyjck_dark" ""
+"missions_localised_title_xyy_roguelike_kill_hlyjdt_dark" ""
+"effect_bundles_localised_description_xyy_roguelike_enemy_fire" ""
+"cdir_events_dilemma_choice_details_localised_choice_label_roguelike_dilemma_first_selectFIRST" ""
+"effect_bundles_localised_title_xyy_roguelike_59" ""
+"effect_bundles_localised_title_xyy_roguelike_max_character_browser_3" ""
+"effect_bundles_localised_description_xyy_roguelike_52" ""
+"incidents_localised_title_xyy_roguelike_enemy_metal_6" ""
+"effect_bundles_localised_title_xyy_roguelike_52" ""
+"campaign_payload_ui_details_description_xyy_roguelike_mission_hard" ""
+"mod_info_xyy_roguelike_12" ""
+"mod_info_xyy_roguelike_46" ""
+"incidents_localised_title_xyy_roguelike_enemy_wood_5" ""
+"map_pins_localised_description_hlyjci_dark" ""
+"effect_bundles_localised_title_xyy_roguelike_42" ""
+"effect_bundles_localised_description_xyy_roguelike_33" ""
+"mod_info_xyy_roguelike_42" ""
+"map_pins_localised_description_hlyjdy_dark" ""
+"mod_info_xyy_roguelike_56" ""
+"mod_info_xyy_roguelike_1" ""
+"mod_info_xyy_roguelike_11" ""
+"effect_bundles_localised_title_xyy_roguelike_7" ""
+"effect_bundles_localised_title_xyy_roguelike_5" ""
+"effect_bundles_localised_description_xyy_roguelike_12" ""
+"mod_info_xyy_roguelike_51" ""
+"effect_bundles_localised_description_xyy_roguelike_65" ""
+"effect_bundles_localised_title_xyy_roguelike_4" ""
+"effect_bundles_localised_description_xyy_roguelike_4" ""
+"effect_bundles_localised_title_xyy_roguelike_41" ""
+"effect_bundles_localised_title_xyy_roguelike_24" ""
+"effect_bundles_localised_description_xyy_roguelike_50" ""
+"incidents_localised_description_xyy_roguelike_enemy_earth_5" ""
+"effect_bundles_localised_description_xyy_roguelike_58" ""
+"mod_info_xyy_roguelike_max_character_browser_2" ""
+"mod_info_xyy_roguelike_26" ""
+"mod_xyy_roguelike_info" ""
+"effect_bundles_localised_title_xyy_roguelike_15" ""
+"mod_info_xyy_roguelike_4" ""
+"mod_info_xyy_roguelike_19" ""
+"effect_bundles_localised_description_xyy_roguelike_28" ""
+"effect_bundles_localised_description_xyy_roguelike_22" ""
+"effect_bundles_localised_description_xyy_roguelike_60" ""
+"effect_bundles_localised_description_xyy_roguelike_enemy_earth" ""
+"campaign_diplomacy_treaty_availability_reasons_description_roguelike_mode" ""
+"missions_localised_description_xyy_roguelike_mission_boss" ""
+"effect_bundles_localised_description_xyy_roguelike_42" ""
+"map_pins_localised_title_hlyjda_dark" ""
+"map_pins_localised_title_hlyjcy_dark" ""
+"effect_bundles_localised_title_xyy_roguelike_65" ""
+"mod_info_xyy_roguelike_20" ""
+"effect_bundles_localised_title_xyy_roguelike_17" ""
+"effect_bundles_localised_description_xyy_roguelike_39" ""
+"mod_info_xyy_roguelike_39" ""
+"effect_bundles_localised_description_xyy_roguelike_15" ""
+"effect_bundles_localised_title_xyy_roguelike_33" ""
+"effect_bundles_localised_description_xyy_roguelike_20" ""
+"campaign_payload_ui_details_description_kill_hlyjdf_dark" ""
+"mod_info_xyy_roguelike_craft_armors_1" ""
+"effect_bundles_localised_description_xyy_roguelike_enemy_wood" ""
+"mod_info_xyy_roguelike_36" ""
+"effect_bundles_localised_description_xyy_roguelike_29" ""
+"missions_localised_title_xyy_roguelike_mission_boss_2" ""
+"effect_bundles_localised_description_xyy_roguelike_6" ""
+"mod_info_xyy_roguelike_redraw_1" ""
+"missions_localised_title_xyy_roguelike_mission_ready" ""
+"mod_xyy_roguelike_description_metal" ""
+"mod_info_xyy_roguelike_66" ""
+"campaign_payload_ui_details_description_kill_hlyjdy_dark" ""
+"campaign_payload_ui_details_description_xyy_roguelike_mission_xyyhlyjf" ""
+"incidents_localised_description_xyy_roguelike_enemy_wood_5" ""
+"incidents_localised_description_xyy_roguelike_enemy_metal_2" ""
+"effect_bundles_localised_description_xyy_roguelike_max_character_browser_1" ""
+"map_pins_localised_title_hlyjdy_dark" ""
+"key" ""
+"#Loc;1;text/!!!xyy_roguelike.loc" ""
