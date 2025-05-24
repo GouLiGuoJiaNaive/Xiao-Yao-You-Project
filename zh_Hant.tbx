@@ -1,10 +1,39 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE martif PUBLIC "ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN" "TBXcdv04.dtd">
-<martif type="TBX">
-<martifHeader>
-<fileDesc>
-<sourceDesc><p>Translate Toolkit</p></sourceDesc>
-</fileDesc>
-</martifHeader>
-<text><body></body></text>
+<martif type="TBX" xml:lang="zh_SIMPLIFIED">
+    <martifHeader>
+        <fileDesc>
+            <sourceDesc>
+                <p>Translate Toolkit</p>
+            </sourceDesc>
+        </fileDesc>
+    </martifHeader>
+    <text>
+        <body>
+            <termEntry>
+                <langSet xml:lang="zh_SIMPLIFIED"><tig><term>铁卫</term></tig></langSet>
+                <langSet xml:lang="zh_Hant"><tig><term>鐵衛</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="zh_SIMPLIFIED"><tig><term>指挥</term></tig></langSet>
+                <langSet xml:lang="zh_Hant"><tig><term>將帥</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="zh_SIMPLIFIED"><tig><term>军师</term></tig></langSet>
+                <langSet xml:lang="zh_Hant"><tig><term>軍師</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="zh_SIMPLIFIED"><tig><term>不溃</term></tig></langSet>
+                <langSet xml:lang="zh_Hant"><tig><term>堅不可摧</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="zh_SIMPLIFIED"><tig><term>战士</term></tig></langSet>
+                <langSet xml:lang="zh_Hant"><tig><term>鬥士</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="zh_SIMPLIFIED"><tig><term>先锋</term></tig></langSet>
+                <langSet xml:lang="zh_Hant"><tig><term>先鋒</term></tig></langSet>
+            </termEntry>
+        </body>
+    </text>
 </martif>
