@@ -5,7 +5,7 @@ Translation This Mod:
 Now available at [steamworkshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3396526995)
 
 MIT License
-
+==========================================
 Copyright (c) 2025 Beethoven
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
